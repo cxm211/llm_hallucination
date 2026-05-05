@@ -1,0 +1,12 @@
+==== 2026-03-27 03:19:51 :: Closure-108-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleAliasesInJSDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNestedPropertyInJSDoc
+---- exit code: 0 | Closure-108-buggy
+

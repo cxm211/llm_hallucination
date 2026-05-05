@@ -1,0 +1,24 @@
+==== 2026-04-22 09:13:55 :: Closure-58-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-58-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1108 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LiveVariableAnalysisTest::testSimpleVarInForIn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LiveVariableAnalysisTest::testSimpleVarInForIn
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-58-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1108 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 86 line rows.
+[PARSE] 86 base line rows.

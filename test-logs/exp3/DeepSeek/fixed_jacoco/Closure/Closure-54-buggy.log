@@ -1,0 +1,16 @@
+==== 2026-04-23 02:18:28 :: Closure-54-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537c
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+---- exit code: 0 | test_result: Not Pass | Closure-54-buggy
+

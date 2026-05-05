@@ -1,0 +1,9 @@
+==== 2026-04-21 20:00:44 :: Mockito-21-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.creation.instance.ConstructorInstantiatorTest::creates_instances_of_inner_classes_with_grandchild_outer_instance
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-21-fixed_ind1
+

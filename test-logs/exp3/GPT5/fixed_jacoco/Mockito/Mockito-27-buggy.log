@@ -1,0 +1,12 @@
+==== 2026-04-28 19:24:08 :: Mockito-27-buggy ====
+[RESTORE] restored target/eclipse-classes/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+[RESTORE] restored test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.ListenersLostOnResetMockTest::listener
+---- exit code: 0 | test_result: Not Pass | Mockito-27-buggy
+

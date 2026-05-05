@@ -1,0 +1,9 @@
+==== 2026-04-21 17:10:23 :: Time-25-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_boundary
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Time-25-fixed_ind1
+

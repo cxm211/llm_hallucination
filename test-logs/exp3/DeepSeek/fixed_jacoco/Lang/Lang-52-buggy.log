@@ -1,0 +1,12 @@
+==== 2026-04-25 21:20:15 :: Lang-52-buggy ====
+[RESTORE] restored src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang/StringEscapeUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript
+---- exit code: 0 | test_result: Not Pass | Lang-52-buggy
+

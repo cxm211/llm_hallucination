@@ -1,0 +1,481 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Csv
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Csv-1-fixed
+  [CHECKOUT] Csv-2-fixed
+  [CHECKOUT] Csv-3-fixed
+  [CHECKOUT] Csv-4-fixed
+  [CHECKOUT] Csv-5-fixed
+  [CHECKOUT] Csv-6-fixed
+  [CHECKOUT] Csv-7-fixed
+  [CHECKOUT] Csv-8-fixed
+  [CHECKOUT] Csv-9-fixed
+  [CHECKOUT] Csv-10-fixed
+  [CHECKOUT] Csv-11-fixed
+  [CHECKOUT] Csv-13-fixed
+  [CHECKOUT] Csv-14-fixed
+  [CHECKOUT] Csv-15-fixed
+  [CHECKOUT] Csv-16-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Csv ===
+  [COPY] Csv-1-fixed -> Csv-1-fixed_ind1
+  [IND-OK] Csv-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-fixed_ind1/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-1-fixed -> Csv-1-fixed_ind2
+  [IND-OK] Csv-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-fixed_ind2/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-1-fixed -> Csv-1-fixed_ind3
+  [IND-OK] Csv-1-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-fixed_ind3/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [Csv-1] inserted=6 failed=0
+  [COPY] Csv-2-fixed -> Csv-2-fixed_ind1
+  [IND-OK] Csv-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-fixed_ind1/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [COPY] Csv-2-fixed -> Csv-2-fixed_ind2
+  [IND-OK] Csv-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-fixed_ind2/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [Csv-2] inserted=4 failed=0
+  [COPY] Csv-3-fixed -> Csv-3-fixed_ind1
+  [IND-OK] Csv-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-fixed_ind1/src/test/java/org/apache/commons/csv/CSVLexerTest.java
+  [COPY] Csv-3-fixed -> Csv-3-fixed_ind2
+  [IND-OK] Csv-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-fixed_ind2/src/test/java/org/apache/commons/csv/CSVLexerTest.java
+  [COPY] Csv-3-fixed -> Csv-3-fixed_ind3
+  [IND-OK] Csv-3-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-fixed_ind3/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-fixed/src/test/java/org/apache/commons/csv/CSVLexerTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-fixed/src/test/java/org/apache/commons/csv/CSVLexerTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [Csv-3] inserted=6 failed=0
+  [COPY] Csv-4-fixed -> Csv-4-fixed_ind1
+  [IND-OK] Csv-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-4-fixed_ind1/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-4-fixed -> Csv-4-fixed_ind2
+  [IND-OK] Csv-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-4-fixed_ind2/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-4-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-4-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [Csv-4] inserted=4 failed=0
+  [COPY] Csv-5-fixed -> Csv-5-fixed_ind1
+  [IND-OK] Csv-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-fixed_ind1/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [COPY] Csv-5-fixed -> Csv-5-fixed_ind2
+  [IND-OK] Csv-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-fixed_ind2/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-fixed/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-fixed/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [Csv-5] inserted=4 failed=0
+  [COPY] Csv-6-fixed -> Csv-6-fixed_ind1
+  [IND-OK] Csv-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-fixed_ind1/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [COPY] Csv-6-fixed -> Csv-6-fixed_ind2
+  [IND-OK] Csv-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-fixed_ind2/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [COPY] Csv-6-fixed -> Csv-6-fixed_ind3
+  [IND-OK] Csv-6-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-fixed_ind3/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [Csv-6] inserted=6 failed=0
+  [COPY] Csv-7-fixed -> Csv-7-fixed_ind1
+  [IND-OK] Csv-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed_ind1/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-7-fixed -> Csv-7-fixed_ind2
+  [IND-OK] Csv-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed_ind2/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-7-fixed -> Csv-7-fixed_ind3
+  [IND-OK] Csv-7-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed_ind3/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-7-fixed -> Csv-7-fixed_ind4
+  [IND-OK] Csv-7-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed_ind4/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [Csv-7] inserted=8 failed=0
+  [COPY] Csv-8-fixed -> Csv-8-fixed_ind1
+  [IND-OK] Csv-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-fixed_ind1/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [COPY] Csv-8-fixed -> Csv-8-fixed_ind2
+  [IND-OK] Csv-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-fixed_ind2/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [COPY] Csv-8-fixed -> Csv-8-fixed_ind3
+  [IND-OK] Csv-8-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-fixed_ind3/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-fixed/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-fixed/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-fixed/src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  [Csv-8] inserted=6 failed=0
+  [COPY] Csv-9-fixed -> Csv-9-fixed_ind1
+  [IND-OK] Csv-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-fixed_ind1/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [COPY] Csv-9-fixed -> Csv-9-fixed_ind2
+  [IND-OK] Csv-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-fixed_ind2/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-fixed/src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  [Csv-9] inserted=4 failed=0
+  [COPY] Csv-10-fixed -> Csv-10-fixed_ind1
+  [IND-OK] Csv-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-fixed_ind1/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-10-fixed -> Csv-10-fixed_ind2
+  [IND-OK] Csv-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-fixed_ind2/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [Csv-10] inserted=4 failed=0
+  [COPY] Csv-11-fixed -> Csv-11-fixed_ind1
+  [IND-OK] Csv-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-fixed_ind1/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-11-fixed -> Csv-11-fixed_ind2
+  [IND-OK] Csv-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-fixed_ind2/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-11-fixed -> Csv-11-fixed_ind3
+  [IND-OK] Csv-11-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-fixed_ind3/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [Csv-11] inserted=6 failed=0
+  [COPY] Csv-13-fixed -> Csv-13-fixed_ind1
+  [IND-OK] Csv-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-fixed_ind1/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-13-fixed -> Csv-13-fixed_ind2
+  [IND-OK] Csv-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-fixed_ind2/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-13-fixed -> Csv-13-fixed_ind3
+  [IND-OK] Csv-13-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-fixed_ind3/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [Csv-13] inserted=6 failed=0
+  [COPY] Csv-14-fixed -> Csv-14-fixed_ind1
+  [IND-OK] Csv-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-fixed_ind1/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-14-fixed -> Csv-14-fixed_ind2
+  [IND-OK] Csv-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-fixed_ind2/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-14-fixed -> Csv-14-fixed_ind3
+  [IND-OK] Csv-14-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-fixed_ind3/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [Csv-14] inserted=6 failed=0
+  [COPY] Csv-15-fixed -> Csv-15-fixed_ind1
+  [IND-OK] Csv-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-fixed_ind1/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-15-fixed -> Csv-15-fixed_ind2
+  [IND-OK] Csv-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-fixed_ind2/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [COPY] Csv-15-fixed -> Csv-15-fixed_ind3
+  [IND-OK] Csv-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-fixed_ind3/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-fixed/src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  [Csv-15] inserted=6 failed=0
+  [COPY] Csv-16-fixed -> Csv-16-fixed_ind1
+  [IND-OK] Csv-16-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-fixed_ind1/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-16-fixed -> Csv-16-fixed_ind2
+  [IND-OK] Csv-16-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-fixed_ind2/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [COPY] Csv-16-fixed -> Csv-16-fixed_ind3
+  [IND-OK] Csv-16-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-fixed_ind3/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-fixed/src/test/java/org/apache/commons/csv/CSVParserTest.java
+  [Csv-16] inserted=6 failed=0
+
+[INSERT DONE] inserted=82 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 15
+individual bugs: 41
+
+==== 2026-04-21 08:12:02 :: Csv-1-fixed ====
+>>> defects4j test -r in Csv-1-fixed
+---- exit code: 1 | Csv-1-fixed
+
+==== 2026-04-21 08:12:04 :: Csv-2-fixed ====
+>>> defects4j test -r in Csv-2-fixed
+---- exit code: 1 | Csv-2-fixed
+
+==== 2026-04-21 08:12:05 :: Csv-3-fixed ====
+>>> defects4j test -r in Csv-3-fixed
+---- exit code: 0 | Csv-3-fixed
+
+==== 2026-04-21 08:12:08 :: Csv-4-fixed ====
+>>> defects4j test -r in Csv-4-fixed
+---- exit code: 1 | Csv-4-fixed
+
+==== 2026-04-21 08:12:09 :: Csv-5-fixed ====
+>>> defects4j test -r in Csv-5-fixed
+---- exit code: 1 | Csv-5-fixed
+
+==== 2026-04-21 08:12:10 :: Csv-6-fixed ====
+>>> defects4j test -r in Csv-6-fixed
+---- exit code: 0 | Csv-6-fixed
+
+==== 2026-04-21 08:12:13 :: Csv-7-fixed ====
+>>> defects4j test -r in Csv-7-fixed
+---- exit code: 0 | Csv-7-fixed
+
+==== 2026-04-21 08:12:15 :: Csv-8-fixed ====
+>>> defects4j test -r in Csv-8-fixed
+---- exit code: 0 | Csv-8-fixed
+
+==== 2026-04-21 08:12:18 :: Csv-9-fixed ====
+>>> defects4j test -r in Csv-9-fixed
+---- exit code: 1 | Csv-9-fixed
+
+==== 2026-04-21 08:12:19 :: Csv-10-fixed ====
+>>> defects4j test -r in Csv-10-fixed
+---- exit code: 0 | Csv-10-fixed
+
+==== 2026-04-21 08:12:22 :: Csv-11-fixed ====
+>>> defects4j test -r in Csv-11-fixed
+---- exit code: 0 | Csv-11-fixed
+
+==== 2026-04-21 08:12:25 :: Csv-13-fixed ====
+>>> defects4j test -r in Csv-13-fixed
+---- exit code: 0 | Csv-13-fixed
+
+==== 2026-04-21 08:12:29 :: Csv-14-fixed ====
+>>> defects4j test -r in Csv-14-fixed
+---- exit code: 0 | Csv-14-fixed
+
+==== 2026-04-21 08:12:32 :: Csv-15-fixed ====
+>>> defects4j test -r in Csv-15-fixed
+---- exit code: 0 | Csv-15-fixed
+
+==== 2026-04-21 08:12:36 :: Csv-16-fixed ====
+>>> defects4j test -r in Csv-16-fixed
+---- exit code: 0 | Csv-16-fixed
+
+==== 2026-04-21 08:12:39 :: Csv-1-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testGetLineNumberWithLF in Csv-1-fixed_ind1
+---- exit code: 1 | Csv-1-fixed_ind1
+
+==== 2026-04-21 08:12:40 :: Csv-1-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testGetLineNumberWithCRLF in Csv-1-fixed_ind2
+---- exit code: 1 | Csv-1-fixed_ind2
+
+==== 2026-04-21 08:12:42 :: Csv-1-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testGetLineNumberWithMixedLineEndings in Csv-1-fixed_ind3
+---- exit code: 0 | Csv-1-fixed_ind3
+
+==== 2026-04-21 08:12:44 :: Csv-2-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testGetStringIndexOutOfBoundsNegative in Csv-2-fixed_ind1
+---- exit code: 1 | Csv-2-fixed_ind1
+
+==== 2026-04-21 08:12:45 :: Csv-2-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testGetStringIndexAtBoundary in Csv-2-fixed_ind2
+---- exit code: 1 | Csv-2-fixed_ind2
+
+==== 2026-04-21 08:12:47 :: Csv-3-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVLexerTest::testEscapedDigit in Csv-3-fixed_ind1
+---- exit code: 0 | Csv-3-fixed_ind1
+
+==== 2026-04-21 08:12:49 :: Csv-3-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVLexerTest::testEscapedSpecialChar in Csv-3-fixed_ind2
+---- exit code: 0 | Csv-3-fixed_ind2
+
+==== 2026-04-21 08:12:51 :: Csv-3-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testBackslashEscapingWithUnknownChar in Csv-3-fixed_ind3
+---- exit code: 0 | Csv-3-fixed_ind3
+
+==== 2026-04-21 08:12:53 :: Csv-4-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testHeaderMapWithHeaders in Csv-4-fixed_ind1
+---- exit code: 1 | Csv-4-fixed_ind1
+
+==== 2026-04-21 08:12:55 :: Csv-4-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testHeaderMapImmutability in Csv-4-fixed_ind2
+---- exit code: 1 | Csv-4-fixed_ind2
+
+==== 2026-04-21 08:12:56 :: Csv-5-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVFormatTest::testNullRecordSeparatorWithMultipleRecords in Csv-5-fixed_ind1
+---- exit code: 1 | Csv-5-fixed_ind1
+
+==== 2026-04-21 08:12:58 :: Csv-5-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVFormatTest::testNullRecordSeparatorPrintln in Csv-5-fixed_ind2
+---- exit code: 1 | Csv-5-fixed_ind2
+
+==== 2026-04-21 08:12:59 :: Csv-6-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testToMapWithEmptyRecord in Csv-6-fixed_ind1
+---- exit code: 0 | Csv-6-fixed_ind1
+
+==== 2026-04-21 08:13:01 :: Csv-6-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testToMapWithSingleColumnShort in Csv-6-fixed_ind2
+---- exit code: 0 | Csv-6-fixed_ind2
+
+==== 2026-04-21 08:13:04 :: Csv-6-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testToMapWithMultipleColumnsShort in Csv-6-fixed_ind3
+---- exit code: 0 | Csv-6-fixed_ind3
+
+==== 2026-04-21 08:13:06 :: Csv-7-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntriesWithExplicitHeader in Csv-7-fixed_ind1
+---- exit code: 0 | Csv-7-fixed_ind1
+
+==== 2026-04-21 08:13:08 :: Csv-7-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntriesMultipleDuplicates in Csv-7-fixed_ind2
+---- exit code: 0 | Csv-7-fixed_ind2
+
+==== 2026-04-21 08:13:10 :: Csv-7-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testNoDuplicateHeaderEntriesWithEmptyHeader in Csv-7-fixed_ind3
+---- exit code: 0 | Csv-7-fixed_ind3
+
+==== 2026-04-21 08:13:12 :: Csv-7-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testNoDuplicateHeaderEntriesWithExplicitHeader in Csv-7-fixed_ind4
+---- exit code: 0 | Csv-7-fixed_ind4
+
+==== 2026-04-21 08:13:15 :: Csv-8-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElementsWithThreeElements in Csv-8-fixed_ind1
+---- exit code: 0 | Csv-8-fixed_ind1
+
+==== 2026-04-21 08:13:17 :: Csv-8-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElementsMultipleDuplicates in Csv-8-fixed_ind2
+---- exit code: 0 | Csv-8-fixed_ind2
+
+==== 2026-04-21 08:13:19 :: Csv-8-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVFormatTest::testNoDuplicateHeaderElements in Csv-8-fixed_ind3
+---- exit code: 0 | Csv-8-fixed_ind3
+
+==== 2026-04-21 08:13:22 :: Csv-9-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testToMapWithNoHeaderMultipleRecords in Csv-9-fixed_ind1
+---- exit code: 1 | Csv-9-fixed_ind1
+
+==== 2026-04-21 08:13:27 :: Csv-9-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVRecordTest::testToMapWithNoHeaderEmptyRecord in Csv-9-fixed_ind2
+---- exit code: 0 | Csv-9-fixed_ind2
+
+==== 2026-04-21 08:13:30 :: Csv-10-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testHeaderWithSingleColumn in Csv-10-fixed_ind1
+---- exit code: 0 | Csv-10-fixed_ind1
+
+==== 2026-04-21 08:13:32 :: Csv-10-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testHeaderWithQuotedValues in Csv-10-fixed_ind2
+---- exit code: 0 | Csv-10-fixed_ind2
+
+==== 2026-04-21 08:13:35 :: Csv-11-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testHeaderDuplicateNonEmpty in Csv-11-fixed_ind1
+---- exit code: 0 | Csv-11-fixed_ind1
+
+==== 2026-04-21 08:13:37 :: Csv-11-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testHeaderDuplicateEmptyWithIgnoreFalse in Csv-11-fixed_ind2
+---- exit code: 0 | Csv-11-fixed_ind2
+
+==== 2026-04-21 08:13:40 :: Csv-11-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testHeaderMixedEmptyNonEmpty in Csv-11-fixed_ind3
+---- exit code: 0 | Csv-11-fixed_ind3
+
+==== 2026-04-21 08:13:42 :: Csv-13-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testNullStringWithQuoteModeAll in Csv-13-fixed_ind1
+---- exit code: 0 | Csv-13-fixed_ind1
+
+==== 2026-04-21 08:13:45 :: Csv-13-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testNullStringWithEscapeChar in Csv-13-fixed_ind2
+---- exit code: 0 | Csv-13-fixed_ind2
+
+==== 2026-04-21 08:13:49 :: Csv-13-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testNullVsNullStringLiteral in Csv-13-fixed_ind3
+---- exit code: 0 | Csv-13-fixed_ind3
+
+==== 2026-04-21 08:13:52 :: Csv-14-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testQuoteCharInMiddle in Csv-14-fixed_ind1
+---- exit code: 0 | Csv-14-fixed_ind1
+
+==== 2026-04-21 08:13:54 :: Csv-14-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testMultipleQuoteChars in Csv-14-fixed_ind2
+---- exit code: 0 | Csv-14-fixed_ind2
+
+==== 2026-04-21 08:13:57 :: Csv-14-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testQuoteCharAtEnd in Csv-14-fixed_ind3
+---- exit code: 0 | Csv-14-fixed_ind3
+
+==== 2026-04-21 08:13:59 :: Csv-15-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testDontQuoteUnicodeCharactersInMiddle in Csv-15-fixed_ind1
+---- exit code: 0 | Csv-15-fixed_ind1
+
+==== 2026-04-21 08:14:02 :: Csv-15-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testDontQuoteCJKFirstChar in Csv-15-fixed_ind2
+---- exit code: 0 | Csv-15-fixed_ind2
+
+==== 2026-04-21 08:14:04 :: Csv-15-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testQuoteUnicodeWithComma in Csv-15-fixed_ind3
+---- exit code: 0 | Csv-15-fixed_ind3
+
+==== 2026-04-21 08:14:07 :: Csv-16-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testIteratorMultipleHasNextCalls in Csv-16-fixed_ind1
+---- exit code: 0 | Csv-16-fixed_ind1
+
+==== 2026-04-21 08:14:09 :: Csv-16-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testIteratorNextWithoutHasNext in Csv-16-fixed_ind2
+---- exit code: 0 | Csv-16-fixed_ind2
+
+==== 2026-04-21 08:14:12 :: Csv-16-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testIteratorMixedHasNextAndNext in Csv-16-fixed_ind3
+---- exit code: 0 | Csv-16-fixed_ind3
+
+
+=== Combined Test Run Summary ===
+  Csv/Csv-1-fixed                                        -> FAIL(1)
+  Csv/Csv-10-fixed                                       -> OK
+  Csv/Csv-11-fixed                                       -> OK
+  Csv/Csv-13-fixed                                       -> OK
+  Csv/Csv-14-fixed                                       -> OK
+  Csv/Csv-15-fixed                                       -> OK
+  Csv/Csv-16-fixed                                       -> OK
+  Csv/Csv-2-fixed                                        -> FAIL(1)
+  Csv/Csv-3-fixed                                        -> OK
+  Csv/Csv-4-fixed                                        -> FAIL(1)
+  Csv/Csv-5-fixed                                        -> FAIL(1)
+  Csv/Csv-6-fixed                                        -> OK
+  Csv/Csv-7-fixed                                        -> OK
+  Csv/Csv-8-fixed                                        -> OK
+  Csv/Csv-9-fixed                                        -> FAIL(1)
+Combined total: 15 | failed: 5 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Csv/Csv-1-fixed_ind1                                   -> FAIL(1)
+  Csv/Csv-1-fixed_ind2                                   -> FAIL(1)
+  Csv/Csv-1-fixed_ind3                                   -> OK
+  Csv/Csv-10-fixed_ind1                                  -> OK
+  Csv/Csv-10-fixed_ind2                                  -> OK
+  Csv/Csv-11-fixed_ind1                                  -> OK
+  Csv/Csv-11-fixed_ind2                                  -> OK
+  Csv/Csv-11-fixed_ind3                                  -> OK
+  Csv/Csv-13-fixed_ind1                                  -> OK
+  Csv/Csv-13-fixed_ind2                                  -> OK
+  Csv/Csv-13-fixed_ind3                                  -> OK
+  Csv/Csv-14-fixed_ind1                                  -> OK
+  Csv/Csv-14-fixed_ind2                                  -> OK
+  Csv/Csv-14-fixed_ind3                                  -> OK
+  Csv/Csv-15-fixed_ind1                                  -> OK
+  Csv/Csv-15-fixed_ind2                                  -> OK
+  Csv/Csv-15-fixed_ind3                                  -> OK
+  Csv/Csv-16-fixed_ind1                                  -> OK
+  Csv/Csv-16-fixed_ind2                                  -> OK
+  Csv/Csv-16-fixed_ind3                                  -> OK
+  Csv/Csv-2-fixed_ind1                                   -> FAIL(1)
+  Csv/Csv-2-fixed_ind2                                   -> FAIL(1)
+  Csv/Csv-3-fixed_ind1                                   -> OK
+  Csv/Csv-3-fixed_ind2                                   -> OK
+  Csv/Csv-3-fixed_ind3                                   -> OK
+  Csv/Csv-4-fixed_ind1                                   -> FAIL(1)
+  Csv/Csv-4-fixed_ind2                                   -> FAIL(1)
+  Csv/Csv-5-fixed_ind1                                   -> FAIL(1)
+  Csv/Csv-5-fixed_ind2                                   -> FAIL(1)
+  Csv/Csv-6-fixed_ind1                                   -> OK
+  Csv/Csv-6-fixed_ind2                                   -> OK
+  Csv/Csv-6-fixed_ind3                                   -> OK
+  Csv/Csv-7-fixed_ind1                                   -> OK
+  Csv/Csv-7-fixed_ind2                                   -> OK
+  Csv/Csv-7-fixed_ind3                                   -> OK
+  Csv/Csv-7-fixed_ind4                                   -> OK
+  Csv/Csv-8-fixed_ind1                                   -> OK
+  Csv/Csv-8-fixed_ind2                                   -> OK
+  Csv/Csv-8-fixed_ind3                                   -> OK
+  Csv/Csv-9-fixed_ind1                                   -> FAIL(1)
+  Csv/Csv-9-fixed_ind2                                   -> OK
+Individual total: 41 | failed: 9
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Csv] 41 | pass=30 not_pass=0 not_compilable=11 -> Csv.csv
+
+[DONE combined] total=41 pass=30 not_pass=0 not_compilable=11
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

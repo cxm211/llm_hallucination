@@ -1,0 +1,75 @@
+==== 2026-04-29 12:14:02 :: Gson-6-buggy ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+gson-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/maven-build.xml:73: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+gson-from-maven.compile-tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/maven-build.xml:98: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 4 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java:65: error: cannot find symbol
+    [javac]       @Override public void write(JsonWriter out, String value) throws IOException {
+    [javac]                                   ^
+    [javac]   symbol:   class JsonWriter
+    [javac]   location: class BadNullUnsafeAdapter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java:65: error: cannot find symbol
+    [javac]       @Override public void write(JsonWriter out, String value) throws IOException {
+    [javac]                                                                        ^
+    [javac]   symbol:   class IOException
+    [javac]   location: class BadNullUnsafeAdapter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java:71: error: cannot find symbol
+    [javac]       @Override public String read(JsonReader in) throws IOException { return in.nextString(); }
+    [javac]                                    ^
+    [javac]   symbol:   class JsonReader
+    [javac]   location: class BadNullUnsafeAdapter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java:71: error: cannot find symbol
+    [javac]       @Override public String read(JsonReader in) throws IOException { return in.nextString(); }
+    [javac]                                                          ^
+    [javac]   symbol:   class IOException
+    [javac]   location: class BadNullUnsafeAdapter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java:74: error: cannot find symbol
+    [javac]       @JsonAdapter(value = BadNullUnsafeAdapter.class, nullSafe = false)
+    [javac]                                                        ^
+    [javac]   symbol:   method nullSafe()
+    [javac]   location: @interface JsonAdapter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java:77: error: cannot find symbol
+    [javac]     Gson gsonLocal = new GsonBuilder().serializeNulls().create();
+    [javac]                          ^
+    [javac]   symbol:   class GsonBuilder
+    [javac]   location: class JsonAdapterNullSafeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java:200: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]       jsonWriter.value(new Double(Double.NaN));
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java:205: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]       jsonWriter.value(new Double(Double.NEGATIVE_INFINITY));
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java:210: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]       jsonWriter.value(new Double(Double.POSITIVE_INFINITY));
+    [javac]                        ^
+    [javac] 6 errors
+    [javac] 7 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-buggy/gson/maven-build.xml:98: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 19 rows.

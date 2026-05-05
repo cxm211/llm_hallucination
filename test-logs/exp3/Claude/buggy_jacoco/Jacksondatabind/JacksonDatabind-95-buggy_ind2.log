@@ -1,0 +1,26 @@
+==== 2026-03-28 07:27:31 :: JacksonDatabind-95-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.type.TestTypeFactory::testCanonicalNames
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.type.TestTypeFactory::testCanonicalNames
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-95-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 514 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.type.TestTypeFactory::testConstructSpecializedTypeForHashMap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-95-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 514 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 100 line rows.
+[PARSE] 100 base line rows.

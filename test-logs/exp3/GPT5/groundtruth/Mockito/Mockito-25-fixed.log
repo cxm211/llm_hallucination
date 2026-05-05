@@ -1,0 +1,10 @@
+==== 2026-04-28 19:43:01 :: Mockito-25-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest::testInvocationConcurrently
+---- exit code: 0 | Mockito-25-fixed
+

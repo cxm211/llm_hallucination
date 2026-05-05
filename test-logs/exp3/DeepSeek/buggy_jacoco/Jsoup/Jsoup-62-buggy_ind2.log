@@ -1,0 +1,24 @@
+==== 2026-04-24 05:21:05 :: Jsoup-62-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::caseSensitiveParseTree
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::caseSensitiveParseTree
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-62-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 225 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::caseSensitiveEndTagSpecial
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::caseSensitiveEndTagSpecial
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-62-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 225 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 20 line rows.
+[PARSE] 20 base line rows.

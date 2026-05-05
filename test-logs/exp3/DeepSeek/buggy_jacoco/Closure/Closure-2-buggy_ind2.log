@@ -1,0 +1,23 @@
+==== 2026-04-22 08:37:12 :: Closure-2-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtendsNonExistentInterfaces
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtendsNonExistentInterfaces
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-2-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1212 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInterfaceExtendsChainNonExistent
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-2-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1212 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 27 line rows.
+[PARSE] 27 base line rows.

@@ -1,0 +1,27 @@
+==== 2026-04-29 12:17:33 :: Gson-8-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Gson-8-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t com.google.gson.internal.UnsafeAllocatorInstantiationTest::testInterfaceInstantiation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.gson.internal.UnsafeAllocatorInstantiationTest::testAbstractClassInstantiation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-8-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] done

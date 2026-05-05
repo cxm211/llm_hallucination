@@ -1,0 +1,11 @@
+==== 2026-04-24 02:58:03 :: Collections-24-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections4.collection.UnmodifiableBoundedCollectionTest::testUnmodifiable
+---- exit code: 0 | test_result: Not Pass | Collections-24-buggy
+

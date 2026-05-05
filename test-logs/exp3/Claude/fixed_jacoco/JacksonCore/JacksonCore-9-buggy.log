@@ -1,0 +1,12 @@
+==== 2026-03-28 17:03:04 :: JacksonCore-9-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/json/TestJsonParser.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextBytes
+  - com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextChars
+---- exit code: 0 | test_result: Not Pass | JacksonCore-9-buggy
+

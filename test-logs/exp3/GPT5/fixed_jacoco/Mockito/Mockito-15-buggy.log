@@ -1,0 +1,13 @@
+==== 2026-04-28 19:17:32 :: Mockito-15-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - broken test input org.mockitousage.bugs.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTestorg.mockito.exceptions.base.MockitoException
+  - org.mockitousage.annotation.DeprecatedAnnotationEngineApiTest::shouldInjectMocksIfThereIsNoUserDefinedEngine
+  - org.mockitousage.annotation.SpyInjectionTest::shouldDoStuff
+---- exit code: 0 | test_result: Not Pass | Mockito-15-buggy
+

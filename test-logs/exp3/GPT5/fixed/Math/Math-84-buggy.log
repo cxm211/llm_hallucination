@@ -1,0 +1,39 @@
+==== 2026-04-28 23:07:02 :: Math-84-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testRosenbrock
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testPowell
+---- exit code: 0 | Math-84-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-84-buggy/jacoco_base.exec.
+[INFO] Analyzing 355 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-84-buggy/jacoco.exec.
+[INFO] Analyzing 355 classes.
+>>> [JACOCO] done

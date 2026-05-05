@@ -1,0 +1,12 @@
+==== 2026-04-24 04:39:11 :: Jsoup-85-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.AttributeTest::validatesKeysNotEmptyWithParent
+  - org.jsoup.nodes.AttributeTest::validatesKeysNotEmptyTab
+  - org.jsoup.nodes.AttributeTest::validatesKeysNotEmpty
+---- exit code: 0 | Jsoup-85-buggy
+

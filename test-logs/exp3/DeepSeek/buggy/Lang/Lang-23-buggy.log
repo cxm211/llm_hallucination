@@ -1,0 +1,11 @@
+==== 2026-04-25 20:06:06 :: Lang-23-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testSetFormatsByArgumentIndex
+  - org.apache.commons.lang3.text.ExtendedMessageFormatTest::testEqualsHashcode
+---- exit code: 0 | Lang-23-buggy
+

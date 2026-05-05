@@ -1,0 +1,11 @@
+==== 2026-03-30 06:37:43 :: Math-42-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/optimization/linear/SimplexSolverTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath713NegativeVariable
+---- exit code: 0 | test_result: Not Pass | Math-42-buggy
+

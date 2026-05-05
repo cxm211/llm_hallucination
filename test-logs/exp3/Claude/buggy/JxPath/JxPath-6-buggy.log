@@ -1,0 +1,11 @@
+==== 2026-03-29 14:44:22 :: JxPath-6-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariableSecondElement
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable
+---- exit code: 0 | JxPath-6-buggy
+

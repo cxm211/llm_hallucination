@@ -1,0 +1,12 @@
+==== 2026-04-28 01:17:39 :: Cli-23-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/bug/BugCLI162Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.bug.BugCLI162Test::testInfiniteLoop
+  - org.apache.commons.cli.bug.BugCLI162Test::testPrintHelpLongLines
+---- exit code: 0 | test_result: Not Pass | Cli-23-buggy
+

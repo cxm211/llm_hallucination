@@ -1,0 +1,15 @@
+==== 2026-04-23 02:41:19 :: Closure-79-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/NormalizeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.NormalizeTest::testIssue
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+  - com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+  - com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+---- exit code: 0 | test_result: Not Pass | Closure-79-buggy
+

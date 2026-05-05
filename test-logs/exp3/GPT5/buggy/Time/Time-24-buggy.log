@@ -1,0 +1,17 @@
+==== 2026-04-28 04:07:36 :: Time-24-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_month_week_weekyear_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+---- exit code: 0 | Time-24-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-03-30 10:47:07 :: Mockito-7-buggy ====
+[RESTORE] restored test/org/mockitousage/bugs/deepstubs/DeepStubFailingWhenGenricNestedAsRawTypeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest::discoverDeepMockingOfGenerics
+---- exit code: 0 | test_result: Not Pass | Mockito-7-buggy
+

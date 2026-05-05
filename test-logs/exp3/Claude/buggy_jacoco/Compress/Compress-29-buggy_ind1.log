@@ -1,0 +1,37 @@
+==== 2026-03-28 01:28:03 :: Compress-29-buggy_ind1 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStream
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStreamAutodetect
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStreamAutodetect
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingOutputStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingOutputStream
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-29-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 200 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testJarEncodingOutputStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testJarEncodingOutputStream
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-29-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 200 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 224 line rows.
+[PARSE] 224 base line rows.

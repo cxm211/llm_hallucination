@@ -1,0 +1,9 @@
+==== 2026-04-24 14:19:27 :: Math-39-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStepBackward
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Math-39-fixed_ind1
+

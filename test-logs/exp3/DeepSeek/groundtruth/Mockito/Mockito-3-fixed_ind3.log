@@ -1,0 +1,10 @@
+==== 2026-04-25 19:28:12 :: Mockito-3-fixed_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockitousage.matchers.CapturingArgumentsTest::should_capture_pure_varargs_with_multiple_matchers
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_pure_varargs_with_multiple_matchers
+---- exit code: 0 | Mockito-3-fixed_ind3
+

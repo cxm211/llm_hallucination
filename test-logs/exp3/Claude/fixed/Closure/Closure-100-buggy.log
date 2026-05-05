@@ -1,0 +1,80 @@
+==== 2026-03-27 11:24:11 :: Closure-100-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction4
+---- exit code: 0 | Closure-100-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 9, add tests: 3, total: 12
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (9 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThisWithoutPropertyAccess
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunctionThisWithoutPropertyAccess
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testNestedPropertyAccess
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-100-buggy/jacoco_base.exec.
+[INFO] Analyzing 881 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-100-buggy/jacoco.exec.
+[INFO] Analyzing 881 classes.
+>>> [JACOCO] done

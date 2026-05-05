@@ -1,0 +1,16 @@
+==== 2026-03-28 17:48:41 :: JacksonXml-6-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith0Bytes
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith2Bytes
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith3Bytes
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith4Bytes
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith5Bytes
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith6Bytes
+  - com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith1Byte
+---- exit code: 0 | JacksonXml-6-buggy
+

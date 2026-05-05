@@ -1,0 +1,15 @@
+==== 2026-03-27 03:47:04 :: Closure-175-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineMutableArgsWithSideEffects
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineMutableArgsReferencedOnce
+---- exit code: 0 | Closure-175-buggy
+

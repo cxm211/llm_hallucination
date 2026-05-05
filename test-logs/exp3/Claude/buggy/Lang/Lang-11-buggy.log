@@ -1,0 +1,13 @@
+==== 2026-03-29 15:47:41 :: Lang-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang3.RandomStringUtilsTest::testLANG807
+  - org.apache.commons.lang3.RandomStringUtilsTest::testLANG807_WithCharsArrayEndExceedsLength
+  - org.apache.commons.lang3.RandomStringUtilsTest::testLANG807_WithCharsArrayStartEqualsLength
+  - org.apache.commons.lang3.RandomStringUtilsTest::testLANG807_StartGreaterThanEnd
+---- exit code: 0 | Lang-11-buggy
+

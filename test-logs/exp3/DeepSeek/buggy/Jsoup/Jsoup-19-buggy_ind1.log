@@ -1,0 +1,11 @@
+==== 2026-04-24 04:41:40 :: Jsoup-19-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.safety.CleanerTest::handlesCustomProtocols
+  - org.jsoup.safety.CleanerTest::handlesCustomProtocolsWithPreserveRelativeLinks
+---- exit code: 0 | Jsoup-19-buggy_ind1
+

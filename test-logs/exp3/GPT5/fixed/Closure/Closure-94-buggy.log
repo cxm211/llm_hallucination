@@ -1,0 +1,39 @@
+==== 2026-04-26 05:22:52 :: Closure-94-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Closure-94-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NodeUtilTest::testValidDefine
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NodeUtilTest::testValidDefine_BitOrInvalid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-94-buggy/jacoco_base.exec.
+[INFO] Analyzing 980 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-94-buggy/jacoco.exec.
+[INFO] Analyzing 980 classes.
+>>> [JACOCO] done

@@ -1,0 +1,13 @@
+==== 2026-04-26 07:14:23 :: Closure-139-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/NormalizeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.NormalizeTest::testNormalizeFunctionDeclarations
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations3
+  - com.google.javascript.jscomp.NormalizeTest::testMoveFunctions2
+---- exit code: 0 | test_result: Not Pass | Closure-139-buggy
+

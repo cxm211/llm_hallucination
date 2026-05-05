@@ -1,0 +1,44 @@
+==== 2026-03-30 05:34:52 :: Mockito-11-buggy ====
+[JACOCO] trigger=2 add=4 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_equal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_equal
+[JACOCO] defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_self
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_self
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-buggy/jacoco_base.exec.
+[INFO] Analyzing 289 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_null
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_different_type
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_different_method
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::hashCode_should_use_method_hashcode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.creation.DelegatingMethodTest::hashCode_should_use_method_hashcode
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-buggy/jacoco.exec.
+[INFO] Analyzing 289 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 6 line rows.
+[PARSE] 6 base line rows.

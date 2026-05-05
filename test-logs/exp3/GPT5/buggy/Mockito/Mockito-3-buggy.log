@@ -1,0 +1,19 @@
+==== 2026-04-28 15:46:50 :: Mockito-3-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.mockito.internal.invocation.InvocationMatcherTest::should_capture_varargs_as_vararg
+  - org.mockito.internal.invocation.InvocationMatcherTest::should_not_capture_when_no_varargs
+  - org.mockitousage.bugs.varargs.VarargsAndAnyObjectPicksUpExtraInvocationsTest::shouldVerifyCorrectlyNumberOfInvocationsWithVarargs
+  - org.mockitousage.bugs.varargs.VarargsNotPlayingWithAnyObjectTest::shouldMatchAnyVararg
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_all_vararg
+  - org.mockitousage.matchers.CapturingArgumentsTest::captures_correctly_when_captor_used_multiple_times
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_vararg
+  - org.mockitousage.matchers.CapturingArgumentsTest::captures_correctly_when_captor_used_on_pure_vararg_method
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_byte_vararg_by_creating_captor_with_primitive_wrapper
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_byte_vararg_by_creating_captor_with_primitive
+---- exit code: 0 | Mockito-3-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-24 04:44:04 :: Jsoup-49-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::appendMustCorrectlyMoveChildrenInsideOneParentElement
+  - org.jsoup.nodes.ElementTest::moveTwoChildrenFromStartToEnd
+---- exit code: 0 | Jsoup-49-buggy_ind2
+

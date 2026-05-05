@@ -1,0 +1,13 @@
+==== 2026-04-26 17:00:53 :: JacksonDatabind-73-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnlyAndWriteOnly
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnly935
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testOnlyWriteOnlySerialization
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-73-buggy
+

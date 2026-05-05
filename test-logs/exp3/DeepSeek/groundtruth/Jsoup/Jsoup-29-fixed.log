@@ -1,0 +1,10 @@
+==== 2026-04-24 07:14:13 :: Jsoup-29-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTest::testTitleInBodyOnly
+---- exit code: 0 | Jsoup-29-fixed
+

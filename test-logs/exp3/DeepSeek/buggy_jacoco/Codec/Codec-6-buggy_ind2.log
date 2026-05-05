@@ -1,0 +1,24 @@
+==== 2026-04-24 01:57:10 :: Codec-6-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-6-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 27 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testEncodeEOF
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testEncodeEOF
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-6-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 27 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 43 line rows.
+[PARSE] 43 base line rows.

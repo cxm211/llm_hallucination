@@ -1,0 +1,8 @@
+==== 2026-04-29 01:36:03 :: JxPath-14-buggy ====
+[JACOCO] trigger=0 add=1 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testCoreFunctions
+Cannot open config file (/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-buggy/.defects4j.config): No such file or directory
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-buggy is not a valid working directory!
+[JACOCO] FAILED: bin classes not found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-buggy is not a valid working directory!
+[NOT_COMPILABLE] writing 15 rows.

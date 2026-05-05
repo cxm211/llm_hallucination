@@ -1,0 +1,28 @@
+==== 2026-04-26 05:23:37 :: Closure-95-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference6
+---- exit code: 0 | Closure-95-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-95-buggy/jacoco.exec.
+[INFO] Analyzing 960 classes.
+>>> [JACOCO] done

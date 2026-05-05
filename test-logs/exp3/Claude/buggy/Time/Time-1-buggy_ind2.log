@@ -1,0 +1,10 @@
+==== 2026-03-30 03:06:48 :: Time-1-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray
+---- exit code: 0 | Time-1-buggy_ind2
+

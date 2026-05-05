@@ -1,0 +1,59 @@
+==== 2026-04-27 02:28:02 :: Chart-16-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Chart-16-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 8, add tests: 1, total: 9
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-buggy/jacoco_base.exec.
+[INFO] Analyzing 513 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-buggy/jacoco.exec.
+[INFO] Analyzing 513 classes.
+>>> [JACOCO] done

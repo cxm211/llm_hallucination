@@ -1,0 +1,10 @@
+==== 2026-04-21 10:46:28 :: Jsoup-24-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.HtmlParserTest::handlesSelfClosingEndTagInScript
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::handlesSelfClosingEndTagInScript
+---- exit code: 0 | Jsoup-24-fixed_ind3
+

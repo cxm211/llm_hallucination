@@ -1,0 +1,31 @@
+==== 2026-03-30 03:39:29 :: Time-17-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-buggy/jacoco_base.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset_gap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset_reverseOverlap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset_reverseOverlap
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-buggy/jacoco.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 18 line rows.
+[PARSE] 18 base line rows.

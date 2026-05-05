@@ -1,0 +1,11 @@
+==== 2026-04-24 04:08:16 :: Compress-38-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesPaxHeaderWithNameEndingInSlash
+---- exit code: 0 | test_result: Not Pass | Compress-38-buggy
+

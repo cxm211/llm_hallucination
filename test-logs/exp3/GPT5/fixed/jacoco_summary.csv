@@ -1,0 +1,17 @@
+project,buggy_folder,buggy_path,trigger_tests_count,add_tests_count,jacoco_xml,success,error
+Csv,Csv-1-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-1-buggy/jacoco.xml,True,
+Csv,Csv-10-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-buggy/jacoco.xml,True,
+Csv,Csv-11-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-11-buggy/jacoco.xml,True,
+Csv,Csv-12-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-12-buggy,1,0,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-12-buggy/jacoco.xml,True,
+Csv,Csv-13-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-buggy,2,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-13-buggy/jacoco.xml,True,
+Csv,Csv-14-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-buggy,6,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-14-buggy/jacoco.xml,True,
+Csv,Csv-15-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-buggy/jacoco.xml,True,
+Csv,Csv-16-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-buggy,1,0,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-buggy/jacoco.xml,True,
+Csv,Csv-2-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-buggy/jacoco.xml,True,
+Csv,Csv-3-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-buggy,3,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-buggy/jacoco.xml,False,Not Compilable: test suite failed to compile
+Csv,Csv-4-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-4-buggy,1,0,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-4-buggy/jacoco.xml,True,
+Csv,Csv-5-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-buggy,1,0,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-buggy/jacoco.xml,True,
+Csv,Csv-6-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-6-buggy/jacoco.xml,True,
+Csv,Csv-7-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-buggy/jacoco.xml,False,Not Compilable: test suite failed to compile
+Csv,Csv-8-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy,1,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy/jacoco.xml,True,
+Csv,Csv-9-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-buggy,1,0,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-buggy/jacoco.xml,True,

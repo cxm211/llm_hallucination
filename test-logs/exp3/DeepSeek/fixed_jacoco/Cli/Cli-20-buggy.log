@@ -1,0 +1,14 @@
+==== 2026-04-21 22:05:07 :: Cli-20-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/PosixParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testStop
+  - org.apache.commons.cli.PosixParserTest::testMultipleWithLong
+  - org.apache.commons.cli.PosixParserTest::testMultiple
+---- exit code: 0 | test_result: Not Pass | Cli-20-buggy
+

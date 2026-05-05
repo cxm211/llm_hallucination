@@ -1,0 +1,10 @@
+==== 2026-04-21 07:24:43 :: Closure-108-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testNestedPropertyInJSDoc
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNestedPropertyInJSDoc
+---- exit code: 0 | Closure-108-fixed_ind2
+

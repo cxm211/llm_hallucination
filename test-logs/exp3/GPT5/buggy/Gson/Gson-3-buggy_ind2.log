@@ -1,0 +1,12 @@
+==== 2026-04-29 12:13:04 :: Gson-3-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.functional.MapTest::testConcurrentMap
+  - com.google.gson.functional.MapTest::testConcurrentNavigableMap
+  - com.google.gson.functional.MapTest::testConcurrentNavigableMapImplementation
+---- exit code: 0 | Gson-3-buggy_ind2
+

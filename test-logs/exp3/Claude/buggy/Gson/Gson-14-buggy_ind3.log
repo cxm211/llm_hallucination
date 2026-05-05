@@ -1,0 +1,17 @@
+==== 2026-03-28 14:37:21 :: Gson-14-buggy_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSupertype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue440WeakReference
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSubSupertype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSuperSubSupertype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSubtype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue603PrintStream
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSuperSubtype
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveResolveSimple
+---- exit code: 0 | Gson-14-buggy_ind3
+

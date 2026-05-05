@@ -1,0 +1,11 @@
+==== 2026-04-24 04:43:53 :: Jsoup-47-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.EntitiesTest::escapeXhtmlInAttributeWithNormaliseWhiteAndVariousChars
+  - org.jsoup.nodes.EntitiesTest::escapesGtInXmlAttributesButNotInHtml
+---- exit code: 0 | Jsoup-47-buggy_ind1
+

@@ -1,0 +1,10 @@
+==== 2026-04-26 00:36:11 :: JacksonCore-26-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationContiguousFeed
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationContiguousFeed
+---- exit code: 0 | JacksonCore-26-fixed_ind1
+

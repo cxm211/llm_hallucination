@@ -1,0 +1,11 @@
+==== 2026-04-28 01:16:52 :: Cli-2-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/bug/BugCLI51Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI51Test::test
+---- exit code: 0 | test_result: Not Pass | Cli-2-buggy
+

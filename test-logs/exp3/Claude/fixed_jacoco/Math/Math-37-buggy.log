@@ -1,0 +1,14 @@
+==== 2026-03-30 06:36:44 :: Math-37-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/complex/ComplexTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.complex.ComplexTest::testTanhInf
+  - org.apache.commons.math.complex.ComplexTest::testTan
+  - org.apache.commons.math.complex.ComplexTest::testTanh
+  - org.apache.commons.math.complex.ComplexTest::testTanInf
+---- exit code: 0 | test_result: Not Pass | Math-37-buggy
+

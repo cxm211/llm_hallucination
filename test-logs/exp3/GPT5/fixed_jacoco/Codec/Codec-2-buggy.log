@@ -1,0 +1,16 @@
+==== 2026-04-29 13:12:26 :: Codec-2-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+[RESTORE] restored target/tests/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByChunk
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByChunk
+  - org.apache.commons.codec.binary.Base64Test::testSingletonsChunked
+---- exit code: 0 | test_result: Not Pass | Codec-2-buggy
+

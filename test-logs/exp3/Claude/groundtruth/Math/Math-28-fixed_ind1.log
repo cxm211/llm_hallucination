@@ -1,0 +1,10 @@
+==== 2026-04-21 11:51:59 :: Math-28-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant1
+---- exit code: 0 | Math-28-fixed_ind1
+

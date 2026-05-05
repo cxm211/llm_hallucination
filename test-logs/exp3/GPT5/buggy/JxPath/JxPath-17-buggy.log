@@ -1,0 +1,13 @@
+==== 2026-04-29 01:33:23 :: JxPath-17-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute_NamespacedOnlyWithWildcard
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttribute
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttribute_NamespacedOnlyWithWildcard
+---- exit code: 0 | JxPath-17-buggy
+

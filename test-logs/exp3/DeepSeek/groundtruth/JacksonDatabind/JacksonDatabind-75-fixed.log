@@ -1,0 +1,11 @@
+==== 2026-04-24 01:04:36 :: JacksonDatabind-75-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.EnumFormatShapeTest::testEnumPropertyAsNaturalWithIndex
+---- exit code: 0 | JacksonDatabind-75-fixed
+

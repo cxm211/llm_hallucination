@@ -1,0 +1,11 @@
+==== 2026-04-22 03:26:01 :: Closure-165-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordMissingProperty2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue725
+---- exit code: 0 | Closure-165-buggy_ind1
+

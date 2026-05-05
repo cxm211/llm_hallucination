@@ -1,0 +1,10 @@
+==== 2026-04-24 14:24:17 :: Math-62-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizerTest::testStartValueWithLowEvaluations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizerTest::testStartValueWithLowEvaluations
+---- exit code: 0 | Math-62-fixed_ind1
+

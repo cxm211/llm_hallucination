@@ -1,0 +1,13 @@
+==== 2026-04-26 18:00:32 :: JacksonDatabind-22-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.TestJsonValue::testJsonValueWithCustomOverride
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonValue::testJsonValueWithCustomOverride
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-22-buggy/jacoco.exec.
+[INFO] Analyzing 492 classes.
+[JACOCO] done.
+[PARSE] 329 line rows.

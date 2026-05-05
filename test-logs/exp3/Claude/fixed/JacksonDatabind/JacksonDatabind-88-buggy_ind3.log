@@ -1,0 +1,109 @@
+==== 2026-03-28 10:28:51 :: JacksonDatabind-88-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/maven-build.xml:92: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 398 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:198: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ctor.isAccessible()) {
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:283: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!m.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java:172: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!f.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java:764: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ao.isAccessible()) {
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/deser/std/DateDeserializers.java:222: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 Calendar c = _calendarClass.newInstance();            
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java:453: warning: [deprecation] Double(String) in Double has been deprecated
+    [javac]                         return new Double(text);
+    [javac]                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/ext/Java7Support.java:24: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             impl = (Java7Support) cls.newInstance();
+    [javac]                                      ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/ext/OptionalHandlerFactory.java:156: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             return Class.forName(className).newInstance();
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java:61: error: cannot find symbol
+    [javac]                 throw new JsonMappingException(ctxt.getParser(),
+    [javac]                                                    ^
+    [javac]   symbol:   method getParser()
+    [javac]   location: variable ctxt of type DatabindContext
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java:314: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     return serClass.newInstance();
+    [javac]                                    ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+    [javac] 9 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/maven-build.xml:92: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | JacksonDatabind-88-buggy_ind3
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/maven-build.xml:92: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 112 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java:61: error: cannot find symbol
+    [javac]                 throw new JsonMappingException(ctxt.getParser(),
+    [javac]                                                    ^
+    [javac]   symbol:   method getParser()
+    [javac]   location: variable ctxt of type DatabindContext
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java:314: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     return serClass.newInstance();
+    [javac]                                    ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-88-buggy_ind3/maven-build.xml:92: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] failed: Not Compilable: test suite failed to compile
+>>> [JACOCO] done

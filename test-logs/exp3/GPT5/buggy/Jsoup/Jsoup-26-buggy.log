@@ -1,0 +1,10 @@
+==== 2026-04-27 04:17:13 :: Jsoup-26-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.safety.CleanerTest::handlesFramesets
+---- exit code: 0 | Jsoup-26-buggy
+

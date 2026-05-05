@@ -1,0 +1,24 @@
+==== 2026-04-26 03:43:18 :: Closure-17-buggy ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue688
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-17-buggy/jacoco_base.exec.
+[INFO] Analyzing 1162 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue688
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-17-buggy/jacoco.exec.
+[INFO] Analyzing 1162 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 51 line rows.
+[PARSE] 51 base line rows.

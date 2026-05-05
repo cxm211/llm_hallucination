@@ -1,0 +1,13 @@
+==== 2026-04-29 04:41:39 :: Compress-43-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.DataDescriptorTest::doesntWriteDataDescriptorWhenAddingRawEntries
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.DataDescriptorTest::doesntWriteDataDescriptorWhenAddingRawEntries
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-43-buggy/jacoco.exec.
+[INFO] Analyzing 262 classes.
+[JACOCO] done.
+[PARSE] 119 line rows.

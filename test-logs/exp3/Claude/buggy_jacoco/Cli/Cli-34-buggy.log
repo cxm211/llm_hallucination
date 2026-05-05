@@ -1,0 +1,37 @@
+==== 2026-03-27 00:27:04 :: Cli-34-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.cli.CommandLineTest::testGetParsedOptionValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.CommandLineTest::testGetParsedOptionValue
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionBuilderTest::testTwoCompleteOptions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.OptionBuilderTest::testTwoCompleteOptions
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-34-buggy/jacoco_base.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionBuilderTest::testTypeNotResetAfterCreate
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.OptionBuilderTest::testTypeNotResetAfterCreate
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionBuilderTest::testMultipleOptionsWithDifferentTypes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.OptionBuilderTest::testMultipleOptionsWithDifferentTypes
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-34-buggy/jacoco.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 11 line rows.
+[PARSE] 11 base line rows.

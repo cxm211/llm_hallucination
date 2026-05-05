@@ -1,0 +1,10 @@
+==== 2026-04-21 08:26:32 :: JacksonCore-22-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNestedArrayFilteringWithPathAndMultipleMatches
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNestedArrayFilteringWithPathAndMultipleMatches
+---- exit code: 0 | JacksonCore-22-fixed_ind2
+

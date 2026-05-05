@@ -1,0 +1,32 @@
+==== 2026-03-28 06:38:16 :: JacksonDatabind-44-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.jsontype.TestSubtypes::testIssue1125WithDefault
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testIssue1125WithDefault
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-44-buggy/jacoco_base.exec.
+[INFO] Analyzing 500 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.jsontype.TestSubtypes::testNarrowWithSameClass
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testNarrowWithSameClass
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.jsontype.TestSubtypes::testNarrowWithDifferentSubclass
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testNarrowWithDifferentSubclass
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-44-buggy/jacoco.exec.
+[INFO] Analyzing 500 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 19 line rows.
+[PARSE] 19 base line rows.

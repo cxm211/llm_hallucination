@@ -1,0 +1,24 @@
+==== 2026-04-26 18:05:36 :: JacksonDatabind-57-buggy ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadValuesTest::testRootBeans
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadValuesTest::testRootBeans
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-57-buggy/jacoco_base.exec.
+[INFO] Analyzing 502 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadValuesTest::testRootBeans
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadValuesTest::testRootBeans
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-57-buggy/jacoco.exec.
+[INFO] Analyzing 502 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 9 line rows.
+[PARSE] 9 base line rows.

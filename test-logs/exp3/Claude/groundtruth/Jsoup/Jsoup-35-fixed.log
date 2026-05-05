@@ -1,0 +1,12 @@
+==== 2026-04-21 10:39:56 :: Jsoup-35-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedFormattingInTable
+  - org.jsoup.parser.HtmlParserTest::handlesNestedFormattingElements
+  - org.jsoup.parser.HtmlParserTest::handlesFormattingElementsWithAttributes
+---- exit code: 0 | Jsoup-35-fixed
+

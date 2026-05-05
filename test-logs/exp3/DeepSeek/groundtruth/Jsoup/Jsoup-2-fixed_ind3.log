@@ -1,0 +1,10 @@
+==== 2026-04-24 07:20:10 :: Jsoup-2-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.ParserTest::handlesTextAfterTextarea
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handlesTextAfterTextarea
+---- exit code: 0 | Jsoup-2-fixed_ind3
+

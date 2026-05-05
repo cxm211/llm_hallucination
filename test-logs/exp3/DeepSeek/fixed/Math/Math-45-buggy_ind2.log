@@ -1,0 +1,64 @@
+==== 2026-04-24 10:59:47 :: Math-45-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 31
+  - org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testOperate
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testExamples
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testGetEntry
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testAddFail
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testAdd
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testScalarAdd
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testTrace
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testNorm
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testToString
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testPlusMinus
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testMultiply2
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testDimensions
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testSubMatrix
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testPremultiplyVector
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testCopyFunctions
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testMath209
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testGetVectors
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testGetColumnMatrix
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testGetColumnVector
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testMultiply
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testEqualsAndHashCode
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testSerial
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testTranspose
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testPremultiply
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testGetRowMatrix
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testSetSubMatrix
+  - org.apache.commons.math.linear.SparseRealMatrixTest::testGetRowVector
+  - org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions
+  - org.apache.commons.math.linear.SparseRealVectorTest::testOuterProduct
+  - org.apache.commons.math.linear.UnmodifiableOpenMapRealVectorTest::testAllButExcluded
+---- exit code: 0 | Math-45-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.linear.OpenMapRealMatrixTest::testConstructorValid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.OpenMapRealMatrixTest
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-45-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 608 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-45-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 608 classes.
+>>> [JACOCO] done

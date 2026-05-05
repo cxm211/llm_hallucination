@@ -1,0 +1,13 @@
+==== 2026-04-23 03:40:03 :: Closure-164-buggy ====
+[RESTORE] restored test/com/google/javascript/rhino/jstype/FunctionTypeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference8
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference8
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionTypeRelationships
+---- exit code: 0 | test_result: Not Pass | Closure-164-buggy
+

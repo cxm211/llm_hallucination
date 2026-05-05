@@ -1,0 +1,13 @@
+==== 2026-04-28 23:27:28 :: Math-84-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/optimization/direct/MultiDirectionalTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testRosenbrock
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testPowell
+---- exit code: 0 | test_result: Not Pass | Math-84-buggy
+

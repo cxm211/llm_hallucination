@@ -1,0 +1,11 @@
+==== 2026-04-28 21:27:38 :: Math-58-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.fitting.GaussianFitterTest::testMath519Variant
+  - org.apache.commons.math.optimization.fitting.GaussianFitterTest::testMath519
+---- exit code: 0 | Math-58-buggy
+

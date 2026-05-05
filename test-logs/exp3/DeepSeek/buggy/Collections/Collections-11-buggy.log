@@ -1,0 +1,12 @@
+==== 2026-04-24 02:29:56 :: Collections-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testEqualsAfterSerialization
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testHashCodeWithNullKeys
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testHashCodeOrderSensitivity
+---- exit code: 0 | Collections-11-buggy
+

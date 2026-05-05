@@ -1,0 +1,35 @@
+==== 2026-03-29 14:53:40 :: JxPath-10-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetOperations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetOperations
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-buggy/jacoco_base.exec.
+[INFO] Analyzing 159 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetEqualityWithNonZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetComparisonWithNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetComparisonWithNegative
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetWithString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-buggy/jacoco.exec.
+[INFO] Analyzing 159 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 4 line rows.
+[PARSE] 4 base line rows.

@@ -1,0 +1,11 @@
+==== 2026-04-23 02:19:53 :: Closure-56-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/JSCompilerSourceExcerptProviderTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExcerptInexistantLine
+---- exit code: 0 | test_result: Not Pass | Closure-56-buggy
+

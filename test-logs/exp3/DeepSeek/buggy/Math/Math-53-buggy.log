@@ -1,0 +1,11 @@
+==== 2026-04-24 07:58:55 :: Math-53-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.complex.ComplexTest::testAddNaN
+  - org.apache.commons.math.complex.ComplexTest::testAddNaNRealPart
+---- exit code: 0 | Math-53-buggy
+

@@ -1,0 +1,16 @@
+==== 2026-04-26 06:58:22 :: Closure-100-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis3
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis4
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis5
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction4
+---- exit code: 0 | test_result: Not Pass | Closure-100-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-21 18:25:53 :: Chart-21-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testReplaceMaxItemDifferentMin
+  - org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBounds
+---- exit code: 0 | Chart-21-buggy_ind1
+

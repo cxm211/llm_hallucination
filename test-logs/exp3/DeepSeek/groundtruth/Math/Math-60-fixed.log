@@ -1,0 +1,10 @@
+==== 2026-04-24 14:02:10 :: Math-60-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.NormalDistributionTest::testCumulativeProbabilityZeroStandardDeviation
+---- exit code: 0 | Math-60-fixed
+

@@ -1,0 +1,14 @@
+==== 2026-04-28 21:20:42 :: Math-29-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplyZeroWithSpecialValues
+  - org.apache.commons.math3.linear.SparseRealVectorTest::testEbeDivideMixedTypes
+  - org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplyMixedTypes
+  - org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplySameType
+  - org.apache.commons.math3.linear.SparseRealVectorTest::testEbeDivideZeroByZero
+---- exit code: 0 | Math-29-buggy
+

@@ -1,0 +1,28 @@
+==== 2026-04-22 17:39:36 :: Chart-2-buggy_ind4 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2
+[JACOCO] defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-buggy_ind4/jacoco_base.exec.
+[INFO] Analyzing 565 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testIterateRangeBounds_AllNaN
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-buggy_ind4/jacoco.exec.
+[INFO] Analyzing 565 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 107 line rows.
+[PARSE] 107 base line rows.

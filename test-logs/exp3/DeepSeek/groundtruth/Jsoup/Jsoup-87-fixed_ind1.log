@@ -1,0 +1,10 @@
+==== 2026-04-24 07:26:43 :: Jsoup-87-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.HtmlParserTest::preservedCaseBoldCantNest
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::preservedCaseBoldCantNest
+---- exit code: 0 | Jsoup-87-fixed_ind1
+

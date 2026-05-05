@@ -1,0 +1,12 @@
+==== 2026-04-24 12:23:04 :: Math-15-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math3/util/FastMathTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.util.FastMathStrictComparisonTest::test1
+  - org.apache.commons.math3.util.FastMathTest::testPowSpecialCases
+---- exit code: 0 | test_result: Not Pass | Math-15-buggy
+

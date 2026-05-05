@@ -1,0 +1,11 @@
+==== 2026-04-23 05:00:55 :: Closure-41-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testOverrideVarArgs
+  - com.google.javascript.jscomp.TypeCheckTest::testOverrideFewerParameters
+---- exit code: 0 | Closure-41-fixed
+

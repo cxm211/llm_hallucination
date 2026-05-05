@@ -1,0 +1,11 @@
+==== 2026-04-29 04:32:28 :: Compress-12-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178_Direct
+  - org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178
+---- exit code: 0 | Compress-12-buggy
+

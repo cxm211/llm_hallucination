@@ -1,0 +1,42 @@
+==== 2026-03-28 08:11:43 :: JacksonDatabind-68-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationOfObjectWithChainedArrayCreators
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationWithArrayDelegateAndInjectables
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testWithSingleString
+---- exit code: 0 | JacksonDatabind-68-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationOfObjectWithChainedArrayCreators
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationOfObjectWithChainedArrayCreators
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testWithSingleString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testWithSingleString
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationWithArrayDelegateAndInjectables
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationWithArrayDelegateAndInjectables
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-68-buggy/jacoco_base.exec.
+[INFO] Analyzing 510 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-68-buggy/jacoco.exec.
+[INFO] Analyzing 510 classes.
+>>> [JACOCO] done

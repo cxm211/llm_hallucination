@@ -1,0 +1,38 @@
+==== 2026-04-22 17:33:56 :: Chart-14-buggy_ind2 ====
+[JACOCO] trigger=4 add=1 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 514 classes.
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarkerNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 514 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 74 line rows.
+[PARSE] 74 base line rows.

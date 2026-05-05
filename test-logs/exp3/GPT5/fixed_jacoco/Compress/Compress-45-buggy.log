@@ -1,0 +1,14 @@
+==== 2026-04-29 04:57:46 :: Compress-45-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/tar/TarUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testBigNumberStarMode
+  - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testOldEntryStarMode
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testRoundTripOctalOrBinary8
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testRoundTripOctalOrBinary12
+---- exit code: 0 | test_result: Not Pass | Compress-45-buggy
+

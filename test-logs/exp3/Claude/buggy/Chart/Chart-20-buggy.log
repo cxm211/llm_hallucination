@@ -1,0 +1,12 @@
+==== 2026-04-22 17:06:11 :: Chart-20-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jfree.chart.plot.junit.ValueMarkerTests::test1808376
+  - org.jfree.chart.plot.junit.ValueMarkerTests::testValueMarkerWithDifferentStrokes
+  - org.jfree.chart.plot.junit.ValueMarkerTests::testValueMarkerWithNullOutlinePaint
+---- exit code: 0 | Chart-20-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-22 17:15:21 :: Chart-17-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.time.junit.TimeSeriesTests::testBug1832432
+---- exit code: 0 | Chart-17-buggy_ind1
+

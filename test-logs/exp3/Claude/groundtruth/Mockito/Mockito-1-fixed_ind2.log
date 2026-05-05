@@ -1,0 +1,9 @@
+==== 2026-04-21 19:27:52 :: Mockito-1-fixed_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockito.internal.invocation.InvocationMatcherTest::should_not_capture_when_matcher_is_not_capturing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-1-fixed_ind2
+

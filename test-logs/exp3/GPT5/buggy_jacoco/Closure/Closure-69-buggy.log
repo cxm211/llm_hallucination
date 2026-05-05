@@ -1,0 +1,23 @@
+==== 2026-04-26 03:58:54 :: Closure-69-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-69-buggy/jacoco.exec.
+[INFO] Analyzing 1088 classes.
+[JACOCO] done.
+[PARSE] 47 line rows.

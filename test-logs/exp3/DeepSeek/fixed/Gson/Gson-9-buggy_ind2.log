@@ -1,0 +1,84 @@
+==== 2026-04-26 00:57:52 :: Gson-9-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+gson-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/maven-build.xml:73: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:151: error: <anonymous com.google.gson.internal.bind.TypeAdapters$3> is not abstract and does not override abstract method write(JsonWriter,Boolean) in TypeAdapter
+    [javac]   public static final TypeAdapter<Boolean> BOOLEAN = new TypeAdapter<Boolean>() {
+    [javac]                                                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:163: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:166: error: cannot find symbol
+    [javac]         return nullValue();
+    [javac]                ^
+    [javac]   symbol: method nullValue()
+    [javac] 3 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/maven-build.xml:73: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Gson-9-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+gson-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/maven-build.xml:73: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:151: error: <anonymous com.google.gson.internal.bind.TypeAdapters$3> is not abstract and does not override abstract method write(JsonWriter,Boolean) in TypeAdapter
+    [javac]   public static final TypeAdapter<Boolean> BOOLEAN = new TypeAdapter<Boolean>() {
+    [javac]                                                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:163: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:166: error: cannot find symbol
+    [javac]         return nullValue();
+    [javac]                ^
+    [javac]   symbol: method nullValue()
+    [javac] 3 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy_ind2/gson/maven-build.xml:73: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] failed: Not Compilable: test suite failed to compile
+>>> [JACOCO] done

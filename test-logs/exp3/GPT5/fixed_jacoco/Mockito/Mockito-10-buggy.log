@@ -1,0 +1,13 @@
+==== 2026-04-28 19:15:28 :: Mockito-10-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockitousage.serialization.DeepStubsSerializableTest::should_serialize_and_deserialize_parameterized_class_mocked_with_deep_stubs
+  - org.mockitousage.serialization.DeepStubsSerializableTest::should_discard_generics_metadata_when_serialized_then_disabling_deep_stubs_with_generics
+  - org.mockitousage.serialization.DeepStubsSerializableTest::should_serialize_and_deserialize_mock_created_with_deep_stubs
+---- exit code: 0 | test_result: Not Pass | Mockito-10-buggy
+

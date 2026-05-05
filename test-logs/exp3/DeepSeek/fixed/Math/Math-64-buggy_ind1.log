@@ -1,0 +1,116 @@
+==== 2026-04-24 11:48:36 :: Math-64-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 2.2-SNAPSHOT --------
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/test-classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/classes/META-INF
+     [copy] Copying 1 file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/classes/META-INF
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/build.xml:158: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 444 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/src/main/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 warnings
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+download-junit:
+
+compile.tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/build.xml:172: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 286 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/src/test/java/org/apache/commons/math/analysis/interpolation/SmoothingBicubicSplineInterpolatorTest.java:31: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac] public final class SmoothingBicubicSplineInterpolatorTest {
+    [javac]              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/src/test/java/org/apache/commons/math/optimization/general/MinpackTest.java:1532: error: cannot find symbol
+    [javac]     minpackTest(new BrownBadlyScaledFunction(new double[] { 1.0, 1.0 },
+    [javac]                     ^
+    [javac]   symbol:   class BrownBadlyScaledFunction
+    [javac]   location: class MinpackTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/src/test/java/org/apache/commons/math/util/MathUtilsTest.java:442: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public void testArrayEquals() {
+    [javac]                 ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 error
+    [javac] 2 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/build.xml:172: Compile failed; see the compiler error output for details.
+
+Total time: 8 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Math-64-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 2.2-SNAPSHOT --------
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/build.xml:158: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+download-junit:
+
+compile.tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/build.xml:172: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 95 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/src/test/java/org/apache/commons/math/optimization/general/MinpackTest.java:1532: error: cannot find symbol
+    [javac]     minpackTest(new BrownBadlyScaledFunction(new double[] { 1.0, 1.0 },
+    [javac]                     ^
+    [javac]   symbol:   class BrownBadlyScaledFunction
+    [javac]   location: class MinpackTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/src/test/java/org/apache/commons/math/util/MathUtilsTest.java:442: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]     public void testArrayEquals() {
+    [javac]                 ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 error
+    [javac] 1 warning
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy_ind1/build.xml:172: Compile failed; see the compiler error output for details.
+
+Total time: 4 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] failed: Not Compilable: test suite failed to compile
+>>> [JACOCO] done

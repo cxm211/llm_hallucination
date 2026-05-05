@@ -1,0 +1,13 @@
+==== 2026-04-26 07:28:13 :: Closure-171-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+---- exit code: 0 | test_result: Not Pass | Closure-171-buggy
+

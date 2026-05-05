@@ -1,0 +1,41 @@
+==== 2026-03-27 00:54:50 :: Cli-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParseRequiredTest::testMissingThreeRequiredOptions
+---- exit code: 0 | Cli-9-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 2, total: 4
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionsTest::testMissingOptionsException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionsTest::testMissingOptionsExceptionSingleOption
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.ParseRequiredTest::testMissingThreeRequiredOptions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParseRequiredTest::testMissingThreeRequiredOptions
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-9-buggy/jacoco_base.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-9-buggy/jacoco.exec.
+[INFO] Analyzing 20 classes.
+>>> [JACOCO] done

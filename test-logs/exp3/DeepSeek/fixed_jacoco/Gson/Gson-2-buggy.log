@@ -1,0 +1,17 @@
+==== 2026-04-26 00:59:58 :: Gson-2-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.gson.DefaultInetAddressTypeAdapterTest::testInetAddressSerializationAndDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonObjectDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonArrayDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonNullDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonNullSerialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonPrimitiveDeserialization
+---- exit code: 0 | test_result: Not Pass | Gson-2-buggy
+

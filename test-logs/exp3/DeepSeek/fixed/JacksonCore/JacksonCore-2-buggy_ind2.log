@@ -1,0 +1,52 @@
+==== 2026-04-25 23:28:45 :: JacksonCore-2-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.fasterxml.jackson.core.json.TestJsonGenerator::testLongWrite
+  - com.fasterxml.jackson.core.json.TestJsonGenerator::testIntWrite
+  - com.fasterxml.jackson.core.json.TestNumericValues::testSimpleDouble
+  - com.fasterxml.jackson.core.json.TestNumericValues::testParsingOfLongerSequences
+  - com.fasterxml.jackson.core.json.TestNumericValues::testNumbers
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersBytes
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersChars
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLeadingZeroesUTF8
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLeadingZeroesReader
+  - com.fasterxml.jackson.core.json.TestUtf8Parser::testUtf8Name2Bytes
+  - com.fasterxml.jackson.core.json.TestValueConversions::testAsBoolean
+  - com.fasterxml.jackson.core.json.TestWithTonsaSymbols::testStreamReaderParser
+  - com.fasterxml.jackson.core.main.TestGeneratorMisc::testLongerObjects
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testSharedSymbols
+  - com.fasterxml.jackson.core.sym.TestJsonParserSymbols::testByteSymbolsWithEOF
+---- exit code: 0 | JacksonCore-2-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersBytes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersBytes
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersChars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersChars
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testLeadingZeroFractionChars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 77 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 77 classes.
+>>> [JACOCO] done

@@ -1,0 +1,12 @@
+==== 2026-04-24 12:53:36 :: Math-76-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/linear/SingularValueSolverTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+---- exit code: 0 | test_result: Not Pass | Math-76-buggy
+

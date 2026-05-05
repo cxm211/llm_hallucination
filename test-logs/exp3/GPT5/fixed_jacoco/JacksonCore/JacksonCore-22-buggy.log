@@ -1,0 +1,22 @@
+==== 2026-04-29 02:37:02 :: JacksonCore-22-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testSingleMatchFilteringWithPath
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testAllowMultipleMatchesWithPath1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testAllowMultipleMatchesWithPath2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testMultipleMatchFilteringWithPath1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testMultipleMatchFilteringWithPath2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testMultipleMatchFilteringWithPath3
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testSingleMatchFilteringWithoutPath
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatchesWithoutPath1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatchesWithoutPath2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testIndexMatchWithPath1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testIndexMatchWithPath2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testAllowMultipleMatchesWithoutPath
+---- exit code: 0 | test_result: Not Pass | JacksonCore-22-buggy
+

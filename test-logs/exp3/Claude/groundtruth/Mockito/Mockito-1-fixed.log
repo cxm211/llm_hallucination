@@ -1,0 +1,10 @@
+==== 2026-04-21 19:03:10 :: Mockito-1-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_matchers_exceed_invocation_args
+---- exit code: 0 | Mockito-1-fixed
+

@@ -1,0 +1,11 @@
+==== 2026-04-23 22:59:09 :: JacksonDatabind-72-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/creators/InnerClassCreatorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.InnerClassCreatorTest::testIssue1501
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-72-buggy
+

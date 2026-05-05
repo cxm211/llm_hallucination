@@ -1,0 +1,18 @@
+==== 2026-04-28 21:53:48 :: Math-22-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math3.distribution.FDistributionTest::testIsSupportLowerBoundInclusive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.distribution.FDistributionTest::testIsSupportLowerBoundInclusive
+[JACOCO] defects4j test -t org.apache.commons.math3.distribution.UniformRealDistributionTest::testIsSupportUpperBoundInclusive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.distribution.UniformRealDistributionTest::testIsSupportUpperBoundInclusive
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-22-buggy/jacoco.exec.
+[INFO] Analyzing 656 classes.
+[JACOCO] done.
+[PARSE] 6 line rows.

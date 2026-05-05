@@ -1,0 +1,36 @@
+==== 2026-03-30 04:11:55 :: Time-5-buggy_ind2 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 208 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_years1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 208 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 23 line rows.
+[PARSE] 23 base line rows.

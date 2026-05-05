@@ -1,0 +1,588 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : JxPath
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] JxPath-1-fixed
+  [CHECKOUT] JxPath-2-fixed
+  [CHECKOUT] JxPath-3-fixed
+  [CHECKOUT] JxPath-4-fixed
+  [CHECKOUT] JxPath-5-fixed
+  [CHECKOUT] JxPath-6-fixed
+  [CHECKOUT] JxPath-7-fixed
+  [CHECKOUT] JxPath-8-fixed
+  [CHECKOUT] JxPath-9-fixed
+  [CHECKOUT] JxPath-10-fixed
+  [CHECKOUT] JxPath-11-fixed
+  [CHECKOUT] JxPath-12-fixed
+  [CHECKOUT] JxPath-13-fixed
+  [CHECKOUT] JxPath-14-fixed
+  [CHECKOUT] JxPath-15-fixed
+  [CHECKOUT] JxPath-16-fixed
+  [CHECKOUT] JxPath-17-fixed
+  [CHECKOUT] JxPath-18-fixed
+  [CHECKOUT] JxPath-19-fixed
+  [CHECKOUT] JxPath-20-fixed
+  [CHECKOUT] JxPath-21-fixed
+  [CHECKOUT] JxPath-22-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== JxPath ===
+  [COPY] JxPath-1-fixed -> JxPath-1-fixed_ind1
+  [IND-OK] JxPath-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-1-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/dom/DOMModelTest.java
+  [COPY] JxPath-1-fixed -> JxPath-1-fixed_ind2
+  [IND-OK] JxPath-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-1-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/jdom/JDOMModelTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-1-fixed/src/test/org/apache/commons/jxpath/ri/model/dom/DOMModelTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-1-fixed/src/test/org/apache/commons/jxpath/ri/model/jdom/JDOMModelTest.java
+  [JxPath-1] inserted=4 failed=0
+  [COPY] JxPath-2-fixed -> JxPath-2-fixed_ind1
+  [IND-OK] JxPath-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java
+  [COPY] JxPath-2-fixed -> JxPath-2-fixed_ind2
+  [IND-OK] JxPath-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-fixed/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-fixed/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java
+  [JxPath-2] inserted=4 failed=0
+  [COPY] JxPath-3-fixed -> JxPath-3-fixed_ind1
+  [IND-OK] JxPath-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-3-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/beans/BadlyImplementedFactoryTest.java
+  [COPY] JxPath-3-fixed -> JxPath-3-fixed_ind2
+  [IND-OK] JxPath-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-3-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/beans/BadlyImplementedFactoryTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-3-fixed/src/test/org/apache/commons/jxpath/ri/model/beans/BadlyImplementedFactoryTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-3-fixed/src/test/org/apache/commons/jxpath/ri/model/beans/BadlyImplementedFactoryTest.java
+  [JxPath-3] inserted=4 failed=0
+  [COPY] JxPath-4-fixed -> JxPath-4-fixed_ind1
+  [IND-OK] JxPath-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [COPY] JxPath-4-fixed -> JxPath-4-fixed_ind2
+  [IND-OK] JxPath-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [COPY] JxPath-4-fixed -> JxPath-4-fixed_ind3
+  [IND-OK] JxPath-4-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed_ind3/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [COPY] JxPath-4-fixed -> JxPath-4-fixed_ind4
+  [IND-OK] JxPath-4-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed_ind4/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLSpaceTest.java
+  [JxPath-4] inserted=8 failed=0
+  [COPY] JxPath-5-fixed -> JxPath-5-fixed_ind1
+  [IND-OK] JxPath-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-5-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [COPY] JxPath-5-fixed -> JxPath-5-fixed_ind2
+  [IND-OK] JxPath-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-5-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-5-fixed/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-5-fixed/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [JxPath-5] inserted=4 failed=0
+  [COPY] JxPath-6-fixed -> JxPath-6-fixed_ind1
+  [IND-OK] JxPath-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-6-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [COPY] JxPath-6-fixed -> JxPath-6-fixed_ind2
+  [IND-OK] JxPath-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-6-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [COPY] JxPath-6-fixed -> JxPath-6-fixed_ind3
+  [IND-OK] JxPath-6-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-6-fixed_ind3/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-6-fixed/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-6-fixed/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-6-fixed/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java
+  [JxPath-6] inserted=6 failed=0
+  [COPY] JxPath-7-fixed -> JxPath-7-fixed_ind1
+  [IND-OK] JxPath-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-7-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-7-fixed -> JxPath-7-fixed_ind2
+  [IND-OK] JxPath-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-7-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-7-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-7-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [JxPath-7] inserted=4 failed=0
+  [COPY] JxPath-8-fixed -> JxPath-8-fixed_ind1
+  [IND-OK] JxPath-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-8-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-8-fixed -> JxPath-8-fixed_ind2
+  [IND-OK] JxPath-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-8-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-8-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-8-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [JxPath-8] inserted=4 failed=0
+  [COPY] JxPath-9-fixed -> JxPath-9-fixed_ind1
+  [IND-OK] JxPath-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-9-fixed -> JxPath-9-fixed_ind2
+  [IND-OK] JxPath-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-9-fixed -> JxPath-9-fixed_ind3
+  [IND-OK] JxPath-9-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed_ind3/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-9-fixed -> JxPath-9-fixed_ind4
+  [IND-OK] JxPath-9-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed_ind4/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [JxPath-9] inserted=8 failed=0
+  [COPY] JxPath-10-fixed -> JxPath-10-fixed_ind1
+  [IND-OK] JxPath-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-10-fixed -> JxPath-10-fixed_ind2
+  [IND-OK] JxPath-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [COPY] JxPath-10-fixed -> JxPath-10-fixed_ind3
+  [IND-OK] JxPath-10-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-fixed_ind3/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-10-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreOperationTest.java
+  [JxPath-10] inserted=6 failed=0
+  [COPY] JxPath-11-fixed -> JxPath-11-fixed_ind1
+  [IND-OK] JxPath-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-11-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [COPY] JxPath-11-fixed -> JxPath-11-fixed_ind2
+  [IND-OK] JxPath-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-11-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-11-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-11-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [JxPath-11] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-12-fixed/src/test/org/apache/commons/jxpath/ri/model/ExternalXMLNamespaceTest.java
+  [JxPath-12] inserted=1 failed=0
+  [COPY] JxPath-13-fixed -> JxPath-13-fixed_ind1
+  [IND-OK] JxPath-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-13-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/ExternalXMLNamespaceTest.java
+  [COPY] JxPath-13-fixed -> JxPath-13-fixed_ind2
+  [IND-OK] JxPath-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-13-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/ExternalXMLNamespaceTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-13-fixed/src/test/org/apache/commons/jxpath/ri/model/ExternalXMLNamespaceTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-13-fixed/src/test/org/apache/commons/jxpath/ri/model/ExternalXMLNamespaceTest.java
+  [JxPath-13] inserted=4 failed=0
+  [COPY] JxPath-14-fixed -> JxPath-14-fixed_ind1
+  [IND-OK] JxPath-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/CoreFunctionTest.java
+  [COPY] JxPath-14-fixed -> JxPath-14-fixed_ind2
+  [IND-OK] JxPath-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/CoreFunctionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreFunctionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-14-fixed/src/test/org/apache/commons/jxpath/ri/compiler/CoreFunctionTest.java
+  [JxPath-14] inserted=4 failed=0
+  [COPY] JxPath-15-fixed -> JxPath-15-fixed_ind1
+  [IND-OK] JxPath-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [COPY] JxPath-15-fixed -> JxPath-15-fixed_ind2
+  [IND-OK] JxPath-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [COPY] JxPath-15-fixed -> JxPath-15-fixed_ind3
+  [IND-OK] JxPath-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-fixed_ind3/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [JxPath-15] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-16-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [JxPath-16] inserted=1 failed=0
+  [COPY] JxPath-17-fixed -> JxPath-17-fixed_ind1
+  [IND-OK] JxPath-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-17-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [COPY] JxPath-17-fixed -> JxPath-17-fixed_ind2
+  [IND-OK] JxPath-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-17-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-17-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-17-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [JxPath-17] inserted=4 failed=0
+  [COPY] JxPath-18-fixed -> JxPath-18-fixed_ind1
+  [IND-OK] JxPath-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-18-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [COPY] JxPath-18-fixed -> JxPath-18-fixed_ind2
+  [IND-OK] JxPath-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-18-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-18-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-18-fixed/src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+  [JxPath-18] inserted=4 failed=0
+  [COPY] JxPath-19-fixed -> JxPath-19-fixed_ind1
+  [IND-OK] JxPath-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/AliasedNamespaceIterationTest.java
+  [COPY] JxPath-19-fixed -> JxPath-19-fixed_ind2
+  [IND-OK] JxPath-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/AliasedNamespaceIterationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-fixed/src/test/org/apache/commons/jxpath/ri/model/AliasedNamespaceIterationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-fixed/src/test/org/apache/commons/jxpath/ri/model/AliasedNamespaceIterationTest.java
+  [JxPath-19] inserted=4 failed=0
+  [COPY] JxPath-20-fixed -> JxPath-20-fixed_ind1
+  [IND-OK] JxPath-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-20-fixed_ind1/src/test/org/apache/commons/jxpath/ri/compiler/JXPath149Test.java
+  [COPY] JxPath-20-fixed -> JxPath-20-fixed_ind2
+  [IND-OK] JxPath-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-20-fixed_ind2/src/test/org/apache/commons/jxpath/ri/compiler/JXPath149Test.java
+  [COPY] JxPath-20-fixed -> JxPath-20-fixed_ind3
+  [IND-OK] JxPath-20-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-20-fixed_ind3/src/test/org/apache/commons/jxpath/ri/compiler/JXPath149Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-20-fixed/src/test/org/apache/commons/jxpath/ri/compiler/JXPath149Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-20-fixed/src/test/org/apache/commons/jxpath/ri/compiler/JXPath149Test.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-20-fixed/src/test/org/apache/commons/jxpath/ri/compiler/JXPath149Test.java
+  [JxPath-20] inserted=6 failed=0
+  [COPY] JxPath-21-fixed -> JxPath-21-fixed_ind1
+  [IND-OK] JxPath-21-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-21-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/MixedModelTest.java
+  [COPY] JxPath-21-fixed -> JxPath-21-fixed_ind2
+  [IND-OK] JxPath-21-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-21-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/JXPath151Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-21-fixed/src/test/org/apache/commons/jxpath/ri/model/MixedModelTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-21-fixed/src/test/org/apache/commons/jxpath/ri/model/JXPath151Test.java
+  [JxPath-21] inserted=4 failed=0
+  [COPY] JxPath-22-fixed -> JxPath-22-fixed_ind1
+  [IND-OK] JxPath-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-22-fixed_ind1/src/test/org/apache/commons/jxpath/ri/model/JXPath154Test.java
+  [COPY] JxPath-22-fixed -> JxPath-22-fixed_ind2
+  [IND-OK] JxPath-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-22-fixed_ind2/src/test/org/apache/commons/jxpath/ri/model/JXPath154Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-22-fixed/src/test/org/apache/commons/jxpath/ri/model/JXPath154Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-22-fixed/src/test/org/apache/commons/jxpath/ri/model/JXPath154Test.java
+  [JxPath-22] inserted=4 failed=0
+
+[INSERT DONE] inserted=98 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 22
+individual bugs: 48
+
+==== 2026-04-21 10:55:19 :: JxPath-1-fixed ====
+>>> defects4j test -r in JxPath-1-fixed
+---- exit code: 1 | JxPath-1-fixed
+
+==== 2026-04-21 10:55:21 :: JxPath-2-fixed ====
+>>> defects4j test -r in JxPath-2-fixed
+---- exit code: 1 | JxPath-2-fixed
+
+==== 2026-04-21 10:55:23 :: JxPath-3-fixed ====
+>>> defects4j test -r in JxPath-3-fixed
+---- exit code: 0 | JxPath-3-fixed
+
+==== 2026-04-21 10:55:27 :: JxPath-4-fixed ====
+>>> defects4j test -r in JxPath-4-fixed
+---- exit code: 0 | JxPath-4-fixed
+
+==== 2026-04-21 10:55:31 :: JxPath-5-fixed ====
+>>> defects4j test -r in JxPath-5-fixed
+---- exit code: 0 | JxPath-5-fixed
+
+==== 2026-04-21 10:55:36 :: JxPath-6-fixed ====
+>>> defects4j test -r in JxPath-6-fixed
+---- exit code: 0 | JxPath-6-fixed
+
+==== 2026-04-21 10:55:41 :: JxPath-7-fixed ====
+>>> defects4j test -r in JxPath-7-fixed
+---- exit code: 0 | JxPath-7-fixed
+
+==== 2026-04-21 10:55:45 :: JxPath-8-fixed ====
+>>> defects4j test -r in JxPath-8-fixed
+---- exit code: 0 | JxPath-8-fixed
+
+==== 2026-04-21 10:55:48 :: JxPath-9-fixed ====
+>>> defects4j test -r in JxPath-9-fixed
+---- exit code: 0 | JxPath-9-fixed
+
+==== 2026-04-21 10:55:53 :: JxPath-10-fixed ====
+>>> defects4j test -r in JxPath-10-fixed
+---- exit code: 0 | JxPath-10-fixed
+
+==== 2026-04-21 10:55:57 :: JxPath-11-fixed ====
+>>> defects4j test -r in JxPath-11-fixed
+---- exit code: 0 | JxPath-11-fixed
+
+==== 2026-04-21 10:56:01 :: JxPath-12-fixed ====
+>>> defects4j test -r in JxPath-12-fixed
+---- exit code: 0 | JxPath-12-fixed
+
+==== 2026-04-21 10:56:06 :: JxPath-13-fixed ====
+>>> defects4j test -r in JxPath-13-fixed
+---- exit code: 1 | JxPath-13-fixed
+
+==== 2026-04-21 10:56:08 :: JxPath-14-fixed ====
+>>> defects4j test -r in JxPath-14-fixed
+---- exit code: 0 | JxPath-14-fixed
+
+==== 2026-04-21 10:56:13 :: JxPath-15-fixed ====
+>>> defects4j test -r in JxPath-15-fixed
+---- exit code: 0 | JxPath-15-fixed
+
+==== 2026-04-21 10:56:19 :: JxPath-16-fixed ====
+>>> defects4j test -r in JxPath-16-fixed
+---- exit code: 0 | JxPath-16-fixed
+
+==== 2026-04-21 10:56:25 :: JxPath-17-fixed ====
+>>> defects4j test -r in JxPath-17-fixed
+---- exit code: 0 | JxPath-17-fixed
+
+==== 2026-04-21 10:56:29 :: JxPath-18-fixed ====
+>>> defects4j test -r in JxPath-18-fixed
+---- exit code: 0 | JxPath-18-fixed
+
+==== 2026-04-21 10:56:35 :: JxPath-19-fixed ====
+>>> defects4j test -r in JxPath-19-fixed
+---- exit code: 1 | JxPath-19-fixed
+
+==== 2026-04-21 10:56:37 :: JxPath-20-fixed ====
+>>> defects4j test -r in JxPath-20-fixed
+---- exit code: 0 | JxPath-20-fixed
+
+==== 2026-04-21 10:56:41 :: JxPath-21-fixed ====
+>>> defects4j test -r in JxPath-21-fixed
+---- exit code: 1 | JxPath-21-fixed
+
+==== 2026-04-21 10:56:43 :: JxPath-22-fixed ====
+>>> defects4j test -r in JxPath-22-fixed
+---- exit code: 0 | JxPath-22-fixed
+
+==== 2026-04-21 10:56:49 :: JxPath-1-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testGetNodeNameMismatch in JxPath-1-fixed_ind1
+---- exit code: 1 | JxPath-1-fixed_ind1
+
+==== 2026-04-21 10:56:51 :: JxPath-1-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testGetNodeNameMismatch in JxPath-1-fixed_ind2
+---- exit code: 1 | JxPath-1-fixed_ind2
+
+==== 2026-04-21 10:56:54 :: JxPath-2-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testNodeSetReturnNull in JxPath-2-fixed_ind1
+---- exit code: 1 | JxPath-2-fixed_ind1
+
+==== 2026-04-21 10:56:56 :: JxPath-2-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testNodeSetReturnSingleNode in JxPath-2-fixed_ind2
+---- exit code: 0 | JxPath-2-fixed_ind2
+
+==== 2026-04-21 10:56:59 :: JxPath-3-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest::testCreatePathWithEscapableCharacters in JxPath-3-fixed_ind1
+---- exit code: 0 | JxPath-3-fixed_ind1
+
+==== 2026-04-21 10:57:02 :: JxPath-3-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest::testCreatePathWithValue in JxPath-3-fixed_ind2
+---- exit code: 0 | JxPath-3-fixed_ind2
+
+==== 2026-04-21 10:57:04 :: JxPath-4-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testDefaultSpaceDOM in JxPath-4-fixed_ind1
+---- exit code: 0 | JxPath-4-fixed_ind1
+
+==== 2026-04-21 10:57:07 :: JxPath-4-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testDefaultSpaceJDOM in JxPath-4-fixed_ind2
+---- exit code: 0 | JxPath-4-fixed_ind2
+
+==== 2026-04-21 10:57:10 :: JxPath-4-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testMixedContentDOM in JxPath-4-fixed_ind3
+---- exit code: 0 | JxPath-4-fixed_ind3
+
+==== 2026-04-21 10:57:13 :: JxPath-4-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testMixedContentJDOM in JxPath-4-fixed_ind4
+---- exit code: 0 | JxPath-4-fixed_ind4
+
+==== 2026-04-21 10:57:16 :: JxPath-5-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfNullVariableAndNode in JxPath-5-fixed_ind1
+---- exit code: 0 | JxPath-5-fixed_ind1
+
+==== 2026-04-21 10:57:19 :: JxPath-5-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfNodeAndVariable in JxPath-5-fixed_ind2
+---- exit code: 0 | JxPath-5-fixed_ind2
+
+==== 2026-04-21 10:57:22 :: JxPath-6-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariableMultipleMatches in JxPath-6-fixed_ind1
+---- exit code: 0 | JxPath-6-fixed_ind1
+
+==== 2026-04-21 10:57:25 :: JxPath-6-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariableNoMatch in JxPath-6-fixed_ind2
+---- exit code: 0 | JxPath-6-fixed_ind2
+
+==== 2026-04-21 10:57:28 :: JxPath-6-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariableSecondElement in JxPath-6-fixed_ind3
+---- exit code: 0 | JxPath-6-fixed_ind3
+
+==== 2026-04-21 10:57:31 :: JxPath-7-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNodeSetOperationsReversed in JxPath-7-fixed_ind1
+---- exit code: 0 | JxPath-7-fixed_ind1
+
+==== 2026-04-21 10:57:33 :: JxPath-7-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNodeSetBoundaryComparisons in JxPath-7-fixed_ind2
+---- exit code: 0 | JxPath-7-fixed_ind2
+
+==== 2026-04-21 10:57:36 :: JxPath-8-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanWithNonZeroValues in JxPath-8-fixed_ind1
+---- exit code: 0 | JxPath-8-fixed_ind1
+
+==== 2026-04-21 10:57:39 :: JxPath-8-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanWithNegativeValues in JxPath-8-fixed_ind2
+---- exit code: 0 | JxPath-8-fixed_ind2
+
+==== 2026-04-21 10:57:42 :: JxPath-9-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanNotEqualToZero in JxPath-9-fixed_ind1
+---- exit code: 0 | JxPath-9-fixed_ind1
+
+==== 2026-04-21 10:57:44 :: JxPath-9-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanNotEqualToItself in JxPath-9-fixed_ind2
+---- exit code: 0 | JxPath-9-fixed_ind2
+
+==== 2026-04-21 10:57:47 :: JxPath-9-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNormalNumbersEqual in JxPath-9-fixed_ind3
+---- exit code: 0 | JxPath-9-fixed_ind3
+
+==== 2026-04-21 10:57:50 :: JxPath-9-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNormalNumbersNotEqual in JxPath-9-fixed_ind4
+---- exit code: 0 | JxPath-9-fixed_ind4
+
+==== 2026-04-21 10:57:53 :: JxPath-10-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetEqualityWithNonZero in JxPath-10-fixed_ind1
+---- exit code: 0 | JxPath-10-fixed_ind1
+
+==== 2026-04-21 10:57:56 :: JxPath-10-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetComparisonWithNegative in JxPath-10-fixed_ind2
+---- exit code: 0 | JxPath-10-fixed_ind2
+
+==== 2026-04-21 10:57:59 :: JxPath-10-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetWithString in JxPath-10-fixed_ind3
+---- exit code: 0 | JxPath-10-fixed_ind3
+
+==== 2026-04-21 10:58:03 :: JxPath-11-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testAttributeNamespaceWithExternalPrefix in JxPath-11-fixed_ind1
+---- exit code: 0 | JxPath-11-fixed_ind1
+
+==== 2026-04-21 10:58:06 :: JxPath-11-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testAttributeWildcardWithNamespace in JxPath-11-fixed_ind2
+---- exit code: 0 | JxPath-11-fixed_ind2
+
+==== 2026-04-21 10:58:09 :: JxPath-13-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testGetPrefixWithNullPointer in JxPath-13-fixed_ind1
+---- exit code: 0 | JxPath-13-fixed_ind1
+
+==== 2026-04-21 10:58:12 :: JxPath-13-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testGetNamespaceURIWithParent in JxPath-13-fixed_ind2
+---- exit code: 1 | JxPath-13-fixed_ind2
+
+==== 2026-04-21 10:58:15 :: JxPath-14-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testRoundEdgeCases in JxPath-14-fixed_ind1
+---- exit code: 0 | JxPath-14-fixed_ind1
+
+==== 2026-04-21 10:58:18 :: JxPath-14-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testFloorCeilingNegativeZero in JxPath-14-fixed_ind2
+---- exit code: 0 | JxPath-14-fixed_ind2
+
+==== 2026-04-21 10:58:21 :: JxPath-15-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testUnionMultipleElements in JxPath-15-fixed_ind1
+---- exit code: 0 | JxPath-15-fixed_ind1
+
+==== 2026-04-21 10:58:24 :: JxPath-15-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testUnionThreeElements in JxPath-15-fixed_ind2
+---- exit code: 0 | JxPath-15-fixed_ind2
+
+==== 2026-04-21 10:58:27 :: JxPath-15-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testUnionSingleElement in JxPath-15-fixed_ind3
+---- exit code: 0 | JxPath-15-fixed_ind3
+
+==== 2026-04-21 10:58:29 :: JxPath-17-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testAxisAttributeNamespaceWildcardMixed in JxPath-17-fixed_ind1
+---- exit code: 0 | JxPath-17-fixed_ind1
+
+==== 2026-04-21 10:58:32 :: JxPath-17-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testAxisAttributeNamespaceFiltering in JxPath-17-fixed_ind2
+---- exit code: 0 | JxPath-17-fixed_ind2
+
+==== 2026-04-21 10:58:35 :: JxPath-18-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testAttributeNodeTypeTest in JxPath-18-fixed_ind1
+---- exit code: 0 | JxPath-18-fixed_ind1
+
+==== 2026-04-21 10:58:38 :: JxPath-18-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testAttributeWithNamespaceWildcardMultiple in JxPath-18-fixed_ind2
+---- exit code: 0 | JxPath-18-fixed_ind2
+
+==== 2026-04-21 10:58:41 :: JxPath-19-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOMWithNoMatchingElements in JxPath-19-fixed_ind1
+---- exit code: 1 | JxPath-19-fixed_ind1
+
+==== 2026-04-21 10:58:43 :: JxPath-19-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOMWithMultipleSameNameElements in JxPath-19-fixed_ind2
+---- exit code: 1 | JxPath-19-fixed_ind2
+
+==== 2026-04-21 10:58:46 :: JxPath-20-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.JXPath149Test::testNaNComparison in JxPath-20-fixed_ind1
+---- exit code: 0 | JxPath-20-fixed_ind1
+
+==== 2026-04-21 10:58:49 :: JxPath-20-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.JXPath149Test::testNaNWithNumberComparison in JxPath-20-fixed_ind2
+---- exit code: 0 | JxPath-20-fixed_ind2
+
+==== 2026-04-21 10:58:53 :: JxPath-20-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.JXPath149Test::testComplexOperationWithZeroAndNegative in JxPath-20-fixed_ind3
+---- exit code: 0 | JxPath-20-fixed_ind3
+
+==== 2026-04-21 10:58:56 :: JxPath-21-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.MixedModelTest::testNullLength in JxPath-21-fixed_ind1
+---- exit code: 1 | JxPath-21-fixed_ind1
+
+==== 2026-04-21 10:58:58 :: JxPath-21-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.JXPath151Test::testMapNullValueLength in JxPath-21-fixed_ind2
+---- exit code: 1 | JxPath-21-fixed_ind2
+
+==== 2026-04-21 10:59:01 :: JxPath-22-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.JXPath154Test::testEmptyNamespaceAttrDOM in JxPath-22-fixed_ind1
+---- exit code: 0 | JxPath-22-fixed_ind1
+
+==== 2026-04-21 10:59:04 :: JxPath-22-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.jxpath.ri.model.JXPath154Test::testNestedEmptyNamespaceDOM in JxPath-22-fixed_ind2
+---- exit code: 0 | JxPath-22-fixed_ind2
+
+
+=== Combined Test Run Summary ===
+  JxPath/JxPath-1-fixed                                     -> FAIL(1)
+  JxPath/JxPath-10-fixed                                    -> OK
+  JxPath/JxPath-11-fixed                                    -> OK
+  JxPath/JxPath-12-fixed                                    -> OK
+  JxPath/JxPath-13-fixed                                    -> FAIL(1)
+  JxPath/JxPath-14-fixed                                    -> OK
+  JxPath/JxPath-15-fixed                                    -> OK
+  JxPath/JxPath-16-fixed                                    -> OK
+  JxPath/JxPath-17-fixed                                    -> OK
+  JxPath/JxPath-18-fixed                                    -> OK
+  JxPath/JxPath-19-fixed                                    -> FAIL(1)
+  JxPath/JxPath-2-fixed                                     -> FAIL(1)
+  JxPath/JxPath-20-fixed                                    -> OK
+  JxPath/JxPath-21-fixed                                    -> FAIL(1)
+  JxPath/JxPath-22-fixed                                    -> OK
+  JxPath/JxPath-3-fixed                                     -> OK
+  JxPath/JxPath-4-fixed                                     -> OK
+  JxPath/JxPath-5-fixed                                     -> OK
+  JxPath/JxPath-6-fixed                                     -> OK
+  JxPath/JxPath-7-fixed                                     -> OK
+  JxPath/JxPath-8-fixed                                     -> OK
+  JxPath/JxPath-9-fixed                                     -> OK
+Combined total: 22 | failed: 5 | timed out: 0
+
+=== Individual Test Run Summary ===
+  JxPath/JxPath-1-fixed_ind1                                -> FAIL(1)
+  JxPath/JxPath-1-fixed_ind2                                -> FAIL(1)
+  JxPath/JxPath-10-fixed_ind1                               -> OK
+  JxPath/JxPath-10-fixed_ind2                               -> OK
+  JxPath/JxPath-10-fixed_ind3                               -> OK
+  JxPath/JxPath-11-fixed_ind1                               -> OK
+  JxPath/JxPath-11-fixed_ind2                               -> OK
+  JxPath/JxPath-13-fixed_ind1                               -> OK
+  JxPath/JxPath-13-fixed_ind2                               -> FAIL(1)
+  JxPath/JxPath-14-fixed_ind1                               -> OK
+  JxPath/JxPath-14-fixed_ind2                               -> OK
+  JxPath/JxPath-15-fixed_ind1                               -> OK
+  JxPath/JxPath-15-fixed_ind2                               -> OK
+  JxPath/JxPath-15-fixed_ind3                               -> OK
+  JxPath/JxPath-17-fixed_ind1                               -> OK
+  JxPath/JxPath-17-fixed_ind2                               -> OK
+  JxPath/JxPath-18-fixed_ind1                               -> OK
+  JxPath/JxPath-18-fixed_ind2                               -> OK
+  JxPath/JxPath-19-fixed_ind1                               -> FAIL(1)
+  JxPath/JxPath-19-fixed_ind2                               -> FAIL(1)
+  JxPath/JxPath-2-fixed_ind1                                -> FAIL(1)
+  JxPath/JxPath-2-fixed_ind2                                -> OK
+  JxPath/JxPath-20-fixed_ind1                               -> OK
+  JxPath/JxPath-20-fixed_ind2                               -> OK
+  JxPath/JxPath-20-fixed_ind3                               -> OK
+  JxPath/JxPath-21-fixed_ind1                               -> FAIL(1)
+  JxPath/JxPath-21-fixed_ind2                               -> FAIL(1)
+  JxPath/JxPath-22-fixed_ind1                               -> OK
+  JxPath/JxPath-22-fixed_ind2                               -> OK
+  JxPath/JxPath-3-fixed_ind1                                -> OK
+  JxPath/JxPath-3-fixed_ind2                                -> OK
+  JxPath/JxPath-4-fixed_ind1                                -> OK
+  JxPath/JxPath-4-fixed_ind2                                -> OK
+  JxPath/JxPath-4-fixed_ind3                                -> OK
+  JxPath/JxPath-4-fixed_ind4                                -> OK
+  JxPath/JxPath-5-fixed_ind1                                -> OK
+  JxPath/JxPath-5-fixed_ind2                                -> OK
+  JxPath/JxPath-6-fixed_ind1                                -> OK
+  JxPath/JxPath-6-fixed_ind2                                -> OK
+  JxPath/JxPath-6-fixed_ind3                                -> OK
+  JxPath/JxPath-7-fixed_ind1                                -> OK
+  JxPath/JxPath-7-fixed_ind2                                -> OK
+  JxPath/JxPath-8-fixed_ind1                                -> OK
+  JxPath/JxPath-8-fixed_ind2                                -> OK
+  JxPath/JxPath-9-fixed_ind1                                -> OK
+  JxPath/JxPath-9-fixed_ind2                                -> OK
+  JxPath/JxPath-9-fixed_ind3                                -> OK
+  JxPath/JxPath-9-fixed_ind4                                -> OK
+Individual total: 48 | failed: 8
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [JxPath] 50 | pass=40 not_pass=0 not_compilable=10 -> JxPath.csv
+
+[DONE combined] total=50 pass=40 not_pass=0 not_compilable=10
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

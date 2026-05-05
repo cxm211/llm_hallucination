@@ -1,0 +1,54 @@
+==== 2026-04-22 08:04:48 :: Closure-155-buggy_ind2 ====
+[JACOCO] trigger=7 add=1 total=8
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInInnerFunction
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInInnerFunction
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInOuterFunction
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInOuterFunction
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments4
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-155-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1025 classes.
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInNestedBlock
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInNestedBlock
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-155-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1025 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 123 line rows.
+[PARSE] 123 base line rows.

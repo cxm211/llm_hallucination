@@ -1,0 +1,10 @@
+==== 2026-04-21 10:54:17 :: Jsoup-92-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.HtmlParserTest::dropsDuplicateAttributesMixedCase
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::dropsDuplicateAttributesMixedCase
+---- exit code: 0 | Jsoup-92-fixed_ind3
+

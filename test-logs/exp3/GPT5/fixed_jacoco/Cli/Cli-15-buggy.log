@@ -1,0 +1,20 @@
+==== 2026-04-28 01:17:20 :: Cli-15-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli2/bug/BugCLI158Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.cli2.CommandLineDefaultsTest::testValues_Parsed_Method
+  - org.apache.commons.cli2.CommandLineDefaultsTest::testValues_Parsed_Option
+  - org.apache.commons.cli2.CommandLineDefaultsTest::testValues_Parsed_Method_Option
+  - org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator
+  - org.apache.commons.cli2.bug.BugCLI145Test::testWithMaximum
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValuesStringList
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValueStringObject
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValueOptionObject
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValuesOptionList
+  - org.apache.commons.cli2.option.ArgumentTest::testValidate_Validator
+---- exit code: 0 | test_result: Not Pass | Cli-15-buggy
+

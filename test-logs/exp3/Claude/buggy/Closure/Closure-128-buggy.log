@@ -1,0 +1,12 @@
+==== 2026-03-27 03:28:45 :: Closure-128-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue942_SingleDigitZero
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue942_LeadingZero
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue942
+---- exit code: 0 | Closure-128-buggy
+

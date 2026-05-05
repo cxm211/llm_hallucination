@@ -1,0 +1,68 @@
+==== 2026-04-28 23:51:58 :: Math-91-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+     [echo] -------- Commons MATH 2.0-SNAPSHOT --------
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/target
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/target/classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/target/test-classes
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/build.xml:151: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 328 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 warnings
+
+check-availability:
+     [echo] doing check-availability...
+
+download-dependencies:
+     [echo] doing download-dependencies...
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+download-junit:
+
+compile.tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/build.xml:165: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 212 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/test/org/apache/commons/math/fraction/FractionTest.java:553: error: invalid method declaration; return type required
+    [javac]         assertEquals(1, npi1.compareTo(npi2));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/test/org/apache/commons/math/fraction/FractionTest.java:553: error: illegal start of type
+    [javac]         assertEquals(1, npi1.compareTo(npi2));
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/test/org/apache/commons/math/fraction/FractionTest.java:554: error: invalid method declaration; return type required
+    [javac]         assertEquals(-1, npi2.compareTo(npi1));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/test/org/apache/commons/math/fraction/FractionTest.java:554: error: illegal start of type
+    [javac]         assertEquals(-1, npi2.compareTo(npi1));
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/test/org/apache/commons/math/fraction/FractionTest.java:555: error: invalid method declaration; return type required
+    [javac]         assertEquals(0.0, npi1.doubleValue() - npi2.doubleValue(), 1.0e-20);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/src/test/org/apache/commons/math/fraction/FractionTest.java:555: error: illegal start of type
+    [javac]         assertEquals(0.0, npi1.doubleValue() - npi2.doubleValue(), 1.0e-20);
+    [javac]                      ^
+    [javac] 6 errors
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-91-fixed/build.xml:165: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Math-91-fixed
+

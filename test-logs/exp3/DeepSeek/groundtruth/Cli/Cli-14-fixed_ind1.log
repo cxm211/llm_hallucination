@@ -1,0 +1,10 @@
+==== 2026-04-21 22:22:09 :: Cli-14-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.cli2.bug.BugCLI144Test::testOptionalGroupWithRequiredChildNotPresent
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugCLI144Test::testOptionalGroupWithRequiredChildNotPresent
+---- exit code: 0 | Cli-14-fixed_ind1
+

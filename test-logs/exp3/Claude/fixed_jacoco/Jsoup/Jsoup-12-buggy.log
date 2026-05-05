@@ -1,0 +1,17 @@
+==== 2026-04-01 02:02:46 :: Jsoup-12-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/select/SelectorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::multiChildDescent
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::testByAttributeRegexCombined
+---- exit code: 0 | test_result: Not Pass | Jsoup-12-buggy
+

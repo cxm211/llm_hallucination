@@ -1,0 +1,12 @@
+==== 2026-03-27 05:12:03 :: Closure-82-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue301WithChainedCalls
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue301
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes
+---- exit code: 0 | Closure-82-buggy_ind2
+

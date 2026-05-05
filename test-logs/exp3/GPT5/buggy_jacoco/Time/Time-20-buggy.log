@@ -1,0 +1,13 @@
+==== 2026-04-28 04:13:53 :: Time-20-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-buggy/jacoco.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] done.
+[PARSE] 10 line rows.

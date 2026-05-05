@@ -1,0 +1,22 @@
+==== 2026-04-29 17:56:13 :: Csv-12-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVParserTest::testExcelHeaderCountLessThanData
+---- exit code: 0 | Csv-12-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 1, add tests: 0, total: 1
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVParserTest::testExcelHeaderCountLessThanData
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVParserTest::testExcelHeaderCountLessThanData
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-12-buggy/jacoco.exec.
+[INFO] Analyzing 12 classes.
+>>> [JACOCO] done

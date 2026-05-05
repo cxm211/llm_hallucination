@@ -1,0 +1,35 @@
+==== 2026-04-25 21:14:06 :: Lang-61-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Lang-61-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testLang294
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testIndexOfAtEnd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 119 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 119 classes.
+>>> [JACOCO] done

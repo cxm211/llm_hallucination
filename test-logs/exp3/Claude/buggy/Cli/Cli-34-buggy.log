@@ -1,0 +1,13 @@
+==== 2026-04-04 21:13:37 :: Cli-34-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.cli.CommandLineTest::testGetParsedOptionValue
+  - org.apache.commons.cli.OptionBuilderTest::testTypeNotResetAfterCreate
+  - org.apache.commons.cli.OptionBuilderTest::testTwoCompleteOptions
+  - org.apache.commons.cli.OptionBuilderTest::testMultipleOptionsWithDifferentTypes
+---- exit code: 0 | Cli-34-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-25 20:10:27 :: Lang-4-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882
+  - org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLookupTranslatorGreedy
+---- exit code: 0 | Lang-4-buggy_ind1
+

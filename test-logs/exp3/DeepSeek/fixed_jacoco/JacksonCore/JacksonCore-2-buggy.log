@@ -1,0 +1,25 @@
+==== 2026-04-26 00:23:55 :: JacksonCore-2-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.fasterxml.jackson.core.json.TestJsonGenerator::testLongWrite
+  - com.fasterxml.jackson.core.json.TestJsonGenerator::testIntWrite
+  - com.fasterxml.jackson.core.json.TestNumericValues::testSimpleDouble
+  - com.fasterxml.jackson.core.json.TestNumericValues::testParsingOfLongerSequences
+  - com.fasterxml.jackson.core.json.TestNumericValues::testNumbers
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersBytes
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersChars
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLeadingZeroesUTF8
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLeadingZeroesReader
+  - com.fasterxml.jackson.core.json.TestUtf8Parser::testUtf8Name2Bytes
+  - com.fasterxml.jackson.core.json.TestValueConversions::testAsBoolean
+  - com.fasterxml.jackson.core.json.TestWithTonsaSymbols::testStreamReaderParser
+  - com.fasterxml.jackson.core.main.TestGeneratorMisc::testLongerObjects
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testSharedSymbols
+  - com.fasterxml.jackson.core.sym.TestJsonParserSymbols::testByteSymbolsWithEOF
+---- exit code: 0 | test_result: Not Pass | JacksonCore-2-buggy
+

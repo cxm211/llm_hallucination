@@ -1,0 +1,11 @@
+==== 2026-03-28 05:20:10 :: JacksonDatabind-56-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testLocaleWithHyphens
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testLocale
+---- exit code: 0 | JacksonDatabind-56-buggy_ind1
+

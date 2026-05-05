@@ -1,0 +1,14 @@
+==== 2026-04-28 23:27:50 :: Math-88-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSimplexSolver
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testModelWithNoArtificialVars
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testLargeModel
+---- exit code: 0 | test_result: Not Pass | Math-88-buggy
+

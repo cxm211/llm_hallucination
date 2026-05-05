@@ -1,0 +1,14 @@
+==== 2026-04-24 04:32:34 :: Jsoup-13-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.nodes.NodeTest::hasAbsAttrVarious
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefixOnHasAttr
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+  - org.jsoup.select.ElementsTest::absAttr
+  - org.jsoup.select.ElementsTest::hasAbsAttr
+---- exit code: 0 | Jsoup-13-buggy
+

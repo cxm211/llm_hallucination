@@ -1,0 +1,12 @@
+==== 2026-03-27 20:16:13 :: Codec-10-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/language/CaverphoneTest.java
+[RESTORE] restored target/tests/org/apache/commons/codec/language/CaverphoneTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.CaverphoneTest::testEndMb
+---- exit code: 0 | test_result: Not Pass | Codec-10-buggy
+

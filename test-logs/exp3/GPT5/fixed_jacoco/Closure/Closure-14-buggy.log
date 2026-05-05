@@ -1,0 +1,27 @@
+==== 2026-04-26 06:21:32 :: Closure-14-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFoldWithMarkers1a
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFoldWithMarkers1
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFoldWithMarkers2
+  - com.google.javascript.jscomp.IntegrationTest::testCoaleseVariables
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSubsituteBreakForThrow
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveDuplicateThrow
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldReturns
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveDuplicateReturn
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveElseCause2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSubsituteReturn
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveUnreachableCode
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testSwitchCase
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testUselessUnconditionalReturn
+---- exit code: 0 | test_result: Not Pass | Closure-14-buggy
+

@@ -1,0 +1,18 @@
+==== 2026-03-27 19:58:29 :: Codec-1-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependenceTurkishUpperCase
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependenceTurkishUpperCase
+  - org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependenceTurkishUpperCase
+  - org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependenceTurkishUpperCase
+  - org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+---- exit code: 0 | Codec-1-buggy
+

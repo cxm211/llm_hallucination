@@ -1,0 +1,12 @@
+==== 2026-04-24 12:56:00 :: Math-88-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/optimization/linear/SimplexSolverTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSolutionWithNegativeDecisionVariable
+---- exit code: 0 | test_result: Not Pass | Math-88-buggy
+

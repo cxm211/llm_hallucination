@@ -1,0 +1,12 @@
+==== 2026-03-27 02:25:35 :: Closure-5-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedPropertiesMultiple
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedPropertiesBeforeUse
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedProperties
+---- exit code: 0 | Closure-5-buggy
+

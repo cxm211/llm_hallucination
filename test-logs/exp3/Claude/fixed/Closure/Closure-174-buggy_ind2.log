@@ -1,0 +1,47 @@
+==== 2026-03-27 16:57:42 :: Closure-174-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleUninitializedVars
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+---- exit code: 0 | Closure-174-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testMultipleUninitializedVars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleUninitializedVars
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-174-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1226 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-174-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+>>> [JACOCO] done

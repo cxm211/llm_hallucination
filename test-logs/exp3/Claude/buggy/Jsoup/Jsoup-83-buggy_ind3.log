@@ -1,0 +1,12 @@
+==== 2026-03-31 21:49:31 :: Jsoup-83-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::parsesQuiteRoughAttributes
+  - org.jsoup.parser.TokeniserStateTest::handlesLessInTagThanAsNewTag
+  - org.jsoup.parser.TokeniserStateTest::handlesLessInTagNameWithAttribute
+---- exit code: 0 | Jsoup-83-buggy_ind3
+

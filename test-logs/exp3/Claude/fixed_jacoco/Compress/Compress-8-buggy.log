@@ -1,0 +1,24 @@
+==== 2026-03-28 02:10:43 :: Compress-8-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/tar/TarUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.compress.IOMethodsTest::testReadTar
+  - org.apache.commons.compress.archivers.TarTestCase::testTarUnarchive
+  - org.apache.commons.compress.archivers.TarTestCase::testFileEntryFromFile
+  - org.apache.commons.compress.archivers.TarTestCase::testDirectoryEntryFromFile
+  - org.apache.commons.compress.archivers.TarTestCase::testExplicitDirectoryEntry
+  - org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS114
+  - org.apache.commons.compress.archivers.TarTestCase::testExplicitFileEntry
+  - org.apache.commons.compress.archivers.tar.TarArchiveEntryTest::testTarFileWithFSRoot
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctal
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testRoundTripNames
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testRoundTripOctal
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromTar
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromAndAddToTar
+---- exit code: 0 | test_result: Not Pass | Compress-8-buggy
+

@@ -1,0 +1,17 @@
+==== 2026-04-26 06:29:11 :: Closure-28-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/InlineCostEstimatorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceIdentityFunction1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceReturnConst1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceReturnConst3
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceGetter1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceEmptyFunction1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceEmptyFunction3
+  - com.google.javascript.jscomp.InlineCostEstimatorTest::testCost
+---- exit code: 0 | test_result: Not Pass | Closure-28-buggy
+

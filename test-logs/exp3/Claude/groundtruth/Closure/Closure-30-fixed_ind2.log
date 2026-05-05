@@ -1,0 +1,10 @@
+==== 2026-04-21 07:00:17 :: Closure-30-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testInlineWithUndeclaredVariable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testInlineWithUndeclaredVariable
+---- exit code: 0 | Closure-30-fixed_ind2
+

@@ -1,0 +1,11 @@
+==== 2026-04-23 05:14:43 :: Closure-66-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercentWithGetter
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercentWithSetter
+---- exit code: 0 | Closure-66-fixed
+

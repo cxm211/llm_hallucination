@@ -1,0 +1,10 @@
+==== 2026-04-24 18:40:44 :: Mockito-19-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+---- exit code: 0 | Mockito-19-buggy_ind2
+

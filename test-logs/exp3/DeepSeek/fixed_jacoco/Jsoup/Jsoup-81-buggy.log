@@ -1,0 +1,11 @@
+==== 2026-04-24 07:00:57 :: Jsoup-81-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/helper/DataUtilTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::supportsXmlCharsetDeclaration
+---- exit code: 0 | test_result: Not Pass | Jsoup-81-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 15:08:14 :: Chart-14-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarkerNull
+---- exit code: 0 | Chart-14-fixed
+

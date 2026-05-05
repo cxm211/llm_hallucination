@@ -1,0 +1,13 @@
+==== 2026-04-22 17:13:53 :: Chart-14-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker
+  - org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker
+  - org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker
+---- exit code: 0 | Chart-14-buggy_ind2
+

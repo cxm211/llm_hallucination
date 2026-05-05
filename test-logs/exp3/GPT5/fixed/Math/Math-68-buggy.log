@@ -1,0 +1,48 @@
+==== 2026-04-28 23:02:55 :: Math-68-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - org.apache.commons.math.optimization.fitting.PolynomialFitterTest::testNoError
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testQRColumnsPermutation
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testTwoSets
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testIllConditioned
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFitting
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testControlParameters
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackBrownDennis
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackBox3Dimensional
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackHelicalValley
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackMeyer
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackOsborne1
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackOsborne2
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackWatson
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackKowalikOsborne
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackPowellSingular
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackChebyquad
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackLinearRank1ZeroColsAndRows
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackBard
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackBrownAlmostLinear
+---- exit code: 0 | Math-68-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-68-buggy/jacoco.exec.
+[INFO] Analyzing 436 classes.
+>>> [JACOCO] done

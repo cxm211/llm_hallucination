@@ -1,0 +1,17 @@
+==== 2026-04-26 06:27:33 :: Closure-26-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+---- exit code: 0 | test_result: Not Pass | Closure-26-buggy
+

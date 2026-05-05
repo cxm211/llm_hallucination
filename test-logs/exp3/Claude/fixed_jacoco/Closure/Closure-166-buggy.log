@@ -1,0 +1,10 @@
+==== 2026-03-27 18:12:19 :: Closure-166-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeInferenceTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Closure-166-buggy
+

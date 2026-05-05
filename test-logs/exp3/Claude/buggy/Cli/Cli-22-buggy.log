@@ -1,0 +1,12 @@
+==== 2026-04-04 21:11:31 :: Cli-22-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.PosixParserTest::testStopAtNonOptionWithBurst
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+---- exit code: 0 | Cli-22-buggy
+

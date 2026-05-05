@@ -1,0 +1,129 @@
+==== 2026-04-22 17:21:10 :: Chart-4-buggy ====
+[JACOCO] trigger=22 add=1 total=23
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange1
+[JACOCO] defects4j test -t org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange2
+[JACOCO] defects4j test -t org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange1
+[JACOCO] defects4j test -t org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange2
+[JACOCO] defects4j test -t org.jfree.chart.axis.junit.ValueAxisTests::testAxisMargins
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.axis.junit.ValueAxisTests::testAxisMargins
+[JACOCO] defects4j test -t org.jfree.chart.junit.JFreeChartTests::testSerialization4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.JFreeChartTests::testSerialization4
+[JACOCO] defects4j test -t org.jfree.chart.junit.ScatterPlotTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.ScatterPlotTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.ScatterPlotTests::testSetSeriesToolTipGenerator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.ScatterPlotTests::testSetSeriesToolTipGenerator
+[JACOCO] defects4j test -t org.jfree.chart.junit.ScatterPlotTests::testReplaceDataset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.ScatterPlotTests::testReplaceDataset
+[JACOCO] defects4j test -t org.jfree.chart.junit.TimeSeriesChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.TimeSeriesChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.TimeSeriesChartTests::testSetSeriesToolTipGenerator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.TimeSeriesChartTests::testSetSeriesToolTipGenerator
+[JACOCO] defects4j test -t org.jfree.chart.junit.TimeSeriesChartTests::testReplaceDataset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.TimeSeriesChartTests::testReplaceDataset
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYAreaChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYAreaChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYAreaChartTests::testSetSeriesToolTipGenerator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYAreaChartTests::testSetSeriesToolTipGenerator
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYAreaChartTests::testReplaceDataset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYAreaChartTests::testReplaceDataset
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYStepAreaChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYStepAreaChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYStepAreaChartTests::testSetSeriesToolTipGenerator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYStepAreaChartTests::testSetSeriesToolTipGenerator
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYStepAreaChartTests::testReplaceDataset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYStepAreaChartTests::testReplaceDataset
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYStepChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYStepChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYStepChartTests::testSetSeriesToolTipGenerator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYStepChartTests::testSetSeriesToolTipGenerator
+[JACOCO] defects4j test -t org.jfree.chart.junit.XYStepChartTests::testReplaceDataset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.XYStepChartTests::testReplaceDataset
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.XYPlotTests::testDrawRangeGridlines
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.XYPlotTests::testDrawRangeGridlines
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-4-buggy/jacoco_base.exec.
+[INFO] Analyzing 551 classes.
+[JACOCO] base snapshot saved (22 trigger tests)
+[JACOCO] defects4j test -t org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRangeWithNullRenderer
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRangeWithNullRenderer
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-4-buggy/jacoco.exec.
+[INFO] Analyzing 551 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 95 line rows.
+[PARSE] 95 base line rows.

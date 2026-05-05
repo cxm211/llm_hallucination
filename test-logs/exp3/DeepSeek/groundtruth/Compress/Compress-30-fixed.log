@@ -1,0 +1,10 @@
+==== 2026-04-24 04:17:10 :: Compress-30-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::readWithOverflowShouldThrow
+---- exit code: 0 | Compress-30-fixed
+

@@ -1,0 +1,37 @@
+==== 2026-03-27 23:33:32 :: Collections-6-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testCollections261
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestFlat3Map::testCollections261
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-buggy/jacoco_base.exec.
+[INFO] Analyzing 420 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testRemoveWithNullKeys
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestFlat3Map::testRemoveWithNullKeys
+[JACOCO] defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testRemoveMiddleKeyFromSize3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestFlat3Map::testRemoveMiddleKeyFromSize3
+[JACOCO] defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testRemoveFirstKeyFromSize2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestFlat3Map::testRemoveFirstKeyFromSize2
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-buggy/jacoco.exec.
+[INFO] Analyzing 420 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 143 line rows.
+[PARSE] 143 base line rows.

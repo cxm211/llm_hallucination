@@ -1,0 +1,12 @@
+==== 2026-04-25 20:07:23 :: Lang-38-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang3.time.FastDateFormatTest::testFormatWithTimeZoneOffset
+  - org.apache.commons.lang3.time.FastDateFormatTest::testLang538
+  - org.apache.commons.lang3.time.FastDateFormatTest::testFormatWithDST
+---- exit code: 0 | Lang-38-buggy
+

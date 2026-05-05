@@ -1,0 +1,11 @@
+==== 2026-04-26 19:40:33 :: JacksonDatabind-8-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.TestCreators::testConstructorCreator
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-8-buggy
+

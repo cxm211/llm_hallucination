@@ -1,0 +1,10 @@
+==== 2026-04-21 08:24:41 :: JacksonCore-4-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestTextBuffer::testExpandBeyondMaxSegmentLen
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.util.TestTextBuffer::testExpandBeyondMaxSegmentLen
+---- exit code: 0 | JacksonCore-4-fixed_ind2
+

@@ -1,0 +1,12 @@
+==== 2026-03-28 00:39:27 :: Csv-13-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.csv.CSVPrinterTest::testNullVsNullStringLiteral
+  - org.apache.commons.csv.CSVPrinterTest::testMySqlNullOutput
+  - org.apache.commons.csv.CSVPrinterTest::testMySqlNullStringDefault
+---- exit code: 0 | Csv-13-buggy_ind3
+

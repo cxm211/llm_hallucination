@@ -1,0 +1,10 @@
+==== 2026-04-21 08:10:54 :: Compress-47-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::canReadEntryDataForUnshrinkingMethod
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::canReadEntryDataForUnshrinkingMethod
+---- exit code: 0 | Compress-47-fixed_ind1
+

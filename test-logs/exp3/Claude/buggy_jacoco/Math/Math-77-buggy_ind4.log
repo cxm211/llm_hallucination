@@ -1,0 +1,32 @@
+==== 2026-03-30 02:44:24 :: Math-77-buggy_ind4 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-77-buggy_ind4/jacoco_base.exec.
+[INFO] Analyzing 415 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SparseRealVectorTest::testGetLInfNormSparse
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SparseRealVectorTest::testGetLInfNormSparse
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-77-buggy_ind4/jacoco.exec.
+[INFO] Analyzing 415 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 16 line rows.
+[PARSE] 16 base line rows.

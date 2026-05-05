@@ -1,0 +1,14 @@
+==== 2026-04-26 01:00:10 :: Gson-7-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/functional/MapTest.java
+[RESTORE] restored gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedLongKeys
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedIntegerKeys
+  - com.google.gson.stream.JsonReaderTest::testPeekingUnquotedStringsPrefixedWithIntegers
+---- exit code: 0 | test_result: Not Pass | Gson-7-buggy
+

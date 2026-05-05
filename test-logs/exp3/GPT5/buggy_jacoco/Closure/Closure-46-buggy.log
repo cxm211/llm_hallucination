@@ -1,0 +1,34 @@
+==== 2026-04-26 03:49:48 :: Closure-46-buggy ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-46-buggy/jacoco_base.exec.
+[INFO] Analyzing 1124 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-46-buggy/jacoco.exec.
+[INFO] Analyzing 1124 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 15 line rows.
+[PARSE] 15 base line rows.

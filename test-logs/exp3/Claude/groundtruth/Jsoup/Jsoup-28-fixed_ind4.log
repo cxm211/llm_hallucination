@@ -1,0 +1,10 @@
+==== 2026-04-21 10:46:52 :: Jsoup-28-fixed_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.nodes.EntitiesTest::charValueJustOverBoundary
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::charValueJustOverBoundary
+---- exit code: 0 | Jsoup-28-fixed_ind4
+

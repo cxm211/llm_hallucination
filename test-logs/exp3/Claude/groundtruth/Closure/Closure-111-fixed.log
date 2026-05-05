@@ -1,0 +1,11 @@
+==== 2026-04-21 06:22:17 :: Closure-111-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArrayWithUnknownType
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArrayWithCheckedUnknownType
+---- exit code: 0 | Closure-111-fixed
+

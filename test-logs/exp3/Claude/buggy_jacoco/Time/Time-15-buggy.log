@@ -1,0 +1,42 @@
+==== 2026-03-30 03:37:29 :: Time-15-buggy ====
+[JACOCO] trigger=1 add=5 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-buggy/jacoco_base.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-buggy/jacoco.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 15 line rows.
+[PARSE] 15 base line rows.

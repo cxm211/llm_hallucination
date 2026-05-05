@@ -1,0 +1,10 @@
+==== 2026-03-30 04:37:13 :: Mockito-29-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.NPEWithCertainMatchersTest::shouldNotThrowNPEWhenNullPassedToSame
+---- exit code: 0 | Mockito-29-buggy_ind2
+

@@ -1,0 +1,13 @@
+==== 2026-04-28 21:57:42 :: Math-30-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-30-buggy/jacoco.exec.
+[INFO] Analyzing 649 classes.
+[JACOCO] done.
+[PARSE] 17 line rows.

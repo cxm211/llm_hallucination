@@ -1,0 +1,11 @@
+==== 2026-04-29 12:11:13 :: Gson-8-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.UnsafeAllocatorInstantiationTest::testInterfaceInstantiation
+  - com.google.gson.internal.UnsafeAllocatorInstantiationTest::testAbstractClassInstantiation
+---- exit code: 0 | Gson-8-buggy
+

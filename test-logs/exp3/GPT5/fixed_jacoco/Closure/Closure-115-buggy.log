@@ -1,0 +1,25 @@
+==== 2026-04-26 07:02:50 :: Closure-115-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.google.javascript.jscomp.FunctionInjectorTest::testCanInlineReferenceToFunction14
+  - com.google.javascript.jscomp.FunctionInjectorTest::testInline11
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineNeverPartialSubtitution2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions11
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions12
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions18
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions20
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions21
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+  - com.google.javascript.jscomp.SpecializeModuleTest::testSpecializeDevirtualizePrototypeMethodsWithInline
+---- exit code: 0 | test_result: Not Pass | Closure-115-buggy
+

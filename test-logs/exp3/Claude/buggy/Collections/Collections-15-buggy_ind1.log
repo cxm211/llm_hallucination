@@ -1,0 +1,10 @@
+==== 2026-03-27 23:29:49 :: Collections-15-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.list.TestSetUniqueList::testCollections304
+---- exit code: 0 | Collections-15-buggy_ind1
+

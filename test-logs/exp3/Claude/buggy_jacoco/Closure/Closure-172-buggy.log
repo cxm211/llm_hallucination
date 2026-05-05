@@ -1,0 +1,34 @@
+==== 2026-03-27 07:40:27 :: Closure-172-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1024
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1024
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-172-buggy/jacoco_base.exec.
+[INFO] Analyzing 1225 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1024_AdditionalCase1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1024_AdditionalCase2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1024_AdditionalCase3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-172-buggy/jacoco.exec.
+[INFO] Analyzing 1225 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 49 line rows.
+[PARSE] 49 base line rows.

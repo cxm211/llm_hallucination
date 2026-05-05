@@ -1,0 +1,10 @@
+==== 2026-04-21 08:13:52 :: Csv-14-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.csv.CSVPrinterTest::testQuoteCharInMiddle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVPrinterTest::testQuoteCharInMiddle
+---- exit code: 0 | Csv-14-fixed_ind1
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 08:17:43 :: Gson-5-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_NegativeOffset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_NegativeOffset
+---- exit code: 0 | Gson-5-fixed_ind1
+

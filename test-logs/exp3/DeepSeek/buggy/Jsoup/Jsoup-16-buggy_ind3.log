@@ -1,0 +1,12 @@
+==== 2026-04-24 04:41:23 :: Jsoup-16-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.DocumentTypeTest::outerHtmlGeneration
+  - org.jsoup.nodes.DocumentTypeTest::outerHtmlNameNotHtmlPublicOnly
+  - org.jsoup.nodes.DocumentTypeTest::constructorValidationThrowsExceptionOnBlankName
+---- exit code: 0 | Jsoup-16-buggy_ind3
+

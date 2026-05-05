@@ -1,0 +1,18 @@
+==== 2026-04-29 01:36:31 :: JxPath-19-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-buggy/jacoco.exec.
+[INFO] Analyzing 162 classes.
+[JACOCO] done.
+[PARSE] 38 line rows.

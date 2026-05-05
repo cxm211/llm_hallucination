@@ -1,0 +1,38 @@
+==== 2026-04-25 21:52:45 :: JxPath-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testComparisons
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNodeSetOperations
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testVariablesInExpressions
+---- exit code: 0 | JxPath-9-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testComparisons
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testComparisons
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-buggy/jacoco_base.exec.
+[INFO] Analyzing 159 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-buggy/jacoco.exec.
+[INFO] Analyzing 159 classes.
+>>> [JACOCO] done

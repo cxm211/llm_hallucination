@@ -1,0 +1,47 @@
+==== 2026-03-27 09:59:57 :: Closure-79-buggy_ind2 ====
+[JACOCO] trigger=5 add=1 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NormalizeTest::testIssue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NormalizeTest::testIssue
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-79-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1000 classes.
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testMultipleExternReferences
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testMultipleExternReferences
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-79-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1000 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 48 line rows.
+[PARSE] 48 base line rows.

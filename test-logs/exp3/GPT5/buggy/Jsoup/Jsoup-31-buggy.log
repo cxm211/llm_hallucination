@@ -1,0 +1,11 @@
+==== 2026-04-27 04:17:25 :: Jsoup-31-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesDeclarationStartingWithBang
+---- exit code: 0 | Jsoup-31-buggy
+

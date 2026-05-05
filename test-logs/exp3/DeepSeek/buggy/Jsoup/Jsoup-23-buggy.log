@@ -1,0 +1,12 @@
+==== 2026-04-24 04:33:21 :: Jsoup-23-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.EntitiesTest::digitEntityWithoutSemicolon
+  - org.jsoup.nodes.EntitiesTest::invalidDigitEntityWithPrefix
+  - org.jsoup.nodes.EntitiesTest::letterDigitEntities
+---- exit code: 0 | Jsoup-23-buggy
+

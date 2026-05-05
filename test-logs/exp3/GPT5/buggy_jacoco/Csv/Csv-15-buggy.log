@@ -1,0 +1,24 @@
+==== 2026-04-29 17:54:00 :: Csv-15-buggy ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVPrinterTest::testDontQuoteEuroFirstChar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVPrinterTest::testDontQuoteEuroFirstChar
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-buggy/jacoco_base.exec.
+[INFO] Analyzing 13 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVPrinterTest::testDontQuoteEmojiFirstChar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVPrinterTest::testDontQuoteEmojiFirstChar
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-15-buggy/jacoco.exec.
+[INFO] Analyzing 13 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 106 line rows.
+[PARSE] 106 base line rows.

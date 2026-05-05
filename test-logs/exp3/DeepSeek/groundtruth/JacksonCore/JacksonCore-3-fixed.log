@@ -1,0 +1,10 @@
+==== 2026-04-26 00:31:45 :: JacksonCore-3-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestLocation::testOffsetWithInputOffsetAndNewline
+---- exit code: 0 | JacksonCore-3-fixed
+

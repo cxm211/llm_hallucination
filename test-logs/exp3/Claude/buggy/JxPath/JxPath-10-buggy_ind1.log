@@ -1,0 +1,10 @@
+==== 2026-03-29 14:49:28 :: JxPath-10-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testEmptyNodeSetOperations
+---- exit code: 0 | JxPath-10-buggy_ind1
+

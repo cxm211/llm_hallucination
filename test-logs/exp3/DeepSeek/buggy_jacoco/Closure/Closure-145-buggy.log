@@ -1,0 +1,34 @@
+==== 2026-04-22 06:15:49 :: Closure-145-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-145-buggy/jacoco_base.exec.
+[INFO] Analyzing 894 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testDoLoopWithBlockUnderLabel
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testDoLoopWithBlockUnderLabel
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testFunctionWithBlockUnderLabel
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testFunctionWithBlockUnderLabel
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-145-buggy/jacoco.exec.
+[INFO] Analyzing 894 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 8 line rows.
+[PARSE] 8 base line rows.

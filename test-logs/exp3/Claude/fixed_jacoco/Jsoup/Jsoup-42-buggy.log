@@ -1,0 +1,12 @@
+==== 2026-04-01 02:05:26 :: Jsoup-42-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/FormElementTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.FormElementTest::createsFormData
+  - org.jsoup.nodes.FormElementTest::usesOnForCheckboxValueIfNoValueSet
+---- exit code: 0 | test_result: Not Pass | Jsoup-42-buggy
+

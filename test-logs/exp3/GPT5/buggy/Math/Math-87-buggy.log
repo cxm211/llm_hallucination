@@ -1,0 +1,11 @@
+==== 2026-04-28 21:34:42 :: Math-87-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSingleVariableAndConstraintWithCoefficient
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSingleVariableAndConstraint
+---- exit code: 0 | Math-87-buggy
+

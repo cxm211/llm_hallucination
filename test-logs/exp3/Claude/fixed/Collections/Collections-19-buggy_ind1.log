@@ -1,0 +1,38 @@
+==== 2026-03-28 00:00:07 :: Collections-19-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.collections.list.SetUniqueListTest::testUniqueListReInsert
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetDownwardsInList
+  - org.apache.commons.collections.list.SetUniqueListTest::testSet
+  - org.apache.commons.collections.list.SetUniqueListTest::testUniqueListDoubleInsert
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetInBiggerList
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetWithDifferentObjects
+---- exit code: 0 | Collections-19-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.apache.commons.collections.list.SetUniqueListTest::testSetCollections444
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.collections.list.SetUniqueListTest::testSetWithDifferentObjects
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetWithDifferentObjects
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-19-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 401 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-19-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 401 classes.
+>>> [JACOCO] done

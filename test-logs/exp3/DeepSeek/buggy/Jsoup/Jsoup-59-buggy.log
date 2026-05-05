@@ -1,0 +1,12 @@
+==== 2026-04-24 04:35:46 :: Jsoup-59-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::handlesControlCodesInAttributeNameEmptyAndBoolean
+  - org.jsoup.parser.HtmlParserTest::handlesControlCodeInAttributeName
+  - org.jsoup.safety.CleanerTest::handlesControlCharactersAfterTagName
+---- exit code: 0 | Jsoup-59-buggy
+

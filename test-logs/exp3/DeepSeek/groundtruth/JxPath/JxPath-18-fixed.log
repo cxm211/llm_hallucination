@@ -1,0 +1,11 @@
+==== 2026-04-25 22:07:19 :: JxPath-18-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttributeWildcardSecondLocation
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttributeWildcardSecondLocation
+---- exit code: 0 | JxPath-18-fixed
+

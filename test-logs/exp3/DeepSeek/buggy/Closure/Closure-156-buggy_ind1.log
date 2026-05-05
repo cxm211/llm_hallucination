@@ -1,0 +1,12 @@
+==== 2026-04-22 03:15:26 :: Closure-156-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasedTopLevelEnum
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testEnumSingleAssignment
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testIssue389
+---- exit code: 0 | Closure-156-buggy_ind1
+

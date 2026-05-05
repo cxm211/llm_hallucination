@@ -1,0 +1,11 @@
+==== 2026-04-25 20:10:10 :: Lang-64-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_otherEnumType
+  - org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_otherEnumTypeDifferentValue
+---- exit code: 0 | Lang-64-buggy
+

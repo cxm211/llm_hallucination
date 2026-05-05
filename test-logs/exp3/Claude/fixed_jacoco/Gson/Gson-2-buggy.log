@@ -1,0 +1,37 @@
+==== 2026-03-28 14:58:56 :: Gson-2-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 27
+  - com.google.gson.DefaultInetAddressTypeAdapterTest::testInetAddressSerializationAndDeserialization
+  - com.google.gson.ObjectTypeAdapterTest::testSerializeObject
+  - com.google.gson.ObjectTypeAdapterTest::testSerialize
+  - com.google.gson.ObjectTypeAdapterTest::testDeserializeNullValue
+  - com.google.gson.ObjectTypeAdapterTest::testDeserialize
+  - com.google.gson.ObjectTypeAdapterTest::testSerializeNullValue
+  - com.google.gson.functional.ArrayTest::testObjectArrayWithNonPrimitivesSerialization
+  - com.google.gson.functional.ArrayTest::testArrayOfPrimitivesAsObjectsDeserialization
+  - com.google.gson.functional.CollectionTest::testRawCollectionSerialization
+  - com.google.gson.functional.CollectionTest::testRawCollectionDeserializationNotAlllowed
+  - com.google.gson.functional.CollectionTest::testCollectionOfBagOfPrimitivesSerialization
+  - com.google.gson.functional.CollectionTest::testSetSerialization
+  - com.google.gson.functional.CollectionTest::testRawCollectionOfBagOfPrimitivesNotAllowed
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonObjectDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonArrayDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonNullDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonNullSerialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonPrimitiveDeserialization
+  - com.google.gson.functional.InstanceCreatorTest::testInstanceCreatorForParametrizedType
+  - com.google.gson.functional.ObjectTest::testArrayOfObjectsAsFields
+  - com.google.gson.functional.PrimitiveTest::testMoreSpecificSerialization
+  - com.google.gson.functional.PrintFormattingTest::testCompactFormattingLeavesNoWhiteSpace
+  - com.google.gson.functional.RawSerializationTest::testThreeLevelParameterizedObject
+  - com.google.gson.functional.RawSerializationTest::testTwoLevelParameterizedObject
+  - com.google.gson.functional.RawSerializationTest::testCollectionOfObjects
+  - com.google.gson.functional.RawSerializationTest::testParameterizedObject
+---- exit code: 0 | test_result: Not Pass | Gson-2-buggy
+

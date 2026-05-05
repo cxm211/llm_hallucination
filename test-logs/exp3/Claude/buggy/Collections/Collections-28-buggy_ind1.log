@@ -1,0 +1,10 @@
+==== 2026-03-27 23:32:32 :: Collections-28-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections4.trie.PatriciaTrieTest::testPrefixMapClear
+---- exit code: 0 | Collections-28-buggy_ind1
+

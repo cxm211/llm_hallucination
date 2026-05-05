@@ -1,0 +1,44 @@
+==== 2026-03-28 01:19:24 :: Compress-39-buggy ====
+[JACOCO] trigger=1 add=5 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.compress.ArchiveUtilsTest::sanitizeShortensString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.ArchiveUtilsTest::sanitizeShortensString
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-39-buggy/jacoco_base.exec.
+[INFO] Analyzing 214 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.ArchiveUtilsTest::sanitizeExactly255Chars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.compress.ArchiveUtilsTest::sanitizeExactly256Chars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.ArchiveUtilsTest::sanitizeExactly256Chars
+[JACOCO] defects4j test -t org.apache.commons.compress.ArchiveUtilsTest::sanitizeWithControlCharactersAndShortening
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.ArchiveUtilsTest::sanitizeWithControlCharactersAndShortening
+[JACOCO] defects4j test -t org.apache.commons.compress.ArchiveUtilsTest::sanitizeEmptyString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.compress.ArchiveUtilsTest::sanitizeOnlyControlCharacters
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-39-buggy/jacoco.exec.
+[INFO] Analyzing 214 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 17 line rows.
+[PARSE] 17 base line rows.

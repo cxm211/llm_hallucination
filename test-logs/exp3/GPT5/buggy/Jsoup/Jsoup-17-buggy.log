@@ -1,0 +1,10 @@
+==== 2026-04-27 04:16:42 :: Jsoup-17-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handles0CharacterAsText
+---- exit code: 0 | Jsoup-17-buggy
+

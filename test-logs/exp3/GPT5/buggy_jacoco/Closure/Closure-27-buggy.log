@@ -1,0 +1,23 @@
+==== 2026-04-26 03:45:21 :: Closure-27-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testIssue727_1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testIssue727_1
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testIssue727_2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testIssue727_2
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testIssue727_3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testIssue727_3
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27-buggy/jacoco.exec.
+[INFO] Analyzing 1149 classes.
+[JACOCO] done.
+[PARSE] 20 line rows.

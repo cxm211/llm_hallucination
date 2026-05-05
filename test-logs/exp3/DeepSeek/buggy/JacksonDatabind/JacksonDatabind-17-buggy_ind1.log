@@ -1,0 +1,12 @@
+==== 2026-04-23 09:35:18 :: JacksonDatabind-17-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.node.TestJsonNode::testDefaultTypingWithTreeNode
+  - com.fasterxml.jackson.databind.node.TestJsonNode::testArrayWithDefaultTyping
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-17-buggy_ind1
+

@@ -1,0 +1,11 @@
+==== 2026-04-29 17:37:08 :: Collections-13-buggy ====
+[RESTORE] restored src/test/org/apache/commons/collections/TestExtendedProperties.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testInheritDefaultProperties
+---- exit code: 0 | test_result: Not Pass | Collections-13-buggy
+

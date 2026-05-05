@@ -1,0 +1,10 @@
+==== 2026-04-21 10:47:38 :: Jsoup-35-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.HtmlParserTest::handlesNestedFormattingElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::handlesNestedFormattingElements
+---- exit code: 0 | Jsoup-35-fixed_ind1
+

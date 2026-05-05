@@ -1,0 +1,12 @@
+==== 2026-04-23 08:46:50 :: JacksonDatabind-18-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+---- exit code: 0 | JacksonDatabind-18-buggy
+

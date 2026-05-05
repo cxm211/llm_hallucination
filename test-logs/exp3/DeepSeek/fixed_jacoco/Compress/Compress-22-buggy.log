@@ -1,0 +1,11 @@
+==== 2026-04-24 04:06:48 :: Compress-22-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/compressors/bzip2/PythonTruncatedBzip2Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test::testPartialReadTruncatedData
+---- exit code: 0 | test_result: Not Pass | Compress-22-buggy
+

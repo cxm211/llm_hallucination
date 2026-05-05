@@ -1,0 +1,13 @@
+==== 2026-04-24 16:20:30 :: Time-12-buggy ====
+[RESTORE] restored build/tests/org/joda/time/TestLocalDateTime_Constructors.java
+[RESTORE] restored build/tests/org/joda/time/TestLocalDate_Constructors.java
+[RESTORE] restored src/test/java/org/joda/time/TestLocalDateTime_Constructors.java
+[RESTORE] restored src/test/java/org/joda/time/TestLocalDate_Constructors.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Time-12-buggy
+

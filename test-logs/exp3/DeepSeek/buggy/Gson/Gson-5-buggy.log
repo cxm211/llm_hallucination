@@ -1,0 +1,12 @@
+==== 2026-04-26 00:44:44 :: Gson-5-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601ZeroOffsetNoMinutes
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601NegativeOffsetNoMinutes
+---- exit code: 0 | Gson-5-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 11:41:04 :: Math-61-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testVerySmallPositiveMean
+---- exit code: 0 | Math-61-fixed
+

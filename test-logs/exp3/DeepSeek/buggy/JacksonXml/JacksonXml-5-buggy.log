@@ -1,0 +1,11 @@
+==== 2026-04-25 22:53:08 :: JacksonXml-5-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWith
+  - com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWithIndependence
+---- exit code: 0 | JacksonXml-5-buggy
+

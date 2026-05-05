@@ -1,0 +1,17 @@
+==== 2026-04-29 12:19:49 :: Gson-4-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.gson.stream.JsonReaderTest::testStrictVeryLongNumber
+  - com.google.gson.stream.JsonReaderTest::testBomForbiddenAsOtherCharacterInDocument
+  - com.google.gson.stream.JsonReaderTest::testStrictNonFiniteDoublesWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testStrictUnquotedStringsWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testStrictNonExecutePrefixWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testStrictUnquotedStrings
+  - com.google.gson.stream.JsonReaderTest::testStrictNonExecutePrefix
+---- exit code: 0 | test_result: Not Pass | Gson-4-buggy
+

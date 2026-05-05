@@ -1,0 +1,17 @@
+==== 2026-04-24 06:44:05 :: Jsoup-2-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/ParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testGoogleSearchIpod
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.nodes.DocumentTest::testTitles
+  - org.jsoup.parser.ParserTest::handlesTextAfterData
+  - org.jsoup.safety.CleanerTest::testIsValid
+---- exit code: 0 | test_result: Not Pass | Jsoup-2-buggy
+

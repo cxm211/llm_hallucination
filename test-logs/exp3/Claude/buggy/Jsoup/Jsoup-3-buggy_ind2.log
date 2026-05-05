@@ -1,0 +1,13 @@
+==== 2026-03-31 21:33:33 :: Jsoup-3-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testPrependMultipleRowsToTable
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+---- exit code: 0 | Jsoup-3-buggy_ind2
+

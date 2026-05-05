@@ -1,0 +1,11 @@
+==== 2026-04-24 12:52:18 :: Math-71-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegratorTest.java
+[RESTORE] restored src/test/java/org/apache/commons/math/ode/nonstiff/DormandPrince853IntegratorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Math-71-buggy
+

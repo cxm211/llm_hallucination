@@ -1,0 +1,11 @@
+==== 2026-04-26 07:27:58 :: Closure-170-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/FlowSensitiveInlineVariablesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testInlineIfNameIsLeftSideOfAssign
+---- exit code: 0 | test_result: Not Pass | Closure-170-buggy
+

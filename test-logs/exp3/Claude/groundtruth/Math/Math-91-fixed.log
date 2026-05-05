@@ -1,0 +1,10 @@
+==== 2026-04-21 11:44:07 :: Math-91-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.fraction.FractionTest::testCompareToEdgeCases
+---- exit code: 0 | Math-91-fixed
+

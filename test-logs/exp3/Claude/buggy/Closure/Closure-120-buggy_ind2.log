@@ -1,0 +1,10 @@
+==== 2026-03-27 05:37:38 :: Closure-120-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053
+---- exit code: 0 | Closure-120-buggy_ind2
+

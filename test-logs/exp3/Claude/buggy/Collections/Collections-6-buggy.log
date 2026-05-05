@@ -1,0 +1,13 @@
+==== 2026-03-27 22:03:29 :: Collections-6-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.collections.map.TestFlat3Map::testCollections261
+  - org.apache.commons.collections.map.TestFlat3Map::testRemoveWithNullKeys
+  - org.apache.commons.collections.map.TestFlat3Map::testRemoveMiddleKeyFromSize3
+  - org.apache.commons.collections.map.TestFlat3Map::testRemoveFirstKeyFromSize2
+---- exit code: 0 | Collections-6-buggy
+

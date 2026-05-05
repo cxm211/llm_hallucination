@@ -1,0 +1,12 @@
+==== 2026-03-31 21:06:00 :: Jsoup-40-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.DocumentTypeTest::constructorValidationOkWithBlankName
+  - org.jsoup.parser.HtmlParserTest::handlesDoctypeWithWhitespace
+  - org.jsoup.parser.HtmlParserTest::handlesInvalidDoctypes
+---- exit code: 0 | Jsoup-40-buggy
+

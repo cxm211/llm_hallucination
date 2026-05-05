@@ -1,0 +1,12 @@
+==== 2026-04-21 08:12:25 :: Csv-13-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.csv.CSVPrinterTest::testNullVsNullStringLiteral
+  - org.apache.commons.csv.CSVPrinterTest::testNullStringWithQuoteModeAll
+  - org.apache.commons.csv.CSVPrinterTest::testNullStringWithEscapeChar
+---- exit code: 0 | Csv-13-fixed
+

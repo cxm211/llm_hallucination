@@ -1,0 +1,13 @@
+==== 2026-04-28 23:27:33 :: Math-85-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtilsTest::testBracketSin
+  - org.apache.commons.math.distribution.TDistributionTest::testSmallDf
+  - org.apache.commons.math.distribution.TDistributionTest::testInverseCumulativeProbabilities
+---- exit code: 0 | test_result: Not Pass | Math-85-buggy
+

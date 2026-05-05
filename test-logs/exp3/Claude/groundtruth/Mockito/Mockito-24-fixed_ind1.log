@@ -1,0 +1,9 @@
+==== 2026-04-21 20:03:47 :: Mockito-24-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_nonzero_if_mock_is_compared_to_different_object
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-24-fixed_ind1
+

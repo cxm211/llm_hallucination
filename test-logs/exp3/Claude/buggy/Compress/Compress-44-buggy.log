@@ -1,0 +1,14 @@
+==== 2026-03-28 01:05:04 :: Compress-44-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest::testClassInstantiationWithParameterBeingNullThrowsNullPointerExceptionOne
+  - org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest::testClassInstantiationWithParameterBeingNullThrowsNullPointerExceptionTwo
+  - org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest::testValidChecksumValidInputStreamDoesNotThrow
+  - org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest::testNullChecksumThrowsBeforeNullInputStream
+  - org.apache.commons.compress.utils.ChecksumCalculatingInputStreamTest::testClassInstantiationWithParameterBeingNullThrowsNullPointerExceptionThree
+---- exit code: 0 | Compress-44-buggy
+

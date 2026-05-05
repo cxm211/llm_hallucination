@@ -1,0 +1,33 @@
+==== 2026-04-26 04:00:24 :: Closure-79-buggy ====
+[JACOCO] trigger=5 add=0 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NormalizeTest::testIssue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NormalizeTest::testIssue
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-79-buggy/jacoco.exec.
+[INFO] Analyzing 1000 classes.
+[JACOCO] done.
+[PARSE] 48 line rows.

@@ -1,0 +1,46 @@
+==== 2026-03-28 08:22:01 :: JacksonDatabind-86-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.type.RecursiveTypeTest::testSuperClassWithReferencedJavaType
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testRepeatedSubTypeConstruction
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testBasePropertiesIncludedWhenSerializingSubWhenSubTypeLoadedAfterBaseType
+---- exit code: 0 | JacksonDatabind-86-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 2, total: 4
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.type.RecursiveTypeTest::testSuperClassWithReferencedJavaType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.type.RecursiveTypeTest::testSuperClassWithReferencedJavaType
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testBasePropertiesIncludedWhenSerializingSubWhenSubTypeLoadedAfterBaseType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testBasePropertiesIncludedWhenSerializingSubWhenSubTypeLoadedAfterBaseType
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.type.RecursiveTypeTest::testMultipleConstructionOfSameRecursiveType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testRepeatedSubTypeConstruction
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testRepeatedSubTypeConstruction
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-86-buggy/jacoco_base.exec.
+[INFO] Analyzing 512 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-86-buggy/jacoco.exec.
+[INFO] Analyzing 512 classes.
+>>> [JACOCO] done

@@ -1,0 +1,10 @@
+==== 2026-04-21 06:58:02 :: Closure-25-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNewWithNestedObject
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNewWithNestedObject
+---- exit code: 0 | Closure-25-fixed_ind2
+

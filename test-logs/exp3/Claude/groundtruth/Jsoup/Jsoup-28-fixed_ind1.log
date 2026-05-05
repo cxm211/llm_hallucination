@@ -1,0 +1,10 @@
+==== 2026-04-21 10:46:44 :: Jsoup-28-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.nodes.EntitiesTest::supplementaryPlaneCharacter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::supplementaryPlaneCharacter
+---- exit code: 0 | Jsoup-28-fixed_ind1
+

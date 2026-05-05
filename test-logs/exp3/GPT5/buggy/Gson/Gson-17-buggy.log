@@ -1,0 +1,12 @@
+==== 2026-04-29 12:12:43 :: Gson-17-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedNumberToken
+  - com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedToken
+  - com.google.gson.DefaultDateTypeAdapterTest::testNullValue
+---- exit code: 0 | Gson-17-buggy
+

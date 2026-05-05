@@ -1,0 +1,12 @@
+==== 2026-03-30 00:06:36 :: Math-1-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConvergenceEdgeCase
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+  - org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+---- exit code: 0 | Math-1-buggy_ind1
+

@@ -1,0 +1,442 @@
+==== 2026-03-27 08:24:16 :: Closure-144-buggy_ind2 ====
+[JACOCO] trigger=84 add=1 total=85
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsAssign
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsAssign
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMember
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMember
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testOptionalTypesAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testOptionalTypesAnnotation
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTempConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTempConstructor
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsImplements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsImplements
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsNamespace
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsNamespace
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotations
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testVariableArgumentsTypesAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testVariableArgumentsTypesAnnotation
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testEmitUnknownParamTypesAsAllType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testEmitUnknownParamTypesAsAllType
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMemberSubclass
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMemberSubclass
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DisambiguatePropertiesTest::testStaticProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testStaticProperty
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportDontEmitPrototypePathPrefix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportDontEmitPrototypePathPrefix
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithConstructor
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolDefinedInVar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolDefinedInVar
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbol
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbol
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExternExportsPassTest::testExportProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportProperty
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testNestedFunctionInference1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNestedFunctionInference1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testScoping10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping10
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateOldTypeDef
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateOldTypeDef
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testBadConstructorCall
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBadConstructorCall
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testDontAddMethodsIfNoConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDontAddMethodsIfNoConstructor
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck11
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck11
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testErrorMismatchingPropertyOnInterface5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testErrorMismatchingPropertyOnInterface5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateTypeDef
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateTypeDef
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testBug911118
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBug911118
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference12
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference12
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference13
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference13
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference15
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference15
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference16
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference16
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testPrototypePropertyReference
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrototypePropertyReference
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference9
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testNestedFunctionInference1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testNestedFunctionInference1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testScoping10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping10
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDuplicateOldTypeDef
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateOldTypeDef
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInferredReturn1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInferredReturn2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInferredReturn3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInferredReturn4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInferredReturn6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBadConstructorCall
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBadConstructorCall
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDontAddMethodsIfNoConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDontAddMethodsIfNoConstructor
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck11
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck11
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testErrorMismatchingPropertyOnInterface5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testErrorMismatchingPropertyOnInterface5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDuplicateTypeDef
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateTypeDef
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBug911118
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBug911118
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference12
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference12
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference13
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference13
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference15
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference15
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference16
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference16
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testPrototypePropertyReference
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testPrototypePropertyReference
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testGoodExtends7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionInference9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference9
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testConstructorNode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testConstructorNode
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testConstructorProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testConstructorProperty
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testReturnTypeInference1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testReturnTypeInference1
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-144-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 894 classes.
+[JACOCO] base snapshot saved (84 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testReturnTypeArrowFunctionNoReturn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testReturnTypeArrowFunctionNoReturn
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-144-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 894 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 155 line rows.
+[PARSE] 155 base line rows.

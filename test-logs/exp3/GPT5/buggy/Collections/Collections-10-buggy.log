@@ -1,0 +1,11 @@
+==== 2026-04-29 17:19:20 :: Collections-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.collections.map.TestMultiValueMap::testEmptyMapCompatibility
+  - org.apache.commons.collections.map.TestMultiValueMap::testFullMapCompatibility
+---- exit code: 0 | Collections-10-buggy
+

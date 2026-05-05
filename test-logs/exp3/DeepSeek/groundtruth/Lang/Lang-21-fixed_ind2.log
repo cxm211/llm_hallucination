@@ -1,0 +1,10 @@
+==== 2026-04-25 21:36:31 :: Lang-21-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_DifferentClass
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_DifferentClass
+---- exit code: 0 | Lang-21-fixed_ind2
+

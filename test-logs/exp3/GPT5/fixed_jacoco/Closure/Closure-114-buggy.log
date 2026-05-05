@@ -1,0 +1,39 @@
+==== 2026-04-26 07:02:34 :: Closure-114-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/NameAnalyzerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 29
+  - com.google.javascript.jscomp.IntegrationTest::testSmartNamePass
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExpressions1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveDeclaration4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testArrayAliasExt
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExternalAliasInstanceof2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf4a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssign5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct13
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook2a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssigns1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoRemoveWindowPropertyAlias6a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoRemoveWindowPropertyAlias7a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874b
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874c
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874d
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874e
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn4
+---- exit code: 0 | test_result: Not Pass | Closure-114-buggy
+

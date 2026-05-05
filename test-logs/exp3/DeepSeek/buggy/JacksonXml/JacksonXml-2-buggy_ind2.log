@@ -1,0 +1,11 @@
+==== 2026-04-25 22:53:34 :: JacksonXml-2-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testMixedContent
+  - com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testMixedContentMultipleAttributes
+---- exit code: 0 | JacksonXml-2-buggy_ind2
+

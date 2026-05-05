@@ -1,0 +1,10 @@
+==== 2026-04-24 07:16:59 :: Jsoup-64-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::handlesSelfClosingScriptWithContent
+---- exit code: 0 | Jsoup-64-fixed
+

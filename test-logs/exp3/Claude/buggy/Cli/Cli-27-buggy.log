@@ -1,0 +1,18 @@
+==== 2026-04-04 21:12:17 :: Cli-27-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupMixed
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupReselect
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupMixed
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupReselect
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupMixed
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupReselect
+---- exit code: 0 | Cli-27-buggy
+

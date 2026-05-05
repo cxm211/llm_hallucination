@@ -1,0 +1,37 @@
+==== 2026-04-28 22:53:35 :: Math-38-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosen
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testElliRotated
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testEllipse
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testTwoAxes
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testCigar
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testRosen
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testRastrigin
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testSsDiffPow
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testMaximize
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testCigTab
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testSphere
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testTablet
+---- exit code: 0 | Math-38-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 0, total: 1
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-38-buggy/jacoco.exec.
+[INFO] Analyzing 648 classes.
+>>> [JACOCO] done

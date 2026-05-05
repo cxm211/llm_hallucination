@@ -1,0 +1,11 @@
+==== 2026-03-27 05:32:42 :: Closure-117-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047_NestedProperty
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+---- exit code: 0 | Closure-117-buggy_ind2
+

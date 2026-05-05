@@ -1,0 +1,64 @@
+==== 2026-03-27 13:15:01 :: Closure-34-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 31
+  - com.google.javascript.jscomp.CodePrinterTest::testMixedAssociativeOps
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.CodePrinterTest::testParsePrintParse
+  - com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation2
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFold1
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFold2
+  - com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallbackTest::testAndOr
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldLogicalOpStringCompare
+  - com.google.javascript.jscomp.RescopeGlobalSymbolsTest::testFunctionStatements
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testUntypedParam
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testQualifiedClass
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testInnerClasses
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testUnion
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterfaceOrdering
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testConstValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterfaceOrderingGoogInherits
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testExtendedInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValueWithInnerFn
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testFunctionType
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testNativeClass
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testSkipParamOK
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testReturnNothing
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testReturn
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testNullValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValues
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testInnerConstructor
+---- exit code: 0 | Closure-34-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testMixedAssociativeOps
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testMixedAssociativeOps
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-34-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1144 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-34-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1144 classes.
+>>> [JACOCO] done

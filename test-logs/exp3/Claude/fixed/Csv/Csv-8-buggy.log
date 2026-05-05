@@ -1,0 +1,41 @@
+==== 2026-03-28 00:48:40 :: Csv-8-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElements
+---- exit code: 0 | Csv-8-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 3, total: 4
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElements
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElementsWithThreeElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElementsMultipleDuplicates
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVFormatTest::testNoDuplicateHeaderElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy/jacoco_base.exec.
+[INFO] Analyzing 12 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy/jacoco.exec.
+[INFO] Analyzing 12 classes.
+>>> [JACOCO] done

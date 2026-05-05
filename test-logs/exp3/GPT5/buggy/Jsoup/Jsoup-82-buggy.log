@@ -1,0 +1,11 @@
+==== 2026-04-27 04:21:01 :: Jsoup-82-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode
+  - org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncodeHttpEquiv
+---- exit code: 0 | Jsoup-82-buggy
+

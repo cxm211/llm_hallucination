@@ -1,0 +1,13 @@
+==== 2026-04-28 18:02:07 :: Mockito-22-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-22-buggy/jacoco.exec.
+[INFO] Analyzing 289 classes.
+[JACOCO] done.
+[PARSE] 9 line rows.

@@ -1,0 +1,11 @@
+==== 2026-03-28 14:36:47 :: Gson-11-buggy_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithScientificNotation
+---- exit code: 0 | Gson-11-buggy_ind3
+

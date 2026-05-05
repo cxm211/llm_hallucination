@@ -1,0 +1,11 @@
+==== 2026-03-28 17:02:40 :: JacksonCore-4-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.util.TestTextBuffer::testExpand
+---- exit code: 0 | test_result: Not Pass | JacksonCore-4-buggy
+

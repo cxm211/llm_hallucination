@@ -1,0 +1,10 @@
+==== 2026-04-21 10:11:13 :: JacksonDatabind-12-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.deser.TestCustomDeserializers::testCustomMapKeyDeser735
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestCustomDeserializers::testCustomMapKeyDeser735
+---- exit code: 0 | JacksonDatabind-12-fixed_ind1
+

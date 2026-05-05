@@ -1,0 +1,12 @@
+==== 2026-03-31 21:29:45 :: Jsoup-65-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::testTemplateInTableRow
+  - org.jsoup.parser.HtmlParserTest::testTemplateInsideTable
+  - org.jsoup.parser.HtmlParserTest::testTemplateInTableBody
+---- exit code: 0 | Jsoup-65-buggy
+

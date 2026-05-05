@@ -1,0 +1,14 @@
+==== 2026-04-24 08:18:10 :: Math-66-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testMaximizeQuadratic
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+---- exit code: 0 | Math-66-buggy_ind2
+

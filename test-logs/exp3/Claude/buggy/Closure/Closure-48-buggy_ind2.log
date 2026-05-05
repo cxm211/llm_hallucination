@@ -1,0 +1,11 @@
+==== 2026-03-27 04:37:53 :: Closure-48-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue586_AdditionalTest2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue586
+---- exit code: 0 | Closure-48-buggy_ind2
+

@@ -1,0 +1,12 @@
+==== 2026-04-22 00:09:06 :: Closure-98-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInDoWhileLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInWhileLoop
+---- exit code: 0 | Closure-98-buggy
+

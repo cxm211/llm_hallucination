@@ -1,0 +1,15 @@
+==== 2026-04-25 20:06:29 :: Lang-28-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityOnlyAmpersandHash
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityMissingSemicolon
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityWithHexPrefix
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testInvalidCodePoint
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryHexUnescaping
+---- exit code: 0 | Lang-28-buggy
+

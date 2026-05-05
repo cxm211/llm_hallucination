@@ -1,0 +1,11 @@
+==== 2026-04-01 02:12:27 :: Jsoup-86-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript
+---- exit code: 0 | test_result: Not Pass | Jsoup-86-buggy
+

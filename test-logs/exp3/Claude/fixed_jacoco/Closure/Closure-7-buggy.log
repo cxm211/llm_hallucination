@@ -1,0 +1,13 @@
+==== 2026-03-27 17:11:46 :: Closure-7-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ClosureReverseAbstractInterpreterTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/SemanticReverseAbstractInterpreterTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunction2
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testTypeof3
+---- exit code: 0 | test_result: Not Pass | Closure-7-buggy
+

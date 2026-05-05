@@ -1,0 +1,32 @@
+==== 2026-03-28 07:15:14 :: JacksonDatabind-6-buggy_ind1 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSeconds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSeconds
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601PartialMilliseconds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601PartialMilliseconds
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-6-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 485 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSecondsAndMilliseconds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSecondsAndMilliseconds
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-6-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 485 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 76 line rows.
+[PARSE] 76 base line rows.

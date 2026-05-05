@@ -1,0 +1,12 @@
+==== 2026-03-30 04:42:02 :: Mockito-33-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWorkWithRawTypeFirst
+  - org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWork
+  - org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldVerificationWorks
+---- exit code: 0 | Mockito-33-buggy_ind2
+

@@ -1,0 +1,10 @@
+==== 2026-04-25 19:10:28 :: Mockito-19-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldNotInjectSingleMockWhenNameDoesNotMatch
+---- exit code: 0 | Mockito-19-fixed
+

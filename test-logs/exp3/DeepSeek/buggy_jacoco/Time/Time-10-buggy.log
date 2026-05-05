@@ -1,0 +1,34 @@
+==== 2026-04-24 15:12:09 :: Time-10-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+[JACOCO] defects4j test -t org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-buggy/jacoco_base.exec.
+[INFO] Analyzing 206 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_Feb29_Mar1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_Feb29_Mar1
+[JACOCO] defects4j test -t org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay_Feb29_Feb1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay_Feb29_Feb1
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-buggy/jacoco.exec.
+[INFO] Analyzing 206 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 19 line rows.
+[PARSE] 19 base line rows.

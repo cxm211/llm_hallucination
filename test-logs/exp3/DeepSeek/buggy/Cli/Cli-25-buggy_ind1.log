@@ -1,0 +1,11 @@
+==== 2026-04-21 19:37:22 :: Cli-25-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.bug.BugCLI162Test::testRenderWrappedTextIndent
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored
+---- exit code: 0 | Cli-25-buggy_ind1
+

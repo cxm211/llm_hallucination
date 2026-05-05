@@ -1,0 +1,11 @@
+==== 2026-03-28 15:14:26 :: JacksonCore-3-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.json.TestLocation::testOffsetWithInputOffset
+  - com.fasterxml.jackson.core.json.TestLocation::testOffsetWithInputOffsetMultiline
+---- exit code: 0 | JacksonCore-3-buggy_ind2
+

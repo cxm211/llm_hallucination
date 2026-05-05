@@ -1,0 +1,14 @@
+==== 2026-03-30 05:39:52 :: Time-13-buggy ====
+[RESTORE] restored build/tests/org/joda/time/format/TestISOPeriodFormat.java
+[RESTORE] restored src/test/java/org/joda/time/format/TestISOPeriodFormat.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative
+  - org.joda.time.format.TestPeriodFormatterBuilder::testFormatSecondsWithOptionalMillis
+  - org.joda.time.format.TestPeriodFormatterBuilder::testFormatSecondsWithMillis
+---- exit code: 0 | test_result: Not Pass | Time-13-buggy
+

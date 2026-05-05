@@ -1,0 +1,12 @@
+==== 2026-04-24 06:55:04 :: Jsoup-21-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/select/SelectorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- exit code: 0 | test_result: Not Pass | Jsoup-21-buggy
+

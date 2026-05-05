@@ -1,0 +1,47 @@
+==== 2026-03-29 15:08:39 :: JxPath-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanNotEqualToItself
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+---- exit code: 0 | JxPath-9-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 4, total: 5
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanNotEqualToZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanNotEqualToItself
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanNotEqualToItself
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNormalNumbersEqual
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNormalNumbersNotEqual
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-buggy/jacoco_base.exec.
+[INFO] Analyzing 159 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-9-buggy/jacoco.exec.
+[INFO] Analyzing 159 classes.
+>>> [JACOCO] done

@@ -1,0 +1,19 @@
+==== 2026-04-25 20:11:57 :: Lang-21-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_Cal
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_DifferentClass
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+---- exit code: 0 | Lang-21-buggy_ind2
+

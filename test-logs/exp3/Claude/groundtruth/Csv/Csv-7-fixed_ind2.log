@@ -1,0 +1,10 @@
+==== 2026-04-21 08:13:08 :: Csv-7-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntriesMultipleDuplicates
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntriesMultipleDuplicates
+---- exit code: 0 | Csv-7-fixed_ind2
+

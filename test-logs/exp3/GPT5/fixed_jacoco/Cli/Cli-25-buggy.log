@@ -1,0 +1,11 @@
+==== 2026-04-28 01:24:03 :: Cli-25-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored
+---- exit code: 0 | test_result: Not Pass | Cli-25-buggy
+

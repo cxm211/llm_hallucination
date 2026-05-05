@@ -1,0 +1,9 @@
+==== 2026-04-29 12:22:27 :: Gson-13-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Gson-13-fixed
+

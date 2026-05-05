@@ -1,0 +1,11 @@
+==== 2026-04-24 08:18:57 :: Math-71-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent
+---- exit code: 0 | Math-71-buggy_ind2
+

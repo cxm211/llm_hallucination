@@ -1,0 +1,11 @@
+==== 2026-04-21 06:31:18 :: Closure-132-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925_AdditionalCase1
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925_AdditionalCase3
+---- exit code: 0 | Closure-132-fixed
+

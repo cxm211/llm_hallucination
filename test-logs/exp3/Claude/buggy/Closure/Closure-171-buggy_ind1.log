@@ -1,0 +1,12 @@
+==== 2026-03-27 06:24:42 :: Closure-171-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+---- exit code: 0 | Closure-171-buggy_ind1
+

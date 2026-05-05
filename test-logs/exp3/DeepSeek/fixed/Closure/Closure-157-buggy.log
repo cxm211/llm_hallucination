@@ -1,0 +1,107 @@
+==== 2026-04-22 22:22:19 :: Closure-157-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit2
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit3
+  - com.google.javascript.jscomp.CodePrinterTest::testGetterInteger
+  - com.google.javascript.jscomp.CodePrinterTest::testGetter
+  - com.google.javascript.jscomp.CodePrinterTest::testSetterInteger
+  - com.google.javascript.jscomp.CodePrinterTest::testSetter
+  - com.google.javascript.jscomp.FunctionNamesTest::testFunctionsNamesAndIds
+  - com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys2
+  - com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys3
+  - com.google.javascript.jscomp.SimpleDefinitionFinderTest::testDefineNumber
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral6
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral7
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral8
+  - com.google.javascript.jscomp.parsing.ParserTest::testObjectLiteralDoc1
+---- exit code: 0 | Closure-157-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 12, add tests: 2, total: 14
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testObjectLit2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testObjectLit3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testGetter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testGetter
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testSetter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testSetter
+[JACOCO] defects4j test -t com.google.javascript.jscomp.FunctionNamesTest::testFunctionsNamesAndIds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.FunctionNamesTest::testFunctionsNamesAndIds
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SimpleDefinitionFinderTest::testDefineNumber
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SimpleDefinitionFinderTest::testDefineNumber
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.ParserTest::testObjectLiteralDoc1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.ParserTest::testObjectLiteralDoc1
+[JACOCO] base snapshot saved (12 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testGetterInteger
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testGetterInteger
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testSetterInteger
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testSetterInteger
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-157-buggy/jacoco_base.exec.
+[INFO] Analyzing 1030 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-157-buggy/jacoco.exec.
+[INFO] Analyzing 1030 classes.
+>>> [JACOCO] done

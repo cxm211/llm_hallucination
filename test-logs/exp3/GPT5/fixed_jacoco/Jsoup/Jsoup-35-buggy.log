@@ -1,0 +1,11 @@
+==== 2026-04-27 04:55:13 :: Jsoup-35-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/HtmlParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedAnchors
+---- exit code: 0 | test_result: Not Pass | Jsoup-35-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-24 16:48:51 :: Time-27-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.joda.time.format.TestPeriodFormatterBuilder::testParserOnlyWithSeparator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestPeriodFormatterBuilder::testParserOnlyWithSeparator
+---- exit code: 0 | Time-27-fixed_ind3
+

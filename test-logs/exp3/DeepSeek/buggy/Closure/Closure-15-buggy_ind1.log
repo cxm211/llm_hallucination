@@ -1,0 +1,11 @@
+==== 2026-04-22 01:01:40 :: Closure-15-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testSimpleForIn
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDeletePropertyDot
+---- exit code: 0 | Closure-15-buggy_ind1
+

@@ -1,0 +1,11 @@
+==== 2026-03-27 01:28:41 :: Cli-31-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/cli/HelpFormatterTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testDefaultArgName
+---- exit code: 0 | test_result: Not Pass | Cli-31-buggy
+

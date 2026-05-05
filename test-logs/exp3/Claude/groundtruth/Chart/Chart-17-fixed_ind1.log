@@ -1,0 +1,9 @@
+==== 2026-04-21 15:13:59 :: Chart-17-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCloneWithSingleItem
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Chart-17-fixed_ind1
+

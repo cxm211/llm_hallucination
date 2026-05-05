@@ -1,0 +1,37 @@
+==== 2026-03-30 04:21:59 :: Time-4-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Basics::testWithNewFieldInvalidRangeType
+---- exit code: 0 | Time-4-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t org.joda.time.TestPartial_Basics::testWith3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestPartial_Basics::testWithNewFieldValidationFailure
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestPartial_Basics::testWithNewFieldInvalidRangeType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Basics::testWithNewFieldInvalidRangeType
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-buggy/jacoco_base.exec.
+[INFO] Analyzing 208 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-buggy/jacoco.exec.
+[INFO] Analyzing 208 classes.
+>>> [JACOCO] done

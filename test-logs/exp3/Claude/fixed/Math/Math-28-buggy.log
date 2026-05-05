@@ -1,0 +1,41 @@
+==== 2026-03-30 03:30:07 :: Math-28-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant2
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+---- exit code: 0 | Math-28-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant1
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant2
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-28-buggy/jacoco_base.exec.
+[INFO] Analyzing 661 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-28-buggy/jacoco.exec.
+[INFO] Analyzing 661 classes.
+>>> [JACOCO] done

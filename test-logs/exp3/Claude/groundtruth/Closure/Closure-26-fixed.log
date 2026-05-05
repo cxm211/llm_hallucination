@@ -1,0 +1,12 @@
+==== 2026-04-21 05:48:11 :: Closure-26-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJSWithModuleExports
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testEmptyFilename
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testNullFilename
+---- exit code: 0 | Closure-26-fixed
+

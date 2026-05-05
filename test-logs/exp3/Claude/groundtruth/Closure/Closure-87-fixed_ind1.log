@@ -1,0 +1,9 @@
+==== 2026-04-21 07:19:44 :: Closure-87-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291_additionalCase1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Closure-87-fixed_ind1
+

@@ -1,0 +1,152 @@
+==== 2026-04-23 09:10:23 :: JacksonDatabind-78-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/maven-build.xml:92: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 398 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:198: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ctor.isAccessible()) {
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:283: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!m.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java:172: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!f.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java:764: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ao.isAccessible()) {
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/DateDeserializers.java:222: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 Calendar c = _calendarClass.newInstance();            
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java:453: warning: [deprecation] Double(String) in Double has been deprecated
+    [javac]                         return new Double(text);
+    [javac]                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/ext/Java7Support.java:24: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             impl = (Java7Support) cls.newInstance();
+    [javac]                                      ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/ext/OptionalHandlerFactory.java:152: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             return Class.forName(className).newInstance();
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java:314: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     return serClass.newInstance();
+    [javac]                                    ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 9 warnings
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/deser/impl/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/jsonschema/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/ser/impl/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/type/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/jsontype/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/util/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/deser/std/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/node/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/introspect/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/annotation/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/module/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/jsontype/impl/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/ser/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/deser/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/ext/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/cfg/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes/com/fasterxml/jackson/databind/jsonFormatVisitors/package-info.class
+     [copy] Copying 3 files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/classes
+
+compile:
+
+jackson-databind-from-maven.compile-tests:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/maven-build.xml:120: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 393 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/jsonschema/TestReadJsonSchema.java:6: warning: [deprecation] JsonSchema in com.fasterxml.jackson.databind.jsonschema has been deprecated
+    [javac] import com.fasterxml.jackson.databind.jsonschema.JsonSchema;
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/TestObjectMapperBeanSerializer.java:142: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]         public static final BigInteger   VALUE_BIGINT = new BigInteger((new Long(Long.MAX_VALUE)).toString());
+    [javac]                                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/TestObjectMapperBeanSerializer.java:143: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         public static final BigDecimal   VALUE_BIGDEC = new BigDecimal((new Double(Double.MAX_VALUE)).toString());
+    [javac]                                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/creators/TestCreators.java:317: warning: [deprecation] Double(String) in Double has been deprecated
+    [javac]         Double exp = new Double("0.25");
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/creators/TestValueInstantiator.java:128: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 return cls.newInstance();
+    [javac]                           ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:68: error: cannot find symbol
+    [javac]         SimpleModule module = new SimpleModule();
+    [javac]         ^
+    [javac]   symbol:   class SimpleModule
+    [javac]   location: class IllegalTypesCheckTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:68: error: cannot find symbol
+    [javac]         SimpleModule module = new SimpleModule();
+    [javac]                                   ^
+    [javac]   symbol:   class SimpleModule
+    [javac]   location: class IllegalTypesCheckTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:69: warning: TemplatesImpl is internal proprietary API and may be removed in a future release
+    [javac]         module.addDeserializer(com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl.class,
+    [javac]                                                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:70: warning: TemplatesImpl is internal proprietary API and may be removed in a future release
+    [javac]             new JsonDeserializer<com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl>() {
+    [javac]                                                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:72: error: cannot find symbol
+    [javac]                 public com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
+    [javac]                                                                                               ^
+    [javac]   symbol: class JsonParser
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:72: error: cannot find symbol
+    [javac]                 public com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
+    [javac]                                                                                                                                                 ^
+    [javac]   symbol: class IOException
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java:72: warning: TemplatesImpl is internal proprietary API and may be removed in a future release
+    [javac]                 public com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
+    [javac]                                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForArrays.java:78: warning: [deprecation] WRITE_EMPTY_JSON_ARRAYS in SerializationFeature has been deprecated
+    [javac]         ObjectMapper m = new ObjectMapper().disable(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS);
+    [javac]                                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/jsontype/TestDefaultForScalars.java:18: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         public java.io.Serializable bar = new Integer(13);
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/ser/TestCollectionSerialization.java:243: warning: [deprecation] WRITE_EMPTY_JSON_ARRAYS in SerializationFeature has been deprecated
+    [javac]         assertTrue(MAPPER.isEnabled(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS));
+    [javac]                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/ser/TestCollectionSerialization.java:249: warning: [deprecation] WRITE_EMPTY_JSON_ARRAYS in SerializationFeature has been deprecated
+    [javac]         m.configure(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS, false);
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/failing/TestUnknownProperty426.java:21: warning: [deprecation] Integer(String) in Integer has been deprecated
+    [javac]             setUserId(new Integer(id.toString()));
+    [javac]                       ^
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/src/test/java/com/fasterxml/jackson/databind/BaseMapTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 errors
+    [javac] 13 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-78-buggy/maven-build.xml:120: Compile failed; see the compiler error output for details.
+
+Total time: 4 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | JacksonDatabind-78-buggy
+

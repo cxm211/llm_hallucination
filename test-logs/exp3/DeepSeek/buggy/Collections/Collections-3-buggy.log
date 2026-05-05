@@ -1,0 +1,12 @@
+==== 2026-04-24 02:28:59 :: Collections-3-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.collections.TestCollectionUtils::testRemoveAllWithDuplicates
+  - org.apache.commons.collections.TestCollectionUtils::testRemoveAllWithEmptySecondCollection
+  - org.apache.commons.collections.TestCollectionUtils::testRemoveAll
+---- exit code: 0 | Collections-3-buggy
+

@@ -1,0 +1,37 @@
+==== 2026-04-26 05:57:20 :: Closure-158-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering3
+---- exit code: 0 | Closure-158-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering_NewWarningThenError
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-158-buggy/jacoco_base.exec.
+[INFO] Analyzing 1030 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-158-buggy/jacoco.exec.
+[INFO] Analyzing 1030 classes.
+>>> [JACOCO] done

@@ -1,0 +1,13 @@
+==== 2026-03-28 00:05:23 :: Collections-23-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/collections4/TrieUtilsTest.java
+[RESTORE] restored src/test/java/org/apache/commons/collections4/trie/UnmodifiableTrieTest.java
+[RESTORE] restored target/tests/org/apache/commons/collections4/TrieUtilsTest.java
+[RESTORE] restored target/tests/org/apache/commons/collections4/trie/UnmodifiableTrieTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Collections-23-buggy
+

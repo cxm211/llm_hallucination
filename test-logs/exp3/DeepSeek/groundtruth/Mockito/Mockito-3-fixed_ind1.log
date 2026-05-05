@@ -1,0 +1,10 @@
+==== 2026-04-25 19:25:42 :: Mockito-3-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockitousage.matchers.CapturingArgumentsTest::should_capture_nothing_when_vararg_is_null_or_empty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_nothing_when_vararg_is_null_or_empty
+---- exit code: 0 | Mockito-3-fixed_ind1
+

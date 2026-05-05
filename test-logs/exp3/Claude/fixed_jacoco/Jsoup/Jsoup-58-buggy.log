@@ -1,0 +1,12 @@
+==== 2026-04-01 02:07:22 :: Jsoup-58-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/safety/CleanerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+  - org.jsoup.safety.CleanerTest::testIsValidDocument
+---- exit code: 0 | test_result: Not Pass | Jsoup-58-buggy
+

@@ -1,0 +1,48 @@
+==== 2026-04-22 20:32:48 :: Closure-85-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testContinueWithNextContinue
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveUnreachableCode
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testBreakWithNextBreak
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311
+---- exit code: 0 | Closure-85-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 2, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+[JACOCO] defects4j test -t com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.UnreachableCodeEliminationTest::testBreakWithNextBreak
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testBreakWithNextBreak
+[JACOCO] defects4j test -t com.google.javascript.jscomp.UnreachableCodeEliminationTest::testContinueWithNextContinue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testContinueWithNextContinue
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-85-buggy/jacoco_base.exec.
+[INFO] Analyzing 996 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-85-buggy/jacoco.exec.
+[INFO] Analyzing 996 classes.
+>>> [JACOCO] done

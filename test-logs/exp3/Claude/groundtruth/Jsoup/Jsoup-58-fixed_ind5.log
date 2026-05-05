@@ -1,0 +1,9 @@
+==== 2026-04-21 10:50:31 :: Jsoup-58-fixed_ind5 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.safety.CleanerTest::testIsValidWithMultipleTopLevelElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Jsoup-58-fixed_ind5
+

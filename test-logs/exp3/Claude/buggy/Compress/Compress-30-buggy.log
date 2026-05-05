@@ -1,0 +1,12 @@
+==== 2026-03-28 01:04:06 :: Compress-30-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::readOfLength0ShouldReturn0AtStreamEnd
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::readOfLength0AtStartShouldReturn0
+  - org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest::readOfLength0ShouldReturn0
+---- exit code: 0 | Compress-30-buggy
+

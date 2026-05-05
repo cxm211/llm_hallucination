@@ -1,0 +1,12 @@
+==== 2026-04-21 19:25:24 :: Mockito-31-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithMultipleArgs
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithNoArgs
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithSingleArg
+---- exit code: 0 | Mockito-31-fixed
+

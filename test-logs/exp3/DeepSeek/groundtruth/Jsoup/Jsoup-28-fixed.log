@@ -1,0 +1,11 @@
+==== 2026-04-24 07:14:07 :: Jsoup-28-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.EntitiesTest::unescapeSupplementaryCharacter
+  - org.jsoup.parser.HtmlParserTest::baseEntityMatchGreedy
+---- exit code: 0 | Jsoup-28-fixed
+

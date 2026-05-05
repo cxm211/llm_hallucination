@@ -1,0 +1,13 @@
+==== 2026-04-28 21:58:35 :: Math-32-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-32-buggy/jacoco.exec.
+[INFO] Analyzing 648 classes.
+[JACOCO] done.
+[PARSE] 52 line rows.

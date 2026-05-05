@@ -1,0 +1,13 @@
+==== 2026-04-23 22:21:00 :: JacksonDatabind-8-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/deser/TestJdkTypes.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.creators.SingleArgCreatorTest::testExplicitFactory660b
+  - com.fasterxml.jackson.databind.creators.TestCreators::testConstructorCreator
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testStringBuilder
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-8-buggy
+

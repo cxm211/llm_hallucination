@@ -1,0 +1,24 @@
+==== 2026-04-24 02:41:34 :: Collections-20-buggy_ind4 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.collections.list.TreeListTest::testBugCollections447
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.list.TreeListTest::testBugCollections447
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-buggy_ind4/jacoco_base.exec.
+[INFO] Analyzing 404 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.collections.list.TreeListTest::testRemoveAfterNextThenPrevious
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.list.TreeListTest::testRemoveAfterNextThenPrevious
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-buggy_ind4/jacoco.exec.
+[INFO] Analyzing 404 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 19 line rows.
+[PARSE] 19 base line rows.

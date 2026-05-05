@@ -1,0 +1,13 @@
+==== 2026-03-31 20:59:56 :: Jsoup-5-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.parser.ParserTest::parsesMultipleEmptyAttributeKeys
+  - org.jsoup.parser.ParserTest::parsesEmptyAttributeKeyWithValue
+  - org.jsoup.parser.ParserTest::parsesEmptyAttributeKeyWithQuotedValue
+  - org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes
+---- exit code: 0 | Jsoup-5-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-26 06:56:46 :: Closure-92-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ProcessClosurePrimitivesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4
+---- exit code: 0 | test_result: Not Pass | Closure-92-buggy
+

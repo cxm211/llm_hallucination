@@ -1,0 +1,13 @@
+==== 2026-04-21 18:56:52 :: Chart-18-buggy ====
+[RESTORE] restored tests/org/jfree/data/junit/DefaultKeyedValues2DTests.java
+[RESTORE] restored tests/org/jfree/data/junit/DefaultKeyedValuesTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+---- exit code: 0 | test_result: Not Pass | Chart-18-buggy
+

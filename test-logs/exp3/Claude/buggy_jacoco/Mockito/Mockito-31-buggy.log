@@ -1,0 +1,37 @@
+==== 2026-03-30 06:00:23 :: Mockito-31-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersWhenCallingAMethodWithArgs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersWhenCallingAMethodWithArgs
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-buggy/jacoco_base.exec.
+[INFO] Analyzing 212 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithNoArgs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithNoArgs
+[JACOCO] defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithSingleArg
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithSingleArg
+[JACOCO] defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithMultipleArgs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintMethodCallWithMultipleArgs
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-buggy/jacoco.exec.
+[INFO] Analyzing 212 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 3 line rows.
+[PARSE] 3 base line rows.

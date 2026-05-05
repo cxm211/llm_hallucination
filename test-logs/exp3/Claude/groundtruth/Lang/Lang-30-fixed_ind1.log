@@ -1,0 +1,10 @@
+==== 2026-04-21 11:14:06 :: Lang-30-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_WithMixedSupplementaryAndBMP
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_WithMixedSupplementaryAndBMP
+---- exit code: 0 | Lang-30-fixed_ind1
+

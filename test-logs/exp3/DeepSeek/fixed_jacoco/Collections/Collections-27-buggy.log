@@ -1,0 +1,12 @@
+==== 2026-04-24 02:58:13 :: Collections-27-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+[RESTORE] restored target/tests/org/apache/commons/collections4/map/MultiValueMapTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections4.map.MultiValueMapTest::testUnsafeDeSerialization
+---- exit code: 0 | test_result: Not Pass | Collections-27-buggy
+

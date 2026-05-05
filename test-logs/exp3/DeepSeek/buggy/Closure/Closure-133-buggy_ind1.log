@@ -1,0 +1,11 @@
+==== 2026-04-22 02:45:03 :: Closure-133-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtents
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtentsSingleLine
+---- exit code: 0 | Closure-133-buggy_ind1
+

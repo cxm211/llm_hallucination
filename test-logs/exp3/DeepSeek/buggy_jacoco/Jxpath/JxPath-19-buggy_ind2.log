@@ -1,0 +1,29 @@
+==== 2026-04-25 21:48:33 :: JxPath-19-buggy_ind2 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 162 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testGetRelativePositionByQNameJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testGetRelativePositionByQNameJDOM
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 162 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 38 line rows.
+[PARSE] 38 base line rows.

@@ -1,0 +1,12 @@
+==== 2026-03-27 05:26:57 :: Closure-110-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testHoistedFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionDeclarationInLoop
+---- exit code: 0 | Closure-110-buggy_ind2
+

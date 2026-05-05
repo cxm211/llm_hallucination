@@ -1,0 +1,10 @@
+==== 2026-04-29 12:20:27 :: Gson-17-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Gson-17-buggy
+

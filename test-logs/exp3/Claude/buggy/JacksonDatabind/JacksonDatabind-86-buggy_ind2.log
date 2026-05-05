@@ -1,0 +1,13 @@
+==== 2026-03-28 05:55:04 :: JacksonDatabind-86-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.type.RecursiveTypeTest::testSuperClassWithReferencedJavaType
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testRepeatedSubTypeConstruction
+  - com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes::testBasePropertiesIncludedWhenSerializingSubWhenSubTypeLoadedAfterBaseType
+---- exit code: 0 | JacksonDatabind-86-buggy_ind2
+

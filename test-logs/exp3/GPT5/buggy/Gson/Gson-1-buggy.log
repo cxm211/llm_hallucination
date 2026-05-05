@@ -1,0 +1,14 @@
+==== 2026-04-29 12:10:27 :: Gson-1-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampSerialization
+  - com.google.gson.functional.TypeVariableTest::testSingle
+  - com.google.gson.functional.TypeVariableTest::testGenericHolderWithParameterizedField
+---- exit code: 0 | Gson-1-buggy
+

@@ -1,0 +1,9 @@
+==== 2026-04-21 15:11:56 :: Chart-10-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithAmpersand
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Chart-10-fixed_ind1
+

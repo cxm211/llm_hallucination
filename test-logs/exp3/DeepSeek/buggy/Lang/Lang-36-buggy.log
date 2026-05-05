@@ -1,0 +1,13 @@
+==== 2026-04-25 20:07:15 :: Lang-36-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
+  - org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberTrailingDecimalPoint
+  - org.apache.commons.lang3.math.NumberUtilsTest::testIsNumberTrailingDecimalPoint
+  - org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber
+---- exit code: 0 | Lang-36-buggy
+

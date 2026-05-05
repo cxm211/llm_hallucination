@@ -1,0 +1,15 @@
+==== 2026-03-30 05:39:14 :: Time-10-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/TestDays.java
+[RESTORE] restored src/test/java/org/joda/time/TestMonths.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_YearMonth
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+---- exit code: 0 | test_result: Not Pass | Time-10-buggy
+

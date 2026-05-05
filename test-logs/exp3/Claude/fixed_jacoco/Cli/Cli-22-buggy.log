@@ -1,0 +1,13 @@
+==== 2026-03-27 01:28:21 :: Cli-22-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/ApplicationTest.java
+[RESTORE] restored src/test/org/apache/commons/cli/ParserTestCase.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+---- exit code: 0 | test_result: Not Pass | Cli-22-buggy
+

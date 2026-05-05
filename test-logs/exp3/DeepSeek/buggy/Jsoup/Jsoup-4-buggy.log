@@ -1,0 +1,13 @@
+==== 2026-04-24 04:31:58 :: Jsoup-4-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.nodes.EntitiesTest::escape
+  - org.jsoup.nodes.EntitiesTest::unescapeSupplementaryCharacter
+  - org.jsoup.nodes.EntitiesTest::caseSensitive
+  - org.jsoup.nodes.EntitiesTest::unescapeInvalidCodePoint
+---- exit code: 0 | Jsoup-4-buggy
+

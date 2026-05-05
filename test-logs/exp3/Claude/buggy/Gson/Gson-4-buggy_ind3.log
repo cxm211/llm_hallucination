@@ -1,0 +1,13 @@
+==== 2026-03-28 14:35:58 :: Gson-4-buggy_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonReaderTest::testTopLevelStringMultiplePeeks
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+---- exit code: 0 | Gson-4-buggy_ind3
+

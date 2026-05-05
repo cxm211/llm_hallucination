@@ -1,0 +1,13 @@
+==== 2026-04-23 02:26:17 :: Closure-60-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/NodeUtilTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.NodeUtilTest::testGetExpressionBooleanValue
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testFoldUselessDo
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testIf
+---- exit code: 0 | test_result: Not Pass | Closure-60-buggy
+

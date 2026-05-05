@@ -1,0 +1,10 @@
+==== 2026-04-21 15:30:00 :: Cli-3-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.cli.PatternOptionBuilderTest::testNumberFormatException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PatternOptionBuilderTest::testNumberFormatException
+---- exit code: 0 | Cli-3-fixed_ind1
+

@@ -1,0 +1,9 @@
+==== 2026-04-21 07:55:21 :: Collections-3-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.collections.TestCollectionUtils::testRemoveAllNoCommonElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Collections-3-fixed_ind3
+

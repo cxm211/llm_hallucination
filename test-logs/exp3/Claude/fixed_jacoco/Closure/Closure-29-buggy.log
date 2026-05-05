@@ -1,0 +1,25 @@
+==== 2026-03-27 17:22:00 :: Closure-29-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/InlineObjectLiteralsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject1
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject2
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject5
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject6
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject7
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject8
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject9
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject16
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject23
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject25
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject26
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject1a
+  - com.google.javascript.jscomp.IntegrationTest::testCollapseObjectLiteral2
+---- exit code: 0 | test_result: Not Pass | Closure-29-buggy
+

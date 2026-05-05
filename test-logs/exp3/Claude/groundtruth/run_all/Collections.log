@@ -1,0 +1,722 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Collections
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Collections-1-fixed
+  [CHECKOUT] Collections-2-fixed
+  [CHECKOUT] Collections-3-fixed
+  [CHECKOUT] Collections-4-fixed
+  [CHECKOUT] Collections-5-fixed
+  [CHECKOUT] Collections-6-fixed
+  [CHECKOUT] Collections-7-fixed
+  [CHECKOUT] Collections-8-fixed
+  [CHECKOUT] Collections-9-fixed
+  [CHECKOUT] Collections-11-fixed
+  [CHECKOUT] Collections-12-fixed
+  [CHECKOUT] Collections-13-fixed
+  [CHECKOUT] Collections-14-fixed
+  [CHECKOUT] Collections-15-fixed
+  [CHECKOUT] Collections-16-fixed
+  [CHECKOUT] Collections-17-fixed
+  [CHECKOUT] Collections-18-fixed
+  [CHECKOUT] Collections-19-fixed
+  [CHECKOUT] Collections-20-fixed
+  [CHECKOUT] Collections-21-fixed
+  [CHECKOUT] Collections-22-fixed
+  [CHECKOUT] Collections-23-fixed
+  [CHECKOUT] Collections-24-fixed
+  [CHECKOUT] Collections-25-fixed
+  [CHECKOUT] Collections-26-fixed
+  [CHECKOUT] Collections-27-fixed
+  [CHECKOUT] Collections-28-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Collections ===
+  [COPY] Collections-1-fixed -> Collections-1-fixed_ind1
+  [IND-OK] Collections-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-1-fixed_ind1/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [COPY] Collections-1-fixed -> Collections-1-fixed_ind2
+  [IND-OK] Collections-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-1-fixed_ind2/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-1-fixed/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-1-fixed/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [Collections-1] inserted=4 failed=0
+  [COPY] Collections-2-fixed -> Collections-2-fixed_ind1
+  [IND-OK] Collections-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-2-fixed_ind1/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-2-fixed -> Collections-2-fixed_ind2
+  [IND-OK] Collections-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-2-fixed_ind2/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-2-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-2-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [Collections-2] inserted=4 failed=0
+  [COPY] Collections-3-fixed -> Collections-3-fixed_ind1
+  [IND-OK] Collections-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-3-fixed_ind1/src/test/org/apache/commons/collections/TestCollectionUtils.java
+  [COPY] Collections-3-fixed -> Collections-3-fixed_ind2
+  [IND-OK] Collections-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-3-fixed_ind2/src/test/org/apache/commons/collections/TestCollectionUtils.java
+  [COPY] Collections-3-fixed -> Collections-3-fixed_ind3
+  [IND-OK] Collections-3-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-3-fixed_ind3/src/test/org/apache/commons/collections/TestCollectionUtils.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-3-fixed/src/test/org/apache/commons/collections/TestCollectionUtils.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-3-fixed/src/test/org/apache/commons/collections/TestCollectionUtils.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-3-fixed/src/test/org/apache/commons/collections/TestCollectionUtils.java
+  [Collections-3] inserted=6 failed=0
+  [COPY] Collections-4-fixed -> Collections-4-fixed_ind1
+  [IND-OK] Collections-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-4-fixed_ind1/src/test/org/apache/commons/collections/map/TestMultiValueMap.java
+  [COPY] Collections-4-fixed -> Collections-4-fixed_ind2
+  [IND-OK] Collections-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-4-fixed_ind2/src/test/org/apache/commons/collections/map/TestMultiValueMap.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-4-fixed/src/test/org/apache/commons/collections/map/TestMultiValueMap.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-4-fixed/src/test/org/apache/commons/collections/map/TestMultiValueMap.java
+  [Collections-4] inserted=4 failed=0
+  [COPY] Collections-5-fixed -> Collections-5-fixed_ind1
+  [IND-OK] Collections-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed_ind1/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-5-fixed -> Collections-5-fixed_ind2
+  [IND-OK] Collections-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed_ind2/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-5-fixed -> Collections-5-fixed_ind3
+  [IND-OK] Collections-5-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed_ind3/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-5-fixed -> Collections-5-fixed_ind4
+  [IND-OK] Collections-5-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed_ind4/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-5-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [Collections-5] inserted=8 failed=0
+  [COPY] Collections-6-fixed -> Collections-6-fixed_ind1
+  [IND-OK] Collections-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-fixed_ind1/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [COPY] Collections-6-fixed -> Collections-6-fixed_ind2
+  [IND-OK] Collections-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-fixed_ind2/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [COPY] Collections-6-fixed -> Collections-6-fixed_ind3
+  [IND-OK] Collections-6-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-fixed_ind3/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-fixed/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-fixed/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-6-fixed/src/test/org/apache/commons/collections/map/TestFlat3Map.java
+  [Collections-6] inserted=6 failed=0
+  [COPY] Collections-7-fixed -> Collections-7-fixed_ind1
+  [IND-OK] Collections-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-7-fixed_ind1/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-7-fixed -> Collections-7-fixed_ind2
+  [IND-OK] Collections-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-7-fixed_ind2/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-7-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-7-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [Collections-7] inserted=4 failed=0
+  [COPY] Collections-8-fixed -> Collections-8-fixed_ind1
+  [IND-OK] Collections-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-8-fixed_ind1/src/test/org/apache/commons/collections/buffer/TestUnboundedFifoBuffer.java
+  [COPY] Collections-8-fixed -> Collections-8-fixed_ind2
+  [IND-OK] Collections-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-8-fixed_ind2/src/test/org/apache/commons/collections/buffer/TestUnboundedFifoBuffer.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-8-fixed/src/test/org/apache/commons/collections/buffer/TestUnboundedFifoBuffer.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-8-fixed/src/test/org/apache/commons/collections/buffer/TestUnboundedFifoBuffer.java
+  [Collections-8] inserted=4 failed=0
+  [COPY] Collections-9-fixed -> Collections-9-fixed_ind1
+  [IND-OK] Collections-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-fixed_ind1/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-9-fixed -> Collections-9-fixed_ind2
+  [IND-OK] Collections-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-fixed_ind2/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-9-fixed -> Collections-9-fixed_ind3
+  [IND-OK] Collections-9-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-fixed_ind3/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [Collections-9] inserted=6 failed=0
+  [COPY] Collections-12-fixed -> Collections-12-fixed_ind1
+  [IND-OK] Collections-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-fixed_ind1/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-12-fixed -> Collections-12-fixed_ind2
+  [IND-OK] Collections-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-fixed_ind2/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-12-fixed -> Collections-12-fixed_ind3
+  [IND-OK] Collections-12-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-fixed_ind3/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [Collections-12] inserted=6 failed=0
+  [COPY] Collections-13-fixed -> Collections-13-fixed_ind1
+  [IND-OK] Collections-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-13-fixed_ind1/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [COPY] Collections-13-fixed -> Collections-13-fixed_ind2
+  [IND-OK] Collections-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-13-fixed_ind2/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-13-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-13-fixed/src/test/org/apache/commons/collections/TestExtendedProperties.java
+  [Collections-13] inserted=4 failed=0
+  [COPY] Collections-14-fixed -> Collections-14-fixed_ind1
+  [IND-OK] Collections-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-14-fixed_ind1/src/test/org/apache/commons/collections/map/TestCaseInsensitiveMap.java
+  [COPY] Collections-14-fixed -> Collections-14-fixed_ind2
+  [IND-OK] Collections-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-14-fixed_ind2/src/test/org/apache/commons/collections/map/TestCaseInsensitiveMap.java
+  [COPY] Collections-14-fixed -> Collections-14-fixed_ind3
+  [IND-OK] Collections-14-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-14-fixed_ind3/src/test/org/apache/commons/collections/map/TestCaseInsensitiveMap.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-14-fixed/src/test/org/apache/commons/collections/map/TestCaseInsensitiveMap.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-14-fixed/src/test/org/apache/commons/collections/map/TestCaseInsensitiveMap.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-14-fixed/src/test/org/apache/commons/collections/map/TestCaseInsensitiveMap.java
+  [Collections-14] inserted=6 failed=0
+  [COPY] Collections-15-fixed -> Collections-15-fixed_ind1
+  [IND-OK] Collections-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-15-fixed_ind1/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-15-fixed -> Collections-15-fixed_ind2
+  [IND-OK] Collections-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-15-fixed_ind2/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-15-fixed -> Collections-15-fixed_ind3
+  [IND-OK] Collections-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-15-fixed_ind3/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-15-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-15-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-15-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [Collections-15] inserted=6 failed=0
+  [COPY] Collections-16-fixed -> Collections-16-fixed_ind1
+  [IND-OK] Collections-16-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-16-fixed_ind1/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-16-fixed -> Collections-16-fixed_ind2
+  [IND-OK] Collections-16-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-16-fixed_ind2/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [COPY] Collections-16-fixed -> Collections-16-fixed_ind3
+  [IND-OK] Collections-16-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-16-fixed_ind3/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-16-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-16-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-16-fixed/src/test/org/apache/commons/collections/list/TestSetUniqueList.java
+  [Collections-16] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-17-fixed/src/test/java/org/apache/commons/collections/functors/TestEqualPredicate.java
+  [Collections-17] inserted=1 failed=0
+  [COPY] Collections-18-fixed -> Collections-18-fixed_ind1
+  [IND-OK] Collections-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-18-fixed_ind1/src/test/java/org/apache/commons/collections/set/ListOrderedSetTest.java
+  [COPY] Collections-18-fixed -> Collections-18-fixed_ind2
+  [IND-OK] Collections-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-18-fixed_ind2/src/test/java/org/apache/commons/collections/set/ListOrderedSetTest.java
+  [COPY] Collections-18-fixed -> Collections-18-fixed_ind3
+  [IND-OK] Collections-18-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-18-fixed_ind3/src/test/java/org/apache/commons/collections/set/ListOrderedSetTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-18-fixed/src/test/java/org/apache/commons/collections/set/ListOrderedSetTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-18-fixed/src/test/java/org/apache/commons/collections/set/ListOrderedSetTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-18-fixed/src/test/java/org/apache/commons/collections/set/ListOrderedSetTest.java
+  [Collections-18] inserted=6 failed=0
+  [COPY] Collections-19-fixed -> Collections-19-fixed_ind1
+  [IND-OK] Collections-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-19-fixed_ind1/src/test/java/org/apache/commons/collections/list/SetUniqueListTest.java
+  [COPY] Collections-19-fixed -> Collections-19-fixed_ind2
+  [IND-OK] Collections-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-19-fixed_ind2/src/test/java/org/apache/commons/collections/list/SetUniqueListTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-19-fixed/src/test/java/org/apache/commons/collections/list/SetUniqueListTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-19-fixed/src/test/java/org/apache/commons/collections/list/SetUniqueListTest.java
+  [Collections-19] inserted=4 failed=0
+  [COPY] Collections-20-fixed -> Collections-20-fixed_ind1
+  [IND-OK] Collections-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-fixed_ind1/src/test/java/org/apache/commons/collections/list/TreeListTest.java
+  [COPY] Collections-20-fixed -> Collections-20-fixed_ind2
+  [IND-OK] Collections-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-fixed_ind2/src/test/java/org/apache/commons/collections/list/TreeListTest.java
+  [COPY] Collections-20-fixed -> Collections-20-fixed_ind3
+  [IND-OK] Collections-20-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-fixed_ind3/src/test/java/org/apache/commons/collections/list/TreeListTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-fixed/src/test/java/org/apache/commons/collections/list/TreeListTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-fixed/src/test/java/org/apache/commons/collections/list/TreeListTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-20-fixed/src/test/java/org/apache/commons/collections/list/TreeListTest.java
+  [Collections-20] inserted=6 failed=0
+  [COPY] Collections-21-fixed -> Collections-21-fixed_ind1
+  [IND-OK] Collections-21-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-21-fixed_ind1/src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+  [COPY] Collections-21-fixed -> Collections-21-fixed_ind2
+  [IND-OK] Collections-21-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-21-fixed_ind2/src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-21-fixed/src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-21-fixed/src/test/java/org/apache/commons/collections4/list/SetUniqueListTest.java
+  [Collections-21] inserted=4 failed=0
+  [COPY] Collections-22-fixed -> Collections-22-fixed_ind1
+  [IND-OK] Collections-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-22-fixed_ind1/src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+  [COPY] Collections-22-fixed -> Collections-22-fixed_ind2
+  [IND-OK] Collections-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-22-fixed_ind2/src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+  [COPY] Collections-22-fixed -> Collections-22-fixed_ind3
+  [IND-OK] Collections-22-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-22-fixed_ind3/src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-22-fixed/src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-22-fixed/src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-22-fixed/src/test/java/org/apache/commons/collections4/map/ListOrderedMapTest.java
+  [Collections-22] inserted=6 failed=0
+  [COPY] Collections-23-fixed -> Collections-23-fixed_ind1
+  [IND-OK] Collections-23-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-23-fixed_ind1/src/test/java/org/apache/commons/collections4/TrieUtilsTest.java
+  [COPY] Collections-23-fixed -> Collections-23-fixed_ind2
+  [IND-OK] Collections-23-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-23-fixed_ind2/src/test/java/org/apache/commons/collections4/trie/UnmodifiableTrieTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-23-fixed/src/test/java/org/apache/commons/collections4/TrieUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-23-fixed/src/test/java/org/apache/commons/collections4/trie/UnmodifiableTrieTest.java
+  [Collections-23] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-24-fixed/src/test/java/org/apache/commons/collections4/collection/UnmodifiableBoundedCollectionTest.java
+  [Collections-24] inserted=1 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-25-fixed/src/test/java/org/apache/commons/collections4/IteratorUtilsTest.java
+  [Collections-25] inserted=1 failed=0
+  [COPY] Collections-26-fixed -> Collections-26-fixed_ind1
+  [IND-OK] Collections-26-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-26-fixed_ind1/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+  [COPY] Collections-26-fixed -> Collections-26-fixed_ind2
+  [IND-OK] Collections-26-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-26-fixed_ind2/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+  [COPY] Collections-26-fixed -> Collections-26-fixed_ind3
+  [IND-OK] Collections-26-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-26-fixed_ind3/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-26-fixed/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-26-fixed/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-26-fixed/src/test/java/org/apache/commons/collections4/keyvalue/MultiKeyTest.java
+  [Collections-26] inserted=6 failed=0
+  [COPY] Collections-27-fixed -> Collections-27-fixed_ind1
+  [IND-OK] Collections-27-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-27-fixed_ind1/src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+  [COPY] Collections-27-fixed -> Collections-27-fixed_ind2
+  [IND-OK] Collections-27-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-27-fixed_ind2/src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+  [COPY] Collections-27-fixed -> Collections-27-fixed_ind3
+  [IND-OK] Collections-27-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-27-fixed_ind3/src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-27-fixed/src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-27-fixed/src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-27-fixed/src/test/java/org/apache/commons/collections4/map/MultiValueMapTest.java
+  [Collections-27] inserted=6 failed=0
+  [COPY] Collections-28-fixed -> Collections-28-fixed_ind1
+  [IND-OK] Collections-28-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-28-fixed_ind1/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieTest.java
+  [COPY] Collections-28-fixed -> Collections-28-fixed_ind2
+  [IND-OK] Collections-28-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-28-fixed_ind2/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieTest.java
+  [COPY] Collections-28-fixed -> Collections-28-fixed_ind3
+  [IND-OK] Collections-28-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-28-fixed_ind3/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-28-fixed/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-28-fixed/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-28-fixed/src/test/java/org/apache/commons/collections4/trie/PatriciaTrieTest.java
+  [Collections-28] inserted=6 failed=0
+
+[INSERT DONE] inserted=125 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 26
+individual bugs: 61
+
+==== 2026-04-21 07:53:18 :: Collections-1-fixed ====
+>>> defects4j test -r in Collections-1-fixed
+---- exit code: 1 | Collections-1-fixed
+
+==== 2026-04-21 07:53:22 :: Collections-2-fixed ====
+>>> defects4j test -r in Collections-2-fixed
+---- exit code: 0 | Collections-2-fixed
+
+==== 2026-04-21 07:53:25 :: Collections-3-fixed ====
+>>> defects4j test -r in Collections-3-fixed
+---- exit code: 0 | Collections-3-fixed
+
+==== 2026-04-21 07:53:29 :: Collections-4-fixed ====
+>>> defects4j test -r in Collections-4-fixed
+---- exit code: 0 | Collections-4-fixed
+
+==== 2026-04-21 07:53:33 :: Collections-5-fixed ====
+>>> defects4j test -r in Collections-5-fixed
+---- exit code: 1 | Collections-5-fixed
+
+==== 2026-04-21 07:53:36 :: Collections-6-fixed ====
+>>> defects4j test -r in Collections-6-fixed
+---- exit code: 0 | Collections-6-fixed
+
+==== 2026-04-21 07:53:40 :: Collections-7-fixed ====
+>>> defects4j test -r in Collections-7-fixed
+---- exit code: 1 | Collections-7-fixed
+
+==== 2026-04-21 07:53:43 :: Collections-8-fixed ====
+>>> defects4j test -r in Collections-8-fixed
+---- exit code: 0 | Collections-8-fixed
+
+==== 2026-04-21 07:53:49 :: Collections-9-fixed ====
+>>> defects4j test -r in Collections-9-fixed
+---- exit code: 0 | Collections-9-fixed
+
+==== 2026-04-21 07:53:53 :: Collections-12-fixed ====
+>>> defects4j test -r in Collections-12-fixed
+---- exit code: 0 | Collections-12-fixed
+
+==== 2026-04-21 07:53:57 :: Collections-13-fixed ====
+>>> defects4j test -r in Collections-13-fixed
+---- exit code: 0 | Collections-13-fixed
+
+==== 2026-04-21 07:54:01 :: Collections-14-fixed ====
+>>> defects4j test -r in Collections-14-fixed
+---- exit code: 0 | Collections-14-fixed
+
+==== 2026-04-21 07:54:04 :: Collections-15-fixed ====
+>>> defects4j test -r in Collections-15-fixed
+---- exit code: 0 | Collections-15-fixed
+
+==== 2026-04-21 07:54:08 :: Collections-16-fixed ====
+>>> defects4j test -r in Collections-16-fixed
+---- exit code: 0 | Collections-16-fixed
+
+==== 2026-04-21 07:54:12 :: Collections-17-fixed ====
+>>> defects4j test -r in Collections-17-fixed
+---- exit code: 1 | Collections-17-fixed
+
+==== 2026-04-21 07:54:16 :: Collections-18-fixed ====
+>>> defects4j test -r in Collections-18-fixed
+---- exit code: 0 | Collections-18-fixed
+
+==== 2026-04-21 07:54:20 :: Collections-19-fixed ====
+>>> defects4j test -r in Collections-19-fixed
+---- exit code: 0 | Collections-19-fixed
+
+==== 2026-04-21 07:54:24 :: Collections-20-fixed ====
+>>> defects4j test -r in Collections-20-fixed
+---- exit code: 0 | Collections-20-fixed
+
+==== 2026-04-21 07:54:29 :: Collections-21-fixed ====
+>>> defects4j test -r in Collections-21-fixed
+---- exit code: 0 | Collections-21-fixed
+
+==== 2026-04-21 07:54:33 :: Collections-22-fixed ====
+>>> defects4j test -r in Collections-22-fixed
+---- exit code: 1 | Collections-22-fixed
+
+==== 2026-04-21 07:54:36 :: Collections-23-fixed ====
+>>> defects4j test -r in Collections-23-fixed
+---- exit code: 0 | Collections-23-fixed
+
+==== 2026-04-21 07:54:41 :: Collections-24-fixed ====
+>>> defects4j test -r in Collections-24-fixed
+---- exit code: 1 | Collections-24-fixed
+
+==== 2026-04-21 07:54:44 :: Collections-25-fixed ====
+>>> defects4j test -r in Collections-25-fixed
+---- exit code: 1 | Collections-25-fixed
+
+==== 2026-04-21 07:54:48 :: Collections-26-fixed ====
+>>> defects4j test -r in Collections-26-fixed
+---- exit code: 1 | Collections-26-fixed
+
+==== 2026-04-21 07:54:51 :: Collections-27-fixed ====
+>>> defects4j test -r in Collections-27-fixed
+---- exit code: 1 | Collections-27-fixed
+
+==== 2026-04-21 07:54:55 :: Collections-28-fixed ====
+>>> defects4j test -r in Collections-28-fixed
+---- exit code: 1 | Collections-28-fixed
+
+==== 2026-04-21 07:54:59 :: Collections-1-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testEntryIteratorSetValue1 in Collections-1-fixed_ind1
+---- exit code: 1 | Collections-1-fixed_ind1
+
+==== 2026-04-21 07:55:02 :: Collections-1-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testMapIteratorSetValue1 in Collections-1-fixed_ind2
+---- exit code: 1 | Collections-1-fixed_ind2
+
+==== 2026-04-21 07:55:05 :: Collections-2-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testIncludeEmptyStringReturnsNull in Collections-2-fixed_ind1
+---- exit code: 0 | Collections-2-fixed_ind1
+
+==== 2026-04-21 07:55:09 :: Collections-2-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testIncludeNonEmptyStringReturnsValue in Collections-2-fixed_ind2
+---- exit code: 0 | Collections-2-fixed_ind2
+
+==== 2026-04-21 07:55:13 :: Collections-3-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.TestCollectionUtils::testRemoveAllWithDuplicates in Collections-3-fixed_ind1
+---- exit code: 0 | Collections-3-fixed_ind1
+
+==== 2026-04-21 07:55:17 :: Collections-3-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.TestCollectionUtils::testRemoveAllEmptyRemoveCollection in Collections-3-fixed_ind2
+---- exit code: 0 | Collections-3-fixed_ind2
+
+==== 2026-04-21 07:55:21 :: Collections-3-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.TestCollectionUtils::testRemoveAllNoCommonElements in Collections-3-fixed_ind3
+---- exit code: 0 | Collections-3-fixed_ind3
+
+==== 2026-04-21 07:55:25 :: Collections-4-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestMultiValueMap::testPutAllEmptyMap in Collections-4-fixed_ind1
+---- exit code: 0 | Collections-4-fixed_ind1
+
+==== 2026-04-21 07:55:28 :: Collections-4-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestMultiValueMap::testPutNewKey in Collections-4-fixed_ind2
+---- exit code: 0 | Collections-4-fixed_ind2
+
+==== 2026-04-21 07:55:32 :: Collections-5-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testIntCollectionAddAllAtEnd in Collections-5-fixed_ind1
+---- exit code: 1 | Collections-5-fixed_ind1
+
+==== 2026-04-21 07:55:36 :: Collections-5-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testIntCollectionAddAllMiddleWithDuplicates in Collections-5-fixed_ind2
+---- exit code: 1 | Collections-5-fixed_ind2
+
+==== 2026-04-21 07:55:39 :: Collections-5-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testIntCollectionAddAllEmptyCollection in Collections-5-fixed_ind3
+---- exit code: 1 | Collections-5-fixed_ind3
+
+==== 2026-04-21 07:55:42 :: Collections-5-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testIntCollectionAddAllOnlyDuplicates in Collections-5-fixed_ind4
+---- exit code: 1 | Collections-5-fixed_ind4
+
+==== 2026-04-21 07:55:45 :: Collections-6-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testRemoveWithNullKeys in Collections-6-fixed_ind1
+---- exit code: 0 | Collections-6-fixed_ind1
+
+==== 2026-04-21 07:55:49 :: Collections-6-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testRemoveMiddleKeyFromSize3 in Collections-6-fixed_ind2
+---- exit code: 0 | Collections-6-fixed_ind2
+
+==== 2026-04-21 07:55:53 :: Collections-6-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestFlat3Map::testRemoveFirstKeyFromSize2 in Collections-6-fixed_ind3
+---- exit code: 0 | Collections-6-fixed_ind3
+
+==== 2026-04-21 07:55:57 :: Collections-7-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testKeySet5 in Collections-7-fixed_ind1
+---- exit code: 1 | Collections-7-fixed_ind1
+
+==== 2026-04-21 07:56:00 :: Collections-7-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testKeySet6 in Collections-7-fixed_ind2
+---- exit code: 0 | Collections-7-fixed_ind2
+
+==== 2026-04-21 07:56:03 :: Collections-8-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.buffer.TestUnboundedFifoBuffer::testCollections220_MultipleElements in Collections-8-fixed_ind1
+---- exit code: 0 | Collections-8-fixed_ind1
+
+==== 2026-04-21 07:56:07 :: Collections-8-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.buffer.TestUnboundedFifoBuffer::testCollections220_SingleElement in Collections-8-fixed_ind2
+---- exit code: 0 | Collections-8-fixed_ind2
+
+==== 2026-04-21 07:56:11 :: Collections-9-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineWithMultipleProperties in Collections-9-fixed_ind1
+---- exit code: 0 | Collections-9-fixed_ind1
+
+==== 2026-04-21 07:56:15 :: Collections-9-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties in Collections-9-fixed_ind2
+---- exit code: 0 | Collections-9-fixed_ind2
+
+==== 2026-04-21 07:56:19 :: Collections-9-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineEmptyProperties in Collections-9-fixed_ind3
+---- exit code: 0 | Collections-9-fixed_ind3
+
+==== 2026-04-21 07:56:22 :: Collections-12-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineWithMultipleValues in Collections-12-fixed_ind1
+---- exit code: 0 | Collections-12-fixed_ind1
+
+==== 2026-04-21 07:56:26 :: Collections-12-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineWithSpecialCharacters in Collections-12-fixed_ind2
+---- exit code: 0 | Collections-12-fixed_ind2
+
+==== 2026-04-21 07:56:30 :: Collections-12-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineEmpty in Collections-12-fixed_ind3
+---- exit code: 0 | Collections-12-fixed_ind3
+
+==== 2026-04-21 07:56:34 :: Collections-13-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCollections299_AdditionalCase1 in Collections-13-fixed_ind1
+---- exit code: 0 | Collections-13-fixed_ind1
+
+==== 2026-04-21 07:56:38 :: Collections-13-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCollections299_AdditionalCase2 in Collections-13-fixed_ind2
+---- exit code: 0 | Collections-13-fixed_ind2
+
+==== 2026-04-21 07:56:42 :: Collections-14-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestCaseInsensitiveMap::testTurkishLocaleSpecificCases in Collections-14-fixed_ind1
+---- exit code: 0 | Collections-14-fixed_ind1
+
+==== 2026-04-21 07:56:46 :: Collections-14-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestCaseInsensitiveMap::testGreekSigmaVariants in Collections-14-fixed_ind2
+---- exit code: 0 | Collections-14-fixed_ind2
+
+==== 2026-04-21 07:56:50 :: Collections-14-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.map.TestCaseInsensitiveMap::testNullKeyHandling in Collections-14-fixed_ind3
+---- exit code: 0 | Collections-14-fixed_ind3
+
+==== 2026-04-21 07:56:53 :: Collections-15-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testSetWithDuplicateAtDifferentPosition in Collections-15-fixed_ind1
+---- exit code: 0 | Collections-15-fixed_ind1
+
+==== 2026-04-21 07:56:57 :: Collections-15-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testSetWithNewElement in Collections-15-fixed_ind2
+---- exit code: 0 | Collections-15-fixed_ind2
+
+==== 2026-04-21 07:57:01 :: Collections-15-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testSetWithSameElement in Collections-15-fixed_ind3
+---- exit code: 0 | Collections-15-fixed_ind3
+
+==== 2026-04-21 07:57:05 :: Collections-16-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testSubListAdd in Collections-16-fixed_ind1
+---- exit code: 0 | Collections-16-fixed_ind1
+
+==== 2026-04-21 07:57:09 :: Collections-16-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testSubListContainsAll in Collections-16-fixed_ind2
+---- exit code: 0 | Collections-16-fixed_ind2
+
+==== 2026-04-21 07:57:12 :: Collections-16-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.list.TestSetUniqueList::testSubListWithTreeSet in Collections-16-fixed_ind3
+---- exit code: 0 | Collections-16-fixed_ind3
+
+==== 2026-04-21 07:57:16 :: Collections-18-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.set.ListOrderedSetTest::testRetainAllPartialOverlap in Collections-18-fixed_ind1
+---- exit code: 0 | Collections-18-fixed_ind1
+
+==== 2026-04-21 07:57:20 :: Collections-18-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.set.ListOrderedSetTest::testRetainAllEmptyCollection in Collections-18-fixed_ind2
+---- exit code: 0 | Collections-18-fixed_ind2
+
+==== 2026-04-21 07:57:24 :: Collections-18-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.set.ListOrderedSetTest::testRetainAllNoChange in Collections-18-fixed_ind3
+---- exit code: 0 | Collections-18-fixed_ind3
+
+==== 2026-04-21 07:57:28 :: Collections-19-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.list.SetUniqueListTest::testSetWithDifferentObjects in Collections-19-fixed_ind1
+---- exit code: 0 | Collections-19-fixed_ind1
+
+==== 2026-04-21 07:57:33 :: Collections-19-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.list.SetUniqueListTest::testSetAtEnd in Collections-19-fixed_ind2
+---- exit code: 0 | Collections-19-fixed_ind2
+
+==== 2026-04-21 07:57:37 :: Collections-20-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections.list.TreeListTest::testBugCollections447_RemoveAfterNext in Collections-20-fixed_ind1
+---- exit code: 0 | Collections-20-fixed_ind1
+
+==== 2026-04-21 07:57:41 :: Collections-20-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections.list.TreeListTest::testBugCollections447_RemoveAtStart in Collections-20-fixed_ind2
+---- exit code: 0 | Collections-20-fixed_ind2
+
+==== 2026-04-21 07:57:45 :: Collections-20-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections.list.TreeListTest::testBugCollections447_RemoveAtEnd in Collections-20-fixed_ind3
+---- exit code: 0 | Collections-20-fixed_ind3
+
+==== 2026-04-21 07:57:50 :: Collections-21-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections4.list.SetUniqueListTest::testSubListAddIsUnmodifiable in Collections-21-fixed_ind1
+---- exit code: 0 | Collections-21-fixed_ind1
+
+==== 2026-04-21 07:57:54 :: Collections-21-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections4.list.SetUniqueListTest::testSubListClearIsUnmodifiable in Collections-21-fixed_ind2
+---- exit code: 0 | Collections-21-fixed_ind2
+
+==== 2026-04-21 07:57:58 :: Collections-22-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections4.map.ListOrderedMapTest::testPutAllWithIndex_MixedNullAndNonNullValues in Collections-22-fixed_ind1
+---- exit code: 1 | Collections-22-fixed_ind1
+
+==== 2026-04-21 07:58:01 :: Collections-22-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections4.map.ListOrderedMapTest::testPutAllWithIndex_ReplacingNullWithNull in Collections-22-fixed_ind2
+---- exit code: 1 | Collections-22-fixed_ind2
+
+==== 2026-04-21 07:58:04 :: Collections-22-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections4.map.ListOrderedMapTest::testPutAllWithIndex_ReplacingNonNullWithNull in Collections-22-fixed_ind3
+---- exit code: 1 | Collections-22-fixed_ind3
+
+==== 2026-04-21 07:58:07 :: Collections-23-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections4.TrieUtilsTest::testUnmodifiableTrieWithNestedUnmodifiable in Collections-23-fixed_ind1
+---- exit code: 0 | Collections-23-fixed_ind1
+
+==== 2026-04-21 07:58:12 :: Collections-23-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections4.trie.UnmodifiableTrieTest::testDecorateFactoryWithPopulatedTrie in Collections-23-fixed_ind2
+---- exit code: 0 | Collections-23-fixed_ind2
+
+==== 2026-04-21 07:58:16 :: Collections-26-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections4.keyvalue.MultiKeyTest::testHashCodeAfterSerializationWithSingleKey in Collections-26-fixed_ind1
+---- exit code: 1 | Collections-26-fixed_ind1
+
+==== 2026-04-21 07:58:19 :: Collections-26-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections4.keyvalue.MultiKeyTest::testHashCodeAfterSerializationWithThreeKeys in Collections-26-fixed_ind2
+---- exit code: 1 | Collections-26-fixed_ind2
+
+==== 2026-04-21 07:58:23 :: Collections-26-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections4.keyvalue.MultiKeyTest::testEqualsAfterSerializationWithNullKey in Collections-26-fixed_ind3
+---- exit code: 1 | Collections-26-fixed_ind3
+
+==== 2026-04-21 07:58:26 :: Collections-27-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections4.map.MultiValueMapTest::testUnsafeDeSerializationWithInteger in Collections-27-fixed_ind1
+---- exit code: 1 | Collections-27-fixed_ind1
+
+==== 2026-04-21 07:58:30 :: Collections-27-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections4.map.MultiValueMapTest::testSafeDeSerializationWithLinkedList in Collections-27-fixed_ind2
+---- exit code: 1 | Collections-27-fixed_ind2
+
+==== 2026-04-21 07:58:33 :: Collections-27-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections4.map.MultiValueMapTest::testUnsafeDeSerializationWithObject in Collections-27-fixed_ind3
+---- exit code: 1 | Collections-27-fixed_ind3
+
+==== 2026-04-21 07:58:37 :: Collections-28-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.collections4.trie.PatriciaTrieTest::testPrefixMapSize in Collections-28-fixed_ind1
+---- exit code: 0 | Collections-28-fixed_ind1
+
+==== 2026-04-21 07:58:41 :: Collections-28-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.collections4.trie.PatriciaTrieTest::testPrefixMapContainsKey in Collections-28-fixed_ind2
+---- exit code: 0 | Collections-28-fixed_ind2
+
+==== 2026-04-21 07:58:46 :: Collections-28-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.collections4.trie.PatriciaTrieTest::testPrefixMapPutAll in Collections-28-fixed_ind3
+---- exit code: 1 | Collections-28-fixed_ind3
+
+
+=== Combined Test Run Summary ===
+  Collections/Collections-1-fixed                                -> FAIL(1)
+  Collections/Collections-12-fixed                               -> OK
+  Collections/Collections-13-fixed                               -> OK
+  Collections/Collections-14-fixed                               -> OK
+  Collections/Collections-15-fixed                               -> OK
+  Collections/Collections-16-fixed                               -> OK
+  Collections/Collections-17-fixed                               -> FAIL(1)
+  Collections/Collections-18-fixed                               -> OK
+  Collections/Collections-19-fixed                               -> OK
+  Collections/Collections-2-fixed                                -> OK
+  Collections/Collections-20-fixed                               -> OK
+  Collections/Collections-21-fixed                               -> OK
+  Collections/Collections-22-fixed                               -> FAIL(1)
+  Collections/Collections-23-fixed                               -> OK
+  Collections/Collections-24-fixed                               -> FAIL(1)
+  Collections/Collections-25-fixed                               -> FAIL(1)
+  Collections/Collections-26-fixed                               -> FAIL(1)
+  Collections/Collections-27-fixed                               -> FAIL(1)
+  Collections/Collections-28-fixed                               -> FAIL(1)
+  Collections/Collections-3-fixed                                -> OK
+  Collections/Collections-4-fixed                                -> OK
+  Collections/Collections-5-fixed                                -> FAIL(1)
+  Collections/Collections-6-fixed                                -> OK
+  Collections/Collections-7-fixed                                -> FAIL(1)
+  Collections/Collections-8-fixed                                -> OK
+  Collections/Collections-9-fixed                                -> OK
+Combined total: 26 | failed: 10 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Collections/Collections-1-fixed_ind1                           -> FAIL(1)
+  Collections/Collections-1-fixed_ind2                           -> FAIL(1)
+  Collections/Collections-12-fixed_ind1                          -> OK
+  Collections/Collections-12-fixed_ind2                          -> OK
+  Collections/Collections-12-fixed_ind3                          -> OK
+  Collections/Collections-13-fixed_ind1                          -> OK
+  Collections/Collections-13-fixed_ind2                          -> OK
+  Collections/Collections-14-fixed_ind1                          -> OK
+  Collections/Collections-14-fixed_ind2                          -> OK
+  Collections/Collections-14-fixed_ind3                          -> OK
+  Collections/Collections-15-fixed_ind1                          -> OK
+  Collections/Collections-15-fixed_ind2                          -> OK
+  Collections/Collections-15-fixed_ind3                          -> OK
+  Collections/Collections-16-fixed_ind1                          -> OK
+  Collections/Collections-16-fixed_ind2                          -> OK
+  Collections/Collections-16-fixed_ind3                          -> OK
+  Collections/Collections-18-fixed_ind1                          -> OK
+  Collections/Collections-18-fixed_ind2                          -> OK
+  Collections/Collections-18-fixed_ind3                          -> OK
+  Collections/Collections-19-fixed_ind1                          -> OK
+  Collections/Collections-19-fixed_ind2                          -> OK
+  Collections/Collections-2-fixed_ind1                           -> OK
+  Collections/Collections-2-fixed_ind2                           -> OK
+  Collections/Collections-20-fixed_ind1                          -> OK
+  Collections/Collections-20-fixed_ind2                          -> OK
+  Collections/Collections-20-fixed_ind3                          -> OK
+  Collections/Collections-21-fixed_ind1                          -> OK
+  Collections/Collections-21-fixed_ind2                          -> OK
+  Collections/Collections-22-fixed_ind1                          -> FAIL(1)
+  Collections/Collections-22-fixed_ind2                          -> FAIL(1)
+  Collections/Collections-22-fixed_ind3                          -> FAIL(1)
+  Collections/Collections-23-fixed_ind1                          -> OK
+  Collections/Collections-23-fixed_ind2                          -> OK
+  Collections/Collections-26-fixed_ind1                          -> FAIL(1)
+  Collections/Collections-26-fixed_ind2                          -> FAIL(1)
+  Collections/Collections-26-fixed_ind3                          -> FAIL(1)
+  Collections/Collections-27-fixed_ind1                          -> FAIL(1)
+  Collections/Collections-27-fixed_ind2                          -> FAIL(1)
+  Collections/Collections-27-fixed_ind3                          -> FAIL(1)
+  Collections/Collections-28-fixed_ind1                          -> OK
+  Collections/Collections-28-fixed_ind2                          -> OK
+  Collections/Collections-28-fixed_ind3                          -> FAIL(1)
+  Collections/Collections-3-fixed_ind1                           -> OK
+  Collections/Collections-3-fixed_ind2                           -> OK
+  Collections/Collections-3-fixed_ind3                           -> OK
+  Collections/Collections-4-fixed_ind1                           -> OK
+  Collections/Collections-4-fixed_ind2                           -> OK
+  Collections/Collections-5-fixed_ind1                           -> FAIL(1)
+  Collections/Collections-5-fixed_ind2                           -> FAIL(1)
+  Collections/Collections-5-fixed_ind3                           -> FAIL(1)
+  Collections/Collections-5-fixed_ind4                           -> FAIL(1)
+  Collections/Collections-6-fixed_ind1                           -> OK
+  Collections/Collections-6-fixed_ind2                           -> OK
+  Collections/Collections-6-fixed_ind3                           -> OK
+  Collections/Collections-7-fixed_ind1                           -> FAIL(1)
+  Collections/Collections-7-fixed_ind2                           -> OK
+  Collections/Collections-8-fixed_ind1                           -> OK
+  Collections/Collections-8-fixed_ind2                           -> OK
+  Collections/Collections-9-fixed_ind1                           -> OK
+  Collections/Collections-9-fixed_ind2                           -> OK
+  Collections/Collections-9-fixed_ind3                           -> OK
+Individual total: 61 | failed: 17
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Collections] 64 | pass=41 not_pass=0 not_compilable=23 -> Collections.csv
+
+[DONE combined] total=64 pass=41 not_pass=0 not_compilable=23
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

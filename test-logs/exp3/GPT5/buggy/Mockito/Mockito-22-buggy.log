@@ -1,0 +1,10 @@
+==== 2026-04-28 17:11:52 :: Mockito-22-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual
+---- exit code: 0 | Mockito-22-buggy
+

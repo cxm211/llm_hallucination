@@ -1,0 +1,96 @@
+==== 2026-04-26 00:48:59 :: Gson-11-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+gson-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+gson-from-maven.compile-tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/maven-build.xml:99: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 95 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:829: error: illegal character: '\'
+    [javac]     Number value = gson.fromJson(\"\\\"18\\\"\", Number.class);
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:829: error: unclosed string literal
+    [javac]     Number value = gson.fromJson(\"\\\"18\\\"\", Number.class);
+    [javac]                                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:831: error: illegal character: '\'
+    [javac]     value = gson.fromJson(\"\\\"-18\\\"\", Number.class);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:831: error: unclosed string literal
+    [javac]     value = gson.fromJson(\"\\\"-18\\\"\", Number.class);
+    [javac]                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:833: error: illegal character: '\'
+    [javac]     value = gson.fromJson(\"\\\"3.14\\\"\", Number.class);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:833: error: unclosed string literal
+    [javac]     value = gson.fromJson(\"\\\"3.14\\\"\", Number.class);
+    [javac]                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:835: error: illegal character: '\'
+    [javac]     value = gson.fromJson(\"\\\"1e2\\\"\", Number.class);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:835: error: unclosed string literal
+    [javac]     value = gson.fromJson(\"\\\"1e2\\\"\", Number.class);
+    [javac]                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:837: error: illegal character: '\'
+    [javac]     value = gson.fromJson(\"\\\"0\\\"\", Number.class);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:837: error: unclosed string literal
+    [javac]     value = gson.fromJson(\"\\\"0\\\"\", Number.class);
+    [javac]                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:839: error: illegal character: '\'
+    [javac]     value = gson.fromJson(\"\\\"-0\\\"\", Number.class);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:839: error: unclosed string literal
+    [javac]     value = gson.fromJson(\"\\\"-0\\\"\", Number.class);
+    [javac]                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:841: error: illegal character: '\'
+    [javac]     value = gson.fromJson(\"\\\"123456789012345678901234567890\\\"\", Number.class);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:841: error: unclosed string literal
+    [javac]     value = gson.fromJson(\"\\\"123456789012345678901234567890\\\"\", Number.class);
+    [javac]                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:842: error: illegal character: '\'
+    [javac]     assertEquals(\"123456789012345678901234567890\", value.toString());
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:842: error: unclosed string literal
+    [javac]     assertEquals(\"123456789012345678901234567890\", value.toString());
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:847: error: illegal character: '\'
+    [javac]     Number value = gson.fromJson(\"\\\"abc\\\"\", Number.class);
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:847: error: unclosed string literal
+    [javac]     Number value = gson.fromJson(\"\\\"abc\\\"\", Number.class);
+    [javac]                                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:850: error: illegal character: '\'
+    [javac]         fail(\"Expected NumberFormatException\");
+    [javac]              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:850: error: unclosed string literal
+    [javac]         fail(\"Expected NumberFormatException\");
+    [javac]               ^
+    [javac] 20 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/gson/maven-build.xml:99: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 12 rows.

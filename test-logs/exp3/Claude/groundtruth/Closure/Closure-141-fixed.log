@@ -1,0 +1,11 @@
+==== 2026-04-21 06:33:40 :: Closure-141-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression_AdditionalAnonymousFunction
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionWithNestedAnonymous
+---- exit code: 0 | Closure-141-fixed
+

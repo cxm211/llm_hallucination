@@ -1,0 +1,10 @@
+==== 2026-04-21 06:19:19 :: Closure-101-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitivesWithRequire
+---- exit code: 0 | Closure-101-fixed
+

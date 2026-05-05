@@ -1,0 +1,22 @@
+==== 2026-04-24 15:46:41 :: Time-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+---- exit code: 0 | Time-11-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 1, add tests: 0, total: 1
+[JACOCO] defects4j test -t org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-11-buggy/jacoco.exec.
+[INFO] Analyzing 205 classes.
+>>> [JACOCO] done

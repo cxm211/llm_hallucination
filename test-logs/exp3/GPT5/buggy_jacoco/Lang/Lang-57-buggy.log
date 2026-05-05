@@ -1,0 +1,74 @@
+==== 2026-04-29 00:51:27 :: Lang-57-buggy ====
+[JACOCO] trigger=11 add=1 total=12
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testCountriesByLanguage
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testCountriesByLanguage
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testConstructor
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-57-buggy/jacoco_base.exec.
+[INFO] Analyzing 119 classes.
+[JACOCO] base snapshot saved (11 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-57-buggy/jacoco.exec.
+[INFO] Analyzing 119 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 3 line rows.
+[PARSE] 3 base line rows.

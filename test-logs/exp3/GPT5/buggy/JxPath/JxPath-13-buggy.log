@@ -1,0 +1,10 @@
+==== 2026-04-29 01:33:12 :: JxPath-13-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testCreateAndSetAttributeDOM
+---- exit code: 0 | JxPath-13-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-03-29 14:46:50 :: JxPath-20-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.jxpath.ri.compiler.JXPath149Test::testComplexOperationWithVariables
+  - org.apache.commons.jxpath.ri.compiler.JXPath149Test::testComplexOperationWithZeroAndNegative
+  - org.apache.commons.jxpath.ri.compiler.JXPath149Test::testNaNComparison
+---- exit code: 0 | JxPath-20-buggy
+

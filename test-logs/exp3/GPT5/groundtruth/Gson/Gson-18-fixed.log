@@ -1,0 +1,10 @@
+==== 2026-04-29 12:22:47 :: Gson-18-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.CollectionTest::testIssue1107Wildcard
+---- exit code: 0 | Gson-18-fixed
+

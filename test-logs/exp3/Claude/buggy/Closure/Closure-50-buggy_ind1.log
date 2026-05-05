@@ -1,0 +1,12 @@
+==== 2026-03-27 04:39:33 :: Closure-50-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin
+  - com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoinMultipleExtraArgs
+---- exit code: 0 | Closure-50-buggy_ind1
+

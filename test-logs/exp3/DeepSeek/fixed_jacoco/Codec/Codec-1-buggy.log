@@ -1,0 +1,13 @@
+==== 2026-04-24 02:04:56 :: Codec-1-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/StringEncoderAbstractTest.java
+[RESTORE] restored target/tests/org/apache/commons/codec/StringEncoderAbstractTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+---- exit code: 0 | test_result: Not Pass | Codec-1-buggy
+

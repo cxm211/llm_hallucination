@@ -1,0 +1,9 @@
+==== 2026-04-21 19:41:49 :: Mockito-8-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.util.reflection.GenericMetadataSupportTest::typeVariable_of_nested_parameterized_type
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-8-fixed_ind1
+

@@ -1,0 +1,9 @@
+==== 2026-04-21 19:54:03 :: Mockito-17-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.basicapi.MocksSerializationTest::shouldNotBeSerializableWhenOnlyExtraInterfacesSet
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-17-fixed_ind2
+

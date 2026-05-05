@@ -1,0 +1,35 @@
+==== 2026-04-26 06:02:31 :: Closure-167-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue783
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty20
+---- exit code: 0 | Closure-167-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 0, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue783
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue783
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testMissingProperty20
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty20
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRestrictedTypeGivenToBoolean
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-167-buggy/jacoco.exec.
+[INFO] Analyzing 1163 classes.
+>>> [JACOCO] done

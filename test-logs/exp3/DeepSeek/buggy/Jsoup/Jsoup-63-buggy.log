@@ -1,0 +1,14 @@
+==== 2026-04-24 04:36:08 :: Jsoup-63-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.parser.HtmlParserTest::multipleSelfClosingNonVoidTags
+  - org.jsoup.parser.HtmlParserTest::selfClosingVoidAndNonVoidMix
+  - org.jsoup.parser.HtmlParserTest::selfClosingOnNonvoidIsError
+  - org.jsoup.parser.HtmlParserTest::selfClosingVoidIsNotAnError
+  - org.jsoup.parser.HtmlParserTest::tracksErrorsWhenRequested
+---- exit code: 0 | Jsoup-63-buggy
+

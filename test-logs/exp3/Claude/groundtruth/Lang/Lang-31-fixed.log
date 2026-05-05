@@ -1,0 +1,10 @@
+==== 2026-04-21 11:08:25 :: Lang-31-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyCharArrayWithLoneSurrogates
+---- exit code: 0 | Lang-31-fixed
+

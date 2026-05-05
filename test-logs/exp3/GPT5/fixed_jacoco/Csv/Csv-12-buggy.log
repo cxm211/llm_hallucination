@@ -1,0 +1,11 @@
+==== 2026-04-29 17:58:04 :: Csv-12-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVParserTest::testExcelHeaderCountLessThanData
+---- exit code: 0 | test_result: Not Pass | Csv-12-buggy
+

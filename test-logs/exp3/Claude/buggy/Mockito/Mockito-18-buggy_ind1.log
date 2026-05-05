@@ -1,0 +1,10 @@
+==== 2026-03-30 04:16:08 :: Mockito-18-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_empty_iterable
+---- exit code: 0 | Mockito-18-buggy_ind1
+

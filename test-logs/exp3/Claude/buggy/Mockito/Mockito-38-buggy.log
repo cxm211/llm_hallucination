@@ -1,0 +1,13 @@
+==== 2026-03-30 03:29:46 :: Mockito-38-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest::shouldHandleMultipleArgumentsWithNullInMiddle
+  - org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest::shouldHandleNullArgumentWithNonNullMatcher
+  - org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest::shouldWorkFineWhenGivenArgIsNull
+  - org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest::shouldAllowPassingNullArgument
+---- exit code: 0 | Mockito-38-buggy
+

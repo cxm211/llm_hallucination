@@ -1,0 +1,13 @@
+==== 2026-03-29 14:50:11 :: JxPath-15-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testUnionMultipleElements
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testUnion
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testUnionMultipleElements
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testUnion
+---- exit code: 0 | JxPath-15-buggy_ind1
+

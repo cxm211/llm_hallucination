@@ -1,0 +1,10 @@
+==== 2026-04-26 01:06:29 :: Gson-17-fixed_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedTokenNumber
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedTokenNumber
+---- exit code: 0 | Gson-17-fixed_ind3
+

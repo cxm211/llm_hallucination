@@ -1,0 +1,13 @@
+==== 2026-04-25 20:08:49 :: Lang-47-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang.text.StrBuilderTest::testLang412Left
+  - org.apache.commons.lang.text.StrBuilderTest::testLang412Left_ToStringNull
+  - org.apache.commons.lang.text.StrBuilderTest::testLang412Right
+  - org.apache.commons.lang.text.StrBuilderTest::testLang412Right_ToStringNull
+---- exit code: 0 | Lang-47-buggy
+

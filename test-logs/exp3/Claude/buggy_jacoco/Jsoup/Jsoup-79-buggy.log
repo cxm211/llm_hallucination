@@ -1,0 +1,32 @@
+==== 2026-03-31 22:06:31 :: Jsoup-79-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.jsoup.nodes.TextNodeTest::testLeadNodesHaveNoChildren
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.TextNodeTest::testLeadNodesHaveNoChildren
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-79-buggy/jacoco_base.exec.
+[INFO] Analyzing 239 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.TextNodeTest::testLeafNodeChildNodesIsImmutable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.TextNodeTest::testLeafNodeChildNodesIsImmutable
+[JACOCO] defects4j test -t org.jsoup.nodes.TextNodeTest::testLeafNodeChildNodesMultipleCalls
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.TextNodeTest::testLeafNodeChildNodesMultipleCalls
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-79-buggy/jacoco.exec.
+[INFO] Analyzing 239 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 3 line rows.
+[PARSE] 3 base line rows.

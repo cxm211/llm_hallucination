@@ -1,0 +1,23 @@
+==== 2026-04-26 05:22:16 :: Closure-91-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Closure-91-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 0, total: 1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-91-buggy/jacoco.exec.
+[INFO] Analyzing 984 classes.
+>>> [JACOCO] done

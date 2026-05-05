@@ -1,0 +1,77 @@
+==== 2026-04-22 18:58:57 :: Closure-1-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue787
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveUnusedFunctionArgsDestructuring
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b
+---- exit code: 0 | Closure-1-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 8, add tests: 1, total: 9
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIssue787
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue787
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveUnusedFunctionArgsDestructuring
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveUnusedFunctionArgsDestructuring
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-1-buggy/jacoco_base.exec.
+[INFO] Analyzing 1178 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-1-buggy/jacoco.exec.
+[INFO] Analyzing 1178 classes.
+>>> [JACOCO] done

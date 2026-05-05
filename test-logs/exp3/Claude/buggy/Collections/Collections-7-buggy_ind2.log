@@ -1,0 +1,13 @@
+==== 2026-03-27 22:09:17 :: Collections-7-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.collections.TestExtendedProperties::testKeySet2
+  - org.apache.commons.collections.TestExtendedProperties::testKeySet3
+  - org.apache.commons.collections.TestExtendedProperties::testKeySet4
+  - org.apache.commons.collections.TestExtendedProperties::testKeySet6
+---- exit code: 0 | Collections-7-buggy_ind2
+

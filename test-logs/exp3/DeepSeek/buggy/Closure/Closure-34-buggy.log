@@ -1,0 +1,12 @@
+==== 2026-04-21 23:36:37 :: Closure-34-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAddsRightAssoc
+  - com.google.javascript.jscomp.CodePrinterTest::testManyMultipliesLeftAssoc
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+---- exit code: 0 | Closure-34-buggy
+

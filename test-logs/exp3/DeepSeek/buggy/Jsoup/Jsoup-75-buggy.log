@@ -1,0 +1,11 @@
+==== 2026-04-24 04:38:18 :: Jsoup-75-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.ElementTest::booleanAttributeOutput
+  - org.jsoup.nodes.ElementTest::nonBooleanNullAttribute
+---- exit code: 0 | Jsoup-75-buggy
+

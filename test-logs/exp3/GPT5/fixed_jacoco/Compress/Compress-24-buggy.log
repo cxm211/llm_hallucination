@@ -1,0 +1,11 @@
+==== 2026-04-29 04:55:29 :: Compress-24-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/tar/TarUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+---- exit code: 0 | test_result: Not Pass | Compress-24-buggy
+

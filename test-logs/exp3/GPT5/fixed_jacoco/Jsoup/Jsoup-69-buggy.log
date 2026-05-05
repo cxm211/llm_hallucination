@@ -1,0 +1,11 @@
+==== 2026-04-27 04:57:56 :: Jsoup-69-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.FormElementTest::removeFormElement
+---- exit code: 0 | test_result: Not Pass | Jsoup-69-buggy
+

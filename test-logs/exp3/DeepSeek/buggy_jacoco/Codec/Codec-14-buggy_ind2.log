@@ -1,0 +1,162 @@
+==== 2026-04-24 01:56:16 :: Codec-14-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.9-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+
+compile.tests:
+    [javac] Compiling 9 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/target/tests
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:247: error: cannot find symbol
+    [javac]         Set<String> lang1 = new HashSet<String>();
+    [javac]         ^
+    [javac]   symbol:   class Set
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:249: error: cannot find symbol
+    [javac]         Set<String> lang2 = new HashSet<String>();
+    [javac]         ^
+    [javac]   symbol:   class Set
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:251: error: cannot find symbol
+    [javac]         LanguageSet ls1 = Languages.getInstance(lang1);
+    [javac]         ^
+    [javac]   symbol:   class LanguageSet
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:252: error: cannot find symbol
+    [javac]         LanguageSet ls2 = Languages.getInstance(lang2);
+    [javac]         ^
+    [javac]   symbol:   class LanguageSet
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:255: error: cannot find symbol
+    [javac]         List<Rule.Phoneme> phonemeList = Arrays.asList(p1, p2);
+    [javac]         ^
+    [javac]   symbol:   class List
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:256: error: cannot find symbol
+    [javac]         PhonemeBuilder builder = new PhonemeBuilder(phonemeList);
+    [javac]         ^
+    [javac]   symbol:   class PhonemeBuilder
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:256: error: cannot find symbol
+    [javac]         PhonemeBuilder builder = new PhonemeBuilder(phonemeList);
+    [javac]                                      ^
+    [javac]   symbol:   class PhonemeBuilder
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:259: error: cannot find symbol
+    [javac]         Method method = PhoneticEngine.class.getDeclaredMethod("applyFinalRules", PhonemeBuilder.class, Map.class);
+    [javac]         ^
+    [javac]   symbol:   class Method
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:259: error: cannot find symbol
+    [javac]         Method method = PhoneticEngine.class.getDeclaredMethod("applyFinalRules", PhonemeBuilder.class, Map.class);
+    [javac]                                                                                   ^
+    [javac]   symbol:   class PhonemeBuilder
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:262: error: cannot find symbol
+    [javac]         Map<String, List<Rule>> finalRules = new HashMap<String, List<Rule>>();
+    [javac]                     ^
+    [javac]   symbol:   class List
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:262: error: cannot find symbol
+    [javac]         Map<String, List<Rule>> finalRules = new HashMap<String, List<Rule>>();
+    [javac]                                                  ^
+    [javac]   symbol:   class HashMap
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:262: error: cannot find symbol
+    [javac]         Map<String, List<Rule>> finalRules = new HashMap<String, List<Rule>>();
+    [javac]                                                                  ^
+    [javac]   symbol:   class List
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:263: error: cannot find symbol
+    [javac]         finalRules.put("dummy", Collections.<Rule>emptyList());
+    [javac]                                 ^
+    [javac]   symbol:   variable Collections
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:264: error: cannot find symbol
+    [javac]         PhonemeBuilder result = (PhonemeBuilder) method.invoke(engine, builder, finalRules);
+    [javac]         ^
+    [javac]   symbol:   class PhonemeBuilder
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:264: error: cannot find symbol
+    [javac]         PhonemeBuilder result = (PhonemeBuilder) method.invoke(engine, builder, finalRules);
+    [javac]                                  ^
+    [javac]   symbol:   class PhonemeBuilder
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:266: error: cannot find symbol
+    [javac]         Set<Rule.Phoneme> resultPhonemes = result.getPhonemes();
+    [javac]         ^
+    [javac]   symbol:   class Set
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java:270: error: cannot find symbol
+    [javac]         LanguageSet mergedLanguages = merged.getLanguages();
+    [javac]         ^
+    [javac]   symbol:   class LanguageSet
+    [javac]   location: class PhoneticEngineRegressionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/BCodecTest.java:120: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/BCodecTest.java:144: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QCodecTest.java:146: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QCodecTest.java:172: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:158: warning: [deprecation] UTF_8 in Charsets has been deprecated
+    [javac]             encodeQuotedPrintable(null, plain.getBytes(Charsets.UTF_8)));
+    [javac]                                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:197: warning: [deprecation] UTF_8 in Charsets has been deprecated
+    [javac]         final byte[] plainBA = plain.getBytes(Charsets.UTF_8);
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:207: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:228: warning: [deprecation] UTF_8 in Charsets has been deprecated
+    [javac]         final byte[] plainBA = plain.getBytes(Charsets.UTF_8);
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:238: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:191: warning: [deprecation] UTF_8 in Charsets has been deprecated
+    [javac]         final String encoded = new String( URLCodec.encodeUrl(null, plain.getBytes(Charsets.UTF_8)));
+    [javac]                                                                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:230: warning: [deprecation] UTF_8 in Charsets has been deprecated
+    [javac]         final byte[] plainBA = plain.getBytes(Charsets.UTF_8);
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:240: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:276: warning: [deprecation] UTF_8 in Charsets has been deprecated
+    [javac]         final byte[] plainBA = plain.getBytes(Charsets.UTF_8);
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:286: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             final Object dObj = new Double(3.0);
+    [javac]                                 ^
+    [javac] 17 errors
+    [javac] 18 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-buggy_ind2/build.xml:197: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 41 rows.

@@ -1,0 +1,10 @@
+==== 2026-04-25 18:58:25 :: Mockito-5-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitointegration.NoJUnitDependenciesTest::verificationOverTimeImpl_should_not_depend_on_JUnit
+---- exit code: 0 | Mockito-5-fixed
+

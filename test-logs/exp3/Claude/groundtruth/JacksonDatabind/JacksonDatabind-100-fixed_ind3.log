@@ -1,0 +1,10 @@
+==== 2026-04-21 10:27:58 :: JacksonDatabind-100-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.node.TestConversions::testBase64LargeData
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestConversions::testBase64LargeData
+---- exit code: 0 | JacksonDatabind-100-fixed_ind3
+

@@ -1,0 +1,28 @@
+==== 2026-04-28 23:01:48 :: Math-64-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFittingBadInit
+---- exit code: 0 | Math-64-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-64-buggy/jacoco.exec.
+[INFO] Analyzing 469 classes.
+>>> [JACOCO] done

@@ -1,0 +1,13 @@
+==== 2026-03-27 20:16:16 :: Codec-11-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakEncode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUltimateSoftBreak
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testTrailingSpecial
+---- exit code: 0 | test_result: Not Pass | Codec-11-buggy
+

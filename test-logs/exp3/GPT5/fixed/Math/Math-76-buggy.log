@@ -1,0 +1,47 @@
+==== 2026-04-28 23:04:57 :: Math-76-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testUOrthogonal
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testAEqualUSVt
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testVOrthogonal
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testMatricesValues1
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testMatricesValues2
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320C_RectangularWide
+  - org.apache.commons.math.linear.SingularValueSolverTest::testSolve
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+---- exit code: 0 | Math-76-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SingularValueSolverTest::testMath320C_RectangularWide
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320C_RectangularWide
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-76-buggy/jacoco_base.exec.
+[INFO] Analyzing 415 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-76-buggy/jacoco.exec.
+[INFO] Analyzing 415 classes.
+>>> [JACOCO] done

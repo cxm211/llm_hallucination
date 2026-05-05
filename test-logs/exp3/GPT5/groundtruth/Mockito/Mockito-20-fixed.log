@@ -1,0 +1,10 @@
+==== 2026-04-28 19:40:35 :: Mockito-20-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_for_interface
+---- exit code: 0 | Mockito-20-fixed
+

@@ -1,0 +1,14 @@
+==== 2026-04-04 21:11:39 :: Cli-23-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.cli.bug.BugCLI162Test::testInfiniteLoop
+  - org.apache.commons.cli.bug.BugCLI162Test::testWrappingWithPaddingExactFit
+  - org.apache.commons.cli.bug.BugCLI162Test::testPrintHelpLongLines
+  - org.apache.commons.cli.bug.BugCLI162Test::testWrappingWithLargePadding
+  - org.apache.commons.cli.bug.BugCLI162Test::testWrappingMultipleIterations
+---- exit code: 0 | Cli-23-buggy
+

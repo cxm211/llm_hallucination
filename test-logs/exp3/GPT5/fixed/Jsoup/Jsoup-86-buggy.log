@@ -1,0 +1,41 @@
+==== 2026-04-27 04:51:35 :: Jsoup-86-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.jsoup.helper.DataUtilTest::supportsXmlCharsetDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::caseSensitiveDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesDodgyXmlDecl
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript
+  - org.jsoup.parser.XmlTreeBuilderTest::convertsCommentedXmlDeclToDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testDetectCharsetEncodingDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testParseDeclarationAttributes
+---- exit code: 0 | Jsoup-86-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::convertsCommentedXmlDeclToDeclaration
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::convertsCommentedXmlDeclToDeclaration
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-86-buggy/jacoco_base.exec.
+[INFO] Analyzing 237 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-86-buggy/jacoco.exec.
+[INFO] Analyzing 237 classes.
+>>> [JACOCO] done

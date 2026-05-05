@@ -1,0 +1,12 @@
+==== 2026-03-27 22:04:43 :: Collections-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties
+  - org.apache.commons.collections.TestExtendedProperties::testCollections271
+  - org.apache.commons.collections.TestExtendedProperties::testCombineWithMultipleProperties
+---- exit code: 0 | Collections-9-buggy
+

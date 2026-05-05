@@ -1,0 +1,66 @@
+==== 2026-03-27 11:48:49 :: Closure-137-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion3
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion4
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testArguments
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext2
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testInversionWithNonNumericSuffix
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations2
+  - com.google.javascript.jscomp.NormalizeTest::testMoveFunctions2
+  - com.google.javascript.jscomp.NormalizeTest::testMakeLocalNamesUnique
+---- exit code: 0 | Closure-137-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 2, total: 7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testArguments
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testArguments
+[JACOCO] defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations2
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testInversionWithNonNumericSuffix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testInversionWithNonNumericSuffix
+[JACOCO] defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testInversionFirstDeclarationNoSuffix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-137-buggy/jacoco_base.exec.
+[INFO] Analyzing 849 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-137-buggy/jacoco.exec.
+[INFO] Analyzing 849 classes.
+>>> [JACOCO] done

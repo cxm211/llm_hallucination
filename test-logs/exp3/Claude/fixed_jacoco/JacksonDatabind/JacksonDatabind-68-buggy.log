@@ -1,0 +1,13 @@
+==== 2026-03-28 11:36:08 :: JacksonDatabind-68-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/struct/SingleValueAsArrayTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testSuccessfulDeserializationOfObjectWithChainedArrayCreators
+  - com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest::testWithSingleString
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-68-buggy
+

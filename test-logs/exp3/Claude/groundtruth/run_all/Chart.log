@@ -1,0 +1,813 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Chart
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Chart-1-fixed
+  [CHECKOUT] Chart-2-fixed
+  [CHECKOUT] Chart-3-fixed
+  [CHECKOUT] Chart-4-fixed
+  [CHECKOUT] Chart-5-fixed
+  [CHECKOUT] Chart-6-fixed
+  [CHECKOUT] Chart-7-fixed
+  [CHECKOUT] Chart-8-fixed
+  [CHECKOUT] Chart-9-fixed
+  [CHECKOUT] Chart-10-fixed
+  [CHECKOUT] Chart-11-fixed
+  [CHECKOUT] Chart-12-fixed
+  [CHECKOUT] Chart-13-fixed
+  [CHECKOUT] Chart-14-fixed
+  [CHECKOUT] Chart-15-fixed
+  [CHECKOUT] Chart-16-fixed
+  [CHECKOUT] Chart-17-fixed
+  [CHECKOUT] Chart-18-fixed
+  [CHECKOUT] Chart-19-fixed
+  [CHECKOUT] Chart-20-fixed
+  [CHECKOUT] Chart-21-fixed
+  [CHECKOUT] Chart-22-fixed
+  [CHECKOUT] Chart-23-fixed
+  [CHECKOUT] Chart-24-fixed
+  [CHECKOUT] Chart-25-fixed
+  [CHECKOUT] Chart-26-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Chart ===
+  [COPY] Chart-1-fixed -> Chart-1-fixed_ind1
+  [IND-OK] Chart-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed_ind1/tests/org/jfree/chart/renderer/category/junit/AbstractCategoryItemRendererTests.java
+  [COPY] Chart-1-fixed -> Chart-1-fixed_ind2
+  [IND-OK] Chart-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed_ind2/tests/org/jfree/chart/renderer/category/junit/AbstractCategoryItemRendererTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed/tests/org/jfree/chart/renderer/category/junit/AbstractCategoryItemRendererTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed/tests/org/jfree/chart/renderer/category/junit/AbstractCategoryItemRendererTests.java
+  [Chart-1] inserted=4 failed=0
+  [COPY] Chart-2-fixed -> Chart-2-fixed_ind1
+  [IND-OK] Chart-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind1/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [COPY] Chart-2-fixed -> Chart-2-fixed_ind2
+  [IND-OK] Chart-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind2/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [COPY] Chart-2-fixed -> Chart-2-fixed_ind3
+  [IND-OK] Chart-2-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind3/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [COPY] Chart-2-fixed -> Chart-2-fixed_ind4
+  [IND-OK] Chart-2-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind4/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+  [Chart-2] inserted=8 failed=0
+  [COPY] Chart-3-fixed -> Chart-3-fixed_ind1
+  [IND-OK] Chart-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed_ind1/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [COPY] Chart-3-fixed -> Chart-3-fixed_ind2
+  [IND-OK] Chart-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed_ind2/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [COPY] Chart-3-fixed -> Chart-3-fixed_ind3
+  [IND-OK] Chart-3-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed_ind3/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [Chart-3] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-4-fixed/tests/org/jfree/chart/axis/junit/LogAxisTests.java
+  [Chart-4] inserted=1 failed=0
+  [COPY] Chart-5-fixed -> Chart-5-fixed_ind1
+  [IND-OK] Chart-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed_ind1/tests/org/jfree/data/xy/junit/XYSeriesTests.java
+  [COPY] Chart-5-fixed -> Chart-5-fixed_ind2
+  [IND-OK] Chart-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed_ind2/tests/org/jfree/data/xy/junit/XYSeriesTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed/tests/org/jfree/data/xy/junit/XYSeriesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed/tests/org/jfree/data/xy/junit/XYSeriesTests.java
+  [Chart-5] inserted=4 failed=0
+  [COPY] Chart-6-fixed -> Chart-6-fixed_ind1
+  [IND-OK] Chart-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed_ind1/tests/org/jfree/chart/util/junit/ShapeListTests.java
+  [COPY] Chart-6-fixed -> Chart-6-fixed_ind2
+  [IND-OK] Chart-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed_ind2/tests/org/jfree/chart/util/junit/ShapeListTests.java
+  [COPY] Chart-6-fixed -> Chart-6-fixed_ind3
+  [IND-OK] Chart-6-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed_ind3/tests/org/jfree/chart/util/junit/ShapeListTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed/tests/org/jfree/chart/util/junit/ShapeListTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed/tests/org/jfree/chart/util/junit/ShapeListTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed/tests/org/jfree/chart/util/junit/ShapeListTests.java
+  [Chart-6] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-7-fixed/tests/org/jfree/data/time/junit/TimePeriodValuesTests.java
+  [Chart-7] inserted=1 failed=0
+  [COPY] Chart-8-fixed -> Chart-8-fixed_ind1
+  [IND-OK] Chart-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed_ind1/tests/org/jfree/data/time/junit/WeekTests.java
+  [COPY] Chart-8-fixed -> Chart-8-fixed_ind2
+  [IND-OK] Chart-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed_ind2/tests/org/jfree/data/time/junit/WeekTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed/tests/org/jfree/data/time/junit/WeekTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed/tests/org/jfree/data/time/junit/WeekTests.java
+  [Chart-8] inserted=4 failed=0
+  [COPY] Chart-9-fixed -> Chart-9-fixed_ind1
+  [IND-OK] Chart-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed_ind1/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [COPY] Chart-9-fixed -> Chart-9-fixed_ind2
+  [IND-OK] Chart-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed_ind2/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [COPY] Chart-9-fixed -> Chart-9-fixed_ind3
+  [IND-OK] Chart-9-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed_ind3/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [Chart-9] inserted=6 failed=0
+  [COPY] Chart-10-fixed -> Chart-10-fixed_ind1
+  [IND-OK] Chart-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind1/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [COPY] Chart-10-fixed -> Chart-10-fixed_ind2
+  [IND-OK] Chart-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind2/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [COPY] Chart-10-fixed -> Chart-10-fixed_ind3
+  [IND-OK] Chart-10-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind3/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [COPY] Chart-10-fixed -> Chart-10-fixed_ind4
+  [IND-OK] Chart-10-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind4/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed/tests/org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java
+  [Chart-10] inserted=8 failed=0
+  [COPY] Chart-11-fixed -> Chart-11-fixed_ind1
+  [IND-OK] Chart-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind1/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [COPY] Chart-11-fixed -> Chart-11-fixed_ind2
+  [IND-OK] Chart-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind2/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [COPY] Chart-11-fixed -> Chart-11-fixed_ind3
+  [IND-OK] Chart-11-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind3/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [COPY] Chart-11-fixed -> Chart-11-fixed_ind4
+  [IND-OK] Chart-11-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind4/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed/tests/org/jfree/chart/util/junit/ShapeUtilitiesTests.java
+  [Chart-11] inserted=8 failed=0
+  [COPY] Chart-12-fixed -> Chart-12-fixed_ind1
+  [IND-OK] Chart-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed_ind1/tests/org/jfree/chart/plot/junit/MultiplePiePlotTests.java
+  [COPY] Chart-12-fixed -> Chart-12-fixed_ind2
+  [IND-OK] Chart-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed_ind2/tests/org/jfree/chart/plot/junit/MultiplePiePlotTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed/tests/org/jfree/chart/plot/junit/MultiplePiePlotTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed/tests/org/jfree/chart/plot/junit/MultiplePiePlotTests.java
+  [Chart-12] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-13-fixed/tests/org/jfree/chart/block/junit/BorderArrangementTests.java
+  [Chart-13] inserted=1 failed=0
+  [COPY] Chart-14-fixed -> Chart-14-fixed_ind1
+  [IND-OK] Chart-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed_ind1/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [COPY] Chart-14-fixed -> Chart-14-fixed_ind2
+  [IND-OK] Chart-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed_ind2/tests/org/jfree/chart/plot/junit/XYPlotTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed/tests/org/jfree/chart/plot/junit/XYPlotTests.java
+  [Chart-14] inserted=4 failed=0
+  [COPY] Chart-15-fixed -> Chart-15-fixed_ind1
+  [IND-OK] Chart-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed_ind1/tests/org/jfree/chart/plot/junit/PiePlot3DTests.java
+  [COPY] Chart-15-fixed -> Chart-15-fixed_ind2
+  [IND-OK] Chart-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed_ind2/tests/org/jfree/chart/plot/junit/PiePlot3DTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed/tests/org/jfree/chart/plot/junit/PiePlot3DTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed/tests/org/jfree/chart/plot/junit/PiePlot3DTests.java
+  [Chart-15] inserted=4 failed=0
+  [COPY] Chart-16-fixed -> Chart-16-fixed_ind1
+  [IND-OK] Chart-16-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind1/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [COPY] Chart-16-fixed -> Chart-16-fixed_ind2
+  [IND-OK] Chart-16-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind2/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [COPY] Chart-16-fixed -> Chart-16-fixed_ind3
+  [IND-OK] Chart-16-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind3/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [COPY] Chart-16-fixed -> Chart-16-fixed_ind4
+  [IND-OK] Chart-16-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind4/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [COPY] Chart-16-fixed -> Chart-16-fixed_ind5
+  [IND-OK] Chart-16-fixed_ind5/add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind5/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [COPY] Chart-16-fixed -> Chart-16-fixed_ind6
+  [IND-OK] Chart-16-fixed_ind6/add_test5.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind6/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [OK] add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [OK] add_test5.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed/tests/org/jfree/data/category/junit/DefaultIntervalCategoryDatasetTests.java
+  [Chart-16] inserted=12 failed=0
+  [COPY] Chart-17-fixed -> Chart-17-fixed_ind1
+  [IND-OK] Chart-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed_ind1/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [COPY] Chart-17-fixed -> Chart-17-fixed_ind2
+  [IND-OK] Chart-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed_ind2/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed/tests/org/jfree/data/time/junit/TimeSeriesTests.java
+  [Chart-17] inserted=4 failed=0
+  [COPY] Chart-18-fixed -> Chart-18-fixed_ind1
+  [IND-OK] Chart-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed_ind1/tests/org/jfree/data/junit/DefaultKeyedValuesTests.java
+  [COPY] Chart-18-fixed -> Chart-18-fixed_ind2
+  [IND-OK] Chart-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed_ind2/tests/org/jfree/data/junit/DefaultKeyedValuesTests.java
+  [COPY] Chart-18-fixed -> Chart-18-fixed_ind3
+  [IND-OK] Chart-18-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed_ind3/tests/org/jfree/data/category/junit/DefaultCategoryDatasetTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed/tests/org/jfree/data/junit/DefaultKeyedValuesTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed/tests/org/jfree/data/junit/DefaultKeyedValuesTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed/tests/org/jfree/data/category/junit/DefaultCategoryDatasetTests.java
+  [Chart-18] inserted=6 failed=0
+  [COPY] Chart-19-fixed -> Chart-19-fixed_ind1
+  [IND-OK] Chart-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed_ind1/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [COPY] Chart-19-fixed -> Chart-19-fixed_ind2
+  [IND-OK] Chart-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed_ind2/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [COPY] Chart-19-fixed -> Chart-19-fixed_ind3
+  [IND-OK] Chart-19-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed_ind3/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed/tests/org/jfree/chart/plot/junit/CategoryPlotTests.java
+  [Chart-19] inserted=6 failed=0
+  [COPY] Chart-20-fixed -> Chart-20-fixed_ind1
+  [IND-OK] Chart-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed_ind1/tests/org/jfree/chart/plot/junit/ValueMarkerTests.java
+  [COPY] Chart-20-fixed -> Chart-20-fixed_ind2
+  [IND-OK] Chart-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed_ind2/tests/org/jfree/chart/plot/junit/ValueMarkerTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed/tests/org/jfree/chart/plot/junit/ValueMarkerTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed/tests/org/jfree/chart/plot/junit/ValueMarkerTests.java
+  [Chart-20] inserted=4 failed=0
+  [COPY] Chart-21-fixed -> Chart-21-fixed_ind1
+  [IND-OK] Chart-21-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed_ind1/tests/org/jfree/data/statistics/junit/DefaultBoxAndWhiskerCategoryDatasetTests.java
+  [COPY] Chart-21-fixed -> Chart-21-fixed_ind2
+  [IND-OK] Chart-21-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed_ind2/tests/org/jfree/data/statistics/junit/DefaultBoxAndWhiskerCategoryDatasetTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed/tests/org/jfree/data/statistics/junit/DefaultBoxAndWhiskerCategoryDatasetTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed/tests/org/jfree/data/statistics/junit/DefaultBoxAndWhiskerCategoryDatasetTests.java
+  [Chart-21] inserted=4 failed=0
+  [COPY] Chart-22-fixed -> Chart-22-fixed_ind1
+  [IND-OK] Chart-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed_ind1/tests/org/jfree/data/junit/KeyedObjects2DTests.java
+  [COPY] Chart-22-fixed -> Chart-22-fixed_ind2
+  [IND-OK] Chart-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed_ind2/tests/org/jfree/data/junit/KeyedObjects2DTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed/tests/org/jfree/data/junit/KeyedObjects2DTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed/tests/org/jfree/data/junit/KeyedObjects2DTests.java
+  [Chart-22] inserted=4 failed=0
+  [COPY] Chart-23-fixed -> Chart-23-fixed_ind1
+  [IND-OK] Chart-23-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed_ind1/tests/org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java
+  [COPY] Chart-23-fixed -> Chart-23-fixed_ind2
+  [IND-OK] Chart-23-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed_ind2/tests/org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed/tests/org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed/tests/org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java
+  [Chart-23] inserted=4 failed=0
+  [COPY] Chart-24-fixed -> Chart-24-fixed_ind1
+  [IND-OK] Chart-24-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed_ind1/tests/org/jfree/chart/renderer/junit/GrayPaintScaleTests.java
+  [COPY] Chart-24-fixed -> Chart-24-fixed_ind2
+  [IND-OK] Chart-24-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed_ind2/tests/org/jfree/chart/renderer/junit/GrayPaintScaleTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed/tests/org/jfree/chart/renderer/junit/GrayPaintScaleTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed/tests/org/jfree/chart/renderer/junit/GrayPaintScaleTests.java
+  [Chart-24] inserted=4 failed=0
+  [COPY] Chart-25-fixed -> Chart-25-fixed_ind1
+  [IND-OK] Chart-25-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed_ind1/tests/org/jfree/chart/renderer/category/junit/StatisticalBarRendererTests.java
+  [COPY] Chart-25-fixed -> Chart-25-fixed_ind2
+  [IND-OK] Chart-25-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed_ind2/tests/org/jfree/chart/renderer/category/junit/StatisticalBarRendererTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed/tests/org/jfree/chart/renderer/category/junit/StatisticalBarRendererTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed/tests/org/jfree/chart/renderer/category/junit/StatisticalBarRendererTests.java
+  [Chart-25] inserted=4 failed=0
+  [COPY] Chart-26-fixed -> Chart-26-fixed_ind1
+  [IND-OK] Chart-26-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed_ind1/tests/org/jfree/chart/junit/ScatterPlotTests.java
+  [COPY] Chart-26-fixed -> Chart-26-fixed_ind2
+  [IND-OK] Chart-26-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed_ind2/tests/org/jfree/chart/junit/PieChartTests.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed/tests/org/jfree/chart/junit/ScatterPlotTests.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed/tests/org/jfree/chart/junit/PieChartTests.java
+  [Chart-26] inserted=4 failed=0
+
+[INSERT DONE] inserted=125 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 26
+individual bugs: 61
+
+==== 2026-04-21 15:06:11 :: Chart-1-fixed ====
+>>> defects4j test -r in Chart-1-fixed
+---- exit code: 1 | Chart-1-fixed
+
+==== 2026-04-21 15:06:17 :: Chart-2-fixed ====
+>>> defects4j test -r in Chart-2-fixed
+---- exit code: 0 | Chart-2-fixed
+
+==== 2026-04-21 15:06:31 :: Chart-3-fixed ====
+>>> defects4j test -r in Chart-3-fixed
+---- exit code: 0 | Chart-3-fixed
+
+==== 2026-04-21 15:06:39 :: Chart-4-fixed ====
+>>> defects4j test -r in Chart-4-fixed
+---- exit code: 0 | Chart-4-fixed
+
+==== 2026-04-21 15:06:52 :: Chart-5-fixed ====
+>>> defects4j test -r in Chart-5-fixed
+---- exit code: 0 | Chart-5-fixed
+
+==== 2026-04-21 15:07:02 :: Chart-6-fixed ====
+>>> defects4j test -r in Chart-6-fixed
+---- exit code: 0 | Chart-6-fixed
+
+==== 2026-04-21 15:07:14 :: Chart-7-fixed ====
+>>> defects4j test -r in Chart-7-fixed
+---- exit code: 1 | Chart-7-fixed
+
+==== 2026-04-21 15:07:19 :: Chart-8-fixed ====
+>>> defects4j test -r in Chart-8-fixed
+---- exit code: 1 | Chart-8-fixed
+
+==== 2026-04-21 15:07:26 :: Chart-9-fixed ====
+>>> defects4j test -r in Chart-9-fixed
+---- exit code: 0 | Chart-9-fixed
+
+==== 2026-04-21 15:07:35 :: Chart-10-fixed ====
+>>> defects4j test -r in Chart-10-fixed
+---- exit code: 0 | Chart-10-fixed
+
+==== 2026-04-21 15:07:42 :: Chart-11-fixed ====
+>>> defects4j test -r in Chart-11-fixed
+---- exit code: 0 | Chart-11-fixed
+
+==== 2026-04-21 15:07:54 :: Chart-12-fixed ====
+>>> defects4j test -r in Chart-12-fixed
+---- exit code: 0 | Chart-12-fixed
+
+==== 2026-04-21 15:08:04 :: Chart-13-fixed ====
+>>> defects4j test -r in Chart-13-fixed
+---- exit code: 0 | Chart-13-fixed
+
+==== 2026-04-21 15:08:14 :: Chart-14-fixed ====
+>>> defects4j test -r in Chart-14-fixed
+---- exit code: 0 | Chart-14-fixed
+
+==== 2026-04-21 15:08:26 :: Chart-15-fixed ====
+>>> defects4j test -r in Chart-15-fixed
+---- exit code: 0 | Chart-15-fixed
+
+==== 2026-04-21 15:08:36 :: Chart-16-fixed ====
+>>> defects4j test -r in Chart-16-fixed
+---- exit code: 1 | Chart-16-fixed
+
+==== 2026-04-21 15:08:42 :: Chart-17-fixed ====
+>>> defects4j test -r in Chart-17-fixed
+---- exit code: 0 | Chart-17-fixed
+
+==== 2026-04-21 15:08:50 :: Chart-18-fixed ====
+>>> defects4j test -r in Chart-18-fixed
+---- exit code: 1 | Chart-18-fixed
+
+==== 2026-04-21 15:08:55 :: Chart-19-fixed ====
+>>> defects4j test -r in Chart-19-fixed
+---- exit code: 1 | Chart-19-fixed
+
+==== 2026-04-21 15:09:01 :: Chart-20-fixed ====
+>>> defects4j test -r in Chart-20-fixed
+---- exit code: 0 | Chart-20-fixed
+
+==== 2026-04-21 15:09:12 :: Chart-21-fixed ====
+>>> defects4j test -r in Chart-21-fixed
+---- exit code: 0 | Chart-21-fixed
+
+==== 2026-04-21 15:09:19 :: Chart-22-fixed ====
+>>> defects4j test -r in Chart-22-fixed
+---- exit code: 0 | Chart-22-fixed
+
+==== 2026-04-21 15:09:26 :: Chart-23-fixed ====
+>>> defects4j test -r in Chart-23-fixed
+---- exit code: 1 | Chart-23-fixed
+
+==== 2026-04-21 15:09:32 :: Chart-24-fixed ====
+>>> defects4j test -r in Chart-24-fixed
+---- exit code: 0 | Chart-24-fixed
+
+==== 2026-04-21 15:09:38 :: Chart-25-fixed ====
+>>> defects4j test -r in Chart-25-fixed
+---- exit code: 0 | Chart-25-fixed
+
+==== 2026-04-21 15:09:45 :: Chart-26-fixed ====
+>>> defects4j test -r in Chart-26-fixed
+---- exit code: 1 | Chart-26-fixed
+
+==== 2026-04-21 15:09:50 :: Chart-1-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::testGetLegendItemsWithMultipleSeries in Chart-1-fixed_ind1
+---- exit code: 0 | Chart-1-fixed_ind1
+
+==== 2026-04-21 15:09:57 :: Chart-1-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::testGetLegendItemsWithDescendingOrder in Chart-1-fixed_ind2
+---- exit code: 1 | Chart-1-fixed_ind2
+
+==== 2026-04-21 15:10:03 :: Chart-2-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testIterateDomainBounds_EmptyDataset in Chart-2-fixed_ind1
+---- exit code: 0 | Chart-2-fixed_ind1
+
+==== 2026-04-21 15:10:10 :: Chart-2-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testIterateDomainBounds_AllNaN in Chart-2-fixed_ind2
+---- exit code: 0 | Chart-2-fixed_ind2
+
+==== 2026-04-21 15:10:17 :: Chart-2-fixed_ind3 ====
+>>> defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testIterateRangeBounds_EmptyDataset in Chart-2-fixed_ind3
+---- exit code: 0 | Chart-2-fixed_ind3
+
+==== 2026-04-21 15:10:24 :: Chart-2-fixed_ind4 ====
+>>> defects4j test -t org.jfree.data.general.junit.DatasetUtilitiesTests::testIterateRangeBounds_AllNaN in Chart-2-fixed_ind4
+---- exit code: 0 | Chart-2-fixed_ind4
+
+==== 2026-04-21 15:10:31 :: Chart-3-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCreateCopyEmptyRange in Chart-3-fixed_ind1
+---- exit code: 0 | Chart-3-fixed_ind1
+
+==== 2026-04-21 15:10:38 :: Chart-3-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCreateCopyFullRange in Chart-3-fixed_ind2
+---- exit code: 0 | Chart-3-fixed_ind2
+
+==== 2026-04-21 15:10:45 :: Chart-3-fixed_ind3 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCreateCopyWithNegativeValues in Chart-3-fixed_ind3
+---- exit code: 0 | Chart-3-fixed_ind3
+
+==== 2026-04-21 15:10:52 :: Chart-5-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.xy.junit.XYSeriesTests::testAddOrUpdateWithDuplicatesNotAllowedAndAutoSort in Chart-5-fixed_ind1
+---- exit code: 0 | Chart-5-fixed_ind1
+
+==== 2026-04-21 15:10:58 :: Chart-5-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.xy.junit.XYSeriesTests::testAddOrUpdateWithDuplicatesAllowedNotSorted in Chart-5-fixed_ind2
+---- exit code: 0 | Chart-5-fixed_ind2
+
+==== 2026-04-21 15:11:05 :: Chart-6-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeListTests::testEqualsDifferentSizes in Chart-6-fixed_ind1
+---- exit code: 0 | Chart-6-fixed_ind1
+
+==== 2026-04-21 15:11:11 :: Chart-6-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeListTests::testEqualsDifferentShapes in Chart-6-fixed_ind2
+---- exit code: 0 | Chart-6-fixed_ind2
+
+==== 2026-04-21 15:11:18 :: Chart-6-fixed_ind3 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeListTests::testEqualsNullVsNonNull in Chart-6-fixed_ind3
+---- exit code: 0 | Chart-6-fixed_ind3
+
+==== 2026-04-21 15:11:24 :: Chart-8-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.time.junit.WeekTests::testConstructorWithDifferentTimeZones in Chart-8-fixed_ind1
+---- exit code: 1 | Chart-8-fixed_ind1
+
+==== 2026-04-21 15:11:30 :: Chart-8-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.time.junit.WeekTests::testConstructorWithJapaneseLocale in Chart-8-fixed_ind2
+---- exit code: 0 | Chart-8-fixed_ind2
+
+==== 2026-04-21 15:11:37 :: Chart-9-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCreateCopyStartAfterEnd in Chart-9-fixed_ind1
+---- exit code: 0 | Chart-9-fixed_ind1
+
+==== 2026-04-21 15:11:43 :: Chart-9-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCreateCopyEndBeforeStart in Chart-9-fixed_ind2
+---- exit code: 0 | Chart-9-fixed_ind2
+
+==== 2026-04-21 15:11:50 :: Chart-9-fixed_ind3 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCreateCopyRangeWithinGap in Chart-9-fixed_ind3
+---- exit code: 0 | Chart-9-fixed_ind3
+
+==== 2026-04-21 15:11:56 :: Chart-10-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithAmpersand in Chart-10-fixed_ind1
+---- exit code: 0 | Chart-10-fixed_ind1
+
+==== 2026-04-21 15:12:03 :: Chart-10-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithLessThanGreaterThan in Chart-10-fixed_ind2
+---- exit code: 0 | Chart-10-fixed_ind2
+
+==== 2026-04-21 15:12:10 :: Chart-10-fixed_ind3 ====
+>>> defects4j test -t org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithSingleQuote in Chart-10-fixed_ind3
+---- exit code: 0 | Chart-10-fixed_ind3
+
+==== 2026-04-21 15:12:16 :: Chart-10-fixed_ind4 ====
+>>> defects4j test -t org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithMixedSpecialChars in Chart-10-fixed_ind4
+---- exit code: 0 | Chart-10-fixed_ind4
+
+==== 2026-04-21 15:12:23 :: Chart-11-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPathsWithDifferentWindingRules in Chart-11-fixed_ind1
+---- exit code: 0 | Chart-11-fixed_ind1
+
+==== 2026-04-21 15:12:29 :: Chart-11-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPathsWithNull in Chart-11-fixed_ind2
+---- exit code: 0 | Chart-11-fixed_ind2
+
+==== 2026-04-21 15:12:35 :: Chart-11-fixed_ind3 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPathsEmpty in Chart-11-fixed_ind3
+---- exit code: 0 | Chart-11-fixed_ind3
+
+==== 2026-04-21 15:12:41 :: Chart-11-fixed_ind4 ====
+>>> defects4j test -t org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPathsDifferentSegmentTypes in Chart-11-fixed_ind4
+---- exit code: 0 | Chart-11-fixed_ind4
+
+==== 2026-04-21 15:12:47 :: Chart-12-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructorWithNullDataset in Chart-12-fixed_ind1
+---- exit code: 0 | Chart-12-fixed_ind1
+
+==== 2026-04-21 15:12:54 :: Chart-12-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.MultiplePiePlotTests::testDatasetChangeListenerRegistration in Chart-12-fixed_ind2
+---- exit code: 0 | Chart-12-fixed_ind2
+
+==== 2026-04-21 15:13:00 :: Chart-14-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarkerNull in Chart-14-fixed_ind1
+---- exit code: 0 | Chart-14-fixed_ind1
+
+==== 2026-04-21 15:13:06 :: Chart-14-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarkerNull in Chart-14-fixed_ind2
+---- exit code: 0 | Chart-14-fixed_ind2
+
+==== 2026-04-21 15:13:12 :: Chart-15-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDatasetAndLegend in Chart-15-fixed_ind1
+---- exit code: 0 | Chart-15-fixed_ind1
+
+==== 2026-04-21 15:13:19 :: Chart-15-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.PiePlot3DTests::testGetMaximumExplodePercentWithNullDataset in Chart-15-fixed_ind2
+---- exit code: 0 | Chart-15-fixed_ind2
+
+==== 2026-04-21 15:13:26 :: Chart-16-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testConstructorWithNonEmptySeriesKeys in Chart-16-fixed_ind1
+---- exit code: 1 | Chart-16-fixed_ind1
+
+==== 2026-04-21 15:13:31 :: Chart-16-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testConstructorWithMismatchedSeriesKeysLength in Chart-16-fixed_ind2
+---- exit code: 1 | Chart-16-fixed_ind2
+
+==== 2026-04-21 15:13:37 :: Chart-16-fixed_ind3 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testConstructorWithEmptySeriesKeysArray in Chart-16-fixed_ind3
+---- exit code: 1 | Chart-16-fixed_ind3
+
+==== 2026-04-21 15:13:42 :: Chart-16-fixed_ind4 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testConstructorWithNonEmptyCategoryKeys in Chart-16-fixed_ind4
+---- exit code: 1 | Chart-16-fixed_ind4
+
+==== 2026-04-21 15:13:48 :: Chart-16-fixed_ind5 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testConstructorWithMismatchedCategoryKeysLength in Chart-16-fixed_ind5
+---- exit code: 1 | Chart-16-fixed_ind5
+
+==== 2026-04-21 15:13:53 :: Chart-16-fixed_ind6 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testConstructorWithEmptyCategoryKeysArray in Chart-16-fixed_ind6
+---- exit code: 1 | Chart-16-fixed_ind6
+
+==== 2026-04-21 15:13:59 :: Chart-17-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCloneWithSingleItem in Chart-17-fixed_ind1
+---- exit code: 0 | Chart-17-fixed_ind1
+
+==== 2026-04-21 15:14:05 :: Chart-17-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.time.junit.TimeSeriesTests::testCloneWithMultipleItems in Chart-17-fixed_ind2
+---- exit code: 0 | Chart-17-fixed_ind2
+
+==== 2026-04-21 15:14:11 :: Chart-18-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValueAtBeginning in Chart-18-fixed_ind1
+---- exit code: 1 | Chart-18-fixed_ind1
+
+==== 2026-04-21 15:14:16 :: Chart-18-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValueAtEnd in Chart-18-fixed_ind2
+---- exit code: 1 | Chart-18-fixed_ind2
+
+==== 2026-04-21 15:14:22 :: Chart-18-fixed_ind3 ====
+>>> defects4j test -t org.jfree.data.category.junit.DefaultCategoryDatasetTests::testRemoveColumnMultipleRows in Chart-18-fixed_ind3
+---- exit code: 0 | Chart-18-fixed_ind3
+
+==== 2026-04-21 15:14:28 :: Chart-19-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndexWithParent in Chart-19-fixed_ind1
+---- exit code: 0 | Chart-19-fixed_ind1
+
+==== 2026-04-21 15:14:34 :: Chart-19-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndexWithParent in Chart-19-fixed_ind2
+---- exit code: 0 | Chart-19-fixed_ind2
+
+==== 2026-04-21 15:14:40 :: Chart-19-fixed_ind3 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndexWithNonCategoryParent in Chart-19-fixed_ind3
+---- exit code: 1 | Chart-19-fixed_ind3
+
+==== 2026-04-21 15:14:46 :: Chart-20-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.ValueMarkerTests::testValueMarkerWithNullOutlinePaint in Chart-20-fixed_ind1
+---- exit code: 0 | Chart-20-fixed_ind1
+
+==== 2026-04-21 15:14:52 :: Chart-20-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.plot.junit.ValueMarkerTests::testValueMarkerWithDifferentStrokes in Chart-20-fixed_ind2
+---- exit code: 0 | Chart-20-fixed_ind2
+
+==== 2026-04-21 15:14:58 :: Chart-21-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBoundsReplaceMax in Chart-21-fixed_ind1
+---- exit code: 0 | Chart-21-fixed_ind1
+
+==== 2026-04-21 15:15:04 :: Chart-21-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBoundsMultipleReplacements in Chart-21-fixed_ind2
+---- exit code: 0 | Chart-21-fixed_ind2
+
+==== 2026-04-21 15:15:10 :: Chart-22-fixed_ind1 ====
+>>> defects4j test -t org.jfree.data.junit.KeyedObjects2DTests::testGetObjectAfterRemoval in Chart-22-fixed_ind1
+---- exit code: 0 | Chart-22-fixed_ind1
+
+==== 2026-04-21 15:15:16 :: Chart-22-fixed_ind2 ====
+>>> defects4j test -t org.jfree.data.junit.KeyedObjects2DTests::testGetObjectMultipleRowsSameColumn in Chart-22-fixed_ind2
+---- exit code: 0 | Chart-22-fixed_ind2
+
+==== 2026-04-21 15:15:22 :: Chart-23-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testCloning in Chart-23-fixed_ind1
+---- exit code: 1 | Chart-23-fixed_ind1
+
+==== 2026-04-21 15:15:27 :: Chart-23-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testSerialization in Chart-23-fixed_ind2
+---- exit code: 1 | Chart-23-fixed_ind2
+
+==== 2026-04-21 15:15:32 :: Chart-24-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintMidpoint in Chart-24-fixed_ind1
+---- exit code: 0 | Chart-24-fixed_ind1
+
+==== 2026-04-21 15:15:38 :: Chart-24-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintQuarter in Chart-24-fixed_ind2
+---- exit code: 0 | Chart-24-fixed_ind2
+
+==== 2026-04-21 15:15:45 :: Chart-25-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithBothNullHorizontal in Chart-25-fixed_ind1
+---- exit code: 0 | Chart-25-fixed_ind1
+
+==== 2026-04-21 15:15:52 :: Chart-25-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithBothNullVertical in Chart-25-fixed_ind2
+---- exit code: 0 | Chart-25-fixed_ind2
+
+==== 2026-04-21 15:15:58 :: Chart-26-fixed_ind1 ====
+>>> defects4j test -t org.jfree.chart.junit.ScatterPlotTests::testDrawWithNullInfo in Chart-26-fixed_ind1
+---- exit code: 1 | Chart-26-fixed_ind1
+
+==== 2026-04-21 15:16:03 :: Chart-26-fixed_ind2 ====
+>>> defects4j test -t org.jfree.chart.junit.PieChartTests::testDrawWithNullInfo in Chart-26-fixed_ind2
+---- exit code: 1 | Chart-26-fixed_ind2
+
+
+=== Combined Test Run Summary ===
+  Chart/Chart-1-fixed                                      -> FAIL(1)
+  Chart/Chart-10-fixed                                     -> OK
+  Chart/Chart-11-fixed                                     -> OK
+  Chart/Chart-12-fixed                                     -> OK
+  Chart/Chart-13-fixed                                     -> OK
+  Chart/Chart-14-fixed                                     -> OK
+  Chart/Chart-15-fixed                                     -> OK
+  Chart/Chart-16-fixed                                     -> FAIL(1)
+  Chart/Chart-17-fixed                                     -> OK
+  Chart/Chart-18-fixed                                     -> FAIL(1)
+  Chart/Chart-19-fixed                                     -> FAIL(1)
+  Chart/Chart-2-fixed                                      -> OK
+  Chart/Chart-20-fixed                                     -> OK
+  Chart/Chart-21-fixed                                     -> OK
+  Chart/Chart-22-fixed                                     -> OK
+  Chart/Chart-23-fixed                                     -> FAIL(1)
+  Chart/Chart-24-fixed                                     -> OK
+  Chart/Chart-25-fixed                                     -> OK
+  Chart/Chart-26-fixed                                     -> FAIL(1)
+  Chart/Chart-3-fixed                                      -> OK
+  Chart/Chart-4-fixed                                      -> OK
+  Chart/Chart-5-fixed                                      -> OK
+  Chart/Chart-6-fixed                                      -> OK
+  Chart/Chart-7-fixed                                      -> FAIL(1)
+  Chart/Chart-8-fixed                                      -> FAIL(1)
+  Chart/Chart-9-fixed                                      -> OK
+Combined total: 26 | failed: 8 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Chart/Chart-1-fixed_ind1                                 -> OK
+  Chart/Chart-1-fixed_ind2                                 -> FAIL(1)
+  Chart/Chart-10-fixed_ind1                                -> OK
+  Chart/Chart-10-fixed_ind2                                -> OK
+  Chart/Chart-10-fixed_ind3                                -> OK
+  Chart/Chart-10-fixed_ind4                                -> OK
+  Chart/Chart-11-fixed_ind1                                -> OK
+  Chart/Chart-11-fixed_ind2                                -> OK
+  Chart/Chart-11-fixed_ind3                                -> OK
+  Chart/Chart-11-fixed_ind4                                -> OK
+  Chart/Chart-12-fixed_ind1                                -> OK
+  Chart/Chart-12-fixed_ind2                                -> OK
+  Chart/Chart-14-fixed_ind1                                -> OK
+  Chart/Chart-14-fixed_ind2                                -> OK
+  Chart/Chart-15-fixed_ind1                                -> OK
+  Chart/Chart-15-fixed_ind2                                -> OK
+  Chart/Chart-16-fixed_ind1                                -> FAIL(1)
+  Chart/Chart-16-fixed_ind2                                -> FAIL(1)
+  Chart/Chart-16-fixed_ind3                                -> FAIL(1)
+  Chart/Chart-16-fixed_ind4                                -> FAIL(1)
+  Chart/Chart-16-fixed_ind5                                -> FAIL(1)
+  Chart/Chart-16-fixed_ind6                                -> FAIL(1)
+  Chart/Chart-17-fixed_ind1                                -> OK
+  Chart/Chart-17-fixed_ind2                                -> OK
+  Chart/Chart-18-fixed_ind1                                -> FAIL(1)
+  Chart/Chart-18-fixed_ind2                                -> FAIL(1)
+  Chart/Chart-18-fixed_ind3                                -> OK
+  Chart/Chart-19-fixed_ind1                                -> OK
+  Chart/Chart-19-fixed_ind2                                -> OK
+  Chart/Chart-19-fixed_ind3                                -> FAIL(1)
+  Chart/Chart-2-fixed_ind1                                 -> OK
+  Chart/Chart-2-fixed_ind2                                 -> OK
+  Chart/Chart-2-fixed_ind3                                 -> OK
+  Chart/Chart-2-fixed_ind4                                 -> OK
+  Chart/Chart-20-fixed_ind1                                -> OK
+  Chart/Chart-20-fixed_ind2                                -> OK
+  Chart/Chart-21-fixed_ind1                                -> OK
+  Chart/Chart-21-fixed_ind2                                -> OK
+  Chart/Chart-22-fixed_ind1                                -> OK
+  Chart/Chart-22-fixed_ind2                                -> OK
+  Chart/Chart-23-fixed_ind1                                -> FAIL(1)
+  Chart/Chart-23-fixed_ind2                                -> FAIL(1)
+  Chart/Chart-24-fixed_ind1                                -> OK
+  Chart/Chart-24-fixed_ind2                                -> OK
+  Chart/Chart-25-fixed_ind1                                -> OK
+  Chart/Chart-25-fixed_ind2                                -> OK
+  Chart/Chart-26-fixed_ind1                                -> FAIL(1)
+  Chart/Chart-26-fixed_ind2                                -> FAIL(1)
+  Chart/Chart-3-fixed_ind1                                 -> OK
+  Chart/Chart-3-fixed_ind2                                 -> OK
+  Chart/Chart-3-fixed_ind3                                 -> OK
+  Chart/Chart-5-fixed_ind1                                 -> OK
+  Chart/Chart-5-fixed_ind2                                 -> OK
+  Chart/Chart-6-fixed_ind1                                 -> OK
+  Chart/Chart-6-fixed_ind2                                 -> OK
+  Chart/Chart-6-fixed_ind3                                 -> OK
+  Chart/Chart-8-fixed_ind1                                 -> FAIL(1)
+  Chart/Chart-8-fixed_ind2                                 -> OK
+  Chart/Chart-9-fixed_ind1                                 -> OK
+  Chart/Chart-9-fixed_ind2                                 -> OK
+  Chart/Chart-9-fixed_ind3                                 -> OK
+Individual total: 61 | failed: 15
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Chart] 64 | pass=43 not_pass=0 not_compilable=21 -> Chart.csv
+
+[DONE combined] total=64 pass=43 not_pass=0 not_compilable=21
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+  [Chart] 61 | pass=46 not_pass=0 not_compilable=15 -> Chart.csv
+
+[DONE individual] total=61 pass=46 not_pass=0 not_compilable=15
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+
+============================================================
+PHASE 5: Cleanup — deleting fixed dirs
+============================================================
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-4-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-7-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-13-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-1-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-2-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-3-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-8-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-9-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-10-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-11-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-12-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-14-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind5
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-fixed_ind6
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-17-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-19-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-20-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-21-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-22-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-23-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-25-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-fixed_ind2
+  [DEL] empty project dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart
+
+[CLEANUP DONE] deleted=87 skipped=0

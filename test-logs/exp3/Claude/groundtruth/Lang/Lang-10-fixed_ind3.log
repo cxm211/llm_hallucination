@@ -1,0 +1,10 @@
+==== 2026-04-21 11:12:07 :: Lang-10-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexTrailingWhitespace
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexTrailingWhitespace
+---- exit code: 0 | Lang-10-fixed_ind3
+

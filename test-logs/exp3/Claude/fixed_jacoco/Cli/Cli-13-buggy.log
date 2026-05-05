@@ -1,0 +1,24 @@
+==== 2026-03-27 01:28:00 :: Cli-13-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli2/bug/BugLoopingOptionLookAlikeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest::testLoopingOptionLookAlike2
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptionCount
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptionCount
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptionCount
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptionCount
+  - org.apache.commons.cli2.option.ArgumentTest::testProcess_ConsumeRemaining
+  - org.apache.commons.cli2.option.ArgumentTest::testProcessValues_Contracted
+  - org.apache.commons.cli2.option.ArgumentTest::testProcessValues_Multiple
+  - org.apache.commons.cli2.option.GroupTest::testProcess
+  - org.apache.commons.cli2.option.GroupTest::testProcessAnonymousArguments
+---- exit code: 0 | test_result: Not Pass | Cli-13-buggy
+

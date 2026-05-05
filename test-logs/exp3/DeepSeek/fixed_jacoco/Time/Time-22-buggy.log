@@ -1,0 +1,18 @@
+==== 2026-04-24 16:24:07 :: Time-22-buggy ====
+[RESTORE] restored build/tests/org/joda/time/TestPeriod_Constructors.java
+[RESTORE] restored src/test/java/org/joda/time/TestPeriod_Constructors.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.TestDuration_Basics::testToPeriod
+  - org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+  - org.joda.time.TestMutablePeriod_Constructors::testConstructor_long1
+  - org.joda.time.TestMutablePeriod_Constructors::testConstructor_long3
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long1
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long3
+---- exit code: 0 | test_result: Not Pass | Time-22-buggy
+

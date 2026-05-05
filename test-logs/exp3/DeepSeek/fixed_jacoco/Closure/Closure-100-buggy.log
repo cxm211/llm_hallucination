@@ -1,0 +1,18 @@
+==== 2026-04-23 02:52:28 :: Closure-100-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CheckGlobalThisTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction2
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction4
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis2
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis3
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis4
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis5
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction4
+---- exit code: 0 | test_result: Not Pass | Closure-100-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-04-24 06:58:19 :: Jsoup-64-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/HtmlParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyStyle
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyNoFrames
+---- exit code: 0 | test_result: Not Pass | Jsoup-64-buggy
+

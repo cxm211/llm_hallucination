@@ -1,0 +1,37 @@
+==== 2026-03-27 09:05:45 :: Closure-27-buggy_ind1 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testIssue727_1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testIssue727_1
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testIssue727_2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testIssue727_2
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testIssue727_3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testIssue727_3
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1149 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.rhino.IRTest::testTryFinallyWithStatements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.IRTest::testTryFinallyWithStatements
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1149 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 20 line rows.
+[PARSE] 20 base line rows.

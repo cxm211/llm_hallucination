@@ -1,0 +1,34 @@
+==== 2026-04-24 03:28:41 :: Compress-18-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteNonAsciiDirectoryNamePosixMode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteNonAsciiDirectoryNamePosixMode
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-18-buggy/jacoco_base.exec.
+[INFO] Analyzing 118 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteLongNonAsciiDirectoryName
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteLongNonAsciiDirectoryName
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteLongAsciiDirectoryName
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteLongAsciiDirectoryName
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteDeepNonAsciiDirectoryName
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest::testWriteDeepNonAsciiDirectoryName
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-18-buggy/jacoco.exec.
+[INFO] Analyzing 118 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 38 line rows.
+[PARSE] 38 base line rows.

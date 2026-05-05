@@ -1,0 +1,11 @@
+==== 2026-04-21 22:15:44 :: Cli-36-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI266Test::testOptionComparatorInsertedOrder
+---- exit code: 0 | test_result: Not Pass | Cli-36-buggy
+

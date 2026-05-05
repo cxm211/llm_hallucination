@@ -1,0 +1,45 @@
+==== 2026-03-30 04:50:25 :: Time-5-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_yearMonth2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_yearMonth2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+---- exit code: 0 | Time-5-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_years1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 208 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 208 classes.
+>>> [JACOCO] done

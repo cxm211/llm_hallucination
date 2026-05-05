@@ -1,0 +1,12 @@
+==== 2026-03-31 21:32:18 :: Jsoup-84-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.helper.W3CDomTest::handlesMixedDeclaredAndUndeclaredNamespaces
+  - org.jsoup.helper.W3CDomTest::handlesMultipleUndeclaredNamespaces
+  - org.jsoup.helper.W3CDomTest::treatsUndeclaredNamespaceAsLocalName
+---- exit code: 0 | Jsoup-84-buggy
+

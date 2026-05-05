@@ -1,0 +1,12 @@
+==== 2026-04-27 02:33:55 :: Chart-22-buggy ====
+[RESTORE] restored tests/org/jfree/data/junit/KeyedObjects2DTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex
+---- exit code: 0 | test_result: Not Pass | Chart-22-buggy
+

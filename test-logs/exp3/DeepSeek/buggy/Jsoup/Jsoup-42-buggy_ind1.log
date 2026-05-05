@@ -1,0 +1,12 @@
+==== 2026-04-24 04:43:32 :: Jsoup-42-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.FormElementTest::radioWithoutValueSubmitsOn
+  - org.jsoup.nodes.FormElementTest::createsFormData
+  - org.jsoup.nodes.FormElementTest::usesOnForCheckboxValueIfNoValueSet
+---- exit code: 0 | Jsoup-42-buggy_ind1
+

@@ -1,0 +1,10 @@
+==== 2026-04-25 19:29:48 :: Mockito-4-fixed_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockito.exceptions.ReporterTest::cannotInjectDependency_with_exception_having_null_cause
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.exceptions.ReporterTest
+---- exit code: 0 | Mockito-4-fixed_ind2
+

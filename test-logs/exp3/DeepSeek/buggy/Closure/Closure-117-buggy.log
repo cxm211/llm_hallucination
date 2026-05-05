@@ -1,0 +1,12 @@
+==== 2026-04-22 00:15:17 :: Closure-117-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047_interface
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047_chain
+---- exit code: 0 | Closure-117-buggy
+

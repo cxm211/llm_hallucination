@@ -1,0 +1,10 @@
+==== 2026-04-21 07:36:05 :: Closure-132-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925_AdditionalCase3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925_AdditionalCase3
+---- exit code: 0 | Closure-132-fixed_ind3
+

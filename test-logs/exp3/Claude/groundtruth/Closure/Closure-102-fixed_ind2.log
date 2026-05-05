@@ -1,0 +1,10 @@
+==== 2026-04-21 07:23:14 :: Closure-102-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CompilerRunnerTest::testIssue115_multipleShadowing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CompilerRunnerTest::testIssue115_multipleShadowing
+---- exit code: 0 | Closure-102-fixed_ind2
+

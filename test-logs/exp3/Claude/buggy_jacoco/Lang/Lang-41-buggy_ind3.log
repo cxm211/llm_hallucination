@@ -1,0 +1,32 @@
+==== 2026-03-29 17:01:13 :: Lang-41-buggy_ind3 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class
+[JACOCO] defects4j test -t org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 116 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_InnerClassArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_InnerClassArray
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 116 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 36 line rows.
+[PARSE] 36 base line rows.

@@ -1,0 +1,679 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : JacksonCore
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] JacksonCore-1-fixed
+  [CHECKOUT] JacksonCore-2-fixed
+  [CHECKOUT] JacksonCore-3-fixed
+  [CHECKOUT] JacksonCore-4-fixed
+  [CHECKOUT] JacksonCore-5-fixed
+  [CHECKOUT] JacksonCore-6-fixed
+  [CHECKOUT] JacksonCore-7-fixed
+  [CHECKOUT] JacksonCore-8-fixed
+  [CHECKOUT] JacksonCore-9-fixed
+  [CHECKOUT] JacksonCore-10-fixed
+  [CHECKOUT] JacksonCore-11-fixed
+  [CHECKOUT] JacksonCore-12-fixed
+  [CHECKOUT] JacksonCore-13-fixed
+  [CHECKOUT] JacksonCore-14-fixed
+  [CHECKOUT] JacksonCore-15-fixed
+  [CHECKOUT] JacksonCore-16-fixed
+  [CHECKOUT] JacksonCore-17-fixed
+  [CHECKOUT] JacksonCore-18-fixed
+  [CHECKOUT] JacksonCore-19-fixed
+  [CHECKOUT] JacksonCore-20-fixed
+  [CHECKOUT] JacksonCore-21-fixed
+  [CHECKOUT] JacksonCore-22-fixed
+  [CHECKOUT] JacksonCore-23-fixed
+  [CHECKOUT] JacksonCore-24-fixed
+  [CHECKOUT] JacksonCore-25-fixed
+  [CHECKOUT] JacksonCore-26-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== JacksonCore ===
+  [COPY] JacksonCore-1-fixed -> JacksonCore-1-fixed_ind1
+  [IND-OK] JacksonCore-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-1-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestParserNonStandard.java
+  [COPY] JacksonCore-1-fixed -> JacksonCore-1-fixed_ind2
+  [IND-OK] JacksonCore-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-1-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestParserNonStandard.java
+  [COPY] JacksonCore-1-fixed -> JacksonCore-1-fixed_ind3
+  [IND-OK] JacksonCore-1-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-1-fixed_ind3/src/test/java/com/fasterxml/jackson/core/json/TestParserNonStandard.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-1-fixed/src/test/java/com/fasterxml/jackson/core/json/TestParserNonStandard.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-1-fixed/src/test/java/com/fasterxml/jackson/core/json/TestParserNonStandard.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-1-fixed/src/test/java/com/fasterxml/jackson/core/json/TestParserNonStandard.java
+  [JacksonCore-1] inserted=6 failed=0
+  [COPY] JacksonCore-2-fixed -> JacksonCore-2-fixed_ind1
+  [IND-OK] JacksonCore-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+  [COPY] JacksonCore-2-fixed -> JacksonCore-2-fixed_ind2
+  [IND-OK] JacksonCore-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+  [COPY] JacksonCore-2-fixed -> JacksonCore-2-fixed_ind3
+  [IND-OK] JacksonCore-2-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-fixed_ind3/src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-fixed/src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-fixed/src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-2-fixed/src/test/java/com/fasterxml/jackson/core/json/TestParserErrorHandling.java
+  [JacksonCore-2] inserted=6 failed=0
+  [COPY] JacksonCore-3-fixed -> JacksonCore-3-fixed_ind1
+  [IND-OK] JacksonCore-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-3-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestLocation.java
+  [COPY] JacksonCore-3-fixed -> JacksonCore-3-fixed_ind2
+  [IND-OK] JacksonCore-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-3-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestLocation.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-3-fixed/src/test/java/com/fasterxml/jackson/core/json/TestLocation.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-3-fixed/src/test/java/com/fasterxml/jackson/core/json/TestLocation.java
+  [JacksonCore-3] inserted=4 failed=0
+  [COPY] JacksonCore-4-fixed -> JacksonCore-4-fixed_ind1
+  [IND-OK] JacksonCore-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-4-fixed_ind1/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [COPY] JacksonCore-4-fixed -> JacksonCore-4-fixed_ind2
+  [IND-OK] JacksonCore-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-4-fixed_ind2/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-4-fixed/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-4-fixed/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [JacksonCore-4] inserted=4 failed=0
+  [COPY] JacksonCore-5-fixed -> JacksonCore-5-fixed_ind1
+  [IND-OK] JacksonCore-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-5-fixed_ind1/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [COPY] JacksonCore-5-fixed -> JacksonCore-5-fixed_ind2
+  [IND-OK] JacksonCore-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-5-fixed_ind2/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-5-fixed/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-5-fixed/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [JacksonCore-5] inserted=4 failed=0
+  [COPY] JacksonCore-6-fixed -> JacksonCore-6-fixed_ind1
+  [IND-OK] JacksonCore-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-6-fixed_ind1/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [COPY] JacksonCore-6-fixed -> JacksonCore-6-fixed_ind2
+  [IND-OK] JacksonCore-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-6-fixed_ind2/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-6-fixed/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-6-fixed/src/test/java/com/fasterxml/jackson/core/TestJsonPointer.java
+  [JacksonCore-6] inserted=4 failed=0
+  [COPY] JacksonCore-7-fixed -> JacksonCore-7-fixed_ind1
+  [IND-OK] JacksonCore-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/GeneratorFailTest.java
+  [COPY] JacksonCore-7-fixed -> JacksonCore-7-fixed_ind2
+  [IND-OK] JacksonCore-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/GeneratorFailTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-fixed/src/test/java/com/fasterxml/jackson/core/json/GeneratorFailTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-fixed/src/test/java/com/fasterxml/jackson/core/json/GeneratorFailTest.java
+  [JacksonCore-7] inserted=4 failed=0
+  [COPY] JacksonCore-8-fixed -> JacksonCore-8-fixed_ind1
+  [IND-OK] JacksonCore-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-8-fixed_ind1/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [COPY] JacksonCore-8-fixed -> JacksonCore-8-fixed_ind2
+  [IND-OK] JacksonCore-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-8-fixed_ind2/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [COPY] JacksonCore-8-fixed -> JacksonCore-8-fixed_ind3
+  [IND-OK] JacksonCore-8-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-8-fixed_ind3/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-8-fixed/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-8-fixed/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-8-fixed/src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+  [JacksonCore-8] inserted=6 failed=0
+  [COPY] JacksonCore-9-fixed -> JacksonCore-9-fixed_ind1
+  [IND-OK] JacksonCore-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestJsonParser.java
+  [COPY] JacksonCore-9-fixed -> JacksonCore-9-fixed_ind2
+  [IND-OK] JacksonCore-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestJsonParser.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-fixed/src/test/java/com/fasterxml/jackson/core/json/TestJsonParser.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-fixed/src/test/java/com/fasterxml/jackson/core/json/TestJsonParser.java
+  [JacksonCore-9] inserted=4 failed=0
+  [COPY] JacksonCore-10-fixed -> JacksonCore-10-fixed_ind1
+  [IND-OK] JacksonCore-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-fixed_ind1/src/test/java/com/fasterxml/jackson/core/sym/TestSymbolTables.java
+  [COPY] JacksonCore-10-fixed -> JacksonCore-10-fixed_ind2
+  [IND-OK] JacksonCore-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-fixed_ind2/src/test/java/com/fasterxml/jackson/core/sym/TestByteBasedSymbols.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-fixed/src/test/java/com/fasterxml/jackson/core/sym/TestSymbolTables.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-fixed/src/test/java/com/fasterxml/jackson/core/sym/TestByteBasedSymbols.java
+  [JacksonCore-10] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-11-fixed/src/test/java/com/fasterxml/jackson/core/sym/SymbolsViaParserTest.java
+  [JacksonCore-11] inserted=1 failed=0
+  [COPY] JacksonCore-12-fixed -> JacksonCore-12-fixed_ind1
+  [IND-OK] JacksonCore-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-12-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/LocationInObjectTest.java
+  [COPY] JacksonCore-12-fixed -> JacksonCore-12-fixed_ind2
+  [IND-OK] JacksonCore-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-12-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/LocationInObjectTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-12-fixed/src/test/java/com/fasterxml/jackson/core/json/LocationInObjectTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-12-fixed/src/test/java/com/fasterxml/jackson/core/json/LocationInObjectTest.java
+  [JacksonCore-12] inserted=4 failed=0
+  [COPY] JacksonCore-13-fixed -> JacksonCore-13-fixed_ind1
+  [IND-OK] JacksonCore-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-13-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [COPY] JacksonCore-13-fixed -> JacksonCore-13-fixed_ind2
+  [IND-OK] JacksonCore-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-13-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-13-fixed/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-13-fixed/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [JacksonCore-13] inserted=4 failed=0
+  [COPY] JacksonCore-14-fixed -> JacksonCore-14-fixed_ind1
+  [IND-OK] JacksonCore-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-14-fixed_ind1/src/test/java/com/fasterxml/jackson/core/io/TestIOContext.java
+  [COPY] JacksonCore-14-fixed -> JacksonCore-14-fixed_ind2
+  [IND-OK] JacksonCore-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-14-fixed_ind2/src/test/java/com/fasterxml/jackson/core/io/TestIOContext.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-14-fixed/src/test/java/com/fasterxml/jackson/core/io/TestIOContext.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-14-fixed/src/test/java/com/fasterxml/jackson/core/io/TestIOContext.java
+  [JacksonCore-14] inserted=4 failed=0
+  [COPY] JacksonCore-15-fixed -> JacksonCore-15-fixed_ind1
+  [IND-OK] JacksonCore-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-15-fixed_ind1/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [COPY] JacksonCore-15-fixed -> JacksonCore-15-fixed_ind2
+  [IND-OK] JacksonCore-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-15-fixed_ind2/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [COPY] JacksonCore-15-fixed -> JacksonCore-15-fixed_ind3
+  [IND-OK] JacksonCore-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-15-fixed_ind3/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-15-fixed/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-15-fixed/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-15-fixed/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [JacksonCore-15] inserted=6 failed=0
+  [COPY] JacksonCore-16-fixed -> JacksonCore-16-fixed_ind1
+  [IND-OK] JacksonCore-16-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/ParserSequenceTest.java
+  [COPY] JacksonCore-16-fixed -> JacksonCore-16-fixed_ind2
+  [IND-OK] JacksonCore-16-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/ParserSequenceTest.java
+  [COPY] JacksonCore-16-fixed -> JacksonCore-16-fixed_ind3
+  [IND-OK] JacksonCore-16-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-fixed_ind3/src/test/java/com/fasterxml/jackson/core/json/ParserSequenceTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-fixed/src/test/java/com/fasterxml/jackson/core/json/ParserSequenceTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-fixed/src/test/java/com/fasterxml/jackson/core/json/ParserSequenceTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-fixed/src/test/java/com/fasterxml/jackson/core/json/ParserSequenceTest.java
+  [JacksonCore-16] inserted=6 failed=0
+  [COPY] JacksonCore-17-fixed -> JacksonCore-17-fixed_ind1
+  [IND-OK] JacksonCore-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/RawValueWithSurrogatesTest.java
+  [COPY] JacksonCore-17-fixed -> JacksonCore-17-fixed_ind2
+  [IND-OK] JacksonCore-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/RawValueWithSurrogatesTest.java
+  [COPY] JacksonCore-17-fixed -> JacksonCore-17-fixed_ind3
+  [IND-OK] JacksonCore-17-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-fixed_ind3/src/test/java/com/fasterxml/jackson/core/json/RawValueWithSurrogatesTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-fixed/src/test/java/com/fasterxml/jackson/core/json/RawValueWithSurrogatesTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-fixed/src/test/java/com/fasterxml/jackson/core/json/RawValueWithSurrogatesTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-fixed/src/test/java/com/fasterxml/jackson/core/json/RawValueWithSurrogatesTest.java
+  [JacksonCore-17] inserted=6 failed=0
+  [COPY] JacksonCore-18-fixed -> JacksonCore-18-fixed_ind1
+  [IND-OK] JacksonCore-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-18-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [COPY] JacksonCore-18-fixed -> JacksonCore-18-fixed_ind2
+  [IND-OK] JacksonCore-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-18-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-18-fixed/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-18-fixed/src/test/java/com/fasterxml/jackson/core/json/TestJsonGeneratorFeatures.java
+  [JacksonCore-18] inserted=4 failed=0
+  [COPY] JacksonCore-19-fixed -> JacksonCore-19-fixed_ind1
+  [IND-OK] JacksonCore-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-19-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/TestNumericValues.java
+  [COPY] JacksonCore-19-fixed -> JacksonCore-19-fixed_ind2
+  [IND-OK] JacksonCore-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-19-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/TestNumericValues.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-19-fixed/src/test/java/com/fasterxml/jackson/core/json/TestNumericValues.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-19-fixed/src/test/java/com/fasterxml/jackson/core/json/TestNumericValues.java
+  [JacksonCore-19] inserted=4 failed=0
+  [COPY] JacksonCore-20-fixed -> JacksonCore-20-fixed_ind1
+  [IND-OK] JacksonCore-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-20-fixed_ind1/src/test/java/com/fasterxml/jackson/core/base64/Base64GenerationTest.java
+  [COPY] JacksonCore-20-fixed -> JacksonCore-20-fixed_ind2
+  [IND-OK] JacksonCore-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-20-fixed_ind2/src/test/java/com/fasterxml/jackson/core/main/TestGeneratorMisc.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-20-fixed/src/test/java/com/fasterxml/jackson/core/base64/Base64GenerationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-20-fixed/src/test/java/com/fasterxml/jackson/core/main/TestGeneratorMisc.java
+  [JacksonCore-20] inserted=4 failed=0
+  [COPY] JacksonCore-21-fixed -> JacksonCore-21-fixed_ind1
+  [IND-OK] JacksonCore-21-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-21-fixed_ind1/src/test/java/com/fasterxml/jackson/core/filter/TokenVerifyingParserFiltering330Test.java
+  [COPY] JacksonCore-21-fixed -> JacksonCore-21-fixed_ind2
+  [IND-OK] JacksonCore-21-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-21-fixed_ind2/src/test/java/com/fasterxml/jackson/core/filter/TokenVerifyingParserFiltering330Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-21-fixed/src/test/java/com/fasterxml/jackson/core/filter/TokenVerifyingParserFiltering330Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-21-fixed/src/test/java/com/fasterxml/jackson/core/filter/TokenVerifyingParserFiltering330Test.java
+  [JacksonCore-21] inserted=4 failed=0
+  [COPY] JacksonCore-22-fixed -> JacksonCore-22-fixed_ind1
+  [IND-OK] JacksonCore-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-22-fixed_ind1/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [COPY] JacksonCore-22-fixed -> JacksonCore-22-fixed_ind2
+  [IND-OK] JacksonCore-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-22-fixed_ind2/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-22-fixed/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-22-fixed/src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+  [JacksonCore-22] inserted=4 failed=0
+  [COPY] JacksonCore-23-fixed -> JacksonCore-23-fixed_ind1
+  [IND-OK] JacksonCore-23-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-23-fixed_ind1/src/test/java/com/fasterxml/jackson/core/util/TestDefaultPrettyPrinter.java
+  [COPY] JacksonCore-23-fixed -> JacksonCore-23-fixed_ind2
+  [IND-OK] JacksonCore-23-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-23-fixed_ind2/src/test/java/com/fasterxml/jackson/core/util/TestDefaultPrettyPrinter.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-23-fixed/src/test/java/com/fasterxml/jackson/core/util/TestDefaultPrettyPrinter.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-23-fixed/src/test/java/com/fasterxml/jackson/core/util/TestDefaultPrettyPrinter.java
+  [JacksonCore-23] inserted=4 failed=0
+  [COPY] JacksonCore-24-fixed -> JacksonCore-24-fixed_ind1
+  [IND-OK] JacksonCore-24-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-24-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/async/AsyncNumberCoercionTest.java
+  [COPY] JacksonCore-24-fixed -> JacksonCore-24-fixed_ind2
+  [IND-OK] JacksonCore-24-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-24-fixed_ind2/src/test/java/com/fasterxml/jackson/core/read/NumberCoercionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-24-fixed/src/test/java/com/fasterxml/jackson/core/json/async/AsyncNumberCoercionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-24-fixed/src/test/java/com/fasterxml/jackson/core/read/NumberCoercionTest.java
+  [JacksonCore-24] inserted=4 failed=0
+  [COPY] JacksonCore-25-fixed -> JacksonCore-25-fixed_ind1
+  [IND-OK] JacksonCore-25-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/src/test/java/com/fasterxml/jackson/core/read/NonStandardUnquotedNamesTest.java
+  [COPY] JacksonCore-25-fixed -> JacksonCore-25-fixed_ind2
+  [IND-OK] JacksonCore-25-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind2/src/test/java/com/fasterxml/jackson/core/read/NonStandardUnquotedNamesTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed/src/test/java/com/fasterxml/jackson/core/read/NonStandardUnquotedNamesTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed/src/test/java/com/fasterxml/jackson/core/read/NonStandardUnquotedNamesTest.java
+  [JacksonCore-25] inserted=4 failed=0
+  [COPY] JacksonCore-26-fixed -> JacksonCore-26-fixed_ind1
+  [IND-OK] JacksonCore-26-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-26-fixed_ind1/src/test/java/com/fasterxml/jackson/core/json/async/AsyncLocationTest.java
+  [COPY] JacksonCore-26-fixed -> JacksonCore-26-fixed_ind2
+  [IND-OK] JacksonCore-26-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-26-fixed_ind2/src/test/java/com/fasterxml/jackson/core/json/async/AsyncLocationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-26-fixed/src/test/java/com/fasterxml/jackson/core/json/async/AsyncLocationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-26-fixed/src/test/java/com/fasterxml/jackson/core/json/async/AsyncLocationTest.java
+  [JacksonCore-26] inserted=4 failed=0
+
+[INSERT DONE] inserted=113 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 26
+individual bugs: 56
+
+==== 2026-04-21 08:22:08 :: JacksonCore-1-fixed ====
+>>> defects4j test -r in JacksonCore-1-fixed
+---- exit code: 1 | JacksonCore-1-fixed
+
+==== 2026-04-21 08:22:10 :: JacksonCore-2-fixed ====
+>>> defects4j test -r in JacksonCore-2-fixed
+---- exit code: 1 | JacksonCore-2-fixed
+
+==== 2026-04-21 08:22:12 :: JacksonCore-3-fixed ====
+>>> defects4j test -r in JacksonCore-3-fixed
+---- exit code: 0 | JacksonCore-3-fixed
+
+==== 2026-04-21 08:22:16 :: JacksonCore-4-fixed ====
+>>> defects4j test -r in JacksonCore-4-fixed
+---- exit code: 0 | JacksonCore-4-fixed
+
+==== 2026-04-21 08:22:22 :: JacksonCore-5-fixed ====
+>>> defects4j test -r in JacksonCore-5-fixed
+---- exit code: 0 | JacksonCore-5-fixed
+
+==== 2026-04-21 08:22:25 :: JacksonCore-6-fixed ====
+>>> defects4j test -r in JacksonCore-6-fixed
+---- exit code: 0 | JacksonCore-6-fixed
+
+==== 2026-04-21 08:22:27 :: JacksonCore-7-fixed ====
+>>> defects4j test -r in JacksonCore-7-fixed
+---- exit code: 1 | JacksonCore-7-fixed
+
+==== 2026-04-21 08:22:30 :: JacksonCore-8-fixed ====
+>>> defects4j test -r in JacksonCore-8-fixed
+---- exit code: 1 | JacksonCore-8-fixed
+
+==== 2026-04-21 08:22:32 :: JacksonCore-9-fixed ====
+>>> defects4j test -r in JacksonCore-9-fixed
+---- exit code: 0 | JacksonCore-9-fixed
+
+==== 2026-04-21 08:22:38 :: JacksonCore-10-fixed ====
+>>> defects4j test -r in JacksonCore-10-fixed
+---- exit code: 0 | JacksonCore-10-fixed
+
+==== 2026-04-21 08:22:44 :: JacksonCore-11-fixed ====
+>>> defects4j test -r in JacksonCore-11-fixed
+---- exit code: 1 | JacksonCore-11-fixed
+
+==== 2026-04-21 08:22:46 :: JacksonCore-12-fixed ====
+>>> defects4j test -r in JacksonCore-12-fixed
+---- exit code: 0 | JacksonCore-12-fixed
+
+==== 2026-04-21 08:22:52 :: JacksonCore-13-fixed ====
+>>> defects4j test -r in JacksonCore-13-fixed
+---- exit code: 0 | JacksonCore-13-fixed
+
+==== 2026-04-21 08:22:59 :: JacksonCore-14-fixed ====
+>>> defects4j test -r in JacksonCore-14-fixed
+---- exit code: 0 | JacksonCore-14-fixed
+
+==== 2026-04-21 08:23:05 :: JacksonCore-15-fixed ====
+>>> defects4j test -r in JacksonCore-15-fixed
+---- exit code: 0 | JacksonCore-15-fixed
+
+==== 2026-04-21 08:23:08 :: JacksonCore-16-fixed ====
+>>> defects4j test -r in JacksonCore-16-fixed
+---- exit code: 0 | JacksonCore-16-fixed
+
+==== 2026-04-21 08:23:11 :: JacksonCore-17-fixed ====
+>>> defects4j test -r in JacksonCore-17-fixed
+---- exit code: 0 | JacksonCore-17-fixed
+
+==== 2026-04-21 08:23:17 :: JacksonCore-18-fixed ====
+>>> defects4j test -r in JacksonCore-18-fixed
+---- exit code: 0 | JacksonCore-18-fixed
+
+==== 2026-04-21 08:23:23 :: JacksonCore-19-fixed ====
+>>> defects4j test -r in JacksonCore-19-fixed
+---- exit code: 0 | JacksonCore-19-fixed
+
+==== 2026-04-21 08:23:30 :: JacksonCore-20-fixed ====
+>>> defects4j test -r in JacksonCore-20-fixed
+---- exit code: 0 | JacksonCore-20-fixed
+
+==== 2026-04-21 08:23:37 :: JacksonCore-21-fixed ====
+>>> defects4j test -r in JacksonCore-21-fixed
+---- exit code: 0 | JacksonCore-21-fixed
+
+==== 2026-04-21 08:23:41 :: JacksonCore-22-fixed ====
+>>> defects4j test -r in JacksonCore-22-fixed
+---- exit code: 1 | JacksonCore-22-fixed
+
+==== 2026-04-21 08:23:43 :: JacksonCore-23-fixed ====
+>>> defects4j test -r in JacksonCore-23-fixed
+---- exit code: 0 | JacksonCore-23-fixed
+
+==== 2026-04-21 08:23:53 :: JacksonCore-24-fixed ====
+>>> defects4j test -r in JacksonCore-24-fixed
+---- exit code: 0 | JacksonCore-24-fixed
+
+==== 2026-04-21 08:24:04 :: JacksonCore-25-fixed ====
+>>> defects4j test -r in JacksonCore-25-fixed
+---- exit code: 1 | JacksonCore-25-fixed
+
+==== 2026-04-21 08:24:07 :: JacksonCore-26-fixed ====
+>>> defects4j test -r in JacksonCore-26-fixed
+---- exit code: 0 | JacksonCore-26-fixed
+
+==== 2026-04-21 08:24:18 :: JacksonCore-1-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserNonStandard::testBigDecimalWithWhitespace in JacksonCore-1-fixed_ind1
+---- exit code: 1 | JacksonCore-1-fixed_ind1
+
+==== 2026-04-21 08:24:20 :: JacksonCore-1-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserNonStandard::testBigDecimalWithEmptyString in JacksonCore-1-fixed_ind2
+---- exit code: 1 | JacksonCore-1-fixed_ind2
+
+==== 2026-04-21 08:24:22 :: JacksonCore-1-fixed_ind3 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserNonStandard::testBigDecimalWithCharArray in JacksonCore-1-fixed_ind3
+---- exit code: 1 | JacksonCore-1-fixed_ind3
+
+==== 2026-04-21 08:24:24 :: JacksonCore-2-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testLeadingZeroInInteger in JacksonCore-2-fixed_ind1
+---- exit code: 1 | JacksonCore-2-fixed_ind1
+
+==== 2026-04-21 08:24:27 :: JacksonCore-2-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testNegativeLeadingZero in JacksonCore-2-fixed_ind2
+---- exit code: 1 | JacksonCore-2-fixed_ind2
+
+==== 2026-04-21 08:24:30 :: JacksonCore-2-fixed_ind3 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testZeroAlone in JacksonCore-2-fixed_ind3
+---- exit code: 1 | JacksonCore-2-fixed_ind3
+
+==== 2026-04-21 08:24:32 :: JacksonCore-3-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestLocation::testOffsetWithLargerInputOffset in JacksonCore-3-fixed_ind1
+---- exit code: 0 | JacksonCore-3-fixed_ind1
+
+==== 2026-04-21 08:24:35 :: JacksonCore-3-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestLocation::testOffsetWithInputOffsetMultiline in JacksonCore-3-fixed_ind2
+---- exit code: 0 | JacksonCore-3-fixed_ind2
+
+==== 2026-04-21 08:24:38 :: JacksonCore-4-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestTextBuffer::testExpandAtMaxSegmentLen in JacksonCore-4-fixed_ind1
+---- exit code: 0 | JacksonCore-4-fixed_ind1
+
+==== 2026-04-21 08:24:41 :: JacksonCore-4-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestTextBuffer::testExpandBeyondMaxSegmentLen in JacksonCore-4-fixed_ind2
+---- exit code: 0 | JacksonCore-4-fixed_ind2
+
+==== 2026-04-21 08:24:44 :: JacksonCore-5-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.TestJsonPointer::testWonkyNumberAtStart in JacksonCore-5-fixed_ind1
+---- exit code: 0 | JacksonCore-5-fixed_ind1
+
+==== 2026-04-21 08:24:46 :: JacksonCore-5-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.TestJsonPointer::testWonkyNumberOverflow in JacksonCore-5-fixed_ind2
+---- exit code: 0 | JacksonCore-5-fixed_ind2
+
+==== 2026-04-21 08:24:49 :: JacksonCore-6-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.TestJsonPointer::testLeadingZeroesRejected in JacksonCore-6-fixed_ind1
+---- exit code: 0 | JacksonCore-6-fixed_ind1
+
+==== 2026-04-21 08:24:52 :: JacksonCore-6-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.TestJsonPointer::testValidIndicesWithoutLeadingZeroes in JacksonCore-6-fixed_ind2
+---- exit code: 0 | JacksonCore-6-fixed_ind2
+
+==== 2026-04-21 08:24:55 :: JacksonCore-7-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.GeneratorFailTest::testFailOnWritingStringInRootContext in JacksonCore-7-fixed_ind1
+---- exit code: 1 | JacksonCore-7-fixed_ind1
+
+==== 2026-04-21 08:24:57 :: JacksonCore-7-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.GeneratorFailTest::testFailOnWritingStringInArrayContext in JacksonCore-7-fixed_ind2
+---- exit code: 1 | JacksonCore-7-fixed_ind2
+
+==== 2026-04-21 08:24:59 :: JacksonCore-8-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestTextBuffer::testGetTextBufferAfterAppend in JacksonCore-8-fixed_ind1
+---- exit code: 1 | JacksonCore-8-fixed_ind1
+
+==== 2026-04-21 08:25:02 :: JacksonCore-8-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestTextBuffer::testGetTextBufferWithResultString in JacksonCore-8-fixed_ind2
+---- exit code: 1 | JacksonCore-8-fixed_ind2
+
+==== 2026-04-21 08:25:04 :: JacksonCore-8-fixed_ind3 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestTextBuffer::testGetTextBufferMultipleCalls in JacksonCore-8-fixed_ind3
+---- exit code: 0 | JacksonCore-8-fixed_ind3
+
+==== 2026-04-21 08:25:07 :: JacksonCore-9-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextNullToken in JacksonCore-9-fixed_ind1
+---- exit code: 0 | JacksonCore-9-fixed_ind1
+
+==== 2026-04-21 08:25:10 :: JacksonCore-9-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextNonString in JacksonCore-9-fixed_ind2
+---- exit code: 0 | JacksonCore-9-fixed_ind2
+
+==== 2026-04-21 08:25:13 :: JacksonCore-10-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testSpilloverBoundaryCondition in JacksonCore-10-fixed_ind1
+---- exit code: 0 | JacksonCore-10-fixed_ind1
+
+==== 2026-04-21 08:25:16 :: JacksonCore-10-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testLargeSpilloverArea in JacksonCore-10-fixed_ind2
+---- exit code: 0 | JacksonCore-10-fixed_ind2
+
+==== 2026-04-21 08:25:19 :: JacksonCore-12-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithNestedArrays in JacksonCore-12-fixed_ind1
+---- exit code: 0 | JacksonCore-12-fixed_ind1
+
+==== 2026-04-21 08:25:22 :: JacksonCore-12-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithMixedContent in JacksonCore-12-fixed_ind2
+---- exit code: 0 | JacksonCore-12-fixed_ind2
+
+==== 2026-04-21 08:25:25 :: JacksonCore-13-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingDisabled in JacksonCore-13-fixed_ind1
+---- exit code: 0 | JacksonCore-13-fixed_ind1
+
+==== 2026-04-21 08:25:28 :: JacksonCore-13-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingToggle in JacksonCore-13-fixed_ind2
+---- exit code: 0 | JacksonCore-13-fixed_ind2
+
+==== 2026-04-21 08:25:32 :: JacksonCore-14-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.io.TestIOContext::testReleaseWithEqualSizedBuffer in JacksonCore-14-fixed_ind1
+---- exit code: 0 | JacksonCore-14-fixed_ind1
+
+==== 2026-04-21 08:25:35 :: JacksonCore-14-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.io.TestIOContext::testReleaseWithLargerBuffer in JacksonCore-14-fixed_ind2
+---- exit code: 0 | JacksonCore-14-fixed_ind2
+
+==== 2026-04-21 08:25:38 :: JacksonCore-15-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatchesWithArray in JacksonCore-15-fixed_ind1
+---- exit code: 0 | JacksonCore-15-fixed_ind1
+
+==== 2026-04-21 08:25:41 :: JacksonCore-15-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatchesNestedObject in JacksonCore-15-fixed_ind2
+---- exit code: 0 | JacksonCore-15-fixed_ind2
+
+==== 2026-04-21 08:25:44 :: JacksonCore-15-fixed_ind3 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatchesFieldAfterObject in JacksonCore-15-fixed_ind3
+---- exit code: 0 | JacksonCore-15-fixed_ind3
+
+==== 2026-04-21 08:25:47 :: JacksonCore-16-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.ParserSequenceTest::testUninitializedParsers in JacksonCore-16-fixed_ind1
+---- exit code: 0 | JacksonCore-16-fixed_ind1
+
+==== 2026-04-21 08:25:50 :: JacksonCore-16-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.ParserSequenceTest::testPartiallyConsumedParsers in JacksonCore-16-fixed_ind2
+---- exit code: 0 | JacksonCore-16-fixed_ind2
+
+==== 2026-04-21 08:25:53 :: JacksonCore-16-fixed_ind3 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.ParserSequenceTest::testEmptyFirstParser in JacksonCore-16-fixed_ind3
+---- exit code: 0 | JacksonCore-16-fixed_ind3
+
+==== 2026-04-21 08:25:56 :: JacksonCore-17-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithSurrogatesAtBufferBoundary in JacksonCore-17-fixed_ind1
+---- exit code: 0 | JacksonCore-17-fixed_ind1
+
+==== 2026-04-21 08:25:59 :: JacksonCore-17-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithMultipleSurrogatePairs in JacksonCore-17-fixed_ind2
+---- exit code: 0 | JacksonCore-17-fixed_ind2
+
+==== 2026-04-21 08:26:02 :: JacksonCore-17-fixed_ind3 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithLongStringAndSurrogates in JacksonCore-17-fixed_ind3
+---- exit code: 0 | JacksonCore-17-fixed_ind3
+
+==== 2026-04-21 08:26:05 :: JacksonCore-18-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testBigDecimalWithinBounds in JacksonCore-18-fixed_ind1
+---- exit code: 0 | JacksonCore-18-fixed_ind1
+
+==== 2026-04-21 08:26:08 :: JacksonCore-18-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testBigDecimalWithoutPlainFeature in JacksonCore-18-fixed_ind2
+---- exit code: 0 | JacksonCore-18-fixed_ind2
+
+==== 2026-04-21 08:26:11 :: JacksonCore-19-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestNumericValues::testLongerFloatingPointWithExponent in JacksonCore-19-fixed_ind1
+---- exit code: 0 | JacksonCore-19-fixed_ind1
+
+==== 2026-04-21 08:26:14 :: JacksonCore-19-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestNumericValues::testLongerNegativeFloatingPoint in JacksonCore-19-fixed_ind2
+---- exit code: 0 | JacksonCore-19-fixed_ind2
+
+==== 2026-04-21 08:26:18 :: JacksonCore-20-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.base64.Base64GenerationTest::testBinaryAsEmbeddedObjectEmpty in JacksonCore-20-fixed_ind1
+---- exit code: 0 | JacksonCore-20-fixed_ind1
+
+==== 2026-04-21 08:26:21 :: JacksonCore-20-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.main.TestGeneratorMisc::testAsEmbeddedInArray in JacksonCore-20-fixed_ind2
+---- exit code: 0 | JacksonCore-20-fixed_ind2
+
+==== 2026-04-21 08:26:24 :: JacksonCore-21-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testNestedStructEndAfterMatch in JacksonCore-21-fixed_ind1
+---- exit code: 0 | JacksonCore-21-fixed_ind1
+
+==== 2026-04-21 08:26:27 :: JacksonCore-21-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testMultipleEndObjectsAfterSingleMatch in JacksonCore-21-fixed_ind2
+---- exit code: 0 | JacksonCore-21-fixed_ind2
+
+==== 2026-04-21 08:26:30 :: JacksonCore-22-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNestedObjectFilteringWithPathAndMultipleMatches in JacksonCore-22-fixed_ind1
+---- exit code: 1 | JacksonCore-22-fixed_ind1
+
+==== 2026-04-21 08:26:32 :: JacksonCore-22-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNestedArrayFilteringWithPathAndMultipleMatches in JacksonCore-22-fixed_ind2
+---- exit code: 0 | JacksonCore-22-fixed_ind2
+
+==== 2026-04-21 08:26:35 :: JacksonCore-23-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter::testValidSubClassOverridesCreateInstance in JacksonCore-23-fixed_ind1
+---- exit code: 0 | JacksonCore-23-fixed_ind1
+
+==== 2026-04-21 08:26:39 :: JacksonCore-23-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter::testDirectDefaultPrettyPrinterCreateInstance in JacksonCore-23-fixed_ind2
+---- exit code: 0 | JacksonCore-23-fixed_ind2
+
+==== 2026-04-21 08:26:42 :: JacksonCore-24-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testIntBoundaryValues in JacksonCore-24-fixed_ind1
+---- exit code: 0 | JacksonCore-24-fixed_ind1
+
+==== 2026-04-21 08:26:45 :: JacksonCore-24-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.read.NumberCoercionTest::testLongBoundaryValues in JacksonCore-24-fixed_ind2
+---- exit code: 0 | JacksonCore-24-fixed_ind2
+
+==== 2026-04-21 08:26:49 :: JacksonCore-25-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510ExactMaxCode in JacksonCore-25-fixed_ind1
+---- exit code: 1 | JacksonCore-25-fixed_ind1
+
+==== 2026-04-21 08:26:51 :: JacksonCore-25-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510BelowMaxCode in JacksonCore-25-fixed_ind2
+---- exit code: 1 | JacksonCore-25-fixed_ind2
+
+==== 2026-04-21 08:26:54 :: JacksonCore-26-fixed_ind1 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsetsWithEmptyFirstChunk in JacksonCore-26-fixed_ind1
+---- exit code: 0 | JacksonCore-26-fixed_ind1
+
+==== 2026-04-21 08:26:57 :: JacksonCore-26-fixed_ind2 ====
+>>> defects4j test -t com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsetsMultipleFeedsLineNumber in JacksonCore-26-fixed_ind2
+---- exit code: 0 | JacksonCore-26-fixed_ind2
+
+
+=== Combined Test Run Summary ===
+  JacksonCore/JacksonCore-1-fixed                                -> FAIL(1)
+  JacksonCore/JacksonCore-10-fixed                               -> OK
+  JacksonCore/JacksonCore-11-fixed                               -> FAIL(1)
+  JacksonCore/JacksonCore-12-fixed                               -> OK
+  JacksonCore/JacksonCore-13-fixed                               -> OK
+  JacksonCore/JacksonCore-14-fixed                               -> OK
+  JacksonCore/JacksonCore-15-fixed                               -> OK
+  JacksonCore/JacksonCore-16-fixed                               -> OK
+  JacksonCore/JacksonCore-17-fixed                               -> OK
+  JacksonCore/JacksonCore-18-fixed                               -> OK
+  JacksonCore/JacksonCore-19-fixed                               -> OK
+  JacksonCore/JacksonCore-2-fixed                                -> FAIL(1)
+  JacksonCore/JacksonCore-20-fixed                               -> OK
+  JacksonCore/JacksonCore-21-fixed                               -> OK
+  JacksonCore/JacksonCore-22-fixed                               -> FAIL(1)
+  JacksonCore/JacksonCore-23-fixed                               -> OK
+  JacksonCore/JacksonCore-24-fixed                               -> OK
+  JacksonCore/JacksonCore-25-fixed                               -> FAIL(1)
+  JacksonCore/JacksonCore-26-fixed                               -> OK
+  JacksonCore/JacksonCore-3-fixed                                -> OK
+  JacksonCore/JacksonCore-4-fixed                                -> OK
+  JacksonCore/JacksonCore-5-fixed                                -> OK
+  JacksonCore/JacksonCore-6-fixed                                -> OK
+  JacksonCore/JacksonCore-7-fixed                                -> FAIL(1)
+  JacksonCore/JacksonCore-8-fixed                                -> FAIL(1)
+  JacksonCore/JacksonCore-9-fixed                                -> OK
+Combined total: 26 | failed: 7 | timed out: 0
+
+=== Individual Test Run Summary ===
+  JacksonCore/JacksonCore-1-fixed_ind1                           -> FAIL(1)
+  JacksonCore/JacksonCore-1-fixed_ind2                           -> FAIL(1)
+  JacksonCore/JacksonCore-1-fixed_ind3                           -> FAIL(1)
+  JacksonCore/JacksonCore-10-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-10-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-12-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-12-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-13-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-13-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-14-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-14-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-15-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-15-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-15-fixed_ind3                          -> OK
+  JacksonCore/JacksonCore-16-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-16-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-16-fixed_ind3                          -> OK
+  JacksonCore/JacksonCore-17-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-17-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-17-fixed_ind3                          -> OK
+  JacksonCore/JacksonCore-18-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-18-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-19-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-19-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-2-fixed_ind1                           -> FAIL(1)
+  JacksonCore/JacksonCore-2-fixed_ind2                           -> FAIL(1)
+  JacksonCore/JacksonCore-2-fixed_ind3                           -> FAIL(1)
+  JacksonCore/JacksonCore-20-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-20-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-21-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-21-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-22-fixed_ind1                          -> FAIL(1)
+  JacksonCore/JacksonCore-22-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-23-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-23-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-24-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-24-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-25-fixed_ind1                          -> FAIL(1)
+  JacksonCore/JacksonCore-25-fixed_ind2                          -> FAIL(1)
+  JacksonCore/JacksonCore-26-fixed_ind1                          -> OK
+  JacksonCore/JacksonCore-26-fixed_ind2                          -> OK
+  JacksonCore/JacksonCore-3-fixed_ind1                           -> OK
+  JacksonCore/JacksonCore-3-fixed_ind2                           -> OK
+  JacksonCore/JacksonCore-4-fixed_ind1                           -> OK
+  JacksonCore/JacksonCore-4-fixed_ind2                           -> OK
+  JacksonCore/JacksonCore-5-fixed_ind1                           -> OK
+  JacksonCore/JacksonCore-5-fixed_ind2                           -> OK
+  JacksonCore/JacksonCore-6-fixed_ind1                           -> OK
+  JacksonCore/JacksonCore-6-fixed_ind2                           -> OK
+  JacksonCore/JacksonCore-7-fixed_ind1                           -> FAIL(1)
+  JacksonCore/JacksonCore-7-fixed_ind2                           -> FAIL(1)
+  JacksonCore/JacksonCore-8-fixed_ind1                           -> FAIL(1)
+  JacksonCore/JacksonCore-8-fixed_ind2                           -> FAIL(1)
+  JacksonCore/JacksonCore-8-fixed_ind3                           -> OK
+  JacksonCore/JacksonCore-9-fixed_ind1                           -> OK
+  JacksonCore/JacksonCore-9-fixed_ind2                           -> OK
+Individual total: 56 | failed: 13
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [JacksonCore] 57 | pass=41 not_pass=0 not_compilable=16 -> JacksonCore.csv
+
+[DONE combined] total=57 pass=41 not_pass=0 not_compilable=16
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

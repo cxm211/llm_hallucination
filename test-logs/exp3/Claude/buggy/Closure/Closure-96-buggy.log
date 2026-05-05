@@ -1,0 +1,13 @@
+==== 2026-03-27 03:17:43 :: Closure-96-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16_additional1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16_additional2
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16_additional3
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16
+---- exit code: 0 | Closure-96-buggy
+

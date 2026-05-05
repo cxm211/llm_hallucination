@@ -1,0 +1,12 @@
+==== 2026-04-21 19:35:19 :: Cli-28-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlagsWithZeroFlag
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlagsWithEmptyFlag
+---- exit code: 0 | Cli-28-buggy
+

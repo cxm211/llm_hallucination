@@ -1,0 +1,12 @@
+==== 2026-03-30 06:37:53 :: Math-43-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testSetterInjection
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testSetterInjection
+---- exit code: 0 | test_result: Not Pass | Math-43-buggy
+

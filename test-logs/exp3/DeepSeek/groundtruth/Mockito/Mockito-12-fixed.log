@@ -1,0 +1,10 @@
+==== 2026-04-25 19:08:34 :: Mockito-12-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithGenericArray
+---- exit code: 0 | Mockito-12-fixed
+

@@ -1,0 +1,12 @@
+==== 2026-03-28 15:12:38 :: JacksonCore-13-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingToggle
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingEnabled
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingDisabled
+---- exit code: 0 | JacksonCore-13-buggy
+

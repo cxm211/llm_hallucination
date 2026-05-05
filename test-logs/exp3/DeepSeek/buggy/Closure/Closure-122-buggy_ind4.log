@@ -1,0 +1,13 @@
+==== 2026-04-22 02:31:56 :: Closure-122-buggy_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3
+  - com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4
+  - com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5
+  - com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning9
+---- exit code: 0 | Closure-122-buggy_ind4
+

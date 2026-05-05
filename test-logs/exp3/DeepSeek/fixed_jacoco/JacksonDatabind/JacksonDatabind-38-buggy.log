@@ -1,0 +1,108 @@
+==== 2026-04-23 22:37:42 :: JacksonDatabind-38-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/interop/DeprecatedTypeHandling1102Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/maven-build.xml:89: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 390 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:188: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ctor.isAccessible()) {
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:257: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!m.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java:53: error: cannot find symbol
+    [javac]             if (Collection.class.isAssignableFrom(superClass)) {
+    [javac]                 ^
+    [javac]   symbol:   class Collection
+    [javac]   location: class CollectionType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java:55: error: cannot find symbol
+    [javac]             } else if (Map.class.isAssignableFrom(superClass)) {
+    [javac]                        ^
+    [javac]   symbol:   class Map
+    [javac]   location: class CollectionType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java:72: error: cannot find symbol
+    [javac]                 if (Collection.class.isAssignableFrom(iface)) {
+    [javac]                     ^
+    [javac]   symbol:   class Collection
+    [javac]   location: class CollectionType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/CollectionType.java:74: error: cannot find symbol
+    [javac]                 } else if (Map.class.isAssignableFrom(iface)) {
+    [javac]                            ^
+    [javac]   symbol:   class Map
+    [javac]   location: class CollectionType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/MapType.java:48: error: cannot find symbol
+    [javac]             if (Map.class.isAssignableFrom(superClass)) {
+    [javac]                 ^
+    [javac]   symbol:   class Map
+    [javac]   location: class MapType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/MapType.java:50: error: cannot find symbol
+    [javac]             } else if (Collection.class.isAssignableFrom(superClass)) {
+    [javac]                        ^
+    [javac]   symbol:   class Collection
+    [javac]   location: class MapType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/MapType.java:67: error: cannot find symbol
+    [javac]                 if (Map.class.isAssignableFrom(iface)) {
+    [javac]                     ^
+    [javac]   symbol:   class Map
+    [javac]   location: class MapType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/type/MapType.java:69: error: cannot find symbol
+    [javac]                 } else if (Collection.class.isAssignableFrom(iface)) {
+    [javac]                            ^
+    [javac]   symbol:   class Collection
+    [javac]   location: class MapType
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java:166: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!f.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java:767: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ao.isAccessible()) {
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/DateDeserializers.java:225: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 Calendar c = _calendarClass.newInstance();            
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java:461: warning: [deprecation] Double(String) in Double has been deprecated
+    [javac]                         return new Double(text);
+    [javac]                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/ext/OptionalHandlerFactory.java:152: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             return Class.forName(className).newInstance();
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/JacksonAnnotationIntrospector.java:64: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             x = Java7Support.class.newInstance();
+    [javac]                                   ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.java:89: warning: [deprecation] forcedNarrowBy(Class<?>) in JavaType has been deprecated
+    [javac]             _defaultImpl = baseType.forcedNarrowBy(defaultImpl);
+    [javac]                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java:313: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     return serClass.newInstance();
+    [javac]                                    ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 8 errors
+    [javac] 10 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/maven-build.xml:89: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | test_result: Not Compilable | JacksonDatabind-38-buggy
+

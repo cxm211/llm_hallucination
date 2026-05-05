@@ -1,0 +1,22 @@
+==== 2026-03-29 18:31:23 :: Lang-57-buggy ====
+[RESTORE] restored src/test/org/apache/commons/lang/LocaleUtilsTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang/LocaleUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet
+  - org.apache.commons.lang.LocaleUtilsTest::testIsAvailableLocale
+  - org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList
+  - org.apache.commons.lang.LocaleUtilsTest::testCountriesByLanguage
+  - org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale
+  - org.apache.commons.lang.LocaleUtilsTest::testLanguagesByCountry
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part
+  - org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part
+  - org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale
+  - org.apache.commons.lang.LocaleUtilsTest::testConstructor
+---- exit code: 0 | test_result: Not Pass | Lang-57-buggy
+

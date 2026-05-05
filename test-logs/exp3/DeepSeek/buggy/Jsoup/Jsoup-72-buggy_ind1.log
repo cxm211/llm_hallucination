@@ -1,0 +1,11 @@
+==== 2026-04-24 04:47:24 :: Jsoup-72-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd
+  - org.jsoup.parser.HtmlParserTest::commentAtEnd
+---- exit code: 0 | Jsoup-72-buggy_ind1
+

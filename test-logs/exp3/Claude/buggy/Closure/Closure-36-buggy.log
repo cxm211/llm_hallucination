@@ -1,0 +1,12 @@
+==== 2026-03-27 02:53:45 :: Closure-36-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.IntegrationTest::testSingletonGetterInlineFunction
+  - com.google.javascript.jscomp.IntegrationTest::testSingletonGetterNonCallContext
+  - com.google.javascript.jscomp.IntegrationTest::testSingletonGetter1
+---- exit code: 0 | Closure-36-buggy
+

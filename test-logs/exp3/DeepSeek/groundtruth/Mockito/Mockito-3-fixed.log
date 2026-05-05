@@ -1,0 +1,12 @@
+==== 2026-04-25 18:55:55 :: Mockito-3-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_pure_varargs_with_multiple_matchers
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_vararg_elements_according_to_matcher_count
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_nothing_when_vararg_is_null_or_empty
+---- exit code: 0 | Mockito-3-fixed
+

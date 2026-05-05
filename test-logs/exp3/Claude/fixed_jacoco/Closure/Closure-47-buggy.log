@@ -1,0 +1,34 @@
+==== 2026-03-27 17:30:01 :: Closure-47-buggy ====
+[RESTORE] restored test/com/google/debugging/sourcemap/SourceMapGeneratorV3Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 24
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput3
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput4
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testMultilineMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testMultiFunctionMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testBasicMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testLiteralMappings
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput3
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput4
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput5
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testMultilineMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testMultiFunctionMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testLiteralMappingsGoldenOutput
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testBasicMappingGoldenOutput
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testBasicMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testLiteralMappings
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput3
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput4
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput5
+---- exit code: 0 | test_result: Not Pass | Closure-47-buggy
+

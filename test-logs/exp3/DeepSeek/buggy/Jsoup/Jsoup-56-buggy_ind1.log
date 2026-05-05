@@ -1,0 +1,10 @@
+==== 2026-04-24 04:44:37 :: Jsoup-56-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTypeTest::testRoundTrip
+---- exit code: 0 | Jsoup-56-buggy_ind1
+

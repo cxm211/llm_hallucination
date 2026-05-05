@@ -1,0 +1,11 @@
+==== 2026-04-24 14:51:48 :: Time-8-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int
+  - org.joda.time.TestDateTimeZone::testForOffsetHoursMinutesAdditional
+---- exit code: 0 | Time-8-buggy
+

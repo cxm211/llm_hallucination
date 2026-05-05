@@ -1,0 +1,12 @@
+==== 2026-03-27 03:39:31 :: Closure-162-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasDefinitionWithJsDocTypes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testForwardJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleAliasesWithJsDocReferences
+---- exit code: 0 | Closure-162-buggy
+

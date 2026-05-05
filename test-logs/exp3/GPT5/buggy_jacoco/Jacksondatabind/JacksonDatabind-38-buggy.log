@@ -1,0 +1,23 @@
+==== 2026-04-26 18:02:44 :: JacksonDatabind-38-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/jacoco.exec.
+[INFO] Analyzing 499 classes.
+[JACOCO] done.
+[PARSE] 49 line rows.

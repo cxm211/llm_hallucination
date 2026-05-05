@@ -1,0 +1,57 @@
+==== 2026-04-22 21:07:25 :: Closure-108-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testArrayJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocSubType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasInReturnType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocExtends
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocTypedef
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc2
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasInParamType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocEnum
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocImplements
+  - com.google.javascript.jscomp.ScopedAliasesTest::testForwardJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocParameter
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUnionJsDoc
+---- exit code: 0 | Closure-108-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testAliasInParamType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasInParamType
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testAliasInReturnType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasInReturnType
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-108-buggy/jacoco_base.exec.
+[INFO] Analyzing 1354 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-108-buggy/jacoco.exec.
+[INFO] Analyzing 1354 classes.
+>>> [JACOCO] done

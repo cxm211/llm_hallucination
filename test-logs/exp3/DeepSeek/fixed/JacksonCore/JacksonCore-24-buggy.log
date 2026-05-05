@@ -1,0 +1,77 @@
+==== 2026-04-25 23:27:16 :: JacksonCore-24-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToLongFailing
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToIntFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToLongFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailingBigDecimal
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousLongOverflow
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testSimpleLongOverflow
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousIntOverflow
+  - com.fasterxml.jackson.core.read.NumberParsingTest::testSimpleLong
+---- exit code: 0 | JacksonCore-24-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 8, add tests: 1, total: 9
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToLongFailing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToLongFailing
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToIntFailing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToIntFailing
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberCoercionTest::testToLongFailing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToLongFailing
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailing
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousLongOverflow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousLongOverflow
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberOverflowTest::testSimpleLongOverflow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testSimpleLongOverflow
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousIntOverflow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousIntOverflow
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberParsingTest::testSimpleLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberParsingTest::testSimpleLong
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailingBigDecimal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailingBigDecimal
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-24-buggy/jacoco_base.exec.
+[INFO] Analyzing 103 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-24-buggy/jacoco.exec.
+[INFO] Analyzing 103 classes.
+>>> [JACOCO] done

@@ -1,0 +1,11 @@
+==== 2026-03-27 17:43:01 :: Closure-75-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/PeepholeFoldConstantsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIEString
+---- exit code: 0 | test_result: Not Pass | Closure-75-buggy
+

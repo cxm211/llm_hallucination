@@ -1,0 +1,12 @@
+==== 2026-03-28 00:57:28 :: Csv-16-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/csv/CSVParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.csv.CSVParserTest::testIteratorSequenceBreaking
+  - org.apache.commons.csv.CSVParserTest::testIterator
+---- exit code: 0 | test_result: Not Pass | Csv-16-buggy
+

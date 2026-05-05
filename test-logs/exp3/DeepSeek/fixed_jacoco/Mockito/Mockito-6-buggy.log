@@ -1,0 +1,13 @@
+==== 2026-04-25 01:04:09 :: Mockito-6-buggy ====
+[RESTORE] restored test/org/mockitousage/matchers/AnyXMatchersAcceptNullsTest.java
+[RESTORE] restored test/org/mockitousage/matchers/MatchersTest.java
+[RESTORE] restored test/org/mockitousage/matchers/NewMatchersTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.MatchersTest::anyMatcher
+---- exit code: 0 | test_result: Not Pass | Mockito-6-buggy
+

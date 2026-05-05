@@ -1,0 +1,13 @@
+==== 2026-04-26 18:13:08 :: JacksonDatabind-107-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-107-buggy/jacoco.exec.
+[INFO] Analyzing 547 classes.
+[JACOCO] done.
+[PARSE] 54 line rows.

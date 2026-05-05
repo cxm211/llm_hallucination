@@ -1,0 +1,11 @@
+==== 2026-04-22 01:25:36 :: Closure-40-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.IntegrationTest::testIssue284
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+---- exit code: 0 | Closure-40-buggy_ind2
+

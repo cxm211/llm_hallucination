@@ -1,0 +1,13 @@
+==== 2026-04-28 23:21:29 :: Math-40-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolverTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testFasterThanNewton
+  - org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testQuinticZero
+  - org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testSinZero
+---- exit code: 0 | test_result: Not Pass | Math-40-buggy
+

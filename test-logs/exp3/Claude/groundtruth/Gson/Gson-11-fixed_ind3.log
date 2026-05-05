@@ -1,0 +1,9 @@
+==== 2026-04-21 08:18:27 :: Gson-11-fixed_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithScientificNotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Gson-11-fixed_ind3
+

@@ -1,0 +1,10 @@
+==== 2026-04-28 19:11:17 :: Mockito-1-buggy ====
+[RESTORE] restored test/org/mockito/internal/invocation/InvocationMatcherTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Mockito-1-buggy
+

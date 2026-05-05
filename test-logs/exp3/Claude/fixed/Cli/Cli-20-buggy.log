@@ -1,0 +1,43 @@
+==== 2026-03-27 00:56:20 :: Cli-20-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.PosixParserTest::testStop3
+  - org.apache.commons.cli.PosixParserTest::testStopWithKnownLongOptionWithEquals
+---- exit code: 0 | Cli-20-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 3, total: 4
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testStop3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStop3
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testStopWithUnknownLongOptionNoEquals
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testStopWithKnownLongOptionWithEquals
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopWithKnownLongOptionWithEquals
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testStopWithMixedKnownUnknown
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-20-buggy/jacoco_base.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-20-buggy/jacoco.exec.
+[INFO] Analyzing 20 classes.
+>>> [JACOCO] done

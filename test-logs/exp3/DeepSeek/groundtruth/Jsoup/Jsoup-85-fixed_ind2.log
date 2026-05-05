@@ -1,0 +1,10 @@
+==== 2026-04-24 07:26:32 :: Jsoup-85-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t Jsoup.85.input::validatesKeysNotEmptyWithParent
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - Jsoup.85.input
+---- exit code: 0 | Jsoup-85-fixed_ind2
+

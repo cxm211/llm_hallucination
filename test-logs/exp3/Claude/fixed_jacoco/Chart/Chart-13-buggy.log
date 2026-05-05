@@ -1,0 +1,11 @@
+==== 2026-04-22 18:25:46 :: Chart-13-buggy ====
+[RESTORE] restored tests/org/jfree/chart/block/junit/BorderArrangementTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint
+---- exit code: 0 | test_result: Not Pass | Chart-13-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 10:40:56 :: Jsoup-53-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::attributeWithUnbalancedBracketsThrows
+---- exit code: 0 | Jsoup-53-fixed
+

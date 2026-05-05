@@ -1,0 +1,10 @@
+==== 2026-04-21 10:57:36 :: JxPath-8-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanWithNonZeroValues
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNanWithNonZeroValues
+---- exit code: 0 | JxPath-8-fixed_ind1
+

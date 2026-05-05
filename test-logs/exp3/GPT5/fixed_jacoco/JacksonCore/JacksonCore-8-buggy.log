@@ -1,0 +1,10 @@
+==== 2026-04-29 02:35:43 :: JacksonCore-8-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/util/TestTextBuffer.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | JacksonCore-8-buggy
+

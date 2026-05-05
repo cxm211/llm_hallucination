@@ -1,0 +1,10 @@
+==== 2026-03-29 16:02:45 :: Lang-40-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_LocaleIndependence
+---- exit code: 0 | Lang-40-buggy_ind1
+

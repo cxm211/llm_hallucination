@@ -1,0 +1,11 @@
+==== 2026-04-26 21:51:48 :: JacksonDatabind-15-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestJdkTypes::testInetAddress
+---- exit code: 0 | JacksonDatabind-15-fixed
+

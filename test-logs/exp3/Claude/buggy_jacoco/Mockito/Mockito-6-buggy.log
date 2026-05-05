@@ -1,0 +1,66 @@
+==== 2026-03-30 05:14:19 :: Mockito-6-buggy ====
+[JACOCO] trigger=7 add=5 total=12
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+[JACOCO] defects4j test -t org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyXMatchers
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyXMatchers
+[JACOCO] defects4j test -t org.mockitousage.matchers.MatchersTest::anyStringMatcher
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.MatchersTest::anyStringMatcher
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollection
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollection
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyList
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyList
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMap
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySet
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySet
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-buggy/jacoco_base.exec.
+[INFO] Analyzing 309 classes.
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyPrimitiveWrapperMatchersWithVerify
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyListOfWithNullValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyListOfWithNullValue
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySetOfWithNullValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySetOfWithNullValue
+[JACOCO] defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMapOfWithNullValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMapOfWithNullValue
+[JACOCO] FAILED: JaCoCo stage timeout (> 600s)
+[NOT_COMPILABLE] writing 60 rows.

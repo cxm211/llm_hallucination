@@ -1,0 +1,13 @@
+==== 2026-04-22 01:25:52 :: Closure-41-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference6
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue368
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference6
+  - com.google.javascript.jscomp.TypeCheckTest::testOverrideFewerParameters
+---- exit code: 0 | Closure-41-buggy_ind1
+

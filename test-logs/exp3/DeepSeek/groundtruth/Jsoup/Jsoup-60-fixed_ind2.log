@@ -1,0 +1,10 @@
+==== 2026-04-24 07:24:42 :: Jsoup-60-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t Jsoup.60.QueryParserTest::parsesAttributeWithEscapedQuote
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - Jsoup.60.QueryParserTest
+---- exit code: 0 | Jsoup-60-fixed_ind2
+

@@ -1,0 +1,52 @@
+==== 2026-04-28 04:26:11 :: Time-25-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_NewYork
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_Berlin
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourForward_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusHour_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_MutableDateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDayMidGap_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourAcross_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_newValid_Gaza
+---- exit code: 0 | Time-25-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 0, total: 3
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-buggy/jacoco.exec.
+[INFO] Analyzing 202 classes.
+>>> [JACOCO] done

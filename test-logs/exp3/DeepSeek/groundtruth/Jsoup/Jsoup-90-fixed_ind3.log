@@ -1,0 +1,10 @@
+==== 2026-04-24 07:27:03 :: Jsoup-90-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.helper.HttpConnectionTest::testLooksLikeUtf8InvalidContinuation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.HttpConnectionTest::testLooksLikeUtf8InvalidContinuation
+---- exit code: 0 | Jsoup-90-fixed_ind3
+

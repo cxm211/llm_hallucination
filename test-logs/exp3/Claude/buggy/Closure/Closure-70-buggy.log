@@ -1,0 +1,14 @@
+==== 2026-03-27 03:09:48 :: Closure-70-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping12
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13
+---- exit code: 0 | Closure-70-buggy
+

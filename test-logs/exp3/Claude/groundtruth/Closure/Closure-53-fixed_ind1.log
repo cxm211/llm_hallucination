@@ -1,0 +1,10 @@
+==== 2026-04-21 07:09:14 :: Closure-53-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.InlineObjectLiteralsTest::testEmptyObjectLiteralWithSingleProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testEmptyObjectLiteralWithSingleProperty
+---- exit code: 0 | Closure-53-fixed_ind1
+

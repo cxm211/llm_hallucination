@@ -1,0 +1,10 @@
+==== 2026-04-28 15:51:04 :: Mockito-7-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest::discoverDeepMockingOfGenerics
+---- exit code: 0 | Mockito-7-buggy
+

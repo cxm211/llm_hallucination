@@ -1,0 +1,9 @@
+==== 2026-04-24 01:38:33 :: JacksonDatabind-103-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.exc.BasicExceptionTest::testLocationAdditionForEnumKey2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | JacksonDatabind-103-fixed_ind2
+

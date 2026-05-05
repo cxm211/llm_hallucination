@@ -1,0 +1,11 @@
+==== 2026-04-24 14:55:25 :: Time-15-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntWithVal2MinusOne
+  - org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt
+---- exit code: 0 | Time-15-buggy
+

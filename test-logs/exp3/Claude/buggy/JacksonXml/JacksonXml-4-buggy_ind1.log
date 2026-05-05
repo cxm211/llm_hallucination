@@ -1,0 +1,11 @@
+==== 2026-03-28 17:49:43 :: JacksonXml-4-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testDynamicRootNameWithNullOnly
+  - com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testDynamicRootName
+---- exit code: 0 | JacksonXml-4-buggy_ind1
+

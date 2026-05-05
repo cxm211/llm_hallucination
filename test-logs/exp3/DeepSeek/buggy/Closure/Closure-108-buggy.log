@@ -1,0 +1,12 @@
+==== 2026-04-22 00:11:04 :: Closure-108-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasInReturnType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasInParamType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144
+---- exit code: 0 | Closure-108-buggy
+

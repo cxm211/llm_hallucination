@@ -1,0 +1,11 @@
+==== 2026-04-24 08:21:28 :: Math-91-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.fraction.FractionTest::testCompareToNegativeCloseFractions
+  - org.apache.commons.math.fraction.FractionTest::testCompareTo
+---- exit code: 0 | Math-91-buggy_ind2
+

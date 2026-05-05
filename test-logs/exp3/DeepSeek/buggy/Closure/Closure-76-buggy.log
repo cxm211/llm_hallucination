@@ -1,0 +1,14 @@
+==== 2026-04-22 00:02:34 :: Closure-76-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testHookBranchSkip
+---- exit code: 0 | Closure-76-buggy
+

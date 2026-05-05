@@ -1,0 +1,13 @@
+==== 2026-04-21 15:36:07 :: Cli-16-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_WithEmptyGroup
+---- exit code: 0 | Cli-16-fixed_ind2
+

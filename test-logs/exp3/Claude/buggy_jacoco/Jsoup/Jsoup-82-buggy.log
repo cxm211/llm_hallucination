@@ -1,0 +1,32 @@
+==== 2026-03-31 22:07:06 :: Jsoup-82-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-82-buggy/jacoco_base.exec.
+[INFO] Analyzing 238 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncodeWithHttpEquiv
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncodeWithHttpEquiv
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::keepEncodableCharset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::keepEncodableCharset
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-82-buggy/jacoco.exec.
+[INFO] Analyzing 238 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 81 line rows.
+[PARSE] 81 base line rows.

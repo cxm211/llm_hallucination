@@ -1,0 +1,12 @@
+==== 2026-04-24 04:38:12 :: Jsoup-74-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testNormalizesLeadingTrailingInvisibles
+  - org.jsoup.nodes.ElementTest::testNormalizesInvisiblesInText
+  - org.jsoup.nodes.ElementTest::testNormalizesInvisiblesWithWhitespace
+---- exit code: 0 | Jsoup-74-buggy
+

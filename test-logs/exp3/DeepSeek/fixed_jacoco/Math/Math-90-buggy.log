@@ -1,0 +1,11 @@
+==== 2026-04-24 12:56:24 :: Math-90-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/stat/FrequencyTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.FrequencyTest::testAdd
+---- exit code: 0 | test_result: Not Pass | Math-90-buggy
+

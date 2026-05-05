@@ -1,0 +1,129 @@
+==== 2026-04-27 02:23:42 :: Chart-26-buggy ====
+[JACOCO] trigger=22 add=1 total=23
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jfree.chart.junit.AreaChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.AreaChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.BarChart3DTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.BarChart3DTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.BarChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.BarChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo2
+[JACOCO] defects4j test -t org.jfree.chart.junit.LineChart3DTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.LineChart3DTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.LineChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.LineChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.StackedAreaChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.StackedAreaChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.StackedBarChart3DTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.StackedBarChart3DTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.StackedBarChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.StackedBarChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.junit.WaterfallChartTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.junit.WaterfallChartTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::test1654215
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::test1654215
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization3
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization4
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.IntervalBarRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.IntervalBarRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.LayeredBarRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.LayeredBarRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.LevelRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.LevelRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullInfo
+[JACOCO] defects4j test -t org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testDrawWithNullInfo
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testDrawWithNullInfo
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-buggy/jacoco_base.exec.
+[INFO] Analyzing 512 classes.
+[JACOCO] base snapshot saved (22 trigger tests)
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.CategoryPlotTests::testDrawWithNullInfoRightAxis
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testDrawWithNullInfoRightAxis
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-26-buggy/jacoco.exec.
+[INFO] Analyzing 512 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 109 line rows.
+[PARSE] 109 base line rows.

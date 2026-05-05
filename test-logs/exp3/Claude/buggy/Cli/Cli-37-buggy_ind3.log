@@ -1,0 +1,10 @@
+==== 2026-04-04 21:23:57 :: Cli-37-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI265Test::shouldParseShortOptionWithoutValue
+---- exit code: 0 | Cli-37-buggy_ind3
+

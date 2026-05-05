@@ -1,0 +1,47 @@
+==== 2026-03-29 17:31:50 :: Lang-8-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+---- exit code: 0 | Lang-8-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 2, total: 4
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithDST
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithoutDST
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-buggy/jacoco_base.exec.
+[INFO] Analyzing 155 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-buggy/jacoco.exec.
+[INFO] Analyzing 155 classes.
+>>> [JACOCO] done

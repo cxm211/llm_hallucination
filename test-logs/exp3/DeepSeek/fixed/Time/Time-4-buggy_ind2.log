@@ -1,0 +1,47 @@
+==== 2026-04-24 16:02:44 :: Time-4-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.joda.time.TestLocalDateTime_Basics::testCompareTo
+  - org.joda.time.TestLocalDate_Basics::testCompareTo
+  - org.joda.time.TestMonthDay_Basics::testCompareTo
+  - org.joda.time.TestPartial_Basics::testWith3
+  - org.joda.time.TestPartial_Basics::testWith5
+  - org.joda.time.TestPartial_Basics::testWith3f
+  - org.joda.time.TestPartial_Basics::testGetFormatter2
+  - org.joda.time.TestPeriod_Constructors::testConstructor_RP_RP7
+  - org.joda.time.TestPeriod_Constructors::testConstructor_RP_RP8
+  - org.joda.time.TestPeriod_Constructors::testConstructor_RP_RP_PeriodType7
+  - org.joda.time.TestPeriod_Constructors::testConstructor_RP_RP_PeriodType8
+  - org.joda.time.TestYearMonthDay_Basics::testCompareTo
+  - org.joda.time.TestYearMonth_Basics::testCompareTo
+  - org.joda.time.chrono.TestISOChronology::testPartialDayOfYearAdd
+---- exit code: 0 | Time-4-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.joda.time.TestPartial_Basics::testWith3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Basics::testWith3
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestPartial_Basics::testWith5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Basics::testWith5
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 208 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 208 classes.
+>>> [JACOCO] done

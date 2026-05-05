@@ -1,0 +1,133 @@
+==== 2026-03-29 17:52:40 :: Lang-9-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 96
+  - org.apache.commons.lang3.time.DateUtilsRoundingTest
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testFormatUTC
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testTimeISO
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testFormatCalendar
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testSMTP
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testDateTimeISO
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testTimeNoTISO
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testDateISO
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testFormat
+  - org.apache.commons.lang3.time.DateFormatUtilsTest::testConstructor
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testLang530
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+  - org.apache.commons.lang3.time.DurationFormatUtilsTest::testFormatPeriodISO
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_getInstance
+  - org.apache.commons.lang3.time.FastDateFormatTest::testParseSync
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_getInstance_String_TimeZone_Locale
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_changeDefault_Locale_DateInstance
+  - org.apache.commons.lang3.time.FastDateFormatTest::testTimeDateDefaults
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_getInstance_String
+  - org.apache.commons.lang3.time.FastDateFormatTest::testDateDefaults
+  - org.apache.commons.lang3.time.FastDateFormatTest::testCheckDefaults
+  - org.apache.commons.lang3.time.FastDateFormatTest::testCheckDifferingStyles
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_getInstance_String_TimeZone
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_getInstance_String_Locale
+  - org.apache.commons.lang3.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance
+  - org.apache.commons.lang3.time.FastDateFormatTest::testTimeDefaults
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testShortDateStyleWithLocales
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testMilleniumBug
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocaleMatches
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testDayOf
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testAmPm
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLowYearPadding
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_Long_AD
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_Long_BC
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testParseNumerics
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLang303
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLang538
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testToStringContainsName
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::test_Equality_Hash
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_ShortNoEra_AD
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_ShortNoEra_BC
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testParseLongShort
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_LongNoEra_AD
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_LongNoEra_BC
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_Short_AD
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLocales_Short_BC
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testEquals
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testQuotes
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testTimeZoneMatches
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testPatternMatches
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testSimpleDate
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testShortDateStyleWithLocales
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testMilleniumBug
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testLocaleMatches
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testLowYearPadding
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testLang303
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testLang538
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testLang645
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testToStringContainsName
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testEquals
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testFormat
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testTimeZoneMatches
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testPatternMatches
+  - org.apache.commons.lang3.time.FastDateParserTest::testShortDateStyleWithLocales
+  - org.apache.commons.lang3.time.FastDateParserTest::testMilleniumBug
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocaleMatches
+  - org.apache.commons.lang3.time.FastDateParserTest::testDayOf
+  - org.apache.commons.lang3.time.FastDateParserTest::testAmPm
+  - org.apache.commons.lang3.time.FastDateParserTest::testLowYearPadding
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_Long_AD
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_Long_BC
+  - org.apache.commons.lang3.time.FastDateParserTest::testParseNumerics
+  - org.apache.commons.lang3.time.FastDateParserTest::testLang303
+  - org.apache.commons.lang3.time.FastDateParserTest::testLang538
+  - org.apache.commons.lang3.time.FastDateParserTest::testToStringContainsName
+  - org.apache.commons.lang3.time.FastDateParserTest::testLANG_832
+  - org.apache.commons.lang3.time.FastDateParserTest::test_Equality_Hash
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_ShortNoEra_AD
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_ShortNoEra_BC
+  - org.apache.commons.lang3.time.FastDateParserTest::testParseLongShort
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_LongNoEra_AD
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_LongNoEra_BC
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_Short_AD
+  - org.apache.commons.lang3.time.FastDateParserTest::testLocales_Short_BC
+  - org.apache.commons.lang3.time.FastDateParserTest::testEquals
+  - org.apache.commons.lang3.time.FastDateParserTest::testQuotes
+  - org.apache.commons.lang3.time.FastDateParserTest::testTimeZoneMatches
+  - org.apache.commons.lang3.time.FastDateParserTest::testPatternMatches
+---- exit code: 0 | Lang-9-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testLANG_832
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDateParserTest::testLANG_832
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testUnterminatedQuoteMiddle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] done

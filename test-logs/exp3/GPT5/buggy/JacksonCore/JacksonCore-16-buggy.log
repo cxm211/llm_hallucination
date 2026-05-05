@@ -1,0 +1,11 @@
+==== 2026-04-29 02:23:34 :: JacksonCore-16-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.json.ParserSequenceTest::testSecondHasCurrentToken
+  - com.fasterxml.jackson.core.json.ParserSequenceTest::testInitialized
+---- exit code: 0 | JacksonCore-16-buggy
+

@@ -1,0 +1,197 @@
+==== 2026-04-22 06:34:02 :: Closure-169-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue791
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+rhino:
+
+properties:
+
+init:
+
+compile:
+
+compile-most:
+
+compile-jdk15:
+
+compile:
+
+properties:
+
+compile:
+
+xmlimplsrc-compile:
+     [echo] Calling /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+
+jar:
+
+rhino-jarjar:
+   [jarjar] Updating jar: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build.xml:256: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build.xml:262: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/classes/rhino_ast/java/com/google/javascript/rhino
+     [copy] Copying 1 file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/classes/com/google/javascript/jscomp/parsing
+[propertyfile] Updating property file: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/classes/com/google/javascript/jscomp/parsing/ParserConfig.properties
+     [copy] Copying 2 files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/classes/com/google/javascript/jscomp/js
+
+compile-tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build.xml:336: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 4 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build/test
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:184: error: cannot find symbol
+    [javac]     Node paramWithType = new Node(Token.NAME);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:184: error: cannot find symbol
+    [javac]     Node paramWithType = new Node(Token.NAME);
+    [javac]                              ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:184: error: cannot find symbol
+    [javac]     Node paramWithType = new Node(Token.NAME);
+    [javac]                                   ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:186: error: cannot find symbol
+    [javac]     Node paramListWithType = new Node(Token.PARAM_LIST, paramWithType);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:186: error: cannot find symbol
+    [javac]     Node paramListWithType = new Node(Token.PARAM_LIST, paramWithType);
+    [javac]                                  ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:186: error: cannot find symbol
+    [javac]     Node paramListWithType = new Node(Token.PARAM_LIST, paramWithType);
+    [javac]                                       ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:190: error: cannot find symbol
+    [javac]     Node paramWithoutType = new Node(Token.NAME);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:190: error: cannot find symbol
+    [javac]     Node paramWithoutType = new Node(Token.NAME);
+    [javac]                                 ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:190: error: cannot find symbol
+    [javac]     Node paramWithoutType = new Node(Token.NAME);
+    [javac]                                      ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:192: error: cannot find symbol
+    [javac]     Node paramListWithoutType = new Node(Token.PARAM_LIST, paramWithoutType);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:192: error: cannot find symbol
+    [javac]     Node paramListWithoutType = new Node(Token.PARAM_LIST, paramWithoutType);
+    [javac]                                     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:192: error: cannot find symbol
+    [javac]     Node paramListWithoutType = new Node(Token.PARAM_LIST, paramWithoutType);
+    [javac]                                          ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:198: error: cannot find symbol
+    [javac]     Node paramNull1 = new Node(Token.NAME);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:198: error: cannot find symbol
+    [javac]     Node paramNull1 = new Node(Token.NAME);
+    [javac]                           ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:198: error: cannot find symbol
+    [javac]     Node paramNull1 = new Node(Token.NAME);
+    [javac]                                ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:199: error: cannot find symbol
+    [javac]     Node paramNull2 = new Node(Token.NAME);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:199: error: cannot find symbol
+    [javac]     Node paramNull2 = new Node(Token.NAME);
+    [javac]                           ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:199: error: cannot find symbol
+    [javac]     Node paramNull2 = new Node(Token.NAME);
+    [javac]                                ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:200: error: cannot find symbol
+    [javac]     Node paramListNull1 = new Node(Token.PARAM_LIST, paramNull1);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:200: error: cannot find symbol
+    [javac]     Node paramListNull1 = new Node(Token.PARAM_LIST, paramNull1);
+    [javac]                               ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:200: error: cannot find symbol
+    [javac]     Node paramListNull1 = new Node(Token.PARAM_LIST, paramNull1);
+    [javac]                                    ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:201: error: cannot find symbol
+    [javac]     Node paramListNull2 = new Node(Token.PARAM_LIST, paramNull2);
+    [javac]     ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:201: error: cannot find symbol
+    [javac]     Node paramListNull2 = new Node(Token.PARAM_LIST, paramNull2);
+    [javac]                               ^
+    [javac]   symbol:   class Node
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:201: error: cannot find symbol
+    [javac]     Node paramListNull2 = new Node(Token.PARAM_LIST, paramNull2);
+    [javac]                                    ^
+    [javac]   symbol:   variable Token
+    [javac]   location: class RecordTypeTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:210: error: incompatible types: JSType cannot be converted to RecordType
+    [javac]         .build();
+    [javac]               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/test/com/google/javascript/rhino/jstype/RecordTypeTest.java:213: error: incompatible types: JSType cannot be converted to RecordType
+    [javac]         .build();
+    [javac]               ^
+    [javac] 26 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-169-buggy/build.xml:336: Compile failed; see the compiler error output for details.
+
+Total time: 3 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 335 rows.

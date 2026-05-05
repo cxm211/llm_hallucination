@@ -1,0 +1,11 @@
+==== 2026-04-28 21:20:20 :: Math-27-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.fraction.FractionTest::testMath835
+  - org.apache.commons.math3.fraction.FractionTest::testMath835Negative
+---- exit code: 0 | Math-27-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-03-27 20:16:02 :: Codec-5-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+[RESTORE] restored src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+[RESTORE] restored target/tests/org/apache/commons/codec/binary/Base64InputStreamTest.java
+[RESTORE] restored target/tests/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Codec-5-buggy
+

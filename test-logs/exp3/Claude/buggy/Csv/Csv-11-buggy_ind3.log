@@ -1,0 +1,11 @@
+==== 2026-03-28 00:39:16 :: Csv-11-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.csv.CSVParserTest::testHeaderMixedEmptyNonEmpty
+  - org.apache.commons.csv.CSVParserTest::testHeaderMissingWithNull
+---- exit code: 0 | Csv-11-buggy_ind3
+

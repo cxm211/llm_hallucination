@@ -1,0 +1,10 @@
+==== 2026-04-26 17:51:18 :: JacksonDatabind-107-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+---- exit code: 0 | JacksonDatabind-107-buggy
+

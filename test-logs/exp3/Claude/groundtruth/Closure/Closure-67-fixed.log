@@ -1,0 +1,12 @@
+==== 2026-04-21 06:09:43 :: Closure-67-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing8
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing9
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing10
+---- exit code: 0 | Closure-67-fixed
+

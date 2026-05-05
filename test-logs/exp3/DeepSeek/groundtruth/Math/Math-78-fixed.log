@@ -1,0 +1,11 @@
+==== 2026-04-24 14:05:39 :: Math-78-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.ode.events.EventStateTest::testEventAfterStepBackward
+  - org.apache.commons.math.ode.events.EventStateTest::testEventAfterStepForward
+---- exit code: 0 | Math-78-fixed
+

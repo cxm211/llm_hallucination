@@ -1,0 +1,45 @@
+==== 2026-03-28 14:52:51 :: Gson-7-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedLongKeys
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedIntegerKeys
+  - com.google.gson.stream.JsonReaderTest::testPeekingUnquotedStringsPrefixedWithIntegers
+---- exit code: 0 | Gson-7-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedLongKeys
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedLongKeys
+[JACOCO] defects4j test -t com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedIntegerKeys
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.MapTest::testMapDeserializationWithUnquotedIntegerKeys
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testPeekingUnquotedStringsPrefixedWithIntegers
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonReaderTest::testPeekingUnquotedStringsPrefixedWithIntegers
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testNextIntWithQuotedValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 158 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 158 classes.
+>>> [JACOCO] done

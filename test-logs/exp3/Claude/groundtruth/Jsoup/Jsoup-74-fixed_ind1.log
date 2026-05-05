@@ -1,0 +1,10 @@
+==== 2026-04-21 10:52:11 :: Jsoup-74-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.nodes.ElementTest::testNormalizesMultipleConsecutiveInvisibles
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testNormalizesMultipleConsecutiveInvisibles
+---- exit code: 0 | Jsoup-74-fixed_ind1
+

@@ -1,0 +1,23 @@
+==== 2026-04-21 11:06:52 :: Lang-10-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testEscapeRegexSpecialChars
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testEscapeRegexMultipleSpaces
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testEscapeRegexTrailingWhitespace
+  - org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexSpecialChars
+  - org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexMultipleSpaces
+  - org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexTrailingWhitespace
+---- exit code: 0 | Lang-10-fixed
+

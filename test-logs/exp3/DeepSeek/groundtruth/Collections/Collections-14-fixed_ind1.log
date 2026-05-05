@@ -1,0 +1,10 @@
+==== 2026-04-24 03:04:36 :: Collections-14-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.collections.map.TestCaseInsensitiveMap::testTurkishDotlessI
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestCaseInsensitiveMap::testTurkishDotlessI
+---- exit code: 0 | Collections-14-fixed_ind1
+

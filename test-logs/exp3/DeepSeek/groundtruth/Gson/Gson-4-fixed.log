@@ -1,0 +1,10 @@
+==== 2026-04-26 01:03:29 :: Gson-4-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonReaderTest::testEmptyArrayWithTrailingComma
+---- exit code: 0 | Gson-4-fixed
+

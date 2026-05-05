@@ -1,0 +1,10 @@
+==== 2026-04-21 15:51:44 :: Time-7-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_leapYear_march
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_leapYear_march
+---- exit code: 0 | Time-7-fixed_ind2
+

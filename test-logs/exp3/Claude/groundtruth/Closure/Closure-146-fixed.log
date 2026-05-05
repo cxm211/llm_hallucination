@@ -1,0 +1,11 @@
+==== 2026-04-21 06:35:08 :: Closure-146-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition_NullAndVoid
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition_NumberAndString
+---- exit code: 0 | Closure-146-fixed
+

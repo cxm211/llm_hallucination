@@ -1,0 +1,12 @@
+==== 2026-03-27 02:23:37 :: Closure-2-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtendsNonExistentInterfaces
+  - com.google.javascript.jscomp.TypeCheckTest::testMultipleNonExistentInterfacesInChain
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceExtendsNonExistentWithValidInterface
+---- exit code: 0 | Closure-2-buggy
+

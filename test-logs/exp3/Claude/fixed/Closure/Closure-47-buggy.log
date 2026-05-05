@@ -1,0 +1,121 @@
+==== 2026-03-27 10:50:07 :: Closure-47-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 25
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput3
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput4
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testMultilineMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testMultiFunctionMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testBasicMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testLiteralMappings
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput3
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput4
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput5
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testMultilineMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testMultiFunctionMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testLiteralMappingsGoldenOutput
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testBasicMappingGoldenOutput
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testBasicMapping
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testLiteralMappings
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput3
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput4
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput5
+  - com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testLineColumnAdjustment
+---- exit code: 0 | Closure-47-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 16, add tests: 2, total: 18
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testParseSourceMetaMap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput0a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testMultilineMapping
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testMultiFunctionMapping
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testLiteralMappingsGoldenOutput
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testMultilineMapping2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testBasicMappingGoldenOutput
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testSourceMapMerging
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testLiteralMappings
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testBasicMapping1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testBasicMapping2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput5
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (16 trigger tests)
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testMultilineEdgeCase
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testLineColumnAdjustment
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testLineColumnAdjustment
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-47-buggy/jacoco_base.exec.
+[INFO] Analyzing 1124 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-47-buggy/jacoco.exec.
+[INFO] Analyzing 1124 classes.
+>>> [JACOCO] done

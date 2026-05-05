@@ -1,0 +1,15 @@
+==== 2026-03-27 03:46:12 :: Closure-174-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUninitializedVarWithJSDocAndLaterAssignment
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleUninitializedVars
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUninitializedVarWithMultipleDeclarations
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+---- exit code: 0 | Closure-174-buggy
+

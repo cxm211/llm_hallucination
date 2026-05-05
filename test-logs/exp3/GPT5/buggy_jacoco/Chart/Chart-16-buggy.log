@@ -1,0 +1,59 @@
+==== 2026-04-27 02:21:19 :: Chart-16-buggy ====
+[JACOCO] trigger=8 add=1 total=9
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-buggy/jacoco_base.exec.
+[INFO] Analyzing 513 classes.
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys2
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-16-buggy/jacoco.exec.
+[INFO] Analyzing 513 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 89 line rows.
+[PARSE] 89 base line rows.

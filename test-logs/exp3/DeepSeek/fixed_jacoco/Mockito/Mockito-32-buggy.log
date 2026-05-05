@@ -1,0 +1,18 @@
+==== 2026-04-25 01:24:11 :: Mockito-32-buggy ====
+[RESTORE] restored target/eclipse-classes/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+[RESTORE] restored test/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.mockitousage.annotation.SpyAnnotationInitializedInBaseClassTest::shouldInitSpiesInBaseClass
+  - org.mockitousage.annotation.SpyAnnotationTest::shouldFailIfFieldIsNotInitialized
+  - org.mockitousage.annotation.SpyAnnotationTest::shouldProvideDecentExceptionWhenSpyInstanceIsNull
+  - org.mockitousage.annotation.SpyAnnotationTest::shouldInitSpies
+  - org.mockitousage.annotation.SpyAnnotationTest::shouldResetSpies
+  - org.mockitousage.annotation.SpyInjectionTest::shouldDoStuff
+  - org.mockitousage.bugs.SpyShouldHaveNiceNameTest::shouldPrintNiceName
+---- exit code: 0 | test_result: Not Pass | Mockito-32-buggy
+

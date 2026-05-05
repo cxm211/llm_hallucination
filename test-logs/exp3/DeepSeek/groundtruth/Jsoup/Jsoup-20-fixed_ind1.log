@@ -1,0 +1,10 @@
+==== 2026-04-24 07:21:37 :: Jsoup-20-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenCharsetNullNoMeta
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenCharsetNullNoMeta
+---- exit code: 0 | Jsoup-20-fixed_ind1
+

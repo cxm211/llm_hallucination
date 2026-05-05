@@ -1,0 +1,10 @@
+==== 2026-04-23 04:44:12 :: Closure-12-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testHasExceptionHandlerWithFinally
+---- exit code: 0 | Closure-12-fixed
+

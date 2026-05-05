@@ -1,0 +1,37 @@
+==== 2026-03-29 16:12:10 :: Lang-8-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-buggy/jacoco_base.exec.
+[INFO] Analyzing 155 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithDST
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithDST
+[JACOCO] defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithoutDST
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithoutDST
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-buggy/jacoco.exec.
+[INFO] Analyzing 155 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 16 line rows.
+[PARSE] 16 base line rows.

@@ -1,0 +1,12 @@
+==== 2026-04-24 02:31:11 :: Collections-27-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.collections4.map.MultiValueMapTest::testUnsafeDeSerialization
+  - org.apache.commons.collections4.map.MultiValueMapTest::testUnsafeDeSerializationWithStringBuilder
+  - org.apache.commons.collections4.map.MultiValueMapTest::testUnsafeDeSerializationWithInteger
+---- exit code: 0 | Collections-27-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 11:52:24 :: Math-29-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math3.linear.RealVectorAbstractTest::testEbeMultiplyZeroByInfinity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.linear.RealVectorAbstractTest
+---- exit code: 0 | Math-29-fixed_ind3
+

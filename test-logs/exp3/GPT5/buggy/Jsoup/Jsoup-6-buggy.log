@@ -1,0 +1,12 @@
+==== 2026-04-27 04:16:02 :: Jsoup-6-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.integration.ParseTest::testYahooArticle
+  - org.jsoup.nodes.EntitiesTest::quoteReplacements
+  - org.jsoup.nodes.EntitiesTest::unescapeOutOfRangeNumeric
+---- exit code: 0 | Jsoup-6-buggy
+

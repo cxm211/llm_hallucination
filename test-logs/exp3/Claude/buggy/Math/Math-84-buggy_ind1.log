@@ -1,0 +1,12 @@
+==== 2026-03-30 00:31:53 :: Math-84-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testConvergenceOnSinglePoint
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+  - org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283
+---- exit code: 0 | Math-84-buggy_ind1
+

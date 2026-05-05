@@ -1,0 +1,11 @@
+==== 2026-04-28 00:36:57 :: Cli-3-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testInvalidNumberPattern
+---- exit code: 0 | Cli-3-buggy
+

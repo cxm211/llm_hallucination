@@ -1,0 +1,11 @@
+==== 2026-04-24 12:25:15 :: Math-18-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math3/optimization/direct/CMAESOptimizerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testFitAccuracyDependsOnBoundary
+---- exit code: 0 | test_result: Not Pass | Math-18-buggy
+

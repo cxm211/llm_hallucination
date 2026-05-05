@@ -1,0 +1,13 @@
+==== 2026-03-27 01:28:26 :: Cli-24-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/bug/BugCLI162Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.HelpFormatterTest::testPrintWrapped
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunking
+---- exit code: 0 | test_result: Not Pass | Cli-24-buggy
+

@@ -1,0 +1,23 @@
+==== 2026-04-27 04:24:53 :: Jsoup-22-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.nodes.ElementTest::elementIsNotASiblingOfItself
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::elementIsNotASiblingOfItself
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::nodeIsNotASiblingOfItself
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.NodeTest::nodeIsNotASiblingOfItself
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::orphanNodeReturnsNullForSiblingElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.NodeTest::orphanNodeReturnsNullForSiblingElements
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-22-buggy/jacoco.exec.
+[INFO] Analyzing 193 classes.
+[JACOCO] done.
+[PARSE] 42 line rows.

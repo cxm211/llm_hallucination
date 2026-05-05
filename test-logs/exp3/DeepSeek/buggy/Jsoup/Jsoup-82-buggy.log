@@ -1,0 +1,12 @@
+==== 2026-04-24 04:38:57 :: Jsoup-82-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::fallbackForXmlDeclarationUnencodableCharset
+  - org.jsoup.parser.HtmlParserTest::fallbackToUtfIfCantEncode
+  - org.jsoup.parser.HtmlParserTest::fallbackForExplicitUnencodableCharset
+---- exit code: 0 | Jsoup-82-buggy
+

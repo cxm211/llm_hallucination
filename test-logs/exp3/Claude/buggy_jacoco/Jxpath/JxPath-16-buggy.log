@@ -1,0 +1,42 @@
+==== 2026-03-29 14:54:55 :: JxPath-16-buggy ====
+[JACOCO] trigger=4 add=1 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisPreceding
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisPreceding
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-16-buggy/jacoco_base.exec.
+[INFO] Analyzing 161 classes.
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testProcessingInstructionTestNonPI
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLModelTestCase
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-16-buggy/jacoco.exec.
+[INFO] Analyzing 161 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 101 line rows.
+[PARSE] 101 base line rows.

@@ -1,0 +1,10 @@
+==== 2026-04-21 20:13:23 :: Mockito-30-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersOnSmartNullPointerExceptionMessageWithNoArguments
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersOnSmartNullPointerExceptionMessageWithNoArguments
+---- exit code: 0 | Mockito-30-fixed_ind1
+

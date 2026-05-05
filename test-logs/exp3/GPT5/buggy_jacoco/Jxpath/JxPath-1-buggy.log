@@ -1,0 +1,34 @@
+==== 2026-04-29 01:34:08 :: JxPath-1-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testGetNode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testGetNode
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testGetNode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testGetNode
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-1-buggy/jacoco_base.exec.
+[INFO] Analyzing 154 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNodeAxisOnAttributes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNodeAxisOnAttributes
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testNodeAxisOnAttributes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testNodeAxisOnAttributes
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-1-buggy/jacoco.exec.
+[INFO] Analyzing 154 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 102 line rows.
+[PARSE] 102 base line rows.

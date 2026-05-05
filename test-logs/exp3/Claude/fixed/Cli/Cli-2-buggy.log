@@ -1,0 +1,41 @@
+==== 2026-03-27 00:41:15 :: Cli-2-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.bug.BugCLI51Test::testStopAtNonOptionMultipleChars
+  - org.apache.commons.cli.bug.BugCLI51Test::test
+  - org.apache.commons.cli.bug.BugCLI51Test::testStopAtNonOptionSingleChar
+---- exit code: 0 | Cli-2-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t org.apache.commons.cli.bug.BugCLI51Test::test
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI51Test::test
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.bug.BugCLI51Test::testStopAtNonOptionMultipleChars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI51Test::testStopAtNonOptionMultipleChars
+[JACOCO] defects4j test -t org.apache.commons.cli.bug.BugCLI51Test::testStopAtNonOptionSingleChar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI51Test::testStopAtNonOptionSingleChar
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-2-buggy/jacoco_base.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-2-buggy/jacoco.exec.
+[INFO] Analyzing 20 classes.
+>>> [JACOCO] done

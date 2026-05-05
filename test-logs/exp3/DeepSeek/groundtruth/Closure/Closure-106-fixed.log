@@ -1,0 +1,11 @@
+==== 2026-04-23 05:28:27 :: Closure-106-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testNormalCommentSideEffect
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceNonFunction
+---- exit code: 0 | Closure-106-fixed
+

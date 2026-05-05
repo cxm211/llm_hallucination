@@ -1,0 +1,10 @@
+==== 2026-04-21 06:29:29 :: Closure-128-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue942_LeadingZero
+---- exit code: 0 | Closure-128-fixed
+

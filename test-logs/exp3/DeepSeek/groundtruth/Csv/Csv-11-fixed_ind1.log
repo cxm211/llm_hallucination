@@ -1,0 +1,10 @@
+==== 2026-04-26 01:52:09 :: Csv-11-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.csv.CSVParserTest::testIgnoreEmptyHeadersExplicit
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVParserTest::testIgnoreEmptyHeadersExplicit
+---- exit code: 0 | Csv-11-fixed_ind1
+

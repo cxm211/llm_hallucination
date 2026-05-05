@@ -1,0 +1,12 @@
+==== 2026-04-26 17:51:43 :: JacksonDatabind-108-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest::testNullFromEOFWithParserAndReader
+  - com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest::testNullFromEOFWithCharArrayParser
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-108-buggy
+

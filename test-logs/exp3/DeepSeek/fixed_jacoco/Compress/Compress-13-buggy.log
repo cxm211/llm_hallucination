@@ -1,0 +1,11 @@
+==== 2026-04-24 04:06:10 :: Compress-13-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/zip/ZipFileTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Compress-13-buggy
+

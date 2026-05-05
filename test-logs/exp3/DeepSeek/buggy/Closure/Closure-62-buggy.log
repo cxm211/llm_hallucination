@@ -1,0 +1,14 @@
+==== 2026-04-21 23:53:50 :: Closure-62-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLineWithSpaces
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLineZeroLineNumber
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLineEmpty
+---- exit code: 0 | Closure-62-buggy
+

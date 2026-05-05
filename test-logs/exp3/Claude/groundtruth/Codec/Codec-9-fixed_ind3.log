@@ -1,0 +1,185 @@
+==== 2026-04-21 07:50:42 :: Codec-9-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testCodec112_LargerInput
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target/classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target/tests
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target/test-reports
+
+static:
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/build.xml:56: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 36 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/java/org/apache/commons/codec/StringEncoderComparator.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 warnings
+     [copy] Copying 6 files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target/classes
+
+compile.tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 33 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/target/tests
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:20: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac] import junit.framework.Assert;
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/HexTest.java:28: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac] import junit.framework.Assert;
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:23: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac] import junit.framework.Assert;
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/Base64Test.java:1176: error: cannot find symbol
+    [javac] @Test
+    [javac]  ^
+    [javac]   symbol:   class Test
+    [javac]   location: class Base64Test
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:39: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals("ISO-8859-1", CharEncoding.ISO_8859_1);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:43: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals("US-ASCII", CharEncoding.US_ASCII);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:47: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals("UTF-16", CharEncoding.UTF_16);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:51: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals("UTF-16BE", CharEncoding.UTF_16BE);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:55: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals("UTF-16LE", CharEncoding.UTF_16LE);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/CharEncodingTest.java:59: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals("UTF-8", CharEncoding.UTF_8);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/StringEncoderAbstractTest.java:60: warning: [deprecation] Float(double) in Float has been deprecated
+    [javac]             encoder.encode( new Float( 3.4 ) );
+    [javac]                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/StringEncoderComparatorTest.java:42: warning: [deprecation] StringEncoderComparator() in StringEncoderComparator has been deprecated
+    [javac]         new StringEncoderComparator();
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/StringEncoderComparatorTest.java:76: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         int compare = sCompare.compare(new Double(3.0), new Long(3));
+    [javac]                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/StringEncoderComparatorTest.java:76: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]         int compare = sCompare.compare(new Double(3.0), new Long(3));
+    [javac]                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/Base64Test.java:447: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             b64.decode(new Integer(5));
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/HexTest.java:160: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expectedHexStringBytes, actualEncodedBytes));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:51: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:57: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:65: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:73: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:81: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:89: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:97: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertTrue(Arrays.equals(expected, actual));
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:103: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]             Assert.fail("Expected " + IllegalStateException.class.getName());
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:112: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:118: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]             Assert.fail("Expected " + IllegalStateException.class.getName());
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:129: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:137: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:145: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:153: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:161: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/StringUtilsTest.java:169: warning: [deprecation] Assert in junit.framework has been deprecated
+    [javac]         Assert.assertEquals(expected, actual);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/language/SoundexTest.java:293: warning: [deprecation] getMaxLength() in Soundex has been deprecated
+    [javac]         soundex.setMaxLength(soundex.getMaxLength());
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/language/SoundexTest.java:293: warning: [deprecation] setMaxLength(int) in Soundex has been deprecated
+    [javac]         soundex.setMaxLength(soundex.getMaxLength());
+    [javac]                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/language/SoundexTest.java:299: warning: [deprecation] setMaxLength(int) in Soundex has been deprecated
+    [javac]         soundex.setMaxLength(2);
+    [javac]                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/BCodecTest.java:113: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/BCodecTest.java:147: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/QCodecTest.java:136: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/QCodecTest.java:172: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:193: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:235: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/URLCodecTest.java:50: warning: [deprecation] getEncoding() in URLCodec has been deprecated
+    [javac]         assertEquals(urlCodec.getEncoding(), urlCodec.getDefaultCharset());        
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/URLCodecTest.java:228: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/net/URLCodecTest.java:272: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/StringEncoderComparatorTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+    [javac] 47 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/build.xml:189: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Codec-9-fixed_ind3
+

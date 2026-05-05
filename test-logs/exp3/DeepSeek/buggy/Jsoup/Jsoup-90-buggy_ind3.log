@@ -1,0 +1,11 @@
+==== 2026-04-24 04:50:11 :: Jsoup-90-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.helper.HttpConnectionTest::handlesHeaderEncodingOnRequest
+  - org.jsoup.helper.HttpConnectionTest::testLooksLikeUtf8InvalidContinuation
+---- exit code: 0 | Jsoup-90-buggy_ind3
+

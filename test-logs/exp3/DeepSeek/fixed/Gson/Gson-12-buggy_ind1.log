@@ -1,0 +1,41 @@
+==== 2026-04-26 00:58:24 :: Gson-12-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonArray
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject
+---- exit code: 0 | Gson-12-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject
+[JACOCO] defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonArray
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] done

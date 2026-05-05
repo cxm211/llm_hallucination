@@ -1,0 +1,630 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Gson
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Gson-1-fixed
+  [CHECKOUT] Gson-2-fixed
+  [CHECKOUT] Gson-3-fixed
+  [CHECKOUT] Gson-4-fixed
+  [CHECKOUT] Gson-5-fixed
+  [CHECKOUT] Gson-6-fixed
+  [CHECKOUT] Gson-7-fixed
+  [CHECKOUT] Gson-8-fixed
+  [CHECKOUT] Gson-9-fixed
+  [CHECKOUT] Gson-10-fixed
+  [CHECKOUT] Gson-11-fixed
+  [CHECKOUT] Gson-12-fixed
+  [CHECKOUT] Gson-13-fixed
+  [CHECKOUT] Gson-14-fixed
+  [CHECKOUT] Gson-15-fixed
+  [CHECKOUT] Gson-16-fixed
+  [CHECKOUT] Gson-17-fixed
+  [CHECKOUT] Gson-18-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Gson ===
+  [COPY] Gson-1-fixed -> Gson-1-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed_ind1/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+  [IND-OK] Gson-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed_ind1/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+  [COPY] Gson-1-fixed -> Gson-1-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed_ind2/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+  [IND-OK] Gson-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed_ind2/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java
+  [Gson-1] inserted=4 failed=0
+  [COPY] Gson-2-fixed -> Gson-2-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed_ind1/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+  [IND-OK] Gson-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed_ind1/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+  [COPY] Gson-2-fixed -> Gson-2-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed_ind2/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+  [IND-OK] Gson-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed_ind2/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-2-fixed/gson/src/test/java/com/google/gson/functional/DefaultTypeAdaptersTest.java
+  [Gson-2] inserted=4 failed=0
+  [COPY] Gson-3-fixed -> Gson-3-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed_ind1/gson/src/test/java/com/google/gson/functional/MapTest.java
+  [IND-OK] Gson-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed_ind1/gson/src/test/java/com/google/gson/functional/MapTest.java
+  [COPY] Gson-3-fixed -> Gson-3-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed_ind2/gson/src/test/java/com/google/gson/functional/MapTest.java
+  [IND-OK] Gson-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed_ind2/gson/src/test/java/com/google/gson/functional/MapTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed/gson/src/test/java/com/google/gson/functional/MapTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed/gson/src/test/java/com/google/gson/functional/MapTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed/gson/src/test/java/com/google/gson/functional/MapTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-3-fixed/gson/src/test/java/com/google/gson/functional/MapTest.java
+  [Gson-3] inserted=4 failed=0
+  [COPY] Gson-4-fixed -> Gson-4-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [COPY] Gson-4-fixed -> Gson-4-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [COPY] Gson-4-fixed -> Gson-4-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed_ind3/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-4-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed_ind3/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [Gson-4] inserted=6 failed=0
+  [COPY] Gson-5-fixed -> Gson-5-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed_ind1/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [IND-OK] Gson-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed_ind1/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [COPY] Gson-5-fixed -> Gson-5-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed_ind2/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [IND-OK] Gson-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed_ind2/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [Gson-5] inserted=4 failed=0
+  [COPY] Gson-6-fixed -> Gson-6-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed_ind1/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+  [IND-OK] Gson-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed_ind1/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+  [COPY] Gson-6-fixed -> Gson-6-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed_ind2/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+  [IND-OK] Gson-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed_ind2/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-6-fixed/gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+  [Gson-6] inserted=4 failed=0
+  [COPY] Gson-7-fixed -> Gson-7-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [COPY] Gson-7-fixed -> Gson-7-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [COPY] Gson-7-fixed -> Gson-7-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind3/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-7-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind3/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [COPY] Gson-7-fixed -> Gson-7-fixed_ind4
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind4/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-7-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed_ind4/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-7-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [Gson-7] inserted=8 failed=0
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-8-fixed/gson/src/test/java/com/google/gson/internal/UnsafeAllocatorInstantiationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-8-fixed/gson/src/test/java/com/google/gson/internal/UnsafeAllocatorInstantiationTest.java
+  [Gson-8] inserted=1 failed=0
+  [COPY] Gson-9-fixed -> Gson-9-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [COPY] Gson-9-fixed -> Gson-9-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [Gson-9] inserted=4 failed=0
+  [COPY] Gson-10-fixed -> Gson-10-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed_ind1/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [IND-OK] Gson-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed_ind1/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [COPY] Gson-10-fixed -> Gson-10-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed_ind2/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [IND-OK] Gson-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed_ind2/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [COPY] Gson-10-fixed -> Gson-10-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed_ind3/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [IND-OK] Gson-10-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed_ind3/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-10-fixed/gson/src/test/java/com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java
+  [Gson-10] inserted=6 failed=0
+  [COPY] Gson-11-fixed -> Gson-11-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed_ind1/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [IND-OK] Gson-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed_ind1/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [COPY] Gson-11-fixed -> Gson-11-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed_ind2/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [IND-OK] Gson-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed_ind2/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [COPY] Gson-11-fixed -> Gson-11-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed_ind3/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [IND-OK] Gson-11-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed_ind3/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java
+  [Gson-11] inserted=6 failed=0
+  [COPY] Gson-12-fixed -> Gson-12-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind1/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [IND-OK] Gson-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind1/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [COPY] Gson-12-fixed -> Gson-12-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind2/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [IND-OK] Gson-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind2/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [COPY] Gson-12-fixed -> Gson-12-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind3/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [IND-OK] Gson-12-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind3/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [COPY] Gson-12-fixed -> Gson-12-fixed_ind4
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind4/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [IND-OK] Gson-12-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind4/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [COPY] Gson-12-fixed -> Gson-12-fixed_ind5
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind5/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [IND-OK] Gson-12-fixed_ind5/add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind5/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [COPY] Gson-12-fixed -> Gson-12-fixed_ind6
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind6/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [IND-OK] Gson-12-fixed_ind6/add_test5.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed_ind6/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [OK] add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [OK] add_test5.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-12-fixed/gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+  [Gson-12] inserted=12 failed=0
+  [COPY] Gson-13-fixed -> Gson-13-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [COPY] Gson-13-fixed -> Gson-13-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [IND-OK] Gson-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-fixed/gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+  [Gson-13] inserted=4 failed=0
+  [COPY] Gson-14-fixed -> Gson-14-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed_ind1/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [IND-OK] Gson-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed_ind1/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [COPY] Gson-14-fixed -> Gson-14-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed_ind2/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [IND-OK] Gson-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed_ind2/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [COPY] Gson-14-fixed -> Gson-14-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed_ind3/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [IND-OK] Gson-14-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed_ind3/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-fixed/gson/src/test/java/com/google/gson/internal/bind/RecursiveTypesResolveTest.java
+  [Gson-14] inserted=6 failed=0
+  [COPY] Gson-15-fixed -> Gson-15-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind1/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [COPY] Gson-15-fixed -> Gson-15-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind2/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [COPY] Gson-15-fixed -> Gson-15-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind3/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind3/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [COPY] Gson-15-fixed -> Gson-15-fixed_ind4
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind4/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [IND-OK] Gson-15-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed_ind4/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-15-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+  [Gson-15] inserted=8 failed=0
+  [COPY] Gson-17-fixed -> Gson-17-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind1/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [IND-OK] Gson-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind1/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [COPY] Gson-17-fixed -> Gson-17-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind2/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [IND-OK] Gson-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind2/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [COPY] Gson-17-fixed -> Gson-17-fixed_ind3
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind3/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [IND-OK] Gson-17-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind3/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [COPY] Gson-17-fixed -> Gson-17-fixed_ind4
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind4/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [IND-OK] Gson-17-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed_ind4/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-17-fixed/gson/src/test/java/com/google/gson/DefaultDateTypeAdapterTest.java
+  [Gson-17] inserted=8 failed=0
+  [COPY] Gson-18-fixed -> Gson-18-fixed_ind1
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed_ind1/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+  [IND-OK] Gson-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed_ind1/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+  [COPY] Gson-18-fixed -> Gson-18-fixed_ind2
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed_ind2/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+  [IND-OK] Gson-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed_ind2/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+    [GLOB] found: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-18-fixed/gson/src/test/java/com/google/gson/functional/CollectionTest.java
+  [Gson-18] inserted=4 failed=0
+
+[INSERT DONE] inserted=93 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 17
+individual bugs: 46
+
+==== 2026-04-21 08:16:15 :: Gson-1-fixed ====
+>>> defects4j test -r in Gson-1-fixed
+---- exit code: 1 | Gson-1-fixed
+
+==== 2026-04-21 08:16:17 :: Gson-2-fixed ====
+>>> defects4j test -r in Gson-2-fixed
+---- exit code: 0 | Gson-2-fixed
+
+==== 2026-04-21 08:16:22 :: Gson-3-fixed ====
+>>> defects4j test -r in Gson-3-fixed
+---- exit code: 1 | Gson-3-fixed
+
+==== 2026-04-21 08:16:24 :: Gson-4-fixed ====
+>>> defects4j test -r in Gson-4-fixed
+---- exit code: 0 | Gson-4-fixed
+
+==== 2026-04-21 08:16:29 :: Gson-5-fixed ====
+>>> defects4j test -r in Gson-5-fixed
+---- exit code: 0 | Gson-5-fixed
+
+==== 2026-04-21 08:16:32 :: Gson-6-fixed ====
+>>> defects4j test -r in Gson-6-fixed
+---- exit code: 1 | Gson-6-fixed
+
+==== 2026-04-21 08:16:35 :: Gson-7-fixed ====
+>>> defects4j test -r in Gson-7-fixed
+---- exit code: 0 | Gson-7-fixed
+
+==== 2026-04-21 08:16:40 :: Gson-8-fixed ====
+>>> defects4j test -r in Gson-8-fixed
+---- exit code: 1 | Gson-8-fixed
+
+==== 2026-04-21 08:16:42 :: Gson-9-fixed ====
+>>> defects4j test -r in Gson-9-fixed
+---- exit code: 0 | Gson-9-fixed
+
+==== 2026-04-21 08:16:47 :: Gson-10-fixed ====
+>>> defects4j test -r in Gson-10-fixed
+---- exit code: 1 | Gson-10-fixed
+
+==== 2026-04-21 08:16:50 :: Gson-11-fixed ====
+>>> defects4j test -r in Gson-11-fixed
+---- exit code: 0 | Gson-11-fixed
+
+==== 2026-04-21 08:16:55 :: Gson-12-fixed ====
+>>> defects4j test -r in Gson-12-fixed
+---- exit code: 1 | Gson-12-fixed
+
+==== 2026-04-21 08:16:58 :: Gson-13-fixed ====
+>>> defects4j test -r in Gson-13-fixed
+---- exit code: 0 | Gson-13-fixed
+
+==== 2026-04-21 08:17:03 :: Gson-14-fixed ====
+>>> defects4j test -r in Gson-14-fixed
+---- exit code: 0 | Gson-14-fixed
+
+==== 2026-04-21 08:17:08 :: Gson-15-fixed ====
+>>> defects4j test -r in Gson-15-fixed
+---- exit code: 0 | Gson-15-fixed
+
+==== 2026-04-21 08:17:14 :: Gson-17-fixed ====
+>>> defects4j test -r in Gson-17-fixed
+---- exit code: 1 | Gson-17-fixed
+
+==== 2026-04-21 08:17:16 :: Gson-18-fixed ====
+>>> defects4j test -r in Gson-18-fixed
+---- exit code: 1 | Gson-18-fixed
+
+==== 2026-04-21 08:17:18 :: Gson-1-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.functional.TypeVariableTest::testNestedTypeVariables in Gson-1-fixed_ind1
+---- exit code: 1 | Gson-1-fixed_ind1
+
+==== 2026-04-21 08:17:20 :: Gson-1-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.functional.TypeVariableTest::testMultipleTypeParameters in Gson-1-fixed_ind2
+---- exit code: 1 | Gson-1-fixed_ind2
+
+==== 2026-04-21 08:17:22 :: Gson-2-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementSubtypeDeserialization in Gson-2-fixed_ind1
+---- exit code: 0 | Gson-2-fixed_ind1
+
+==== 2026-04-21 08:17:25 :: Gson-2-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementArrayTypeMismatch in Gson-2-fixed_ind2
+---- exit code: 0 | Gson-2-fixed_ind2
+
+==== 2026-04-21 08:17:28 :: Gson-3-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.functional.MapTest::testNavigableMap in Gson-3-fixed_ind1
+---- exit code: 1 | Gson-3-fixed_ind1
+
+==== 2026-04-21 08:17:31 :: Gson-3-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.functional.MapTest::testPlainMap in Gson-3-fixed_ind2
+---- exit code: 0 | Gson-3-fixed_ind2
+
+==== 2026-04-21 08:17:34 :: Gson-4-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testTopLevelJsonValue in Gson-4-fixed_ind1
+---- exit code: 0 | Gson-4-fixed_ind1
+
+==== 2026-04-21 08:17:37 :: Gson-4-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testTopLevelNumberValue in Gson-4-fixed_ind2
+---- exit code: 0 | Gson-4-fixed_ind2
+
+==== 2026-04-21 08:17:40 :: Gson-4-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testTopLevelStringMultiplePeeks in Gson-4-fixed_ind3
+---- exit code: 0 | Gson-4-fixed_ind3
+
+==== 2026-04-21 08:17:43 :: Gson-5-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_NegativeOffset in Gson-5-fixed_ind1
+---- exit code: 0 | Gson-5-fixed_ind1
+
+==== 2026-04-21 08:17:46 :: Gson-5-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_MultiDigitOffset in Gson-5-fixed_ind2
+---- exit code: 0 | Gson-5-fixed_ind2
+
+==== 2026-04-21 08:17:49 :: Gson-6-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeFalseWithNullValue in Gson-6-fixed_ind1
+---- exit code: 0 | Gson-6-fixed_ind1
+
+==== 2026-04-21 08:17:52 :: Gson-6-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.regression.JsonAdapterNullSafeTest::testTypeAdapterFactoryWithNullSafe in Gson-6-fixed_ind2
+---- exit code: 1 | Gson-6-fixed_ind2
+
+==== 2026-04-21 08:17:55 :: Gson-7-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testNextLongWithQuotedValue in Gson-7-fixed_ind1
+---- exit code: 0 | Gson-7-fixed_ind1
+
+==== 2026-04-21 08:17:57 :: Gson-7-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testNextIntWithQuotedValue in Gson-7-fixed_ind2
+---- exit code: 0 | Gson-7-fixed_ind2
+
+==== 2026-04-21 08:18:00 :: Gson-7-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testNextLongWithSingleQuotedValue in Gson-7-fixed_ind3
+---- exit code: 0 | Gson-7-fixed_ind3
+
+==== 2026-04-21 08:18:03 :: Gson-7-fixed_ind4 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testNextIntWithInvalidQuotedDouble in Gson-7-fixed_ind4
+---- exit code: 0 | Gson-7-fixed_ind4
+
+==== 2026-04-21 08:18:06 :: Gson-9-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testBoxedBooleansInObject in Gson-9-fixed_ind1
+---- exit code: 0 | Gson-9-fixed_ind1
+
+==== 2026-04-21 08:18:09 :: Gson-9-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testBoxedBooleansMixed in Gson-9-fixed_ind2
+---- exit code: 0 | Gson-9-fixed_ind2
+
+==== 2026-04-21 08:18:11 :: Gson-10-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testNonPrimitiveFieldAnnotationTakesPrecedenceOverDefault in Gson-10-fixed_ind1
+---- exit code: 1 | Gson-10-fixed_ind1
+
+==== 2026-04-21 08:18:14 :: Gson-10-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testFieldWithoutAnnotationUsesDefaultAdapter in Gson-10-fixed_ind2
+---- exit code: 0 | Gson-10-fixed_ind2
+
+==== 2026-04-21 08:18:17 :: Gson-10-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testNullValueWithPrimitiveAnnotation in Gson-10-fixed_ind3
+---- exit code: 0 | Gson-10-fixed_ind3
+
+==== 2026-04-21 08:18:20 :: Gson-11-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithDecimal in Gson-11-fixed_ind1
+---- exit code: 0 | Gson-11-fixed_ind1
+
+==== 2026-04-21 08:18:24 :: Gson-11-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithNegative in Gson-11-fixed_ind2
+---- exit code: 0 | Gson-11-fixed_ind2
+
+==== 2026-04-21 08:18:27 :: Gson-11-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithScientificNotation in Gson-11-fixed_ind3
+---- exit code: 0 | Gson-11-fixed_ind3
+
+==== 2026-04-21 08:18:30 :: Gson-12-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonArray in Gson-12-fixed_ind1
+---- exit code: 0 | Gson-12-fixed_ind1
+
+==== 2026-04-21 08:18:33 :: Gson-12-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonArray in Gson-12-fixed_ind2
+---- exit code: 0 | Gson-12-fixed_ind2
+
+==== 2026-04-21 08:18:36 :: Gson-12-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_primitiveString in Gson-12-fixed_ind3
+---- exit code: 1 | Gson-12-fixed_ind3
+
+==== 2026-04-21 08:18:39 :: Gson-12-fixed_ind4 ====
+>>> defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_primitiveNumber in Gson-12-fixed_ind4
+---- exit code: 1 | Gson-12-fixed_ind4
+
+==== 2026-04-21 08:18:42 :: Gson-12-fixed_ind5 ====
+>>> defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_primitiveBoolean in Gson-12-fixed_ind5
+---- exit code: 1 | Gson-12-fixed_ind5
+
+==== 2026-04-21 08:18:44 :: Gson-12-fixed_ind6 ====
+>>> defects4j test -t com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_jsonNull in Gson-12-fixed_ind6
+---- exit code: 0 | Gson-12-fixed_ind6
+
+==== 2026-04-21 08:18:47 :: Gson-13-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testNegativeZeroInObject in Gson-13-fixed_ind1
+---- exit code: 0 | Gson-13-fixed_ind1
+
+==== 2026-04-21 08:18:50 :: Gson-13-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testPositiveZeroIsLong in Gson-13-fixed_ind2
+---- exit code: 0 | Gson-13-fixed_ind2
+
+==== 2026-04-21 08:18:53 :: Gson-14-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testTripleSubtype in Gson-14-fixed_ind1
+---- exit code: 0 | Gson-14-fixed_ind1
+
+==== 2026-04-21 08:18:56 :: Gson-14-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testTripleSupertype in Gson-14-fixed_ind2
+---- exit code: 0 | Gson-14-fixed_ind2
+
+==== 2026-04-21 08:19:00 :: Gson-14-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testSuperSubSupertype in Gson-14-fixed_ind3
+---- exit code: 0 | Gson-14-fixed_ind3
+
+==== 2026-04-21 08:19:03 :: Gson-15-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testNonFiniteDoublesWhenNotLenient in Gson-15-fixed_ind1
+---- exit code: 0 | Gson-15-fixed_ind1
+
+==== 2026-04-21 08:19:06 :: Gson-15-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testNegativeInfinityWhenNotLenient in Gson-15-fixed_ind2
+---- exit code: 0 | Gson-15-fixed_ind2
+
+==== 2026-04-21 08:19:09 :: Gson-15-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testPositiveInfinityWhenNotLenient in Gson-15-fixed_ind3
+---- exit code: 0 | Gson-15-fixed_ind3
+
+==== 2026-04-21 08:19:12 :: Gson-15-fixed_ind4 ====
+>>> defects4j test -t com.google.gson.stream.JsonWriterTest::testFiniteDoubleWhenLenient in Gson-15-fixed_ind4
+---- exit code: 0 | Gson-15-fixed_ind4
+
+==== 2026-04-21 08:19:16 :: Gson-17-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testNullValueWithTimestamp in Gson-17-fixed_ind1
+---- exit code: 1 | Gson-17-fixed_ind1
+
+==== 2026-04-21 08:19:18 :: Gson-17-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testNullValueWithSqlDate in Gson-17-fixed_ind2
+---- exit code: 0 | Gson-17-fixed_ind2
+
+==== 2026-04-21 08:19:21 :: Gson-17-fixed_ind3 ====
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedTokenArray in Gson-17-fixed_ind3
+---- exit code: 0 | Gson-17-fixed_ind3
+
+==== 2026-04-21 08:19:24 :: Gson-17-fixed_ind4 ====
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testUnexpectedTokenNumber in Gson-17-fixed_ind4
+---- exit code: 0 | Gson-17-fixed_ind4
+
+==== 2026-04-21 08:19:27 :: Gson-18-fixed_ind1 ====
+>>> defects4j test -t com.google.gson.functional.CollectionTest::testWildcardTypeWithLowerBound in Gson-18-fixed_ind1
+---- exit code: 0 | Gson-18-fixed_ind1
+
+==== 2026-04-21 08:19:30 :: Gson-18-fixed_ind2 ====
+>>> defects4j test -t com.google.gson.functional.CollectionTest::testWildcardTypeWithMultipleBounds in Gson-18-fixed_ind2
+---- exit code: 1 | Gson-18-fixed_ind2
+
+
+=== Combined Test Run Summary ===
+  Gson/Gson-1-fixed                                       -> FAIL(1)
+  Gson/Gson-10-fixed                                      -> FAIL(1)
+  Gson/Gson-11-fixed                                      -> OK
+  Gson/Gson-12-fixed                                      -> FAIL(1)
+  Gson/Gson-13-fixed                                      -> OK
+  Gson/Gson-14-fixed                                      -> OK
+  Gson/Gson-15-fixed                                      -> OK
+  Gson/Gson-17-fixed                                      -> FAIL(1)
+  Gson/Gson-18-fixed                                      -> FAIL(1)
+  Gson/Gson-2-fixed                                       -> OK
+  Gson/Gson-3-fixed                                       -> FAIL(1)
+  Gson/Gson-4-fixed                                       -> OK
+  Gson/Gson-5-fixed                                       -> OK
+  Gson/Gson-6-fixed                                       -> FAIL(1)
+  Gson/Gson-7-fixed                                       -> OK
+  Gson/Gson-8-fixed                                       -> FAIL(1)
+  Gson/Gson-9-fixed                                       -> OK
+Combined total: 17 | failed: 8 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Gson/Gson-1-fixed_ind1                                  -> FAIL(1)
+  Gson/Gson-1-fixed_ind2                                  -> FAIL(1)
+  Gson/Gson-10-fixed_ind1                                 -> FAIL(1)
+  Gson/Gson-10-fixed_ind2                                 -> OK
+  Gson/Gson-10-fixed_ind3                                 -> OK
+  Gson/Gson-11-fixed_ind1                                 -> OK
+  Gson/Gson-11-fixed_ind2                                 -> OK
+  Gson/Gson-11-fixed_ind3                                 -> OK
+  Gson/Gson-12-fixed_ind1                                 -> OK
+  Gson/Gson-12-fixed_ind2                                 -> OK
+  Gson/Gson-12-fixed_ind3                                 -> FAIL(1)
+  Gson/Gson-12-fixed_ind4                                 -> FAIL(1)
+  Gson/Gson-12-fixed_ind5                                 -> FAIL(1)
+  Gson/Gson-12-fixed_ind6                                 -> OK
+  Gson/Gson-13-fixed_ind1                                 -> OK
+  Gson/Gson-13-fixed_ind2                                 -> OK
+  Gson/Gson-14-fixed_ind1                                 -> OK
+  Gson/Gson-14-fixed_ind2                                 -> OK
+  Gson/Gson-14-fixed_ind3                                 -> OK
+  Gson/Gson-15-fixed_ind1                                 -> OK
+  Gson/Gson-15-fixed_ind2                                 -> OK
+  Gson/Gson-15-fixed_ind3                                 -> OK
+  Gson/Gson-15-fixed_ind4                                 -> OK
+  Gson/Gson-17-fixed_ind1                                 -> FAIL(1)
+  Gson/Gson-17-fixed_ind2                                 -> OK
+  Gson/Gson-17-fixed_ind3                                 -> OK
+  Gson/Gson-17-fixed_ind4                                 -> OK
+  Gson/Gson-18-fixed_ind1                                 -> OK
+  Gson/Gson-18-fixed_ind2                                 -> FAIL(1)
+  Gson/Gson-2-fixed_ind1                                  -> OK
+  Gson/Gson-2-fixed_ind2                                  -> OK
+  Gson/Gson-3-fixed_ind1                                  -> FAIL(1)
+  Gson/Gson-3-fixed_ind2                                  -> OK
+  Gson/Gson-4-fixed_ind1                                  -> OK
+  Gson/Gson-4-fixed_ind2                                  -> OK
+  Gson/Gson-4-fixed_ind3                                  -> OK
+  Gson/Gson-5-fixed_ind1                                  -> OK
+  Gson/Gson-5-fixed_ind2                                  -> OK
+  Gson/Gson-6-fixed_ind1                                  -> OK
+  Gson/Gson-6-fixed_ind2                                  -> FAIL(1)
+  Gson/Gson-7-fixed_ind1                                  -> OK
+  Gson/Gson-7-fixed_ind2                                  -> OK
+  Gson/Gson-7-fixed_ind3                                  -> OK
+  Gson/Gson-7-fixed_ind4                                  -> OK
+  Gson/Gson-9-fixed_ind1                                  -> OK
+  Gson/Gson-9-fixed_ind2                                  -> OK
+Individual total: 46 | failed: 10
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Gson] 47 | pass=25 not_pass=0 not_compilable=22 -> Gson.csv
+
+[DONE combined] total=47 pass=25 not_pass=0 not_compilable=22
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

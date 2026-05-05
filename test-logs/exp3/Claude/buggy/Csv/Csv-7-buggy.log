@@ -1,0 +1,12 @@
+==== 2026-03-28 00:37:41 :: Csv-7-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntriesMultipleDuplicates
+  - org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntriesWithExplicitHeader
+  - org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntries
+---- exit code: 0 | Csv-7-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-04-28 04:05:16 :: Time-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_additional_Feb29ToMar1
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+---- exit code: 0 | Time-10-buggy
+

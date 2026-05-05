@@ -1,0 +1,11 @@
+==== 2026-04-28 23:28:55 :: Math-97-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/analysis/BrentSolverTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints
+---- exit code: 0 | test_result: Not Pass | Math-97-buggy
+

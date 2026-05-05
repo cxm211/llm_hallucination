@@ -1,0 +1,11 @@
+==== 2026-04-29 01:43:39 :: JxPath-22-buggy ====
+[RESTORE] restored src/test/org/apache/commons/jxpath/ri/model/JXPath154Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM
+---- exit code: 0 | test_result: Not Pass | JxPath-22-buggy
+

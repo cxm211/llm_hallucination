@@ -1,0 +1,10 @@
+==== 2026-04-21 07:24:20 :: Closure-107-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringAdvancedWithTranslationsFile
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringAdvancedWithTranslationsFile
+---- exit code: 0 | Closure-107-fixed_ind3
+

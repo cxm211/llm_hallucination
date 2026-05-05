@@ -1,0 +1,14 @@
+==== 2026-04-24 04:34:04 :: Jsoup-34-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfUnmatched
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfInsufficientLengthAfterSkip
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfInsufficientLengthImmediate
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfSurrogateInsufficientLength
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedCdataAtEOF
+---- exit code: 0 | Jsoup-34-buggy
+

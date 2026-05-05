@@ -1,0 +1,12 @@
+==== 2026-03-27 05:52:20 :: Closure-131-buggy_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testControlCharactersInMiddle
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert
+---- exit code: 0 | Closure-131-buggy_ind4
+

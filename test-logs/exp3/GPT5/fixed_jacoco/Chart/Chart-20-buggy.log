@@ -1,0 +1,10 @@
+==== 2026-04-27 02:33:47 :: Chart-20-buggy ====
+[RESTORE] restored tests/org/jfree/chart/plot/junit/ValueMarkerTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Chart-20-buggy
+

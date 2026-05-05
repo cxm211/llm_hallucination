@@ -1,0 +1,10 @@
+==== 2026-04-21 19:38:19 :: Cli-40-buggy_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.TypeHandlerTest::testCreateValueInteger_failure
+---- exit code: 0 | Cli-40-buggy_ind4
+

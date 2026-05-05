@@ -1,0 +1,11 @@
+==== 2026-04-22 00:26:10 :: Closure-132-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testAdditionalCases
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925
+---- exit code: 0 | Closure-132-buggy
+

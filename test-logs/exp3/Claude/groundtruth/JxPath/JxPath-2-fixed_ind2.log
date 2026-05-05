@@ -1,0 +1,10 @@
+==== 2026-04-21 10:56:56 :: JxPath-2-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testNodeSetReturnSingleNode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testNodeSetReturnSingleNode
+---- exit code: 0 | JxPath-2-fixed_ind2
+

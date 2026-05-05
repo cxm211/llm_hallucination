@@ -1,0 +1,9 @@
+==== 2026-04-21 19:55:19 :: Mockito-18-fixed_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_empty_sorted_set
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-18-fixed_ind2
+

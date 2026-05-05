@@ -1,0 +1,11 @@
+==== 2026-03-31 21:38:33 :: Jsoup-30-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.safety.CleanerTest::testIsValidWithCommentOnly
+  - org.jsoup.safety.CleanerTest::testIsValid
+---- exit code: 0 | Jsoup-30-buggy_ind1
+

@@ -1,0 +1,10 @@
+==== 2026-04-29 04:34:05 :: Compress-33-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.compressors.DetectCompressorTestCase::testDetection
+---- exit code: 0 | Compress-33-buggy
+

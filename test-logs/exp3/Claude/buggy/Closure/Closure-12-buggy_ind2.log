@@ -1,0 +1,11 @@
+==== 2026-03-27 03:57:27 :: Closure-12-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testNestedTryCatch
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b
+---- exit code: 0 | Closure-12-buggy_ind2
+

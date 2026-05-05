@@ -1,0 +1,11 @@
+==== 2026-04-26 23:47:54 :: JacksonDatabind-58-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.misc.AccessFixTest::testCauseDeserializationIgnoral
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-58-fixed
+

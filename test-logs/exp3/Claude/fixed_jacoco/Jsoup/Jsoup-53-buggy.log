@@ -1,0 +1,15 @@
+==== 2026-04-01 02:06:45 :: Jsoup-53-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/select/SelectorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.integration.ParseTest::testYahooArticle
+  - org.jsoup.parser.TokenQueueTest::chompBalancedMatchesAsMuchAsPossible
+  - org.jsoup.select.SelectorTest::attributeWithBrackets
+  - org.jsoup.select.SelectorTest::caseInsensitive
+  - org.jsoup.select.SelectorTest::testPseudoHas
+---- exit code: 0 | test_result: Not Pass | Jsoup-53-buggy
+

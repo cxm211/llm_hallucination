@@ -1,0 +1,49 @@
+==== 2026-03-30 04:27:33 :: Time-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_YearMonth
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_Reversed
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay_Reversed
+---- exit code: 0 | Time-10-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 2, total: 4
+[JACOCO] defects4j test -t org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+[JACOCO] defects4j test -t org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_Reversed
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_Reversed
+[JACOCO] defects4j test -t org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay_Reversed
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay_Reversed
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-buggy/jacoco_base.exec.
+[INFO] Analyzing 206 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-buggy/jacoco.exec.
+[INFO] Analyzing 206 classes.
+>>> [JACOCO] done

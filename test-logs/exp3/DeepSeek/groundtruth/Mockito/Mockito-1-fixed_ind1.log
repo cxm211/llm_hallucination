@@ -1,0 +1,10 @@
+==== 2026-04-25 19:22:51 :: Mockito-1-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_for_varargs_with_multiple_elements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.invocation.InvocationMatcherTest
+---- exit code: 0 | Mockito-1-fixed_ind1
+

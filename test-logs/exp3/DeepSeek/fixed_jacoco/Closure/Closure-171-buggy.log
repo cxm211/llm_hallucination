@@ -1,0 +1,33 @@
+==== 2026-04-23 03:47:38 :: Closure-171-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/TypedScopeCreatorTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 22
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExternStubs4
+  - com.google.javascript.jscomp.SymbolTableTest::testMethodInAnonObject1
+  - com.google.javascript.jscomp.SymbolTableTest::testLocalThisReferences2
+  - com.google.javascript.jscomp.SymbolTableTest::testMissingConstructorTag
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateInstanceMethod3
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck3
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck5
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn3
+  - com.google.javascript.jscomp.TypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference11
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference7
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+---- exit code: 0 | test_result: Not Pass | Closure-171-buggy
+

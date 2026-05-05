@@ -1,0 +1,13 @@
+==== 2026-04-22 00:33:03 :: Closure-153-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateFunctionInExternsNoSuppression
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateVarInExterns
+  - com.google.javascript.jscomp.NormalizeTest::testMakeLocalNamesUnique
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateVarInExternsNoSuppression
+---- exit code: 0 | Closure-153-buggy
+

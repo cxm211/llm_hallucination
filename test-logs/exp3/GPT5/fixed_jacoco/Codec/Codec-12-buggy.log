@@ -1,0 +1,24 @@
+==== 2026-04-29 13:13:02 :: Codec-12-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/codec/binary/Base64InputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testMarkSupported
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base32InputStreamTest::testSkipBig
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipToEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testMarkSupported
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec130
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipWrongArgument
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testAvailable
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipPastEnd
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSkipBig
+---- exit code: 0 | test_result: Not Pass | Codec-12-buggy
+

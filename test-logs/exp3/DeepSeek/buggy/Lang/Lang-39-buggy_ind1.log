@@ -1,0 +1,11 @@
+==== 2026-04-25 20:14:46 :: Lang-39-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.StringUtilsTest::testReplaceEachRepeatedlyNoChange
+  - org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray
+---- exit code: 0 | Lang-39-buggy_ind1
+

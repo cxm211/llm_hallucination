@@ -1,0 +1,12 @@
+==== 2026-04-22 00:07:06 :: Closure-91-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotationVariable
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotationNested
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3
+---- exit code: 0 | Closure-91-buggy
+

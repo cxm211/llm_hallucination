@@ -1,0 +1,39 @@
+==== 2026-04-22 06:37:15 :: Closure-174-buggy ====
+[JACOCO] trigger=3 add=2 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-174-buggy/jacoco_base.exec.
+[INFO] Analyzing 1226 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103d
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103d
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103e
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103e
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-174-buggy/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 89 line rows.
+[PARSE] 89 base line rows.

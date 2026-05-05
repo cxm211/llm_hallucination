@@ -1,0 +1,39 @@
+==== 2026-04-27 04:23:45 :: Jsoup-13-buggy ====
+[JACOCO] trigger=4 add=1 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::handlesAbsPrefixOnHasAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefixOnHasAttr
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::handlesAbsPrefix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.NodeTest::handlesAbsPrefix
+[JACOCO] defects4j test -t org.jsoup.select.ElementsTest::absAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::absAttr
+[JACOCO] defects4j test -t org.jsoup.select.ElementsTest::hasAbsAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::hasAbsAttr
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-13-buggy/jacoco_base.exec.
+[INFO] Analyzing 185 classes.
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::ignoresLiteralAbsAttributeOnHasAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.NodeTest::ignoresLiteralAbsAttributeOnHasAttr
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-13-buggy/jacoco.exec.
+[INFO] Analyzing 185 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 5 line rows.
+[PARSE] 5 base line rows.

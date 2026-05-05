@@ -1,0 +1,11 @@
+==== 2026-04-26 03:09:42 :: Closure-104-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5_reverse
+  - com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5
+---- exit code: 0 | Closure-104-buggy
+

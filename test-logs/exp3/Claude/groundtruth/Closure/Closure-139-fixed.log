@@ -1,0 +1,12 @@
+==== 2026-04-21 06:33:10 :: Closure-139-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.NormalizeTest::testMoveFunctionsWithLabelsAndBlocks
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarationsWithNestedFunctions
+  - com.google.javascript.jscomp.NormalizeTest::testFunctionDeclarationRedeclarationEdgeCases
+---- exit code: 0 | Closure-139-fixed
+

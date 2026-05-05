@@ -1,0 +1,16 @@
+==== 2026-04-26 06:54:44 :: Closure-82-buggy ====
+[RESTORE] restored test/com/google/javascript/rhino/jstype/FunctionTypeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.TypeCheckTest::testForwardTypeDeclaration5
+  - com.google.javascript.jscomp.TypeCheckTest::testForwardTypeDeclaration6
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue301
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes
+  - com.google.javascript.rhino.jstype.JSTypeTest::testForwardDeclaredNamedTypeEquals
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNoResolvedType
+---- exit code: 0 | test_result: Not Pass | Closure-82-buggy
+

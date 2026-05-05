@@ -1,0 +1,12 @@
+==== 2026-04-22 00:32:01 :: Closure-149-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCharSetExpansion
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCharSetExpansionWithOutputFile
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCharSetExpansionWithModule
+---- exit code: 0 | Closure-149-buggy
+

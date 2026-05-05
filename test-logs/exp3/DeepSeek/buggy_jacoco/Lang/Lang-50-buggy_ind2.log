@@ -1,0 +1,29 @@
+==== 2026-04-25 20:39:46 :: Lang-50-buggy_ind2 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateInstance
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateInstance
+[JACOCO] defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-50-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 133 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance_TimeZone
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance_TimeZone
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-50-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 133 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 57 line rows.
+[PARSE] 57 base line rows.

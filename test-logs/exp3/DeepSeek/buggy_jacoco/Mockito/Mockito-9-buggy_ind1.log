@@ -1,0 +1,34 @@
+==== 2026-04-24 21:34:23 :: Mockito-9-buggy_ind1 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodStubbed
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodStubbed
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethod
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethod
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodReturnsDefault
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodReturnsDefault
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 299 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethodInt
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethodInt
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 299 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 3 line rows.
+[PARSE] 3 base line rows.

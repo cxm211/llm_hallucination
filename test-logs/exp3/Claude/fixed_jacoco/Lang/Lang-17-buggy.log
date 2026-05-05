@@ -1,0 +1,12 @@
+==== 2026-03-29 18:27:35 :: Lang-17-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang3/StringEscapeUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest::testSupplementary
+---- exit code: 0 | test_result: Not Pass | Lang-17-buggy
+

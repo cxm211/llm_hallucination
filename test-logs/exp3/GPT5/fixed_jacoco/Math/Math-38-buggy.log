@@ -1,0 +1,23 @@
+==== 2026-04-28 23:21:14 :: Math-38-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosen
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testElliRotated
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testEllipse
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testTwoAxes
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testCigar
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testRosen
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testRastrigin
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testSsDiffPow
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testMaximize
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testCigTab
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testSphere
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testTablet
+---- exit code: 0 | test_result: Not Pass | Math-38-buggy
+

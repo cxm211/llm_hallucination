@@ -1,0 +1,13 @@
+==== 2026-04-23 02:37:51 :: Closure-74-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/PeepholeFoldConstantsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators
+---- exit code: 0 | test_result: Not Pass | Closure-74-buggy
+

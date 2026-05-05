@@ -1,0 +1,47 @@
+==== 2026-04-26 05:45:59 :: Closure-135-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 19
+  - com.google.javascript.jscomp.ConcreteTypeTest::testInstance
+  - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnresolvedType
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testIgnoreUnknownType
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testSkipNativeObjectMethod
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnknownType
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUntypedExterns
+  - com.google.javascript.jscomp.FunctionTypeBuilderTest::testValidBuiltInTypeRedefinition
+  - com.google.javascript.jscomp.FunctionTypeBuilderTest::testExternSubTypes
+  - com.google.javascript.jscomp.TightenTypesTest::testGetElem3
+  - com.google.javascript.jscomp.TightenTypesTest::testCatchStatement
+  - com.google.javascript.jscomp.TightenTypesTest::testExternSubTypesForObject
+  - com.google.javascript.jscomp.TypeCheckTest::testAddMethodsPrototypeTwoWays
+  - com.google.javascript.jscomp.TypeCheckTest::testDeclaredNativeTypeEquality
+  - com.google.javascript.jscomp.TypeCheckTest::testAddingMethodsPrototypeIdiomAndObjectLiteralSimpleNamespace
+  - com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtends5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAddMethodsPrototypeTwoWays
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPrototypeInit
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionPrototypeAndImplicitPrototype2
+---- exit code: 0 | Closure-135-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testGoodExtends9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-135-buggy/jacoco.exec.
+[INFO] Analyzing 829 classes.
+>>> [JACOCO] done

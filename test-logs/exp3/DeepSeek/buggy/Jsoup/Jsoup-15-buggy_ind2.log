@@ -1,0 +1,10 @@
+==== 2026-04-24 04:41:06 :: Jsoup-15-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+---- exit code: 0 | Jsoup-15-buggy_ind2
+

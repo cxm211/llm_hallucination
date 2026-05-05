@@ -1,0 +1,23 @@
+==== 2026-04-28 04:15:04 :: Time-25-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-buggy/jacoco.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] done.
+[PARSE] 23 line rows.

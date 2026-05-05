@@ -1,0 +1,68 @@
+==== 2026-04-26 05:48:10 :: Closure-143-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 28
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testTwoFiles
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testOneFile
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testManyFiles
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testFourFiles
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveCall2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveCall5
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall1
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook5
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook6
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook7
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveAssign3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveAssign6
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveInherits2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveInherits4
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testShortCircuit2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testShortCircuit3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex1
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex4
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma4
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma5
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testRemoveFromLabel2
+---- exit code: 0 | Closure-143-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNew1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlagEmptyString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-143-buggy/jacoco_base.exec.
+[INFO] Analyzing 849 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-143-buggy/jacoco.exec.
+[INFO] Analyzing 849 classes.
+>>> [JACOCO] done

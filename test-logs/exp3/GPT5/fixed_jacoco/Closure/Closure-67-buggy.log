@@ -1,0 +1,14 @@
+==== 2026-04-26 06:49:30 :: Closure-67-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/RemoveUnusedPrototypePropertiesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing3
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing5
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testPropertiesDefinedWithGetElem
+---- exit code: 0 | test_result: Not Pass | Closure-67-buggy
+

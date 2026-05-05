@@ -1,0 +1,11 @@
+==== 2026-04-26 19:58:36 :: JacksonDatabind-41-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/interop/DeprecatedTypeHandling1102Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-41-buggy
+

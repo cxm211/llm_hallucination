@@ -1,0 +1,14 @@
+==== 2026-03-28 14:59:01 :: Gson-4-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+[RESTORE] restored gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+---- exit code: 0 | test_result: Not Pass | Gson-4-buggy
+

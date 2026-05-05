@@ -1,0 +1,37 @@
+==== 2026-03-27 08:18:28 :: Closure-14-buggy_ind2 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-14-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1162 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testNestedCatchWithFinally
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testNestedCatchWithFinally
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-14-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1162 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 98 line rows.
+[PARSE] 98 base line rows.

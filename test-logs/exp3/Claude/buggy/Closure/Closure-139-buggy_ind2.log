@@ -1,0 +1,13 @@
+==== 2026-03-27 05:56:59 :: Closure-139-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.NormalizeTest::testNormalizeFunctionDeclarations
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations3
+  - com.google.javascript.jscomp.NormalizeTest::testMoveFunctionsWithLabelsAndBlocks
+  - com.google.javascript.jscomp.NormalizeTest::testMoveFunctions2
+---- exit code: 0 | Closure-139-buggy_ind2
+

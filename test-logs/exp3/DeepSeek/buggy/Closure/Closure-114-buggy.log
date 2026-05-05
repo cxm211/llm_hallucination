@@ -1,0 +1,12 @@
+==== 2026-04-22 00:14:25 :: Closure-114-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCallNested
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCallArgument
+---- exit code: 0 | Closure-114-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-03-27 19:59:35 :: Codec-5-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testModulus3EOF
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE
+---- exit code: 0 | Codec-5-buggy_ind2
+

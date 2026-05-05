@@ -1,0 +1,11 @@
+==== 2026-04-24 04:35:51 :: Jsoup-60-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.select.QueryParserTest::testParsesSingleQuoteInContains
+  - org.jsoup.select.QueryParserTest::exceptionOnUncloseAttribute
+---- exit code: 0 | Jsoup-60-buggy
+

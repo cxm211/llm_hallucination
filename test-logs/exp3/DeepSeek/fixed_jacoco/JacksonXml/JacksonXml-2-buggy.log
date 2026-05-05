@@ -1,0 +1,11 @@
+==== 2026-04-25 22:57:08 :: JacksonXml-2-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/dataformat/xml/misc/XmlTextTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testMixedContent
+---- exit code: 0 | test_result: Not Pass | JacksonXml-2-buggy
+

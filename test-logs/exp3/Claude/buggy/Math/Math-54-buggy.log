@@ -1,0 +1,12 @@
+==== 2026-03-29 23:58:40 :: Math-54-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.dfp.DfpTest::testZeroSignRoundTrip
+  - org.apache.commons.math.dfp.DfpTest::testIssue567
+  - org.apache.commons.math.dfp.DfpTest::testSubnormalWithSign
+---- exit code: 0 | Math-54-buggy
+

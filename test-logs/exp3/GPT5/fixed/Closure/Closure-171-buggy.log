@@ -1,0 +1,37 @@
+==== 2026-04-26 06:06:04 :: Closure-171-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+---- exit code: 0 | Closure-171-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 0, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-171-buggy/jacoco.exec.
+[INFO] Analyzing 1217 classes.
+>>> [JACOCO] done

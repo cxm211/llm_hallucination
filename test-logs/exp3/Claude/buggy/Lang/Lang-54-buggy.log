@@ -1,0 +1,13 @@
+==== 2026-03-29 15:52:45 :: Lang-54-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang.LocaleUtilsTest::testLang328
+  - org.apache.commons.lang.LocaleUtilsTest::testLang328_AdditionalCase1
+  - org.apache.commons.lang.LocaleUtilsTest::testLang328_AdditionalCase2
+  - org.apache.commons.lang.LocaleUtilsTest::testLang328_AdditionalCase3
+---- exit code: 0 | Lang-54-buggy
+

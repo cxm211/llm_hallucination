@@ -1,0 +1,10 @@
+==== 2026-04-23 06:42:26 :: Closure-158-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrderingWarningOff
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrderingWarningOff
+---- exit code: 0 | Closure-158-fixed_ind3
+

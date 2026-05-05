@@ -1,0 +1,13 @@
+==== 2026-04-24 07:58:04 :: Math-46-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.complex.ComplexTest::testAtanI
+  - org.apache.commons.math.complex.ComplexTest::testDivideDoubleZero
+  - org.apache.commons.math.complex.ComplexTest::testDivideZeroInfiniteDividend
+  - org.apache.commons.math.complex.ComplexTest::testDivideZero
+---- exit code: 0 | Math-46-buggy
+

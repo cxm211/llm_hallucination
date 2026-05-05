@@ -1,0 +1,15 @@
+==== 2026-03-27 06:04:21 :: Closure-148-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldTypeof
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput0
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput2
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput3
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput4
+---- exit code: 0 | Closure-148-buggy_ind2
+

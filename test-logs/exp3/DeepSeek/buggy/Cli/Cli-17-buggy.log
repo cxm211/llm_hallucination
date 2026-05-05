@@ -1,0 +1,12 @@
+==== 2026-04-21 19:34:42 :: Cli-17-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.PosixParserTest::testStopBurstingStartingNonOption
+  - org.apache.commons.cli.PosixParserTest::testStopBursting
+  - org.apache.commons.cli.PosixParserTest::testStopBurstingMiddleNonOption
+---- exit code: 0 | Cli-17-buggy
+

@@ -1,0 +1,29 @@
+==== 2026-04-24 05:03:16 :: Jsoup-69-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.nodes.FormElementTest::removeFormElement
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.FormElementTest::removeFormElement
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-69-buggy/jacoco_base.exec.
+[INFO] Analyzing 234 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.FormElementTest::removeTextareaFormElement
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.FormElementTest::removeTextareaFormElement
+[JACOCO] defects4j test -t org.jsoup.nodes.FormElementTest::removeSelectFormElement
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.FormElementTest::removeSelectFormElement
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-69-buggy/jacoco.exec.
+[INFO] Analyzing 234 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 4 line rows.
+[PARSE] 4 base line rows.

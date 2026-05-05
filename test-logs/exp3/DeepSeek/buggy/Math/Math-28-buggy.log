@@ -1,0 +1,10 @@
+==== 2026-04-24 07:55:40 :: Math-28-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle
+---- exit code: 0 | Math-28-buggy
+

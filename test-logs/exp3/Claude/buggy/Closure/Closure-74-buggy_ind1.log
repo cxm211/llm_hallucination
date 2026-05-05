@@ -1,0 +1,12 @@
+==== 2026-03-27 05:03:45 :: Closure-74-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators
+---- exit code: 0 | Closure-74-buggy_ind1
+

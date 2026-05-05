@@ -1,0 +1,9 @@
+==== 2026-04-21 21:52:51 :: Mockito-36-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailWhenMethodDeclaringClassIsInterface
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-36-fixed_ind2
+

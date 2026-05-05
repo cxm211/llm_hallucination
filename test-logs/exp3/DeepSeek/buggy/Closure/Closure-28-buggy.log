@@ -1,0 +1,11 @@
+==== 2026-04-21 23:33:14 :: Closure-28-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.InlineCostEstimatorTest::testCost
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue728
+---- exit code: 0 | Closure-28-buggy
+

@@ -1,0 +1,17 @@
+==== 2026-03-30 06:47:28 :: Math-102-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/stat/inference/ChiSquareTestTest.java
+[RESTORE] restored src/test/org/apache/commons/math/stat/inference/TestUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare
+---- exit code: 0 | test_result: Not Pass | Math-102-buggy
+

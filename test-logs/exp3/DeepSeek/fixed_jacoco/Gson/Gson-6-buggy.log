@@ -1,0 +1,12 @@
+==== 2026-04-26 01:00:06 :: Gson-6-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/regression/JsonAdapterNullSafeTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugSerialize
+---- exit code: 0 | test_result: Not Pass | Gson-6-buggy
+

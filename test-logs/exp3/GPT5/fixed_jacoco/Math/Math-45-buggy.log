@@ -1,0 +1,11 @@
+==== 2026-04-28 23:22:09 :: Math-45-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/linear/OpenMapRealMatrixTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679
+---- exit code: 0 | test_result: Not Pass | Math-45-buggy
+

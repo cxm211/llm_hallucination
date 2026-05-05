@@ -1,0 +1,16 @@
+==== 2026-04-22 02:40:17 :: Closure-127-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testDontRemoveContinueInFinallyInsideWhile
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428_return
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testDontRemoveBreakInTryFinally
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428_continue
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testDontRemoveBreakInTryFinallySwitch
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428a
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428c
+---- exit code: 0 | Closure-127-buggy_ind2
+

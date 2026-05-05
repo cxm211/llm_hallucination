@@ -1,0 +1,12 @@
+==== 2026-04-25 22:01:52 :: JxPath-17-buggy ====
+[RESTORE] restored src/test/org/apache/commons/jxpath/ri/model/XMLModelTestCase.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttribute
+---- exit code: 0 | test_result: Not Pass | JxPath-17-buggy
+

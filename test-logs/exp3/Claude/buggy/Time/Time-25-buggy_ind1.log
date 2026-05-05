@@ -1,0 +1,13 @@
+==== 2026-03-30 03:27:13 :: Time-25-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_boundary
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+---- exit code: 0 | Time-25-buggy_ind1
+

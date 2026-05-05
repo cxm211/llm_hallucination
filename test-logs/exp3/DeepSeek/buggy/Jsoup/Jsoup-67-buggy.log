@@ -1,0 +1,12 @@
+==== 2026-04-24 04:36:24 :: Jsoup-67-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::handlesDeepStack
+  - org.jsoup.parser.HtmlParserTest::handlesDeepStackList
+  - org.jsoup.parser.HtmlParserTest::handlesDeepStackDiv
+---- exit code: 0 | Jsoup-67-buggy
+

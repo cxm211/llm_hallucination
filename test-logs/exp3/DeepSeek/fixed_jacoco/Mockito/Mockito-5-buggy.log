@@ -1,0 +1,11 @@
+==== 2026-04-25 01:03:19 :: Mockito-5-buggy ====
+[RESTORE] restored test/org/mockitointegration/NoJUnitDependenciesTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.verification.VerificationWithTimeoutTest::canIgnoreInvocationsWithJunit
+---- exit code: 0 | test_result: Not Pass | Mockito-5-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-29 17:20:02 :: Collections-17-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.collections.functors.TestEqualPredicate::constructorUsesEqualsForTest
+  - org.apache.commons.collections.functors.TestEqualPredicate::objectFactoryUsesEqualsForTest
+---- exit code: 0 | Collections-17-buggy
+

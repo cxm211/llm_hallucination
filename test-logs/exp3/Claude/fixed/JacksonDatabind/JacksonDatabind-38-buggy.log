@@ -1,0 +1,56 @@
+==== 2026-03-28 07:51:42 :: JacksonDatabind-38-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testNestedCollectionType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-38-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 3, total: 6
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testNestedCollectionType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testNestedCollectionType
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testMapWithComplexValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testEmptyCollectionType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/jacoco_base.exec.
+[INFO] Analyzing 499 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-38-buggy/jacoco.exec.
+[INFO] Analyzing 499 classes.
+>>> [JACOCO] done

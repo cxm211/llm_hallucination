@@ -1,0 +1,11 @@
+==== 2026-04-25 20:14:28 :: Lang-35-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.ArrayUtilsAddTest::testLANG571
+  - org.apache.commons.lang3.ArrayUtilsAddTest::testAddAtIndex
+---- exit code: 0 | Lang-35-buggy_ind2
+

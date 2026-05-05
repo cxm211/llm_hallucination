@@ -1,0 +1,13 @@
+==== 2026-04-29 13:07:58 :: Codec-15-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.SoundexTest::testHWRuleEx1
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-15-buggy/jacoco.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] done.
+[PARSE] 16 line rows.

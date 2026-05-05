@@ -1,0 +1,13 @@
+==== 2026-03-29 18:27:46 :: Lang-20-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang3/StringUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray
+---- exit code: 0 | test_result: Not Pass | Lang-20-buggy
+

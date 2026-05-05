@@ -1,0 +1,12 @@
+==== 2026-04-26 00:45:26 :: Gson-15-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.stream.JsonWriterTest::testNonFiniteDoublesWhenLenient
+  - com.google.gson.stream.JsonWriterTest::testNonFiniteDoubleInObjectWhenLenient
+  - com.google.gson.stream.JsonWriterTest::testNonFiniteDoubleTopLevelWhenLenient
+---- exit code: 0 | Gson-15-buggy
+

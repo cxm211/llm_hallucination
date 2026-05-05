@@ -1,0 +1,13 @@
+==== 2026-04-24 08:04:49 :: Math-98-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.linear.BigMatrixImplTest::testOperateRowsLessThanCols
+  - org.apache.commons.math.linear.BigMatrixImplTest::testMath209
+  - org.apache.commons.math.linear.RealMatrixImplTest::testOperateRowsLessThanCols
+  - org.apache.commons.math.linear.RealMatrixImplTest::testMath209
+---- exit code: 0 | Math-98-buggy
+

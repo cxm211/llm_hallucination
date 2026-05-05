@@ -1,0 +1,14 @@
+==== 2026-04-23 02:44:38 :: Closure-83-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CommandLineRunnerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testBooleanFlag1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testBooleanFlag2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testVersionFlag
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testVersionFlag2
+---- exit code: 0 | test_result: Not Pass | Closure-83-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-04-24 04:07:24 :: Compress-29-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStream
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStreamAutodetect
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingOutputStream
+---- exit code: 0 | test_result: Not Pass | Compress-29-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-28 21:19:50 :: Math-24-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testConvergenceCheckerReturnsBestPoint
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testMath855
+---- exit code: 0 | Math-24-buggy
+

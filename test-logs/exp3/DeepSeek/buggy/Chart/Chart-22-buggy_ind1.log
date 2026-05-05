@@ -1,0 +1,16 @@
+==== 2026-04-21 18:26:07 :: Chart-22-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue
+  - org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex
+  - org.jfree.data.junit.KeyedObjects2DTests::testSetObject
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveObjectColumnBecomesEmptyButRowRemains
+---- exit code: 0 | Chart-22-buggy_ind1
+

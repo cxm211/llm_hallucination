@@ -1,0 +1,78 @@
+==== 2026-04-26 05:04:44 :: Closure-54-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 35
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExtends
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testImplementsAndExtends
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testImplementsAndExtends2
+  - com.google.javascript.jscomp.CodePrinterTest::testTempConstructor
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testSubtypesWithSameField
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testCustomInherits
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testClosureInherits
+  - com.google.javascript.jscomp.FunctionTypeBuilderTest::testExternSubTypes
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testUnknownPrototypeChain
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBadInterfaceExtends4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBadInterfaceExtends5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDirectPrototypeAssign
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBug1859535
+  - com.google.javascript.jscomp.TightenTypesTest::testRestrictToCastWithNonInstantiatedTypes
+  - com.google.javascript.jscomp.TightenTypesTest::testCallFunction
+  - com.google.javascript.jscomp.TightenTypesTest::testSubclass
+  - com.google.javascript.jscomp.TightenTypesTest::testCatchStatement
+  - com.google.javascript.jscomp.TightenTypesTest::testExternSubTypes
+  - com.google.javascript.jscomp.TightenTypesTest::testCallFunctionWithArgs
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorType9
+  - com.google.javascript.jscomp.TypeCheckTest::testNew11
+  - com.google.javascript.jscomp.TypeCheckTest::testUnknownPrototypeChain
+  - com.google.javascript.jscomp.TypeCheckTest::testDirectPrototypeAssignment3
+  - com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtends4
+  - com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtends5
+  - com.google.javascript.jscomp.TypeCheckTest::testDirectPrototypeAssign
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+  - com.google.javascript.jscomp.TypeCheckTest::testBug1859535
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPreservePrototypePropsOnSetProto
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testCtorWithPrototypeSet
+  - com.google.javascript.rhino.jstype.JSTypeTest::testLateSetPrototypeBasedOn
+  - com.google.javascript.rhino.jstype.JSTypeTest::testObjectGetSubTypes
+---- exit code: 0 | Closure-54-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testPreservePrototypePropsOnSetProto
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPreservePrototypePropsOnSetProto
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-54-buggy/jacoco_base.exec.
+[INFO] Analyzing 1112 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-54-buggy/jacoco.exec.
+[INFO] Analyzing 1112 classes.
+>>> [JACOCO] done

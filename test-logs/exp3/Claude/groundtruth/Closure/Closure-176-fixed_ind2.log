@@ -1,0 +1,10 @@
+==== 2026-04-21 07:48:31 :: Closure-176-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1056_functionType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1056_functionType
+---- exit code: 0 | Closure-176-fixed_ind2
+

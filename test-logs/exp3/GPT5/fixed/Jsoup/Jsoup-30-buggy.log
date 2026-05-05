@@ -1,0 +1,37 @@
+==== 2026-04-27 04:40:18 :: Jsoup-30-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.jsoup.safety.CleanerTest::handlesCustomProtocols
+  - org.jsoup.safety.CleanerTest::preservesRelativeLinksIfConfigured
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest2
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::testDropsUnknownTags
+  - org.jsoup.safety.CleanerTest::cleansInternationalText
+---- exit code: 0 | Jsoup-30-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidOnlyComment
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-30-buggy/jacoco_base.exec.
+[INFO] Analyzing 195 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-30-buggy/jacoco.exec.
+[INFO] Analyzing 195 classes.
+>>> [JACOCO] done

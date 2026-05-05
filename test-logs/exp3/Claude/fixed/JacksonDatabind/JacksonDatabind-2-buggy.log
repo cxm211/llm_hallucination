@@ -1,0 +1,42 @@
+==== 2026-03-28 07:30:20 :: JacksonDatabind-2-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojos
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojosWithNegativeValue
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojosWithNullValue
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-2-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojos
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojos
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojosWithNullValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojosWithNullValue
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojosWithNegativeValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestConversions::testConversionOfPojosWithNegativeValue
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-2-buggy/jacoco_base.exec.
+[INFO] Analyzing 485 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-2-buggy/jacoco.exec.
+[INFO] Analyzing 485 classes.
+>>> [JACOCO] done

@@ -1,0 +1,28 @@
+==== 2026-04-24 03:27:05 :: Compress-6-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest::testNotEquals
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest::testNotEquals
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-6-buggy/jacoco_base.exec.
+[INFO] Analyzing 63 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest::testEqualsDifferentSize
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest::testEqualsDifferentSize
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest::testHashCodeConsistentWithEquals
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-6-buggy/jacoco.exec.
+[INFO] Analyzing 63 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 20 line rows.
+[PARSE] 20 base line rows.

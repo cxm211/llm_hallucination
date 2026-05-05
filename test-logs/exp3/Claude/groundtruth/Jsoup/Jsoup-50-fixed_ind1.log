@@ -1,0 +1,10 @@
+==== 2026-04-21 10:49:25 :: Jsoup-50-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.helper.DataUtilTest::supportsUTF8BOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::supportsUTF8BOM
+---- exit code: 0 | Jsoup-50-fixed_ind1
+

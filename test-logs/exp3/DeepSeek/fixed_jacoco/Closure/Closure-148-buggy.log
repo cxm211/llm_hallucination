@@ -1,0 +1,15 @@
+==== 2026-04-23 03:30:24 :: Closure-148-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/PeepholeFoldConstantsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput0
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput2
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput3
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput4
+---- exit code: 0 | test_result: Not Pass | Closure-148-buggy
+

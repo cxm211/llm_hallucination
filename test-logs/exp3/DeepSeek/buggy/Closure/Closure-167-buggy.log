@@ -1,0 +1,12 @@
+==== 2026-04-22 00:41:56 :: Closure-167-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue783
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty20
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRestrictedTypeGivenToBoolean
+---- exit code: 0 | Closure-167-buggy
+

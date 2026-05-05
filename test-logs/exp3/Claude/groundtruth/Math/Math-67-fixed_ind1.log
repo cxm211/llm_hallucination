@@ -1,0 +1,10 @@
+==== 2026-04-21 12:01:10 :: Math-67-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMax
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMax
+---- exit code: 0 | Math-67-fixed_ind1
+

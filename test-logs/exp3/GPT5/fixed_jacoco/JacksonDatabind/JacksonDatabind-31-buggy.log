@@ -1,0 +1,150 @@
+==== 2026-04-26 19:52:54 :: JacksonDatabind-31-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/util/TestTokenBuffer.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/maven-build.xml:90: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 388 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:199: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ctor.isAccessible()) {
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:269: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!m.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java:174: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!f.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:672: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_STRING, text);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,String)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:686: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_STRING, text);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,SerializableString)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:731: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, new RawValue(text));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,RawValue)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:739: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, new RawValue(text));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,RawValue)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:744: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, new RawValue(new String(text, offset, len)));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,RawValue)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:755: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NUMBER_INT, Short.valueOf(i));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,Short)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:760: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NUMBER_INT, Integer.valueOf(i));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,Integer)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:765: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NUMBER_INT, Long.valueOf(l));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,Long)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:770: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NUMBER_FLOAT, Double.valueOf(d));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,Double)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:775: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NUMBER_FLOAT, Float.valueOf(f));
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,Float)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:783: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_NUMBER_FLOAT, dec);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,BigDecimal)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:792: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_NUMBER_INT, v);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,BigInteger)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:801: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NUMBER_FLOAT, encodedValue);
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken,String)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:806: error: cannot find symbol
+    [javac]             _appendValue(state ? JsonToken.VALUE_TRUE : JsonToken.VALUE_FALSE);
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:811: error: cannot find symbol
+    [javac]             _appendValue(JsonToken.VALUE_NULL);
+    [javac]             ^
+    [javac]   symbol:   method _appendValue(JsonToken)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:829: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, value);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,Object)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:837: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, value);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,Object)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/TokenBuffer.java:853: error: cannot find symbol
+    [javac]                 _appendValue(JsonToken.VALUE_EMBEDDED_OBJECT, node);
+    [javac]                 ^
+    [javac]   symbol:   method _appendValue(JsonToken,TreeNode)
+    [javac]   location: class TokenBuffer
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/DateDeserializers.java:225: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 Calendar c = _calendarClass.newInstance();            
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/deser/std/NumberDeserializers.java:461: warning: [deprecation] Double(String) in Double has been deprecated
+    [javac]                         return new Double(text);
+    [javac]                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/ext/OptionalHandlerFactory.java:98: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             return Class.forName(className).newInstance();
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/ser/BasicSerializerFactory.java:319: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     return serClass.newInstance();
+    [javac]                                    ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java:511: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ao.isAccessible()) {
+    [javac]                    ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 18 errors
+    [javac] 8 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-31-buggy/maven-build.xml:90: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | test_result: Not Compilable | JacksonDatabind-31-buggy
+

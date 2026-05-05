@@ -1,0 +1,14 @@
+==== 2026-03-31 21:06:37 :: Jsoup-42-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.nodes.FormElementTest::skipsDisabledRadioButton
+  - org.jsoup.nodes.FormElementTest::createsFormData
+  - org.jsoup.nodes.FormElementTest::skipsDisabledSelectElement
+  - org.jsoup.nodes.FormElementTest::includesEnabledTextareaWithDisabledInput
+  - org.jsoup.nodes.FormElementTest::usesOnForCheckboxValueIfNoValueSet
+---- exit code: 0 | Jsoup-42-buggy
+

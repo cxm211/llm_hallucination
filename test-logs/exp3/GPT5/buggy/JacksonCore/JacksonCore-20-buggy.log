@@ -1,0 +1,12 @@
+==== 2026-04-29 02:24:00 :: JacksonCore-20-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.core.base64.Base64GenerationTest::testEmptyBinaryAsEmbeddedObject
+  - com.fasterxml.jackson.core.base64.Base64GenerationTest::testBinaryAsEmbeddedObject
+  - com.fasterxml.jackson.core.main.TestGeneratorMisc::testAsEmbedded
+---- exit code: 0 | JacksonCore-20-buggy
+

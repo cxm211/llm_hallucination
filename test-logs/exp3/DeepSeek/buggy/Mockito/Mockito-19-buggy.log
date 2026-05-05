@@ -1,0 +1,12 @@
+==== 2026-04-24 17:41:16 :: Mockito-19-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldNotInjectSingleMockWhenNameDoesNotMatch
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+  - org.mockitousage.verification.VerificationWithTimeoutTest::canIgnoreInvocationsWithJunit
+---- exit code: 0 | Mockito-19-buggy
+

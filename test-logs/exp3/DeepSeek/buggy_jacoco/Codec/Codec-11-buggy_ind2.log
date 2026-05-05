@@ -1,0 +1,52 @@
+==== 2026-04-24 01:55:48 :: Codec-11-buggy_ind2 ====
+[JACOCO] trigger=5 add=1 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testSkipNotEncodedCRLF
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- commons-codec 1.6-SNAPSHOT --------
+
+prepare:
+
+static:
+
+compile:
+
+compile.tests:
+    [javac] Compiling 4 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/target/tests
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:204: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:248: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java:361: error: cannot find symbol
+    [javac]         assertTrue("Encoded string should contain soft line break", encoded.contains("=\r\n"));
+    [javac]         ^
+    [javac]   symbol:   method assertTrue(String,boolean)
+    [javac]   location: class QuotedPrintableCodecTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:240: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/src/test/java/org/apache/commons/codec/net/URLCodecTest.java:286: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             Object dObj = new Double(3.0);
+    [javac]                           ^
+    [javac] 1 error
+    [javac] 8 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy_ind2/build.xml:195: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 66 rows.

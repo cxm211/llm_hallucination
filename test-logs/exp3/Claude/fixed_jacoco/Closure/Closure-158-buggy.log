@@ -1,0 +1,12 @@
+==== 2026-03-27 18:08:30 :: Closure-158-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CommandLineRunnerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering4
+---- exit code: 0 | test_result: Not Pass | Closure-158-buggy
+

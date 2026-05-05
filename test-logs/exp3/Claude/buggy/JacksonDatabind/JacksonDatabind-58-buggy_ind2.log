@@ -1,0 +1,12 @@
+==== 2026-03-28 05:24:09 :: JacksonDatabind-58-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.misc.AccessFixTest::testNonCausePropertyOfThrowable
+  - com.fasterxml.jackson.databind.misc.AccessFixTest::testCauseOfThrowableIgnoral
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-58-buggy_ind2
+

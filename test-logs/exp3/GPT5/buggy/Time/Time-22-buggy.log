@@ -1,0 +1,12 @@
+==== 2026-04-28 04:07:14 :: Time-22-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.joda.time.TestDuration_Basics::testToPeriod_UTCZone
+  - org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+---- exit code: 0 | Time-22-buggy
+

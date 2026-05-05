@@ -1,0 +1,44 @@
+==== 2026-03-27 11:56:26 :: Closure-146-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition_NumberAndString
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition1
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition2
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition3
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition4
+  - com.google.javascript.jscomp.TypeInferenceTest::testThrow
+  - com.google.javascript.rhino.jstype.JSTypeTest::testGetTypesUnderInequality4
+---- exit code: 0 | Closure-146-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition4
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition_NumberAndString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition_NumberAndString
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition_NullAndVoid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-146-buggy/jacoco_base.exec.
+[INFO] Analyzing 898 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-146-buggy/jacoco.exec.
+[INFO] Analyzing 898 classes.
+>>> [JACOCO] done

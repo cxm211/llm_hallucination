@@ -1,0 +1,28 @@
+==== 2026-04-24 01:53:57 :: Codec-8-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testCodec105
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec105
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-buggy/jacoco_base.exec.
+[INFO] Analyzing 27 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testSetInitialBufferWithOffsetDecode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testSetInitialBufferWithOffsetEncode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testSetInitialBufferWithOffsetEncode
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-buggy/jacoco.exec.
+[INFO] Analyzing 27 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 52 line rows.
+[PARSE] 52 base line rows.

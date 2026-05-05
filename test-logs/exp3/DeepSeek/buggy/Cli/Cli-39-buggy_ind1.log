@@ -1,0 +1,12 @@
+==== 2026-04-21 19:38:04 :: Cli-39-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePattern
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePatternFileNotExist
+  - org.apache.commons.cli.PatternOptionBuilderTest::testExistingFilePatternDirectory
+---- exit code: 0 | Cli-39-buggy_ind1
+

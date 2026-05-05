@@ -1,0 +1,33 @@
+==== 2026-03-27 13:33:11 :: Closure-45-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_non_literal_no_alias
+---- exit code: 0 | Closure-45-buggy_ind3
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_non_literal_no_alias
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_non_literal_no_alias
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-45-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 1116 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-45-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 1116 classes.
+>>> [JACOCO] done

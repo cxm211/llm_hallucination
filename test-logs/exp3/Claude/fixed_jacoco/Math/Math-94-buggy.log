@@ -1,0 +1,11 @@
+==== 2026-03-30 06:46:34 :: Math-94-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/util/MathUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testGcd
+---- exit code: 0 | test_result: Not Pass | Math-94-buggy
+

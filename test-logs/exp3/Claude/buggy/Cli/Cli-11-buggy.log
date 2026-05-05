@@ -1,0 +1,12 @@
+==== 2026-04-04 21:09:19 :: Cli-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.HelpFormatterTest::testPrintLongOptionWithEmptyArgNameUsage
+  - org.apache.commons.cli.HelpFormatterTest::testPrintOptionWithEmptyArgNameUsage
+  - org.apache.commons.cli.HelpFormatterTest::testPrintOptionWithEmptyArgNameNotRequired
+---- exit code: 0 | Cli-11-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-22 00:21:05 :: Closure-124-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017
+  - com.google.javascript.jscomp.ExploitAssignsTest::testNestedPropertyDepth3
+---- exit code: 0 | Closure-124-buggy
+

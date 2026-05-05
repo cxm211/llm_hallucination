@@ -1,0 +1,14 @@
+==== 2026-03-28 03:36:24 :: JacksonDatabind-38-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testNestedCollectionType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-38-buggy
+

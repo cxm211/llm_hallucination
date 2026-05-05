@@ -1,0 +1,21 @@
+==== 2026-03-29 23:56:54 :: Math-43-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testMultipleOverrides
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideGeoMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideVarianceWithMathClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideMeanWithCustomClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testNoOverride
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testMultipleOverrides
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideGeoMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideVarianceWithMathClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideMeanWithCustomClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testNoOverride
+---- exit code: 0 | Math-43-buggy
+

@@ -1,0 +1,62 @@
+==== 2026-03-28 01:25:10 :: Compress-21-buggy_ind3 ====
+[JACOCO] trigger=8 add=1 total=9
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenEmptyFiles
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenEmptyFiles
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightFilesSomeNotEmpty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightFilesSomeNotEmpty
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixEmptyFiles
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixEmptyFiles
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightEmptyFiles
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightEmptyFiles
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineEmptyFiles
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineEmptyFiles
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixFilesSomeNotEmpty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixFilesSomeNotEmpty
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineFilesSomeNotEmpty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineFilesSomeNotEmpty
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenFilesSomeNotEmpty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenFilesSomeNotEmpty
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-21-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 173 classes.
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testFifteenEmptyFiles
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testFifteenEmptyFiles
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-21-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 173 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 16 line rows.
+[PARSE] 16 base line rows.

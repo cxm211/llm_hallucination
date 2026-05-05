@@ -1,0 +1,13 @@
+==== 2026-04-21 23:40:11 :: Closure-39-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testExactlyMaxPropertiesAnnotation
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testNestedRecordAnnotation
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString
+---- exit code: 0 | Closure-39-buggy
+

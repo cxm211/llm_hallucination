@@ -1,0 +1,47 @@
+==== 2026-04-27 04:52:37 :: Jsoup-91-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.integration.ConnectTest::testBinaryThrowsExceptionWhenTypeIgnored
+  - org.jsoup.integration.ConnectTest::testBinaryResultThrows
+  - org.jsoup.integration.ParseTest::testBinaryThrowsExceptionFromStream
+  - org.jsoup.integration.ParseTest::testBinaryThrowsException
+---- exit code: 0 | Jsoup-91-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t org.jsoup.integration.ConnectTest::testBinaryThrowsExceptionWhenTypeIgnored
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ConnectTest::testBinaryThrowsExceptionWhenTypeIgnored
+[JACOCO] defects4j test -t org.jsoup.integration.ConnectTest::testBinaryResultThrows
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ConnectTest::testBinaryResultThrows
+[JACOCO] defects4j test -t org.jsoup.integration.ParseTest::testBinaryThrowsException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ParseTest::testBinaryThrowsException
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.integration.ParseTest::testBinaryThrowsExceptionFromStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ParseTest::testBinaryThrowsExceptionFromStream
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-91-buggy/jacoco_base.exec.
+[INFO] Analyzing 237 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-91-buggy/jacoco.exec.
+[INFO] Analyzing 237 classes.
+>>> [JACOCO] done

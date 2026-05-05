@@ -1,0 +1,9 @@
+==== 2026-04-26 01:05:38 :: Gson-7-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t com.google.gson.stream.JsonReaderTest::testNextLongWithLargeLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Gson-7-fixed_ind1
+

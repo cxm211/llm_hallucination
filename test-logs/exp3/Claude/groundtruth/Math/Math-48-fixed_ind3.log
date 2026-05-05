@@ -1,0 +1,10 @@
+==== 2026-04-21 11:57:12 :: Math-48-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSlowConvergenceCubic
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest
+---- exit code: 0 | Math-48-fixed_ind3
+

@@ -1,0 +1,11 @@
+==== 2026-04-22 03:35:09 :: Closure-170-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testVarAssinInsideHookIssue965
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testVarAssignInsideNestedHook
+---- exit code: 0 | Closure-170-buggy_ind2
+

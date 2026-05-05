@@ -1,0 +1,59 @@
+==== 2026-04-24 19:36:14 :: Mockito-20-buggy ====
+[JACOCO] trigger=8 add=1 total=9
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.mockitousage.annotation.SpyAnnotationTest::should_spy_inner_class
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.SpyAnnotationTest::should_spy_inner_class
+[JACOCO] defects4j test -t org.mockitousage.annotation.SpyAnnotationTest::should_report_when_constructor_is_explosive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.SpyAnnotationTest::should_report_when_constructor_is_explosive
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_not_found
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_not_found
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::mocking_inner_classes_with_wrong_outer_instance
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::mocking_inner_classes_with_wrong_outer_instance
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-buggy/jacoco_base.exec.
+[INFO] Analyzing 326 classes.
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_is_private
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_is_private
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-buggy/jacoco.exec.
+[INFO] Analyzing 326 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 30 line rows.
+[PARSE] 30 base line rows.

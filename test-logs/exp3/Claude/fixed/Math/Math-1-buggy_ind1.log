@@ -1,0 +1,41 @@
+==== 2026-03-30 04:16:48 :: Math-1-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConvergenceEdgeCase
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+  - org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+---- exit code: 0 | Math-1-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+[JACOCO] defects4j test -t org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConvergenceEdgeCase
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConvergenceEdgeCase
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-1-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 857 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-1-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 857 classes.
+>>> [JACOCO] done

@@ -1,0 +1,13 @@
+==== 2026-04-28 21:31:39 :: Math-69-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero
+  - org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testNegativeCorrelationPValueNearZero
+  - org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero
+  - org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testNegativeCorrelationPValueNearZero
+---- exit code: 0 | Math-69-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-03-27 04:14:26 :: Closure-27-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.rhino.IRTest::testIssue727_1
+  - com.google.javascript.rhino.IRTest::testIssue727_2
+  - com.google.javascript.rhino.IRTest::testIssue727_3
+  - com.google.javascript.rhino.IRTest::testTryCatchWithMultipleStatements
+---- exit code: 0 | Closure-27-buggy_ind2
+

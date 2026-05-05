@@ -1,0 +1,12 @@
+==== 2026-03-30 00:03:06 :: Math-70-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369
+  - org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369_AdditionalCase1
+  - org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369_AdditionalCase2
+---- exit code: 0 | Math-70-buggy
+

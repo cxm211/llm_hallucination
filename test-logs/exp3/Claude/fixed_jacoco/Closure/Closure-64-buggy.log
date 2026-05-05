@@ -1,0 +1,12 @@
+==== 2026-03-27 17:38:33 :: Closure-64-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CommandLineRunnerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrictMultipleInputs
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrict
+---- exit code: 0 | test_result: Not Pass | Closure-64-buggy
+

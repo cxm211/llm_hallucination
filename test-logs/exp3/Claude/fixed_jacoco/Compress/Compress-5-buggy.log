@@ -1,0 +1,11 @@
+==== 2026-03-28 02:10:33 :: Compress-5-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testRead7ZipMultiVolumeArchiveForStream
+---- exit code: 0 | test_result: Not Pass | Compress-5-buggy
+

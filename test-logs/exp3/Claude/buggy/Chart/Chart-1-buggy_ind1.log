@@ -1,0 +1,11 @@
+==== 2026-04-22 17:07:22 :: Chart-1-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::testGetLegendItemsWithMultipleSeries
+  - org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660
+---- exit code: 0 | Chart-1-buggy_ind1
+

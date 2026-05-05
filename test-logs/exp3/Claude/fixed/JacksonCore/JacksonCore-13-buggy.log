@@ -1,0 +1,41 @@
+==== 2026-03-28 16:45:05 :: JacksonCore-13-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingToggle
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingEnabled
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingDisabled
+---- exit code: 0 | JacksonCore-13-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingEnabled
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingEnabled
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingDisabled
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingDisabled
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingToggle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testFieldNameQuotingToggle
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-13-buggy/jacoco_base.exec.
+[INFO] Analyzing 79 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-13-buggy/jacoco.exec.
+[INFO] Analyzing 79 classes.
+>>> [JACOCO] done

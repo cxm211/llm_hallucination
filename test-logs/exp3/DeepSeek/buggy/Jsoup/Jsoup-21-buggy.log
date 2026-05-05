@@ -1,0 +1,11 @@
+==== 2026-04-24 04:33:09 :: Jsoup-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- exit code: 0 | Jsoup-21-buggy
+

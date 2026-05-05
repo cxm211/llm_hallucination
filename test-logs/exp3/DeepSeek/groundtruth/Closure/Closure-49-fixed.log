@@ -1,0 +1,11 @@
+==== 2026-04-23 05:05:07 :: Closure-49-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.FunctionInjectorTest::testInlineFunctionWithRecursiveExpression
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testRecursiveFunctionExpression
+---- exit code: 0 | Closure-49-fixed
+

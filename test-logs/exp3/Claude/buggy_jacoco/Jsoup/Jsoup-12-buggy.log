@@ -1,0 +1,37 @@
+==== 2026-03-31 21:53:38 :: Jsoup-12-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testByAttributeRegexCombined
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttributeRegexCombined
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-12-buggy/jacoco_base.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testByAttributeRegexWithPipeInChildCombinator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttributeRegexWithPipeInChildCombinator
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testByAttributeRegexWithPipeInAdjacentSiblingCombinator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttributeRegexWithPipeInAdjacentSiblingCombinator
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testByAttributeRegexWithPipeInGeneralSiblingCombinator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttributeRegexWithPipeInGeneralSiblingCombinator
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-12-buggy/jacoco.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 18 line rows.
+[PARSE] 18 base line rows.

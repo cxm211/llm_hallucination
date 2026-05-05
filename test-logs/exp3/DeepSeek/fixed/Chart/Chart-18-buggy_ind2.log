@@ -1,0 +1,47 @@
+==== 2026-04-21 18:51:38 :: Chart-18-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+---- exit code: 0 | Chart-18-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 4, add tests: 1, total: 5
+[JACOCO] defects4j test -t org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+[JACOCO] defects4j test -t org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+[JACOCO] defects4j test -t org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveLastColumnAndReAdd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 513 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-18-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 513 classes.
+>>> [JACOCO] done

@@ -1,0 +1,11 @@
+==== 2026-04-21 11:36:38 :: Math-28-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828CycleVariant2
+---- exit code: 0 | Math-28-fixed
+

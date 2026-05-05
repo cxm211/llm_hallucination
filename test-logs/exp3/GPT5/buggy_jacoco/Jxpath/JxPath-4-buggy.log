@@ -1,0 +1,38 @@
+==== 2026-04-29 01:34:40 :: JxPath-4-buggy ====
+[JACOCO] trigger=6 add=0 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testPreserveDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testPreserveDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedJDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedWithCommentsJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedWithCommentsJDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testPreserveJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testPreserveJDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedWithCommentsDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedWithCommentsDOM
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-4-buggy/jacoco.exec.
+[INFO] Analyzing 155 classes.
+[JACOCO] done.
+[PARSE] 85 line rows.

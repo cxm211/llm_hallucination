@@ -1,0 +1,10 @@
+==== 2026-04-26 08:04:06 :: Closure-25-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew_multipleParams
+---- exit code: 0 | Closure-25-fixed
+

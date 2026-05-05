@@ -1,0 +1,12 @@
+==== 2026-03-27 03:36:27 :: Closure-154-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck12
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck12_AdditionalCase1
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck12_AdditionalCase2
+---- exit code: 0 | Closure-154-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-29 00:40:19 :: Lang-33-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.ClassUtilsTest::testToClass_object
+---- exit code: 0 | Lang-33-buggy
+

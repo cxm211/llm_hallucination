@@ -1,0 +1,9 @@
+==== 2026-04-23 06:13:20 :: Closure-36-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.IntegrationTest::testSingletonGetterMultipleCalls
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Closure-36-fixed_ind2
+

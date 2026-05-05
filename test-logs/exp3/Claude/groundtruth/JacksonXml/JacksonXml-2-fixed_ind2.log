@@ -1,0 +1,10 @@
+==== 2026-04-21 10:31:55 :: JacksonXml-2-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testMixedContentTextBeforeMultipleElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testMixedContentTextBeforeMultipleElements
+---- exit code: 0 | JacksonXml-2-fixed_ind2
+

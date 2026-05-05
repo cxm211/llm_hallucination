@@ -1,0 +1,11 @@
+==== 2026-03-29 23:51:17 :: Math-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases
+  - org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2NonZeroWithZero
+---- exit code: 0 | Math-10-buggy
+

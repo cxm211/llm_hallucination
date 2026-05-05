@@ -1,0 +1,28 @@
+==== 2026-04-25 23:22:31 :: JacksonCore-9-buggy_ind2 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextBytes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextBytes
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextChars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextChars
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsStringWithDefaultValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 58 line rows.
+[PARSE] 58 base line rows.

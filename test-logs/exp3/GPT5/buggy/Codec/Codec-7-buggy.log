@@ -1,0 +1,11 @@
+==== 2026-04-29 12:45:26 :: Codec-7-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+---- exit code: 0 | Codec-7-buggy
+

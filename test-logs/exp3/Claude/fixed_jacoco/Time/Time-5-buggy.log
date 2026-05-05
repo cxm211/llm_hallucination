@@ -1,0 +1,14 @@
+==== 2026-03-30 05:37:26 :: Time-5-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/TestPeriod_Basics.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_yearMonth2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_yearMonth2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+---- exit code: 0 | test_result: Not Pass | Time-5-buggy
+

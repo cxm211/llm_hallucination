@@ -1,0 +1,35 @@
+==== 2026-03-27 12:55:13 :: Closure-25-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNewWithNestedObject
+---- exit code: 0 | Closure-25-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNewWithNestedObject
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNewWithNestedObject
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-25-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1150 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-25-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1150 classes.
+>>> [JACOCO] done

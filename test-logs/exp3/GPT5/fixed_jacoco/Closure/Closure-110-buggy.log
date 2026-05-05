@@ -1,0 +1,13 @@
+==== 2026-04-26 07:00:45 :: Closure-110-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ScopedAliasesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testHoistedFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testBadParameters
+---- exit code: 0 | test_result: Not Pass | Closure-110-buggy
+

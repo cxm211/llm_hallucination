@@ -1,0 +1,9 @@
+==== 2026-04-21 16:48:37 :: Time-12-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Time-12-fixed_ind3
+

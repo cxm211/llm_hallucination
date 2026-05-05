@@ -1,0 +1,12 @@
+==== 2026-03-29 23:52:12 :: Math-15-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.util.FastMathTest::testMath904DifferentBase
+  - org.apache.commons.math3.util.FastMathTest::testMath904NegativeExponent
+  - org.apache.commons.math3.util.FastMathTest::testMath904
+---- exit code: 0 | Math-15-buggy
+

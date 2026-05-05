@@ -1,0 +1,16 @@
+==== 2026-03-29 16:20:51 :: Lang-42-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-42-buggy/jacoco.exec.
+[INFO] Analyzing 126 classes.
+[JACOCO] done.
+[PARSE] 20 line rows.

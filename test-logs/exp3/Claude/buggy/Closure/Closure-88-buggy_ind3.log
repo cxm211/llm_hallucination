@@ -1,0 +1,16 @@
+==== 2026-03-27 05:14:50 :: Closure-88-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f
+---- exit code: 0 | Closure-88-buggy_ind3
+

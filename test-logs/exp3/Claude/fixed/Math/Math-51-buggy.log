@@ -1,0 +1,39 @@
+==== 2026-03-30 03:44:41 :: Math-51-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631_MultipleIterations
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+---- exit code: 0 | Math-51-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631_NegativeRoot
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631_MultipleIterations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631_MultipleIterations
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-51-buggy/jacoco_base.exec.
+[INFO] Analyzing 577 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-51-buggy/jacoco.exec.
+[INFO] Analyzing 577 classes.
+>>> [JACOCO] done

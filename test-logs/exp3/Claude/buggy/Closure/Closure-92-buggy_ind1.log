@@ -1,0 +1,11 @@
+==== 2026-03-27 05:17:33 :: Closure-92-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules5
+---- exit code: 0 | Closure-92-buggy_ind1
+

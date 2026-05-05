@@ -1,0 +1,12 @@
+==== 2026-04-24 08:05:29 :: Math-106-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinusWholeNegativeNumeratorNegative
+  - org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidZeroDenominator
+  - org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinus
+---- exit code: 0 | Math-106-buggy
+

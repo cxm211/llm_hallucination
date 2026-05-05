@@ -1,0 +1,44 @@
+==== 2026-03-27 11:30:00 :: Closure-112-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testBug7701884
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1058
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+---- exit code: 0 | Closure-112-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 2, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1058
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1058
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testTemplateInferenceWithNoMatchingParameters
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testTemplateInferenceWithUnrelatedTemplateParam
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-112-buggy/jacoco_base.exec.
+[INFO] Analyzing 1226 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-112-buggy/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+>>> [JACOCO] done

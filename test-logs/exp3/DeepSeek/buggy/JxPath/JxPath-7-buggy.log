@@ -1,0 +1,11 @@
+==== 2026-04-25 21:43:06 :: JxPath-7-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNodeSetOperationsRelational
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNodeSetOperations
+---- exit code: 0 | JxPath-7-buggy
+

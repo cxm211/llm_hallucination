@@ -1,0 +1,19 @@
+==== 2026-04-26 07:18:27 :: Closure-154-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck7
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck12
+  - com.google.javascript.jscomp.TypeCheckTest::testDataPropertyOnInterface2
+  - com.google.javascript.jscomp.TypeCheckTest::testDataPropertyOnInterface3
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck5
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck6
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck7
+---- exit code: 0 | test_result: Not Pass | Closure-154-buggy
+

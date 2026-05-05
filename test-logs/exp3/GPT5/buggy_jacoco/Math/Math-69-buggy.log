@@ -1,0 +1,29 @@
+==== 2026-04-28 22:14:29 :: Math-69-buggy ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero
+[JACOCO] defects4j test -t org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-69-buggy/jacoco_base.exec.
+[INFO] Analyzing 436 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testNegativeCorrelationPValueNearZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testNegativeCorrelationPValueNearZero
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-69-buggy/jacoco.exec.
+[INFO] Analyzing 436 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 17 line rows.
+[PARSE] 17 base line rows.

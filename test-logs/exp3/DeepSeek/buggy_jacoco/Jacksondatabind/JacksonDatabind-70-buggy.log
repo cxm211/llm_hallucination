@@ -1,0 +1,59 @@
+==== 2026-04-23 10:22:43 :: JacksonDatabind-70-buggy ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.struct.TestUnwrapped::testCaseInsensitiveUnwrap
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/maven-build.xml:92: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+jackson-databind-from-maven.compile-tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/maven-build.xml:120: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 72 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/src/test/java/com/fasterxml/jackson/databind/struct/TestUnwrapped.java:222: error: cannot find symbol
+    [javac]         new com.fasterxml.jackson.databind.deser.SettableBeanProperty.Nop(propName);
+    [javac]                                                                      ^
+    [javac]   symbol:   class Nop
+    [javac]   location: class SettableBeanProperty
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/src/test/java/com/fasterxml/jackson/databind/struct/TestUnwrapped.java:227: error: no suitable constructor found for BeanPropertyMap(ArrayList<SettableBeanProperty>,boolean)
+    [javac]         new com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap(props, true);
+    [javac]         ^
+    [javac]     constructor BeanPropertyMap.BeanPropertyMap(boolean,Collection<SettableBeanProperty>) is not applicable
+    [javac]       (argument mismatch; ArrayList<SettableBeanProperty> cannot be converted to boolean)
+    [javac]     constructor BeanPropertyMap.BeanPropertyMap(BeanPropertyMap,boolean) is not applicable
+    [javac]       (argument mismatch; ArrayList<SettableBeanProperty> cannot be converted to BeanPropertyMap)
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/src/test/java/com/fasterxml/jackson/databind/struct/TestUnwrapped.java:235: error: no suitable constructor found for BeanPropertyMap(List<Object>,boolean)
+    [javac]         new com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap(java.util.Collections.emptyList(), true);
+    [javac]         ^
+    [javac]     constructor BeanPropertyMap.BeanPropertyMap(boolean,Collection<SettableBeanProperty>) is not applicable
+    [javac]       (argument mismatch; List<Object> cannot be converted to boolean)
+    [javac]     constructor BeanPropertyMap.BeanPropertyMap(BeanPropertyMap,boolean) is not applicable
+    [javac]       (argument mismatch; List<Object> cannot be converted to BeanPropertyMap)
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/src/test/java/com/fasterxml/jackson/databind/struct/TestUnwrapped.java:238: error: cannot find symbol
+    [javac]         new com.fasterxml.jackson.databind.deser.SettableBeanProperty.Nop(propName);
+    [javac]                                                                      ^
+    [javac]   symbol:   class Nop
+    [javac]   location: class SettableBeanProperty
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/src/test/java/com/fasterxml/jackson/failing/TestUnknownProperty426.java:21: warning: [deprecation] Integer(String) in Integer has been deprecated
+    [javac]             setUserId(new Integer(id.toString()));
+    [javac]                       ^
+    [javac] 4 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-70-buggy/maven-build.xml:120: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 28 rows.

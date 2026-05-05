@@ -1,0 +1,43 @@
+==== 2026-03-27 10:48:49 :: Closure-45-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_aliased_no_property
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_non_literal_no_alias
+---- exit code: 0 | Closure-45-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 3, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_aliased_no_property
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_aliased_no_property
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_literal_with_property
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_non_literal_no_alias
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_non_literal_no_alias
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-45-buggy/jacoco_base.exec.
+[INFO] Analyzing 1116 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-45-buggy/jacoco.exec.
+[INFO] Analyzing 1116 classes.
+>>> [JACOCO] done

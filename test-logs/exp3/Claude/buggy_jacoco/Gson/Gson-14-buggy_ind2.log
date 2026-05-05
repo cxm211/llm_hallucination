@@ -1,0 +1,57 @@
+==== 2026-03-28 14:42:32 :: Gson-14-buggy_ind2 ====
+[JACOCO] trigger=7 add=1 total=8
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSupertype
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSupertype
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue440WeakReference
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue440WeakReference
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testSubSupertype
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSubSupertype
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSubtype
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testDoubleSubtype
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue603PrintStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue603PrintStream
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testSuperSubtype
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testSuperSubtype
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveResolveSimple
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveResolveSimple
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 156 classes.
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t com.google.gson.internal.bind.RecursiveTypesResolveTest::testTripleSupertype
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testTripleSupertype
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-14-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 156 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 10 line rows.
+[PARSE] 10 base line rows.

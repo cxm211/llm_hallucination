@@ -1,0 +1,41 @@
+==== 2026-03-27 15:44:31 :: Closure-131-buggy_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testControlCharactersInMiddle
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert
+---- exit code: 0 | Closure-131-buggy_ind4
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testControlCharactersInMiddle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testControlCharactersInMiddle
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-131-buggy_ind4/jacoco_base.exec.
+[INFO] Analyzing 1183 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-131-buggy_ind4/jacoco.exec.
+[INFO] Analyzing 1183 classes.
+>>> [JACOCO] done

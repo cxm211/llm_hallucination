@@ -1,0 +1,60 @@
+==== 2026-04-22 21:31:05 :: Closure-117-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 24
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrintFunctionName2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends11
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis1
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis3
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis4
+  - com.google.javascript.jscomp.TypeCheckTest::testPrintFunctionName2
+  - com.google.javascript.jscomp.TypeCheckTest::testOverriddenParams6
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionCall9
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends11
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends19
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis2b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1023
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047_interface
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue301
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue368
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue586
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue726
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue765
+  - com.google.javascript.jscomp.TypeCheckTest::testAnonymousPrototype1
+---- exit code: 0 | Closure-117-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1047_chain
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1047_interface
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047_interface
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-117-buggy/jacoco_base.exec.
+[INFO] Analyzing 1226 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-117-buggy/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+>>> [JACOCO] done

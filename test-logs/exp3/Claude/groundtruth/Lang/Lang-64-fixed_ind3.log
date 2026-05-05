@@ -1,0 +1,9 @@
+==== 2026-04-21 11:19:11 :: Lang-64-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_valueOrdering
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Lang-64-fixed_ind3
+

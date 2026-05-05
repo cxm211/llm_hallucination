@@ -1,0 +1,10 @@
+==== 2026-04-21 11:49:44 :: Math-18-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBoundariesWithVerySmallRange
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBoundariesWithVerySmallRange
+---- exit code: 0 | Math-18-fixed_ind2
+

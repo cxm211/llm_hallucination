@@ -1,0 +1,13 @@
+==== 2026-03-28 12:02:49 :: JacksonDatabind-108-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/node/EmptyContentAsTreeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest::testNullFromEOFWithParserAndReader
+  - com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest::testMissingNodeViaObjectReader
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-108-buggy
+

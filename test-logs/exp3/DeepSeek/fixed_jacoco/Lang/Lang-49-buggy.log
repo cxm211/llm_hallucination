@@ -1,0 +1,12 @@
+==== 2026-04-25 21:20:02 :: Lang-49-buggy ====
+[RESTORE] restored src/test/org/apache/commons/lang/math/FractionTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang/math/FractionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.math.FractionTest::testReduce
+---- exit code: 0 | test_result: Not Pass | Lang-49-buggy
+

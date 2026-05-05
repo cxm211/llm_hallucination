@@ -1,0 +1,10 @@
+==== 2026-04-21 11:58:35 :: Math-54-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.dfp.DfpTest::testSubnormalWithSign
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.dfp.DfpTest::testSubnormalWithSign
+---- exit code: 0 | Math-54-fixed_ind2
+

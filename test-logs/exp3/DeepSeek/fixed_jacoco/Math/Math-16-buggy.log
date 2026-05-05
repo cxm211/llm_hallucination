@@ -1,0 +1,18 @@
+==== 2026-04-24 12:24:02 :: Math-16-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math3/util/FastMathTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math3.complex.ComplexTest::testCoshInf
+  - org.apache.commons.math3.complex.ComplexTest::testCosInf
+  - org.apache.commons.math3.complex.ComplexTest::testSinhInf
+  - org.apache.commons.math3.complex.ComplexTest::testSinInf
+  - org.apache.commons.math3.util.FastMathStrictComparisonTest::test1
+  - org.apache.commons.math3.util.FastMathStrictComparisonTest::test1
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargePositive
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargeNegative
+---- exit code: 0 | test_result: Not Pass | Math-16-buggy
+

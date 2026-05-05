@@ -1,0 +1,10 @@
+==== 2026-04-26 00:25:35 :: JacksonCore-20-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/base64/Base64GenerationTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | JacksonCore-20-buggy
+

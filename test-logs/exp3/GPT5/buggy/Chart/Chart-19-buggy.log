@@ -1,0 +1,12 @@
+==== 2026-04-27 02:17:42 :: Chart-19-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex
+  - org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex_Parent
+---- exit code: 0 | Chart-19-buggy
+

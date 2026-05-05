@@ -1,0 +1,10 @@
+==== 2026-04-21 07:09:44 :: Closure-54-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass3
+---- exit code: 0 | Closure-54-fixed_ind2
+

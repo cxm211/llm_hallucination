@@ -1,0 +1,11 @@
+==== 2026-03-27 23:19:36 :: Collections-14-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.collections.map.TestCaseInsensitiveMap::testLocaleIndependence
+  - org.apache.commons.collections.map.TestCaseInsensitiveMap::testTurkishLocaleSpecificCases
+---- exit code: 0 | Collections-14-buggy_ind1
+

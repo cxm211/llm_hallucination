@@ -1,0 +1,11 @@
+==== 2026-04-24 18:46:30 :: Mockito-30-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersOnSmartNullPointerExceptionMessage
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldIncludeParametersIncludingNull
+---- exit code: 0 | Mockito-30-buggy_ind2
+

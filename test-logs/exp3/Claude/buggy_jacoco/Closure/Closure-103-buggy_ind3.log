@@ -1,0 +1,37 @@
+==== 2026-03-27 07:47:13 :: Closure-103-buggy_ind3 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-103-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 843 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfNestedThrowsException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfNestedThrowsException
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-103-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 843 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 36 line rows.
+[PARSE] 36 base line rows.

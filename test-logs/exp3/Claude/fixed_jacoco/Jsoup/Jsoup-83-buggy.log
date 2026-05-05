@@ -1,0 +1,13 @@
+==== 2026-04-01 02:12:11 :: Jsoup-83-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/HtmlParserTest.java
+[RESTORE] restored src/test/java/org/jsoup/parser/TokeniserStateTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.HtmlParserTest::parsesQuiteRoughAttributes
+  - org.jsoup.parser.TokeniserStateTest::handlesLessInTagThanAsNewTag
+---- exit code: 0 | test_result: Not Pass | Jsoup-83-buggy
+

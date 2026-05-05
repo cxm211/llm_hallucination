@@ -1,0 +1,10 @@
+==== 2026-04-21 15:45:46 :: Time-4-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Basics::testWithNewFieldInvalidRangeType
+---- exit code: 0 | Time-4-fixed
+

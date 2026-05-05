@@ -1,0 +1,14 @@
+==== 2026-03-29 14:45:04 :: JxPath-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAttributeNamespaceWithExternalPrefix
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNamespaceMapping
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAttributeNamespaceWithExternalPrefix
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testNamespaceMapping
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAttributeWildcardWithNamespace
+---- exit code: 0 | JxPath-11-buggy
+

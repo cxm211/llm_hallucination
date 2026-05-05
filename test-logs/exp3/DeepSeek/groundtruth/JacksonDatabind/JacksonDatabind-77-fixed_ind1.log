@@ -1,0 +1,10 @@
+==== 2026-04-24 01:35:48 :: JacksonDatabind-77-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testIssue1599Interface
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testIssue1599Interface
+---- exit code: 0 | JacksonDatabind-77-fixed_ind1
+

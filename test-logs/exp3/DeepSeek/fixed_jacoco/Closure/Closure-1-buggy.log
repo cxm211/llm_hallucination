@@ -1,0 +1,18 @@
+==== 2026-04-23 01:43:28 :: Closure-1-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/RemoveUnusedVarsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue787
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b
+---- exit code: 0 | test_result: Not Pass | Closure-1-buggy
+

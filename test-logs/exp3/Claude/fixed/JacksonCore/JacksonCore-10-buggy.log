@@ -1,0 +1,57 @@
+==== 2026-03-28 16:44:33 :: JacksonCore-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSpilloverBoundaryCondition
+---- exit code: 0 | JacksonCore-10-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 4, add tests: 2, total: 6
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testSpilloverBoundaryCondition
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSpilloverBoundaryCondition
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testLargeSpilloverArea
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-buggy/jacoco_base.exec.
+[INFO] Analyzing 83 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-buggy/jacoco.exec.
+[INFO] Analyzing 83 classes.
+>>> [JACOCO] done

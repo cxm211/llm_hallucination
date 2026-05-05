@@ -1,0 +1,10 @@
+==== 2026-04-21 12:01:59 :: Math-72-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtMaxEndpointWithInitialEqualsMax
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtMaxEndpointWithInitialEqualsMax
+---- exit code: 0 | Math-72-fixed_ind2
+

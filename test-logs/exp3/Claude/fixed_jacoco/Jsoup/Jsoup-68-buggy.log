@@ -1,0 +1,10 @@
+==== 2026-04-01 02:10:20 :: Jsoup-68-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/HtmlParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Jsoup-68-buggy
+

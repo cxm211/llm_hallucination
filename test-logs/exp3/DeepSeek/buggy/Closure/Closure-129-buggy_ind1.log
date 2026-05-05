@@ -1,0 +1,10 @@
+==== 2026-04-22 02:41:23 :: Closure-129-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue937
+---- exit code: 0 | Closure-129-buggy_ind1
+

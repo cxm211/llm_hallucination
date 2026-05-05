@@ -1,0 +1,11 @@
+==== 2026-04-24 04:17:36 :: Compress-36-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::readEmptyThenNonEmpty
+  - org.apache.commons.compress.archivers.sevenz.SevenZFileTest::readEmptyEntryMultipleTimes
+---- exit code: 0 | Compress-36-fixed
+

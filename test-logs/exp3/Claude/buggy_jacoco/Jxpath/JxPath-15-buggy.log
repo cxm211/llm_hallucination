@@ -1,0 +1,42 @@
+==== 2026-03-29 14:54:39 :: JxPath-15-buggy ====
+[JACOCO] trigger=2 add=3 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testUnion
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testUnion
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testUnion
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testUnion
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-buggy/jacoco_base.exec.
+[INFO] Analyzing 161 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testUnionMultipleElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLModelTestCase
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testUnionThreeElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLModelTestCase
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.XMLModelTestCase::testUnionSingleElement
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.XMLModelTestCase
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-15-buggy/jacoco.exec.
+[INFO] Analyzing 161 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 20 line rows.
+[PARSE] 20 base line rows.

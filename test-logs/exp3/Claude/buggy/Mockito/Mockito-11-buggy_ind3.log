@@ -1,0 +1,12 @@
+==== 2026-03-30 04:06:52 :: Mockito-11-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_different_method
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_equal
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_self
+---- exit code: 0 | Mockito-11-buggy_ind3
+

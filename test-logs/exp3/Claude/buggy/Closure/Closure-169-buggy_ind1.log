@@ -1,0 +1,12 @@
+==== 2026-03-27 06:22:21 :: Closure-169-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue791
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionTypeEquivalenceWithUnknownReturn
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSubtypeWithUnknowns2
+---- exit code: 0 | Closure-169-buggy_ind1
+

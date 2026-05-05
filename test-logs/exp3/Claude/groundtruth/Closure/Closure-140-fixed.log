@@ -1,0 +1,12 @@
+==== 2026-04-21 06:33:18 :: Closure-140-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CrossModuleCodeMotionTest::testEmptyModuleWithNonEmptyDependency
+  - com.google.javascript.jscomp.CrossModuleCodeMotionTest::testMultipleEmptyModulesInChain
+  - com.google.javascript.jscomp.CrossModuleCodeMotionTest::testAllEmptyModules
+---- exit code: 0 | Closure-140-fixed
+

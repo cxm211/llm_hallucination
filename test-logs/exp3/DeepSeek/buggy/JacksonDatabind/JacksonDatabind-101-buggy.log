@@ -1,0 +1,12 @@
+==== 2026-04-23 09:21:11 :: JacksonDatabind-101-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testIssue2088UnwrappedFieldsAfterLastCreatorProp
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testUnwrappedFieldOnlyAfterLastCreatorProperty
+---- exit code: 0 | JacksonDatabind-101-buggy
+

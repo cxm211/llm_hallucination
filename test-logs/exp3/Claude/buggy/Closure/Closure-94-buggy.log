@@ -1,0 +1,14 @@
+==== 2026-03-27 03:17:10 :: Closure-94-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.NodeUtilTest::testValidDefine
+  - com.google.javascript.jscomp.NodeUtilTest::testValidDefineWithNestedOperations
+  - com.google.javascript.jscomp.NodeUtilTest::testValidDefineWithBitwiseOperations
+  - com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1
+  - com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3
+---- exit code: 0 | Closure-94-buggy
+

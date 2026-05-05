@@ -1,0 +1,13 @@
+==== 2026-04-23 02:45:13 :: Closure-85-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/UnreachableCodeEliminationTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveUnreachableCode
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311
+---- exit code: 0 | test_result: Not Pass | Closure-85-buggy
+

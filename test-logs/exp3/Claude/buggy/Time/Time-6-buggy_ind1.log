@@ -1,0 +1,14 @@
+==== 2026-03-30 03:10:01 :: Time-6-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.joda.time.chrono.TestGJDate::test_cutoverPreZero
+  - org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover
+---- exit code: 0 | Time-6-buggy_ind1
+

@@ -1,0 +1,18 @@
+==== 2026-04-29 12:14:18 :: Gson-8-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.gson.internal.UnsafeAllocatorInstantiationTest::testInterfaceInstantiation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.UnsafeAllocatorInstantiationTest::testInterfaceInstantiation
+[JACOCO] defects4j test -t com.google.gson.internal.UnsafeAllocatorInstantiationTest::testAbstractClassInstantiation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.internal.UnsafeAllocatorInstantiationTest::testAbstractClassInstantiation
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-8-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] done.
+[PARSE] 71 line rows.

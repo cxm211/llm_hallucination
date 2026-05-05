@@ -1,0 +1,10 @@
+==== 2026-04-27 04:54:49 :: Jsoup-27-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/helper/DataUtilTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Jsoup-27-buggy
+

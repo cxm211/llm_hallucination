@@ -1,0 +1,18 @@
+==== 2026-03-31 21:04:26 :: Jsoup-28-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.jsoup.nodes.EntitiesTest::charValueJustOverBoundary
+  - org.jsoup.nodes.EntitiesTest::invalidHighCharacterValue
+  - org.jsoup.nodes.EntitiesTest::unescape
+  - org.jsoup.nodes.EntitiesTest::noSpuriousDecodes
+  - org.jsoup.nodes.EntitiesTest::supplementaryPlaneCharacter
+  - org.jsoup.parser.AttributeParseTest::moreAttributeUnescapes
+  - org.jsoup.parser.AttributeParseTest::strictAttributeUnescapes
+  - org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+  - org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+---- exit code: 0 | Jsoup-28-buggy
+

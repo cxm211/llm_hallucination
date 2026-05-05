@@ -1,0 +1,10 @@
+==== 2026-04-29 12:19:55 :: Gson-7-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/stream/JsonReaderTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Gson-7-buggy
+

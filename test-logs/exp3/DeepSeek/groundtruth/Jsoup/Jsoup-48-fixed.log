@@ -1,0 +1,10 @@
+==== 2026-04-24 07:15:42 :: Jsoup-48-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.HttpConnectionTest::headersWithNullValues
+---- exit code: 0 | Jsoup-48-fixed
+

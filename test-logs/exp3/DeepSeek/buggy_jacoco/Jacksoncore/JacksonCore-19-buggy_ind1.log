@@ -1,0 +1,24 @@
+==== 2026-04-25 23:19:05 :: JacksonCore-19-buggy_ind1 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestNumericValues::testLongerFloatingPoint
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestNumericValues::testLongerFloatingPoint
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-19-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 79 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestNumericValues::testLongerFloatingPointNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.TestNumericValues::testLongerFloatingPointNegative
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-19-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 79 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 214 line rows.
+[PARSE] 214 base line rows.

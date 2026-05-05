@@ -1,0 +1,11 @@
+==== 2026-04-01 02:11:03 :: Jsoup-73-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/helper/W3CDomTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.W3CDomTest::namespacePreservation
+---- exit code: 0 | test_result: Not Pass | Jsoup-73-buggy
+

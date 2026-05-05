@@ -1,0 +1,12 @@
+==== 2026-04-01 02:13:26 :: Jsoup-93-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/FormElementTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.FormElementTest::removeFormElement
+  - org.jsoup.nodes.FormElementTest::adoptedFormsRetainInputs
+---- exit code: 0 | test_result: Not Pass | Jsoup-93-buggy
+

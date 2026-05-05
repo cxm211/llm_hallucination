@@ -1,0 +1,12 @@
+==== 2026-04-29 02:22:42 :: JacksonCore-7-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.core.json.GeneratorFailTest::testFailOnWritingNumberNotFieldName
+  - com.fasterxml.jackson.core.json.GeneratorFailTest::testFailOnWritingStringNotFieldNameBytes
+  - com.fasterxml.jackson.core.json.GeneratorFailTest::testFailOnWritingStringNotFieldNameChars
+---- exit code: 0 | JacksonCore-7-buggy
+

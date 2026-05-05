@@ -1,0 +1,47 @@
+==== 2026-04-23 19:52:01 :: JacksonDatabind-104-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.fasterxml.jackson.databind.ext.TestCoreXMLTypes::testXMLGregorianCalendarSerAndDeser
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateWithJsonFormat
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_customTZ
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_Additional
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_colonInTZ
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDatesAsMapKeys
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateDefaultShape
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_BCE
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601
+---- exit code: 0 | JacksonDatabind-104-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_10k
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_BCE
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_BCE
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_Additional
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_Additional
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-104-buggy/jacoco_base.exec.
+[INFO] Analyzing 547 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-104-buggy/jacoco.exec.
+[INFO] Analyzing 547 classes.
+>>> [JACOCO] done

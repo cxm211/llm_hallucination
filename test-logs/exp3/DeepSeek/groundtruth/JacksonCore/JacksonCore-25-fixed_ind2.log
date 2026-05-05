@@ -1,0 +1,10 @@
+==== 2026-04-26 00:36:07 :: JacksonCore-25-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedInvalidCharAfterNonASCII
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedInvalidCharAfterNonASCII
+---- exit code: 0 | JacksonCore-25-fixed_ind2
+

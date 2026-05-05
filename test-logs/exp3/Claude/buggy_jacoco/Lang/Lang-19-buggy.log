@@ -1,0 +1,40 @@
+==== 2026-03-29 16:14:45 :: Lang-19-buggy ====
+[JACOCO] trigger=2 add=3 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-buggy/jacoco_base.exec.
+[INFO] Analyzing 141 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testDecimalEntityWithoutSemicolon
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testDecimalEntityWithoutSemicolon
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testValidEntitiesWithSemicolon
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryCharacter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-buggy/jacoco.exec.
+[INFO] Analyzing 141 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 47 line rows.
+[PARSE] 47 base line rows.

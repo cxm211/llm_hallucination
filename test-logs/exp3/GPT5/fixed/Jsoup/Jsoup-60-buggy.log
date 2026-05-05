@@ -1,0 +1,28 @@
+==== 2026-04-27 04:45:52 :: Jsoup-60-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.select.QueryParserTest::testParsesSingleQuoteInContains
+  - org.jsoup.select.QueryParserTest::exceptionOnUncloseAttribute
+---- exit code: 0 | Jsoup-60-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.jsoup.select.QueryParserTest::testParsesSingleQuoteInContains
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.QueryParserTest::testParsesSingleQuoteInContains
+[JACOCO] defects4j test -t org.jsoup.select.QueryParserTest::exceptionOnUncloseAttribute
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.QueryParserTest::exceptionOnUncloseAttribute
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-60-buggy/jacoco.exec.
+[INFO] Analyzing 223 classes.
+>>> [JACOCO] done

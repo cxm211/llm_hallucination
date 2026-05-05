@@ -1,0 +1,34 @@
+==== 2026-04-25 20:20:36 :: Lang-20-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar
+[JACOCO] defects4j test -t org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-20-buggy/jacoco_base.exec.
+[INFO] Analyzing 141 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar_NullToString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar_NullToString
+[JACOCO] defects4j test -t org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray_NullToString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray_NullToString
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-20-buggy/jacoco.exec.
+[INFO] Analyzing 141 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 48 line rows.
+[PARSE] 48 base line rows.

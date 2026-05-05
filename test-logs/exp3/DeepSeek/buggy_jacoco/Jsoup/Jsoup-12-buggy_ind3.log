@@ -1,0 +1,24 @@
+==== 2026-04-24 05:08:35 :: Jsoup-12-buggy_ind3 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testByAttributeRegexCombined
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByAttributeRegexCombined
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-12-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testGeneralSiblingCombinatorWithAttrContainingTilde
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testGeneralSiblingCombinatorWithAttrContainingTilde
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-12-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 81 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 18 line rows.
+[PARSE] 18 base line rows.

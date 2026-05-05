@@ -1,0 +1,12 @@
+==== 2026-03-30 00:05:56 :: Math-97-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.analysis.BrentSolverTest::testRootEndpointsMaxIsRoot
+  - org.apache.commons.math.analysis.BrentSolverTest::testRootEndpointsMinIsRoot
+  - org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints
+---- exit code: 0 | Math-97-buggy
+

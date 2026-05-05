@@ -1,0 +1,36 @@
+==== 2026-03-30 00:56:37 :: Math-72-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-72-buggy/jacoco_base.exec.
+[INFO] Analyzing 417 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtMinEndpointWithInitialEqualsMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtMinEndpointWithInitialEqualsMin
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtMaxEndpointWithInitialEqualsMax
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtMaxEndpointWithInitialEqualsMax
+[JACOCO] defects4j test -t org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootAtNegativeEndpoint
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-72-buggy/jacoco.exec.
+[INFO] Analyzing 417 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 47 line rows.
+[PARSE] 47 base line rows.

@@ -1,0 +1,9 @@
+==== 2026-04-26 00:34:50 :: JacksonCore-2-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.json.TestParserErrorHandling::testLeadingZeroFractionChars
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | JacksonCore-2-fixed_ind2
+

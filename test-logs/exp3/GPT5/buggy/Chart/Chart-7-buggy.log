@@ -1,0 +1,11 @@
+==== 2026-04-27 02:16:13 :: Chart-7-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex
+  - org.jfree.data.time.junit.TimePeriodValuesTests::testMaxMiddleIndexNotUpdatedAfterLowerMiddle
+---- exit code: 0 | Chart-7-buggy
+

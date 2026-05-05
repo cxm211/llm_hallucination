@@ -1,0 +1,31 @@
+==== 2026-04-29 01:40:30 :: JxPath-19-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+---- exit code: 0 | JxPath-19-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-buggy/jacoco.exec.
+[INFO] Analyzing 162 classes.
+>>> [JACOCO] done

@@ -1,0 +1,47 @@
+==== 2026-03-27 16:34:20 :: Closure-163-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600_NestedClosureWithMultipleLevels
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600b
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600e
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600
+---- exit code: 0 | Closure-163-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600e
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600e
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600_NestedClosureWithMultipleLevels
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600_NestedClosureWithMultipleLevels
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-163-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1113 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-163-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1113 classes.
+>>> [JACOCO] done

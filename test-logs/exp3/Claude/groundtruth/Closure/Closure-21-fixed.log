@@ -1,0 +1,12 @@
+==== 2026-04-21 05:45:21 :: Closure-21-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCodeInForLoopComma
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCodeInCommaFirstChild
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCodeInNestedComma
+---- exit code: 0 | Closure-21-fixed
+

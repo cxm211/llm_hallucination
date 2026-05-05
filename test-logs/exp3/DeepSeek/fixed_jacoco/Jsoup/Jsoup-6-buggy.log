@@ -1,0 +1,12 @@
+==== 2026-04-24 06:54:15 :: Jsoup-6-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/EntitiesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.integration.ParseTest::testYahooArticle
+  - org.jsoup.nodes.EntitiesTest::quoteReplacements
+---- exit code: 0 | test_result: Not Pass | Jsoup-6-buggy
+

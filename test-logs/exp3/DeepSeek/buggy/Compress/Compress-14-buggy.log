@@ -1,0 +1,13 @@
+==== 2026-04-24 03:20:53 :: Compress-14-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::workaroundForBrokenTimeHeader
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalNoTerminator
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalLengthZero
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalSingleDigit
+---- exit code: 0 | Compress-14-buggy
+

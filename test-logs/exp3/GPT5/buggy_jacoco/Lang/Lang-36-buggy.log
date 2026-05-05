@@ -1,0 +1,18 @@
+==== 2026-04-29 00:48:49 :: Lang-36-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
+[JACOCO] defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-36-buggy/jacoco.exec.
+[INFO] Analyzing 117 classes.
+[JACOCO] done.
+[PARSE] 243 line rows.

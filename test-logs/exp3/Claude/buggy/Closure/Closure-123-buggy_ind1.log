@@ -1,0 +1,11 @@
+==== 2026-03-27 05:40:23 :: Closure-123-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop
+  - com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInHookExpression
+---- exit code: 0 | Closure-123-buggy_ind1
+

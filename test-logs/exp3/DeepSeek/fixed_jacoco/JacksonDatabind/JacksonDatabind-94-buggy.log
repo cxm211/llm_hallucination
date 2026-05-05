@@ -1,0 +1,11 @@
+==== 2026-04-23 23:11:58 :: JacksonDatabind-94-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/interop/IllegalTypesCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testC3P0Types
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-94-buggy
+

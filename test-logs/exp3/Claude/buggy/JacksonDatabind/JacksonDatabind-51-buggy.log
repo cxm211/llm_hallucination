@@ -1,0 +1,12 @@
+==== 2026-03-28 03:43:37 :: JacksonDatabind-51-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testPolymorphicTypeViaCustomWithDifferentTypeClass
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testPolymorphicTypeViaCustom
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testPolymorphicTypeViaCustomWithoutGenerics
+---- exit code: 0 | JacksonDatabind-51-buggy
+

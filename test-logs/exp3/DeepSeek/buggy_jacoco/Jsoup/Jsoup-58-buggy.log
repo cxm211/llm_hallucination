@@ -1,0 +1,32 @@
+==== 2026-04-24 04:59:52 :: Jsoup-58-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidDocument
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.safety.CleanerTest::testIsValidDocument
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/jacoco_base.exec.
+[INFO] Analyzing 223 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidProtocol
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidInvalidNesting
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/jacoco.exec.
+[INFO] Analyzing 223 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 14 line rows.
+[PARSE] 14 base line rows.

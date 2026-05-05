@@ -1,0 +1,11 @@
+==== 2026-04-24 15:07:07 :: Time-27-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455
+  - org.joda.time.format.TestPeriodFormatterBuilder::testParserOnlyWithSeparator
+---- exit code: 0 | Time-27-buggy_ind3
+

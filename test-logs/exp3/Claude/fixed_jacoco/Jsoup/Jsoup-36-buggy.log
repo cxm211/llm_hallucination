@@ -1,0 +1,15 @@
+==== 2026-04-01 02:04:52 :: Jsoup-36-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/helper/DataUtilTest.java
+[RESTORE] restored src/test/java/org/jsoup/integration/ParseTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.helper.DataUtilTest::shouldCorrectCharsetForDuplicateCharsetString
+  - org.jsoup.helper.DataUtilTest::shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+  - org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+  - org.jsoup.integration.ParseTest::testHtml5Charset
+---- exit code: 0 | test_result: Not Pass | Jsoup-36-buggy
+

@@ -1,0 +1,47 @@
+==== 2026-03-27 14:49:45 :: Closure-98-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testGlobalWriteToNonAncestor
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAliasOfFunction
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias4
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias5
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias6
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalAlias7
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNoInlineGetpropIntoCall
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testLocalWriteToNonAncestor
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineParameterAlias1
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineParameterAlias2
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInNestedLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliasesInLoop
+---- exit code: 0 | Closure-98-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInLoop
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInNestedLoop
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInNestedLoop
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-98-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 889 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-98-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 889 classes.
+>>> [JACOCO] done

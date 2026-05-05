@@ -1,0 +1,43 @@
+==== 2026-04-22 08:30:29 :: Closure-175-buggy_ind1 ====
+[JACOCO] trigger=5 add=1 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+[JACOCO] defects4j test -t com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testInlineMutableArgsReferencedOnce
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineMutableArgsReferencedOnce
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-175-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1349 classes.
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101c
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-175-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1349 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 90 line rows.
+[PARSE] 90 base line rows.

@@ -1,0 +1,11 @@
+==== 2026-04-24 17:51:23 :: Mockito-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockito.internal.creation.instance.ConstructorInstantiatorTest::creates_instance_of_private_local_inner_class_with_subclass_outer
+  - org.mockito.internal.creation.instance.ConstructorInstantiatorTest::creates_instances_of_inner_classes
+---- exit code: 0 | Mockito-21-buggy
+

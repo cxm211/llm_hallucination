@@ -1,0 +1,43 @@
+==== 2026-04-24 10:51:36 :: Math-31-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718
+  - org.apache.commons.math3.distribution.BinomialDistributionTest::testLargeTrialsConsistency
+  - org.apache.commons.math3.distribution.FDistributionTest::testMath785
+  - org.apache.commons.math3.distribution.PoissonDistributionTest::testCumulativeProbabilitySpecial
+  - org.apache.commons.math3.distribution.PoissonDistributionTest::testLargeMeanInverseCumulativeProbability
+---- exit code: 0 | Math-31-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718
+[JACOCO] defects4j test -t org.apache.commons.math3.distribution.FDistributionTest::testMath785
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.distribution.FDistributionTest::testMath785
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math3.distribution.BinomialDistributionTest::testLargeTrialsConsistency
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.distribution.BinomialDistributionTest::testLargeTrialsConsistency
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-31-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 648 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-31-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 648 classes.
+>>> [JACOCO] done

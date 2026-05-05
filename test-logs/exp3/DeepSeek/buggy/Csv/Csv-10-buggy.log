@@ -1,0 +1,12 @@
+==== 2026-04-26 01:39:08 :: Csv-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.csv.CSVPrinterTest::testHeaderWithComma
+  - org.apache.commons.csv.CSVPrinterTest::testHeaderWithQuote
+  - org.apache.commons.csv.CSVPrinterTest::testHeader
+---- exit code: 0 | Csv-10-buggy
+

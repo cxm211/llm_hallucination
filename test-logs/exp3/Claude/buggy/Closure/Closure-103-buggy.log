@@ -1,0 +1,13 @@
+==== 2026-03-27 03:18:47 :: Closure-103-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfNestedThrowsException
+  - com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty
+---- exit code: 0 | Closure-103-buggy
+

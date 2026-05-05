@@ -1,0 +1,11 @@
+==== 2026-04-23 02:50:53 :: Closure-95-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference6
+---- exit code: 0 | test_result: Not Pass | Closure-95-buggy
+

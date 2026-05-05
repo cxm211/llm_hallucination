@@ -1,0 +1,12 @@
+==== 2026-04-01 02:12:21 :: Jsoup-84-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/helper/W3CDomTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.helper.W3CDomTest::treatsUndeclaredNamespaceAsLocalName
+  - org.jsoup.helper.W3CDomTest::convertsGoogle
+---- exit code: 0 | test_result: Not Pass | Jsoup-84-buggy
+

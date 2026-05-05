@@ -1,0 +1,11 @@
+==== 2026-04-25 22:01:27 :: JxPath-12-buggy ====
+[RESTORE] restored src/test/org/apache/commons/jxpath/ri/model/ExternalXMLNamespaceTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testElementDOM
+---- exit code: 0 | test_result: Not Pass | JxPath-12-buggy
+

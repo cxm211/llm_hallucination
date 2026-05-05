@@ -1,0 +1,10 @@
+==== 2026-04-25 21:33:05 :: Lang-37-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.ArrayUtilsAddTest::testAddAllLongAndNumber
+---- exit code: 0 | Lang-37-fixed
+

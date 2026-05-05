@@ -1,0 +1,10 @@
+==== 2026-04-29 13:24:57 :: Codec-11-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakDecodeLFOnly
+---- exit code: 0 | Codec-11-fixed
+

@@ -1,0 +1,20 @@
+==== 2026-04-04 21:17:53 :: Cli-16-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.apache.commons.cli2.bug.BugCLI123Test::testMultipleChildOptions
+  - org.apache.commons.cli2.bug.BugCLI123Test::testParentOptionAndChildOption
+  - org.apache.commons.cli2.bug.BugCLI123Test::testSingleChildOption
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_WithEmptyGroup
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_Order
+---- exit code: 0 | Cli-16-buggy_ind2
+

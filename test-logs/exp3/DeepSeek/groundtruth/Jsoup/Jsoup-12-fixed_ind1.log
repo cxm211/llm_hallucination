@@ -1,0 +1,10 @@
+==== 2026-04-24 07:20:42 :: Jsoup-12-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.select.SelectorTest::testChildCombinatorWithAttrContainingGt
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testChildCombinatorWithAttrContainingGt
+---- exit code: 0 | Jsoup-12-fixed_ind1
+

@@ -1,0 +1,12 @@
+==== 2026-04-29 01:43:23 :: JxPath-19-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+---- exit code: 0 | test_result: Not Pass | JxPath-19-buggy
+

@@ -1,0 +1,17 @@
+==== 2026-04-27 04:59:21 :: Jsoup-86-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/XmlTreeBuilderTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.helper.DataUtilTest::supportsXmlCharsetDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::caseSensitiveDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesDodgyXmlDecl
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesLTinScript
+  - org.jsoup.parser.XmlTreeBuilderTest::testDetectCharsetEncodingDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testParseDeclarationAttributes
+---- exit code: 0 | test_result: Not Pass | Jsoup-86-buggy
+

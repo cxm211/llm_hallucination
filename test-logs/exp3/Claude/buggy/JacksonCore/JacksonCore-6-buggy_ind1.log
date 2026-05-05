@@ -1,0 +1,11 @@
+==== 2026-03-28 15:16:18 :: JacksonCore-6-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.TestJsonPointer::testLeadingZeroesRejected
+  - com.fasterxml.jackson.core.TestJsonPointer::testIZeroIndex
+---- exit code: 0 | JacksonCore-6-buggy_ind1
+

@@ -1,0 +1,10 @@
+==== 2026-04-25 22:06:31 :: JxPath-14-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testCoreFunctionsRoundSpecial
+---- exit code: 0 | JxPath-14-fixed
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 22:22:43 :: Cli-27-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.cli.ParserTestCase::testOptionGroupLongReselect
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParserTestCase
+---- exit code: 0 | Cli-27-fixed_ind1
+

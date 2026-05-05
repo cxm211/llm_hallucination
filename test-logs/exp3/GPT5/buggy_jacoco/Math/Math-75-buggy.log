@@ -1,0 +1,13 @@
+==== 2026-04-28 22:16:27 :: Math-75-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math.stat.FrequencyTest::testPcts
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.FrequencyTest::testPcts
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-75-buggy/jacoco.exec.
+[INFO] Analyzing 415 classes.
+[JACOCO] done.
+[PARSE] 3 line rows.

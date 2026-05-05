@@ -1,0 +1,45 @@
+==== 2026-03-27 23:47:18 :: Collections-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties
+  - org.apache.commons.collections.TestExtendedProperties::testCollections271
+  - org.apache.commons.collections.TestExtendedProperties::testCombineWithMultipleProperties
+---- exit code: 0 | Collections-9-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 3, total: 4
+[JACOCO] defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCollections271
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testCollections271
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineWithMultipleProperties
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testCombineWithMultipleProperties
+[JACOCO] defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties
+[JACOCO] defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineEmptyProperties
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-buggy/jacoco_base.exec.
+[INFO] Analyzing 420 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-9-buggy/jacoco.exec.
+[INFO] Analyzing 420 classes.
+>>> [JACOCO] done

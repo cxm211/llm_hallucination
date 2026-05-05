@@ -1,0 +1,11 @@
+==== 2026-03-29 18:28:16 :: Lang-27-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
+---- exit code: 0 | test_result: Not Pass | Lang-27-buggy
+

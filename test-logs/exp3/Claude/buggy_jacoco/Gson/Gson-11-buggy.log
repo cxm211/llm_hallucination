@@ -1,0 +1,37 @@
+==== 2026-03-28 14:39:12 :: Gson-11-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/jacoco_base.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithDecimal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithDecimal
+[JACOCO] defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithNegative
+[JACOCO] defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithScientificNotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserializationWithScientificNotation
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 12 line rows.
+[PARSE] 12 base line rows.

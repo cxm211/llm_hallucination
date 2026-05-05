@@ -1,0 +1,54 @@
+==== 2026-04-24 15:16:04 :: Time-16-buggy ====
+[JACOCO] trigger=7 add=1 total=8
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-buggy/jacoco_base.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_hourMinute_withZone
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_hourMinute_withZone
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-buggy/jacoco.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 28 line rows.
+[PARSE] 28 base line rows.

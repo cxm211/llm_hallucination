@@ -1,0 +1,12 @@
+==== 2026-04-24 06:57:39 :: Jsoup-56-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/DocumentTypeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.DocumentTypeTest::outerHtmlGeneration
+  - org.jsoup.nodes.DocumentTypeTest::constructorValidationThrowsExceptionOnNulls
+---- exit code: 0 | test_result: Not Pass | Jsoup-56-buggy
+

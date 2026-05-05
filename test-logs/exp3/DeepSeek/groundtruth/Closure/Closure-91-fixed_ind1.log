@@ -1,0 +1,10 @@
+==== 2026-04-23 06:26:15 :: Closure-91-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotationVariable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotationVariable
+---- exit code: 0 | Closure-91-fixed_ind1
+

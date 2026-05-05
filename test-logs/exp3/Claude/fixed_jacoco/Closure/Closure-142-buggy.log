@@ -1,0 +1,13 @@
+==== 2026-03-27 18:03:19 :: Closure-142-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CoalesceVariableNamesTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/parsing/JsDocInfoParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CoalesceVariableNamesTest::testParameter
+  - com.google.javascript.jscomp.CoalesceVariableNamesTest::testParameter4b
+---- exit code: 0 | test_result: Not Pass | Closure-142-buggy
+

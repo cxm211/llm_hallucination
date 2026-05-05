@@ -1,0 +1,12 @@
+==== 2026-04-25 21:43:56 :: JxPath-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.jxpath.ri.model.JXPath151Test::testMapValueEquality
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testNull
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testGetLengthForNull
+---- exit code: 0 | JxPath-21-buggy
+

@@ -1,0 +1,64 @@
+==== 2026-03-27 13:04:36 :: Closure-29-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject1
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject2
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject5
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject6
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject7
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject8
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject9
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject16
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject23
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject25
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject26
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject1a
+  - com.google.javascript.jscomp.IntegrationTest::testCollapseObjectLiteral2
+---- exit code: 0 | Closure-29-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 1, total: 6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIssue724
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineObjectLiteralsTest::testObjectPropertyChainAccess
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-29-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1149 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-29-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1149 classes.
+>>> [JACOCO] done

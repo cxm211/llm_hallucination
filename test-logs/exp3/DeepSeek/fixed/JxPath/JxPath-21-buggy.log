@@ -1,0 +1,41 @@
+==== 2026-04-25 21:54:43 :: JxPath-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.jxpath.ri.model.JXPath151Test::testMapValueEquality
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testNull
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testGetLengthForNull
+---- exit code: 0 | JxPath-21-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.JXPath151Test::testMapValueEquality
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.JXPath151Test::testMapValueEquality
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.MixedModelTest::testNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testNull
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.MixedModelTest::testGetLengthForNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testGetLengthForNull
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-21-buggy/jacoco_base.exec.
+[INFO] Analyzing 165 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-21-buggy/jacoco.exec.
+[INFO] Analyzing 165 classes.
+>>> [JACOCO] done

@@ -1,0 +1,15 @@
+==== 2026-03-27 03:05:13 :: Closure-61-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCallMathCos
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCallMathWithArgs
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCallMathInExpression
+---- exit code: 0 | Closure-61-buggy
+

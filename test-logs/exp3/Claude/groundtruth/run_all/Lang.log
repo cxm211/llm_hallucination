@@ -1,0 +1,1566 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Lang
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Lang-1-fixed
+  [CHECKOUT] Lang-3-fixed
+  [CHECKOUT] Lang-4-fixed
+  [CHECKOUT] Lang-5-fixed
+  [CHECKOUT] Lang-6-fixed
+  [CHECKOUT] Lang-7-fixed
+  [CHECKOUT] Lang-8-fixed
+  [CHECKOUT] Lang-9-fixed
+  [CHECKOUT] Lang-10-fixed
+  [CHECKOUT] Lang-11-fixed
+  [CHECKOUT] Lang-12-fixed
+  [CHECKOUT] Lang-13-fixed
+  [CHECKOUT] Lang-14-fixed
+  [CHECKOUT] Lang-15-fixed
+  [CHECKOUT] Lang-16-fixed
+  [CHECKOUT] Lang-17-fixed
+  [CHECKOUT] Lang-19-fixed
+  [CHECKOUT] Lang-20-fixed
+  [CHECKOUT] Lang-21-fixed
+  [CHECKOUT] Lang-22-fixed
+  [CHECKOUT] Lang-23-fixed
+  [CHECKOUT] Lang-24-fixed
+  [CHECKOUT] Lang-26-fixed
+  [CHECKOUT] Lang-27-fixed
+  [CHECKOUT] Lang-28-fixed
+  [CHECKOUT] Lang-29-fixed
+  [CHECKOUT] Lang-30-fixed
+  [CHECKOUT] Lang-31-fixed
+  [CHECKOUT] Lang-32-fixed
+  [CHECKOUT] Lang-33-fixed
+  [CHECKOUT] Lang-34-fixed
+  [CHECKOUT] Lang-35-fixed
+  [CHECKOUT] Lang-36-fixed
+  [CHECKOUT] Lang-37-fixed
+  [CHECKOUT] Lang-38-fixed
+  [CHECKOUT] Lang-39-fixed
+  [CHECKOUT] Lang-40-fixed
+  [CHECKOUT] Lang-41-fixed
+  [CHECKOUT] Lang-42-fixed
+  [CHECKOUT] Lang-43-fixed
+  [CHECKOUT] Lang-44-fixed
+  [CHECKOUT] Lang-45-fixed
+  [CHECKOUT] Lang-46-fixed
+  [CHECKOUT] Lang-47-fixed
+  [CHECKOUT] Lang-49-fixed
+  [CHECKOUT] Lang-50-fixed
+  [CHECKOUT] Lang-51-fixed
+  [CHECKOUT] Lang-52-fixed
+  [CHECKOUT] Lang-53-fixed
+  [CHECKOUT] Lang-54-fixed
+  [CHECKOUT] Lang-55-fixed
+  [CHECKOUT] Lang-56-fixed
+  [CHECKOUT] Lang-57-fixed
+  [CHECKOUT] Lang-58-fixed
+  [CHECKOUT] Lang-59-fixed
+  [CHECKOUT] Lang-60-fixed
+  [CHECKOUT] Lang-61-fixed
+  [CHECKOUT] Lang-62-fixed
+  [CHECKOUT] Lang-63-fixed
+  [CHECKOUT] Lang-64-fixed
+  [CHECKOUT] Lang-65-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Lang ===
+  [COPY] Lang-1-fixed -> Lang-1-fixed_ind1
+  [IND-OK] Lang-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-1-fixed_ind1/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [COPY] Lang-1-fixed -> Lang-1-fixed_ind2
+  [IND-OK] Lang-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-1-fixed_ind2/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [COPY] Lang-1-fixed -> Lang-1-fixed_ind3
+  [IND-OK] Lang-1-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-1-fixed_ind3/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-1-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-1-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-1-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-1] inserted=6 failed=0
+  [COPY] Lang-3-fixed -> Lang-3-fixed_ind1
+  [IND-OK] Lang-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-3-fixed_ind1/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [COPY] Lang-3-fixed -> Lang-3-fixed_ind2
+  [IND-OK] Lang-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-3-fixed_ind2/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-3-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-3-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-3] inserted=4 failed=0
+  [COPY] Lang-4-fixed -> Lang-4-fixed_ind1
+  [IND-OK] Lang-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-4-fixed_ind1/src/test/java/org/apache/commons/lang3/text/translate/LookupTranslatorTest.java
+  [COPY] Lang-4-fixed -> Lang-4-fixed_ind2
+  [IND-OK] Lang-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-4-fixed_ind2/src/test/java/org/apache/commons/lang3/text/translate/LookupTranslatorTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-4-fixed/src/test/java/org/apache/commons/lang3/text/translate/LookupTranslatorTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-4-fixed/src/test/java/org/apache/commons/lang3/text/translate/LookupTranslatorTest.java
+  [Lang-4] inserted=4 failed=0
+  [COPY] Lang-5-fixed -> Lang-5-fixed_ind1
+  [IND-OK] Lang-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-5-fixed_ind1/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java
+  [COPY] Lang-5-fixed -> Lang-5-fixed_ind2
+  [IND-OK] Lang-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-5-fixed_ind2/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-5-fixed/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-5-fixed/src/test/java/org/apache/commons/lang3/LocaleUtilsTest.java
+  [Lang-5] inserted=4 failed=0
+  [COPY] Lang-6-fixed -> Lang-6-fixed_ind1
+  [IND-OK] Lang-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-6-fixed_ind1/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [COPY] Lang-6-fixed -> Lang-6-fixed_ind2
+  [IND-OK] Lang-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-6-fixed_ind2/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-6-fixed/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-6-fixed/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [Lang-6] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-7-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-7] inserted=1 failed=0
+  [COPY] Lang-8-fixed -> Lang-8-fixed_ind1
+  [IND-OK] Lang-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-fixed_ind1/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java
+  [COPY] Lang-8-fixed -> Lang-8-fixed_ind2
+  [IND-OK] Lang-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-fixed_ind2/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-fixed/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-8-fixed/src/test/java/org/apache/commons/lang3/time/FastDatePrinterTest.java
+  [Lang-8] inserted=4 failed=0
+  [COPY] Lang-9-fixed -> Lang-9-fixed_ind1
+  [IND-OK] Lang-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-fixed_ind1/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [COPY] Lang-9-fixed -> Lang-9-fixed_ind2
+  [IND-OK] Lang-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-fixed_ind2/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [COPY] Lang-9-fixed -> Lang-9-fixed_ind3
+  [IND-OK] Lang-9-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-fixed_ind3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-fixed/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-fixed/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-9-fixed/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [Lang-9] inserted=6 failed=0
+  [COPY] Lang-10-fixed -> Lang-10-fixed_ind1
+  [IND-OK] Lang-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-10-fixed_ind1/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [COPY] Lang-10-fixed -> Lang-10-fixed_ind2
+  [IND-OK] Lang-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-10-fixed_ind2/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [COPY] Lang-10-fixed -> Lang-10-fixed_ind3
+  [IND-OK] Lang-10-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-10-fixed_ind3/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-10-fixed/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-10-fixed/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-10-fixed/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+  [Lang-10] inserted=6 failed=0
+  [COPY] Lang-11-fixed -> Lang-11-fixed_ind1
+  [IND-OK] Lang-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-11-fixed_ind1/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [COPY] Lang-11-fixed -> Lang-11-fixed_ind2
+  [IND-OK] Lang-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-11-fixed_ind2/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [COPY] Lang-11-fixed -> Lang-11-fixed_ind3
+  [IND-OK] Lang-11-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-11-fixed_ind3/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-11-fixed/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-11-fixed/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-11-fixed/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [Lang-11] inserted=6 failed=0
+  [COPY] Lang-12-fixed -> Lang-12-fixed_ind1
+  [IND-OK] Lang-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-12-fixed_ind1/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [COPY] Lang-12-fixed -> Lang-12-fixed_ind2
+  [IND-OK] Lang-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-12-fixed_ind2/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-12-fixed/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-12-fixed/src/test/java/org/apache/commons/lang3/RandomStringUtilsTest.java
+  [Lang-12] inserted=4 failed=0
+  [COPY] Lang-13-fixed -> Lang-13-fixed_ind1
+  [IND-OK] Lang-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-13-fixed_ind1/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java
+  [COPY] Lang-13-fixed -> Lang-13-fixed_ind2
+  [IND-OK] Lang-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-13-fixed_ind2/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-13-fixed/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-13-fixed/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java
+  [Lang-13] inserted=4 failed=0
+  [COPY] Lang-14-fixed -> Lang-14-fixed_ind1
+  [IND-OK] Lang-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-14-fixed_ind1/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-14-fixed -> Lang-14-fixed_ind2
+  [IND-OK] Lang-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-14-fixed_ind2/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-14-fixed -> Lang-14-fixed_ind3
+  [IND-OK] Lang-14-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-14-fixed_ind3/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-14-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-14-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-14-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [Lang-14] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-15-fixed/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java
+  [Lang-15] inserted=1 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-16-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-16] inserted=1 failed=0
+  [COPY] Lang-17-fixed -> Lang-17-fixed_ind1
+  [IND-OK] Lang-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-17-fixed_ind1/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+  [COPY] Lang-17-fixed -> Lang-17-fixed_ind2
+  [IND-OK] Lang-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-17-fixed_ind2/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+  [COPY] Lang-17-fixed -> Lang-17-fixed_ind3
+  [IND-OK] Lang-17-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-17-fixed_ind3/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-17-fixed/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-17-fixed/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-17-fixed/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java
+  [Lang-17] inserted=6 failed=0
+  [COPY] Lang-19-fixed -> Lang-19-fixed_ind1
+  [IND-OK] Lang-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-fixed_ind1/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [COPY] Lang-19-fixed -> Lang-19-fixed_ind2
+  [IND-OK] Lang-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-fixed_ind2/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [COPY] Lang-19-fixed -> Lang-19-fixed_ind3
+  [IND-OK] Lang-19-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-fixed_ind3/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-19-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [Lang-19] inserted=6 failed=0
+  [COPY] Lang-20-fixed -> Lang-20-fixed_ind1
+  [IND-OK] Lang-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-20-fixed_ind1/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [COPY] Lang-20-fixed -> Lang-20-fixed_ind2
+  [IND-OK] Lang-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-20-fixed_ind2/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-20-fixed/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-20-fixed/src/test/java/org/apache/commons/lang3/StringUtilsTest.java
+  [Lang-20] inserted=4 failed=0
+  [COPY] Lang-21-fixed -> Lang-21-fixed_ind1
+  [IND-OK] Lang-21-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-21-fixed_ind1/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java
+  [COPY] Lang-21-fixed -> Lang-21-fixed_ind2
+  [IND-OK] Lang-21-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-21-fixed_ind2/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-21-fixed/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-21-fixed/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java
+  [Lang-21] inserted=4 failed=0
+  [COPY] Lang-22-fixed -> Lang-22-fixed_ind1
+  [IND-OK] Lang-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-fixed_ind1/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+  [COPY] Lang-22-fixed -> Lang-22-fixed_ind2
+  [IND-OK] Lang-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-fixed_ind2/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+  [COPY] Lang-22-fixed -> Lang-22-fixed_ind3
+  [IND-OK] Lang-22-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-fixed_ind3/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-fixed/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-fixed/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-fixed/src/test/java/org/apache/commons/lang3/math/FractionTest.java
+  [Lang-22] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-24-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-24] inserted=1 failed=0
+  [COPY] Lang-26-fixed -> Lang-26-fixed_ind1
+  [IND-OK] Lang-26-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-26-fixed_ind1/src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [COPY] Lang-26-fixed -> Lang-26-fixed_ind2
+  [IND-OK] Lang-26-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-26-fixed_ind2/src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-26-fixed/src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-26-fixed/src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [Lang-26] inserted=4 failed=0
+  [COPY] Lang-27-fixed -> Lang-27-fixed_ind1
+  [IND-OK] Lang-27-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-27-fixed_ind1/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [COPY] Lang-27-fixed -> Lang-27-fixed_ind2
+  [IND-OK] Lang-27-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-27-fixed_ind2/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-27-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-27-fixed/src/test/java/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-27] inserted=4 failed=0
+  [COPY] Lang-28-fixed -> Lang-28-fixed_ind1
+  [IND-OK] Lang-28-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed_ind1/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [COPY] Lang-28-fixed -> Lang-28-fixed_ind2
+  [IND-OK] Lang-28-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed_ind2/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [COPY] Lang-28-fixed -> Lang-28-fixed_ind3
+  [IND-OK] Lang-28-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed_ind3/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [COPY] Lang-28-fixed -> Lang-28-fixed_ind4
+  [IND-OK] Lang-28-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed_ind4/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-fixed/src/test/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java
+  [Lang-28] inserted=8 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-29-fixed/src/test/java/org/apache/commons/lang3/SystemUtilsTest.java
+  [Lang-29] inserted=1 failed=0
+  [COPY] Lang-30-fixed -> Lang-30-fixed_ind1
+  [IND-OK] Lang-30-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-30-fixed_ind1/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-30-fixed -> Lang-30-fixed_ind2
+  [IND-OK] Lang-30-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-30-fixed_ind2/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-30-fixed -> Lang-30-fixed_ind3
+  [IND-OK] Lang-30-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-30-fixed_ind3/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-30-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-30-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-30-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [Lang-30] inserted=6 failed=0
+  [COPY] Lang-31-fixed -> Lang-31-fixed_ind1
+  [IND-OK] Lang-31-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-31-fixed_ind1/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-31-fixed -> Lang-31-fixed_ind2
+  [IND-OK] Lang-31-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-31-fixed_ind2/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-31-fixed -> Lang-31-fixed_ind3
+  [IND-OK] Lang-31-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-31-fixed_ind3/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-31-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-31-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-31-fixed/src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+  [Lang-31] inserted=6 failed=0
+  [COPY] Lang-32-fixed -> Lang-32-fixed_ind1
+  [IND-OK] Lang-32-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-32-fixed_ind1/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+  [COPY] Lang-32-fixed -> Lang-32-fixed_ind2
+  [IND-OK] Lang-32-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-32-fixed_ind2/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+  [COPY] Lang-32-fixed -> Lang-32-fixed_ind3
+  [IND-OK] Lang-32-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-32-fixed_ind3/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-32-fixed/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-32-fixed/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-32-fixed/src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+  [Lang-32] inserted=6 failed=0
+  [COPY] Lang-33-fixed -> Lang-33-fixed_ind1
+  [IND-OK] Lang-33-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-33-fixed_ind1/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+  [COPY] Lang-33-fixed -> Lang-33-fixed_ind2
+  [IND-OK] Lang-33-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-33-fixed_ind2/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+  [COPY] Lang-33-fixed -> Lang-33-fixed_ind3
+  [IND-OK] Lang-33-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-33-fixed_ind3/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-33-fixed/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-33-fixed/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-33-fixed/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java
+  [Lang-33] inserted=6 failed=0
+  [COPY] Lang-34-fixed -> Lang-34-fixed_ind1
+  [IND-OK] Lang-34-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-34-fixed_ind1/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java
+  [COPY] Lang-34-fixed -> Lang-34-fixed_ind2
+  [IND-OK] Lang-34-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-34-fixed_ind2/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-34-fixed/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-34-fixed/src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java
+  [Lang-34] inserted=4 failed=0
+  [COPY] Lang-35-fixed -> Lang-35-fixed_ind1
+  [IND-OK] Lang-35-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-35-fixed_ind1/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [COPY] Lang-35-fixed -> Lang-35-fixed_ind2
+  [IND-OK] Lang-35-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-35-fixed_ind2/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [COPY] Lang-35-fixed -> Lang-35-fixed_ind3
+  [IND-OK] Lang-35-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-35-fixed_ind3/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-35-fixed/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-35-fixed/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-35-fixed/src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [Lang-35] inserted=6 failed=0
+  [COPY] Lang-36-fixed -> Lang-36-fixed_ind1
+  [IND-OK] Lang-36-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-36-fixed_ind1/src/test/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [COPY] Lang-36-fixed -> Lang-36-fixed_ind2
+  [IND-OK] Lang-36-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-36-fixed_ind2/src/test/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-36-fixed/src/test/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-36-fixed/src/test/org/apache/commons/lang3/math/NumberUtilsTest.java
+  [Lang-36] inserted=4 failed=0
+  [COPY] Lang-37-fixed -> Lang-37-fixed_ind1
+  [IND-OK] Lang-37-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-37-fixed_ind1/src/test/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [COPY] Lang-37-fixed -> Lang-37-fixed_ind2
+  [IND-OK] Lang-37-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-37-fixed_ind2/src/test/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [COPY] Lang-37-fixed -> Lang-37-fixed_ind3
+  [IND-OK] Lang-37-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-37-fixed_ind3/src/test/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-37-fixed/src/test/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-37-fixed/src/test/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-37-fixed/src/test/org/apache/commons/lang3/ArrayUtilsAddTest.java
+  [Lang-37] inserted=6 failed=0
+  [COPY] Lang-38-fixed -> Lang-38-fixed_ind1
+  [IND-OK] Lang-38-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-38-fixed_ind1/src/test/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [COPY] Lang-38-fixed -> Lang-38-fixed_ind2
+  [IND-OK] Lang-38-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-38-fixed_ind2/src/test/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-38-fixed/src/test/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-38-fixed/src/test/org/apache/commons/lang3/time/FastDateFormatTest.java
+  [Lang-38] inserted=4 failed=0
+  [COPY] Lang-39-fixed -> Lang-39-fixed_ind1
+  [IND-OK] Lang-39-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-39-fixed_ind1/src/test/org/apache/commons/lang3/StringUtilsTest.java
+  [COPY] Lang-39-fixed -> Lang-39-fixed_ind2
+  [IND-OK] Lang-39-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-39-fixed_ind2/src/test/org/apache/commons/lang3/StringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-39-fixed/src/test/org/apache/commons/lang3/StringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-39-fixed/src/test/org/apache/commons/lang3/StringUtilsTest.java
+  [Lang-39] inserted=4 failed=0
+  [COPY] Lang-40-fixed -> Lang-40-fixed_ind1
+  [IND-OK] Lang-40-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-40-fixed_ind1/src/test/org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-40-fixed -> Lang-40-fixed_ind2
+  [IND-OK] Lang-40-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-40-fixed_ind2/src/test/org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java
+  [COPY] Lang-40-fixed -> Lang-40-fixed_ind3
+  [IND-OK] Lang-40-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-40-fixed_ind3/src/test/org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-40-fixed/src/test/org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-40-fixed/src/test/org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-40-fixed/src/test/org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java
+  [Lang-40] inserted=6 failed=0
+  [COPY] Lang-41-fixed -> Lang-41-fixed_ind1
+  [IND-OK] Lang-41-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-fixed_ind1/src/test/org/apache/commons/lang/ClassUtilsTest.java
+  [COPY] Lang-41-fixed -> Lang-41-fixed_ind2
+  [IND-OK] Lang-41-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-fixed_ind2/src/test/org/apache/commons/lang/ClassUtilsTest.java
+  [COPY] Lang-41-fixed -> Lang-41-fixed_ind3
+  [IND-OK] Lang-41-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-fixed_ind3/src/test/org/apache/commons/lang/ClassUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-fixed/src/test/org/apache/commons/lang/ClassUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-fixed/src/test/org/apache/commons/lang/ClassUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-41-fixed/src/test/org/apache/commons/lang/ClassUtilsTest.java
+  [Lang-41] inserted=6 failed=0
+  [COPY] Lang-43-fixed -> Lang-43-fixed_ind1
+  [IND-OK] Lang-43-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-fixed_ind1/src/test/org/apache/commons/lang/text/ExtendedMessageFormatTest.java
+  [COPY] Lang-43-fixed -> Lang-43-fixed_ind2
+  [IND-OK] Lang-43-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-fixed_ind2/src/test/org/apache/commons/lang/text/ExtendedMessageFormatTest.java
+  [COPY] Lang-43-fixed -> Lang-43-fixed_ind3
+  [IND-OK] Lang-43-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-fixed_ind3/src/test/org/apache/commons/lang/text/ExtendedMessageFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-fixed/src/test/org/apache/commons/lang/text/ExtendedMessageFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-fixed/src/test/org/apache/commons/lang/text/ExtendedMessageFormatTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-fixed/src/test/org/apache/commons/lang/text/ExtendedMessageFormatTest.java
+  [Lang-43] inserted=6 failed=0
+  [COPY] Lang-44-fixed -> Lang-44-fixed_ind1
+  [IND-OK] Lang-44-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-44-fixed_ind1/src/test/org/apache/commons/lang/NumberUtilsTest.java
+  [COPY] Lang-44-fixed -> Lang-44-fixed_ind2
+  [IND-OK] Lang-44-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-44-fixed_ind2/src/test/org/apache/commons/lang/NumberUtilsTest.java
+  [COPY] Lang-44-fixed -> Lang-44-fixed_ind3
+  [IND-OK] Lang-44-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-44-fixed_ind3/src/test/org/apache/commons/lang/NumberUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-44-fixed/src/test/org/apache/commons/lang/NumberUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-44-fixed/src/test/org/apache/commons/lang/NumberUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-44-fixed/src/test/org/apache/commons/lang/NumberUtilsTest.java
+  [Lang-44] inserted=6 failed=0
+  [COPY] Lang-45-fixed -> Lang-45-fixed_ind1
+  [IND-OK] Lang-45-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed_ind1/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [COPY] Lang-45-fixed -> Lang-45-fixed_ind2
+  [IND-OK] Lang-45-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed_ind2/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [COPY] Lang-45-fixed -> Lang-45-fixed_ind3
+  [IND-OK] Lang-45-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed_ind3/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [COPY] Lang-45-fixed -> Lang-45-fixed_ind4
+  [IND-OK] Lang-45-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed_ind4/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-45-fixed/src/test/org/apache/commons/lang/WordUtilsTest.java
+  [Lang-45] inserted=8 failed=0
+  [COPY] Lang-46-fixed -> Lang-46-fixed_ind1
+  [IND-OK] Lang-46-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-46-fixed_ind1/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [COPY] Lang-46-fixed -> Lang-46-fixed_ind2
+  [IND-OK] Lang-46-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-46-fixed_ind2/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [COPY] Lang-46-fixed -> Lang-46-fixed_ind3
+  [IND-OK] Lang-46-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-46-fixed_ind3/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-46-fixed/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-46-fixed/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-46-fixed/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [Lang-46] inserted=6 failed=0
+  [COPY] Lang-47-fixed -> Lang-47-fixed_ind1
+  [IND-OK] Lang-47-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed_ind1/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-47-fixed -> Lang-47-fixed_ind2
+  [IND-OK] Lang-47-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed_ind2/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-47-fixed -> Lang-47-fixed_ind3
+  [IND-OK] Lang-47-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed_ind3/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-47-fixed -> Lang-47-fixed_ind4
+  [IND-OK] Lang-47-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed_ind4/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-47-fixed -> Lang-47-fixed_ind5
+  [IND-OK] Lang-47-fixed_ind5/add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed_ind5/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-47-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [Lang-47] inserted=10 failed=0
+  [COPY] Lang-49-fixed -> Lang-49-fixed_ind1
+  [IND-OK] Lang-49-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-49-fixed_ind1/src/test/org/apache/commons/lang/math/FractionTest.java
+  [COPY] Lang-49-fixed -> Lang-49-fixed_ind2
+  [IND-OK] Lang-49-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-49-fixed_ind2/src/test/org/apache/commons/lang/math/FractionTest.java
+  [COPY] Lang-49-fixed -> Lang-49-fixed_ind3
+  [IND-OK] Lang-49-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-49-fixed_ind3/src/test/org/apache/commons/lang/math/FractionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-49-fixed/src/test/org/apache/commons/lang/math/FractionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-49-fixed/src/test/org/apache/commons/lang/math/FractionTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-49-fixed/src/test/org/apache/commons/lang/math/FractionTest.java
+  [Lang-49] inserted=6 failed=0
+  [COPY] Lang-50-fixed -> Lang-50-fixed_ind1
+  [IND-OK] Lang-50-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-50-fixed_ind1/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [COPY] Lang-50-fixed -> Lang-50-fixed_ind2
+  [IND-OK] Lang-50-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-50-fixed_ind2/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-50-fixed/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-50-fixed/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [Lang-50] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-51-fixed/src/test/org/apache/commons/lang/BooleanUtilsTest.java
+  [Lang-51] inserted=1 failed=0
+  [COPY] Lang-52-fixed -> Lang-52-fixed_ind1
+  [IND-OK] Lang-52-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-52-fixed_ind1/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [COPY] Lang-52-fixed -> Lang-52-fixed_ind2
+  [IND-OK] Lang-52-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-52-fixed_ind2/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-52-fixed/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-52-fixed/src/test/org/apache/commons/lang/StringEscapeUtilsTest.java
+  [Lang-52] inserted=4 failed=0
+  [COPY] Lang-53-fixed -> Lang-53-fixed_ind1
+  [IND-OK] Lang-53-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-53-fixed_ind1/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [COPY] Lang-53-fixed -> Lang-53-fixed_ind2
+  [IND-OK] Lang-53-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-53-fixed_ind2/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-53-fixed/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-53-fixed/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [Lang-53] inserted=4 failed=0
+  [COPY] Lang-54-fixed -> Lang-54-fixed_ind1
+  [IND-OK] Lang-54-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-54-fixed_ind1/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [COPY] Lang-54-fixed -> Lang-54-fixed_ind2
+  [IND-OK] Lang-54-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-54-fixed_ind2/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [COPY] Lang-54-fixed -> Lang-54-fixed_ind3
+  [IND-OK] Lang-54-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-54-fixed_ind3/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-54-fixed/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-54-fixed/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-54-fixed/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [Lang-54] inserted=6 failed=0
+  [COPY] Lang-55-fixed -> Lang-55-fixed_ind1
+  [IND-OK] Lang-55-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-55-fixed_ind1/src/test/org/apache/commons/lang/time/StopWatchTest.java
+  [COPY] Lang-55-fixed -> Lang-55-fixed_ind2
+  [IND-OK] Lang-55-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-55-fixed_ind2/src/test/org/apache/commons/lang/time/StopWatchTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-55-fixed/src/test/org/apache/commons/lang/time/StopWatchTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-55-fixed/src/test/org/apache/commons/lang/time/StopWatchTest.java
+  [Lang-55] inserted=4 failed=0
+  [COPY] Lang-56-fixed -> Lang-56-fixed_ind1
+  [IND-OK] Lang-56-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-56-fixed_ind1/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [COPY] Lang-56-fixed -> Lang-56-fixed_ind2
+  [IND-OK] Lang-56-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-56-fixed_ind2/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-56-fixed/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-56-fixed/src/test/org/apache/commons/lang/time/FastDateFormatTest.java
+  [Lang-56] inserted=4 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-57-fixed/src/test/org/apache/commons/lang/LocaleUtilsTest.java
+  [Lang-57] inserted=1 failed=0
+  [COPY] Lang-58-fixed -> Lang-58-fixed_ind1
+  [IND-OK] Lang-58-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-58-fixed_ind1/src/test/org/apache/commons/lang/math/NumberUtilsTest.java
+  [COPY] Lang-58-fixed -> Lang-58-fixed_ind2
+  [IND-OK] Lang-58-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-58-fixed_ind2/src/test/org/apache/commons/lang/math/NumberUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-58-fixed/src/test/org/apache/commons/lang/math/NumberUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-58-fixed/src/test/org/apache/commons/lang/math/NumberUtilsTest.java
+  [Lang-58] inserted=4 failed=0
+  [COPY] Lang-59-fixed -> Lang-59-fixed_ind1
+  [IND-OK] Lang-59-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed_ind1/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [COPY] Lang-59-fixed -> Lang-59-fixed_ind2
+  [IND-OK] Lang-59-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed_ind2/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [COPY] Lang-59-fixed -> Lang-59-fixed_ind3
+  [IND-OK] Lang-59-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed_ind3/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [COPY] Lang-59-fixed -> Lang-59-fixed_ind4
+  [IND-OK] Lang-59-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed_ind4/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-59-fixed/src/test/org/apache/commons/lang/text/StrBuilderAppendInsertTest.java
+  [Lang-59] inserted=8 failed=0
+  [COPY] Lang-60-fixed -> Lang-60-fixed_ind1
+  [IND-OK] Lang-60-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-60-fixed_ind1/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-60-fixed -> Lang-60-fixed_ind2
+  [IND-OK] Lang-60-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-60-fixed_ind2/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-60-fixed -> Lang-60-fixed_ind3
+  [IND-OK] Lang-60-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-60-fixed_ind3/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-60-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-60-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-60-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [Lang-60] inserted=6 failed=0
+  [COPY] Lang-61-fixed -> Lang-61-fixed_ind1
+  [IND-OK] Lang-61-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-fixed_ind1/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-61-fixed -> Lang-61-fixed_ind2
+  [IND-OK] Lang-61-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-fixed_ind2/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [COPY] Lang-61-fixed -> Lang-61-fixed_ind3
+  [IND-OK] Lang-61-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-fixed_ind3/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-61-fixed/src/test/org/apache/commons/lang/text/StrBuilderTest.java
+  [Lang-61] inserted=6 failed=0
+  [COPY] Lang-62-fixed -> Lang-62-fixed_ind1
+  [IND-OK] Lang-62-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-62-fixed_ind1/src/test/org/apache/commons/lang/EntitiesTest.java
+  [COPY] Lang-62-fixed -> Lang-62-fixed_ind2
+  [IND-OK] Lang-62-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-62-fixed_ind2/src/test/org/apache/commons/lang/EntitiesTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-62-fixed/src/test/org/apache/commons/lang/EntitiesTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-62-fixed/src/test/org/apache/commons/lang/EntitiesTest.java
+  [Lang-62] inserted=4 failed=0
+  [COPY] Lang-63-fixed -> Lang-63-fixed_ind1
+  [IND-OK] Lang-63-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-63-fixed_ind1/src/test/org/apache/commons/lang/time/DurationFormatUtilsTest.java
+  [COPY] Lang-63-fixed -> Lang-63-fixed_ind2
+  [IND-OK] Lang-63-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-63-fixed_ind2/src/test/org/apache/commons/lang/time/DurationFormatUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-63-fixed/src/test/org/apache/commons/lang/time/DurationFormatUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-63-fixed/src/test/org/apache/commons/lang/time/DurationFormatUtilsTest.java
+  [Lang-63] inserted=4 failed=0
+  [COPY] Lang-64-fixed -> Lang-64-fixed_ind1
+  [IND-OK] Lang-64-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-64-fixed_ind1/src/test/org/apache/commons/lang/enums/ValuedEnumTest.java
+  [COPY] Lang-64-fixed -> Lang-64-fixed_ind2
+  [IND-OK] Lang-64-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-64-fixed_ind2/src/test/org/apache/commons/lang/enums/ValuedEnumTest.java
+  [COPY] Lang-64-fixed -> Lang-64-fixed_ind3
+  [IND-OK] Lang-64-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-64-fixed_ind3/src/test/org/apache/commons/lang/enums/ValuedEnumTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-64-fixed/src/test/org/apache/commons/lang/enums/ValuedEnumTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-64-fixed/src/test/org/apache/commons/lang/enums/ValuedEnumTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-64-fixed/src/test/org/apache/commons/lang/enums/ValuedEnumTest.java
+  [Lang-64] inserted=6 failed=0
+  [COPY] Lang-65-fixed -> Lang-65-fixed_ind1
+  [IND-OK] Lang-65-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-65-fixed_ind1/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [COPY] Lang-65-fixed -> Lang-65-fixed_ind2
+  [IND-OK] Lang-65-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-65-fixed_ind2/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-65-fixed/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-65-fixed/src/test/org/apache/commons/lang/time/DateUtilsTest.java
+  [Lang-65] inserted=4 failed=0
+
+[INSERT DONE] inserted=281 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 59
+individual bugs: 137
+
+==== 2026-04-21 11:06:06 :: Lang-1-fixed ====
+>>> defects4j test -r in Lang-1-fixed
+---- exit code: 0 | Lang-1-fixed
+
+==== 2026-04-21 11:06:10 :: Lang-3-fixed ====
+>>> defects4j test -r in Lang-3-fixed
+---- exit code: 0 | Lang-3-fixed
+
+==== 2026-04-21 11:06:13 :: Lang-4-fixed ====
+>>> defects4j test -r in Lang-4-fixed
+---- exit code: 0 | Lang-4-fixed
+
+==== 2026-04-21 11:06:18 :: Lang-5-fixed ====
+>>> defects4j test -r in Lang-5-fixed
+---- exit code: 0 | Lang-5-fixed
+
+==== 2026-04-21 11:06:22 :: Lang-6-fixed ====
+>>> defects4j test -r in Lang-6-fixed
+---- exit code: 0 | Lang-6-fixed
+
+==== 2026-04-21 11:06:26 :: Lang-7-fixed ====
+>>> defects4j test -r in Lang-7-fixed
+---- exit code: 0 | Lang-7-fixed
+
+==== 2026-04-21 11:06:30 :: Lang-8-fixed ====
+>>> defects4j test -r in Lang-8-fixed
+---- exit code: 0 | Lang-8-fixed
+
+==== 2026-04-21 11:06:48 :: Lang-9-fixed ====
+>>> defects4j test -r in Lang-9-fixed
+---- exit code: 1 | Lang-9-fixed
+
+==== 2026-04-21 11:06:52 :: Lang-10-fixed ====
+>>> defects4j test -r in Lang-10-fixed
+---- exit code: 0 | Lang-10-fixed
+
+==== 2026-04-21 11:07:10 :: Lang-11-fixed ====
+>>> defects4j test -r in Lang-11-fixed
+---- exit code: 0 | Lang-11-fixed
+
+==== 2026-04-21 11:07:14 :: Lang-12-fixed ====
+>>> defects4j test -r in Lang-12-fixed
+---- exit code: 0 | Lang-12-fixed
+
+==== 2026-04-21 11:07:18 :: Lang-13-fixed ====
+>>> defects4j test -r in Lang-13-fixed
+---- exit code: 1 | Lang-13-fixed
+
+==== 2026-04-21 11:07:21 :: Lang-14-fixed ====
+>>> defects4j test -r in Lang-14-fixed
+---- exit code: 1 | Lang-14-fixed
+
+==== 2026-04-21 11:07:25 :: Lang-15-fixed ====
+>>> defects4j test -r in Lang-15-fixed
+---- exit code: 1 | Lang-15-fixed
+
+==== 2026-04-21 11:07:28 :: Lang-16-fixed ====
+>>> defects4j test -r in Lang-16-fixed
+---- exit code: 0 | Lang-16-fixed
+
+==== 2026-04-21 11:07:33 :: Lang-17-fixed ====
+>>> defects4j test -r in Lang-17-fixed
+---- exit code: 0 | Lang-17-fixed
+
+==== 2026-04-21 11:07:37 :: Lang-19-fixed ====
+>>> defects4j test -r in Lang-19-fixed
+---- exit code: 0 | Lang-19-fixed
+
+==== 2026-04-21 11:07:41 :: Lang-20-fixed ====
+>>> defects4j test -r in Lang-20-fixed
+---- exit code: 0 | Lang-20-fixed
+
+==== 2026-04-21 11:07:50 :: Lang-21-fixed ====
+>>> defects4j test -r in Lang-21-fixed
+---- exit code: 0 | Lang-21-fixed
+
+==== 2026-04-21 11:07:54 :: Lang-22-fixed ====
+>>> defects4j test -r in Lang-22-fixed
+---- exit code: 0 | Lang-22-fixed
+
+==== 2026-04-21 11:07:58 :: Lang-24-fixed ====
+>>> defects4j test -r in Lang-24-fixed
+---- exit code: 0 | Lang-24-fixed
+
+==== 2026-04-21 11:08:02 :: Lang-26-fixed ====
+>>> defects4j test -r in Lang-26-fixed
+---- exit code: 0 | Lang-26-fixed
+
+==== 2026-04-21 11:08:06 :: Lang-27-fixed ====
+>>> defects4j test -r in Lang-27-fixed
+---- exit code: 1 | Lang-27-fixed
+
+==== 2026-04-21 11:08:09 :: Lang-28-fixed ====
+>>> defects4j test -r in Lang-28-fixed
+---- exit code: 0 | Lang-28-fixed
+
+==== 2026-04-21 11:08:12 :: Lang-29-fixed ====
+>>> defects4j test -r in Lang-29-fixed
+---- exit code: 1 | Lang-29-fixed
+
+==== 2026-04-21 11:08:15 :: Lang-30-fixed ====
+>>> defects4j test -r in Lang-30-fixed
+---- exit code: 0 | Lang-30-fixed
+
+==== 2026-04-21 11:08:25 :: Lang-31-fixed ====
+>>> defects4j test -r in Lang-31-fixed
+---- exit code: 0 | Lang-31-fixed
+
+==== 2026-04-21 11:08:34 :: Lang-32-fixed ====
+>>> defects4j test -r in Lang-32-fixed
+---- exit code: 0 | Lang-32-fixed
+
+==== 2026-04-21 11:08:38 :: Lang-33-fixed ====
+>>> defects4j test -r in Lang-33-fixed
+---- exit code: 0 | Lang-33-fixed
+
+==== 2026-04-21 11:08:41 :: Lang-34-fixed ====
+>>> defects4j test -r in Lang-34-fixed
+---- exit code: 1 | Lang-34-fixed
+
+==== 2026-04-21 11:08:44 :: Lang-35-fixed ====
+>>> defects4j test -r in Lang-35-fixed
+---- exit code: 0 | Lang-35-fixed
+
+==== 2026-04-21 11:08:48 :: Lang-36-fixed ====
+>>> defects4j test -r in Lang-36-fixed
+---- exit code: 0 | Lang-36-fixed
+
+==== 2026-04-21 11:08:51 :: Lang-37-fixed ====
+>>> defects4j test -r in Lang-37-fixed
+---- exit code: 1 | Lang-37-fixed
+
+==== 2026-04-21 11:08:54 :: Lang-38-fixed ====
+>>> defects4j test -r in Lang-38-fixed
+---- exit code: 0 | Lang-38-fixed
+
+==== 2026-04-21 11:08:58 :: Lang-39-fixed ====
+>>> defects4j test -r in Lang-39-fixed
+---- exit code: 0 | Lang-39-fixed
+
+==== 2026-04-21 11:09:07 :: Lang-40-fixed ====
+>>> defects4j test -r in Lang-40-fixed
+---- exit code: 0 | Lang-40-fixed
+
+==== 2026-04-21 11:09:15 :: Lang-41-fixed ====
+>>> defects4j test -r in Lang-41-fixed
+---- exit code: 0 | Lang-41-fixed
+
+==== 2026-04-21 11:09:19 :: Lang-43-fixed ====
+>>> defects4j test -r in Lang-43-fixed
+---- exit code: 0 | Lang-43-fixed
+
+==== 2026-04-21 11:09:27 :: Lang-44-fixed ====
+>>> defects4j test -r in Lang-44-fixed
+---- exit code: 0 | Lang-44-fixed
+
+==== 2026-04-21 11:09:31 :: Lang-45-fixed ====
+>>> defects4j test -r in Lang-45-fixed
+---- exit code: 0 | Lang-45-fixed
+
+==== 2026-04-21 11:09:35 :: Lang-46-fixed ====
+>>> defects4j test -r in Lang-46-fixed
+---- exit code: 0 | Lang-46-fixed
+
+==== 2026-04-21 11:09:38 :: Lang-47-fixed ====
+>>> defects4j test -r in Lang-47-fixed
+---- exit code: 0 | Lang-47-fixed
+
+==== 2026-04-21 11:09:42 :: Lang-49-fixed ====
+>>> defects4j test -r in Lang-49-fixed
+---- exit code: 0 | Lang-49-fixed
+
+==== 2026-04-21 11:09:46 :: Lang-50-fixed ====
+>>> defects4j test -r in Lang-50-fixed
+---- exit code: 0 | Lang-50-fixed
+
+==== 2026-04-21 11:09:50 :: Lang-51-fixed ====
+>>> defects4j test -r in Lang-51-fixed
+---- exit code: 0 | Lang-51-fixed
+
+==== 2026-04-21 11:09:54 :: Lang-52-fixed ====
+>>> defects4j test -r in Lang-52-fixed
+---- exit code: 0 | Lang-52-fixed
+
+==== 2026-04-21 11:09:57 :: Lang-53-fixed ====
+>>> defects4j test -r in Lang-53-fixed
+---- exit code: 0 | Lang-53-fixed
+
+==== 2026-04-21 11:10:01 :: Lang-54-fixed ====
+>>> defects4j test -r in Lang-54-fixed
+---- exit code: 0 | Lang-54-fixed
+
+==== 2026-04-21 11:10:05 :: Lang-55-fixed ====
+>>> defects4j test -r in Lang-55-fixed
+---- exit code: 0 | Lang-55-fixed
+
+==== 2026-04-21 11:10:14 :: Lang-56-fixed ====
+>>> defects4j test -r in Lang-56-fixed
+---- exit code: 0 | Lang-56-fixed
+
+==== 2026-04-21 11:10:18 :: Lang-57-fixed ====
+>>> defects4j test -r in Lang-57-fixed
+---- exit code: 0 | Lang-57-fixed
+
+==== 2026-04-21 11:10:22 :: Lang-58-fixed ====
+>>> defects4j test -r in Lang-58-fixed
+---- exit code: 0 | Lang-58-fixed
+
+==== 2026-04-21 11:10:26 :: Lang-59-fixed ====
+>>> defects4j test -r in Lang-59-fixed
+---- exit code: 0 | Lang-59-fixed
+
+==== 2026-04-21 11:10:30 :: Lang-60-fixed ====
+>>> defects4j test -r in Lang-60-fixed
+---- exit code: 0 | Lang-60-fixed
+
+==== 2026-04-21 11:10:34 :: Lang-61-fixed ====
+>>> defects4j test -r in Lang-61-fixed
+---- exit code: 0 | Lang-61-fixed
+
+==== 2026-04-21 11:10:38 :: Lang-62-fixed ====
+>>> defects4j test -r in Lang-62-fixed
+---- exit code: 0 | Lang-62-fixed
+
+==== 2026-04-21 11:10:44 :: Lang-63-fixed ====
+>>> defects4j test -r in Lang-63-fixed
+---- exit code: 0 | Lang-63-fixed
+
+==== 2026-04-21 11:10:52 :: Lang-64-fixed ====
+>>> defects4j test -r in Lang-64-fixed
+---- exit code: 1 | Lang-64-fixed
+
+==== 2026-04-21 11:10:55 :: Lang-65-fixed ====
+>>> defects4j test -r in Lang-65-fixed
+---- exit code: 0 | Lang-65-fixed
+
+==== 2026-04-21 11:10:58 :: Lang-1-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testHexBoundariesWithNegative in Lang-1-fixed_ind1
+---- exit code: 0 | Lang-1-fixed_ind1
+
+==== 2026-04-21 11:11:02 :: Lang-1-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testHexWithHashPrefix in Lang-1-fixed_ind2
+---- exit code: 0 | Lang-1-fixed_ind2
+
+==== 2026-04-21 11:11:06 :: Lang-1-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testHexExactly9And17Digits in Lang-1-fixed_ind3
+---- exit code: 0 | Lang-1-fixed_ind3
+
+==== 2026-04-21 11:11:10 :: Lang-3-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberWithTypeSuffixPrecisionLoss in Lang-3-fixed_ind1
+---- exit code: 0 | Lang-3-fixed_ind1
+
+==== 2026-04-21 11:11:14 :: Lang-3-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberEdgeCasesInfinity in Lang-3-fixed_ind2
+---- exit code: 0 | Lang-3-fixed_ind2
+
+==== 2026-04-21 11:11:18 :: Lang-4-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882MultipleEntries in Lang-4-fixed_ind1
+---- exit code: 0 | Lang-4-fixed_ind1
+
+==== 2026-04-21 11:11:21 :: Lang-4-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882StringBuilder in Lang-4-fixed_ind2
+---- exit code: 0 | Lang-4-fixed_ind2
+
+==== 2026-04-21 11:11:25 :: Lang-5-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.LocaleUtilsTest::testLang865_AdditionalCase1 in Lang-5-fixed_ind1
+---- exit code: 0 | Lang-5-fixed_ind1
+
+==== 2026-04-21 11:11:29 :: Lang-5-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.LocaleUtilsTest::testLang865_AdditionalCase2 in Lang-5-fixed_ind2
+---- exit code: 0 | Lang-5-fixed_ind2
+
+==== 2026-04-21 11:11:33 :: Lang-6-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairsWithEscaping in Lang-6-fixed_ind1
+---- exit code: 0 | Lang-6-fixed_ind1
+
+==== 2026-04-21 11:11:37 :: Lang-6-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairsInQuotes in Lang-6-fixed_ind2
+---- exit code: 0 | Lang-6-fixed_ind2
+
+==== 2026-04-21 11:11:41 :: Lang-8-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithDST in Lang-8-fixed_ind1
+---- exit code: 0 | Lang-8-fixed_ind1
+
+==== 2026-04-21 11:11:45 :: Lang-8-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithoutDST in Lang-8-fixed_ind2
+---- exit code: 0 | Lang-8-fixed_ind2
+
+==== 2026-04-21 11:11:49 :: Lang-9-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testUnterminatedQuoteAtEnd in Lang-9-fixed_ind1
+---- exit code: 0 | Lang-9-fixed_ind1
+
+==== 2026-04-21 11:11:53 :: Lang-9-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testUnterminatedQuoteMiddle in Lang-9-fixed_ind2
+---- exit code: 0 | Lang-9-fixed_ind2
+
+==== 2026-04-21 11:11:56 :: Lang-9-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testProperlyTerminatedQuote in Lang-9-fixed_ind3
+---- exit code: 1 | Lang-9-fixed_ind3
+
+==== 2026-04-21 11:11:59 :: Lang-10-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexMultipleSpaces in Lang-10-fixed_ind1
+---- exit code: 0 | Lang-10-fixed_ind1
+
+==== 2026-04-21 11:12:04 :: Lang-10-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexSpecialChars in Lang-10-fixed_ind2
+---- exit code: 0 | Lang-10-fixed_ind2
+
+==== 2026-04-21 11:12:07 :: Lang-10-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateParserTest::testEscapeRegexTrailingWhitespace in Lang-10-fixed_ind3
+---- exit code: 0 | Lang-10-fixed_ind3
+
+==== 2026-04-21 11:12:11 :: Lang-11-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.RandomStringUtilsTest::testLANG807_StartGreaterThanEnd in Lang-11-fixed_ind1
+---- exit code: 0 | Lang-11-fixed_ind1
+
+==== 2026-04-21 11:12:15 :: Lang-11-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.RandomStringUtilsTest::testLANG807_WithCharsArrayStartEqualsLength in Lang-11-fixed_ind2
+---- exit code: 0 | Lang-11-fixed_ind2
+
+==== 2026-04-21 11:12:19 :: Lang-11-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.RandomStringUtilsTest::testLANG807_WithCharsArrayEndExceedsLength in Lang-11-fixed_ind3
+---- exit code: 0 | Lang-11-fixed_ind3
+
+==== 2026-04-21 11:12:23 :: Lang-12-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.RandomStringUtilsTest::testRandomWithNonEmptyCharArray in Lang-12-fixed_ind1
+---- exit code: 0 | Lang-12-fixed_ind1
+
+==== 2026-04-21 11:12:27 :: Lang-12-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.RandomStringUtilsTest::testRandomWithSingleCharArray in Lang-12-fixed_ind2
+---- exit code: 0 | Lang-12-fixed_ind2
+
+==== 2026-04-21 11:12:32 :: Lang-13-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.SerializationUtilsTest::testPrimitiveTypeArrayClassSerialization in Lang-13-fixed_ind1
+---- exit code: 1 | Lang-13-fixed_ind1
+
+==== 2026-04-21 11:12:35 :: Lang-13-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.SerializationUtilsTest::testMixedPrimitiveAndObjectClassSerialization in Lang-13-fixed_ind2
+---- exit code: 1 | Lang-13-fixed_ind2
+
+==== 2026-04-21 11:12:38 :: Lang-14-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEqualsAdditional1 in Lang-14-fixed_ind1
+---- exit code: 1 | Lang-14-fixed_ind1
+
+==== 2026-04-21 11:12:41 :: Lang-14-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEqualsAdditional2 in Lang-14-fixed_ind2
+---- exit code: 1 | Lang-14-fixed_ind2
+
+==== 2026-04-21 11:12:44 :: Lang-14-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEqualsAdditional3 in Lang-14-fixed_ind3
+---- exit code: 1 | Lang-14-fixed_ind3
+
+==== 2026-04-21 11:12:48 :: Lang-17-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringEscapeUtilsTest::testLang720_MultipleSupplementaryCharacters in Lang-17-fixed_ind1
+---- exit code: 0 | Lang-17-fixed_ind1
+
+==== 2026-04-21 11:12:52 :: Lang-17-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringEscapeUtilsTest::testLang720_SupplementaryAtEnd in Lang-17-fixed_ind2
+---- exit code: 0 | Lang-17-fixed_ind2
+
+==== 2026-04-21 11:12:56 :: Lang-17-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.StringEscapeUtilsTest::testLang720_MixedCharacters in Lang-17-fixed_ind3
+---- exit code: 0 | Lang-17-fixed_ind3
+
+==== 2026-04-21 11:13:00 :: Lang-19-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testDecimalEntityWithoutSemicolon in Lang-19-fixed_ind1
+---- exit code: 0 | Lang-19-fixed_ind1
+
+==== 2026-04-21 11:13:03 :: Lang-19-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testValidEntitiesWithSemicolon in Lang-19-fixed_ind2
+---- exit code: 0 | Lang-19-fixed_ind2
+
+==== 2026-04-21 11:13:07 :: Lang-19-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryCharacter in Lang-19-fixed_ind3
+---- exit code: 0 | Lang-19-fixed_ind3
+
+==== 2026-04-21 11:13:11 :: Lang-20-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar_MultipleElements in Lang-20-fixed_ind1
+---- exit code: 0 | Lang-20-fixed_ind1
+
+==== 2026-04-21 11:13:15 :: Lang-20-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayString_MultipleElements in Lang-20-fixed_ind2
+---- exit code: 0 | Lang-20-fixed_ind2
+
+==== 2026-04-21 11:13:19 :: Lang-21-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_HourDifference in Lang-21-fixed_ind1
+---- exit code: 0 | Lang-21-fixed_ind1
+
+==== 2026-04-21 11:13:23 :: Lang-21-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_AMvsPM in Lang-21-fixed_ind2
+---- exit code: 0 | Lang-21-fixed_ind2
+
+==== 2026-04-21 11:13:26 :: Lang-22-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.math.FractionTest::testReduceWithZeroNumerator in Lang-22-fixed_ind1
+---- exit code: 0 | Lang-22-fixed_ind1
+
+==== 2026-04-21 11:13:30 :: Lang-22-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.math.FractionTest::testReducedFactoryWithPowersOfTwo in Lang-22-fixed_ind2
+---- exit code: 0 | Lang-22-fixed_ind2
+
+==== 2026-04-21 11:13:33 :: Lang-22-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.math.FractionTest::testReducedFactoryWithOneOperand in Lang-22-fixed_ind3
+---- exit code: 0 | Lang-22-fixed_ind3
+
+==== 2026-04-21 11:13:37 :: Lang-26-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateFormatTest::testLang645_AdditionalLocale in Lang-26-fixed_ind1
+---- exit code: 0 | Lang-26-fixed_ind1
+
+==== 2026-04-21 11:13:40 :: Lang-26-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateFormatTest::testLang645_FrenchLocale in Lang-26-fixed_ind2
+---- exit code: 0 | Lang-26-fixed_ind2
+
+==== 2026-04-21 11:13:44 :: Lang-27-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberDoubleWithAllZeros in Lang-27-fixed_ind1
+---- exit code: 1 | Lang-27-fixed_ind1
+
+==== 2026-04-21 11:13:47 :: Lang-27-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberDoubleNonZero in Lang-27-fixed_ind2
+---- exit code: 1 | Lang-27-fixed_ind2
+
+==== 2026-04-21 11:13:50 :: Lang-28-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBoundsProtection in Lang-28-fixed_ind1
+---- exit code: 0 | Lang-28-fixed_ind1
+
+==== 2026-04-21 11:13:54 :: Lang-28-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testInvalidCodePoint in Lang-28-fixed_ind2
+---- exit code: 0 | Lang-28-fixed_ind2
+
+==== 2026-04-21 11:13:58 :: Lang-28-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testHexadecimalEntities in Lang-28-fixed_ind3
+---- exit code: 0 | Lang-28-fixed_ind3
+
+==== 2026-04-21 11:14:02 :: Lang-28-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testEmptyNumericEntity in Lang-28-fixed_ind4
+---- exit code: 0 | Lang-28-fixed_ind4
+
+==== 2026-04-21 11:14:06 :: Lang-30-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_WithMixedSupplementaryAndBMP in Lang-30-fixed_ind1
+---- exit code: 0 | Lang-30-fixed_ind1
+
+==== 2026-04-21 11:14:09 :: Lang-30-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAny_WithLoneHighSurrogate in Lang-30-fixed_ind2
+---- exit code: 0 | Lang-30-fixed_ind2
+
+==== 2026-04-21 11:14:13 :: Lang-30-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_WithLoneSurrogates in Lang-30-fixed_ind3
+---- exit code: 0 | Lang-30-fixed_ind3
+
+==== 2026-04-21 11:14:16 :: Lang-31-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyCharArrayWithMixedSupplementaryAndBMP in Lang-31-fixed_ind1
+---- exit code: 0 | Lang-31-fixed_ind1
+
+==== 2026-04-21 11:14:20 :: Lang-31-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyCharArrayWithLoneSurrogates in Lang-31-fixed_ind2
+---- exit code: 0 | Lang-31-fixed_ind2
+
+==== 2026-04-21 11:14:23 :: Lang-31-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyCharArrayEdgeCases in Lang-31-fixed_ind3
+---- exit code: 0 | Lang-31-fixed_ind3
+
+==== 2026-04-21 11:14:27 :: Lang-32-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycleMultiple in Lang-32-fixed_ind1
+---- exit code: 0 | Lang-32-fixed_ind1
+
+==== 2026-04-21 11:14:31 :: Lang-32-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectNoCycle in Lang-32-fixed_ind2
+---- exit code: 0 | Lang-32-fixed_ind2
+
+==== 2026-04-21 11:14:34 :: Lang-32-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectDeepCycle in Lang-32-fixed_ind3
+---- exit code: 0 | Lang-32-fixed_ind3
+
+==== 2026-04-21 11:14:38 :: Lang-33-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.ClassUtilsTest::testToClass_objectWithNullAtStart in Lang-33-fixed_ind1
+---- exit code: 0 | Lang-33-fixed_ind1
+
+==== 2026-04-21 11:14:41 :: Lang-33-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.ClassUtilsTest::testToClass_objectWithAllNulls in Lang-33-fixed_ind2
+---- exit code: 0 | Lang-33-fixed_ind2
+
+==== 2026-04-21 11:14:44 :: Lang-33-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.ClassUtilsTest::testToClass_objectWithMultipleNulls in Lang-33-fixed_ind3
+---- exit code: 0 | Lang-33-fixed_ind3
+
+==== 2026-04-21 11:14:48 :: Lang-34-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testRegistryInitialization in Lang-34-fixed_ind1
+---- exit code: 1 | Lang-34-fixed_ind1
+
+==== 2026-04-21 11:14:51 :: Lang-34-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testMultiLevelObjectCycle in Lang-34-fixed_ind2
+---- exit code: 0 | Lang-34-fixed_ind2
+
+==== 2026-04-21 11:14:55 :: Lang-35-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.ArrayUtilsAddTest::testAddNullArrayNonNullElement in Lang-35-fixed_ind1
+---- exit code: 0 | Lang-35-fixed_ind1
+
+==== 2026-04-21 11:14:59 :: Lang-35-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.ArrayUtilsAddTest::testAddWithIndexNullArrayNonNullElement in Lang-35-fixed_ind2
+---- exit code: 0 | Lang-35-fixed_ind2
+
+==== 2026-04-21 11:15:02 :: Lang-35-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.ArrayUtilsAddTest::testAddNonNullArrayNullElement in Lang-35-fixed_ind3
+---- exit code: 0 | Lang-35-fixed_ind3
+
+==== 2026-04-21 11:15:06 :: Lang-36-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberTrailingDecimal in Lang-36-fixed_ind1
+---- exit code: 0 | Lang-36-fixed_ind1
+
+==== 2026-04-21 11:15:10 :: Lang-36-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumberInvalidTrailingDecimal in Lang-36-fixed_ind2
+---- exit code: 0 | Lang-36-fixed_ind2
+
+==== 2026-04-21 11:15:13 :: Lang-37-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.ArrayUtilsAddTest::testAddAllCompatibleTypes in Lang-37-fixed_ind1
+---- exit code: 0 | Lang-37-fixed_ind1
+
+==== 2026-04-21 11:15:17 :: Lang-37-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.ArrayUtilsAddTest::testAddAllIncompatiblePrimitiveWrappers in Lang-37-fixed_ind2
+---- exit code: 1 | Lang-37-fixed_ind2
+
+==== 2026-04-21 11:15:20 :: Lang-37-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang3.ArrayUtilsAddTest::testAddAllSameType in Lang-37-fixed_ind3
+---- exit code: 0 | Lang-37-fixed_ind3
+
+==== 2026-04-21 11:15:23 :: Lang-38-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateFormatTest::testLang538_AdditionalCase1 in Lang-38-fixed_ind1
+---- exit code: 0 | Lang-38-fixed_ind1
+
+==== 2026-04-21 11:15:26 :: Lang-38-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.time.FastDateFormatTest::testLang538_AdditionalCase2 in Lang-38-fixed_ind2
+---- exit code: 0 | Lang-38-fixed_ind2
+
+==== 2026-04-21 11:15:30 :: Lang-39-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsTest::testReplaceEach_NullInMiddleOfArrays in Lang-39-fixed_ind1
+---- exit code: 0 | Lang-39-fixed_ind1
+
+==== 2026-04-21 11:15:33 :: Lang-39-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang3.StringUtilsTest::testReplaceEach_EmptySearchString in Lang-39-fixed_ind2
+---- exit code: 0 | Lang-39-fixed_ind2
+
+==== 2026-04-21 11:15:37 :: Lang-40-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_EmptyString in Lang-40-fixed_ind1
+---- exit code: 0 | Lang-40-fixed_ind1
+
+==== 2026-04-21 11:15:40 :: Lang-40-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_MultipleOccurrences in Lang-40-fixed_ind2
+---- exit code: 0 | Lang-40-fixed_ind2
+
+==== 2026-04-21 11:15:43 :: Lang-40-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_BoundaryConditions in Lang-40-fixed_ind3
+---- exit code: 0 | Lang-40-fixed_ind3
+
+==== 2026-04-21 11:15:47 :: Lang-41-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_MultiDimensionalPrimitiveArrays in Lang-41-fixed_ind1
+---- exit code: 0 | Lang-41-fixed_ind1
+
+==== 2026-04-21 11:15:50 :: Lang-41-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.ClassUtilsTest::test_getPackageName_MultiDimensionalArrays in Lang-41-fixed_ind2
+---- exit code: 0 | Lang-41-fixed_ind2
+
+==== 2026-04-21 11:15:54 :: Lang-41-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_InnerClassArray in Lang-41-fixed_ind3
+---- exit code: 0 | Lang-41-fixed_ind3
+
+==== 2026-04-21 11:15:58 :: Lang-43-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuoteAtEnd_LANG_477 in Lang-43-fixed_ind1
+---- exit code: 0 | Lang-43-fixed_ind1
+
+==== 2026-04-21 11:16:02 :: Lang-43-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testMultipleEscapedQuotes_LANG_477 in Lang-43-fixed_ind2
+---- exit code: 0 | Lang-43-fixed_ind2
+
+==== 2026-04-21 11:16:05 :: Lang-43-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testQuotedStringAfterEscapedQuote_LANG_477 in Lang-43-fixed_ind3
+---- exit code: 0 | Lang-43-fixed_ind3
+
+==== 2026-04-21 11:16:09 :: Lang-44-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.NumberUtilsTest::testLang457Additional1 in Lang-44-fixed_ind1
+---- exit code: 0 | Lang-44-fixed_ind1
+
+==== 2026-04-21 11:16:13 :: Lang-44-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.NumberUtilsTest::testLang457Additional2 in Lang-44-fixed_ind2
+---- exit code: 0 | Lang-44-fixed_ind2
+
+==== 2026-04-21 11:16:17 :: Lang-44-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.NumberUtilsTest::testLang457Additional3 in Lang-44-fixed_ind3
+---- exit code: 0 | Lang-44-fixed_ind3
+
+==== 2026-04-21 11:16:21 :: Lang-45-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.WordUtilsTest::testAbbreviateAdditional1 in Lang-45-fixed_ind1
+---- exit code: 0 | Lang-45-fixed_ind1
+
+==== 2026-04-21 11:16:24 :: Lang-45-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.WordUtilsTest::testAbbreviateAdditional2 in Lang-45-fixed_ind2
+---- exit code: 0 | Lang-45-fixed_ind2
+
+==== 2026-04-21 11:16:28 :: Lang-45-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.WordUtilsTest::testAbbreviateAdditional3 in Lang-45-fixed_ind3
+---- exit code: 0 | Lang-45-fixed_ind3
+
+==== 2026-04-21 11:16:32 :: Lang-45-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.lang.WordUtilsTest::testAbbreviateAdditional4 in Lang-45-fixed_ind4
+---- exit code: 0 | Lang-45-fixed_ind4
+
+==== 2026-04-21 11:16:36 :: Lang-46-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScriptWithSlash in Lang-46-fixed_ind1
+---- exit code: 0 | Lang-46-fixed_ind1
+
+==== 2026-04-21 11:16:40 :: Lang-46-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSingleQuote in Lang-46-fixed_ind2
+---- exit code: 0 | Lang-46-fixed_ind2
+
+==== 2026-04-21 11:16:43 :: Lang-46-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScriptWithSingleQuote in Lang-46-fixed_ind3
+---- exit code: 0 | Lang-46-fixed_ind3
+
+==== 2026-04-21 11:16:47 :: Lang-47-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testAppendFixedWidthPadLeftLongerString in Lang-47-fixed_ind1
+---- exit code: 0 | Lang-47-fixed_ind1
+
+==== 2026-04-21 11:16:51 :: Lang-47-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testAppendFixedWidthPadRightLongerString in Lang-47-fixed_ind2
+---- exit code: 0 | Lang-47-fixed_ind2
+
+==== 2026-04-21 11:16:55 :: Lang-47-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testAppendFixedWidthPadLeftShorterString in Lang-47-fixed_ind3
+---- exit code: 0 | Lang-47-fixed_ind3
+
+==== 2026-04-21 11:16:59 :: Lang-47-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testAppendFixedWidthPadRightShorterString in Lang-47-fixed_ind4
+---- exit code: 0 | Lang-47-fixed_ind4
+
+==== 2026-04-21 11:17:03 :: Lang-47-fixed_ind5 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testAppendFixedWidthPadLeftZeroWidth in Lang-47-fixed_ind5
+---- exit code: 0 | Lang-47-fixed_ind5
+
+==== 2026-04-21 11:17:06 :: Lang-49-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.math.FractionTest::testReduceNegativeZero in Lang-49-fixed_ind1
+---- exit code: 0 | Lang-49-fixed_ind1
+
+==== 2026-04-21 11:17:10 :: Lang-49-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.math.FractionTest::testReduceLargeNumeratorWithGcd in Lang-49-fixed_ind2
+---- exit code: 0 | Lang-49-fixed_ind2
+
+==== 2026-04-21 11:17:14 :: Lang-49-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.math.FractionTest::testReduceAlreadyReducedNegative in Lang-49-fixed_ind3
+---- exit code: 0 | Lang-49-fixed_ind3
+
+==== 2026-04-21 11:17:17 :: Lang-50-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateInstance_withTimeZone in Lang-50-fixed_ind1
+---- exit code: 0 | Lang-50-fixed_ind1
+
+==== 2026-04-21 11:17:21 :: Lang-50-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::test_changeDefault_Locale_DateTimeInstance_withTimeZone in Lang-50-fixed_ind2
+---- exit code: 0 | Lang-50-fixed_ind2
+
+==== 2026-04-21 11:17:24 :: Lang-52-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScriptForwardSlash in Lang-52-fixed_ind1
+---- exit code: 0 | Lang-52-fixed_ind1
+
+==== 2026-04-21 11:17:28 :: Lang-52-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScriptMixedContent in Lang-52-fixed_ind2
+---- exit code: 0 | Lang-52-fixed_ind2
+
+==== 2026-04-21 11:17:32 :: Lang-53-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.time.DateUtilsTest::testRoundLang346_Additional1 in Lang-53-fixed_ind1
+---- exit code: 0 | Lang-53-fixed_ind1
+
+==== 2026-04-21 11:17:36 :: Lang-53-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.time.DateUtilsTest::testRoundLang346_Additional2 in Lang-53-fixed_ind2
+---- exit code: 0 | Lang-53-fixed_ind2
+
+==== 2026-04-21 11:17:39 :: Lang-54-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testLang328_AdditionalCase1 in Lang-54-fixed_ind1
+---- exit code: 0 | Lang-54-fixed_ind1
+
+==== 2026-04-21 11:17:43 :: Lang-54-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testLang328_AdditionalCase2 in Lang-54-fixed_ind2
+---- exit code: 0 | Lang-54-fixed_ind2
+
+==== 2026-04-21 11:17:47 :: Lang-54-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.LocaleUtilsTest::testLang328_AdditionalCase3 in Lang-54-fixed_ind3
+---- exit code: 0 | Lang-54-fixed_ind3
+
+==== 2026-04-21 11:17:50 :: Lang-55-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.time.StopWatchTest::testStopFromRunningState in Lang-55-fixed_ind1
+---- exit code: 0 | Lang-55-fixed_ind1
+
+==== 2026-04-21 11:17:54 :: Lang-55-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.time.StopWatchTest::testMultipleSuspendResumeBeforeStop in Lang-55-fixed_ind2
+---- exit code: 0 | Lang-55-fixed_ind2
+
+==== 2026-04-21 11:17:59 :: Lang-56-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::testToStringWithNullPattern in Lang-56-fixed_ind1
+---- exit code: 0 | Lang-56-fixed_ind1
+
+==== 2026-04-21 11:18:02 :: Lang-56-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.time.FastDateFormatTest::testToStringAfterMultipleSerialization in Lang-56-fixed_ind2
+---- exit code: 0 | Lang-56-fixed_ind2
+
+==== 2026-04-21 11:18:06 :: Lang-58-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.math.NumberUtilsTest::testCreateNumberWithLeadingZeroAndTypeSuffix in Lang-58-fixed_ind1
+---- exit code: 0 | Lang-58-fixed_ind1
+
+==== 2026-04-21 11:18:10 :: Lang-58-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.math.NumberUtilsTest::testCreateNumberWithNegativeLeadingZero in Lang-58-fixed_ind2
+---- exit code: 0 | Lang-58-fixed_ind2
+
+==== 2026-04-21 11:18:14 :: Lang-59-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderAppendInsertTest::testAppendFixedWidthPadRight_TruncateLongerString in Lang-59-fixed_ind1
+---- exit code: 0 | Lang-59-fixed_ind1
+
+==== 2026-04-21 11:18:17 :: Lang-59-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderAppendInsertTest::testAppendFixedWidthPadRight_PadShorterString in Lang-59-fixed_ind2
+---- exit code: 0 | Lang-59-fixed_ind2
+
+==== 2026-04-21 11:18:21 :: Lang-59-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderAppendInsertTest::testAppendFixedWidthPadRight_ExactWidth in Lang-59-fixed_ind3
+---- exit code: 0 | Lang-59-fixed_ind3
+
+==== 2026-04-21 11:18:24 :: Lang-59-fixed_ind4 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderAppendInsertTest::testAppendFixedWidthPadRight_NullObject in Lang-59-fixed_ind4
+---- exit code: 0 | Lang-59-fixed_ind4
+
+==== 2026-04-21 11:18:28 :: Lang-60-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testContainsWithEmptyBuffer in Lang-60-fixed_ind1
+---- exit code: 0 | Lang-60-fixed_ind1
+
+==== 2026-04-21 11:18:32 :: Lang-60-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testContainsAfterPartialDelete in Lang-60-fixed_ind2
+---- exit code: 0 | Lang-60-fixed_ind2
+
+==== 2026-04-21 11:18:35 :: Lang-60-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testIndexOfWithStartIndexBeyondSize in Lang-60-fixed_ind3
+---- exit code: 0 | Lang-60-fixed_ind3
+
+==== 2026-04-21 11:18:39 :: Lang-61-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testIndexOfAtEnd in Lang-61-fixed_ind1
+---- exit code: 0 | Lang-61-fixed_ind1
+
+==== 2026-04-21 11:18:42 :: Lang-61-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testIndexOfAfterModification in Lang-61-fixed_ind2
+---- exit code: 0 | Lang-61-fixed_ind2
+
+==== 2026-04-21 11:18:46 :: Lang-61-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.text.StrBuilderTest::testIndexOfExactMatch in Lang-61-fixed_ind3
+---- exit code: 0 | Lang-61-fixed_ind3
+
+==== 2026-04-21 11:18:50 :: Lang-62-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.EntitiesTest::testNegativeNumberOverflow in Lang-62-fixed_ind1
+---- exit code: 0 | Lang-62-fixed_ind1
+
+==== 2026-04-21 11:18:53 :: Lang-62-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.EntitiesTest::testUpperBoundary in Lang-62-fixed_ind2
+---- exit code: 0 | Lang-62-fixed_ind2
+
+==== 2026-04-21 11:18:57 :: Lang-63-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.time.DurationFormatUtilsTest::testFormatPeriodFebruaryLeapYear in Lang-63-fixed_ind1
+---- exit code: 0 | Lang-63-fixed_ind1
+
+==== 2026-04-21 11:19:01 :: Lang-63-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.time.DurationFormatUtilsTest::testFormatPeriodFebruaryNonLeapYear in Lang-63-fixed_ind2
+---- exit code: 0 | Lang-63-fixed_ind2
+
+==== 2026-04-21 11:19:04 :: Lang-64-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_sameEnumType in Lang-64-fixed_ind1
+---- exit code: 0 | Lang-64-fixed_ind1
+
+==== 2026-04-21 11:19:08 :: Lang-64-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_null in Lang-64-fixed_ind2
+---- exit code: 1 | Lang-64-fixed_ind2
+
+==== 2026-04-21 11:19:11 :: Lang-64-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_valueOrdering in Lang-64-fixed_ind3
+---- exit code: 0 | Lang-64-fixed_ind3
+
+==== 2026-04-21 11:19:15 :: Lang-65-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.lang.time.DateUtilsTest::testRoundSemiMonth in Lang-65-fixed_ind1
+---- exit code: 0 | Lang-65-fixed_ind1
+
+==== 2026-04-21 11:19:18 :: Lang-65-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.lang.time.DateUtilsTest::testRoundAmPm in Lang-65-fixed_ind2
+---- exit code: 0 | Lang-65-fixed_ind2
+
+
+=== Combined Test Run Summary ===
+  Lang/Lang-1-fixed                                       -> OK
+  Lang/Lang-10-fixed                                      -> OK
+  Lang/Lang-11-fixed                                      -> OK
+  Lang/Lang-12-fixed                                      -> OK
+  Lang/Lang-13-fixed                                      -> FAIL(1)
+  Lang/Lang-14-fixed                                      -> FAIL(1)
+  Lang/Lang-15-fixed                                      -> FAIL(1)
+  Lang/Lang-16-fixed                                      -> OK
+  Lang/Lang-17-fixed                                      -> OK
+  Lang/Lang-19-fixed                                      -> OK
+  Lang/Lang-20-fixed                                      -> OK
+  Lang/Lang-21-fixed                                      -> OK
+  Lang/Lang-22-fixed                                      -> OK
+  Lang/Lang-24-fixed                                      -> OK
+  Lang/Lang-26-fixed                                      -> OK
+  Lang/Lang-27-fixed                                      -> FAIL(1)
+  Lang/Lang-28-fixed                                      -> OK
+  Lang/Lang-29-fixed                                      -> FAIL(1)
+  Lang/Lang-3-fixed                                       -> OK
+  Lang/Lang-30-fixed                                      -> OK
+  Lang/Lang-31-fixed                                      -> OK
+  Lang/Lang-32-fixed                                      -> OK
+  Lang/Lang-33-fixed                                      -> OK
+  Lang/Lang-34-fixed                                      -> FAIL(1)
+  Lang/Lang-35-fixed                                      -> OK
+  Lang/Lang-36-fixed                                      -> OK
+  Lang/Lang-37-fixed                                      -> FAIL(1)
+  Lang/Lang-38-fixed                                      -> OK
+  Lang/Lang-39-fixed                                      -> OK
+  Lang/Lang-4-fixed                                       -> OK
+  Lang/Lang-40-fixed                                      -> OK
+  Lang/Lang-41-fixed                                      -> OK
+  Lang/Lang-43-fixed                                      -> OK
+  Lang/Lang-44-fixed                                      -> OK
+  Lang/Lang-45-fixed                                      -> OK
+  Lang/Lang-46-fixed                                      -> OK
+  Lang/Lang-47-fixed                                      -> OK
+  Lang/Lang-49-fixed                                      -> OK
+  Lang/Lang-5-fixed                                       -> OK
+  Lang/Lang-50-fixed                                      -> OK
+  Lang/Lang-51-fixed                                      -> OK
+  Lang/Lang-52-fixed                                      -> OK
+  Lang/Lang-53-fixed                                      -> OK
+  Lang/Lang-54-fixed                                      -> OK
+  Lang/Lang-55-fixed                                      -> OK
+  Lang/Lang-56-fixed                                      -> OK
+  Lang/Lang-57-fixed                                      -> OK
+  Lang/Lang-58-fixed                                      -> OK
+  Lang/Lang-59-fixed                                      -> OK
+  Lang/Lang-6-fixed                                       -> OK
+  Lang/Lang-60-fixed                                      -> OK
+  Lang/Lang-61-fixed                                      -> OK
+  Lang/Lang-62-fixed                                      -> OK
+  Lang/Lang-63-fixed                                      -> OK
+  Lang/Lang-64-fixed                                      -> FAIL(1)
+  Lang/Lang-65-fixed                                      -> OK
+  Lang/Lang-7-fixed                                       -> OK
+  Lang/Lang-8-fixed                                       -> OK
+  Lang/Lang-9-fixed                                       -> FAIL(1)
+Combined total: 59 | failed: 9 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Lang/Lang-1-fixed_ind1                                  -> OK
+  Lang/Lang-1-fixed_ind2                                  -> OK
+  Lang/Lang-1-fixed_ind3                                  -> OK
+  Lang/Lang-10-fixed_ind1                                 -> OK
+  Lang/Lang-10-fixed_ind2                                 -> OK
+  Lang/Lang-10-fixed_ind3                                 -> OK
+  Lang/Lang-11-fixed_ind1                                 -> OK
+  Lang/Lang-11-fixed_ind2                                 -> OK
+  Lang/Lang-11-fixed_ind3                                 -> OK
+  Lang/Lang-12-fixed_ind1                                 -> OK
+  Lang/Lang-12-fixed_ind2                                 -> OK
+  Lang/Lang-13-fixed_ind1                                 -> FAIL(1)
+  Lang/Lang-13-fixed_ind2                                 -> FAIL(1)
+  Lang/Lang-14-fixed_ind1                                 -> FAIL(1)
+  Lang/Lang-14-fixed_ind2                                 -> FAIL(1)
+  Lang/Lang-14-fixed_ind3                                 -> FAIL(1)
+  Lang/Lang-17-fixed_ind1                                 -> OK
+  Lang/Lang-17-fixed_ind2                                 -> OK
+  Lang/Lang-17-fixed_ind3                                 -> OK
+  Lang/Lang-19-fixed_ind1                                 -> OK
+  Lang/Lang-19-fixed_ind2                                 -> OK
+  Lang/Lang-19-fixed_ind3                                 -> OK
+  Lang/Lang-20-fixed_ind1                                 -> OK
+  Lang/Lang-20-fixed_ind2                                 -> OK
+  Lang/Lang-21-fixed_ind1                                 -> OK
+  Lang/Lang-21-fixed_ind2                                 -> OK
+  Lang/Lang-22-fixed_ind1                                 -> OK
+  Lang/Lang-22-fixed_ind2                                 -> OK
+  Lang/Lang-22-fixed_ind3                                 -> OK
+  Lang/Lang-26-fixed_ind1                                 -> OK
+  Lang/Lang-26-fixed_ind2                                 -> OK
+  Lang/Lang-27-fixed_ind1                                 -> FAIL(1)
+  Lang/Lang-27-fixed_ind2                                 -> FAIL(1)
+  Lang/Lang-28-fixed_ind1                                 -> OK
+  Lang/Lang-28-fixed_ind2                                 -> OK
+  Lang/Lang-28-fixed_ind3                                 -> OK
+  Lang/Lang-28-fixed_ind4                                 -> OK
+  Lang/Lang-3-fixed_ind1                                  -> OK
+  Lang/Lang-3-fixed_ind2                                  -> OK
+  Lang/Lang-30-fixed_ind1                                 -> OK
+  Lang/Lang-30-fixed_ind2                                 -> OK
+  Lang/Lang-30-fixed_ind3                                 -> OK
+  Lang/Lang-31-fixed_ind1                                 -> OK
+  Lang/Lang-31-fixed_ind2                                 -> OK
+  Lang/Lang-31-fixed_ind3                                 -> OK
+  Lang/Lang-32-fixed_ind1                                 -> OK
+  Lang/Lang-32-fixed_ind2                                 -> OK
+  Lang/Lang-32-fixed_ind3                                 -> OK
+  Lang/Lang-33-fixed_ind1                                 -> OK
+  Lang/Lang-33-fixed_ind2                                 -> OK
+  Lang/Lang-33-fixed_ind3                                 -> OK
+  Lang/Lang-34-fixed_ind1                                 -> FAIL(1)
+  Lang/Lang-34-fixed_ind2                                 -> OK
+  Lang/Lang-35-fixed_ind1                                 -> OK
+  Lang/Lang-35-fixed_ind2                                 -> OK
+  Lang/Lang-35-fixed_ind3                                 -> OK
+  Lang/Lang-36-fixed_ind1                                 -> OK
+  Lang/Lang-36-fixed_ind2                                 -> OK
+  Lang/Lang-37-fixed_ind1                                 -> OK
+  Lang/Lang-37-fixed_ind2                                 -> FAIL(1)
+  Lang/Lang-37-fixed_ind3                                 -> OK
+  Lang/Lang-38-fixed_ind1                                 -> OK
+  Lang/Lang-38-fixed_ind2                                 -> OK
+  Lang/Lang-39-fixed_ind1                                 -> OK
+  Lang/Lang-39-fixed_ind2                                 -> OK
+  Lang/Lang-4-fixed_ind1                                  -> OK
+  Lang/Lang-4-fixed_ind2                                  -> OK
+  Lang/Lang-40-fixed_ind1                                 -> OK
+  Lang/Lang-40-fixed_ind2                                 -> OK
+  Lang/Lang-40-fixed_ind3                                 -> OK
+  Lang/Lang-41-fixed_ind1                                 -> OK
+  Lang/Lang-41-fixed_ind2                                 -> OK
+  Lang/Lang-41-fixed_ind3                                 -> OK
+  Lang/Lang-43-fixed_ind1                                 -> OK
+  Lang/Lang-43-fixed_ind2                                 -> OK
+  Lang/Lang-43-fixed_ind3                                 -> OK
+  Lang/Lang-44-fixed_ind1                                 -> OK
+  Lang/Lang-44-fixed_ind2                                 -> OK
+  Lang/Lang-44-fixed_ind3                                 -> OK
+  Lang/Lang-45-fixed_ind1                                 -> OK
+  Lang/Lang-45-fixed_ind2                                 -> OK
+  Lang/Lang-45-fixed_ind3                                 -> OK
+  Lang/Lang-45-fixed_ind4                                 -> OK
+  Lang/Lang-46-fixed_ind1                                 -> OK
+  Lang/Lang-46-fixed_ind2                                 -> OK
+  Lang/Lang-46-fixed_ind3                                 -> OK
+  Lang/Lang-47-fixed_ind1                                 -> OK
+  Lang/Lang-47-fixed_ind2                                 -> OK
+  Lang/Lang-47-fixed_ind3                                 -> OK
+  Lang/Lang-47-fixed_ind4                                 -> OK
+  Lang/Lang-47-fixed_ind5                                 -> OK
+  Lang/Lang-49-fixed_ind1                                 -> OK
+  Lang/Lang-49-fixed_ind2                                 -> OK
+  Lang/Lang-49-fixed_ind3                                 -> OK
+  Lang/Lang-5-fixed_ind1                                  -> OK
+  Lang/Lang-5-fixed_ind2                                  -> OK
+  Lang/Lang-50-fixed_ind1                                 -> OK
+  Lang/Lang-50-fixed_ind2                                 -> OK
+  Lang/Lang-52-fixed_ind1                                 -> OK
+  Lang/Lang-52-fixed_ind2                                 -> OK
+  Lang/Lang-53-fixed_ind1                                 -> OK
+  Lang/Lang-53-fixed_ind2                                 -> OK
+  Lang/Lang-54-fixed_ind1                                 -> OK
+  Lang/Lang-54-fixed_ind2                                 -> OK
+  Lang/Lang-54-fixed_ind3                                 -> OK
+  Lang/Lang-55-fixed_ind1                                 -> OK
+  Lang/Lang-55-fixed_ind2                                 -> OK
+  Lang/Lang-56-fixed_ind1                                 -> OK
+  Lang/Lang-56-fixed_ind2                                 -> OK
+  Lang/Lang-58-fixed_ind1                                 -> OK
+  Lang/Lang-58-fixed_ind2                                 -> OK
+  Lang/Lang-59-fixed_ind1                                 -> OK
+  Lang/Lang-59-fixed_ind2                                 -> OK
+  Lang/Lang-59-fixed_ind3                                 -> OK
+  Lang/Lang-59-fixed_ind4                                 -> OK
+  Lang/Lang-6-fixed_ind1                                  -> OK
+  Lang/Lang-6-fixed_ind2                                  -> OK
+  Lang/Lang-60-fixed_ind1                                 -> OK
+  Lang/Lang-60-fixed_ind2                                 -> OK
+  Lang/Lang-60-fixed_ind3                                 -> OK
+  Lang/Lang-61-fixed_ind1                                 -> OK
+  Lang/Lang-61-fixed_ind2                                 -> OK
+  Lang/Lang-61-fixed_ind3                                 -> OK
+  Lang/Lang-62-fixed_ind1                                 -> OK
+  Lang/Lang-62-fixed_ind2                                 -> OK
+  Lang/Lang-63-fixed_ind1                                 -> OK
+  Lang/Lang-63-fixed_ind2                                 -> OK
+  Lang/Lang-64-fixed_ind1                                 -> OK
+  Lang/Lang-64-fixed_ind2                                 -> FAIL(1)
+  Lang/Lang-64-fixed_ind3                                 -> OK
+  Lang/Lang-65-fixed_ind1                                 -> OK
+  Lang/Lang-65-fixed_ind2                                 -> OK
+  Lang/Lang-8-fixed_ind1                                  -> OK
+  Lang/Lang-8-fixed_ind2                                  -> OK
+  Lang/Lang-9-fixed_ind1                                  -> OK
+  Lang/Lang-9-fixed_ind2                                  -> OK
+  Lang/Lang-9-fixed_ind3                                  -> FAIL(1)
+Individual total: 137 | failed: 11
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Lang] 144 | pass=124 not_pass=0 not_compilable=20 -> Lang.csv
+
+[DONE combined] total=144 pass=124 not_pass=0 not_compilable=20
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

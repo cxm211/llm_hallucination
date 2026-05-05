@@ -1,0 +1,58 @@
+==== 2026-04-24 15:32:54 :: Time-26-buggy_ind1 ====
+[JACOCO] trigger=8 add=1 total=9
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithSecondOfMinuteInDstChange
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testWithSecondOfMinuteInDstChange
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug2182444_usCentral
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_usCentral
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_Paris_summer
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_Paris_summer
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_NewYork_winter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_NewYork_winter
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug2182444_ausNSW
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_ausNSW
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestDateTimeZoneCutover::testAddDayInOverlap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 90 line rows.
+[PARSE] 90 base line rows.

@@ -1,0 +1,41 @@
+==== 2026-03-28 01:39:17 :: Compress-5-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testRead7ZipMultiVolumeArchiveForStream
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testReadTruncatedStoredEntryPartialBuffer
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testReadTruncatedStoredEntryMultipleReads
+---- exit code: 0 | Compress-5-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testRead7ZipMultiVolumeArchiveForStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testRead7ZipMultiVolumeArchiveForStream
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testReadTruncatedStoredEntryPartialBuffer
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testReadTruncatedStoredEntryPartialBuffer
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testReadTruncatedStoredEntryMultipleReads
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest::testReadTruncatedStoredEntryMultipleReads
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-5-buggy/jacoco_base.exec.
+[INFO] Analyzing 63 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-5-buggy/jacoco.exec.
+[INFO] Analyzing 63 classes.
+>>> [JACOCO] done

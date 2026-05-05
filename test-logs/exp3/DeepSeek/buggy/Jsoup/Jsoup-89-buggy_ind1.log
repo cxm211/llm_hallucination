@@ -1,0 +1,11 @@
+==== 2026-04-24 04:49:52 :: Jsoup-89-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.AttributeTest::setValueOnOrphanAttributeWithEmptyInitialValue
+  - org.jsoup.nodes.AttributeTest::settersOnOrphanAttribute
+---- exit code: 0 | Jsoup-89-buggy_ind1
+

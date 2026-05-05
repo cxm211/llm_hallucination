@@ -1,0 +1,13 @@
+==== 2026-03-27 03:11:08 :: Closure-72-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31_nested
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31_multiple
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31_unreferenced
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31
+---- exit code: 0 | Closure-72-buggy
+

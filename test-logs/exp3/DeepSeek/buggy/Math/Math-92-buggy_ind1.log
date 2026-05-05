@@ -1,0 +1,11 @@
+==== 2026-04-24 08:21:34 :: Math-92-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficient66_33
+  - org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientLarge
+---- exit code: 0 | Math-92-buggy_ind1
+

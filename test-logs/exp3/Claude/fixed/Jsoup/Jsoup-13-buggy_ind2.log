@@ -1,0 +1,44 @@
+==== 2026-04-01 00:38:10 :: Jsoup-13-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.NodeTest::literalAbsPrefix
+---- exit code: 0 | Jsoup-13-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 4, add tests: 1, total: 5
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::handlesAbsPrefixOnHasAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::handlesAbsPrefix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.select.ElementsTest::absAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.select.ElementsTest::hasAbsAttr
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.NodeTest::handlesAbsPrefixWithFullUrl
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-13-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 185 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-13-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 185 classes.
+>>> [JACOCO] done

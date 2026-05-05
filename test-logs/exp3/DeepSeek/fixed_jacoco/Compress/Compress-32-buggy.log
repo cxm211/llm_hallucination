@@ -1,0 +1,266 @@
+==== 2026-04-24 04:07:51 :: Compress-32-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-compress-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/maven-build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 158 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:496: error: illegal character: '\'
+    [javac]             if (\"path\".equals(key)){
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:496: error: unclosed string literal
+    [javac]             if (\"path\".equals(key)){
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:498: error: illegal character: '\'
+    [javac]             } else if (\"linkpath\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:498: error: 'else' without 'if'
+    [javac]             } else if (\"linkpath\".equals(key)){
+    [javac]               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:498: error: unclosed string literal
+    [javac]             } else if (\"linkpath\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:500: error: illegal start of type
+    [javac]             } else if (\"gid\".equals(key)){
+    [javac]               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:500: error: illegal character: '\'
+    [javac]             } else if (\"gid\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:500: error: unclosed string literal
+    [javac]             } else if (\"gid\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:501: error: <identifier> expected
+    [javac]                 currEntry.setLongGroupId(Long.parseLong(val));
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:501: error: <identifier> expected
+    [javac]                 currEntry.setLongGroupId(Long.parseLong(val));
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:502: error: class, interface, or enum expected
+    [javac]             } else if (\"gname\".equals(key)){
+    [javac]               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:502: error: illegal character: '\'
+    [javac]             } else if (\"gname\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:502: error: unclosed string literal
+    [javac]             } else if (\"gname\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:504: error: class, interface, or enum expected
+    [javac]             } else if (\"uid\".equals(key)){
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:504: error: illegal character: '\'
+    [javac]             } else if (\"uid\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:504: error: unclosed string literal
+    [javac]             } else if (\"uid\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:506: error: class, interface, or enum expected
+    [javac]             } else if (\"uname\".equals(key)){
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:506: error: illegal character: '\'
+    [javac]             } else if (\"uname\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:506: error: unclosed string literal
+    [javac]             } else if (\"uname\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:508: error: class, interface, or enum expected
+    [javac]             } else if (\"size\".equals(key)){
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:508: error: illegal character: '\'
+    [javac]             } else if (\"size\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:508: error: unclosed string literal
+    [javac]             } else if (\"size\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:510: error: class, interface, or enum expected
+    [javac]             } else if (\"mtime\".equals(key)){
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:510: error: illegal character: '\'
+    [javac]             } else if (\"mtime\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:510: error: unclosed string literal
+    [javac]             } else if (\"mtime\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:512: error: class, interface, or enum expected
+    [javac]             } else if (\"SCHILY.devminor\".equals(key)){
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:512: error: illegal character: '\'
+    [javac]             } else if (\"SCHILY.devminor\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:512: error: unclosed string literal
+    [javac]             } else if (\"SCHILY.devminor\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:514: error: class, interface, or enum expected
+    [javac]             } else if (\"SCHILY.devmajor\".equals(key)){
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:514: error: illegal character: '\'
+    [javac]             } else if (\"SCHILY.devmajor\".equals(key)){
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:514: error: unclosed string literal
+    [javac]             } else if (\"SCHILY.devmajor\".equals(key)){
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:516: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:535: error: class, interface, or enum expected
+    [javac]             do {
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:537: error: class, interface, or enum expected
+    [javac]                 if (headerBuf == null) {
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:539: error: class, interface, or enum expected
+    [javac]                     break;
+    [javac]                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:540: error: class, interface, or enum expected
+    [javac]                 }
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:545: error: class, interface, or enum expected
+    [javac]             } while (entry.isExtended());
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:546: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:557: error: class, interface, or enum expected
+    [javac]     public ArchiveEntry getNextEntry() throws IOException {
+    [javac]            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:559: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:573: error: class, interface, or enum expected
+    [javac]         boolean marked = is.markSupported();
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:574: error: class, interface, or enum expected
+    [javac]         if (marked) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:576: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:579: error: class, interface, or enum expected
+    [javac]         } finally {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:582: error: class, interface, or enum expected
+    [javac]             	is.reset();
+    [javac]             	^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:583: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:601: error: class, interface, or enum expected
+    [javac]     public int read(byte[] buf, int offset, int numToRead) throws IOException {
+    [javac]            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:604: error: class, interface, or enum expected
+    [javac]         if (hasHitEOF || entryOffset >= entrySize) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:606: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:610: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:614: error: class, interface, or enum expected
+    [javac]         totalRead = is.read(buf, offset, numToRead);
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:616: error: class, interface, or enum expected
+    [javac]         if (totalRead == -1) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:619: error: class, interface, or enum expected
+    [javac]             }
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:621: error: class, interface, or enum expected
+    [javac]         } else {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:623: error: class, interface, or enum expected
+    [javac]             entryOffset += totalRead;
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:624: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:627: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:635: error: class, interface, or enum expected
+    [javac]     public boolean canReadEntryData(ArchiveEntry ae) {
+    [javac]            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:638: error: class, interface, or enum expected
+    [javac]             return !te.isGNUSparse();
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:639: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:641: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:648: error: class, interface, or enum expected
+    [javac]     public TarArchiveEntry getCurrentEntry() {
+    [javac]            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:650: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:652: error: class, interface, or enum expected
+    [javac]     protected final void setCurrentEntry(TarArchiveEntry e) {
+    [javac]                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:654: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:656: error: class, interface, or enum expected
+    [javac]     protected final boolean isAtEOF() {
+    [javac]                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:658: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:660: error: class, interface, or enum expected
+    [javac]     protected final void setAtEOF(boolean b) {
+    [javac]                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:662: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:671: error: class, interface, or enum expected
+    [javac]         if (bytesReadOfLastBlock > 0) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:673: error: class, interface, or enum expected
+    [javac]             count(skipped);
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:674: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:686: error: class, interface, or enum expected
+    [javac]     public static boolean matches(byte[] signature, int length) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:689: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:698: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:711: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:720: error: class, interface, or enum expected
+    [javac]         }
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java:722: error: class, interface, or enum expected
+    [javac]     }
+    [javac]     ^
+    [javac] 78 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-32-buggy/maven-build.xml:80: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | test_result: Not Compilable | Compress-32-buggy
+

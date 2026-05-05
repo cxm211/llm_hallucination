@@ -1,0 +1,11 @@
+==== 2026-04-24 00:41:28 :: JacksonDatabind-35-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testTypeIdVisibleWithEmptyObject
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testTypeIdVisibleWithObject
+---- exit code: 0 | JacksonDatabind-35-fixed
+

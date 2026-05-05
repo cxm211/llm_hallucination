@@ -1,0 +1,11 @@
+==== 2026-04-25 23:12:56 :: JacksonCore-25-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510
+  - com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedInvalidCharAfterNonASCII
+---- exit code: 0 | JacksonCore-25-buggy_ind2
+

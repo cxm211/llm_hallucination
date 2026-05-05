@@ -1,0 +1,10 @@
+==== 2026-04-21 08:08:14 :: Compress-28-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::shouldThrowExceptionWhenReadingAfterTruncation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::shouldThrowExceptionWhenReadingAfterTruncation
+---- exit code: 0 | Compress-28-fixed_ind1
+

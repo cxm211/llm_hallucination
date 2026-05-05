@@ -1,0 +1,11 @@
+==== 2026-04-25 23:11:41 :: JacksonCore-15-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatches
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNotAllowMultipleMatchesWithIncludePath
+---- exit code: 0 | JacksonCore-15-buggy_ind2
+

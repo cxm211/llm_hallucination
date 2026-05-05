@@ -1,0 +1,11 @@
+==== 2026-04-22 02:38:51 :: Closure-126-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization
+---- exit code: 0 | Closure-126-buggy_ind1
+

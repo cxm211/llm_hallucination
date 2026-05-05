@@ -1,0 +1,12 @@
+==== 2026-04-26 06:37:10 :: Closure-43-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testLends10
+  - com.google.javascript.jscomp.TypeCheckTest::testLends11
+---- exit code: 0 | test_result: Not Pass | Closure-43-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-21 08:26:54 :: JacksonCore-26-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsetsWithEmptyFirstChunk
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsetsWithEmptyFirstChunk
+---- exit code: 0 | JacksonCore-26-fixed_ind1
+

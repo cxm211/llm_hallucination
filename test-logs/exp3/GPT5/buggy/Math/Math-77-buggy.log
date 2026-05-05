@@ -1,0 +1,12 @@
+==== 2026-04-28 21:33:07 :: Math-77-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.linear.ArrayRealVectorTest::testGetLInfNormNegativeOnly
+  - org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions
+  - org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions
+---- exit code: 0 | Math-77-buggy
+

@@ -1,0 +1,57 @@
+==== 2026-03-27 14:23:48 :: Closure-70-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping12
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13
+---- exit code: 0 | Closure-70-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 1, total: 6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+[JACOCO] defects4j test -t com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testScoping12
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping12
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testFunctionArgumentsNoJSDoc
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-70-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1084 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-70-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1084 classes.
+>>> [JACOCO] done

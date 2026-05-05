@@ -1,0 +1,18 @@
+==== 2026-04-26 00:24:52 :: JacksonCore-12-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/json/LocationInObjectTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithObjectFieldsUsingReader
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextNameWithIndentation
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextNameWithLongContent
+  - com.fasterxml.jackson.core.json.TestNextXxx::testIsNextTokenName
+  - com.fasterxml.jackson.core.json.TestNextXxx::testIsNextTokenName2
+  - com.fasterxml.jackson.core.json.TestNextXxx::testIsNextTokenName4
+  - com.fasterxml.jackson.core.json.TestNextXxx::testIssue34
+  - com.fasterxml.jackson.core.json.TestNextXxx::testIssue38
+---- exit code: 0 | test_result: Not Pass | JacksonCore-12-buggy
+

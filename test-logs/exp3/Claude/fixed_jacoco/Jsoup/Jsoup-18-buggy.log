@@ -1,0 +1,12 @@
+==== 2026-04-01 02:03:15 :: Jsoup-18-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/CharacterReaderTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.CharacterReaderTest::handleCarriageReturnAsLineFeed
+  - org.jsoup.parser.ParserTest::handlesNewlinesAndWhitespaceInTag
+---- exit code: 0 | test_result: Not Pass | Jsoup-18-buggy
+

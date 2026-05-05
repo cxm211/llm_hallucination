@@ -1,0 +1,14 @@
+==== 2026-04-26 07:13:42 :: Closure-136-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.InlineGettersTest::testIssue2508576_1
+  - com.google.javascript.jscomp.InlineGettersTest::testIssue2508576_3
+  - com.google.javascript.jscomp.MethodCheckTest::testSeparateMethods
+  - com.google.javascript.jscomp.RenameVarsTest::testDollarSignSuperExport2
+---- exit code: 0 | test_result: Not Pass | Closure-136-buggy
+

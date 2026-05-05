@@ -1,0 +1,29 @@
+==== 2026-04-29 04:40:04 :: Compress-31-buggy ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-31-buggy/jacoco_base.exec.
+[INFO] Analyzing 200 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalEmbeddedNulAfterSpaces
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalEmbeddedNulAfterSpaces
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-31-buggy/jacoco.exec.
+[INFO] Analyzing 200 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 48 line rows.
+[PARSE] 48 base line rows.

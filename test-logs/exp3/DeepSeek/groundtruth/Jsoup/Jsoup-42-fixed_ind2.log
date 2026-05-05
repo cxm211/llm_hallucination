@@ -1,0 +1,10 @@
+==== 2026-04-24 07:23:20 :: Jsoup-42-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.nodes.FormElementTest::multipleSelectWithNoSelectedOptions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.FormElementTest::multipleSelectWithNoSelectedOptions
+---- exit code: 0 | Jsoup-42-fixed_ind2
+

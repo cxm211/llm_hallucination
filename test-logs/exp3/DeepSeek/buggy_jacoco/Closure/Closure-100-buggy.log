@@ -1,0 +1,69 @@
+==== 2026-04-22 05:15:27 :: Closure-100-buggy ====
+[JACOCO] trigger=9 add=2 total=11
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction3
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-100-buggy/jacoco_base.exec.
+[INFO] Analyzing 881 classes.
+[JACOCO] base snapshot saved (9 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThisPropertyRead
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThisPropertyRead
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThisPropertyWrite
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThisPropertyWrite
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-100-buggy/jacoco.exec.
+[INFO] Analyzing 881 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 54 line rows.
+[PARSE] 54 base line rows.

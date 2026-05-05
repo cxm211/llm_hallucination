@@ -1,0 +1,13 @@
+==== 2026-04-25 20:05:47 :: Lang-20-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray_NullToString
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar_NullToString
+  - org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray
+---- exit code: 0 | Lang-20-buggy
+

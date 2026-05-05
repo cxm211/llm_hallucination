@@ -1,0 +1,12 @@
+==== 2026-04-24 17:53:29 :: Mockito-22-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual
+  - org.mockito.internal.matchers.EqualityTest::shouldHandleReferenceEqualityForBrokenEquals
+  - org.mockito.internal.matchers.EqualityTest::shouldNotTreatNonArrayAsEqualToArray
+---- exit code: 0 | Mockito-22-buggy
+

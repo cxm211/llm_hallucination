@@ -1,0 +1,10 @@
+==== 2026-04-21 07:42:21 :: Closure-160-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsWithCheckSymbolsOption
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsWithCheckSymbolsOption
+---- exit code: 0 | Closure-160-fixed_ind3
+

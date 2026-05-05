@@ -1,0 +1,11 @@
+==== 2026-03-30 06:47:41 :: Math-105-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/stat/regression/SimpleRegressionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testNaNs
+---- exit code: 0 | test_result: Not Pass | Math-105-buggy
+

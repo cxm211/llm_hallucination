@@ -1,0 +1,9 @@
+==== 2026-04-21 10:48:59 :: Jsoup-46-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.nodes.DocumentTest::testNbspWithUtf8Xhtml
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Jsoup-46-fixed_ind1
+

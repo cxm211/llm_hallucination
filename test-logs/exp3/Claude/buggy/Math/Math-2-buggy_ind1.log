@@ -1,0 +1,11 @@
+==== 2026-03-30 00:06:55 :: Math-2-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.distribution.HypergeometricDistributionTest::testMath1021
+  - org.apache.commons.math3.distribution.HypergeometricDistributionTest::testGetNumericalMeanOverflow
+---- exit code: 0 | Math-2-buggy_ind1
+

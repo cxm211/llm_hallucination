@@ -1,0 +1,43 @@
+==== 2026-03-27 13:34:56 :: Closure-46-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+---- exit code: 0 | Closure-46-buggy_ind3
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 1, total: 4
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType_PartialOverlap
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-46-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 1124 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-46-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 1124 classes.
+>>> [JACOCO] done

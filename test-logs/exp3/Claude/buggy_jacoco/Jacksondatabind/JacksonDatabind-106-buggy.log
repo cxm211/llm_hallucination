@@ -1,0 +1,42 @@
+==== 2026-03-28 06:49:39 :: JacksonDatabind-106-buggy ====
+[JACOCO] trigger=2 add=3 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowLong
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowInt
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowInt
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-106-buggy/jacoco_base.exec.
+[INFO] Analyzing 553 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowIntNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowIntNegative
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowLongNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberOverflowLongNegative
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberValidIntFromLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestTreeTraversingParser::testNumberValidIntFromLong
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-106-buggy/jacoco.exec.
+[INFO] Analyzing 553 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 8 line rows.
+[PARSE] 8 base line rows.

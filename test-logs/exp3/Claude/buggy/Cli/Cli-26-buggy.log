@@ -1,0 +1,12 @@
+==== 2026-04-04 21:12:03 :: Cli-26-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedWithLongOpt
+  - org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedOnNullPointerException
+  - org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedAlways
+---- exit code: 0 | Cli-26-buggy
+

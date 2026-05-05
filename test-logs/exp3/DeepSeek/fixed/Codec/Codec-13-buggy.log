@@ -1,0 +1,28 @@
+==== 2026-04-24 02:00:37 :: Codec-13-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+---- exit code: 0 | Codec-13-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+[JACOCO] defects4j test -t org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-13-buggy/jacoco.exec.
+[INFO] Analyzing 74 classes.
+>>> [JACOCO] done

@@ -1,0 +1,10 @@
+==== 2026-04-28 19:44:39 :: Mockito-37-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailFastWhenCallingRealMethodOnAbstractMethod
+---- exit code: 0 | Mockito-37-fixed
+

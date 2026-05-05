@@ -1,0 +1,15 @@
+==== 2026-04-24 12:29:29 :: Math-31-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math3/distribution/BinomialDistributionTest.java
+[RESTORE] restored src/test/java/org/apache/commons/math3/distribution/FDistributionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718
+  - org.apache.commons.math3.distribution.FDistributionTest::testMath785
+  - org.apache.commons.math3.distribution.PoissonDistributionTest::testCumulativeProbabilitySpecial
+  - org.apache.commons.math3.distribution.PoissonDistributionTest::testLargeMeanInverseCumulativeProbability
+---- exit code: 0 | test_result: Not Pass | Math-31-buggy
+

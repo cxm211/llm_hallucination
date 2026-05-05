@@ -1,0 +1,42 @@
+==== 2026-04-25 00:42:34 :: Mockito-19-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.mockito.internal.configuration.MockInjectionTest::can_try_property_or_setter_injection
+  - org.mockitousage.annotation.DeprecatedAnnotationEngineApiTest::shouldInjectMocksIfThereIsNoUserDefinedEngine
+  - org.mockitousage.annotation.DeprecatedMockAnnotationTest::shouldInjectDeprecatedMockAnnotation
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldIInjectMocksInSpy
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksForClassHierarchyIfAnnotated
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInitializeSpyIfNullAndInjectMocks
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksIfAnnotated
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::should_inject_the_mock_only_once_and_in_the_correct_type
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::should_match_be_consistent_regardless_of_order
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::mock_should_be_injected_once_and_in_the_best_matching_type
+  - org.mockitousage.bugs.Issue353InjectionMightNotHappenInCertainConfigurationTest::when_identical_types_and_the_correct_mock_name_is_greater_than_the_non_matching_name_then_injection_occurs_only_on_the_named_one
+---- exit code: 0 | Mockito-19-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldNotThrowNPEWhenMockNameIsNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 311 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 311 classes.
+>>> [JACOCO] done

@@ -1,0 +1,11 @@
+==== 2026-03-27 05:41:52 :: Closure-124-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017
+  - com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017_NestedGetProp
+---- exit code: 0 | Closure-124-buggy_ind1
+

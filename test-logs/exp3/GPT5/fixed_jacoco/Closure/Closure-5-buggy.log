@@ -1,0 +1,10 @@
+==== 2026-04-26 06:16:52 :: Closure-5-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/InlineObjectLiteralsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Closure-5-buggy
+

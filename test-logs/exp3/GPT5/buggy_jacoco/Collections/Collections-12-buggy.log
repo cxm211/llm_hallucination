@@ -1,0 +1,13 @@
+==== 2026-04-29 17:24:12 :: Collections-12-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCollections271
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testCollections271
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-12-buggy/jacoco.exec.
+[INFO] Analyzing 420 classes.
+[JACOCO] done.
+[PARSE] 6 line rows.

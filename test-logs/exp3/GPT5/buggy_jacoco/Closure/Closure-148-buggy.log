@@ -1,0 +1,38 @@
+==== 2026-04-26 04:17:42 :: Closure-148-buggy ====
+[JACOCO] trigger=6 add=0 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldTypeof
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldTypeof
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SourceMapTest::testGoldenOutput0
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SourceMapTest::testGoldenOutput1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SourceMapTest::testGoldenOutput2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SourceMapTest::testGoldenOutput3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.SourceMapTest::testGoldenOutput4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.SourceMapTest::testGoldenOutput4
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-148-buggy/jacoco.exec.
+[INFO] Analyzing 903 classes.
+[JACOCO] done.
+[PARSE] 325 line rows.

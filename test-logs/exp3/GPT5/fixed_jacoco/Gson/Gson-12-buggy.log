@@ -1,0 +1,12 @@
+==== 2026-04-29 12:20:09 :: Gson-12-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/internal/bind/JsonTreeReaderTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_filledJsonObject
+  - com.google.gson.internal.bind.JsonTreeReaderTest::testSkipValue_emptyJsonObject
+---- exit code: 0 | test_result: Not Pass | Gson-12-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-04-22 00:51:30 :: Closure-3-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1a
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression3
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpressionInsideCatchBlock
+---- exit code: 0 | Closure-3-buggy_ind1
+

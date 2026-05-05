@@ -1,0 +1,18 @@
+==== 2026-03-27 03:47:55 :: Closure-1-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue787
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testKeepUnusedParamInMiddle
+---- exit code: 0 | Closure-1-buggy_ind2
+

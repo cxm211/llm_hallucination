@@ -1,0 +1,58 @@
+==== 2026-04-26 04:46:15 :: Closure-32-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+  - com.google.javascript.jscomp.JsMessageExtractorTest::testExtractNewStyleMessage2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testFileOverviewMultiLine
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseWithAnnotation
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testRegression15
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testMultilineDocumentationParameter
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers6
+---- exit code: 0 | Closure-32-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 4, add tests: 1, total: 5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIssue701
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseNoSpaceAfterStar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-32-buggy/jacoco_base.exec.
+[INFO] Analyzing 1144 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-32-buggy/jacoco.exec.
+[INFO] Analyzing 1144 classes.
+>>> [JACOCO] done

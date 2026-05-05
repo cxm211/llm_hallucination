@@ -1,0 +1,29 @@
+==== 2026-04-21 19:49:22 :: Cli-22-buggy_ind1 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.cli.ApplicationTest::testGroovy
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ApplicationTest::testGroovy
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testStopAtExpectedArg
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-22-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.ParserTestCase::testUnknownShortOptionWithStop
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParserTestCase
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-22-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 114 line rows.
+[PARSE] 114 base line rows.

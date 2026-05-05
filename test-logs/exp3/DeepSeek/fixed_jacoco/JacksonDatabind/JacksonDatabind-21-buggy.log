@@ -1,0 +1,12 @@
+==== 2026-04-23 22:28:21 :: JacksonDatabind-21-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/deser/TestEnumDeserialization.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.TestEnumDeserialization::testEnumWithJsonPropertyRename
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-21-buggy
+

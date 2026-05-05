@@ -1,0 +1,10 @@
+==== 2026-04-28 04:03:43 :: Time-2-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPartial_Basics::testWith_baseAndArgHaveNoRange
+---- exit code: 0 | Time-2-buggy
+

@@ -1,0 +1,47 @@
+==== 2026-03-27 07:10:43 :: Closure-90-buggy ====
+[JACOCO] trigger=2 add=4 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-90-buggy/jacoco_base.exec.
+[INFO] Analyzing 985 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse10
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse11
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse11
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse12
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse12
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse13
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse13
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-90-buggy/jacoco.exec.
+[INFO] Analyzing 985 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 56 line rows.
+[PARSE] 56 base line rows.

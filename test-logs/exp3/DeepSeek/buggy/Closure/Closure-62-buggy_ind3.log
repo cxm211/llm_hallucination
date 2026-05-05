@@ -1,0 +1,12 @@
+==== 2026-04-22 01:39:47 :: Closure-62-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2
+  - com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLineEmpty
+---- exit code: 0 | Closure-62-buggy_ind3
+

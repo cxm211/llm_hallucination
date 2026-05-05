@@ -1,0 +1,12 @@
+==== 2026-04-28 00:37:23 :: Cli-15-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionThreeArguments
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument
+---- exit code: 0 | Cli-15-buggy
+

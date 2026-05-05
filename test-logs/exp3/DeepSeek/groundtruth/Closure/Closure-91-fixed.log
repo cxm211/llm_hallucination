@@ -1,0 +1,11 @@
+==== 2026-04-23 05:25:13 :: Closure-91-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotationVariable
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotationNested
+---- exit code: 0 | Closure-91-fixed
+

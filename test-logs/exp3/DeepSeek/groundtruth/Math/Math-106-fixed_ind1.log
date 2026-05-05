@@ -1,0 +1,10 @@
+==== 2026-04-24 14:30:52 :: Math-106-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidZeroDenominator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidZeroDenominator
+---- exit code: 0 | Math-106-fixed_ind1
+

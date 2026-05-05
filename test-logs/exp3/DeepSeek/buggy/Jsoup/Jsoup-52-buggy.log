@@ -1,0 +1,18 @@
+==== 2026-04-24 04:35:16 :: Jsoup-52-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlNoCharset
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlIso8859
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlUtf8
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlDisabledNoChanges
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testXmlDeclarationVersionOnly
+  - org.jsoup.parser.XmlTreeBuilderTest::testDetectCharsetEncodingDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testXmlDeclarationWithStandalone
+  - org.jsoup.parser.XmlTreeBuilderTest::testParseDeclarationAttributes
+---- exit code: 0 | Jsoup-52-buggy
+

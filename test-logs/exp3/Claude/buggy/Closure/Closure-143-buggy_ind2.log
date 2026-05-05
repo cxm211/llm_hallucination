@@ -1,0 +1,13 @@
+==== 2026-03-27 06:00:01 :: Closure-143-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag_SingleQuoteInsideDoubleQuotes
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall1
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNew1
+---- exit code: 0 | Closure-143-buggy_ind2
+

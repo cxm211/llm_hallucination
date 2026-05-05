@@ -1,0 +1,9 @@
+==== 2026-04-21 11:15:58 :: Lang-43-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuoteAtEnd_LANG_477
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Lang-43-fixed_ind1
+

@@ -1,0 +1,23 @@
+==== 2026-04-24 15:35:09 :: Time-27-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.format.TestPeriodFormatterBuilder::testPrinterOnlyWithSeparator
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 20 line rows.
+[PARSE] 20 base line rows.

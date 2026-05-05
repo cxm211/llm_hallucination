@@ -1,0 +1,31 @@
+==== 2026-04-26 05:30:35 :: Closure-112-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1058
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+---- exit code: 0 | Closure-112-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1058
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1058
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-112-buggy/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+>>> [JACOCO] done

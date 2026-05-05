@@ -1,0 +1,12 @@
+==== 2026-04-23 22:39:47 :: JacksonDatabind-43-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/objectid/TestObjectIdSerialization.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testNullObjectId
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization::testNullStringPropertyId
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-43-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-03-29 16:01:16 :: Lang-32-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectNoCycle
+  - org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycle
+---- exit code: 0 | Lang-32-buggy_ind2
+

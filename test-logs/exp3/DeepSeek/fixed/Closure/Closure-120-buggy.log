@@ -1,0 +1,44 @@
+==== 2026-04-22 21:37:01 :: Closure-120-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineParameterAlias1
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineParameterAlias2
+  - com.google.javascript.jscomp.InlineVariablesTest::testFunctionInLoopAssignment
+  - com.google.javascript.jscomp.InlineVariablesTest::testNestedFunctionAssignment
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliasesInLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ArgumentsRead2
+  - com.google.javascript.jscomp.IntegrationTest::testAddFunctionProperties4
+---- exit code: 0 | Closure-120-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 2, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testNestedFunctionAssignment
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testNestedFunctionAssignment
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testFunctionInLoopAssignment
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testFunctionInLoopAssignment
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-120-buggy/jacoco_base.exec.
+[INFO] Analyzing 1225 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-120-buggy/jacoco.exec.
+[INFO] Analyzing 1225 classes.
+>>> [JACOCO] done

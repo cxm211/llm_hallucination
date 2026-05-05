@@ -1,0 +1,10 @@
+==== 2026-04-21 19:13:41 :: Chart-24-fixed_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintZeroRange
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintZeroRange
+---- exit code: 0 | Chart-24-fixed_ind2
+

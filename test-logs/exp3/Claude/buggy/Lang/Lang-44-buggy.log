@@ -1,0 +1,10 @@
+==== 2026-03-29 15:51:58 :: Lang-44-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.NumberUtilsTest::testLang457
+---- exit code: 0 | Lang-44-buggy
+

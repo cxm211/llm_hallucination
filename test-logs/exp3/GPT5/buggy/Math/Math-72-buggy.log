@@ -1,0 +1,10 @@
+==== 2026-04-28 21:32:18 :: Math-72-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints
+---- exit code: 0 | Math-72-buggy
+

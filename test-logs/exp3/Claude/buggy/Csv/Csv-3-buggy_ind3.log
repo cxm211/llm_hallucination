@@ -1,0 +1,13 @@
+==== 2026-03-28 00:38:23 :: Csv-3-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.csv.CSVLexerTest::testEscapedMySqlNullValue
+  - org.apache.commons.csv.CSVLexerTest::testEscapedCharacter
+  - org.apache.commons.csv.CSVParserTest::testBackslashEscaping
+  - org.apache.commons.csv.CSVParserTest::testBackslashEscapingWithUnknownChar
+---- exit code: 0 | Csv-3-buggy_ind3
+

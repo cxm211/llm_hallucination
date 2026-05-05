@@ -1,0 +1,21 @@
+==== 2026-04-25 01:13:56 :: Mockito-19-buggy ====
+[RESTORE] restored test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.mockito.internal.configuration.MockInjectionTest::can_try_property_or_setter_injection
+  - org.mockitousage.annotation.DeprecatedAnnotationEngineApiTest::shouldInjectMocksIfThereIsNoUserDefinedEngine
+  - org.mockitousage.annotation.DeprecatedMockAnnotationTest::shouldInjectDeprecatedMockAnnotation
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldIInjectMocksInSpy
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksForClassHierarchyIfAnnotated
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInitializeSpyIfNullAndInjectMocks
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksIfAnnotated
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::should_inject_the_mock_only_once_and_in_the_correct_type
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::should_match_be_consistent_regardless_of_order
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::mock_should_be_injected_once_and_in_the_best_matching_type
+  - org.mockitousage.bugs.Issue353InjectionMightNotHappenInCertainConfigurationTest::when_identical_types_and_the_correct_mock_name_is_greater_than_the_non_matching_name_then_injection_occurs_only_on_the_named_one
+---- exit code: 0 | test_result: Not Pass | Mockito-19-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-23 06:04:09 :: Closure-4-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testExtendsCycleThree
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testExtendsCycleThree
+---- exit code: 0 | Closure-4-fixed_ind1
+

@@ -1,0 +1,143 @@
+==== 2026-04-29 00:47:53 :: Lang-34-buggy ====
+[JACOCO] trigger=27 add=0 total=27
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testObjectCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testObjectCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchy
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchy
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testSelfInstanceTwoVarsReflectionObjectCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testSelfInstanceTwoVarsReflectionObjectCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionLongArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionLongArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayArrayCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayArrayCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionDoubleArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionDoubleArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionBooleanArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionBooleanArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionyteArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionyteArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionDoubleArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionDoubleArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionIntArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionIntArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionLongArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionLongArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionhortArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionhortArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionObjectArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionObjectArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionObjectCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionObjectCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionBooleanArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionBooleanArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testSimpleReflectionObjectCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testSimpleReflectionObjectCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionByteArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionByteArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayCycleLevel2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayCycleLevel2
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayAndObjectCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayAndObjectCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionCharArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionCharArrayArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionShortArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionShortArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testSelfInstanceVarReflectionObjectCycle
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testSelfInstanceVarReflectionObjectCycle
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionIntArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionIntArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionCharArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionCharArray
+[JACOCO] defects4j test -t org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArrayArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArrayArray
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-34-buggy/jacoco.exec.
+[INFO] Analyzing 119 classes.
+[JACOCO] done.
+[PARSE] 7 line rows.

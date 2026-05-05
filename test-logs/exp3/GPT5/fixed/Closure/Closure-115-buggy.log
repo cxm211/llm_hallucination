@@ -1,0 +1,59 @@
+==== 2026-04-26 05:32:21 :: Closure-115-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.google.javascript.jscomp.FunctionInjectorTest::testCanInlineReferenceToFunction14
+  - com.google.javascript.jscomp.FunctionInjectorTest::testInline11
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineNeverPartialSubtitution2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions11
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions12
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions18
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions20
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions21
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+  - com.google.javascript.jscomp.SpecializeModuleTest::testSpecializeDevirtualizePrototypeMethodsWithInline
+---- exit code: 0 | Closure-115-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 0, total: 5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-115-buggy/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+>>> [JACOCO] done

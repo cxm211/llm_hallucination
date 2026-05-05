@@ -1,0 +1,11 @@
+==== 2026-04-21 11:38:21 :: Math-43-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testNoOverride
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testNoOverride
+---- exit code: 0 | Math-43-fixed
+

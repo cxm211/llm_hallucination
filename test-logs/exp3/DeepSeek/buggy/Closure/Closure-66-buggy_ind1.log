@@ -1,0 +1,12 @@
+==== 2026-04-22 01:40:42 :: Closure-66-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercentWithGetter
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent5
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent6
+---- exit code: 0 | Closure-66-buggy_ind1
+

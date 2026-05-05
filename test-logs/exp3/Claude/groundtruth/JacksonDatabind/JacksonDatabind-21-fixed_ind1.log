@@ -1,0 +1,10 @@
+==== 2026-04-21 10:13:00 :: JacksonDatabind-21-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.deser.TestEnumDeserialization::testEnumWithNullAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestEnumDeserialization::testEnumWithNullAnnotation
+---- exit code: 0 | JacksonDatabind-21-fixed_ind1
+

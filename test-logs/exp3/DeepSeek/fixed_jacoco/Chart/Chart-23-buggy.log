@@ -1,0 +1,11 @@
+==== 2026-04-21 18:57:14 :: Chart-23-buggy ====
+[RESTORE] restored tests/org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testEquals
+---- exit code: 0 | test_result: Not Pass | Chart-23-buggy
+

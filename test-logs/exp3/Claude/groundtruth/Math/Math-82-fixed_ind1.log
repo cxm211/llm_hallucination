@@ -1,0 +1,10 @@
+==== 2026-04-21 12:04:11 :: Math-82-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.optimization.linear.SimplexSolverTest::testPivotRowWithZeroEntry
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testPivotRowWithZeroEntry
+---- exit code: 0 | Math-82-fixed_ind1
+

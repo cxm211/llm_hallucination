@@ -1,0 +1,34 @@
+==== 2026-04-24 03:28:28 :: Compress-17-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testCompress197
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testCompress197
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-17-buggy/jacoco_base.exec.
+[INFO] Analyzing 118 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalMultipleTrailingSpaces
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalMultipleTrailingSpaces
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalLeadingNullWithDigits
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalLeadingNullWithDigits
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalLeadingSpacesThenNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalLeadingSpacesThenNull
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-17-buggy/jacoco.exec.
+[INFO] Analyzing 118 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 50 line rows.
+[PARSE] 50 base line rows.

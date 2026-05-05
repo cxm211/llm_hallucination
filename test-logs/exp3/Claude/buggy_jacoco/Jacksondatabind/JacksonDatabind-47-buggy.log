@@ -1,0 +1,37 @@
+==== 2026-03-28 06:39:02 :: JacksonDatabind-47-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.TestJsonSerialize::testBrokenAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testBrokenAnnotation
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.TestJsonSerializeAs::testSpecializedAsIntermediate
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonSerializeAs::testSpecializedAsIntermediate
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-47-buggy/jacoco_base.exec.
+[INFO] Analyzing 500 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.TestJsonSerialize::testGeneralizedAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testGeneralizedAnnotation
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.TestJsonSerialize::testSpecializedAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testSpecializedAnnotation
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-47-buggy/jacoco.exec.
+[INFO] Analyzing 500 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 102 line rows.
+[PARSE] 102 base line rows.

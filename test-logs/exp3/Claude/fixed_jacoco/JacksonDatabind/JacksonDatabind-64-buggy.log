@@ -1,0 +1,13 @@
+==== 2026-03-28 11:34:36 :: JacksonDatabind-64-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/filter/JsonIncludeTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351
+  - com.fasterxml.jackson.databind.filter.JsonIncludeTest::testDefaultForIntegers
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-64-buggy
+

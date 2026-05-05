@@ -1,0 +1,81 @@
+==== 2026-04-22 22:12:16 :: Closure-141-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeNewConstantConstructor
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFAndG
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+---- exit code: 0 | Closure-141-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 8, add tests: 3, total: 11
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testDecomposeAnonymousInCall
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeNewConstantConstructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeNewConstantConstructor
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testDecomposeNamedFunctionExpressionInCall
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFAndG
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFAndG
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-141-buggy/jacoco_base.exec.
+[INFO] Analyzing 849 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-141-buggy/jacoco.exec.
+[INFO] Analyzing 849 classes.
+>>> [JACOCO] done

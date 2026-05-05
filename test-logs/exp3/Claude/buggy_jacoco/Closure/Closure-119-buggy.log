@@ -1,0 +1,31 @@
+==== 2026-03-27 07:20:28 :: Closure-119-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-119-buggy/jacoco_base.exec.
+[INFO] Analyzing 1225 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatchWithVar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatchWithVar
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalNamesTest::testNestedCatchBlocks
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-119-buggy/jacoco.exec.
+[INFO] Analyzing 1225 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 125 line rows.
+[PARSE] 125 base line rows.

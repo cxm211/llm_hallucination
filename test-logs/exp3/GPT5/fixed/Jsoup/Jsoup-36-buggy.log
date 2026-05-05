@@ -1,0 +1,45 @@
+==== 2026-04-27 04:41:16 :: Jsoup-36-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+---- exit code: 0 | Jsoup-36-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 6, add tests: 0, total: 6
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldCorrectCharsetForDuplicateCharsetString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldNotThrowExceptionOnEmptyCharset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::testQuotedCharset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+[JACOCO] defects4j test -t org.jsoup.integration.ParseTest::testBrokenHtml5CharsetWithASingleDoubleQuote
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-36-buggy/jacoco.exec.
+[INFO] Analyzing 212 classes.
+>>> [JACOCO] done

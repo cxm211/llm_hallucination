@@ -1,0 +1,41 @@
+==== 2026-03-31 21:52:10 :: Jsoup-4-buggy ====
+[JACOCO] trigger=2 add=3 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::escape
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::escape
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::caseSensitive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::caseSensitive
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-4-buggy/jacoco_base.exec.
+[INFO] Analyzing 57 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescapeUnknownEntity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::unescapeUnknownEntity
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescapeOutOfRangeNumeric
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::unescapeOutOfRangeNumeric
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescapeMixedValidInvalid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-4-buggy/jacoco.exec.
+[INFO] Analyzing 57 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 32 line rows.
+[PARSE] 32 base line rows.

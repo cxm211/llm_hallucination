@@ -1,0 +1,10 @@
+==== 2026-04-29 01:45:52 :: JxPath-22-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.JXPath154Test::testAttributeNamespaceDOM
+---- exit code: 0 | JxPath-22-fixed
+

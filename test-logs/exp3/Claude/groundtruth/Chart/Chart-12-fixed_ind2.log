@@ -1,0 +1,9 @@
+==== 2026-04-21 15:12:54 :: Chart-12-fixed_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.jfree.chart.plot.junit.MultiplePiePlotTests::testDatasetChangeListenerRegistration
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Chart-12-fixed_ind2
+

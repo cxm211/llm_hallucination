@@ -1,0 +1,9 @@
+==== 2026-04-21 11:11:41 :: Lang-8-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespectedWithDST
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Lang-8-fixed_ind1
+

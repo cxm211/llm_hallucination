@@ -1,0 +1,28 @@
+==== 2026-04-24 12:27:54 :: Math-26-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math3/fraction/FractionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - org.apache.commons.math3.fraction.FractionTest::testConstructorDouble
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutAbsentOnExisting
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutKeysWithCollision2
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutKeysWithCollisions
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testCopy
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testContainsKey
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testRemoveAbsent
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutAndGet
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutAndGetWith0ExpectedSize
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testRemove2
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testConcurrentModification
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testGetAbsent
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testGetFromEmpty
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutOnExisting
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testRemove
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testIterator
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testPutAndGetWithExpectedSize
+  - org.apache.commons.math3.util.OpenIntToFieldTest::testRemoveFromEmpty
+---- exit code: 0 | test_result: Not Pass | Math-26-buggy
+

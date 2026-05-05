@@ -1,0 +1,12 @@
+==== 2026-04-21 23:37:56 :: Closure-37-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.IntegrationTest::testIncompleteFunctionDeclaration
+  - com.google.javascript.jscomp.IntegrationTest::testIncompleteFunction
+  - com.google.javascript.jscomp.IntegrationTest::testIncompleteFunctionGlobal
+---- exit code: 0 | Closure-37-buggy
+

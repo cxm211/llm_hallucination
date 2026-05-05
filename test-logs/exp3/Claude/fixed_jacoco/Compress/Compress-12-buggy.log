@@ -1,0 +1,10 @@
+==== 2026-03-28 02:10:57 :: Compress-12-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/TarTestCase.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Compress-12-buggy
+

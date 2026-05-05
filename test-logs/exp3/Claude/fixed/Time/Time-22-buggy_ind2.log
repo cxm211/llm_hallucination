@@ -1,0 +1,44 @@
+==== 2026-03-30 05:28:18 :: Time-22-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.TestDuration_Basics::testToPeriod
+  - org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+  - org.joda.time.TestMutablePeriod_Constructors::testConstructor_long1
+  - org.joda.time.TestMutablePeriod_Constructors::testConstructor_long3
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long1
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long3
+---- exit code: 0 | Time-22-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestDuration_Basics::testToPeriod_fixedZone_boundary
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 202 classes.
+>>> [JACOCO] done

@@ -1,0 +1,9 @@
+==== 2026-04-21 07:51:07 :: Codec-17-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1WithEmptyBytes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Codec-17-fixed_ind1
+

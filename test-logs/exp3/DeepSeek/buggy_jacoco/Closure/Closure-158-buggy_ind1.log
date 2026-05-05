@@ -1,0 +1,28 @@
+==== 2026-04-22 08:11:04 :: Closure-158-buggy_ind1 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering4
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-158-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1053 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrderingErrorWarning
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-158-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1053 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 193 line rows.
+[PARSE] 193 base line rows.

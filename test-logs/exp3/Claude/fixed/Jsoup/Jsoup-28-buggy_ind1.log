@@ -1,0 +1,65 @@
+==== 2026-04-01 00:50:28 :: Jsoup-28-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.nodes.EntitiesTest::unescape
+  - org.jsoup.nodes.EntitiesTest::noSpuriousDecodes
+  - org.jsoup.nodes.EntitiesTest::supplementaryPlaneCharacter
+  - org.jsoup.parser.AttributeParseTest::moreAttributeUnescapes
+  - org.jsoup.parser.AttributeParseTest::strictAttributeUnescapes
+  - org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+  - org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+---- exit code: 0 | Jsoup-28-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 6, add tests: 1, total: 7
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescape
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::unescape
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::noSpuriousDecodes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::noSpuriousDecodes
+[JACOCO] defects4j test -t org.jsoup.parser.AttributeParseTest::moreAttributeUnescapes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.AttributeParseTest::moreAttributeUnescapes
+[JACOCO] defects4j test -t org.jsoup.parser.AttributeParseTest::strictAttributeUnescapes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.AttributeParseTest::strictAttributeUnescapes
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+[JACOCO] base snapshot saved (6 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::supplementaryPlaneCharacter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::supplementaryPlaneCharacter
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-28-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 193 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-28-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 193 classes.
+>>> [JACOCO] done

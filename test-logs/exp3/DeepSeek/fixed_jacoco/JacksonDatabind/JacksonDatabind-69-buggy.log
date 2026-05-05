@@ -1,0 +1,12 @@
+==== 2026-04-23 22:57:01 :: JacksonDatabind-69-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/creators/Creator1476Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.creators.Creator1476Test::testConstructorChoice
+  - com.fasterxml.jackson.databind.creators.TestCreators::testConstructorCreator
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-69-buggy
+

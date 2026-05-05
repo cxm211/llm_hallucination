@@ -1,0 +1,265 @@
+==== 2026-04-21 22:02:42 :: Cli-32-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/target
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/target/lib
+
+test-offline:
+
+get-deps:
+
+commons-cli-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/maven-build.xml:75: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 22 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: unclosed character literal
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: unclosed character literal
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: not a statement
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: not a statement
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: ';' expected
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: not a statement
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: ';' expected
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:913: error: 'else' without 'if'
+    [javac]         else if (startPos + width >= text.length())
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                             ^
+    [javac] 33 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/maven-build.xml:75: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Cli-32-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextWordCut
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-cli-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/maven-build.xml:75: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 22 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: unclosed character literal
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: unclosed character literal
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: not a statement
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: not a statement
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: ';' expected
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: not a statement
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:907: error: ';' expected
+    [javac]         if (((pos = text.indexOf('\\n', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:908: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\r', startPos)) != -1 && pos <= startPos + width)
+    [javac]                                                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: unclosed character literal
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: not a statement
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:909: error: ';' expected
+    [javac]                 || ((pos = text.indexOf('\\t', startPos)) != -1 && pos <= startPos + width))
+    [javac]                                                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:913: error: 'else' without 'if'
+    [javac]         else if (startPos + width >= text.length())
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: unclosed character literal
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/src/main/java/org/apache/commons/cli/HelpFormatter.java:924: error: not a statement
+    [javac]                 && (c != '\\n') && (c != '\\r') && (c != '\\t'))
+    [javac]                                                             ^
+    [javac] 33 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy_ind1/maven-build.xml:75: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] failed: Not Compilable: test suite failed to compile
+>>> [JACOCO] done

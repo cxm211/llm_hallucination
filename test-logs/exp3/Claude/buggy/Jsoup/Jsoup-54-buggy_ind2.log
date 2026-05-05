@@ -1,0 +1,11 @@
+==== 2026-03-31 21:42:54 :: Jsoup-54-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.helper.W3CDomTest::handlesAttributeNamesBecomeEmpty
+  - org.jsoup.helper.W3CDomTest::handlesInvalidAttributeNames
+---- exit code: 0 | Jsoup-54-buggy_ind2
+

@@ -1,0 +1,11 @@
+==== 2026-04-23 05:02:45 :: Closure-43-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testLends12
+  - com.google.javascript.jscomp.TypeCheckTest::testLends13
+---- exit code: 0 | Closure-43-fixed
+

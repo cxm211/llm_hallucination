@@ -1,0 +1,11 @@
+==== 2026-04-24 12:58:05 :: Math-96-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/complex/ComplexTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.complex.ComplexTest::testMath221
+---- exit code: 0 | test_result: Not Pass | Math-96-buggy
+

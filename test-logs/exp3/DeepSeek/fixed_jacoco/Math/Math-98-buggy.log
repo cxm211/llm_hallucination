@@ -1,0 +1,11 @@
+==== 2026-04-24 12:58:29 :: Math-98-buggy ====
+[RESTORE] restored src/test/org/apache/commons/math/linear/BigMatrixImplTest.java
+[RESTORE] restored src/test/org/apache/commons/math/linear/RealMatrixImplTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Math-98-buggy
+

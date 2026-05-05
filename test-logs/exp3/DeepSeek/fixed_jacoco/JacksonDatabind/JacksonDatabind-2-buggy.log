@@ -1,0 +1,17 @@
+==== 2026-04-23 20:55:16 :: JacksonDatabind-2-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/node/TestConversions.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.fasterxml.jackson.databind.convert.TestStringConversions::testBytestoCharArray
+  - com.fasterxml.jackson.databind.convert.TestStringConversions::testBytesToBase64AndBack
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testInetAddress
+  - com.fasterxml.jackson.databind.node.TestConversions::testEmbeddedByteArray
+  - com.fasterxml.jackson.databind.node.TestConversions::testIssue709
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestJdkTypes::testInetAddress
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-2-buggy
+

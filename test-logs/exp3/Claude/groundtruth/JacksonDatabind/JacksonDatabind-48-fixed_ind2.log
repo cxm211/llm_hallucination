@@ -1,0 +1,9 @@
+==== 2026-04-21 10:17:48 :: JacksonDatabind-48-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.ser.TestFeatures::testVisibilityFeaturesIsGettersOnly
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | JacksonDatabind-48-fixed_ind2
+

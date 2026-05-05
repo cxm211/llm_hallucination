@@ -1,0 +1,33 @@
+==== 2026-04-27 04:38:46 :: Jsoup-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.integration.ParseTest::testBaiduVariant
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeDash
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- exit code: 0 | Jsoup-21-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::handlesCommasInSelector
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::mixCombinatorGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-21-buggy/jacoco.exec.
+[INFO] Analyzing 193 classes.
+>>> [JACOCO] done

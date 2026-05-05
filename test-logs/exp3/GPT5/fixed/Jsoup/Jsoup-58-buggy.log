@@ -1,0 +1,185 @@
+==== 2026-04-27 04:45:32 :: Jsoup-58-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 57 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:250: error: cannot find symbol
+    [javac]             Validate.notNull(whitelist);
+    [javac]             ^
+    [javac]   symbol:   variable Validate
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:251: error: cannot find symbol
+    [javac]             HtmlTreeBuilder treeBuilder = new HtmlTreeBuilder();
+    [javac]             ^
+    [javac]   symbol:   class HtmlTreeBuilder
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:251: error: cannot find symbol
+    [javac]             HtmlTreeBuilder treeBuilder = new HtmlTreeBuilder();
+    [javac]                                               ^
+    [javac]   symbol:   class HtmlTreeBuilder
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:252: error: cannot find symbol
+    [javac]             Element context = new Element(Tag.valueOf("body"), "");
+    [javac]             ^
+    [javac]   symbol:   class Element
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:252: error: cannot find symbol
+    [javac]             Element context = new Element(Tag.valueOf("body"), "");
+    [javac]                                   ^
+    [javac]   symbol:   class Element
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:252: error: cannot find symbol
+    [javac]             Element context = new Element(Tag.valueOf("body"), "");
+    [javac]                                           ^
+    [javac]   symbol:   variable Tag
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:253: error: cannot find symbol
+    [javac]             ParseErrorList errors = ParseErrorList.tracking(100);
+    [javac]             ^
+    [javac]   symbol:   class ParseErrorList
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:253: error: cannot find symbol
+    [javac]             ParseErrorList errors = ParseErrorList.tracking(100);
+    [javac]                                     ^
+    [javac]   symbol:   variable ParseErrorList
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:254: error: cannot find symbol
+    [javac]             List<Node> nodes = treeBuilder.parseFragment(bodyHtml, context, "", errors, treeBuilder.defaultSettings());
+    [javac]             ^
+    [javac]   symbol:   class List
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:254: error: cannot find symbol
+    [javac]             List<Node> nodes = treeBuilder.parseFragment(bodyHtml, context, "", errors, treeBuilder.defaultSettings());
+    [javac]                  ^
+    [javac]   symbol:   class Node
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:257: error: cannot find symbol
+    [javac]             Element body = dirty.body();
+    [javac]             ^
+    [javac]   symbol:   class Element
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:258: error: cannot find symbol
+    [javac]             for (Node node : nodes) {
+    [javac]                  ^
+    [javac]   symbol:   class Node
+    [javac]   location: class Jsoup
+    [javac] 12 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/maven-build.xml:77: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Jsoup-58-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 33 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:250: error: cannot find symbol
+    [javac]             Validate.notNull(whitelist);
+    [javac]             ^
+    [javac]   symbol:   variable Validate
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:251: error: cannot find symbol
+    [javac]             HtmlTreeBuilder treeBuilder = new HtmlTreeBuilder();
+    [javac]             ^
+    [javac]   symbol:   class HtmlTreeBuilder
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:251: error: cannot find symbol
+    [javac]             HtmlTreeBuilder treeBuilder = new HtmlTreeBuilder();
+    [javac]                                               ^
+    [javac]   symbol:   class HtmlTreeBuilder
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:252: error: cannot find symbol
+    [javac]             Element context = new Element(Tag.valueOf("body"), "");
+    [javac]             ^
+    [javac]   symbol:   class Element
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:252: error: cannot find symbol
+    [javac]             Element context = new Element(Tag.valueOf("body"), "");
+    [javac]                                   ^
+    [javac]   symbol:   class Element
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:252: error: cannot find symbol
+    [javac]             Element context = new Element(Tag.valueOf("body"), "");
+    [javac]                                           ^
+    [javac]   symbol:   variable Tag
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:253: error: cannot find symbol
+    [javac]             ParseErrorList errors = ParseErrorList.tracking(100);
+    [javac]             ^
+    [javac]   symbol:   class ParseErrorList
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:253: error: cannot find symbol
+    [javac]             ParseErrorList errors = ParseErrorList.tracking(100);
+    [javac]                                     ^
+    [javac]   symbol:   variable ParseErrorList
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:254: error: cannot find symbol
+    [javac]             List<Node> nodes = treeBuilder.parseFragment(bodyHtml, context, "", errors, treeBuilder.defaultSettings());
+    [javac]             ^
+    [javac]   symbol:   class List
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:254: error: cannot find symbol
+    [javac]             List<Node> nodes = treeBuilder.parseFragment(bodyHtml, context, "", errors, treeBuilder.defaultSettings());
+    [javac]                  ^
+    [javac]   symbol:   class Node
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:257: error: cannot find symbol
+    [javac]             Element body = dirty.body();
+    [javac]             ^
+    [javac]   symbol:   class Element
+    [javac]   location: class Jsoup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/src/main/java/org/jsoup/Jsoup.java:258: error: cannot find symbol
+    [javac]             for (Node node : nodes) {
+    [javac]                  ^
+    [javac]   symbol:   class Node
+    [javac]   location: class Jsoup
+    [javac] 12 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/maven-build.xml:77: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] failed: Not Compilable: test suite failed to compile
+>>> [JACOCO] done

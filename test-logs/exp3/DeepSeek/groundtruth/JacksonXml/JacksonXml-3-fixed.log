@@ -1,0 +1,10 @@
+==== 2026-04-25 22:58:39 :: JacksonXml-3-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest::testXmlAttributesWithNextTextValueInArray
+---- exit code: 0 | JacksonXml-3-fixed
+

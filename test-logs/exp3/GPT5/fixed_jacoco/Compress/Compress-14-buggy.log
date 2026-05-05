@@ -1,0 +1,12 @@
+==== 2026-04-29 04:54:43 :: Compress-14-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::workaroundForBrokenTimeHeader
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+---- exit code: 0 | test_result: Not Pass | Compress-14-buggy
+

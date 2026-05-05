@@ -1,0 +1,10 @@
+==== 2026-04-21 11:06:22 :: Lang-6-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairsWithEscaping
+---- exit code: 0 | Lang-6-fixed
+

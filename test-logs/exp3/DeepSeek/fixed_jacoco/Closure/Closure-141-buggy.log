@@ -1,0 +1,17 @@
+==== 2026-04-23 03:26:19 :: Closure-141-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ExpresssionDecomposerTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/InlineFunctionsTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/PureFunctionIdentifierTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+---- exit code: 0 | test_result: Not Pass | Closure-141-buggy
+

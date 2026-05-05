@@ -1,0 +1,12 @@
+==== 2026-04-28 21:15:14 :: Math-12-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.distribution.GammaDistributionTest::testDistributionClone
+  - org.apache.commons.math3.distribution.LogNormalDistributionTest::testDistributionClone
+  - org.apache.commons.math3.distribution.NormalDistributionTest::testDistributionClone
+---- exit code: 0 | Math-12-buggy
+

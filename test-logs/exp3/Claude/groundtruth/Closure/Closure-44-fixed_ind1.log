@@ -1,0 +1,10 @@
+==== 2026-04-21 07:05:26 :: Closure-44-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testIssue620_AdditionalCase1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue620_AdditionalCase1
+---- exit code: 0 | Closure-44-fixed_ind1
+

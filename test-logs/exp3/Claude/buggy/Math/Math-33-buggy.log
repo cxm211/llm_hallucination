@@ -1,0 +1,11 @@
+==== 2026-03-29 23:55:28 :: Math-33-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781Additional2
+---- exit code: 0 | Math-33-buggy
+

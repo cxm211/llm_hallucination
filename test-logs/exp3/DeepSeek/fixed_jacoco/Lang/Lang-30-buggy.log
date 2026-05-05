@@ -1,0 +1,12 @@
+==== 2026-04-25 21:18:29 :: Lang-30-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_StringStringWithSupplementaryChars
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_StringCharArrayWithSupplementaryChars
+---- exit code: 0 | test_result: Not Pass | Lang-30-buggy
+

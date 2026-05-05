@@ -1,0 +1,23 @@
+==== 2026-04-23 03:11:25 :: Closure-125-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInstantiation
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeCheckStandaloneAST
+  - com.google.javascript.jscomp.SymbolTableTest::testMissingConstructorTag
+  - com.google.javascript.jscomp.TypeCheckTest::testNew11
+  - com.google.javascript.jscomp.TypeCheckTest::testNew5
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInstantiation
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions3
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions4
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeCheckStandaloneAST
+---- exit code: 0 | test_result: Not Pass | Closure-125-buggy
+

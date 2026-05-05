@@ -1,0 +1,16 @@
+==== 2026-03-27 18:04:27 :: Closure-146-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/SemanticReverseAbstractInterpreterTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition1
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition2
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition3
+  - com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testEqCondition4
+  - com.google.javascript.jscomp.TypeInferenceTest::testThrow
+  - com.google.javascript.rhino.jstype.JSTypeTest::testGetTypesUnderInequality4
+---- exit code: 0 | test_result: Not Pass | Closure-146-buggy
+

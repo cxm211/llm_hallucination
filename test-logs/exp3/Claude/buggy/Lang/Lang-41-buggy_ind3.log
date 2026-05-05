@@ -1,0 +1,12 @@
+==== 2026-03-29 16:03:21 :: Lang-41-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class
+  - org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_InnerClassArray
+  - org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class
+---- exit code: 0 | Lang-41-buggy_ind3
+

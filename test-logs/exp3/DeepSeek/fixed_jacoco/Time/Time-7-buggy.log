@@ -1,0 +1,12 @@
+==== 2026-04-24 16:18:24 :: Time-7-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear
+---- exit code: 0 | test_result: Not Pass | Time-7-buggy
+

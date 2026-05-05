@@ -1,0 +1,11 @@
+==== 2026-03-27 04:46:45 :: Closure-58-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.LiveVariableAnalysisTest::testPropertyAccessInForIn
+  - com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn
+---- exit code: 0 | Closure-58-buggy_ind2
+

@@ -1,0 +1,18 @@
+==== 2026-04-28 23:26:36 :: Math-76-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/linear/SingularValueSolverTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testUOrthogonal
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testAEqualUSVt
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testVOrthogonal
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testMatricesValues1
+  - org.apache.commons.math.linear.SingularValueDecompositionImplTest::testMatricesValues2
+  - org.apache.commons.math.linear.SingularValueSolverTest::testSolve
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+---- exit code: 0 | test_result: Not Pass | Math-76-buggy
+

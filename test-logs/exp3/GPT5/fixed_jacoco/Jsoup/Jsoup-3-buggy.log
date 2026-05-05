@@ -1,0 +1,17 @@
+==== 2026-04-27 04:53:33 :: Jsoup-3-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/ElementTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.select.ElementsTest::setHtml
+---- exit code: 0 | test_result: Not Pass | Jsoup-3-buggy
+

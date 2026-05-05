@@ -1,0 +1,9 @@
+==== 2026-04-26 01:06:26 :: Gson-17-fixed_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testNullValueSqlDate
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Gson-17-fixed_ind2
+

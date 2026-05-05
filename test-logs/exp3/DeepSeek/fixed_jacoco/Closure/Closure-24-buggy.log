@@ -1,0 +1,11 @@
+==== 2026-04-23 01:58:25 :: Closure-24-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ScopedAliasesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testBadParameters
+---- exit code: 0 | test_result: Not Pass | Closure-24-buggy
+

@@ -1,0 +1,17 @@
+==== 2026-04-24 02:56:59 :: Collections-11-buggy ====
+[RESTORE] restored src/test/org/apache/commons/collections/keyvalue/TestMultiKey.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testEqualsAfterSerialization
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testHashCode
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyGet
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyContainsKey
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyPut
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyRemove
+  - org.apache.commons.collections.map.TestMultiKeyMap::testLRUMultiKeyMap
+---- exit code: 0 | test_result: Not Pass | Collections-11-buggy
+

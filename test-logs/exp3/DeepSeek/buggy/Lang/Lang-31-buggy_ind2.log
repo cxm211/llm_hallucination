@@ -1,0 +1,12 @@
+==== 2026-04-25 20:14:03 :: Lang-31-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyCharArrayWithSupplementaryChars
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyStringSupplementaryEdgeCases
+  - org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyStringWithSupplementaryChars
+---- exit code: 0 | Lang-31-buggy_ind2
+

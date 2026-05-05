@@ -1,0 +1,11 @@
+==== 2026-03-27 03:38:30 :: Closure-159-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue423_AdditionalCase2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue423
+---- exit code: 0 | Closure-159-buggy
+

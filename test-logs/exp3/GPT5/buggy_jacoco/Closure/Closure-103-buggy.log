@@ -1,0 +1,23 @@
+==== 2026-04-26 04:05:00 :: Closure-103-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-103-buggy/jacoco.exec.
+[INFO] Analyzing 843 classes.
+[JACOCO] done.
+[PARSE] 36 line rows.

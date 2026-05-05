@@ -1,0 +1,34 @@
+==== 2026-04-25 20:20:59 :: Lang-22-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int
+[JACOCO] defects4j test -t org.apache.commons.lang3.math.FractionTest::testReduce
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.FractionTest::testReduce
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-buggy/jacoco_base.exec.
+[INFO] Analyzing 133 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.math.FractionTest::testReducedFactoryGcdOverflow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.FractionTest::testReducedFactoryGcdOverflow
+[JACOCO] defects4j test -t org.apache.commons.lang3.math.FractionTest::testReducedFactoryGcdEvenMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.math.FractionTest::testReducedFactoryGcdEvenMin
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-22-buggy/jacoco.exec.
+[INFO] Analyzing 133 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 44 line rows.
+[PARSE] 44 base line rows.

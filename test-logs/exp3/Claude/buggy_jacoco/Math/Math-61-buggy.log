@@ -1,0 +1,37 @@
+==== 2026-03-30 00:53:45 :: Math-61-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.distribution.PoissonDistributionTest::testMean
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testMean
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-61-buggy/jacoco_base.exec.
+[INFO] Analyzing 493 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.distribution.PoissonDistributionTest::testZeroMean
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testZeroMean
+[JACOCO] defects4j test -t org.apache.commons.math.distribution.PoissonDistributionTest::testVerySmallPositiveMean
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testVerySmallPositiveMean
+[JACOCO] defects4j test -t org.apache.commons.math.distribution.PoissonDistributionTest::testLargeNegativeMean
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testLargeNegativeMean
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-61-buggy/jacoco.exec.
+[INFO] Analyzing 493 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 9 line rows.
+[PARSE] 9 base line rows.

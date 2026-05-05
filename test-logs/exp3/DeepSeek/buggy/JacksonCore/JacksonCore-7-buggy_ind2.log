@@ -1,0 +1,57 @@
+==== 2026-04-25 23:10:52 :: JacksonCore-7-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-core-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 80 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/src/main/java/com/fasterxml/jackson/core/util/VersionUtil.java:108: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 return ((Versioned) vClass.newInstance()).version();
+    [javac]                                           ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 1 warning
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/type/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/base/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/format/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/json/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/sym/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes/com/fasterxml/jackson/core/util/package-info.class
+     [copy] Copying 3 files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/classes
+
+compile:
+
+jackson-core-from-maven.compile-tests:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/maven-build.xml:102: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 73 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/src/test/java/com/fasterxml/jackson/core/json/GeneratorFailTest.java:89: error: cannot find symbol
+    [javac]     StringWriter sw = new StringWriter();
+    [javac]     ^
+    [javac]   symbol:   class StringWriter
+    [javac]   location: class GeneratorFailTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/src/test/java/com/fasterxml/jackson/core/json/GeneratorFailTest.java:89: error: cannot find symbol
+    [javac]     StringWriter sw = new StringWriter();
+    [javac]                           ^
+    [javac]   symbol:   class StringWriter
+    [javac]   location: class GeneratorFailTest
+    [javac] 2 errors
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-7-buggy_ind2/maven-build.xml:102: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | JacksonCore-7-buggy_ind2
+

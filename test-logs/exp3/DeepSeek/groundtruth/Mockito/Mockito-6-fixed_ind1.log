@@ -1,0 +1,9 @@
+==== 2026-04-25 19:30:41 :: Mockito-6-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptWrongTypeInAllAnyPrimitiveWrapperMatchers
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-6-fixed_ind1
+

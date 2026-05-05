@@ -1,0 +1,10 @@
+==== 2026-04-23 06:13:34 :: Closure-37-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIncompleteFunctionGlobal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIncompleteFunctionGlobal
+---- exit code: 0 | Closure-37-fixed_ind1
+

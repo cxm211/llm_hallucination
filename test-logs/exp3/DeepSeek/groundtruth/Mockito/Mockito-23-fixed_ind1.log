@@ -1,0 +1,10 @@
+==== 2026-04-25 19:39:49 :: Mockito-23-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.stubbing.DeepStubsSerializableTest::should_serialize_and_deserialize_deep_stub_with_non_mockable_return_type
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.stubbing.DeepStubsSerializableTest::should_serialize_and_deserialize_deep_stub_with_non_mockable_return_type
+---- exit code: 0 | Mockito-23-fixed_ind1
+

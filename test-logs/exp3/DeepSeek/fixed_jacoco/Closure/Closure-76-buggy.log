@@ -1,0 +1,12 @@
+==== 2026-04-23 02:39:24 :: Closure-76-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/DeadAssignmentsEliminationTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+---- exit code: 0 | test_result: Not Pass | Closure-76-buggy
+

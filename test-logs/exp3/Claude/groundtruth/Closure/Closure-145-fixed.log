@@ -1,0 +1,12 @@
+==== 2026-04-21 06:34:46 :: Closure-145-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CodePrinterTest::testNestedBlocksWithFunction
+  - com.google.javascript.jscomp.CodePrinterTest::testLabeledBlockWithDoLoop
+  - com.google.javascript.jscomp.CodePrinterTest::testNestedBlocksWithDoLoop
+---- exit code: 0 | Closure-145-fixed
+

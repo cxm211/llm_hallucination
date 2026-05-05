@@ -1,0 +1,10 @@
+==== 2026-04-26 08:01:44 :: Closure-17-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688_additional1
+---- exit code: 0 | Closure-17-fixed
+

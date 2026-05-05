@@ -1,0 +1,11 @@
+==== 2026-04-28 21:35:05 :: Math-89-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.stat.FrequencyTest::testAddNull
+  - org.apache.commons.math.stat.FrequencyTest::testAddNonComparable
+---- exit code: 0 | Math-89-buggy
+

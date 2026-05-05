@@ -1,0 +1,10 @@
+==== 2026-04-24 07:26:25 :: Jsoup-83-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.TokeniserStateTest::beforeAttributeNameLessThanAfterAttribute
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.TokeniserStateTest::beforeAttributeNameLessThanAfterAttribute
+---- exit code: 0 | Jsoup-83-fixed_ind2
+

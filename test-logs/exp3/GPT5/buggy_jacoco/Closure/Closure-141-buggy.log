@@ -1,0 +1,48 @@
+==== 2026-04-26 04:13:46 :: Closure-141-buggy ====
+[JACOCO] trigger=8 add=0 total=8
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression7
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression7
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testDecomposeAnonymousInCall
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDecomposeAnonymousInCall
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-141-buggy/jacoco.exec.
+[INFO] Analyzing 849 classes.
+[JACOCO] done.
+[PARSE] 54 line rows.

@@ -1,0 +1,14 @@
+==== 2026-04-27 04:54:28 :: Jsoup-21-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.integration.ParseTest::testBaiduVariant
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeDash
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- exit code: 0 | test_result: Not Pass | Jsoup-21-buggy
+

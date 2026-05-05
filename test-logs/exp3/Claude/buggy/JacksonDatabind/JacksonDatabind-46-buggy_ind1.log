@@ -1,0 +1,12 @@
+==== 2026-03-28 05:09:43 :: JacksonDatabind-46-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.type.TestJavaType::testGenericSignatureNestedGenerics
+  - com.fasterxml.jackson.databind.type.TestJavaType::testGenericSignature1195
+---- exit code: 0 | JacksonDatabind-46-buggy_ind1
+

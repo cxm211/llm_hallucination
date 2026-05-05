@@ -1,0 +1,34 @@
+==== 2026-04-24 05:10:24 :: Jsoup-18-buggy_ind1 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::handleCarriageReturnAsLineFeed
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::handleCarriageReturnAsLineFeed
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::consumeToEnd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::consumeToEnd
+[JACOCO] defects4j test -t org.jsoup.parser.ParserTest::handlesNewlinesAndWhitespaceInTag
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handlesNewlinesAndWhitespaceInTag
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-18-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 187 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::consumeToEndEmptyInput
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::consumeToEndEmptyInput
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-18-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 187 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 11 line rows.
+[PARSE] 11 base line rows.

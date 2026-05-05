@@ -1,0 +1,14 @@
+==== 2026-03-27 03:15:28 :: Closure-85-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveReturnWhenFollowNodeIsNull
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveContinueWhenFollowNodeIsNull
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveBreakWhenFollowNodeIsNull
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311
+---- exit code: 0 | Closure-85-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-03-31 21:05:02 :: Jsoup-34-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfUnmatched
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfSequenceAtEnd
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfPartialMatchAtEnd
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedCdataAtEOF
+---- exit code: 0 | Jsoup-34-buggy
+

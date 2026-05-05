@@ -1,0 +1,38 @@
+==== 2026-04-27 04:26:43 :: Jsoup-36-buggy ====
+[JACOCO] trigger=6 add=0 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldCorrectCharsetForDuplicateCharsetString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::shouldCorrectCharsetForDuplicateCharsetString
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldNotThrowExceptionOnEmptyCharset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::shouldNotThrowExceptionOnEmptyCharset
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::testQuotedCharset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::testQuotedCharset
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+[JACOCO] defects4j test -t org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+[JACOCO] defects4j test -t org.jsoup.integration.ParseTest::testBrokenHtml5CharsetWithASingleDoubleQuote
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ParseTest::testBrokenHtml5CharsetWithASingleDoubleQuote
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-36-buggy/jacoco.exec.
+[INFO] Analyzing 212 classes.
+[JACOCO] done.
+[PARSE] 52 line rows.

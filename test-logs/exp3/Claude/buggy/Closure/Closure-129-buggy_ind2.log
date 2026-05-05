@@ -1,0 +1,11 @@
+==== 2026-03-27 05:49:01 :: Closure-129-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.IntegrationTest::testNestedCastFunctionCall
+  - com.google.javascript.jscomp.IntegrationTest::testIssue937
+---- exit code: 0 | Closure-129-buggy_ind2
+

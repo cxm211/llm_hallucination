@@ -1,0 +1,39 @@
+==== 2026-04-29 02:26:16 :: JacksonCore-10-buggy ====
+[JACOCO] trigger=4 add=1 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-buggy/jacoco_base.exec.
+[INFO] Analyzing 83 classes.
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-buggy/jacoco.exec.
+[INFO] Analyzing 83 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 60 line rows.
+[PARSE] 60 base line rows.

@@ -1,0 +1,63 @@
+==== 2026-03-30 06:22:28 :: Math-102-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare
+---- exit code: 0 | Math-102-buggy_ind3
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 6, add tests: 1, total: 7
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare
+[JACOCO] base snapshot saved (6 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareAllEqual
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-102-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 178 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-102-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 178 classes.
+>>> [JACOCO] done

@@ -1,0 +1,39 @@
+==== 2026-04-24 09:04:54 :: Math-35-buggy_ind2 ====
+[JACOCO] trigger=4 add=1 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooLow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooLow
+[JACOCO] defects4j test -t org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh
+[JACOCO] defects4j test -t org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow
+[JACOCO] defects4j test -t org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooHigh
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooHigh
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-35-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 643 classes.
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorNaN
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-35-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 643 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 10 line rows.
+[PARSE] 10 base line rows.

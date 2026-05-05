@@ -1,0 +1,12 @@
+==== 2026-03-29 23:56:18 :: Math-39-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStepBackward
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStep
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStepWithVectorTolerances
+---- exit code: 0 | Math-39-buggy
+

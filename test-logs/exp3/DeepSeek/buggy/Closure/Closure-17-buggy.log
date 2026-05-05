@@ -1,0 +1,11 @@
+==== 2026-04-21 23:24:40 :: Closure-17-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testConstantWithOrExpressionNoMatch
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688
+---- exit code: 0 | Closure-17-buggy
+

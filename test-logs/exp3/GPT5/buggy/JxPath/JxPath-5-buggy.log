@@ -1,0 +1,11 @@
+==== 2026-04-29 01:32:38 :: JxPath-5-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfNodeAndVariableReverse
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testUnionOfVariableAndNode
+---- exit code: 0 | JxPath-5-buggy
+

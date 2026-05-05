@@ -1,0 +1,12 @@
+==== 2026-03-27 18:16:38 :: Closure-173-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CodePrinterTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testAssocitivity
+---- exit code: 0 | test_result: Not Pass | Closure-173-buggy
+

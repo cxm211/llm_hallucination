@@ -1,0 +1,44 @@
+==== 2026-04-25 20:21:47 :: Lang-28-buggy ====
+[JACOCO] trigger=1 add=5 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-buggy/jacoco_base.exec.
+[INFO] Analyzing 125 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryHexUnescaping
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryHexUnescaping
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityMissingSemicolon
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityMissingSemicolon
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityOnlyAmpersandHash
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityOnlyAmpersandHash
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityWithHexPrefix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testIncompleteEntityWithHexPrefix
+[JACOCO] defects4j test -t org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testInvalidCodePoint
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testInvalidCodePoint
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-28-buggy/jacoco.exec.
+[INFO] Analyzing 125 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 33 line rows.
+[PARSE] 33 base line rows.

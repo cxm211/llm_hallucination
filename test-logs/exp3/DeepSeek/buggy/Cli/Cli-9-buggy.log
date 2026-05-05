@@ -1,0 +1,12 @@
+==== 2026-04-21 19:34:13 :: Cli-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.cli.OptionsTest::testMissingOptionsException
+  - org.apache.commons.cli.OptionsTest::testMissingOptionsExceptionThreeOptions
+  - org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions
+---- exit code: 0 | Cli-9-buggy
+

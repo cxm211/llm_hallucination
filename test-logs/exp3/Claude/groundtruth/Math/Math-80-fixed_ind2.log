@@ -1,0 +1,10 @@
+==== 2026-04-21 12:03:49 :: Math-80-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.linear.EigenDecompositionImplTest::testSmallMatrix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplTest::testSmallMatrix
+---- exit code: 0 | Math-80-fixed_ind2
+

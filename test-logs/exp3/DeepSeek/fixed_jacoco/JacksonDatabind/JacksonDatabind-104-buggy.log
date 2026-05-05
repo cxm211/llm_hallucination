@@ -1,0 +1,19 @@
+==== 2026-04-23 23:21:02 :: JacksonDatabind-104-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/ser/jdk/DateSerializationTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.fasterxml.jackson.databind.ext.TestCoreXMLTypes::testXMLGregorianCalendarSerAndDeser
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateWithJsonFormat
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_customTZ
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_colonInTZ
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDatesAsMapKeys
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateDefaultShape
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601_BCE
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testDateISO8601
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-104-buggy
+

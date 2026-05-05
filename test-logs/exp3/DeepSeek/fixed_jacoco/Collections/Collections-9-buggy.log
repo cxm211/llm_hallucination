@@ -1,0 +1,11 @@
+==== 2026-04-24 02:56:50 :: Collections-9-buggy ====
+[RESTORE] restored src/test/org/apache/commons/collections/TestExtendedProperties.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testCollections271
+---- exit code: 0 | test_result: Not Pass | Collections-9-buggy
+

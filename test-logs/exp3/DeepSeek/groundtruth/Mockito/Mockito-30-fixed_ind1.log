@@ -1,0 +1,10 @@
+==== 2026-04-25 19:40:31 :: Mockito-30-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldIncludeMethodNameWhenNoParameters
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldIncludeMethodNameWhenNoParameters
+---- exit code: 0 | Mockito-30-fixed_ind1
+

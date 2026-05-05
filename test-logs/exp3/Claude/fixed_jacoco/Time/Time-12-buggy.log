@@ -1,0 +1,17 @@
+==== 2026-03-30 05:39:32 :: Time-12-buggy ====
+[RESTORE] restored build/tests/org/joda/time/TestLocalDateTime_Constructors.java
+[RESTORE] restored build/tests/org/joda/time/TestLocalDate_Constructors.java
+[RESTORE] restored src/test/java/org/joda/time/TestLocalDateTime_Constructors.java
+[RESTORE] restored src/test/java/org/joda/time/TestLocalDate_Constructors.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3
+---- exit code: 0 | test_result: Not Pass | Time-12-buggy
+

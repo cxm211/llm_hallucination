@@ -1,0 +1,13 @@
+==== 2026-04-29 04:33:33 :: Compress-29-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testTarEncodingChecksumAutodetect
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStream
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingInputStreamAutodetect
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testEncodingOutputStream
+---- exit code: 0 | Compress-29-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-24 14:56:28 :: Time-17-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset
+---- exit code: 0 | Time-17-buggy
+

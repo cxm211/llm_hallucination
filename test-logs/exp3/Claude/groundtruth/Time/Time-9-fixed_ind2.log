@@ -1,0 +1,10 @@
+==== 2026-04-21 16:29:04 :: Time-9-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_edgeCaseMinutes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_edgeCaseMinutes
+---- exit code: 0 | Time-9-fixed_ind2
+

@@ -1,0 +1,28 @@
+==== 2026-04-24 16:25:13 :: Time-25-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_NewYork
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_Berlin
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourForward_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusHour_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_MutableDateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDayMidGap_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourAcross_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_newValid_Gaza
+---- exit code: 0 | test_result: Not Pass | Time-25-buggy
+

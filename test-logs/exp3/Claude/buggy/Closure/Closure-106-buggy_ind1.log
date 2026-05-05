@@ -1,0 +1,14 @@
+==== 2026-03-27 05:23:17 :: Closure-106-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceBlocksGrandchildCollapsing
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator
+---- exit code: 0 | Closure-106-buggy_ind1
+

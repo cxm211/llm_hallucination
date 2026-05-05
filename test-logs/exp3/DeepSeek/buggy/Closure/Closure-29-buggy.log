@@ -1,0 +1,15 @@
+==== 2026-04-21 23:33:32 :: Closure-29-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testUndefinedProperty
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724
+  - com.google.javascript.jscomp.IntegrationTest::testIssue724
+---- exit code: 0 | Closure-29-buggy
+

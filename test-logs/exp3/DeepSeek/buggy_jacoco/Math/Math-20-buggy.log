@@ -1,0 +1,29 @@
+==== 2026-04-24 08:30:42 :: Math-20-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testMath864
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testMath864
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-20-buggy/jacoco_base.exec.
+[INFO] Analyzing 666 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testLowerBound
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testLowerBound
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBothBounds2D
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testBothBounds2D
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-20-buggy/jacoco.exec.
+[INFO] Analyzing 666 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 4 line rows.
+[PARSE] 4 base line rows.

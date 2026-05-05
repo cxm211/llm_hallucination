@@ -1,0 +1,19 @@
+==== 2026-03-31 23:33:06 :: Jsoup-5-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+
+[TIMEOUT] killed after 600s
+Running ant (run.dev.tests)................................................ ---- exit code: 124 | Jsoup-5-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes
+[JACOCO] single test timeout (600s): org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes
+>>> [JACOCO] timeout: JaCoCo stage timeout (> 600s)
+>>> [JACOCO] done

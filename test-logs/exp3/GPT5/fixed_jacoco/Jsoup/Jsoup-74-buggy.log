@@ -1,0 +1,10 @@
+==== 2026-04-27 04:58:18 :: Jsoup-74-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/ElementTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Jsoup-74-buggy
+

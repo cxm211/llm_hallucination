@@ -1,0 +1,10 @@
+==== 2026-04-21 06:58:44 :: Closure-26-fixed_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJSWithModuleExports
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJSWithModuleExports
+---- exit code: 0 | Closure-26-fixed_ind4
+

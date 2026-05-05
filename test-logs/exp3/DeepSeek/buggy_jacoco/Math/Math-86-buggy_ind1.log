@@ -1,0 +1,29 @@
+==== 2026-04-24 09:22:48 :: Math-86-buggy_ind1 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math.linear.CholeskyDecompositionImplTest::testMath274
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.CholeskyDecompositionImplTest::testMath274
+[JACOCO] defects4j test -t org.apache.commons.math.linear.CholeskyDecompositionImplTest::testNotPositiveDefinite
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.CholeskyDecompositionImplTest::testNotPositiveDefinite
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-86-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 325 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.linear.CholeskyDecompositionImplTest::testNearSymmetric
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.CholeskyDecompositionImplTest
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-86-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 325 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 59 line rows.
+[PARSE] 59 base line rows.

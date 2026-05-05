@@ -1,0 +1,23 @@
+==== 2026-04-29 12:13:44 :: Gson-4-buggy ====
+[JACOCO] trigger=3 add=0 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+[JACOCO] defects4j test -t com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] done.
+[PARSE] 249 line rows.

@@ -1,0 +1,10 @@
+==== 2026-04-28 01:17:24 :: Cli-17-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/PosixParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Cli-17-buggy
+

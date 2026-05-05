@@ -1,0 +1,24 @@
+==== 2026-04-25 20:40:06 :: Lang-53-buggy_ind2 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.lang.time.DateUtilsTest::testRoundLang346
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.time.DateUtilsTest::testRoundLang346
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-53-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 119 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang.time.DateUtilsTest::testRoundMinuteWith30Seconds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.time.DateUtilsTest::testRoundMinuteWith30Seconds
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-53-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 119 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 125 line rows.
+[PARSE] 125 base line rows.

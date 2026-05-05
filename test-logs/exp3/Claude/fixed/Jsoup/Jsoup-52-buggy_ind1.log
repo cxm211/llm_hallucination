@@ -1,0 +1,69 @@
+==== 2026-04-01 01:12:39 :: Jsoup-52-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlNoCharset
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlIso8859
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlUtf8
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlDisabledNoChanges
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testDetectCharsetEncodingDeclaration
+  - org.jsoup.parser.XmlTreeBuilderTest::testParseDeclarationAttributes
+---- exit code: 0 | Jsoup-52-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 7, add tests: 1, total: 8
+[JACOCO] defects4j test -t org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlNoCharset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlNoCharset
+[JACOCO] defects4j test -t org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlIso8859
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlIso8859
+[JACOCO] defects4j test -t org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlUtf8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlUtf8
+[JACOCO] defects4j test -t org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlDisabledNoChanges
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlDisabledNoChanges
+[JACOCO] defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesXmlDeclarationAsDeclaration
+[JACOCO] defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::testDetectCharsetEncodingDeclaration
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::testDetectCharsetEncodingDeclaration
+[JACOCO] defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::testParseDeclarationAttributes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::testParseDeclarationAttributes
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.DocumentTest::testMetaCharsetUpdateXmlMultipleAttributes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-52-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 220 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-52-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 220 classes.
+>>> [JACOCO] done

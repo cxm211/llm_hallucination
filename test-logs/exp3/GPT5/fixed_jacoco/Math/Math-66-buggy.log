@@ -1,0 +1,14 @@
+==== 2026-04-28 23:25:33 :: Math-66-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/optimization/univariate/BrentOptimizerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+---- exit code: 0 | test_result: Not Pass | Math-66-buggy
+

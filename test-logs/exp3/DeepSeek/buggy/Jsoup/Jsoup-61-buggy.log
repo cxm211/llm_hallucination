@@ -1,0 +1,12 @@
+==== 2026-04-24 04:35:56 :: Jsoup-61-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.select.ElementsTest::hasClassMultipleClasses
+  - org.jsoup.select.ElementsTest::hasClassCaseInsensitive
+  - org.jsoup.select.SelectorTest::testByClassCaseInsensitive
+---- exit code: 0 | Jsoup-61-buggy
+

@@ -1,0 +1,15 @@
+==== 2026-04-29 02:01:24 :: JacksonXml-1-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.dataformat.xml.RoundtripContentTest::testRoundtrip
+  - com.fasterxml.jackson.dataformat.xml.deser.TestStringValues::testEmptyStringElement
+  - com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty2
+  - com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty
+  - com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testSimpleWithEmpty
+---- exit code: 0 | test_result: Not Pass | JacksonXml-1-buggy
+

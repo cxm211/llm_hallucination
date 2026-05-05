@@ -1,0 +1,12 @@
+==== 2026-04-21 06:08:27 :: Closure-65-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CodePrinterTest::testZeroFollowedByNonDigit
+  - com.google.javascript.jscomp.CodePrinterTest::testZeroAtEndOfString
+  - com.google.javascript.jscomp.CodePrinterTest::testMultipleZeros
+---- exit code: 0 | Closure-65-fixed
+

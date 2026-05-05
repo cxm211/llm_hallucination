@@ -1,0 +1,10 @@
+==== 2026-04-23 06:38:00 :: Closure-137-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testShallowTraversalFunctionDeclaration
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testShallowTraversalFunctionDeclaration
+---- exit code: 0 | Closure-137-fixed_ind1
+

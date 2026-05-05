@@ -1,0 +1,11 @@
+==== 2026-04-24 04:40:28 :: Jsoup-10-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.NodeTest::absHandlesRelativeQuery
+  - org.jsoup.nodes.NodeTest::absHandlesRelativeQueryOnBaseWithoutQuery
+---- exit code: 0 | Jsoup-10-buggy_ind1
+

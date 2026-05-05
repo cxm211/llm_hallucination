@@ -1,0 +1,11 @@
+==== 2026-04-25 23:08:52 :: JacksonCore-18-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testTooBigBigDecimal
+  - com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures::testTooBigBigDecimalAdditionalScales
+---- exit code: 0 | JacksonCore-18-buggy
+

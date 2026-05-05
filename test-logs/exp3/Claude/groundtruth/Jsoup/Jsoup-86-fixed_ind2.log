@@ -1,0 +1,10 @@
+==== 2026-04-21 10:53:33 :: Jsoup-86-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::handlesEmptyPseudoXmlDecl
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesEmptyPseudoXmlDecl
+---- exit code: 0 | Jsoup-86-fixed_ind2
+

@@ -1,0 +1,12 @@
+==== 2026-03-30 03:34:50 :: Mockito-2-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.util.TimerTest::should_throw_friendly_reminder_exception_when_duration_is_negative
+  - org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_timeout_method
+  - org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_after_method
+---- exit code: 0 | Mockito-2-buggy_ind2
+

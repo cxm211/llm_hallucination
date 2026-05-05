@@ -1,0 +1,11 @@
+==== 2026-03-28 03:31:00 :: JacksonDatabind-30-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testBigDecimal965
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-30-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-28 23:25:20 :: Math-64-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFittingBadInit
+---- exit code: 0 | test_result: Not Pass | Math-64-buggy
+

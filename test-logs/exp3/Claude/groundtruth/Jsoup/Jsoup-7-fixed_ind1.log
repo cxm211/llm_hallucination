@@ -1,0 +1,10 @@
+==== 2026-04-21 10:44:21 :: Jsoup-7-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.nodes.DocumentTest::testNormalisesMultipleHeads
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.DocumentTest::testNormalisesMultipleHeads
+---- exit code: 0 | Jsoup-7-fixed_ind1
+

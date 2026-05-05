@@ -1,0 +1,10 @@
+==== 2026-04-24 01:28:30 :: JacksonDatabind-6-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSecondsZ
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestDateDeserialization::testISO8601MissingSecondsZ
+---- exit code: 0 | JacksonDatabind-6-fixed_ind1
+

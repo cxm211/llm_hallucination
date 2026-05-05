@@ -1,0 +1,18 @@
+==== 2026-04-26 04:09:09 :: Closure-118-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes4
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-118-buggy/jacoco.exec.
+[INFO] Analyzing 1225 classes.
+[JACOCO] done.
+[PARSE] 24 line rows.

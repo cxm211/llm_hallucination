@@ -1,0 +1,75 @@
+==== 2026-03-30 03:35:19 :: Time-12-buggy ====
+[JACOCO] trigger=8 add=4 total=12
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1
+[JACOCO] defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3
+[JACOCO] defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+[JACOCO] defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+[JACOCO] defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1
+[JACOCO] defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3
+[JACOCO] defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+[JACOCO] defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-buggy/jacoco_base.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_AD
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_AD
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero10
+[JACOCO] defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero10
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-buggy/jacoco.exec.
+[INFO] Analyzing 204 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 52 line rows.
+[PARSE] 52 base line rows.

@@ -1,0 +1,10 @@
+==== 2026-04-21 06:11:21 :: Closure-71-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6_AdditionalBranch
+---- exit code: 0 | Closure-71-fixed
+

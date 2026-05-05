@@ -1,0 +1,13 @@
+==== 2026-03-27 17:15:36 :: Closure-16-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/IntegrationTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/ScopedAliasesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+---- exit code: 0 | test_result: Not Pass | Closure-16-buggy
+

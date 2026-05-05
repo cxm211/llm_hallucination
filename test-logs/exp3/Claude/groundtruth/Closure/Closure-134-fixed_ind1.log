@@ -1,0 +1,10 @@
+==== 2026-04-21 07:36:37 :: Closure-134-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.AmbiguatePropertiesTest::testMultipleInterfacesWithSameProperty
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testMultipleInterfacesWithSameProperty
+---- exit code: 0 | Closure-134-fixed_ind1
+

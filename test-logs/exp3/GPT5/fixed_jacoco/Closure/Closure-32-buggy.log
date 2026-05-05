@@ -1,0 +1,23 @@
+==== 2026-04-26 06:30:34 :: Closure-32-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/parsing/JsDocInfoParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+  - com.google.javascript.jscomp.JsMessageExtractorTest::testExtractNewStyleMessage2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testFileOverviewMultiLine
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseWithAnnotation
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testRegression15
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testMultilineDocumentationParameter
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers6
+---- exit code: 0 | test_result: Not Pass | Closure-32-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-04-28 15:52:29 :: Mockito-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodStubbed
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethod
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodReturnsDefault
+---- exit code: 0 | Mockito-9-buggy
+

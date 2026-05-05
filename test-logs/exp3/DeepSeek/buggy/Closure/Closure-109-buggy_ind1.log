@@ -1,0 +1,12 @@
+==== 2026-04-22 02:06:03 :: Closure-109-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructorUnion
+---- exit code: 0 | Closure-109-buggy_ind1
+

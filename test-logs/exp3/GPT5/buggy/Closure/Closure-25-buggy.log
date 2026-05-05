@@ -1,0 +1,11 @@
+==== 2026-04-26 02:40:30 :: Closure-25-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew_multipleParams
+---- exit code: 0 | Closure-25-buggy
+

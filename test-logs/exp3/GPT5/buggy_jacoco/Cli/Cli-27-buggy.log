@@ -1,0 +1,34 @@
+==== 2026-04-28 00:41:51 :: Cli-27-buggy ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.BasicParserTest::testOptionGroupLong
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testOptionGroupLong
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-27-buggy/jacoco_base.exec.
+[INFO] Analyzing 21 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.ParserTestCase::testOptionGroupLongTwoOptions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParserTestCase
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-27-buggy/jacoco.exec.
+[INFO] Analyzing 21 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 21 line rows.
+[PARSE] 21 base line rows.

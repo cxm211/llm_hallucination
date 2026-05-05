@@ -1,0 +1,12 @@
+==== 2026-03-28 05:40:43 :: JacksonDatabind-77-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testIllegalTypeWithNestedObject
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testIssue1599
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | JacksonDatabind-77-buggy_ind1
+

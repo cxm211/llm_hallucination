@@ -1,0 +1,47 @@
+==== 2026-03-30 04:46:41 :: Time-3-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Time-3-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 1, total: 6
+[JACOCO] defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddYears_int_dstOverlapWinter_addZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddDays_int_dstOverlapWinter_addZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddWeeks_int_dstOverlapWinter_addZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAdd_DurationFieldType_int_dstOverlapWinter_addZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddMonths_int_dstOverlapWinter_addZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddWeekyears_int_dstOverlapWinter_addZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 208 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 208 classes.
+>>> [JACOCO] done

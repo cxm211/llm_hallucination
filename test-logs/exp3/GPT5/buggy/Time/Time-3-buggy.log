@@ -1,0 +1,15 @@
+==== 2026-04-28 04:03:56 :: Time-3-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.joda.time.TestMutableDateTime_Adds::testAddWeekyears_int_dstOverlapWinter_addZero
+  - org.joda.time.TestMutableDateTime_Adds::testAddYears_int_dstOverlapWinter_addZero
+  - org.joda.time.TestMutableDateTime_Adds::testAddDays_int_dstOverlapWinter_addZero
+  - org.joda.time.TestMutableDateTime_Adds::testAddWeeks_int_dstOverlapWinter_addZero
+  - org.joda.time.TestMutableDateTime_Adds::testAdd_DurationFieldType_int_dstOverlapWinter_addZero
+  - org.joda.time.TestMutableDateTime_Adds::testAddMonths_int_dstOverlapWinter_addZero
+---- exit code: 0 | Time-3-buggy
+

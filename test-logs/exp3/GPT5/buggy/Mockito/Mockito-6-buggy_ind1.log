@@ -1,0 +1,17 @@
+==== 2026-04-28 17:15:40 :: Mockito-6-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyXMatchers
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyClassMatcher
+  - org.mockitousage.matchers.MatchersTest::anyStringMatcher
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollection
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyList
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMap
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySet
+---- exit code: 0 | Mockito-6-buggy_ind1
+

@@ -1,0 +1,10 @@
+==== 2026-04-25 19:40:48 :: Mockito-33-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubAndVerifyWithGenericSuperclass
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubAndVerifyWithGenericSuperclass
+---- exit code: 0 | Mockito-33-fixed_ind1
+

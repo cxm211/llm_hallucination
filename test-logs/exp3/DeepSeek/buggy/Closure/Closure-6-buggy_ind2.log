@@ -1,0 +1,13 @@
+==== 2026-04-22 00:55:56 :: Closure-6-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPropertyConstructorEnumMismatch
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue635b
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition
+---- exit code: 0 | Closure-6-buggy_ind2
+

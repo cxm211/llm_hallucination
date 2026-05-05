@@ -1,0 +1,18 @@
+==== 2026-04-24 15:03:34 :: Time-12-buggy_ind4 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero_comprehensive
+---- exit code: 0 | Time-12-buggy_ind4
+

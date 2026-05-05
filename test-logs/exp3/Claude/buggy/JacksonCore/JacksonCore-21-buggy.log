@@ -1,0 +1,14 @@
+==== 2026-03-28 15:13:24 :: JacksonCore-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testMultipleEndObjectsAfterSingleMatch
+  - com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testTokensSingleMatchWithPath
+  - com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testBasicSingleMatchFilteringWithPath
+  - com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testNestedStructEndAfterMatch
+  - com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test::testSkippingForSingleWithPath
+---- exit code: 0 | JacksonCore-21-buggy
+

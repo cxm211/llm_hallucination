@@ -1,0 +1,10 @@
+==== 2026-04-27 02:39:54 :: Chart-13-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.block.junit.BorderArrangementTests::testArrangeFFClampsNegativeRanges
+---- exit code: 0 | Chart-13-fixed
+

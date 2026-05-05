@@ -1,0 +1,11 @@
+==== 2026-04-24 04:38:30 :: Jsoup-77-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.XmlTreeBuilderTest::normalizesNestedDiscordantTags
+  - org.jsoup.parser.XmlTreeBuilderTest::normalizesDiscordantTags
+---- exit code: 0 | Jsoup-77-buggy
+

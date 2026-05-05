@@ -1,0 +1,12 @@
+==== 2026-04-25 20:11:17 :: Lang-12-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang3.RandomStringUtilsTest::testExceptions
+  - org.apache.commons.lang3.RandomStringUtilsTest::testStartGreaterThanEnd
+  - org.apache.commons.lang3.RandomStringUtilsTest::testLANG805
+---- exit code: 0 | Lang-12-buggy_ind1
+

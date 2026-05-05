@@ -1,0 +1,13 @@
+==== 2026-04-27 04:24:08 :: Jsoup-15-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.parser.ParserTest::handlesDataOnlyTags
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.ParserTest::handlesDataOnlyTags
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-15-buggy/jacoco.exec.
+[INFO] Analyzing 187 classes.
+[JACOCO] done.
+[PARSE] 516 line rows.

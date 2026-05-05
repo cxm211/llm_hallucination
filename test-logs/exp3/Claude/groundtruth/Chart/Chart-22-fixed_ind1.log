@@ -1,0 +1,10 @@
+==== 2026-04-21 15:15:10 :: Chart-22-fixed_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.jfree.data.junit.KeyedObjects2DTests::testGetObjectAfterRemoval
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.junit.KeyedObjects2DTests::testGetObjectAfterRemoval
+---- exit code: 0 | Chart-22-fixed_ind1
+

@@ -1,0 +1,12 @@
+==== 2026-04-22 18:24:15 :: Chart-2-buggy ====
+[RESTORE] restored tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2
+  - org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3
+---- exit code: 0 | test_result: Not Pass | Chart-2-buggy
+

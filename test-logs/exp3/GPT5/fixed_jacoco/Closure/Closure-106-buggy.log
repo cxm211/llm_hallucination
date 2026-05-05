@@ -1,0 +1,28 @@
+==== 2026-04-26 06:59:23 :: Closure-106-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth1_1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth1_2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth1_3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth2_1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth2_2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth2_3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceDefinedInLocalScope
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testChainedAssignments7
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForEnumDepth2_3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testGlobalObjectNameInBooleanExpressionDepth3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInLocalScope1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInLocalScope2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInGlobalScope1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInGlobalScope2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildTypeOfUncollapsibleObjectInLocalScope
+---- exit code: 0 | test_result: Not Pass | Closure-106-buggy
+

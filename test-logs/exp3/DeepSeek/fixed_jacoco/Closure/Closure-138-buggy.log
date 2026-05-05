@@ -1,0 +1,15 @@
+==== 2026-04-23 03:24:25 :: Closure-138-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ClosureReverseAbstractInterpreterTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArrayOnNull
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunctionOnNull
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsObjectOnNull
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124
+---- exit code: 0 | test_result: Not Pass | Closure-138-buggy
+

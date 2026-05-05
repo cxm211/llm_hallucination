@@ -1,0 +1,11 @@
+==== 2026-03-27 01:27:53 :: Cli-9-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/OptionsTest.java
+[RESTORE] restored src/test/org/apache/commons/cli/ParseRequiredTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Cli-9-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-04-24 04:37:56 :: Jsoup-71-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.select.SelectorTest::splitOnBr
+  - org.jsoup.select.SelectorTest::textAsElements
+  - org.jsoup.select.SelectorTest::matchTextVariants
+---- exit code: 0 | Jsoup-71-buggy
+

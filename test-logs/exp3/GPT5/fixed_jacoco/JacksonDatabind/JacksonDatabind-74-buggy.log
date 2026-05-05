@@ -1,0 +1,11 @@
+==== 2026-04-26 20:21:45 :: JacksonDatabind-74-buggy ====
+[RESTORE] restored src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/jsontype/TestPolymorphicWithDefaultImpl.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | JacksonDatabind-74-buggy
+

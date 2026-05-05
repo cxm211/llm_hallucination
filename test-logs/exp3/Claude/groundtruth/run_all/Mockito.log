@@ -1,0 +1,635 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Mockito
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Mockito-1-fixed
+  [CHECKOUT] Mockito-2-fixed
+  [CHECKOUT] Mockito-3-fixed
+  [CHECKOUT] Mockito-4-fixed
+  [CHECKOUT] Mockito-5-fixed
+  [CHECKOUT] Mockito-6-fixed
+  [CHECKOUT] Mockito-7-fixed
+  [CHECKOUT] Mockito-8-fixed
+  [CHECKOUT] Mockito-9-fixed
+  [CHECKOUT] Mockito-10-fixed
+  [CHECKOUT] Mockito-11-fixed
+  [CHECKOUT] Mockito-12-fixed
+  [CHECKOUT] Mockito-13-fixed
+  [CHECKOUT] Mockito-14-fixed
+  [CHECKOUT] Mockito-15-fixed
+  [CHECKOUT] Mockito-16-fixed
+  [CHECKOUT] Mockito-17-fixed
+  [CHECKOUT] Mockito-18-fixed
+  [CHECKOUT] Mockito-19-fixed
+  [CHECKOUT] Mockito-20-fixed
+  [CHECKOUT] Mockito-21-fixed
+  [CHECKOUT] Mockito-22-fixed
+  [CHECKOUT] Mockito-23-fixed
+  [CHECKOUT] Mockito-24-fixed
+  [CHECKOUT] Mockito-25-fixed
+  [CHECKOUT] Mockito-27-fixed
+  [CHECKOUT] Mockito-28-fixed
+  [CHECKOUT] Mockito-29-fixed
+  [CHECKOUT] Mockito-30-fixed
+  [CHECKOUT] Mockito-31-fixed
+  [CHECKOUT] Mockito-32-fixed
+  [CHECKOUT] Mockito-33-fixed
+  [CHECKOUT] Mockito-34-fixed
+  [CHECKOUT] Mockito-35-fixed
+  [CHECKOUT] Mockito-36-fixed
+  [CHECKOUT] Mockito-37-fixed
+  [CHECKOUT] Mockito-38-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Mockito ===
+  [COPY] Mockito-1-fixed -> Mockito-1-fixed_ind1
+  [IND-OK] Mockito-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-1-fixed_ind1/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [COPY] Mockito-1-fixed -> Mockito-1-fixed_ind2
+  [IND-OK] Mockito-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-1-fixed_ind2/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-1-fixed/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-1-fixed/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [Mockito-1] inserted=4 failed=0
+  [COPY] Mockito-2-fixed -> Mockito-2-fixed_ind1
+  [IND-OK] Mockito-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-2-fixed_ind1/test/org/mockito/internal/util/TimerTest.java
+  [COPY] Mockito-2-fixed -> Mockito-2-fixed_ind2
+  [IND-OK] Mockito-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-2-fixed_ind2/test/org/mockito/internal/util/TimerTest.java
+  [COPY] Mockito-2-fixed -> Mockito-2-fixed_ind3
+  [IND-OK] Mockito-2-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-2-fixed_ind3/test/org/mockito/internal/util/TimerTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-2-fixed/test/org/mockito/internal/util/TimerTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-2-fixed/test/org/mockito/internal/util/TimerTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-2-fixed/test/org/mockito/internal/util/TimerTest.java
+  [Mockito-2] inserted=6 failed=0
+  [COPY] Mockito-3-fixed -> Mockito-3-fixed_ind1
+  [IND-OK] Mockito-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-3-fixed_ind1/test/org/mockitousage/matchers/CapturingArgumentsTest.java
+  [COPY] Mockito-3-fixed -> Mockito-3-fixed_ind2
+  [IND-OK] Mockito-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-3-fixed_ind2/test/org/mockitousage/matchers/CapturingArgumentsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-3-fixed/test/org/mockitousage/matchers/CapturingArgumentsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-3-fixed/test/org/mockitousage/matchers/CapturingArgumentsTest.java
+  [Mockito-3] inserted=4 failed=0
+  [COPY] Mockito-4-fixed -> Mockito-4-fixed_ind1
+  [IND-OK] Mockito-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-4-fixed_ind1/test/org/mockito/exceptions/ReporterTest.java
+  [COPY] Mockito-4-fixed -> Mockito-4-fixed_ind2
+  [IND-OK] Mockito-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-4-fixed_ind2/test/org/mockito/exceptions/ReporterTest.java
+  [COPY] Mockito-4-fixed -> Mockito-4-fixed_ind3
+  [IND-OK] Mockito-4-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-4-fixed_ind3/test/org/mockito/exceptions/ReporterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-4-fixed/test/org/mockito/exceptions/ReporterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-4-fixed/test/org/mockito/exceptions/ReporterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-4-fixed/test/org/mockito/exceptions/ReporterTest.java
+  [Mockito-4] inserted=6 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-5-fixed/test/org/mockitointegration/NoJUnitDependenciesTest.java
+  [Mockito-5] inserted=1 failed=0
+  [COPY] Mockito-6-fixed -> Mockito-6-fixed_ind1
+  [IND-OK] Mockito-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed_ind1/test/org/mockitousage/matchers/AnyXMatchersAcceptNullsTest.java
+  [COPY] Mockito-6-fixed -> Mockito-6-fixed_ind2
+  [IND-OK] Mockito-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed_ind2/test/org/mockitousage/matchers/NewMatchersTest.java
+  [COPY] Mockito-6-fixed -> Mockito-6-fixed_ind3
+  [IND-OK] Mockito-6-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed_ind3/test/org/mockitousage/matchers/NewMatchersTest.java
+  [COPY] Mockito-6-fixed -> Mockito-6-fixed_ind4
+  [IND-OK] Mockito-6-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed_ind4/test/org/mockitousage/matchers/NewMatchersTest.java
+  [COPY] Mockito-6-fixed -> Mockito-6-fixed_ind5
+  [IND-OK] Mockito-6-fixed_ind5/add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed_ind5/test/org/mockitousage/matchers/NewMatchersTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed/test/org/mockitousage/matchers/AnyXMatchersAcceptNullsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed/test/org/mockitousage/matchers/NewMatchersTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed/test/org/mockitousage/matchers/NewMatchersTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed/test/org/mockitousage/matchers/NewMatchersTest.java
+  [OK] add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6-fixed/test/org/mockitousage/matchers/NewMatchersTest.java
+  [Mockito-6] inserted=10 failed=0
+  [COPY] Mockito-7-fixed -> Mockito-7-fixed_ind1
+  [IND-OK] Mockito-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-7-fixed_ind1/test/org/mockitousage/bugs/deepstubs/DeepStubFailingWhenGenricNestedAsRawTypeTest.java
+  [COPY] Mockito-7-fixed -> Mockito-7-fixed_ind2
+  [IND-OK] Mockito-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-7-fixed_ind2/test/org/mockitousage/bugs/deepstubs/DeepStubFailingWhenGenricNestedAsRawTypeTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-7-fixed/test/org/mockitousage/bugs/deepstubs/DeepStubFailingWhenGenricNestedAsRawTypeTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-7-fixed/test/org/mockitousage/bugs/deepstubs/DeepStubFailingWhenGenricNestedAsRawTypeTest.java
+  [Mockito-7] inserted=4 failed=0
+  [COPY] Mockito-8-fixed -> Mockito-8-fixed_ind1
+  [IND-OK] Mockito-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-8-fixed_ind1/test/org/mockito/internal/util/reflection/GenericMetadataSupportTest.java
+  [COPY] Mockito-8-fixed -> Mockito-8-fixed_ind2
+  [IND-OK] Mockito-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-8-fixed_ind2/test/org/mockito/internal/util/reflection/GenericMetadataSupportTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-8-fixed/test/org/mockito/internal/util/reflection/GenericMetadataSupportTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-8-fixed/test/org/mockito/internal/util/reflection/GenericMetadataSupportTest.java
+  [Mockito-8] inserted=4 failed=0
+  [COPY] Mockito-9-fixed -> Mockito-9-fixed_ind1
+  [IND-OK] Mockito-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-fixed_ind1/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [COPY] Mockito-9-fixed -> Mockito-9-fixed_ind2
+  [IND-OK] Mockito-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-fixed_ind2/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [COPY] Mockito-9-fixed -> Mockito-9-fixed_ind3
+  [IND-OK] Mockito-9-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-fixed_ind3/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-fixed/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-fixed/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9-fixed/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [Mockito-9] inserted=6 failed=0
+  [COPY] Mockito-10-fixed -> Mockito-10-fixed_ind1
+  [IND-OK] Mockito-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-10-fixed_ind1/test/org/mockitousage/bugs/DeepStubsWronglyReportsSerializationProblemsTest.java
+  [COPY] Mockito-10-fixed -> Mockito-10-fixed_ind2
+  [IND-OK] Mockito-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-10-fixed_ind2/test/org/mockitousage/bugs/DeepStubsWronglyReportsSerializationProblemsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-10-fixed/test/org/mockitousage/bugs/DeepStubsWronglyReportsSerializationProblemsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-10-fixed/test/org/mockitousage/bugs/DeepStubsWronglyReportsSerializationProblemsTest.java
+  [Mockito-10] inserted=4 failed=0
+  [COPY] Mockito-11-fixed -> Mockito-11-fixed_ind1
+  [IND-OK] Mockito-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed_ind1/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [COPY] Mockito-11-fixed -> Mockito-11-fixed_ind2
+  [IND-OK] Mockito-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed_ind2/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [COPY] Mockito-11-fixed -> Mockito-11-fixed_ind3
+  [IND-OK] Mockito-11-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed_ind3/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [COPY] Mockito-11-fixed -> Mockito-11-fixed_ind4
+  [IND-OK] Mockito-11-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed_ind4/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-11-fixed/test/org/mockito/internal/creation/DelegatingMethodTest.java
+  [Mockito-11] inserted=8 failed=0
+  [COPY] Mockito-12-fixed -> Mockito-12-fixed_ind1
+  [IND-OK] Mockito-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-12-fixed_ind1/test/org/mockito/internal/util/reflection/GenericMasterTest.java
+  [COPY] Mockito-12-fixed -> Mockito-12-fixed_ind2
+  [IND-OK] Mockito-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-12-fixed_ind2/test/org/mockito/internal/util/reflection/GenericMasterTest.java
+  [COPY] Mockito-12-fixed -> Mockito-12-fixed_ind3
+  [IND-OK] Mockito-12-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-12-fixed_ind3/test/org/mockito/internal/util/reflection/GenericMasterTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-12-fixed/test/org/mockito/internal/util/reflection/GenericMasterTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-12-fixed/test/org/mockito/internal/util/reflection/GenericMasterTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-12-fixed/test/org/mockito/internal/util/reflection/GenericMasterTest.java
+  [Mockito-12] inserted=6 failed=0
+  [COPY] Mockito-13-fixed -> Mockito-13-fixed_ind1
+  [IND-OK] Mockito-13-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13-fixed_ind1/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [COPY] Mockito-13-fixed -> Mockito-13-fixed_ind2
+  [IND-OK] Mockito-13-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13-fixed_ind2/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13-fixed/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13-fixed/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [Mockito-13] inserted=4 failed=0
+  [COPY] Mockito-14-fixed -> Mockito-14-fixed_ind1
+  [IND-OK] Mockito-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-14-fixed_ind1/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [COPY] Mockito-14-fixed -> Mockito-14-fixed_ind2
+  [IND-OK] Mockito-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-14-fixed_ind2/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-14-fixed/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-14-fixed/test/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java
+  [Mockito-14] inserted=4 failed=0
+  [COPY] Mockito-15-fixed -> Mockito-15-fixed_ind1
+  [IND-OK] Mockito-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-15-fixed_ind1/test/org/mockitousage/bugs/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java
+  [COPY] Mockito-15-fixed -> Mockito-15-fixed_ind2
+  [IND-OK] Mockito-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-15-fixed_ind2/test/org/mockitousage/bugs/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java
+  [COPY] Mockito-15-fixed -> Mockito-15-fixed_ind3
+  [IND-OK] Mockito-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-15-fixed_ind3/test/org/mockitousage/bugs/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-15-fixed/test/org/mockitousage/bugs/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-15-fixed/test/org/mockitousage/bugs/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-15-fixed/test/org/mockitousage/bugs/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java
+  [Mockito-15] inserted=6 failed=0
+  [COPY] Mockito-16-fixed -> Mockito-16-fixed_ind1
+  [IND-OK] Mockito-16-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-16-fixed_ind1/test/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java
+  [COPY] Mockito-16-fixed -> Mockito-16-fixed_ind2
+  [IND-OK] Mockito-16-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-16-fixed_ind2/test/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java
+  [COPY] Mockito-16-fixed -> Mockito-16-fixed_ind3
+  [IND-OK] Mockito-16-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-16-fixed_ind3/test/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-16-fixed/test/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-16-fixed/test/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-16-fixed/test/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java
+  [Mockito-16] inserted=6 failed=0
+  [COPY] Mockito-17-fixed -> Mockito-17-fixed_ind1
+  [IND-OK] Mockito-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-17-fixed_ind1/test/org/mockitousage/basicapi/MocksSerializationTest.java
+  [COPY] Mockito-17-fixed -> Mockito-17-fixed_ind2
+  [IND-OK] Mockito-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-17-fixed_ind2/test/org/mockitousage/basicapi/MocksSerializationTest.java
+  [COPY] Mockito-17-fixed -> Mockito-17-fixed_ind3
+  [IND-OK] Mockito-17-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-17-fixed_ind3/test/org/mockitousage/basicapi/MocksSerializationTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-17-fixed/test/org/mockitousage/basicapi/MocksSerializationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-17-fixed/test/org/mockitousage/basicapi/MocksSerializationTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-17-fixed/test/org/mockitousage/basicapi/MocksSerializationTest.java
+  [Mockito-17] inserted=6 failed=0
+  [COPY] Mockito-18-fixed -> Mockito-18-fixed_ind1
+  [IND-OK] Mockito-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18-fixed_ind1/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [COPY] Mockito-18-fixed -> Mockito-18-fixed_ind2
+  [IND-OK] Mockito-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18-fixed_ind2/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [COPY] Mockito-18-fixed -> Mockito-18-fixed_ind3
+  [IND-OK] Mockito-18-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18-fixed_ind3/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [Mockito-18] inserted=6 failed=0
+  [COPY] Mockito-19-fixed -> Mockito-19-fixed_ind1
+  [IND-OK] Mockito-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-fixed_ind1/test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+  [COPY] Mockito-19-fixed -> Mockito-19-fixed_ind2
+  [IND-OK] Mockito-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-fixed_ind2/test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+  [COPY] Mockito-19-fixed -> Mockito-19-fixed_ind3
+  [IND-OK] Mockito-19-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-fixed_ind3/test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-fixed/test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-fixed/test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-19-fixed/test/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java
+  [Mockito-19] inserted=6 failed=0
+  [COPY] Mockito-20-fixed -> Mockito-20-fixed_ind1
+  [IND-OK] Mockito-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-fixed_ind1/test/org/mockitousage/annotation/SpyAnnotationTest.java
+  [COPY] Mockito-20-fixed -> Mockito-20-fixed_ind2
+  [IND-OK] Mockito-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-fixed_ind2/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-fixed/test/org/mockitousage/annotation/SpyAnnotationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-fixed/test/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java
+  [Mockito-20] inserted=4 failed=0
+  [COPY] Mockito-21-fixed -> Mockito-21-fixed_ind1
+  [IND-OK] Mockito-21-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-21-fixed_ind1/test/org/mockito/internal/creation/instance/ConstructorInstantiatorTest.java
+  [COPY] Mockito-21-fixed -> Mockito-21-fixed_ind2
+  [IND-OK] Mockito-21-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-21-fixed_ind2/test/org/mockito/internal/creation/instance/ConstructorInstantiatorTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-21-fixed/test/org/mockito/internal/creation/instance/ConstructorInstantiatorTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-21-fixed/test/org/mockito/internal/creation/instance/ConstructorInstantiatorTest.java
+  [Mockito-21] inserted=4 failed=0
+  [COPY] Mockito-22-fixed -> Mockito-22-fixed_ind1
+  [IND-OK] Mockito-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-22-fixed_ind1/test/org/mockito/internal/matchers/EqualityTest.java
+  [COPY] Mockito-22-fixed -> Mockito-22-fixed_ind2
+  [IND-OK] Mockito-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-22-fixed_ind2/test/org/mockito/internal/matchers/EqualityTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-22-fixed/test/org/mockito/internal/matchers/EqualityTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-22-fixed/test/org/mockito/internal/matchers/EqualityTest.java
+  [Mockito-22] inserted=4 failed=0
+  [COPY] Mockito-23-fixed -> Mockito-23-fixed_ind1
+  [IND-OK] Mockito-23-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-23-fixed_ind1/test/org/mockitousage/stubbing/DeepStubsSerializableTest.java
+  [COPY] Mockito-23-fixed -> Mockito-23-fixed_ind2
+  [IND-OK] Mockito-23-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-23-fixed_ind2/test/org/mockitousage/stubbing/DeepStubsSerializableTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-23-fixed/test/org/mockitousage/stubbing/DeepStubsSerializableTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-23-fixed/test/org/mockitousage/stubbing/DeepStubsSerializableTest.java
+  [Mockito-23] inserted=4 failed=0
+  [COPY] Mockito-24-fixed -> Mockito-24-fixed_ind1
+  [IND-OK] Mockito-24-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-24-fixed_ind1/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [COPY] Mockito-24-fixed -> Mockito-24-fixed_ind2
+  [IND-OK] Mockito-24-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-24-fixed_ind2/test/org/mockitousage/bugs/ShouldMocksCompareToBeConsistentWithEqualsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-24-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-24-fixed/test/org/mockitousage/bugs/ShouldMocksCompareToBeConsistentWithEqualsTest.java
+  [Mockito-24] inserted=4 failed=0
+  [COPY] Mockito-25-fixed -> Mockito-25-fixed_ind1
+  [IND-OK] Mockito-25-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-25-fixed_ind1/test/org/mockito/internal/stubbing/defaultanswers/ReturnsGenericDeepStubsTest.java
+  [COPY] Mockito-25-fixed -> Mockito-25-fixed_ind2
+  [IND-OK] Mockito-25-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-25-fixed_ind2/test/org/mockito/internal/stubbing/defaultanswers/ReturnsGenericDeepStubsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-25-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsGenericDeepStubsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-25-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsGenericDeepStubsTest.java
+  [Mockito-25] inserted=4 failed=0
+  [COPY] Mockito-27-fixed -> Mockito-27-fixed_ind1
+  [IND-OK] Mockito-27-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-27-fixed_ind1/test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+  [COPY] Mockito-27-fixed -> Mockito-27-fixed_ind2
+  [IND-OK] Mockito-27-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-27-fixed_ind2/test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+  [COPY] Mockito-27-fixed -> Mockito-27-fixed_ind3
+  [IND-OK] Mockito-27-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-27-fixed_ind3/test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-27-fixed/test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-27-fixed/test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-27-fixed/test/org/mockitousage/bugs/ListenersLostOnResetMockTest.java
+  [Mockito-27] inserted=6 failed=0
+  [COPY] Mockito-28-fixed -> Mockito-28-fixed_ind1
+  [IND-OK] Mockito-28-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-28-fixed_ind1/test/org/mockitousage/bugs/InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest.java
+  [COPY] Mockito-28-fixed -> Mockito-28-fixed_ind2
+  [IND-OK] Mockito-28-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-28-fixed_ind2/test/org/mockitousage/bugs/InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-28-fixed/test/org/mockitousage/bugs/InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-28-fixed/test/org/mockitousage/bugs/InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest.java
+  [Mockito-28] inserted=4 failed=0
+  [COPY] Mockito-29-fixed -> Mockito-29-fixed_ind1
+  [IND-OK] Mockito-29-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-29-fixed_ind1/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [COPY] Mockito-29-fixed -> Mockito-29-fixed_ind2
+  [IND-OK] Mockito-29-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-29-fixed_ind2/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-29-fixed/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-29-fixed/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [Mockito-29] inserted=4 failed=0
+  [COPY] Mockito-30-fixed -> Mockito-30-fixed_ind1
+  [IND-OK] Mockito-30-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-30-fixed_ind1/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [COPY] Mockito-30-fixed -> Mockito-30-fixed_ind2
+  [IND-OK] Mockito-30-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-30-fixed_ind2/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-30-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-30-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [Mockito-30] inserted=4 failed=0
+  [COPY] Mockito-31-fixed -> Mockito-31-fixed_ind1
+  [IND-OK] Mockito-31-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-fixed_ind1/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [COPY] Mockito-31-fixed -> Mockito-31-fixed_ind2
+  [IND-OK] Mockito-31-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-fixed_ind2/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [COPY] Mockito-31-fixed -> Mockito-31-fixed_ind3
+  [IND-OK] Mockito-31-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-fixed_ind3/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-31-fixed/test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+  [Mockito-31] inserted=6 failed=0
+  [COPY] Mockito-32-fixed -> Mockito-32-fixed_ind1
+  [IND-OK] Mockito-32-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-32-fixed_ind1/test/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+  [COPY] Mockito-32-fixed -> Mockito-32-fixed_ind2
+  [IND-OK] Mockito-32-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-32-fixed_ind2/test/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-32-fixed/test/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-32-fixed/test/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+  [Mockito-32] inserted=4 failed=0
+  [COPY] Mockito-33-fixed -> Mockito-33-fixed_ind1
+  [IND-OK] Mockito-33-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-33-fixed_ind1/test/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java
+  [COPY] Mockito-33-fixed -> Mockito-33-fixed_ind2
+  [IND-OK] Mockito-33-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-33-fixed_ind2/test/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java
+  [COPY] Mockito-33-fixed -> Mockito-33-fixed_ind3
+  [IND-OK] Mockito-33-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-33-fixed_ind3/test/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-33-fixed/test/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-33-fixed/test/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-33-fixed/test/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java
+  [Mockito-33] inserted=6 failed=0
+  [COPY] Mockito-34-fixed -> Mockito-34-fixed_ind1
+  [IND-OK] Mockito-34-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-34-fixed_ind1/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [COPY] Mockito-34-fixed -> Mockito-34-fixed_ind2
+  [IND-OK] Mockito-34-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-34-fixed_ind2/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-34-fixed/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-34-fixed/test/org/mockito/internal/invocation/InvocationMatcherTest.java
+  [Mockito-34] inserted=4 failed=0
+  [COPY] Mockito-35-fixed -> Mockito-35-fixed_ind1
+  [IND-OK] Mockito-35-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-35-fixed_ind1/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [COPY] Mockito-35-fixed -> Mockito-35-fixed_ind2
+  [IND-OK] Mockito-35-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-35-fixed_ind2/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [COPY] Mockito-35-fixed -> Mockito-35-fixed_ind3
+  [IND-OK] Mockito-35-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-35-fixed_ind3/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-35-fixed/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-35-fixed/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-35-fixed/test/org/mockitousage/bugs/NPEWithCertainMatchersTest.java
+  [Mockito-35] inserted=6 failed=0
+  [COPY] Mockito-36-fixed -> Mockito-36-fixed_ind1
+  [IND-OK] Mockito-36-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-36-fixed_ind1/test/org/mockito/internal/invocation/InvocationTest.java
+  [COPY] Mockito-36-fixed -> Mockito-36-fixed_ind2
+  [IND-OK] Mockito-36-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-36-fixed_ind2/test/org/mockitousage/spies/SpyingOnInterfacesTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-36-fixed/test/org/mockito/internal/invocation/InvocationTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-36-fixed/test/org/mockitousage/spies/SpyingOnInterfacesTest.java
+  [Mockito-36] inserted=4 failed=0
+  [COPY] Mockito-37-fixed -> Mockito-37-fixed_ind1
+  [IND-OK] Mockito-37-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-37-fixed_ind1/test/org/mockito/internal/stubbing/answers/AnswersValidatorTest.java
+  [COPY] Mockito-37-fixed -> Mockito-37-fixed_ind2
+  [IND-OK] Mockito-37-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-37-fixed_ind2/test/org/mockito/internal/stubbing/answers/AnswersValidatorTest.java
+  [COPY] Mockito-37-fixed -> Mockito-37-fixed_ind3
+  [IND-OK] Mockito-37-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-37-fixed_ind3/test/org/mockito/internal/stubbing/answers/AnswersValidatorTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-37-fixed/test/org/mockito/internal/stubbing/answers/AnswersValidatorTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-37-fixed/test/org/mockito/internal/stubbing/answers/AnswersValidatorTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-37-fixed/test/org/mockito/internal/stubbing/answers/AnswersValidatorTest.java
+  [Mockito-37] inserted=6 failed=0
+  [COPY] Mockito-38-fixed -> Mockito-38-fixed_ind1
+  [IND-OK] Mockito-38-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-38-fixed_ind1/test/org/mockito/internal/verification/argumentmatching/ArgumentMatchingToolTest.java
+  [COPY] Mockito-38-fixed -> Mockito-38-fixed_ind2
+  [IND-OK] Mockito-38-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-38-fixed_ind2/test/org/mockito/internal/verification/argumentmatching/ArgumentMatchingToolTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-38-fixed/test/org/mockito/internal/verification/argumentmatching/ArgumentMatchingToolTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-38-fixed/test/org/mockito/internal/verification/argumentmatching/ArgumentMatchingToolTest.java
+  [Mockito-38] inserted=4 failed=0
+
+[INSERT DONE] inserted=183 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 37
+individual bugs: 91
+
+==== 2026-04-21 12:12:32 :: Mockito-1-fixed ====
+>>> defects4j test -r in Mockito-1-fixed
+---- exit code: 0 | Mockito-1-fixed
+
+==== 2026-04-21 12:13:51 :: Mockito-2-fixed ====
+>>> defects4j test -r in Mockito-2-fixed
+---- exit code: 0 | Mockito-2-fixed
+
+==== 2026-04-21 12:14:37 :: Mockito-3-fixed ====
+>>> defects4j test -r in Mockito-3-fixed
+---- exit code: 0 | Mockito-3-fixed
+
+==== 2026-04-21 12:15:57 :: Mockito-4-fixed ====
+>>> defects4j test -r in Mockito-4-fixed
+---- exit code: 1 | Mockito-4-fixed
+
+==== 2026-04-21 12:16:25 :: Mockito-5-fixed ====
+>>> defects4j test -r in Mockito-5-fixed
+---- exit code: 1 | Mockito-5-fixed
+
+==== 2026-04-21 12:16:53 :: Mockito-6-fixed ====
+>>> defects4j test -r in Mockito-6-fixed
+---- exit code: 0 | Mockito-6-fixed
+
+==== 2026-04-21 12:18:03 :: Mockito-7-fixed ====
+>>> defects4j test -r in Mockito-7-fixed
+---- exit code: 1 | Mockito-7-fixed
+
+==== 2026-04-21 12:18:32 :: Mockito-8-fixed ====
+>>> defects4j test -r in Mockito-8-fixed
+---- exit code: 0 | Mockito-8-fixed
+
+==== 2026-04-21 12:19:17 :: Mockito-9-fixed ====
+>>> defects4j test -r in Mockito-9-fixed
+---- exit code: 0 | Mockito-9-fixed
+
+==== 2026-04-21 12:20:29 :: Mockito-10-fixed ====
+>>> defects4j test -r in Mockito-10-fixed
+---- exit code: 1 | Mockito-10-fixed
+
+==== 2026-04-21 12:21:01 :: Mockito-11-fixed ====
+>>> defects4j test -r in Mockito-11-fixed
+---- exit code: 0 | Mockito-11-fixed
+
+==== 2026-04-21 12:22:13 :: Mockito-12-fixed ====
+>>> defects4j test -r in Mockito-12-fixed
+---- exit code: 1 | Mockito-12-fixed
+
+==== 2026-04-21 12:22:18 :: Mockito-13-fixed ====
+>>> defects4j test -r in Mockito-13-fixed
+---- exit code: 0 | Mockito-13-fixed
+
+==== 2026-04-21 12:22:39 :: Mockito-14-fixed ====
+>>> defects4j test -r in Mockito-14-fixed
+---- exit code: 0 | Mockito-14-fixed
+
+==== 2026-04-21 12:22:59 :: Mockito-15-fixed ====
+>>> defects4j test -r in Mockito-15-fixed
+---- exit code: 1 | Mockito-15-fixed
+
+==== 2026-04-21 12:23:04 :: Mockito-16-fixed ====
+>>> defects4j test -r in Mockito-16-fixed
+---- exit code: 0 | Mockito-16-fixed
+
+==== 2026-04-21 12:23:23 :: Mockito-17-fixed ====
+>>> defects4j test -r in Mockito-17-fixed
+---- exit code: 0 | Mockito-17-fixed
+
+==== 2026-04-21 12:23:42 :: Mockito-18-fixed ====
+>>> defects4j test -r in Mockito-18-fixed
+---- exit code: 0 | Mockito-18-fixed
+
+==== 2026-04-21 12:25:07 :: Mockito-19-fixed ====
+>>> defects4j test -r in Mockito-19-fixed
+---- exit code: 1 | Mockito-19-fixed
+
+==== 2026-04-21 12:25:37 :: Mockito-20-fixed ====
+>>> defects4j test -r in Mockito-20-fixed
+---- exit code: 1 | Mockito-20-fixed
+
+==== 2026-04-21 12:26:05 :: Mockito-21-fixed ====
+>>> defects4j test -r in Mockito-21-fixed
+---- exit code: 0 | Mockito-21-fixed
+
+==== 2026-04-21 12:26:51 :: Mockito-22-fixed ====
+>>> defects4j test -r in Mockito-22-fixed
+---- exit code: 0 | Mockito-22-fixed
+
+==== 2026-04-21 12:27:16 :: Mockito-23-fixed ====
+>>> defects4j test -r in Mockito-23-fixed
+---- exit code: 1 | Mockito-23-fixed
+
+==== 2026-04-21 12:27:32 :: Mockito-24-fixed ====
+>>> defects4j test -r in Mockito-24-fixed
+---- exit code: 0 | Mockito-24-fixed
+
+==== 2026-04-21 12:28:14 :: Mockito-25-fixed ====
+>>> defects4j test -r in Mockito-25-fixed
+---- exit code: 0 | Mockito-25-fixed
+
+==== 2026-04-21 12:28:45 :: Mockito-27-fixed ====
+>>> defects4j test -r in Mockito-27-fixed
+---- exit code: 1 | Mockito-27-fixed
+
+==== 2026-04-21 12:28:49 :: Mockito-28-fixed ====
+>>> defects4j test -r in Mockito-28-fixed
+---- exit code: 1 | Mockito-28-fixed
+
+==== 2026-04-21 12:28:52 :: Mockito-29-fixed ====
+>>> defects4j test -r in Mockito-29-fixed
+---- exit code: 0 | Mockito-29-fixed
+
+==== 2026-04-21 12:29:00 :: Mockito-30-fixed ====
+>>> defects4j test -r in Mockito-30-fixed
+---- exit code: 0 | Mockito-30-fixed
+
+==== 2026-04-21 12:29:21 :: Mockito-31-fixed ====
+>>> defects4j test -r in Mockito-31-fixed
+---- exit code: 0 | Mockito-31-fixed
+
+==== 2026-04-21 12:29:40 :: Mockito-32-fixed ====
+>>> defects4j test -r in Mockito-32-fixed
+---- exit code: 1 | Mockito-32-fixed
+
+==== 2026-04-21 12:29:44 :: Mockito-33-fixed ====
+>>> defects4j test -r in Mockito-33-fixed
+---- exit code: 0 | Mockito-33-fixed
+
+==== 2026-04-21 12:30:02 :: Mockito-34-fixed ====
+>>> defects4j test -r in Mockito-34-fixed
+---- exit code: 1 | Mockito-34-fixed
+
+==== 2026-04-21 12:30:06 :: Mockito-35-fixed ====
+>>> defects4j test -r in Mockito-35-fixed
+---- exit code: 1 | Mockito-35-fixed
+
+==== 2026-04-21 12:30:10 :: Mockito-36-fixed ====
+>>> defects4j test -r in Mockito-36-fixed
+---- exit code: 1 | Mockito-36-fixed
+
+==== 2026-04-21 12:30:14 :: Mockito-37-fixed ====
+>>> defects4j test -r in Mockito-37-fixed
+---- exit code: 0 | Mockito-37-fixed
+
+==== 2026-04-21 12:30:24 :: Mockito-38-fixed ====
+>>> defects4j test -r in Mockito-38-fixed
+---- exit code: 0 | Mockito-38-fixed
+
+==== 2026-04-21 12:30:32 :: Mockito-1-fixed_ind1 ====
+>>> defects4j test -t org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_matchers_exceed_invocation_args in Mockito-1-fixed_ind1
+---- exit code: 0 | Mockito-1-fixed_ind1
+
+==== 2026-04-21 12:31:16 :: Mockito-1-fixed_ind2 ====
+>>> defects4j test -t org.mockito.internal.invocation.InvocationMatcherTest::should_not_capture_when_matcher_is_not_capturing in Mockito-1-fixed_ind2
+---- exit code: 0 | Mockito-1-fixed_ind2
+
+==== 2026-04-21 12:31:59 :: Mockito-2-fixed_ind1 ====
+>>> defects4j test -t org.mockito.internal.util.TimerTest::should_accept_zero_duration in Mockito-2-fixed_ind1
+---- exit code: 0 | Mockito-2-fixed_ind1
+
+==== 2026-04-21 12:32:44 :: Mockito-2-fixed_ind2 ====
+>>> defects4j test -t org.mockito.internal.util.TimerTest::should_accept_positive_duration in Mockito-2-fixed_ind2
+---- exit code: 0 | Mockito-2-fixed_ind2
+
+==== 2026-04-21 12:33:28 :: Mockito-2-fixed_ind3 ====
+>>> defects4j test -t org.mockito.internal.util.TimerTest::should_throw_friendly_reminder_exception_when_duration_is_large_negative in Mockito-2-fixed_ind3
+---- exit code: 0 | Mockito-2-fixed_ind3
+
+==== 2026-04-21 12:34:13 :: Mockito-3-fixed_ind1 ====
+>>> defects4j test -t org.mockitousage.matchers.CapturingArgumentsTest::should_capture_varargs_with_single_element in Mockito-3-fixed_ind1
+---- exit code: 0 | Mockito-3-fixed_ind1
+
+==== 2026-04-21 12:34:57 :: Mockito-3-fixed_ind2 ====
+>>> defects4j test -t org.mockitousage.matchers.CapturingArgumentsTest::should_capture_varargs_with_empty_varargs in Mockito-3-fixed_ind2
+---- exit code: 0 | Mockito-3-fixed_ind2
+
+==== 2026-04-21 12:35:39 :: Mockito-4-fixed_ind1 ====
+>>> defects4j test -t org.mockito.exceptions.ReporterTest::should_handle_mock_toString_throwing_exception_in_noMoreInteractionsWanted in Mockito-4-fixed_ind1
+---- exit code: 1 | Mockito-4-fixed_ind1
+
+==== 2026-04-21 12:36:07 :: Mockito-4-fixed_ind2 ====
+>>> defects4j test -t org.mockito.exceptions.ReporterTest::should_handle_mock_toString_throwing_exception_in_noMoreInteractionsWantedInOrder in Mockito-4-fixed_ind2
+---- exit code: 1 | Mockito-4-fixed_ind2
+
+==== 2026-04-21 12:36:35 :: Mockito-4-fixed_ind3 ====
+>>> defects4j test -t org.mockito.exceptions.ReporterTest::should_handle_null_mock_in_noMoreInteractionsWanted in Mockito-4-fixed_ind3
+---- exit code: 0 | Mockito-4-fixed_ind3
+
+==== 2026-04-21 12:37:18 :: Mockito-6-fixed_ind1 ====
+>>> defects4j test -t org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyPrimitiveWrapperMatchersWithVerify in Mockito-6-fixed_ind1
+---- exit code: 0 | Mockito-6-fixed_ind1
+
+==== 2026-04-21 12:38:02 :: Mockito-6-fixed_ind2 ====
+>>> defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyListOfWithNullValue in Mockito-6-fixed_ind2
+---- exit code: 0 | Mockito-6-fixed_ind2
+
+==== 2026-04-21 12:38:46 :: Mockito-6-fixed_ind3 ====
+>>> defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySetOfWithNullValue in Mockito-6-fixed_ind3
+---- exit code: 0 | Mockito-6-fixed_ind3
+
+==== 2026-04-21 12:39:30 :: Mockito-6-fixed_ind4 ====
+>>> defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMapOfWithNullValue in Mockito-6-fixed_ind4
+---- exit code: 0 | Mockito-6-fixed_ind4
+
+==== 2026-04-21 12:40:14 :: Mockito-6-fixed_ind5 ====
+>>> defects4j test -t org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollectionOfWithNullValue in Mockito-6-fixed_ind5
+---- exit code: 0 | Mockito-6-fixed_ind5
+
+==== 2026-04-21 12:40:59 :: Mockito-7-fixed_ind1 ====
+>>> defects4j test -t org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest::discoverDeepMockingWithNullActualTypeArgument in Mockito-7-fixed_ind1
+---- exit code: 1 | Mockito-7-fixed_ind1
+
+==== 2026-04-21 12:41:29 :: Mockito-7-fixed_ind2 ====
+>>> defects4j test -t org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest::discoverDeepMockingWithMultipleLevelNesting in Mockito-7-fixed_ind2
+---- exit code: 1 | Mockito-7-fixed_ind2
+
+==== 2026-04-21 12:42:00 :: Mockito-8-fixed_ind1 ====
+>>> defects4j test -t org.mockito.internal.util.reflection.GenericMetadataSupportTest::typeVariable_of_nested_parameterized_type in Mockito-8-fixed_ind1
+---- exit code: 0 | Mockito-8-fixed_ind1
+
+==== 2026-04-21 12:42:43 :: Mockito-8-fixed_ind2 ====
+>>> defects4j test -t org.mockito.internal.util.reflection.GenericMetadataSupportTest::typeVariable_of_multiple_nested_generics in Mockito-8-fixed_ind2
+---- exit code: 0 | Mockito-8-fixed_ind2
+
+==== 2026-04-21 12:43:27 :: Mockito-9-fixed_ind1 ====
+>>> defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodWithPrimitiveReturnType in Mockito-9-fixed_ind1
+---- exit code: 0 | Mockito-9-fixed_ind1
+
+==== 2026-04-21 12:44:15 :: Mockito-9-fixed_ind2 ====
+>>> defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::interfaceMethodWithBooleanReturnType in Mockito-9-fixed_ind2
+---- exit code: 0 | Mockito-9-fixed_ind2
+
+==== 2026-04-21 12:45:01 :: Mockito-9-fixed_ind3 ====
+>>> defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodWithConcreteMethod in Mockito-9-fixed_ind3
+---- exit code: 0 | Mockito-9-fixed_ind3
+
+==== 2026-04-21 12:45:48 :: Mockito-10-fixed_ind1 ====
+>>> defects4j test -t org.mockitousage.bugs.DeepStubsWronglyReportsSerializationProblemsTest::should_not_raise_serialization_exception_when_chaining_multiple_deep_stubs in Mockito-10-fixed_ind1
+---- exit code: 0 | Mockito-10-fixed_ind1
+
+==== 2026-04-21 12:46:34 :: Mockito-10-fixed_ind2 ====
+>>> defects4j test -t org.mockitousage.bugs.DeepStubsWronglyReportsSerializationProblemsTest::should_allow_calling_methods_on_deep_stub_without_serialization_issues in Mockito-10-fixed_ind2
+---- exit code: 1 | Mockito-10-fixed_ind2
+
+==== 2026-04-21 12:47:14 :: Mockito-11-fixed_ind1 ====
+>>> defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_null in Mockito-11-fixed_ind1
+---- exit code: 0 | Mockito-11-fixed_ind1
+
+==== 2026-04-21 12:48:06 :: Mockito-11-fixed_ind2 ====
+>>> defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_different_type in Mockito-11-fixed_ind2
+---- exit code: 0 | Mockito-11-fixed_ind2
+
+==== 2026-04-21 12:48:58 :: Mockito-11-fixed_ind3 ====
+>>> defects4j test -t org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_different_method in Mockito-11-fixed_ind3
+---- exit code: 1 | Mockito-11-fixed_ind3
+
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtr

@@ -1,0 +1,12 @@
+==== 2026-03-27 02:53:27 :: Closure-35-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue669
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue669_AdditionalCase1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue669_AdditionalCase2
+---- exit code: 0 | Closure-35-buggy
+

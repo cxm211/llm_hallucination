@@ -1,0 +1,10 @@
+==== 2026-04-25 21:33:52 :: Lang-44-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.NumberUtilsTest::testCreateNumberExpPosBug
+---- exit code: 0 | Lang-44-fixed
+

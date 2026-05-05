@@ -1,0 +1,11 @@
+==== 2026-04-24 01:52:36 :: Codec-14-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testNoRuleMatches
+  - org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion
+---- exit code: 0 | Codec-14-buggy_ind1
+

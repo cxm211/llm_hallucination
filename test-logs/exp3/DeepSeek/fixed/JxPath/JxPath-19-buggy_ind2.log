@@ -1,0 +1,39 @@
+==== 2026-04-25 21:59:48 :: JxPath-19-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testGetRelativePositionByQNameJDOM
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testCreatePathAndSetValue
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testCreatePath
+---- exit code: 0 | JxPath-19-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testGetRelativePositionByQNameJDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testGetRelativePositionByQNameJDOM
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 162 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-19-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 162 classes.
+>>> [JACOCO] done

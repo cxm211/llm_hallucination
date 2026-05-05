@@ -1,0 +1,11 @@
+==== 2026-04-22 17:11:48 :: Chart-10-buggy_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment
+  - org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithSingleQuote
+---- exit code: 0 | Chart-10-buggy_ind3
+

@@ -1,0 +1,10 @@
+==== 2026-04-24 13:57:06 :: Math-40-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716_LeftSide
+---- exit code: 0 | Math-40-fixed
+

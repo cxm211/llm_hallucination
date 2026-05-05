@@ -1,0 +1,13 @@
+==== 2026-04-21 19:35:29 :: Cli-32-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.cli.HelpFormatterTest::testFindWrapPosNewlineTabCr
+  - org.apache.commons.cli.HelpFormatterTest::testFindWrapPosNoWhitespace
+  - org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextWordCut
+  - org.apache.commons.cli.HelpFormatterTest::testFindWrapPos
+---- exit code: 0 | Cli-32-buggy
+

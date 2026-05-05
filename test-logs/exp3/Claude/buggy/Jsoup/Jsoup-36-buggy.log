@@ -1,0 +1,18 @@
+==== 2026-03-31 21:05:28 :: Jsoup-36-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.jsoup.helper.DataUtilTest::shouldCorrectCharsetForDuplicateCharsetString
+  - org.jsoup.helper.DataUtilTest::shouldHandleSingleQuotedCharset
+  - org.jsoup.helper.DataUtilTest::shouldReturnNullForQuotedEmptyCharset
+  - org.jsoup.helper.DataUtilTest::shouldHandleMixedQuotesInCharset
+  - org.jsoup.helper.DataUtilTest::shouldNotThrowExceptionOnEmptyCharset
+  - org.jsoup.helper.DataUtilTest::testQuotedCharset
+  - org.jsoup.helper.DataUtilTest::shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+  - org.jsoup.helper.DataUtilTest::shouldReturnNullForIllegalCharsetNames
+  - org.jsoup.integration.ParseTest::testBrokenHtml5CharsetWithASingleDoubleQuote
+---- exit code: 0 | Jsoup-36-buggy
+

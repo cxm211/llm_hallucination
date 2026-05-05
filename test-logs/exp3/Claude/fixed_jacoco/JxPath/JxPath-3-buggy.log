@@ -1,0 +1,11 @@
+==== 2026-03-29 15:27:07 :: JxPath-3-buggy ====
+[RESTORE] restored src/test/org/apache/commons/jxpath/ri/model/beans/BadlyImplementedFactoryTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest::testBadFactoryImplementation
+---- exit code: 0 | test_result: Not Pass | JxPath-3-buggy
+

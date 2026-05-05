@@ -1,0 +1,11 @@
+==== 2026-04-23 05:52:05 :: Closure-158-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrderingWarningOff
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrderingErrorOff
+---- exit code: 0 | Closure-158-fixed
+

@@ -1,0 +1,21 @@
+==== 2026-04-25 20:10:40 :: Lang-8-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected
+  - org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testNonDSTTimezone
+  - org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected
+  - org.apache.commons.lang3.time.FastDatePrinterTest::testNonDSTTimezone
+---- exit code: 0 | Lang-8-buggy_ind1
+

@@ -1,0 +1,11 @@
+==== 2026-03-30 00:36:01 :: Math-105-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSEWithConstantX
+---- exit code: 0 | Math-105-buggy_ind3
+

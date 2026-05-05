@@ -1,0 +1,13 @@
+==== 2026-04-22 22:19:44 :: Closure-150-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Cannot open config file (/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-150-buggy/.defects4j.config): No such file or directory
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-150-buggy is not a valid working directory!
+---- exit code: 1 | Closure-150-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 0, add tests: 0, total: 0
+>>> [JACOCO] no tests found, skipping
+>>> [JACOCO] done

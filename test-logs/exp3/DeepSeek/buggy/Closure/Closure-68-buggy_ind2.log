@@ -1,0 +1,11 @@
+==== 2026-04-22 01:43:43 :: Closure-68-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testFunctionTypeWithParams
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477
+---- exit code: 0 | Closure-68-buggy_ind2
+

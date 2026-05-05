@@ -1,0 +1,12 @@
+==== 2026-04-25 23:09:25 :: JacksonCore-23-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter::testInvalidSubClassAnonymous
+  - com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter::testInvalidSubClass
+  - com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter::testInvalidSubClassMultiLevel
+---- exit code: 0 | JacksonCore-23-buggy
+

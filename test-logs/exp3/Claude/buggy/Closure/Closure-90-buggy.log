@@ -1,0 +1,15 @@
+==== 2026-03-27 03:16:28 :: Closure-90-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse10
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse11
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse12
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse13
+---- exit code: 0 | Closure-90-buggy
+

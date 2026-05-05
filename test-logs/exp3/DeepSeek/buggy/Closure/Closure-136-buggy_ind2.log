@@ -1,0 +1,14 @@
+==== 2026-04-22 02:49:40 :: Closure-136-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.InlineGettersTest::testIssue2508576_1
+  - com.google.javascript.jscomp.InlineGettersTest::testIssue2508576_3
+  - com.google.javascript.jscomp.MethodCheckTest::testSeparateMethods
+  - com.google.javascript.jscomp.RenameVarsTest::testDollarSignSuperExport2
+  - com.google.javascript.jscomp.RenameVarsTest::testExternVarNotRenamed
+---- exit code: 0 | Closure-136-buggy_ind2
+

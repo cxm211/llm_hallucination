@@ -1,0 +1,12 @@
+==== 2026-04-21 23:20:46 :: Closure-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testGetprop4
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue810
+  - com.google.javascript.jscomp.TypeCheckTest::testLeftSideNullWithType
+---- exit code: 0 | Closure-11-buggy
+

@@ -1,0 +1,51 @@
+==== 2026-04-21 08:26:49 :: JacksonCore-25-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest::testUnquotedIssue510ExactMaxCode
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-core-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 102 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/async/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/type/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/base/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/format/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/json/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/json/async/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/sym/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes/com/fasterxml/jackson/core/util/package-info.class
+     [copy] Copying 3 files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/classes
+
+compile:
+
+jackson-core-from-maven.compile-tests:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/maven-build.xml:102: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 142 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/src/test/java/com/fasterxml/jackson/core/read/NonStandardUnquotedNamesTest.java:148: error: cannot find symbol
+    [javac]     fullChars[4000] = (char) (codes.length); // exactly at maxCode boundary
+    [javac]                               ^
+    [javac]   symbol:   variable codes
+    [javac]   location: class NonStandardUnquotedNamesTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/src/test/java/com/fasterxml/jackson/core/read/NonStandardUnquotedNamesTest.java:148: error: illegal parenthesized expression
+    [javac]     fullChars[4000] = (char) (codes.length); // exactly at maxCode boundary
+    [javac]                              ^
+    [javac] 2 errors
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-25-fixed_ind1/maven-build.xml:102: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | JacksonCore-25-fixed_ind1
+

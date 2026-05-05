@@ -1,0 +1,11 @@
+==== 2026-03-30 05:40:30 :: Time-15-buggy ====
+[RESTORE] restored build/tests/org/joda/time/field/TestFieldUtils.java
+[RESTORE] restored src/test/java/org/joda/time/field/TestFieldUtils.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Time-15-buggy
+

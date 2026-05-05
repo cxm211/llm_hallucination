@@ -1,0 +1,60 @@
+==== 2026-04-24 18:48:06 :: Mockito-1-buggy ====
+[JACOCO] trigger=26 add=2 total=28
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_args_count_does_NOT_match
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.invocation.InvocationMatcherTest::should_capture_arguments_when_args_count_does_NOT_match
+[JACOCO] defects4j test -t org.mockito.internal.util.reflection.FieldInitializerTest::can_instantiate_class_with_parameterized_constructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.FieldInitializerTest::can_instantiate_class_with_parameterized_constructor
+[JACOCO] defects4j test -t org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_report_failure_if_constructor_throws_exception
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_report_failure_if_constructor_throws_exception
+[JACOCO] defects4j test -t org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_fail_if_an_argument_instance_type_do_not_match_wanted_type
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_fail_if_an_argument_instance_type_do_not_match_wanted_type
+[JACOCO] defects4j test -t org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_with_vararg_constructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_with_vararg_constructor
+[JACOCO] defects4j test -t org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_if_resolver_provide_matching_types
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.ParameterizedConstructorInstantiatorTest::should_instantiate_type_if_resolver_provide_matching_types
+[JACOCO] defects4j test -t org.mockitousage.basicapi.ResetTest::shouldRemoveAllStubbing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.basicapi.ResetTest::shouldRemoveAllStubbing
+[JACOCO] defects4j test -t org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithNullVarArgArray
+[JACOCO] defects4j test -t org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithAnyObject
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyWithAnyObject
+[JACOCO] defects4j test -t org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs
+[JACOCO] defects4j test -t org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg
+[JACOCO] TIMEOUT: JaCoCo stage timeout (> 600s)
+[NOT_COMPILABLE] timeout -> writing 31 rows.

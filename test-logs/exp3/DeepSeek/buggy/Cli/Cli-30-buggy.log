@@ -1,0 +1,22 @@
+==== 2026-04-21 19:35:25 :: Cli-30-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroupWithArgument
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroupWithArgument
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroupWithArgument
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroupWithArgument
+---- exit code: 0 | Cli-30-buggy
+

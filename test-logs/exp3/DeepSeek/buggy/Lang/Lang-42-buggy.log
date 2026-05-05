@@ -1,0 +1,11 @@
+==== 2026-04-25 20:07:48 :: Lang-42-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlMixed
+  - org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode
+---- exit code: 0 | Lang-42-buggy
+

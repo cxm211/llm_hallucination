@@ -1,0 +1,11 @@
+==== 2026-04-21 07:49:41 :: Codec-10-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.CaverphoneTest::testMbAtStart
+  - org.apache.commons.codec.language.CaverphoneTest::testMbInMiddle
+---- exit code: 0 | Codec-10-fixed
+

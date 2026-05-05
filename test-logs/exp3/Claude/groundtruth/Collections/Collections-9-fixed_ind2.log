@@ -1,0 +1,10 @@
+==== 2026-04-21 07:56:15 :: Collections-9-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.TestExtendedProperties::testCombineOverwritesExistingProperties
+---- exit code: 0 | Collections-9-fixed_ind2
+

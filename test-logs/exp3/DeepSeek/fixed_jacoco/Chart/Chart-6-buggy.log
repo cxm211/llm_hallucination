@@ -1,0 +1,12 @@
+==== 2026-04-21 18:56:04 :: Chart-6-buggy ====
+[RESTORE] restored tests/org/jfree/chart/util/junit/ShapeListTests.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.chart.util.junit.ShapeListTests::testSerialization
+  - org.jfree.chart.util.junit.ShapeListTests::testEquals
+---- exit code: 0 | test_result: Not Pass | Chart-6-buggy
+

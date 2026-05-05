@@ -1,0 +1,12 @@
+==== 2026-04-25 20:07:55 :: Lang-43-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testEmptyQuotedString
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuoteInQuotedString
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477
+---- exit code: 0 | Lang-43-buggy
+

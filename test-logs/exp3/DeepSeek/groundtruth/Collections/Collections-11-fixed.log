@@ -1,0 +1,11 @@
+==== 2026-04-24 03:02:07 :: Collections-11-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testHashCodeWithNullKeys
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testHashCodeOrderSensitivity
+---- exit code: 0 | Collections-11-fixed
+

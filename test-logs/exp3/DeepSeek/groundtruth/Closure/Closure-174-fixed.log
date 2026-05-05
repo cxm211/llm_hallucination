@@ -1,0 +1,10 @@
+==== 2026-04-23 06:01:21 :: Closure-174-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103e
+---- exit code: 0 | Closure-174-fixed
+

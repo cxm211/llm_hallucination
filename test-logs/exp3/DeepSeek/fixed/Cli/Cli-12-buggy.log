@@ -1,0 +1,45 @@
+==== 2026-04-21 19:56:29 :: Cli-12-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testOptionWithEqualNoArgument
+---- exit code: 0 | Cli-12-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 2, total: 5
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testShortWithEqual
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testLongWithEqualSingleDash
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testLongWithEqual
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testLongWithEqualInValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testOptionWithEqualNoArgument
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testOptionWithEqualNoArgument
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-12-buggy/jacoco_base.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-12-buggy/jacoco.exec.
+[INFO] Analyzing 20 classes.
+>>> [JACOCO] done

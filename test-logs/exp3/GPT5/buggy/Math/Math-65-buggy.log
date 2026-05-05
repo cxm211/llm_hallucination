@@ -1,0 +1,11 @@
+==== 2026-04-28 21:30:46 :: Math-65-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testRMSAndChiSquareWeighting
+  - org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFitting
+---- exit code: 0 | Math-65-buggy
+

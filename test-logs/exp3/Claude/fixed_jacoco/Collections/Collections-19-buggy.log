@@ -1,0 +1,15 @@
+==== 2026-03-28 00:05:07 :: Collections-19-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/collections/list/SetUniqueListTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.collections.list.SetUniqueListTest::testUniqueListReInsert
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetDownwardsInList
+  - org.apache.commons.collections.list.SetUniqueListTest::testSet
+  - org.apache.commons.collections.list.SetUniqueListTest::testUniqueListDoubleInsert
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetInBiggerList
+---- exit code: 0 | test_result: Not Pass | Collections-19-buggy
+

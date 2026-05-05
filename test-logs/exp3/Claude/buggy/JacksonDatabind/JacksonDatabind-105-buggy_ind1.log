@@ -1,0 +1,10 @@
+==== 2026-03-28 06:18:41 :: JacksonDatabind-105-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testVoidDeser
+---- exit code: 0 | JacksonDatabind-105-buggy_ind1
+

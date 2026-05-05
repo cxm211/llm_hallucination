@@ -1,0 +1,11 @@
+==== 2026-04-01 02:12:37 :: Jsoup-87-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/parser/HtmlParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::preservedCaseLinksCantNest
+---- exit code: 0 | test_result: Not Pass | Jsoup-87-buggy
+

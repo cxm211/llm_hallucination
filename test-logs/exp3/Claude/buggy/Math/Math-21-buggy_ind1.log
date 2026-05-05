@@ -1,0 +1,11 @@
+==== 2026-03-30 00:14:49 :: Math-21-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testMath789
+  - org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest::testFullRank
+---- exit code: 0 | Math-21-buggy_ind1
+

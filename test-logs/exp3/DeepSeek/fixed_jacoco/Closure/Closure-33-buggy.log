@@ -1,0 +1,13 @@
+==== 2026-04-23 02:03:07 :: Closure-33-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType3
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType4
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue700
+---- exit code: 0 | test_result: Not Pass | Closure-33-buggy
+

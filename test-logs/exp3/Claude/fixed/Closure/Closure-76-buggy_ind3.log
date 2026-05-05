@@ -1,0 +1,51 @@
+==== 2026-03-27 14:34:43 :: Closure-76-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+---- exit code: 0 | Closure-76-buggy_ind3
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 4, add tests: 1, total: 5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testMultipleShortCircuitWithReturn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-76-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 1006 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-76-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 1006 classes.
+>>> [JACOCO] done

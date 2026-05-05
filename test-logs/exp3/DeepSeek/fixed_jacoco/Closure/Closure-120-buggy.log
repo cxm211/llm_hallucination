@@ -1,0 +1,15 @@
+==== 2026-04-23 03:05:52 :: Closure-120-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/InlineVariablesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineParameterAlias1
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineParameterAlias2
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliasesInLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ArgumentsRead2
+  - com.google.javascript.jscomp.IntegrationTest::testAddFunctionProperties4
+---- exit code: 0 | test_result: Not Pass | Closure-120-buggy
+

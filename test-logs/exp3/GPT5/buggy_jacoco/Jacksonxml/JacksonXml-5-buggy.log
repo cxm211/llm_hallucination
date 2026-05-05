@@ -1,0 +1,13 @@
+==== 2026-04-29 01:59:20 :: JacksonXml-5-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWith
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWith
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-5-buggy/jacoco.exec.
+[INFO] Analyzing 37 classes.
+[JACOCO] done.
+[PARSE] 6 line rows.

@@ -1,0 +1,10 @@
+==== 2026-04-25 19:06:27 :: Mockito-11-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_false_when_comparing_with_wrapped_method
+---- exit code: 0 | Mockito-11-fixed
+

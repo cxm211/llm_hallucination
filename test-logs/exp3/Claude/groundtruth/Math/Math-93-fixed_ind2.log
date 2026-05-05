@@ -1,0 +1,9 @@
+==== 2026-04-21 12:05:58 :: Math-93-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.util.MathUtilsTest::testFactorialNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Math-93-fixed_ind2
+

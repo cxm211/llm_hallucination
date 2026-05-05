@@ -1,0 +1,12 @@
+==== 2026-04-27 04:19:18 :: Jsoup-64-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyStyle
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyIframe
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyNoFrames
+---- exit code: 0 | Jsoup-64-buggy
+

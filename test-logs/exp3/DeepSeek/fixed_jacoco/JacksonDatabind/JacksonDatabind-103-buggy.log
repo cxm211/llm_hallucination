@@ -1,0 +1,12 @@
+==== 2026-04-23 23:19:46 :: JacksonDatabind-103-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/exc/BasicExceptionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.exc.BasicExceptionTest::testLocationAddition
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-103-buggy
+

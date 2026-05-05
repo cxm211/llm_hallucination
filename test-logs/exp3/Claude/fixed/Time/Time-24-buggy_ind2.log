@@ -1,0 +1,118 @@
+==== 2026-03-30 05:32:10 :: Time-24-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- joda-time 2.0 --------
+
+getjunit:
+
+installjunit:
+
+getjodaconvert:
+
+prepare:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/conf
+
+static:
+     [copy] Copying 1 file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/conf
+
+compile.main:
+    [javac] Compiling 156 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 4 warnings
+     [copy] Copying 6 files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/classes
+
+compile.zoneinfo:
+
+joda-time.compile:
+
+compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/classes/org/joda/time/tz/data
+     [java] Writing zoneinfo files
+     [java] Writing ZoneInfoMap
+
+joda-time.compile.tests:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/tests
+    [javac] Compiling 154 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/tests
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/src/test/java/org/joda/time/format/TestDateTimeFormatter.java:912: error: method testParseLocalDate_year_month_week_2015() is already defined in class TestDateTimeFormatter
+    [javac] public void testParseLocalDate_year_month_week_2015() {
+    [javac]             ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build.xml:243: Compile failed; see the compiler error output for details.
+
+Total time: 7 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Time-24-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 7, add tests: 1, total: 8
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+init:
+     [echo] -------- joda-time 2.0 --------
+
+getjunit:
+
+installjunit:
+
+getjodaconvert:
+
+prepare:
+
+static:
+
+compile.main:
+
+compile.zoneinfo:
+
+joda-time.compile:
+
+compile:
+     [java] Writing zoneinfo files
+     [java] Writing ZoneInfoMap
+
+joda-time.compile.tests:
+    [javac] Compiling 154 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build/tests
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/src/test/java/org/joda/time/format/TestDateTimeFormatter.java:912: error: method testParseLocalDate_year_month_week_2015() is already defined in class TestDateTimeFormatter
+    [javac] public void testParseLocalDate_year_month_week_2015() {
+    [javac]             ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind2/build.xml:243: Compile failed; see the compiler error output for details.
+
+Total time: 7 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] failed: Not Compilable: test suite failed to compile
+>>> [JACOCO] done

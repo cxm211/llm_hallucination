@@ -1,0 +1,11 @@
+==== 2026-03-28 14:59:12 :: Gson-9-buggy ====
+[RESTORE] restored gson/src/test/java/com/google/gson/stream/JsonWriterTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+---- exit code: 0 | test_result: Not Pass | Gson-9-buggy
+

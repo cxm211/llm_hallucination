@@ -1,0 +1,13 @@
+==== 2026-04-24 04:41:53 :: Jsoup-22-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testSiblingElementsForAllChildren
+  - org.jsoup.nodes.ElementTest::elementIsNotASiblingOfItself
+  - org.jsoup.nodes.NodeTest::nodeIsNotASiblingOfItself
+  - org.jsoup.nodes.NodeTest::orphanNodeReturnsNullForSiblingElements
+---- exit code: 0 | Jsoup-22-buggy_ind1
+

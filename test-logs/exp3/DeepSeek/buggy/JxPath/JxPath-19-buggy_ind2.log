@@ -1,0 +1,12 @@
+==== 2026-04-25 21:44:54 :: JxPath-19-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateJDOM
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testIterateDOM
+  - org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest::testGetRelativePositionByQNameJDOM
+---- exit code: 0 | JxPath-19-buggy_ind2
+

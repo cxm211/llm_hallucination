@@ -1,0 +1,10 @@
+==== 2026-04-21 10:20:54 :: JacksonDatabind-63-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.deser.exc.ExceptionPathTest::testReferenceChainForTopLevelClass
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.exc.ExceptionPathTest::testReferenceChainForTopLevelClass
+---- exit code: 0 | JacksonDatabind-63-fixed_ind2
+

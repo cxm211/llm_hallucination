@@ -1,0 +1,12 @@
+==== 2026-04-26 00:44:58 :: Gson-9-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleanObjectNull
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleanInArrayWithNull
+---- exit code: 0 | Gson-9-buggy
+

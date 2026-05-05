@@ -1,0 +1,11 @@
+==== 2026-04-25 21:18:40 :: Lang-32-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/lang3/builder/HashCodeBuilderTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycle
+---- exit code: 0 | test_result: Not Pass | Lang-32-buggy
+

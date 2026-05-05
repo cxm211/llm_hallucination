@@ -1,0 +1,14 @@
+==== 2026-04-26 07:30:53 :: Closure-174-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.IntegrationTest::testGoogDefine2
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+---- exit code: 0 | test_result: Not Pass | Closure-174-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-04-28 22:02:45 :: Math-42-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath713NegativeVariable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath713NegativeVariable
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-42-buggy/jacoco.exec.
+[INFO] Analyzing 649 classes.
+[JACOCO] done.
+[PARSE] 30 line rows.

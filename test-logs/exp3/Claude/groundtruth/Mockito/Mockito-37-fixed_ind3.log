@@ -1,0 +1,10 @@
+==== 2026-04-21 21:54:02 :: Mockito-37-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.stubbing.answers.AnswersValidatorTest::shouldValidateDoesNothingAnswer
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.answers.AnswersValidatorTest::shouldValidateDoesNothingAnswer
+---- exit code: 0 | Mockito-37-fixed_ind3
+

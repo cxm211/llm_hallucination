@@ -1,0 +1,28 @@
+==== 2026-04-23 03:56:09 :: Closure-176-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa9
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa10
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa3
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa9
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction10
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction11
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1056
+  - com.google.javascript.jscomp.TypeInferenceTest::testDo
+  - com.google.javascript.jscomp.TypeInferenceTest::testFlattening
+  - com.google.javascript.jscomp.TypeInferenceTest::testArrayLit
+  - com.google.javascript.jscomp.TypeInferenceTest::testGetElem
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssignment
+  - com.google.javascript.jscomp.TypeInferenceTest::testReturn1
+  - com.google.javascript.jscomp.TypeInferenceTest::testReturn2
+  - com.google.javascript.jscomp.TypeInferenceTest::testExprWithinCast
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssignAdd
+---- exit code: 0 | test_result: Not Pass | Closure-176-buggy
+

@@ -1,0 +1,14 @@
+==== 2026-04-24 02:31:27 :: Collections-1-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.collections.map.TestFlat3Map::testEntryIteratorSetValue2
+  - org.apache.commons.collections.map.TestFlat3Map::testEntryIteratorSetValue3
+  - org.apache.commons.collections.map.TestFlat3Map::testMapIteratorSetValue2
+  - org.apache.commons.collections.map.TestFlat3Map::testMapIteratorSetValue3
+  - org.apache.commons.collections.map.TestFlat3Map::testMapIteratorSetValue2Size2
+---- exit code: 0 | Collections-1-buggy_ind2
+

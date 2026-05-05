@@ -1,0 +1,12 @@
+==== 2026-03-28 14:36:04 :: Gson-6-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeFalseWithNullValue
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugDeserialize
+  - com.google.gson.regression.JsonAdapterNullSafeTest::testNullSafeBugSerialize
+---- exit code: 0 | Gson-6-buggy_ind1
+

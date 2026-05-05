@@ -1,0 +1,32 @@
+==== 2026-03-27 07:50:16 :: Closure-109-buggy_ind1 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-109-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1350 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor4
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-109-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1350 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 3 line rows.
+[PARSE] 3 base line rows.

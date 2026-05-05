@@ -1,0 +1,12 @@
+==== 2026-04-21 18:22:37 :: Chart-24-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintNonDefaultBounds
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintZeroRange
+---- exit code: 0 | Chart-24-buggy
+

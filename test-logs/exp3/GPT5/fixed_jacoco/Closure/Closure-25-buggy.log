@@ -1,0 +1,19 @@
+==== 2026-04-26 06:27:12 :: Closure-25-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/TypeInferenceTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew16
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsConstructor1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsConstructor2
+  - com.google.javascript.jscomp.TypeCheckTest::testNew16
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference7
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference9
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsConstructor1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsConstructor2
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+---- exit code: 0 | test_result: Not Pass | Closure-25-buggy
+

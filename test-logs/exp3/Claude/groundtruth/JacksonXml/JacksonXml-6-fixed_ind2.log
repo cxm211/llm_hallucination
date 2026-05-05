@@ -1,0 +1,9 @@
+==== 2026-04-21 10:32:20 :: JacksonXml-6-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith6Bytes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | JacksonXml-6-fixed_ind2
+

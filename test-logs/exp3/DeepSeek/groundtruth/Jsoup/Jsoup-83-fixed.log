@@ -1,0 +1,11 @@
+==== 2026-04-24 07:18:56 :: Jsoup-83-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.HtmlParserTest::tagNameTerminatedByLessThan
+  - org.jsoup.parser.TokeniserStateTest::beforeAttributeNameLessThanAfterAttribute
+---- exit code: 0 | Jsoup-83-fixed
+

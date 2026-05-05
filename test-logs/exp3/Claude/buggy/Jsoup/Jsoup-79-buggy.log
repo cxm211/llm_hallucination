@@ -1,0 +1,12 @@
+==== 2026-03-31 21:31:46 :: Jsoup-79-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.TextNodeTest::testLeafNodeChildNodesMultipleCalls
+  - org.jsoup.nodes.TextNodeTest::testLeadNodesHaveNoChildren
+  - org.jsoup.nodes.TextNodeTest::testLeafNodeChildNodesIsImmutable
+---- exit code: 0 | Jsoup-79-buggy
+

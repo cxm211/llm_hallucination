@@ -1,0 +1,359 @@
+==== 2026-04-25 21:48:45 :: JxPath-2-buggy_ind1 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testNodeSetReturn
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+init:
+
+get-deps:
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/xerces/xerces/1.2.3/xerces-1.2.3.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/xerces-1.2.3.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/servletapi/servletapi/2.2/servletapi-2.2.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/servletapi-2.2.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/junit/junit/3.8/junit-3.8.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/junit-3.8.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/ant/ant-optional/1.5.1/ant-optional-1.5.1.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/ant-optional-1.5.1.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/xml-apis-2.0.2.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/jdom/jdom/1.0/jdom-1.0.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/jdom-1.0.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/commons-beanutils/commons-beanutils/1.4/commons-beanutils-1.4.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/commons-beanutils-1.4.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/commons-logging-1.0.4.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/commons-collections/commons-collections/2.0/commons-collections-2.0.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/commons-collections-2.0.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/junit/junit/3.8.1/junit-3.8.1.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/junit-3.8.1.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/ant/ant/1.5/ant-1.5.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/ant-1.5.jar
+      [get] Getting: file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/JxPath/lib/ant/ant-optional/1.5/ant-optional-1.5.jar
+      [get] To: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/lib/ant-optional-1.5.jar
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/build.xml:36: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 23 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:86: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         Object[] args = new Object[] { new Integer(1), "x" };
+    [javac]                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:100: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             func.invoke(new Context(new Integer(1)), args).toString(),
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:105: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         Object[] args = new Object[] { new Integer(1), "x" };
+    [javac]                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:114: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         Object[] args = new Object[] { "7", new Integer(1)};
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:136: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             func.invoke(new Context(new Integer(1)), args),
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:145: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             func.invoke(new Context(new Integer(1)), args),
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:154: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             func.invoke(new Context(new Integer(1)), args),
+    [javac]                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:192: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathValue(context, "length('foo')", new Integer(3));
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:222: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:227: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(2));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:278: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(7));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:285: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(21));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:293: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(21));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:395: error: cannot find symbol
+    [javac]             Collections.EMPTY_LIST);
+    [javac]             ^
+    [javac]   symbol:   variable Collections
+    [javac]   location: class ExtensionFunctionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/ExtensionFunctionTest.java:399: error: cannot find symbol
+    [javac]             Collections.EMPTY_LIST);
+    [javac]             ^
+    [javac]   symbol:   variable Collections
+    [javac]   location: class ExtensionFunctionTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:49: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             vars.declareVariable("a", new Double(1));
+    [javac]                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:50: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             vars.declareVariable("b", new Double(1));
+    [javac]                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:53: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             vars.declareVariable("integer", new Integer(1));
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:54: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             vars.declareVariable("nan", new Double(Double.NaN));
+    [javac]                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:61: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValueAndPointer(context, "$a", new Double(1), "$a");
+    [javac]                                                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:69: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "$a + 1", new Double(2));
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:90: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             context.setValue("$none", new Integer(1));
+    [javac]                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:103: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(nestedContext, "$a", new Double(1));
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/compiler/VariableTest.java:107: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathSetValue(context, "$x", new Integer(1));
+    [javac]                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:238: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             pointer.setValue(new Integer(i++));
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:248: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             list(new Integer(5), new Integer(6)),
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:248: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             list(new Integer(5), new Integer(6)),
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:301: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(5));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:317: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(set)", new Double(3));
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:325: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(*)", new Double(21));
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:328: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(child::node())", new Double(21));
+    [javac]                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:348: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(1),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:349: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(2),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:350: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(3),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:351: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(4)));
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:366: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathValue(context, "integers[2]", new Integer(2));
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:398: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(descendant::node())", new Double(65));
+    [javac]                                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:401: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(descendant::root)", new Double(0));
+    [javac]                                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:403: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(descendant::name)", new Double(7));
+    [javac]                                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:437: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(1));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:440: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(nestedBean//.)", new Double(7));
+    [javac]                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:443: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(//self::beans)", new Double(2));
+    [javac]                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:449: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(66));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:458: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(21));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:463: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(7));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:471: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(8));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:476: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(1));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:482: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(8));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:487: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(1));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:493: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(53));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:498: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(7));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:503: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(/beans/..)", new Double(1));
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:505: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(//..)", new Double(9));
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:507: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(//../..)", new Double(2));
+    [javac]                                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:520: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(8));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:525: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(2));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:533: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(2));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:538: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(12));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:543: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(10));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:562: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(1),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:563: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(2),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:564: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(3),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:565: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(4)));
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:570: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(2));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:575: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]             new Double(3));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:579: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathValue(context, "(integers)[2]", new Integer(2));
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:584: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(@*)", new Double(21.0));
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:595: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathValue(context, "nestedBean[@name = 'int']", new Integer(1));
+    [javac]                                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:607: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "count(@xml:*)", new Double(1));
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:630: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         assertXPathValue(context, "sum(integers)", new Double(10));        
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:635: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(4),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:706: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             list(new Integer(1), new Integer(2)));
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:706: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             list(new Integer(1), new Integer(2)));
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:715: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             list(new Integer(1)));
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:738: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathSetValue(context, "int", new Integer(2));
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:741: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathSetValue(context, "int", "3", new Integer(3));
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:744: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathSetValue(context, "int", new int[] { 4 }, new Integer(4));
+    [javac]                                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:747: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathSetValue(context, "@int", new Integer(10));
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:752: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         assertXPathSetValue(context, "integers[2]", new Integer(5));
+    [javac]                                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:759: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(6));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:767: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(8));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:773: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(9));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:797: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:805: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]                 new Integer(1),
+    [javac]                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:822: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(2),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:834: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:846: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(2),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:856: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(3),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:865: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:874: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(2),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:907: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(0),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:934: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1), 
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:944: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(2), 
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:954: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(2), 
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/BeanModelTestCase.java:965: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(3));
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/MixedModelTest.java:109: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/MixedModelTest.java:159: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1),
+    [javac]             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/src/test/org/apache/commons/jxpath/ri/model/MixedModelTest.java:213: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new Integer(1),
+    [javac]             ^
+    [javac] Note: Some input files additionally use or override a deprecated API.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 2 errors
+    [javac] 100 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-2-buggy_ind1/build.xml:110: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 19 rows.

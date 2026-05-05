@@ -1,0 +1,13 @@
+==== 2026-04-04 21:16:32 :: Cli-12-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.cli.GnuParserTest::testShortWithEqual
+  - org.apache.commons.cli.GnuParserTest::testLongWithEqualDoubleDash
+  - org.apache.commons.cli.GnuParserTest::testLongWithEqualSingleDash
+  - org.apache.commons.cli.GnuParserTest::testLongWithEqual
+---- exit code: 0 | Cli-12-buggy_ind1
+

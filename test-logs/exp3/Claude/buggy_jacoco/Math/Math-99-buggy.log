@@ -1,0 +1,42 @@
+==== 2026-03-30 01:03:20 :: Math-99-buggy ====
+[JACOCO] trigger=2 add=3 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.util.MathUtilsTest::testGcd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testGcd
+[JACOCO] defects4j test -t org.apache.commons.math.util.MathUtilsTest::testLcm
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testLcm
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-99-buggy/jacoco_base.exec.
+[INFO] Analyzing 251 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.util.MathUtilsTest::testGcdAdditional1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testGcdAdditional1
+[JACOCO] defects4j test -t org.apache.commons.math.util.MathUtilsTest::testGcdAdditional2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testGcdAdditional2
+[JACOCO] defects4j test -t org.apache.commons.math.util.MathUtilsTest::testGcdAdditional3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.util.MathUtilsTest::testGcdAdditional3
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-99-buggy/jacoco.exec.
+[INFO] Analyzing 251 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 61 line rows.
+[PARSE] 61 base line rows.

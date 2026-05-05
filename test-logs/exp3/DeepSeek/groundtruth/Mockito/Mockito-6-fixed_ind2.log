@@ -1,0 +1,10 @@
+==== 2026-04-25 19:31:34 :: Mockito-6-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.matchers.MatchersTest::anyMatcherShouldNotAcceptNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.matchers.MatchersTest::anyMatcherShouldNotAcceptNull
+---- exit code: 0 | Mockito-6-fixed_ind2
+

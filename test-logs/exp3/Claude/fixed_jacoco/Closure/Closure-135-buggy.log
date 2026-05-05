@@ -1,0 +1,13 @@
+==== 2026-03-27 18:01:22 :: Closure-135-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/DevirtualizePrototypeMethodsTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/TypeCheckTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends9
+---- exit code: 0 | test_result: Not Pass | Closure-135-buggy
+

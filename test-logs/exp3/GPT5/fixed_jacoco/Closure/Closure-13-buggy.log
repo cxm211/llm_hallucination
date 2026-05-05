@@ -1,0 +1,14 @@
+==== 2026-04-26 06:21:14 :: Closure-13-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.IntegrationTest::testIssue787
+  - com.google.javascript.jscomp.PeepholeOptimizationsPassTest::testOptimizationRemovingSubtree
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testFoldUselessDo
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldLiteralArrayConstructors
+---- exit code: 0 | test_result: Not Pass | Closure-13-buggy
+

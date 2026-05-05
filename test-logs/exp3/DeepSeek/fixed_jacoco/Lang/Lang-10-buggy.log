@@ -1,0 +1,21 @@
+==== 2026-04-25 21:16:21 :: Lang-10-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang3/time/FastDateParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831
+  - org.apache.commons.lang3.time.FastDateParserTest::testLANG_831
+---- exit code: 0 | test_result: Not Pass | Lang-10-buggy
+

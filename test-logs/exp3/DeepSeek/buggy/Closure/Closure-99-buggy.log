@@ -1,0 +1,14 @@
+==== 2026-04-22 00:09:14 :: Closure-99-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testPropertyOfMethod
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInterfaceAssignment
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testDeepPrototypeSubproperty
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testMethod4
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInterface1
+---- exit code: 0 | Closure-99-buggy
+

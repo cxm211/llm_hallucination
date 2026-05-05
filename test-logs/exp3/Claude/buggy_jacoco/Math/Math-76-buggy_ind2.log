@@ -1,0 +1,31 @@
+==== 2026-03-30 02:41:04 :: Math-76-buggy_ind2 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-76-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 415 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.linear.SingularValueSolverTest::testWideMatrix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-76-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 415 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 91 line rows.
+[PARSE] 91 base line rows.

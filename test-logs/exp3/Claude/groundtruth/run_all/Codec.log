@@ -1,0 +1,449 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Codec
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Codec-1-fixed
+  [CHECKOUT] Codec-2-fixed
+  [CHECKOUT] Codec-3-fixed
+  [CHECKOUT] Codec-4-fixed
+  [CHECKOUT] Codec-5-fixed
+  [CHECKOUT] Codec-6-fixed
+  [CHECKOUT] Codec-7-fixed
+  [CHECKOUT] Codec-8-fixed
+  [CHECKOUT] Codec-9-fixed
+  [CHECKOUT] Codec-10-fixed
+  [CHECKOUT] Codec-11-fixed
+  [CHECKOUT] Codec-12-fixed
+  [CHECKOUT] Codec-14-fixed
+  [CHECKOUT] Codec-15-fixed
+  [CHECKOUT] Codec-17-fixed
+  [CHECKOUT] Codec-18-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Codec ===
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-1-fixed/src/test/org/apache/commons/codec/StringEncoderAbstractTest.java
+  [Codec-1] inserted=1 failed=0
+  [COPY] Codec-2-fixed -> Codec-2-fixed_ind1
+  [IND-OK] Codec-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-2-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+  [COPY] Codec-2-fixed -> Codec-2-fixed_ind2
+  [IND-OK] Codec-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-2-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-2-fixed/src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-2-fixed/src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+  [Codec-2] inserted=4 failed=0
+  [COPY] Codec-3-fixed -> Codec-3-fixed_ind1
+  [IND-OK] Codec-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-3-fixed_ind1/src/test/org/apache/commons/codec/language/DoubleMetaphone2Test.java
+  [COPY] Codec-3-fixed -> Codec-3-fixed_ind2
+  [IND-OK] Codec-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-3-fixed_ind2/src/test/org/apache/commons/codec/language/DoubleMetaphone2Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-3-fixed/src/test/org/apache/commons/codec/language/DoubleMetaphone2Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-3-fixed/src/test/org/apache/commons/codec/language/DoubleMetaphone2Test.java
+  [Codec-3] inserted=4 failed=0
+  [COPY] Codec-4-fixed -> Codec-4-fixed_ind1
+  [IND-OK] Codec-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-4-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64Codec13Test.java
+  [COPY] Codec-4-fixed -> Codec-4-fixed_ind2
+  [IND-OK] Codec-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-4-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64Codec13Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-4-fixed/src/test/org/apache/commons/codec/binary/Base64Codec13Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-4-fixed/src/test/org/apache/commons/codec/binary/Base64Codec13Test.java
+  [Codec-4] inserted=4 failed=0
+  [COPY] Codec-5-fixed -> Codec-5-fixed_ind1
+  [IND-OK] Codec-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-5-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [COPY] Codec-5-fixed -> Codec-5-fixed_ind2
+  [IND-OK] Codec-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-5-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [COPY] Codec-5-fixed -> Codec-5-fixed_ind3
+  [IND-OK] Codec-5-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-5-fixed_ind3/src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-5-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-5-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-5-fixed/src/test/org/apache/commons/codec/binary/Base64OutputStreamTest.java
+  [Codec-5] inserted=6 failed=0
+  [COPY] Codec-6-fixed -> Codec-6-fixed_ind1
+  [IND-OK] Codec-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-6-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [COPY] Codec-6-fixed -> Codec-6-fixed_ind2
+  [IND-OK] Codec-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-6-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-6-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-6-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [Codec-6] inserted=4 failed=0
+  [COPY] Codec-7-fixed -> Codec-7-fixed_ind1
+  [IND-OK] Codec-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-7-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [COPY] Codec-7-fixed -> Codec-7-fixed_ind2
+  [IND-OK] Codec-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-7-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [COPY] Codec-7-fixed -> Codec-7-fixed_ind3
+  [IND-OK] Codec-7-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-7-fixed_ind3/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-7-fixed/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-7-fixed/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-7-fixed/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [Codec-7] inserted=6 failed=0
+  [COPY] Codec-8-fixed -> Codec-8-fixed_ind1
+  [IND-OK] Codec-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [COPY] Codec-8-fixed -> Codec-8-fixed_ind2
+  [IND-OK] Codec-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [COPY] Codec-8-fixed -> Codec-8-fixed_ind3
+  [IND-OK] Codec-8-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-fixed_ind3/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-8-fixed/src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [Codec-8] inserted=6 failed=0
+  [COPY] Codec-9-fixed -> Codec-9-fixed_ind1
+  [IND-OK] Codec-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind1/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [COPY] Codec-9-fixed -> Codec-9-fixed_ind2
+  [IND-OK] Codec-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind2/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [COPY] Codec-9-fixed -> Codec-9-fixed_ind3
+  [IND-OK] Codec-9-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed_ind3/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-9-fixed/src/test/org/apache/commons/codec/binary/Base64Test.java
+  [Codec-9] inserted=6 failed=0
+  [COPY] Codec-10-fixed -> Codec-10-fixed_ind1
+  [IND-OK] Codec-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-10-fixed_ind1/src/test/org/apache/commons/codec/language/CaverphoneTest.java
+  [COPY] Codec-10-fixed -> Codec-10-fixed_ind2
+  [IND-OK] Codec-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-10-fixed_ind2/src/test/org/apache/commons/codec/language/CaverphoneTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-10-fixed/src/test/org/apache/commons/codec/language/CaverphoneTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-10-fixed/src/test/org/apache/commons/codec/language/CaverphoneTest.java
+  [Codec-10] inserted=4 failed=0
+  [COPY] Codec-11-fixed -> Codec-11-fixed_ind1
+  [IND-OK] Codec-11-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-fixed_ind1/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+  [COPY] Codec-11-fixed -> Codec-11-fixed_ind2
+  [IND-OK] Codec-11-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-fixed_ind2/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+  [COPY] Codec-11-fixed -> Codec-11-fixed_ind3
+  [IND-OK] Codec-11-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-fixed_ind3/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-fixed/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-fixed/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-fixed/src/test/java/org/apache/commons/codec/net/QuotedPrintableCodecTest.java
+  [Codec-11] inserted=6 failed=0
+  [COPY] Codec-12-fixed -> Codec-12-fixed_ind1
+  [IND-OK] Codec-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-12-fixed_ind1/src/test/java/org/apache/commons/codec/binary/Base32InputStreamTest.java
+  [COPY] Codec-12-fixed -> Codec-12-fixed_ind2
+  [IND-OK] Codec-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-12-fixed_ind2/src/test/java/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-12-fixed/src/test/java/org/apache/commons/codec/binary/Base32InputStreamTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-12-fixed/src/test/java/org/apache/commons/codec/binary/Base64InputStreamTest.java
+  [Codec-12] inserted=4 failed=0
+  [COPY] Codec-14-fixed -> Codec-14-fixed_ind1
+  [IND-OK] Codec-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-fixed_ind1/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java
+  [COPY] Codec-14-fixed -> Codec-14-fixed_ind2
+  [IND-OK] Codec-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-fixed_ind2/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-fixed/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-14-fixed/src/test/java/org/apache/commons/codec/language/bm/PhoneticEngineRegressionTest.java
+  [Codec-14] inserted=4 failed=0
+  [COPY] Codec-15-fixed -> Codec-15-fixed_ind1
+  [IND-OK] Codec-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-15-fixed_ind1/src/test/java/org/apache/commons/codec/language/SoundexTest.java
+  [COPY] Codec-15-fixed -> Codec-15-fixed_ind2
+  [IND-OK] Codec-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-15-fixed_ind2/src/test/java/org/apache/commons/codec/language/SoundexTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-15-fixed/src/test/java/org/apache/commons/codec/language/SoundexTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-15-fixed/src/test/java/org/apache/commons/codec/language/SoundexTest.java
+  [Codec-15] inserted=4 failed=0
+  [COPY] Codec-17-fixed -> Codec-17-fixed_ind1
+  [IND-OK] Codec-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-17-fixed_ind1/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [COPY] Codec-17-fixed -> Codec-17-fixed_ind2
+  [IND-OK] Codec-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-17-fixed_ind2/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [COPY] Codec-17-fixed -> Codec-17-fixed_ind3
+  [IND-OK] Codec-17-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-17-fixed_ind3/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-17-fixed/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-17-fixed/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-17-fixed/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [Codec-17] inserted=6 failed=0
+  [COPY] Codec-18-fixed -> Codec-18-fixed_ind1
+  [IND-OK] Codec-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-18-fixed_ind1/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [COPY] Codec-18-fixed -> Codec-18-fixed_ind2
+  [IND-OK] Codec-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-18-fixed_ind2/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-18-fixed/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-18-fixed/src/test/java/org/apache/commons/codec/binary/StringUtilsTest.java
+  [Codec-18] inserted=4 failed=0
+
+[INSERT DONE] inserted=73 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 16
+individual bugs: 36
+
+==== 2026-04-21 07:49:21 :: Codec-1-fixed ====
+>>> defects4j test -r in Codec-1-fixed
+---- exit code: 0 | Codec-1-fixed
+
+==== 2026-04-21 07:49:23 :: Codec-2-fixed ====
+>>> defects4j test -r in Codec-2-fixed
+---- exit code: 0 | Codec-2-fixed
+
+==== 2026-04-21 07:49:26 :: Codec-3-fixed ====
+>>> defects4j test -r in Codec-3-fixed
+---- exit code: 1 | Codec-3-fixed
+
+==== 2026-04-21 07:49:27 :: Codec-4-fixed ====
+>>> defects4j test -r in Codec-4-fixed
+---- exit code: 0 | Codec-4-fixed
+
+==== 2026-04-21 07:49:30 :: Codec-5-fixed ====
+>>> defects4j test -r in Codec-5-fixed
+---- exit code: 0 | Codec-5-fixed
+
+==== 2026-04-21 07:49:32 :: Codec-6-fixed ====
+>>> defects4j test -r in Codec-6-fixed
+---- exit code: 0 | Codec-6-fixed
+
+==== 2026-04-21 07:49:35 :: Codec-7-fixed ====
+>>> defects4j test -r in Codec-7-fixed
+---- exit code: 0 | Codec-7-fixed
+
+==== 2026-04-21 07:49:37 :: Codec-8-fixed ====
+>>> defects4j test -r in Codec-8-fixed
+---- exit code: 1 | Codec-8-fixed
+
+==== 2026-04-21 07:49:39 :: Codec-9-fixed ====
+>>> defects4j test -r in Codec-9-fixed
+---- exit code: 1 | Codec-9-fixed
+
+==== 2026-04-21 07:49:41 :: Codec-10-fixed ====
+>>> defects4j test -r in Codec-10-fixed
+---- exit code: 0 | Codec-10-fixed
+
+==== 2026-04-21 07:49:43 :: Codec-11-fixed ====
+>>> defects4j test -r in Codec-11-fixed
+---- exit code: 1 | Codec-11-fixed
+
+==== 2026-04-21 07:49:45 :: Codec-12-fixed ====
+>>> defects4j test -r in Codec-12-fixed
+---- exit code: 1 | Codec-12-fixed
+
+==== 2026-04-21 07:49:47 :: Codec-14-fixed ====
+>>> defects4j test -r in Codec-14-fixed
+---- exit code: 0 | Codec-14-fixed
+
+==== 2026-04-21 07:49:50 :: Codec-15-fixed ====
+>>> defects4j test -r in Codec-15-fixed
+---- exit code: 1 | Codec-15-fixed
+
+==== 2026-04-21 07:49:52 :: Codec-17-fixed ====
+>>> defects4j test -r in Codec-17-fixed
+---- exit code: 0 | Codec-17-fixed
+
+==== 2026-04-21 07:49:58 :: Codec-18-fixed ====
+>>> defects4j test -r in Codec-18-fixed
+---- exit code: 0 | Codec-18-fixed
+
+==== 2026-04-21 07:50:02 :: Codec-2-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64SingleByteOutputStream in Codec-2-fixed_ind1
+---- exit code: 0 | Codec-2-fixed_ind1
+
+==== 2026-04-21 07:50:05 :: Codec-2-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64TwoBytesOutputStream in Codec-2-fixed_ind2
+---- exit code: 0 | Codec-2-fixed_ind2
+
+==== 2026-04-21 07:50:07 :: Codec-3-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.language.DoubleMetaphone2Test::testDoubleMetaphoneAlternateOGGR in Codec-3-fixed_ind1
+---- exit code: 1 | Codec-3-fixed_ind1
+
+==== 2026-04-21 07:50:09 :: Codec-3-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.language.DoubleMetaphone2Test::testDoubleMetaphoneAlternateAGGR in Codec-3-fixed_ind2
+---- exit code: 1 | Codec-3-fixed_ind2
+
+==== 2026-04-21 07:50:11 :: Codec-4-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Codec13Test::testBase64ConstructorDefaultsToNoLineBreaks in Codec-4-fixed_ind1
+---- exit code: 0 | Codec-4-fixed_ind1
+
+==== 2026-04-21 07:50:13 :: Codec-4-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Codec13Test::testBase64DefaultConstructorChunking in Codec-4-fixed_ind2
+---- exit code: 0 | Codec-4-fixed_ind2
+
+==== 2026-04-21 07:50:15 :: Codec-5-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testModulus2EOF in Codec-5-fixed_ind1
+---- exit code: 0 | Codec-5-fixed_ind1
+
+==== 2026-04-21 07:50:17 :: Codec-5-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testModulus3EOF in Codec-5-fixed_ind2
+---- exit code: 0 | Codec-5-fixed_ind2
+
+==== 2026-04-21 07:50:20 :: Codec-5-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64OutputStreamTest::testEmptyBufferWithPadding in Codec-5-fixed_ind3
+---- exit code: 0 | Codec-5-fixed_ind3
+
+==== 2026-04-21 07:50:22 :: Codec-6-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101WithOffset in Codec-6-fixed_ind1
+---- exit code: 0 | Codec-6-fixed_ind1
+
+==== 2026-04-21 07:50:24 :: Codec-6-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101WithNonZeroOffsetAndFullLength in Codec-6-fixed_ind2
+---- exit code: 0 | Codec-6-fixed_ind2
+
+==== 2026-04-21 07:50:26 :: Codec-7-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testEncodeBase64StringWithNullInput in Codec-7-fixed_ind1
+---- exit code: 0 | Codec-7-fixed_ind1
+
+==== 2026-04-21 07:50:29 :: Codec-7-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testEncodeBase64StringWithSingleByte in Codec-7-fixed_ind2
+---- exit code: 0 | Codec-7-fixed_ind2
+
+==== 2026-04-21 07:50:31 :: Codec-7-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testEncodeBase64StringWithBinaryData in Codec-7-fixed_ind3
+---- exit code: 0 | Codec-7-fixed_ind3
+
+==== 2026-04-21 07:50:33 :: Codec-8-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testReadWithBufferLargerThanLength in Codec-8-fixed_ind1
+---- exit code: 1 | Codec-8-fixed_ind1
+
+==== 2026-04-21 07:50:35 :: Codec-8-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testReadWithBufferExactlyEqualToLength in Codec-8-fixed_ind2
+---- exit code: 1 | Codec-8-fixed_ind2
+
+==== 2026-04-21 07:50:37 :: Codec-8-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testReadWithOffsetAndLargerBuffer in Codec-8-fixed_ind3
+---- exit code: 1 | Codec-8-fixed_ind3
+
+==== 2026-04-21 07:50:38 :: Codec-9-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testCodec112_UrlSafe in Codec-9-fixed_ind1
+---- exit code: 1 | Codec-9-fixed_ind1
+
+==== 2026-04-21 07:50:40 :: Codec-9-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testCodec112_Chunked in Codec-9-fixed_ind2
+---- exit code: 1 | Codec-9-fixed_ind2
+
+==== 2026-04-21 07:50:42 :: Codec-9-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64Test::testCodec112_LargerInput in Codec-9-fixed_ind3
+---- exit code: 1 | Codec-9-fixed_ind3
+
+==== 2026-04-21 07:50:44 :: Codec-10-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.language.CaverphoneTest::testMbInMiddle in Codec-10-fixed_ind1
+---- exit code: 0 | Codec-10-fixed_ind1
+
+==== 2026-04-21 07:50:46 :: Codec-10-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.language.CaverphoneTest::testMbAtStart in Codec-10-fixed_ind2
+---- exit code: 0 | Codec-10-fixed_ind2
+
+==== 2026-04-21 07:50:48 :: Codec-11-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testLongLineWithoutSpecialChars in Codec-11-fixed_ind1
+---- exit code: 1 | Codec-11-fixed_ind1
+
+==== 2026-04-21 07:50:50 :: Codec-11-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testMultipleConsecutiveSpecialChars in Codec-11-fixed_ind2
+---- exit code: 1 | Codec-11-fixed_ind2
+
+==== 2026-04-21 07:50:52 :: Codec-11-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testOnlyWhitespace in Codec-11-fixed_ind3
+---- exit code: 0 | Codec-11-fixed_ind3
+
+==== 2026-04-21 07:50:54 :: Codec-12-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base32InputStreamTest::testMarkSupported in Codec-12-fixed_ind1
+---- exit code: 1 | Codec-12-fixed_ind1
+
+==== 2026-04-21 07:50:56 :: Codec-12-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testMarkSupported in Codec-12-fixed_ind2
+---- exit code: 1 | Codec-12-fixed_ind2
+
+==== 2026-04-21 07:50:58 :: Codec-14-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testFinalRulesWithMultipleLanguageSets in Codec-14-fixed_ind1
+---- exit code: 0 | Codec-14-fixed_ind1
+
+==== 2026-04-21 07:51:01 :: Codec-14-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testFinalRulesEmptyCase in Codec-14-fixed_ind2
+---- exit code: 0 | Codec-14-fixed_ind2
+
+==== 2026-04-21 07:51:03 :: Codec-15-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.language.SoundexTest::testHWRuleEx2 in Codec-15-fixed_ind1
+---- exit code: 1 | Codec-15-fixed_ind1
+
+==== 2026-04-21 07:51:05 :: Codec-15-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.language.SoundexTest::testHWRuleEx3 in Codec-15-fixed_ind2
+---- exit code: 1 | Codec-15-fixed_ind2
+
+==== 2026-04-21 07:51:07 :: Codec-17-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1WithEmptyBytes in Codec-17-fixed_ind1
+---- exit code: 0 | Codec-17-fixed_ind1
+
+==== 2026-04-21 07:51:10 :: Codec-17-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1WithValidBytes in Codec-17-fixed_ind2
+---- exit code: 0 | Codec-17-fixed_ind2
+
+==== 2026-04-21 07:51:12 :: Codec-17-fixed_ind3 ====
+>>> defects4j test -t org.apache.commons.codec.binary.StringUtilsTest::testNewStringIso8859_1WithExtendedCharacters in Codec-17-fixed_ind3
+---- exit code: 0 | Codec-17-fixed_ind3
+
+==== 2026-04-21 07:51:15 :: Codec-18-fixed_ind1 ====
+>>> defects4j test -t org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS3 in Codec-18-fixed_ind1
+---- exit code: 0 | Codec-18-fixed_ind1
+
+==== 2026-04-21 07:51:17 :: Codec-18-fixed_ind2 ====
+>>> defects4j test -t org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS4 in Codec-18-fixed_ind2
+---- exit code: 0 | Codec-18-fixed_ind2
+
+
+=== Combined Test Run Summary ===
+  Codec/Codec-1-fixed                                      -> OK
+  Codec/Codec-10-fixed                                     -> OK
+  Codec/Codec-11-fixed                                     -> FAIL(1)
+  Codec/Codec-12-fixed                                     -> FAIL(1)
+  Codec/Codec-14-fixed                                     -> OK
+  Codec/Codec-15-fixed                                     -> FAIL(1)
+  Codec/Codec-17-fixed                                     -> OK
+  Codec/Codec-18-fixed                                     -> OK
+  Codec/Codec-2-fixed                                      -> OK
+  Codec/Codec-3-fixed                                      -> FAIL(1)
+  Codec/Codec-4-fixed                                      -> OK
+  Codec/Codec-5-fixed                                      -> OK
+  Codec/Codec-6-fixed                                      -> OK
+  Codec/Codec-7-fixed                                      -> OK
+  Codec/Codec-8-fixed                                      -> FAIL(1)
+  Codec/Codec-9-fixed                                      -> FAIL(1)
+Combined total: 16 | failed: 6 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Codec/Codec-10-fixed_ind1                                -> OK
+  Codec/Codec-10-fixed_ind2                                -> OK
+  Codec/Codec-11-fixed_ind1                                -> FAIL(1)
+  Codec/Codec-11-fixed_ind2                                -> FAIL(1)
+  Codec/Codec-11-fixed_ind3                                -> OK
+  Codec/Codec-12-fixed_ind1                                -> FAIL(1)
+  Codec/Codec-12-fixed_ind2                                -> FAIL(1)
+  Codec/Codec-14-fixed_ind1                                -> OK
+  Codec/Codec-14-fixed_ind2                                -> OK
+  Codec/Codec-15-fixed_ind1                                -> FAIL(1)
+  Codec/Codec-15-fixed_ind2                                -> FAIL(1)
+  Codec/Codec-17-fixed_ind1                                -> OK
+  Codec/Codec-17-fixed_ind2                                -> OK
+  Codec/Codec-17-fixed_ind3                                -> OK
+  Codec/Codec-18-fixed_ind1                                -> OK
+  Codec/Codec-18-fixed_ind2                                -> OK
+  Codec/Codec-2-fixed_ind1                                 -> OK
+  Codec/Codec-2-fixed_ind2                                 -> OK
+  Codec/Codec-3-fixed_ind1                                 -> FAIL(1)
+  Codec/Codec-3-fixed_ind2                                 -> FAIL(1)
+  Codec/Codec-4-fixed_ind1                                 -> OK
+  Codec/Codec-4-fixed_ind2                                 -> OK
+  Codec/Codec-5-fixed_ind1                                 -> OK
+  Codec/Codec-5-fixed_ind2                                 -> OK
+  Codec/Codec-5-fixed_ind3                                 -> OK
+  Codec/Codec-6-fixed_ind1                                 -> OK
+  Codec/Codec-6-fixed_ind2                                 -> OK
+  Codec/Codec-7-fixed_ind1                                 -> OK
+  Codec/Codec-7-fixed_ind2                                 -> OK
+  Codec/Codec-7-fixed_ind3                                 -> OK
+  Codec/Codec-8-fixed_ind1                                 -> FAIL(1)
+  Codec/Codec-8-fixed_ind2                                 -> FAIL(1)
+  Codec/Codec-8-fixed_ind3                                 -> FAIL(1)
+  Codec/Codec-9-fixed_ind1                                 -> FAIL(1)
+  Codec/Codec-9-fixed_ind2                                 -> FAIL(1)
+  Codec/Codec-9-fixed_ind3                                 -> FAIL(1)
+Individual total: 36 | failed: 14
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Codec] 37 | pass=22 not_pass=0 not_compilable=15 -> Codec.csv
+
+[DONE combined] total=37 pass=22 not_pass=0 not_compilable=15
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+Traceback (most recent call last):
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 894, in <module>
+    main()
+  File "/Users/grace/Documents/Paper/BugFixing/Interpretation/exp3step7_groundtruth.py", line 829, in main
+    for project, bug_id, ind_dir, add_test_name in ind_tasks:
+ValueError: too many values to unpack (expected 4)

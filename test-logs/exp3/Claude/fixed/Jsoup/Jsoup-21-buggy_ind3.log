@@ -1,0 +1,50 @@
+==== 2026-04-01 00:45:27 :: Jsoup-21-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.jsoup.integration.ParseTest::testBaiduVariant
+  - org.jsoup.integration.ParseTest::testBaidu
+  - org.jsoup.integration.ParseTest::testHtml5Charset
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeDash
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.select.ElementsTest::val
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+  - org.jsoup.select.SelectorTest::handlesCommaCombinatorMix
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::testGroupOrAttribute
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- exit code: 0 | Jsoup-21-buggy_ind3
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::handlesCommasInSelector
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::mixCombinatorGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::handlesCommaCombinatorMix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::handlesCommaCombinatorMix
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-21-buggy_ind3/jacoco_base.exec.
+[INFO] Analyzing 193 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-21-buggy_ind3/jacoco.exec.
+[INFO] Analyzing 193 classes.
+>>> [JACOCO] done

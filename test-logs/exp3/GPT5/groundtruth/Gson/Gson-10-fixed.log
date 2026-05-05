@@ -1,0 +1,10 @@
+==== 2026-04-29 12:22:11 :: Gson-10-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testJsonAdapterOnObjectFieldTakesPrecedenceOverRuntimeType
+---- exit code: 0 | Gson-10-fixed
+

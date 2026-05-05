@@ -1,0 +1,13 @@
+==== 2026-04-24 04:50:19 :: Jsoup-92-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.parser.HtmlParserTest::retainsAttributesOfDifferentCaseIfSensitive
+  - org.jsoup.parser.HtmlParserTest::dropsDuplicateAttributes
+  - org.jsoup.parser.HtmlParserTest::duplicateAttributesSelfClosing
+  - org.jsoup.parser.XmlTreeBuilderTest::dropsDuplicateAttributes
+---- exit code: 0 | Jsoup-92-buggy_ind1
+

@@ -1,0 +1,13 @@
+==== 2026-04-23 02:07:10 :: Closure-40-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/IntegrationTest.java
+[RESTORE] restored test/com/google/javascript/jscomp/NameAnalyzerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.IntegrationTest::testIssue284
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+---- exit code: 0 | test_result: Not Pass | Closure-40-buggy
+

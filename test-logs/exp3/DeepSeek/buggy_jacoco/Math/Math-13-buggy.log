@@ -1,0 +1,13 @@
+==== 2026-04-24 08:28:21 :: Math-13-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.fitting.PolynomialFitterTest::testLargeSample
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.fitting.PolynomialFitterTest::testLargeSample
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-13-buggy/jacoco.exec.
+[INFO] Analyzing 785 classes.
+[JACOCO] done.
+[PARSE] 4 line rows.

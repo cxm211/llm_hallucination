@@ -1,0 +1,11 @@
+==== 2026-03-27 20:16:09 :: Codec-8-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/binary/Base64InputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec105
+---- exit code: 0 | test_result: Not Pass | Codec-8-buggy
+

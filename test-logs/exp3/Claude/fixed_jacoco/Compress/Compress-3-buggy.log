@@ -1,0 +1,11 @@
+==== 2026-03-28 02:10:26 :: Compress-3-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ArchiveOutputStreamTest::testFinish
+---- exit code: 0 | test_result: Not Pass | Compress-3-buggy
+

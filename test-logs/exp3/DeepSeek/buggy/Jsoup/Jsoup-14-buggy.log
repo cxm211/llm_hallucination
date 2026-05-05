@@ -1,0 +1,11 @@
+==== 2026-04-24 04:32:39 :: Jsoup-14-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTextarea
+  - org.jsoup.parser.ParserTest::handlesUnclosedTitle
+---- exit code: 0 | Jsoup-14-buggy
+

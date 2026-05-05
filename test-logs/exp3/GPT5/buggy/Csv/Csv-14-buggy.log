@@ -1,0 +1,16 @@
+==== 2026-04-29 17:51:21 :: Csv-14-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.csv.CSVPrinterTest::testEscapeNull1
+  - org.apache.commons.csv.CSVPrinterTest::testEscapeNull4
+  - org.apache.commons.csv.CSVPrinterTest::testEscapeNull5
+  - org.apache.commons.csv.CSVPrinterTest::testNoQuoteAtSignAtStart
+  - org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash1
+  - org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash4
+  - org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash5
+---- exit code: 0 | Csv-14-buggy
+

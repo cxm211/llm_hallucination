@@ -1,0 +1,10 @@
+==== 2026-04-23 06:32:46 :: Closure-120-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.InlineVariablesTest::testNestedFunctionAssignment
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineVariablesTest::testNestedFunctionAssignment
+---- exit code: 0 | Closure-120-fixed_ind1
+

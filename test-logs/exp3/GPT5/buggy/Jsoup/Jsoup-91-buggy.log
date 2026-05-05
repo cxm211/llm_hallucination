@@ -1,0 +1,13 @@
+==== 2026-04-27 04:21:45 :: Jsoup-91-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.integration.ConnectTest::testBinaryThrowsExceptionWhenTypeIgnored
+  - org.jsoup.integration.ConnectTest::testBinaryResultThrows
+  - org.jsoup.integration.ParseTest::testBinaryThrowsExceptionFromStream
+  - org.jsoup.integration.ParseTest::testBinaryThrowsException
+---- exit code: 0 | Jsoup-91-buggy
+

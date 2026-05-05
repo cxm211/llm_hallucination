@@ -1,0 +1,11 @@
+==== 2026-04-25 21:19:04 :: Lang-39-buggy ====
+[RESTORE] restored src/test/org/apache/commons/lang3/StringUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray
+---- exit code: 0 | test_result: Not Pass | Lang-39-buggy
+

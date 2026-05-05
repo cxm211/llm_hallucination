@@ -1,0 +1,11 @@
+==== 2026-04-28 04:30:18 :: Time-19-buggy ====
+[RESTORE] restored build/tests/org/joda/time/TestDateTimeZoneCutover.java
+[RESTORE] restored src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Time-19-buggy
+

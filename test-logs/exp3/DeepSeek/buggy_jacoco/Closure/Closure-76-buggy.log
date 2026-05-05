@@ -1,0 +1,43 @@
+==== 2026-04-22 05:00:13 :: Closure-76-buggy ====
+[JACOCO] trigger=4 add=2 total=6
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-76-buggy/jacoco_base.exec.
+[INFO] Analyzing 1006 classes.
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testHookBranchSkip
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testHookBranchSkip
+[JACOCO] defects4j test -t com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testAndLeftOperandRead
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-76-buggy/jacoco.exec.
+[INFO] Analyzing 1006 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 80 line rows.
+[PARSE] 80 base line rows.

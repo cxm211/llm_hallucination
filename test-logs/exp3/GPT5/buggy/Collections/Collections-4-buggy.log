@@ -1,0 +1,13 @@
+==== 2026-04-29 17:18:40 :: Collections-4-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.collections.map.TestMultiValueMap::testPutAllWithSetDuplicates
+  - org.apache.commons.collections.map.TestMultiValueMap::testPutWithList
+  - org.apache.commons.collections.map.TestMultiValueMap::testPutAll_KeyCollection
+  - org.apache.commons.collections.map.TestMultiValueMap::testPutWithSet
+---- exit code: 0 | Collections-4-buggy
+

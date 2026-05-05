@@ -1,0 +1,12 @@
+==== 2026-04-24 03:21:42 :: Compress-26-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.compress.utils.IOUtilsTest::skipUsingRead
+  - org.apache.commons.compress.utils.IOUtilsTest::skipAlternatingSkipAndRead
+  - org.apache.commons.compress.utils.IOUtilsTest::skipUsingSkipAndRead
+---- exit code: 0 | Compress-26-buggy
+

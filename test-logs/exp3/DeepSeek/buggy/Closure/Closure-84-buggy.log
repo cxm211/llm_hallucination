@@ -1,0 +1,12 @@
+==== 2026-04-22 00:05:03 :: Closure-84-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden4
+  - com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden5
+  - com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden6
+---- exit code: 0 | Closure-84-buggy
+

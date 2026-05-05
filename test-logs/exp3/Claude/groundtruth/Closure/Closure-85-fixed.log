@@ -1,0 +1,12 @@
+==== 2026-04-21 06:16:15 :: Closure-85-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveReturnWhenFollowNodeIsNull
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveContinueWhenFollowNodeIsNull
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveBreakWhenFollowNodeIsNull
+---- exit code: 0 | Closure-85-fixed
+

@@ -1,0 +1,13 @@
+==== 2026-04-26 03:30:31 :: Closure-164-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference7
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference7
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testSubtypeRequiredParamCheck
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfOfReturnTypesWithNumOfParams
+---- exit code: 0 | Closure-164-buggy
+

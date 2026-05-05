@@ -1,0 +1,10 @@
+==== 2026-04-21 07:57:33 :: Collections-19-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.collections.list.SetUniqueListTest::testSetAtEnd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetAtEnd
+---- exit code: 0 | Collections-19-fixed_ind2
+

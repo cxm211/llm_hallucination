@@ -1,0 +1,12 @@
+==== 2026-04-22 00:21:26 :: Closure-125-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1002
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1002_variant1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1002_variant2
+---- exit code: 0 | Closure-125-buggy
+

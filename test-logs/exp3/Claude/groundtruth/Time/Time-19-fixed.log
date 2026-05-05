@@ -1,0 +1,10 @@
+==== 2026-04-21 15:48:14 :: Time-19-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london_zeroOffset
+---- exit code: 0 | Time-19-fixed
+

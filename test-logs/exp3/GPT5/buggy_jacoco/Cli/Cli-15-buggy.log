@@ -1,0 +1,29 @@
+==== 2026-04-28 00:40:08 :: Cli-15-buggy ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument
+[JACOCO] defects4j test -t org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-15-buggy/jacoco_base.exec.
+[INFO] Analyzing 45 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionThreeArguments
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionThreeArguments
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-15-buggy/jacoco.exec.
+[INFO] Analyzing 45 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 20 line rows.
+[PARSE] 20 base line rows.

@@ -1,0 +1,11 @@
+==== 2026-04-22 03:04:22 :: Closure-149-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCharSetExpansion
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCharSetExpansionWithModule
+---- exit code: 0 | Closure-149-buggy_ind2
+

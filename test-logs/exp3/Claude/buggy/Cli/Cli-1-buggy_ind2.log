@@ -1,0 +1,11 @@
+==== 2026-04-04 21:14:26 :: Cli-1-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13
+  - org.apache.commons.cli.bug.BugCLI13Test::testCLI13LongOptOnly
+---- exit code: 0 | Cli-1-buggy_ind2
+

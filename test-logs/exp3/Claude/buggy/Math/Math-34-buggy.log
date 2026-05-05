@@ -1,0 +1,12 @@
+==== 2026-03-29 23:55:36 :: Math-34-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.genetics.ListPopulationTest::testIteratorMultipleIterators
+  - org.apache.commons.math3.genetics.ListPopulationTest::testIteratorPartialRemoval
+  - org.apache.commons.math3.genetics.ListPopulationTest::testIterator
+---- exit code: 0 | Math-34-buggy
+

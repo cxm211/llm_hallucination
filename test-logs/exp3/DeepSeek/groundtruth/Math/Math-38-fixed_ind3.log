@@ -1,0 +1,10 @@
+==== 2026-04-24 14:19:16 :: Math-38-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testPrelimIptGreaterThanN
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testPrelimIptGreaterThanN
+---- exit code: 0 | Math-38-fixed_ind3
+

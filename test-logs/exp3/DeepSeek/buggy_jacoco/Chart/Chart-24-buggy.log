@@ -1,0 +1,29 @@
+==== 2026-04-21 18:31:52 :: Chart-24-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-buggy/jacoco_base.exec.
+[INFO] Analyzing 517 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintNonDefaultBounds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintNonDefaultBounds
+[JACOCO] defects4j test -t org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintZeroRange
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaintZeroRange
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-24-buggy/jacoco.exec.
+[INFO] Analyzing 517 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 7 line rows.
+[PARSE] 7 base line rows.

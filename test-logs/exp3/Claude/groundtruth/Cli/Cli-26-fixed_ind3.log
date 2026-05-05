@@ -1,0 +1,9 @@
+==== 2026-04-21 15:41:10 :: Cli-26-fixed_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedWithLongOpt
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Cli-26-fixed_ind3
+

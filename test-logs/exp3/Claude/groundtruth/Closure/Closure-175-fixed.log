@@ -1,0 +1,10 @@
+==== 2026-04-21 06:47:57 :: Closure-175-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineMutableArgsWithSideEffects
+---- exit code: 0 | Closure-175-fixed
+

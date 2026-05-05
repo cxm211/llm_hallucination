@@ -1,0 +1,40 @@
+==== 2026-04-25 20:47:47 :: Lang-15-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+  - org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+---- exit code: 0 | Lang-15-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+[JACOCO] defects4j test -t org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang3.reflect.TypeUtilsTest::dummyMethodForTest
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.reflect.TypeUtilsTest
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-15-buggy/jacoco_base.exec.
+[INFO] Analyzing 143 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-15-buggy/jacoco.exec.
+[INFO] Analyzing 143 classes.
+>>> [JACOCO] done

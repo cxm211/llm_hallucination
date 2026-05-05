@@ -1,0 +1,37 @@
+==== 2026-03-31 22:47:49 :: Jsoup-91-buggy_ind2 ====
+[JACOCO] trigger=3 add=1 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.jsoup.integration.ConnectTest::testBinaryThrowsExceptionWhenTypeIgnored
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ConnectTest::testBinaryThrowsExceptionWhenTypeIgnored
+[JACOCO] defects4j test -t org.jsoup.integration.ConnectTest::testBinaryResultThrows
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ConnectTest::testBinaryResultThrows
+[JACOCO] defects4j test -t org.jsoup.integration.ParseTest::testBinaryThrowsException
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ParseTest::testBinaryThrowsException
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-91-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 237 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.integration.ParseTest::testBinaryExceptionCauseChain
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.integration.ParseTest::testBinaryExceptionCauseChain
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-91-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 237 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 17 line rows.
+[PARSE] 17 base line rows.

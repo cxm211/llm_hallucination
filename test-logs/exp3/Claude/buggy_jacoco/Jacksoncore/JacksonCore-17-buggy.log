@@ -1,0 +1,34 @@
+==== 2026-03-28 16:32:59 :: JacksonCore-17-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithSurrogatesString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithSurrogatesString
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-buggy/jacoco_base.exec.
+[INFO] Analyzing 79 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithSurrogatesAtBufferBoundary
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithMultipleSurrogatePairs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithLongStringAndSurrogates
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-17-buggy/jacoco.exec.
+[INFO] Analyzing 79 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 75 line rows.
+[PARSE] 75 base line rows.

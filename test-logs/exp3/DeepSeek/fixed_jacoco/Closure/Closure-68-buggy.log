@@ -1,0 +1,12 @@
+==== 2026-04-23 02:34:12 :: Closure-68-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/parsing/JsDocInfoParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalTypeError1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477
+---- exit code: 0 | test_result: Not Pass | Closure-68-buggy
+

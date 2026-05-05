@@ -1,0 +1,38 @@
+==== 2026-04-29 12:16:51 :: Gson-4-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.gson.stream.JsonReaderTest::testStrictVeryLongNumber
+  - com.google.gson.stream.JsonReaderTest::testBomForbiddenAsOtherCharacterInDocument
+  - com.google.gson.stream.JsonReaderTest::testStrictNonFiniteDoublesWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testStrictUnquotedStringsWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testStrictNonExecutePrefixWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testStrictUnquotedStrings
+  - com.google.gson.stream.JsonReaderTest::testStrictNonExecutePrefix
+---- exit code: 0 | Gson-4-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 0, total: 3
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-4-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] done

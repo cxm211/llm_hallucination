@@ -1,0 +1,13 @@
+==== 2026-03-27 02:27:12 :: Closure-9-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleNameNoPrefix
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleNameMixedSlashes
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleNameEmptyPrefix
+---- exit code: 0 | Closure-9-buggy
+

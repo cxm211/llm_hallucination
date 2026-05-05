@@ -1,0 +1,11 @@
+==== 2026-03-27 02:38:13 :: Closure-22-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCode
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCodeInCommaFirstChild
+---- exit code: 0 | Closure-22-buggy
+

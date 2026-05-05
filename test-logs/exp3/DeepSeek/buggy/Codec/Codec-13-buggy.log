@@ -1,0 +1,11 @@
+==== 2026-04-24 01:51:35 :: Codec-13-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+---- exit code: 0 | Codec-13-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-24 12:48:04 :: Math-58-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/optimization/fitting/GaussianFitterTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.fitting.GaussianFitterTest::testMath519
+---- exit code: 0 | test_result: Not Pass | Math-58-buggy
+

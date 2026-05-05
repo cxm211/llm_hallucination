@@ -1,0 +1,9 @@
+==== 2026-04-21 20:06:59 :: Mockito-25-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::can_reuse_same_deep_stub_mock_after_multiple_invocations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-25-fixed_ind1
+

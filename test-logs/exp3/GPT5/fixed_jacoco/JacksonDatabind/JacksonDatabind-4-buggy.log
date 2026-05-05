@@ -1,0 +1,12 @@
+==== 2026-04-26 19:38:01 :: JacksonDatabind-4-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/deser/TestCollectionDeserialization.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.TestCollectionDeserialization::testArrayIndexForExceptions
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-4-buggy
+

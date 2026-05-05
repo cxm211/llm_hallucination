@@ -1,0 +1,12 @@
+==== 2026-04-29 02:35:59 :: JacksonCore-11-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/sym/SymbolsViaParserTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testThousandsOfSymbolsWithNew
+  - com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem::testSmallSymbolSetWithBytes
+---- exit code: 0 | test_result: Not Pass | JacksonCore-11-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-04-25 20:11:25 :: Lang-19-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testDecimalUnfinishedEntity
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds
+---- exit code: 0 | Lang-19-buggy_ind1
+

@@ -1,0 +1,199 @@
+==== 2026-04-21 08:16:15 :: Gson-1-fixed ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+gson-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/maven-build.xml:73: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 93 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/classes/com/google/gson/reflect/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/classes/com/google/gson/annotations/package-info.class
+    [javac] Creating empty /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/classes/com/google/gson/package-info.class
+     [copy] Copying 1 file to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/classes
+
+compile:
+
+gson-from-maven.compile-tests:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/test-classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/maven-build.xml:101: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 82 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:75: warning: [deprecation] Double(String) in Double has been deprecated
+    [javac]     assertEquals(new Double("1E+7"), json.getAsDouble(), 0.00001);
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:76: warning: [deprecation] Float(String) in Float has been deprecated
+    [javac]     assertEquals(new Float("1E+7"), json.getAsDouble(), 0.00001);
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:85: warning: [deprecation] Byte(byte) in Byte has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Byte((byte)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:86: warning: [deprecation] Short(short) in Short has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Short((short)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:92: warning: [deprecation] Byte(byte) in Byte has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Byte((byte)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:93: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Integer(10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:99: warning: [deprecation] Byte(byte) in Byte has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Byte((byte)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:100: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Long(10L));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:106: warning: [deprecation] Byte(byte) in Byte has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Byte((byte)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:113: warning: [deprecation] Short(short) in Short has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Short((short)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:114: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Integer(10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:120: warning: [deprecation] Short(short) in Short has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Short((short)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:121: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Long(10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:127: warning: [deprecation] Short(short) in Short has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Short((short)10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:134: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Integer(10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:135: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Long(10L));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:141: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Integer(10));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:148: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Long(10L));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:155: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Float(10.25F));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:156: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]     JsonPrimitive p2 = new JsonPrimitive(new Double(10.25D));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:162: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Float(10.25F));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/JsonPrimitiveTest.java:169: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]     JsonPrimitive p1 = new JsonPrimitive(new Double(10.25D));
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/MapTest.java:253: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]     assertEquals(new Long(123L), map.get("test"));
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/ParameterizedTypesTest.java:124: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]             new MyParameterizedTypeInstanceCreator<Integer>(new Integer(0)))
+    [javac]                                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:156: warning: [deprecation] Integer(String) in Integer has been deprecated
+    [javac]     Number expected = new Integer(json);
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:161: warning: [deprecation] Long(String) in Long has been deprecated
+    [javac]     expected = new Long(json);
+    [javac]                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/PrimitiveTest.java:168: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]     assertEquals("122.08112002", gson.toJson(new Double(122.08112002)));
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:85: error: cannot find symbol
+    [javac]     Baz<List<String>> baz = new Baz<List<String>>();
+    [javac]     ^
+    [javac]   symbol:   class Baz
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:85: error: cannot find symbol
+    [javac]     Baz<List<String>> baz = new Baz<List<String>>();
+    [javac]                                 ^
+    [javac]   symbol:   class Baz
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:95: error: cannot find symbol
+    [javac]     Type bazType = new TypeToken<Baz<List<String>>>(){}.getType();
+    [javac]     ^
+    [javac]   symbol:   class Type
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:95: error: cannot find symbol
+    [javac]     Type bazType = new TypeToken<Baz<List<String>>>(){}.getType();
+    [javac]                        ^
+    [javac]   symbol:   class TypeToken
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:95: error: cannot find symbol
+    [javac]     Type bazType = new TypeToken<Baz<List<String>>>(){}.getType();
+    [javac]                                  ^
+    [javac]   symbol:   class Baz
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:96: error: cannot find symbol
+    [javac]     Baz<List<String>> result = gson.fromJson(json, bazType);
+    [javac]     ^
+    [javac]   symbol:   class Baz
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:107: error: cannot find symbol
+    [javac]     Pair<String, Integer> pair = new Pair<String, Integer>();
+    [javac]     ^
+    [javac]   symbol:   class Pair
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:107: error: cannot find symbol
+    [javac]     Pair<String, Integer> pair = new Pair<String, Integer>();
+    [javac]                                      ^
+    [javac]   symbol:   class Pair
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:113: error: cannot find symbol
+    [javac]     Type pairType = new TypeToken<Pair<String, Integer>>(){}.getType();
+    [javac]     ^
+    [javac]   symbol:   class Type
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:113: error: cannot find symbol
+    [javac]     Type pairType = new TypeToken<Pair<String, Integer>>(){}.getType();
+    [javac]                         ^
+    [javac]   symbol:   class TypeToken
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:113: error: cannot find symbol
+    [javac]     Type pairType = new TypeToken<Pair<String, Integer>>(){}.getType();
+    [javac]                                   ^
+    [javac]   symbol:   class Pair
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java:114: error: cannot find symbol
+    [javac]     Pair<String, Integer> result = gson.fromJson(json, pairType);
+    [javac]     ^
+    [javac]   symbol:   class Pair
+    [javac]   location: class TypeVariableTest
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java:155: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]       jsonWriter.value(new Double(Double.NaN));
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java:160: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]       jsonWriter.value(new Double(Double.NEGATIVE_INFINITY));
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/stream/JsonWriterTest.java:165: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]       jsonWriter.value(new Double(Double.POSITIVE_INFINITY));
+    [javac]                        ^
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/src/test/java/com/google/gson/functional/TypeVariableTest.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 12 errors
+    [javac] 34 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-1-fixed/gson/maven-build.xml:101: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- exit code: 1 | Gson-1-fixed
+

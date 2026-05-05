@@ -1,0 +1,12 @@
+==== 2026-03-31 21:04:49 :: Jsoup-32-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testClonesClassnames
+  - org.jsoup.nodes.ElementTest::testCloneClassNamesIndependence
+  - org.jsoup.nodes.ElementTest::testCloneWithNoClassNames
+---- exit code: 0 | Jsoup-32-buggy
+

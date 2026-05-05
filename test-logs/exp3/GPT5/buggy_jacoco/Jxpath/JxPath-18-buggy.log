@@ -1,0 +1,18 @@
+==== 2026-04-29 01:36:23 :: JxPath-18-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttribute
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttribute
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-18-buggy/jacoco.exec.
+[INFO] Analyzing 161 classes.
+[JACOCO] done.
+[PARSE] 20 line rows.

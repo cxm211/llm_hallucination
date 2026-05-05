@@ -1,0 +1,17 @@
+==== 2026-03-27 04:12:15 :: Closure-26-buggy_ind3 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testFilenameWithoutPrefix
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+---- exit code: 0 | Closure-26-buggy_ind3
+

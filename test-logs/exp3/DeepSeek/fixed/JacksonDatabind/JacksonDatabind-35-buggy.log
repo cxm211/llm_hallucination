@@ -1,0 +1,36 @@
+==== 2026-04-23 19:15:40 :: JacksonDatabind-35-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testTypeIdVisibleWithEmptyObject
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testTypeIdVisibleWithObject
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testSimple
+---- exit code: 0 | JacksonDatabind-35-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testSimple
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testSimple
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testTypeIdVisibleWithObject
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testTypeIdVisibleWithObject
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-35-buggy/jacoco_base.exec.
+[INFO] Analyzing 501 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-35-buggy/jacoco.exec.
+[INFO] Analyzing 501 classes.
+>>> [JACOCO] done

@@ -1,0 +1,14 @@
+==== 2026-04-27 02:17:34 :: Chart-18-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955
+  - org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveLastUpdatesIndex
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2
+---- exit code: 0 | Chart-18-buggy
+

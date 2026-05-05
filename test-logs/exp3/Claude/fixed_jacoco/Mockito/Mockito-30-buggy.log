@@ -1,0 +1,12 @@
+==== 2026-03-30 10:56:20 :: Mockito-30-buggy ====
+[RESTORE] restored target/eclipse-classes/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+[RESTORE] restored test/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersOnSmartNullPointerExceptionMessage
+---- exit code: 0 | test_result: Not Pass | Mockito-30-buggy
+

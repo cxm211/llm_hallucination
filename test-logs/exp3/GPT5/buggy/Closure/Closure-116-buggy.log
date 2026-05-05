@@ -1,0 +1,18 @@
+==== 2026-04-26 03:13:42 :: Closure-116-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101c
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+---- exit code: 0 | Closure-116-buggy
+

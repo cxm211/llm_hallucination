@@ -1,0 +1,37 @@
+==== 2026-03-30 01:03:57 :: Math-101-buggy ====
+[JACOCO] trigger=2 add=2 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter
+[JACOCO] defects4j test -t org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-101-buggy/jacoco_base.exec.
+[INFO] Analyzing 183 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.complex.ComplexFormatAbstractTest::testMissingImaginaryCharacterShortString
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.complex.ComplexFormatAbstractTest
+[JACOCO] defects4j test -t org.apache.commons.math.complex.ComplexFormatAbstractTest::testImaginaryCharacterAtBoundary
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.complex.ComplexFormatAbstractTest
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-101-buggy/jacoco.exec.
+[INFO] Analyzing 183 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 70 line rows.
+[PARSE] 70 base line rows.

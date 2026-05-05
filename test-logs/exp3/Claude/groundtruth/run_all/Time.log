@@ -1,0 +1,830 @@
+results-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude
+defects-root : /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o
+logs-root    : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+out-dir      : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+ind-out-dir  : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+cmd          : defects4j test -r
+jobs         : 1
+timeout      : 600s
+projects     : Time
+
+============================================================
+PHASE 1: Checkout fixed versions
+============================================================
+  [CHECKOUT] Time-1-fixed
+  [CHECKOUT] Time-2-fixed
+  [CHECKOUT] Time-3-fixed
+  [CHECKOUT] Time-4-fixed
+  [CHECKOUT] Time-5-fixed
+  [CHECKOUT] Time-6-fixed
+  [CHECKOUT] Time-7-fixed
+  [CHECKOUT] Time-8-fixed
+  [CHECKOUT] Time-9-fixed
+  [CHECKOUT] Time-10-fixed
+  [CHECKOUT] Time-12-fixed
+  [CHECKOUT] Time-13-fixed
+  [CHECKOUT] Time-14-fixed
+  [CHECKOUT] Time-15-fixed
+  [CHECKOUT] Time-16-fixed
+  [CHECKOUT] Time-17-fixed
+  [CHECKOUT] Time-18-fixed
+  [CHECKOUT] Time-19-fixed
+  [CHECKOUT] Time-20-fixed
+  [CHECKOUT] Time-22-fixed
+  [CHECKOUT] Time-23-fixed
+  [CHECKOUT] Time-24-fixed
+  [CHECKOUT] Time-25-fixed
+  [CHECKOUT] Time-26-fixed
+  [CHECKOUT] Time-27-fixed
+
+============================================================
+PHASE 2: Insert add_test*.java into fixed dirs
+============================================================
+=== Time ===
+  [COPY] Time-1-fixed -> Time-1-fixed_ind1
+  [IND-OK] Time-1-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed_ind1/src/test/java/org/joda/time/TestPartial_Constructors.java
+  [COPY] Time-1-fixed -> Time-1-fixed_ind2
+  [IND-OK] Time-1-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed_ind2/src/test/java/org/joda/time/TestPartial_Constructors.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed/src/test/java/org/joda/time/TestPartial_Constructors.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed/src/test/java/org/joda/time/TestPartial_Constructors.java
+  [Time-1] inserted=4 failed=0
+  [COPY] Time-2-fixed -> Time-2-fixed_ind1
+  [IND-OK] Time-2-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed_ind1/src/test/java/org/joda/time/TestPartial_Basics.java
+  [COPY] Time-2-fixed -> Time-2-fixed_ind2
+  [IND-OK] Time-2-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed_ind2/src/test/java/org/joda/time/TestPartial_Basics.java
+  [COPY] Time-2-fixed -> Time-2-fixed_ind3
+  [IND-OK] Time-2-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed_ind3/src/test/java/org/joda/time/TestPartial_Basics.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed/src/test/java/org/joda/time/TestPartial_Basics.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed/src/test/java/org/joda/time/TestPartial_Basics.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed/src/test/java/org/joda/time/TestPartial_Basics.java
+  [Time-2] inserted=6 failed=0
+  [COPY] Time-3-fixed -> Time-3-fixed_ind1
+  [IND-OK] Time-3-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind1/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [COPY] Time-3-fixed -> Time-3-fixed_ind2
+  [IND-OK] Time-3-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind2/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [COPY] Time-3-fixed -> Time-3-fixed_ind3
+  [IND-OK] Time-3-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind3/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [COPY] Time-3-fixed -> Time-3-fixed_ind4
+  [IND-OK] Time-3-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind4/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed/src/test/java/org/joda/time/TestMutableDateTime_Adds.java
+  [Time-3] inserted=8 failed=0
+  [COPY] Time-4-fixed -> Time-4-fixed_ind1
+  [IND-OK] Time-4-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed_ind1/src/test/java/org/joda/time/TestPartial_Basics.java
+  [COPY] Time-4-fixed -> Time-4-fixed_ind2
+  [IND-OK] Time-4-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed_ind2/src/test/java/org/joda/time/TestPartial_Basics.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed/src/test/java/org/joda/time/TestPartial_Basics.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed/src/test/java/org/joda/time/TestPartial_Basics.java
+  [Time-4] inserted=4 failed=0
+  [COPY] Time-5-fixed -> Time-5-fixed_ind1
+  [IND-OK] Time-5-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed_ind1/src/test/java/org/joda/time/TestPeriod_Basics.java
+  [COPY] Time-5-fixed -> Time-5-fixed_ind2
+  [IND-OK] Time-5-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed_ind2/src/test/java/org/joda/time/TestPeriod_Basics.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed/src/test/java/org/joda/time/TestPeriod_Basics.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed/src/test/java/org/joda/time/TestPeriod_Basics.java
+  [Time-5] inserted=4 failed=0
+  [COPY] Time-6-fixed -> Time-6-fixed_ind1
+  [IND-OK] Time-6-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed_ind1/src/test/java/org/joda/time/chrono/TestGJDate.java
+  [COPY] Time-6-fixed -> Time-6-fixed_ind2
+  [IND-OK] Time-6-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed_ind2/src/test/java/org/joda/time/chrono/TestGJDate.java
+  [COPY] Time-6-fixed -> Time-6-fixed_ind3
+  [IND-OK] Time-6-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed_ind3/src/test/java/org/joda/time/chrono/TestGJDate.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed/src/test/java/org/joda/time/chrono/TestGJDate.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed/src/test/java/org/joda/time/chrono/TestGJDate.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed/src/test/java/org/joda/time/chrono/TestGJDate.java
+  [Time-6] inserted=6 failed=0
+  [COPY] Time-7-fixed -> Time-7-fixed_ind1
+  [IND-OK] Time-7-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind1/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [COPY] Time-7-fixed -> Time-7-fixed_ind2
+  [IND-OK] Time-7-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind2/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [COPY] Time-7-fixed -> Time-7-fixed_ind3
+  [IND-OK] Time-7-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind3/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [COPY] Time-7-fixed -> Time-7-fixed_ind4
+  [IND-OK] Time-7-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind4/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [Time-7] inserted=8 failed=0
+  [COPY] Time-8-fixed -> Time-8-fixed_ind1
+  [IND-OK] Time-8-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZone.java
+  [COPY] Time-8-fixed -> Time-8-fixed_ind2
+  [IND-OK] Time-8-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZone.java
+  [COPY] Time-8-fixed -> Time-8-fixed_ind3
+  [IND-OK] Time-8-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed_ind3/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [Time-8] inserted=6 failed=0
+  [COPY] Time-9-fixed -> Time-9-fixed_ind1
+  [IND-OK] Time-9-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZone.java
+  [COPY] Time-9-fixed -> Time-9-fixed_ind2
+  [IND-OK] Time-9-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [Time-9] inserted=4 failed=0
+  [COPY] Time-10-fixed -> Time-10-fixed_ind1
+  [IND-OK] Time-10-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed_ind1/src/test/java/org/joda/time/TestDays.java
+  [COPY] Time-10-fixed -> Time-10-fixed_ind2
+  [IND-OK] Time-10-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed_ind2/src/test/java/org/joda/time/TestMonths.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed/src/test/java/org/joda/time/TestDays.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed/src/test/java/org/joda/time/TestMonths.java
+  [Time-10] inserted=4 failed=0
+  [COPY] Time-12-fixed -> Time-12-fixed_ind1
+  [IND-OK] Time-12-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind1/src/test/java/org/joda/time/TestLocalDate_Constructors.java
+  [COPY] Time-12-fixed -> Time-12-fixed_ind2
+  [IND-OK] Time-12-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind2/src/test/java/org/joda/time/TestLocalDateTime_Constructors.java
+  [COPY] Time-12-fixed -> Time-12-fixed_ind3
+  [IND-OK] Time-12-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind3/src/test/java/org/joda/time/TestLocalDate_Constructors.java
+  [COPY] Time-12-fixed -> Time-12-fixed_ind4
+  [IND-OK] Time-12-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind4/src/test/java/org/joda/time/TestLocalDateTime_Constructors.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed/src/test/java/org/joda/time/TestLocalDate_Constructors.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed/src/test/java/org/joda/time/TestLocalDateTime_Constructors.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed/src/test/java/org/joda/time/TestLocalDate_Constructors.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed/src/test/java/org/joda/time/TestLocalDateTime_Constructors.java
+  [Time-12] inserted=8 failed=0
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-13-fixed/src/test/java/org/joda/time/format/TestISOPeriodFormat.java
+  [Time-13] inserted=1 failed=0
+  [COPY] Time-14-fixed -> Time-14-fixed_ind1
+  [IND-OK] Time-14-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed_ind1/src/test/java/org/joda/time/TestMonthDay_Basics.java
+  [COPY] Time-14-fixed -> Time-14-fixed_ind2
+  [IND-OK] Time-14-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed_ind2/src/test/java/org/joda/time/TestMonthDay_Basics.java
+  [COPY] Time-14-fixed -> Time-14-fixed_ind3
+  [IND-OK] Time-14-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed_ind3/src/test/java/org/joda/time/TestMonthDay_Basics.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed/src/test/java/org/joda/time/TestMonthDay_Basics.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed/src/test/java/org/joda/time/TestMonthDay_Basics.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed/src/test/java/org/joda/time/TestMonthDay_Basics.java
+  [Time-14] inserted=6 failed=0
+  [COPY] Time-15-fixed -> Time-15-fixed_ind1
+  [IND-OK] Time-15-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind1/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [COPY] Time-15-fixed -> Time-15-fixed_ind2
+  [IND-OK] Time-15-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind2/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [COPY] Time-15-fixed -> Time-15-fixed_ind3
+  [IND-OK] Time-15-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind3/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [COPY] Time-15-fixed -> Time-15-fixed_ind4
+  [IND-OK] Time-15-fixed_ind4/add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind4/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [COPY] Time-15-fixed -> Time-15-fixed_ind5
+  [IND-OK] Time-15-fixed_ind5/add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind5/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [OK] add_test3.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [OK] add_test4.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed/src/test/java/org/joda/time/field/TestFieldUtils.java
+  [Time-15] inserted=10 failed=0
+  [COPY] Time-16-fixed -> Time-16-fixed_ind1
+  [IND-OK] Time-16-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed_ind1/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [COPY] Time-16-fixed -> Time-16-fixed_ind2
+  [IND-OK] Time-16-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed_ind2/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [COPY] Time-16-fixed -> Time-16-fixed_ind3
+  [IND-OK] Time-16-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed_ind3/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [Time-16] inserted=6 failed=0
+  [COPY] Time-17-fixed -> Time-17-fixed_ind1
+  [IND-OK] Time-17-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [COPY] Time-17-fixed -> Time-17-fixed_ind2
+  [IND-OK] Time-17-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [Time-17] inserted=4 failed=0
+  [COPY] Time-18-fixed -> Time-18-fixed_ind1
+  [IND-OK] Time-18-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed_ind1/src/test/java/org/joda/time/chrono/TestGJChronology.java
+  [COPY] Time-18-fixed -> Time-18-fixed_ind2
+  [IND-OK] Time-18-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed_ind2/src/test/java/org/joda/time/chrono/TestGJChronology.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed/src/test/java/org/joda/time/chrono/TestGJChronology.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed/src/test/java/org/joda/time/chrono/TestGJChronology.java
+  [Time-18] inserted=4 failed=0
+  [COPY] Time-19-fixed -> Time-19-fixed_ind1
+  [IND-OK] Time-19-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [COPY] Time-19-fixed -> Time-19-fixed_ind2
+  [IND-OK] Time-19-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [Time-19] inserted=4 failed=0
+  [COPY] Time-20-fixed -> Time-20-fixed_ind1
+  [IND-OK] Time-20-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed_ind1/src/test/java/org/joda/time/format/TestDateTimeFormatterBuilder.java
+  [COPY] Time-20-fixed -> Time-20-fixed_ind2
+  [IND-OK] Time-20-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed_ind2/src/test/java/org/joda/time/format/TestDateTimeFormatterBuilder.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatterBuilder.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatterBuilder.java
+  [Time-20] inserted=4 failed=0
+  [COPY] Time-22-fixed -> Time-22-fixed_ind1
+  [IND-OK] Time-22-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed_ind1/src/test/java/org/joda/time/TestPeriod_Constructors.java
+  [COPY] Time-22-fixed -> Time-22-fixed_ind2
+  [IND-OK] Time-22-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed_ind2/src/test/java/org/joda/time/TestDuration_Basics.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed/src/test/java/org/joda/time/TestPeriod_Constructors.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed/src/test/java/org/joda/time/TestDuration_Basics.java
+  [Time-22] inserted=4 failed=0
+  [COPY] Time-23-fixed -> Time-23-fixed_ind1
+  [IND-OK] Time-23-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZone.java
+  [COPY] Time-23-fixed -> Time-23-fixed_ind2
+  [IND-OK] Time-23-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed/src/test/java/org/joda/time/TestDateTimeZone.java
+  [Time-23] inserted=4 failed=0
+  [COPY] Time-24-fixed -> Time-24-fixed_ind1
+  [IND-OK] Time-24-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed_ind1/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [COPY] Time-24-fixed -> Time-24-fixed_ind2
+  [IND-OK] Time-24-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed_ind2/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed/src/test/java/org/joda/time/format/TestDateTimeFormatter.java
+  [Time-24] inserted=4 failed=0
+  [COPY] Time-25-fixed -> Time-25-fixed_ind1
+  [IND-OK] Time-25-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [COPY] Time-25-fixed -> Time-25-fixed_ind2
+  [IND-OK] Time-25-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [Time-25] inserted=4 failed=0
+  [COPY] Time-26-fixed -> Time-26-fixed_ind1
+  [IND-OK] Time-26-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed_ind1/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [COPY] Time-26-fixed -> Time-26-fixed_ind2
+  [IND-OK] Time-26-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed_ind2/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [COPY] Time-26-fixed -> Time-26-fixed_ind3
+  [IND-OK] Time-26-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed_ind3/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed/src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+  [Time-26] inserted=6 failed=0
+  [COPY] Time-27-fixed -> Time-27-fixed_ind1
+  [IND-OK] Time-27-fixed_ind1/add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed_ind1/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+  [COPY] Time-27-fixed -> Time-27-fixed_ind2
+  [IND-OK] Time-27-fixed_ind2/add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed_ind2/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+  [COPY] Time-27-fixed -> Time-27-fixed_ind3
+  [IND-OK] Time-27-fixed_ind3/add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed_ind3/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+  [OK] add_test.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+  [OK] add_test1.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+  [OK] add_test2.java -> /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+  [Time-27] inserted=6 failed=0
+
+[INSERT DONE] inserted=129 failed=0
+
+============================================================
+PHASE 3: Run tests on fixed dirs
+============================================================
+combined bugs  : 25
+individual bugs: 64
+
+==== 2026-04-21 15:45:09 :: Time-1-fixed ====
+>>> defects4j test -r in Time-1-fixed
+---- exit code: 0 | Time-1-fixed
+
+==== 2026-04-21 15:45:27 :: Time-2-fixed ====
+>>> defects4j test -r in Time-2-fixed
+---- exit code: 0 | Time-2-fixed
+
+==== 2026-04-21 15:45:42 :: Time-3-fixed ====
+>>> defects4j test -r in Time-3-fixed
+---- exit code: 1 | Time-3-fixed
+
+==== 2026-04-21 15:45:46 :: Time-4-fixed ====
+>>> defects4j test -r in Time-4-fixed
+---- exit code: 0 | Time-4-fixed
+
+==== 2026-04-21 15:45:54 :: Time-5-fixed ====
+>>> defects4j test -r in Time-5-fixed
+---- exit code: 1 | Time-5-fixed
+
+==== 2026-04-21 15:45:59 :: Time-6-fixed ====
+>>> defects4j test -r in Time-6-fixed
+---- exit code: 0 | Time-6-fixed
+
+==== 2026-04-21 15:46:11 :: Time-7-fixed ====
+>>> defects4j test -r in Time-7-fixed
+---- exit code: 0 | Time-7-fixed
+
+==== 2026-04-21 15:46:23 :: Time-8-fixed ====
+>>> defects4j test -r in Time-8-fixed
+---- exit code: 0 | Time-8-fixed
+
+==== 2026-04-21 15:46:38 :: Time-9-fixed ====
+>>> defects4j test -r in Time-9-fixed
+---- exit code: 0 | Time-9-fixed
+
+==== 2026-04-21 15:46:52 :: Time-10-fixed ====
+>>> defects4j test -r in Time-10-fixed
+---- exit code: 0 | Time-10-fixed
+
+==== 2026-04-21 15:47:02 :: Time-12-fixed ====
+>>> defects4j test -r in Time-12-fixed
+---- exit code: 0 | Time-12-fixed
+
+==== 2026-04-21 15:47:11 :: Time-13-fixed ====
+>>> defects4j test -r in Time-13-fixed
+---- exit code: 0 | Time-13-fixed
+
+==== 2026-04-21 15:47:20 :: Time-14-fixed ====
+>>> defects4j test -r in Time-14-fixed
+---- exit code: 1 | Time-14-fixed
+
+==== 2026-04-21 15:47:26 :: Time-15-fixed ====
+>>> defects4j test -r in Time-15-fixed
+---- exit code: 0 | Time-15-fixed
+
+==== 2026-04-21 15:47:40 :: Time-16-fixed ====
+>>> defects4j test -r in Time-16-fixed
+---- exit code: 0 | Time-16-fixed
+
+==== 2026-04-21 15:47:50 :: Time-17-fixed ====
+>>> defects4j test -r in Time-17-fixed
+---- exit code: 0 | Time-17-fixed
+
+==== 2026-04-21 15:48:03 :: Time-18-fixed ====
+>>> defects4j test -r in Time-18-fixed
+---- exit code: 0 | Time-18-fixed
+
+==== 2026-04-21 15:48:14 :: Time-19-fixed ====
+>>> defects4j test -r in Time-19-fixed
+---- exit code: 0 | Time-19-fixed
+
+==== 2026-04-21 15:48:27 :: Time-20-fixed ====
+>>> defects4j test -r in Time-20-fixed
+---- exit code: 0 | Time-20-fixed
+
+==== 2026-04-21 15:48:38 :: Time-22-fixed ====
+>>> defects4j test -r in Time-22-fixed
+---- exit code: 0 | Time-22-fixed
+
+==== 2026-04-21 15:48:48 :: Time-23-fixed ====
+>>> defects4j test -r in Time-23-fixed
+---- exit code: 0 | Time-23-fixed
+
+==== 2026-04-21 15:49:01 :: Time-24-fixed ====
+>>> defects4j test -r in Time-24-fixed
+---- exit code: 1 | Time-24-fixed
+
+==== 2026-04-21 15:49:07 :: Time-25-fixed ====
+>>> defects4j test -r in Time-25-fixed
+---- exit code: 0 | Time-25-fixed
+
+==== 2026-04-21 15:49:20 :: Time-26-fixed ====
+>>> defects4j test -r in Time-26-fixed
+---- exit code: 1 | Time-26-fixed
+
+==== 2026-04-21 15:49:26 :: Time-27-fixed ====
+>>> defects4j test -r in Time-27-fixed
+---- exit code: 1 | Time-27-fixed
+
+==== 2026-04-21 15:49:33 :: Time-1-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray_AdditionalCase1 in Time-1-fixed_ind1
+---- exit code: 0 | Time-1-fixed_ind1
+
+==== 2026-04-21 15:49:39 :: Time-1-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray_AdditionalCase2 in Time-1-fixed_ind2
+---- exit code: 0 | Time-1-fixed_ind2
+
+==== 2026-04-21 15:49:46 :: Time-2-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestPartial_Basics::testWith_unsupportedField in Time-2-fixed_ind1
+---- exit code: 0 | Time-2-fixed_ind1
+
+==== 2026-04-21 15:49:52 :: Time-2-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestPartial_Basics::testWith_mixedSupportedAndUnsupportedFields in Time-2-fixed_ind2
+---- exit code: 0 | Time-2-fixed_ind2
+
+==== 2026-04-21 15:49:58 :: Time-2-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.TestPartial_Basics::testConstructor_withTwoFieldsNoRange in Time-2-fixed_ind3
+---- exit code: 0 | Time-2-fixed_ind3
+
+==== 2026-04-21 15:50:05 :: Time-3-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddWeekyears_int_dstOverlapWinter_addZero in Time-3-fixed_ind1
+---- exit code: 0 | Time-3-fixed_ind1
+
+==== 2026-04-21 15:50:12 :: Time-3-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddMinutes_int_dstOverlapWinter_addZero in Time-3-fixed_ind2
+---- exit code: 1 | Time-3-fixed_ind2
+
+==== 2026-04-21 15:50:17 :: Time-3-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddSeconds_int_dstOverlapWinter_addZero in Time-3-fixed_ind3
+---- exit code: 1 | Time-3-fixed_ind3
+
+==== 2026-04-21 15:50:21 :: Time-3-fixed_ind4 ====
+>>> defects4j test -t org.joda.time.TestMutableDateTime_Adds::testAddMillis_int_dstOverlapWinter_addZero in Time-3-fixed_ind4
+---- exit code: 1 | Time-3-fixed_ind4
+
+==== 2026-04-21 15:50:26 :: Time-4-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestPartial_Basics::testWithNewFieldValidationFailure in Time-4-fixed_ind1
+---- exit code: 0 | Time-4-fixed_ind1
+
+==== 2026-04-21 15:50:33 :: Time-4-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestPartial_Basics::testWithNewFieldInvalidRangeType in Time-4-fixed_ind2
+---- exit code: 0 | Time-4-fixed_ind2
+
+==== 2026-04-21 15:50:39 :: Time-5-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months3 in Time-5-fixed_ind1
+---- exit code: 1 | Time-5-fixed_ind1
+
+==== 2026-04-21 15:50:44 :: Time-5-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_years1 in Time-5-fixed_ind2
+---- exit code: 0 | Time-5-fixed_ind2
+
+==== 2026-04-21 15:51:08 :: Time-6-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.chrono.TestGJDate::test_cutoverAtEpoch in Time-6-fixed_ind1
+---- exit code: 0 | Time-6-fixed_ind1
+
+==== 2026-04-21 15:51:17 :: Time-6-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.chrono.TestGJDate::test_cutoverAtYearOne in Time-6-fixed_ind2
+---- exit code: 0 | Time-6-fixed_ind2
+
+==== 2026-04-21 15:51:26 :: Time-6-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.chrono.TestGJDate::test_cutoverAtYearZero in Time-6-fixed_ind3
+---- exit code: 0 | Time-6-fixed_ind3
+
+==== 2026-04-21 15:51:34 :: Time-7-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withZoneChange in Time-7-fixed_ind1
+---- exit code: 0 | Time-7-fixed_ind1
+
+==== 2026-04-21 15:51:44 :: Time-7-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_leapYear_march in Time-7-fixed_ind2
+---- exit code: 0 | Time-7-fixed_ind2
+
+==== 2026-04-21 15:51:52 :: Time-7-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_nonLeapYear_feb28 in Time-7-fixed_ind3
+---- exit code: 0 | Time-7-fixed_ind3
+
+==== 2026-04-21 15:54:05 :: Time-7-fixed_ind4 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_endOfYear_differentZone in Time-7-fixed_ind4
+---- exit code: 0 | Time-7-fixed_ind4
+
+==== 2026-04-21 15:54:15 :: Time-8-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_negativeMinutesWithZeroHours in Time-8-fixed_ind1
+---- exit code: 0 | Time-8-fixed_ind1
+
+==== 2026-04-21 15:54:23 :: Time-8-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_positiveHoursNegativeMinutes in Time-8-fixed_ind2
+---- exit code: 0 | Time-8-fixed_ind2
+
+==== 2026-04-21 15:54:32 :: Time-8-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_boundaryNegativeMinutes in Time-8-fixed_ind3
+---- exit code: 0 | Time-8-fixed_ind3
+
+==== 2026-04-21 15:54:40 :: Time-9-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_boundaryHours in Time-9-fixed_ind1
+---- exit code: 0 | Time-9-fixed_ind1
+
+==== 2026-04-21 16:29:04 :: Time-9-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_edgeCaseMinutes in Time-9-fixed_ind2
+---- exit code: 0 | Time-9-fixed_ind2
+
+==== 2026-04-21 16:32:55 :: Time-10-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay_Reversed in Time-10-fixed_ind1
+---- exit code: 0 | Time-10-fixed_ind1
+
+==== 2026-04-21 16:33:04 :: Time-10-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay_Reversed in Time-10-fixed_ind2
+---- exit code: 0 | Time-10-fixed_ind2
+
+==== 2026-04-21 16:33:12 :: Time-12-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_AD in Time-12-fixed_ind1
+---- exit code: 0 | Time-12-fixed_ind1
+
+==== 2026-04-21 16:33:20 :: Time-12-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_AD in Time-12-fixed_ind2
+---- exit code: 0 | Time-12-fixed_ind2
+
+==== 2026-04-21 16:48:37 :: Time-12-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero10 in Time-12-fixed_ind3
+---- exit code: 0 | Time-12-fixed_ind3
+
+==== 2026-04-21 16:57:44 :: Time-12-fixed_ind4 ====
+>>> defects4j test -t org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero10 in Time-12-fixed_ind4
+---- exit code: 0 | Time-12-fixed_ind4
+
+==== 2026-04-21 16:57:51 :: Time-14-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestMonthDay_Basics::testPlusDays_int_negativeFromLeap in Time-14-fixed_ind1
+---- exit code: 1 | Time-14-fixed_ind1
+
+==== 2026-04-21 17:01:57 :: Time-14-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestMonthDay_Basics::testPlusMonths_int_multipleMonthsFromLeap in Time-14-fixed_ind2
+---- exit code: 0 | Time-14-fixed_ind2
+
+==== 2026-04-21 17:02:04 :: Time-14-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.TestMonthDay_Basics::testMinusDays_int_fromLeap in Time-14-fixed_ind3
+---- exit code: 1 | Time-14-fixed_ind3
+
+==== 2026-04-21 17:02:10 :: Time-15-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional1 in Time-15-fixed_ind1
+---- exit code: 0 | Time-15-fixed_ind1
+
+==== 2026-04-21 17:06:01 :: Time-15-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional2 in Time-15-fixed_ind2
+---- exit code: 0 | Time-15-fixed_ind2
+
+==== 2026-04-21 17:06:09 :: Time-15-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional3 in Time-15-fixed_ind3
+---- exit code: 0 | Time-15-fixed_ind3
+
+==== 2026-04-21 17:06:16 :: Time-15-fixed_ind4 ====
+>>> defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional4 in Time-15-fixed_ind4
+---- exit code: 0 | Time-15-fixed_ind4
+
+==== 2026-04-21 17:06:23 :: Time-15-fixed_ind5 ====
+>>> defects4j test -t org.joda.time.field.TestFieldUtils::testSafeMultiplyLongIntAdditional5 in Time-15-fixed_ind5
+---- exit code: 0 | Time-15-fixed_ind5
+
+==== 2026-04-21 17:06:31 :: Time-16-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_nonLeapYear in Time-16-fixed_ind1
+---- exit code: 0 | Time-16-fixed_ind1
+
+==== 2026-04-21 17:06:39 :: Time-16-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_dayOnly_withDefaultYear in Time-16-fixed_ind2
+---- exit code: 0 | Time-16-fixed_ind2
+
+==== 2026-04-21 17:07:41 :: Time-16-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_leapToNonLeap in Time-16-fixed_ind3
+---- exit code: 0 | Time-16-fixed_ind3
+
+==== 2026-04-21 17:07:49 :: Time-17-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset_gap in Time-17-fixed_ind1
+---- exit code: 0 | Time-17-fixed_ind1
+
+==== 2026-04-21 17:07:57 :: Time-17-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset_reverseOverlap in Time-17-fixed_ind2
+---- exit code: 0 | Time-17-fixed_ind2
+
+==== 2026-04-21 17:08:47 :: Time-18-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.chrono.TestGJChronology::testInvalidGregorianDateBeforeCutover in Time-18-fixed_ind1
+---- exit code: 0 | Time-18-fixed_ind1
+
+==== 2026-04-21 17:08:55 :: Time-18-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.chrono.TestGJChronology::testValidGregorianDateBeforeCutover in Time-18-fixed_ind2
+---- exit code: 0 | Time-18-fixed_ind2
+
+==== 2026-04-21 17:09:02 :: Time-19-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london_zeroOffset in Time-19-fixed_ind1
+---- exit code: 0 | Time-19-fixed_ind1
+
+==== 2026-04-21 17:09:10 :: Time-19-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_newYork_fallBack in Time-19-fixed_ind2
+---- exit code: 0 | Time-19-fixed_ind2
+
+==== 2026-04-21 17:09:17 :: Time-20-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZonePrefixMatch in Time-20-fixed_ind1
+---- exit code: 0 | Time-20-fixed_ind1
+
+==== 2026-04-21 17:09:25 :: Time-20-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneLongestPrefix in Time-20-fixed_ind2
+---- exit code: 0 | Time-20-fixed_ind2
+
+==== 2026-04-21 17:09:35 :: Time-22-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone_negative in Time-22-fixed_ind1
+---- exit code: 0 | Time-22-fixed_ind1
+
+==== 2026-04-21 17:09:46 :: Time-22-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDuration_Basics::testToPeriod_fixedZone_boundary in Time-22-fixed_ind2
+---- exit code: 0 | Time-22-fixed_ind2
+
+==== 2026-04-21 17:09:54 :: Time-23-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForID_String_old_additional1 in Time-23-fixed_ind1
+---- exit code: 0 | Time-23-fixed_ind1
+
+==== 2026-04-21 17:10:02 :: Time-23-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZone::testForID_String_old_additional2 in Time-23-fixed_ind2
+---- exit code: 0 | Time-23-fixed_ind2
+
+==== 2026-04-21 17:10:10 :: Time-24-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2015 in Time-24-fixed_ind1
+---- exit code: 0 | Time-24-fixed_ind1
+
+==== 2026-04-21 17:10:17 :: Time-24-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2015 in Time-24-fixed_ind2
+---- exit code: 1 | Time-24-fixed_ind2
+
+==== 2026-04-21 17:10:23 :: Time-25-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_boundary in Time-25-fixed_ind1
+---- exit code: 0 | Time-25-fixed_ind1
+
+==== 2026-04-21 17:10:31 :: Time-25-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn_edge in Time-25-fixed_ind2
+---- exit code: 0 | Time-25-fixed_ind2
+
+==== 2026-04-21 17:10:39 :: Time-26-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange_fallBack in Time-26-fixed_ind1
+---- exit code: 0 | Time-26-fixed_ind1
+
+==== 2026-04-21 17:10:47 :: Time-26-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testAddWrapFieldInDstChange in Time-26-fixed_ind2
+---- exit code: 1 | Time-26-fixed_ind2
+
+==== 2026-04-21 17:10:53 :: Time-26-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.TestDateTimeZoneCutover::testRoundFloorInDstChange in Time-26-fixed_ind3
+---- exit code: 0 | Time-26-fixed_ind3
+
+==== 2026-04-21 17:11:01 :: Time-27-fixed_ind1 ====
+>>> defects4j test -t org.joda.time.format.TestPeriodFormatterBuilder::testSeparatorWithPrinterOnly in Time-27-fixed_ind1
+---- exit code: 1 | Time-27-fixed_ind1
+
+==== 2026-04-21 17:11:07 :: Time-27-fixed_ind2 ====
+>>> defects4j test -t org.joda.time.format.TestPeriodFormatterBuilder::testSeparatorWithParserOnly in Time-27-fixed_ind2
+---- exit code: 1 | Time-27-fixed_ind2
+
+==== 2026-04-21 17:11:13 :: Time-27-fixed_ind3 ====
+>>> defects4j test -t org.joda.time.format.TestPeriodFormatterBuilder::testMultipleSeparators in Time-27-fixed_ind3
+---- exit code: 0 | Time-27-fixed_ind3
+
+
+=== Combined Test Run Summary ===
+  Time/Time-1-fixed                                       -> OK
+  Time/Time-10-fixed                                      -> OK
+  Time/Time-12-fixed                                      -> OK
+  Time/Time-13-fixed                                      -> OK
+  Time/Time-14-fixed                                      -> FAIL(1)
+  Time/Time-15-fixed                                      -> OK
+  Time/Time-16-fixed                                      -> OK
+  Time/Time-17-fixed                                      -> OK
+  Time/Time-18-fixed                                      -> OK
+  Time/Time-19-fixed                                      -> OK
+  Time/Time-2-fixed                                       -> OK
+  Time/Time-20-fixed                                      -> OK
+  Time/Time-22-fixed                                      -> OK
+  Time/Time-23-fixed                                      -> OK
+  Time/Time-24-fixed                                      -> FAIL(1)
+  Time/Time-25-fixed                                      -> OK
+  Time/Time-26-fixed                                      -> FAIL(1)
+  Time/Time-27-fixed                                      -> FAIL(1)
+  Time/Time-3-fixed                                       -> FAIL(1)
+  Time/Time-4-fixed                                       -> OK
+  Time/Time-5-fixed                                       -> FAIL(1)
+  Time/Time-6-fixed                                       -> OK
+  Time/Time-7-fixed                                       -> OK
+  Time/Time-8-fixed                                       -> OK
+  Time/Time-9-fixed                                       -> OK
+Combined total: 25 | failed: 6 | timed out: 0
+
+=== Individual Test Run Summary ===
+  Time/Time-1-fixed_ind1                                  -> OK
+  Time/Time-1-fixed_ind2                                  -> OK
+  Time/Time-10-fixed_ind1                                 -> OK
+  Time/Time-10-fixed_ind2                                 -> OK
+  Time/Time-12-fixed_ind1                                 -> OK
+  Time/Time-12-fixed_ind2                                 -> OK
+  Time/Time-12-fixed_ind3                                 -> OK
+  Time/Time-12-fixed_ind4                                 -> OK
+  Time/Time-14-fixed_ind1                                 -> FAIL(1)
+  Time/Time-14-fixed_ind2                                 -> OK
+  Time/Time-14-fixed_ind3                                 -> FAIL(1)
+  Time/Time-15-fixed_ind1                                 -> OK
+  Time/Time-15-fixed_ind2                                 -> OK
+  Time/Time-15-fixed_ind3                                 -> OK
+  Time/Time-15-fixed_ind4                                 -> OK
+  Time/Time-15-fixed_ind5                                 -> OK
+  Time/Time-16-fixed_ind1                                 -> OK
+  Time/Time-16-fixed_ind2                                 -> OK
+  Time/Time-16-fixed_ind3                                 -> OK
+  Time/Time-17-fixed_ind1                                 -> OK
+  Time/Time-17-fixed_ind2                                 -> OK
+  Time/Time-18-fixed_ind1                                 -> OK
+  Time/Time-18-fixed_ind2                                 -> OK
+  Time/Time-19-fixed_ind1                                 -> OK
+  Time/Time-19-fixed_ind2                                 -> OK
+  Time/Time-2-fixed_ind1                                  -> OK
+  Time/Time-2-fixed_ind2                                  -> OK
+  Time/Time-2-fixed_ind3                                  -> OK
+  Time/Time-20-fixed_ind1                                 -> OK
+  Time/Time-20-fixed_ind2                                 -> OK
+  Time/Time-22-fixed_ind1                                 -> OK
+  Time/Time-22-fixed_ind2                                 -> OK
+  Time/Time-23-fixed_ind1                                 -> OK
+  Time/Time-23-fixed_ind2                                 -> OK
+  Time/Time-24-fixed_ind1                                 -> OK
+  Time/Time-24-fixed_ind2                                 -> FAIL(1)
+  Time/Time-25-fixed_ind1                                 -> OK
+  Time/Time-25-fixed_ind2                                 -> OK
+  Time/Time-26-fixed_ind1                                 -> OK
+  Time/Time-26-fixed_ind2                                 -> FAIL(1)
+  Time/Time-26-fixed_ind3                                 -> OK
+  Time/Time-27-fixed_ind1                                 -> FAIL(1)
+  Time/Time-27-fixed_ind2                                 -> FAIL(1)
+  Time/Time-27-fixed_ind3                                 -> OK
+  Time/Time-3-fixed_ind1                                  -> OK
+  Time/Time-3-fixed_ind2                                  -> FAIL(1)
+  Time/Time-3-fixed_ind3                                  -> FAIL(1)
+  Time/Time-3-fixed_ind4                                  -> FAIL(1)
+  Time/Time-4-fixed_ind1                                  -> OK
+  Time/Time-4-fixed_ind2                                  -> OK
+  Time/Time-5-fixed_ind1                                  -> FAIL(1)
+  Time/Time-5-fixed_ind2                                  -> OK
+  Time/Time-6-fixed_ind1                                  -> OK
+  Time/Time-6-fixed_ind2                                  -> OK
+  Time/Time-6-fixed_ind3                                  -> OK
+  Time/Time-7-fixed_ind1                                  -> OK
+  Time/Time-7-fixed_ind2                                  -> OK
+  Time/Time-7-fixed_ind3                                  -> OK
+  Time/Time-7-fixed_ind4                                  -> OK
+  Time/Time-8-fixed_ind1                                  -> OK
+  Time/Time-8-fixed_ind2                                  -> OK
+  Time/Time-8-fixed_ind3                                  -> OK
+  Time/Time-9-fixed_ind1                                  -> OK
+  Time/Time-9-fixed_ind2                                  -> OK
+Individual total: 64 | failed: 10
+Logs : /Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/exp3/groundtruth
+
+=== Checking Combined Testcase Results ===
+  [Time] 65 | pass=48 not_pass=0 not_compilable=17 -> Time.csv
+
+[DONE combined] total=65 pass=48 not_pass=0 not_compilable=17
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth
+
+=== Checking Individual Testcase Results ===
+  [Time] 64 | pass=54 not_pass=0 not_compilable=10 -> Time.csv
+
+[DONE individual] total=64 pass=54 not_pass=0 not_compilable=10
+CSVs : /Users/grace/Documents/Paper/BugFixing/Interpretation/results/exm3/Claude/z_add_groundtruth_individual
+
+============================================================
+PHASE 5: Cleanup — deleting fixed dirs
+============================================================
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-13-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-1-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-4-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-6-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-7-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-8-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-9-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-10-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-12-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-14-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind4
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-15-fixed_ind5
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-17-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-18-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-19-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-20-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-22-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-23-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-25-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-26-fixed_ind3
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed_ind1
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed_ind2
+  [DEL] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-27-fixed_ind3
+  [DEL] empty project dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time
+
+[CLEANUP DONE] deleted=89 skipped=0

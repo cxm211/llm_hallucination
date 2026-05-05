@@ -1,0 +1,12 @@
+==== 2026-03-30 04:44:10 :: Mockito-36-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.invocation.InvocationTest::shouldScreamWhenCallingRealMethodOnInterface
+  - org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailInRuntimeWhenCallingRealMethodOnInterface
+  - org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailWhenMethodDeclaringClassIsInterface
+---- exit code: 0 | Mockito-36-buggy_ind2
+

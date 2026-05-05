@@ -1,0 +1,11 @@
+==== 2026-04-23 09:32:58 :: JacksonDatabind-8-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testStringBuilder
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testDuplicateCreatorSameClass
+---- exit code: 0 | JacksonDatabind-8-buggy_ind1
+

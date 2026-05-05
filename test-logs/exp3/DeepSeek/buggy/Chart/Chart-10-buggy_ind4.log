@@ -1,0 +1,11 @@
+==== 2026-03-26 22:40:16 :: Chart-10-buggy_ind4 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment
+  - org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragmentWithMixedSpecialChars
+---- exit code: 0 | Chart-10-buggy_ind4
+

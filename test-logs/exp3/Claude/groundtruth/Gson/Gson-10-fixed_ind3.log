@@ -1,0 +1,10 @@
+==== 2026-04-21 08:18:17 :: Gson-10-fixed_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testNullValueWithPrimitiveAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testNullValueWithPrimitiveAnnotation
+---- exit code: 0 | Gson-10-fixed_ind3
+

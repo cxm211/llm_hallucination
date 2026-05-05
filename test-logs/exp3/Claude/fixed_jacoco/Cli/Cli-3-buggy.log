@@ -1,0 +1,11 @@
+==== 2026-03-27 01:27:44 :: Cli-3-buggy ====
+[RESTORE] restored src/test/org/apache/commons/cli/PatternOptionBuilderTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern
+---- exit code: 0 | test_result: Not Pass | Cli-3-buggy
+

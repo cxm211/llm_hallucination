@@ -1,0 +1,10 @@
+==== 2026-04-21 08:08:32 :: Compress-31-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalAllSpaces
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalAllSpaces
+---- exit code: 0 | Compress-31-fixed_ind1
+

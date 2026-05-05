@@ -1,0 +1,38 @@
+==== 2026-04-26 07:15:04 :: Closure-143-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CommandLineRunnerTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 28
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testTwoFiles
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testOneFile
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testManyFiles
+  - com.google.javascript.jscomp.RemoveConstantExpressionsParallelTest::testFourFiles
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveCall2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveCall5
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall1
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testCall2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook5
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook6
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testHook7
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveAssign3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveAssign6
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveInherits2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testNoRemoveInherits4
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testShortCircuit2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testShortCircuit3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex1
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComplex4
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma2
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma3
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma4
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testComma5
+  - com.google.javascript.jscomp.RemoveConstantExpressionsTest::testRemoveFromLabel2
+---- exit code: 0 | test_result: Not Pass | Closure-143-buggy
+

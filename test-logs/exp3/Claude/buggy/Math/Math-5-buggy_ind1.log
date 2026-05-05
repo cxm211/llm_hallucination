@@ -1,0 +1,11 @@
+==== 2026-03-30 00:08:57 :: Math-5-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.complex.ComplexTest::testReciprocalZero
+  - org.apache.commons.math3.complex.ComplexTest::testReciprocalNegativeZero
+---- exit code: 0 | Math-5-buggy_ind1
+

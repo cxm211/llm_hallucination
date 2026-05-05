@@ -1,0 +1,11 @@
+==== 2026-03-30 05:42:01 :: Time-20-buggy ====
+[RESTORE] restored build/tests/org/joda/time/format/TestDateTimeFormatterBuilder.java
+[RESTORE] restored src/test/java/org/joda/time/format/TestDateTimeFormatterBuilder.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Time-20-buggy
+

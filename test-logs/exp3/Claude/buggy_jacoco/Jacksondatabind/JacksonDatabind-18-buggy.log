@@ -1,0 +1,42 @@
+==== 2026-03-28 06:33:17 :: JacksonDatabind-18-buggy ====
+[JACOCO] trigger=3 add=2 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-18-buggy/jacoco_base.exec.
+[INFO] Analyzing 490 classes.
+[JACOCO] base snapshot saved (3 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testArrayRecoveryWithMultipleErrors
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testArrayRecoveryWithMultipleErrors
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootRecoveryWithComplexNesting
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootRecoveryWithComplexNesting
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-18-buggy/jacoco.exec.
+[INFO] Analyzing 490 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 95 line rows.
+[PARSE] 95 base line rows.

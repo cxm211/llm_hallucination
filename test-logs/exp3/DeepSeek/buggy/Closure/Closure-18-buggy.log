@@ -1,0 +1,12 @@
+==== 2026-04-21 23:25:59 :: Closure-18-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.IntegrationTest::testDependencySortingMultipleFiles
+  - com.google.javascript.jscomp.IntegrationTest::testDependencySortingWithoutClosurePass
+  - com.google.javascript.jscomp.IntegrationTest::testDependencySorting
+---- exit code: 0 | Closure-18-buggy
+

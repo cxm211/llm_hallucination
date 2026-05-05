@@ -1,0 +1,12 @@
+==== 2026-03-29 15:53:19 :: Lang-60-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang.text.StrBuilderTest::testContainsWithEmptyBuffer
+  - org.apache.commons.lang.text.StrBuilderTest::testLang295
+  - org.apache.commons.lang.text.StrBuilderTest::testContainsAfterPartialDelete
+---- exit code: 0 | Lang-60-buggy
+

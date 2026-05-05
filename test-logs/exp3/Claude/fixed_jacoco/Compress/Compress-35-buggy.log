@@ -1,0 +1,14 @@
+==== 2026-03-28 02:12:49 :: Compress-35-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/compress/DetectArchiverTestCase.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.compress.DetectArchiverTestCase::testCOMPRESS335
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::aiffFilesAreNoTARs
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::testCOMPRESS209
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testVerifyHeaderCheckSum
+---- exit code: 0 | test_result: Not Pass | Compress-35-buggy
+

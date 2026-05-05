@@ -1,0 +1,11 @@
+==== 2026-04-26 03:12:54 :: Closure-113-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass
+  - com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass_multipleRequires
+---- exit code: 0 | Closure-113-buggy
+

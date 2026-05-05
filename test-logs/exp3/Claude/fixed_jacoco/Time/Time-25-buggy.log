@@ -1,0 +1,16 @@
+==== 2026-03-30 05:43:21 :: Time-25-buggy ====
+[RESTORE] restored build/tests/org/joda/time/TestDateTimeZoneCutover.java
+[RESTORE] restored src/test/java/org/joda/time/TestDateTimeZoneCutover.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+---- exit code: 0 | test_result: Not Pass | Time-25-buggy
+

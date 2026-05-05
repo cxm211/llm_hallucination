@@ -1,0 +1,11 @@
+==== 2026-03-30 00:28:10 :: Math-67-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMax
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+---- exit code: 0 | Math-67-buggy_ind1
+

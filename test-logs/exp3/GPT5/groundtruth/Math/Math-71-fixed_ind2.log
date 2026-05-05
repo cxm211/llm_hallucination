@@ -1,0 +1,10 @@
+==== 2026-04-28 23:53:21 :: Math-71-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testStartEventImmediate
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testStartEventImmediate
+---- exit code: 0 | Math-71-fixed_ind2
+

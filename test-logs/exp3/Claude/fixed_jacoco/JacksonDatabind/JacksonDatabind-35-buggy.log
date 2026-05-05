@@ -1,0 +1,15 @@
+==== 2026-03-28 11:16:48 :: JacksonDatabind-35-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/jsontype/WrapperObjectWithObjectIdTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testCustomTypeIdResolver
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testInvalidTypeId511
+  - com.fasterxml.jackson.databind.jsontype.TestTypeNames::testRoundTrip
+  - com.fasterxml.jackson.databind.jsontype.TestTypeNames::testRoundTripMap
+  - com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest::testSimple
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-35-buggy
+

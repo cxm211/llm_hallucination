@@ -1,0 +1,31 @@
+==== 2026-03-27 08:20:53 :: Closure-142-buggy_ind4 ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CoalesceVariableNamesTest::testParameter4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CoalesceVariableNamesTest::testParameter4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseWithAnnotation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseWithAnnotation
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-142-buggy_ind4/jacoco_base.exec.
+[INFO] Analyzing 849 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseWithAnnotationAtStart
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-142-buggy_ind4/jacoco.exec.
+[INFO] Analyzing 849 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 124 line rows.
+[PARSE] 124 base line rows.

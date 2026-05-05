@@ -1,0 +1,11 @@
+==== 2026-03-27 04:10:27 :: Closure-25-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNewWithNestedObject
+---- exit code: 0 | Closure-25-buggy_ind2
+

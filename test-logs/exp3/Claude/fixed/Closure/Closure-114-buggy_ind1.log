@@ -1,0 +1,62 @@
+==== 2026-03-27 15:05:50 :: Closure-114-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 30
+  - com.google.javascript.jscomp.IntegrationTest::testSmartNamePass
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExpressions1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveDeclaration4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testArrayAliasExt
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExternalAliasInstanceof2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf4a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssign5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct13
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook2a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCallNested
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssigns1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoRemoveWindowPropertyAlias6a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoRemoveWindowPropertyAlias7a
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874b
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874c
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874d
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue874e
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn4
+---- exit code: 0 | Closure-114-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCallNested
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCallNested
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-114-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 1226 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-114-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 1226 classes.
+>>> [JACOCO] done

@@ -1,0 +1,53 @@
+==== 2026-03-27 10:24:56 :: Closure-16-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772_withoutDot
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772_deeperNesting
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772_nullQualifiedName
+---- exit code: 0 | Closure-16-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 3, total: 5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIssue772
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue772_nullQualifiedName
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772_nullQualifiedName
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testIssue772_deeperNesting
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772_deeperNesting
+[JACOCO] defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIssue772_withoutDot
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772_withoutDot
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-16-buggy/jacoco_base.exec.
+[INFO] Analyzing 1162 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-16-buggy/jacoco.exec.
+[INFO] Analyzing 1162 classes.
+>>> [JACOCO] done

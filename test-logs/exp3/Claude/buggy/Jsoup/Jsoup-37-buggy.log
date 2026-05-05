@@ -1,0 +1,12 @@
+==== 2026-03-31 21:05:33 :: Jsoup-37-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.ElementTest::testNotPrettyWithLeadingWhitespace
+  - org.jsoup.nodes.ElementTest::testNotPrettyWithTrailingWhitespace
+  - org.jsoup.nodes.ElementTest::testNotPretty
+---- exit code: 0 | Jsoup-37-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-26 00:26:28 :: JacksonCore-26-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/json/async/AsyncLocationTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsets
+---- exit code: 0 | test_result: Not Pass | JacksonCore-26-buggy
+

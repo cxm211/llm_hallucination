@@ -1,0 +1,10 @@
+==== 2026-04-22 00:57:08 :: Closure-8-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CollapseVariableDeclarationsTest::testIssue820
+---- exit code: 0 | Closure-8-buggy_ind1
+

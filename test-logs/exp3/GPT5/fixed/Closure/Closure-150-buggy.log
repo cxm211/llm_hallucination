@@ -1,0 +1,28 @@
+==== 2026-04-26 05:53:26 :: Closure-150-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+---- exit code: 0 | Closure-150-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-150-buggy/jacoco.exec.
+[INFO] Analyzing 960 classes.
+>>> [JACOCO] done

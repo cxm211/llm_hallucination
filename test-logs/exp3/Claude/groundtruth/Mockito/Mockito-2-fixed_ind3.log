@@ -1,0 +1,9 @@
+==== 2026-04-21 19:30:25 :: Mockito-2-fixed_ind3 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -t org.mockito.internal.util.TimerTest::should_throw_friendly_reminder_exception_when_duration_is_large_negative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-2-fixed_ind3
+

@@ -1,0 +1,72 @@
+==== 2026-03-27 06:42:46 :: Closure-26-buggy ====
+[JACOCO] trigger=7 add=4 total=11
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-26-buggy/jacoco_base.exec.
+[INFO] Analyzing 1150 classes.
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testNullFilename
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testNullFilename
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testEmptyFilename
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testEmptyFilename
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testFilenameWithoutPrefix
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testFilenameWithoutPrefix
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJSWithModuleExports
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJSWithModuleExports
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-26-buggy/jacoco.exec.
+[INFO] Analyzing 1150 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 26 line rows.
+[PARSE] 26 base line rows.

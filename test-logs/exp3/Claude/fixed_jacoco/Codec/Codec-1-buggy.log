@@ -1,0 +1,11 @@
+==== 2026-03-27 20:15:52 :: Codec-1-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/StringEncoderAbstractTest.java
+[RESTORE] restored target/tests/org/apache/commons/codec/StringEncoderAbstractTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Codec-1-buggy
+

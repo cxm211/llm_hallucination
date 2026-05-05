@@ -1,0 +1,34 @@
+==== 2026-04-22 03:56:34 :: Closure-10-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-10-buggy/jacoco_base.exec.
+[INFO] Analyzing 1205 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testMayBeStringTernaryAdd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testMayBeStringTernaryAdd
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testMayBeStringTwoTernaryAdd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testMayBeStringTwoTernaryAdd
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testMayBeStringLogicalOrAdd
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testMayBeStringLogicalOrAdd
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-10-buggy/jacoco.exec.
+[INFO] Analyzing 1205 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 7 line rows.
+[PARSE] 7 base line rows.

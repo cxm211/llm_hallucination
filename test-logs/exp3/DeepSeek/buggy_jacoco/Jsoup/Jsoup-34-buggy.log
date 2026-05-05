@@ -1,0 +1,39 @@
+==== 2026-04-24 04:56:10 :: Jsoup-34-buggy ====
+[JACOCO] trigger=2 add=3 total=5
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::nextIndexOfUnmatched
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfUnmatched
+[JACOCO] defects4j test -t org.jsoup.parser.HtmlParserTest::handlesUnclosedCdataAtEOF
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedCdataAtEOF
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-34-buggy/jacoco_base.exec.
+[INFO] Analyzing 211 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::nextIndexOfInsufficientLengthImmediate
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfInsufficientLengthImmediate
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::nextIndexOfInsufficientLengthAfterSkip
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfInsufficientLengthAfterSkip
+[JACOCO] defects4j test -t org.jsoup.parser.CharacterReaderTest::nextIndexOfSurrogateInsufficientLength
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.CharacterReaderTest::nextIndexOfSurrogateInsufficientLength
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-34-buggy/jacoco.exec.
+[INFO] Analyzing 211 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 17 line rows.
+[PARSE] 17 base line rows.

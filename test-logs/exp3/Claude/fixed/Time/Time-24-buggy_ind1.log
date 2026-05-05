@@ -1,0 +1,71 @@
+==== 2026-03-30 05:30:53 :: Time-24-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2015
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+---- exit code: 0 | Time-24-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 7, add tests: 1, total: 8
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2015
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2015
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 202 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-24-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 202 classes.
+>>> [JACOCO] done

@@ -1,0 +1,13 @@
+==== 2026-04-26 03:44:20 :: Closure-24-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-24-buggy/jacoco.exec.
+[INFO] Analyzing 1150 classes.
+[JACOCO] done.
+[PARSE] 26 line rows.

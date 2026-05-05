@@ -1,0 +1,18 @@
+==== 2026-03-27 05:58:43 :: Closure-141-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression2
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression7
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDecomposeAnonymousInCall
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionWithNestedAnonymous
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+---- exit code: 0 | Closure-141-buggy_ind2
+

@@ -1,0 +1,77 @@
+==== 2026-03-30 10:17:03 :: Mockito-20-buggy_ind1 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.mockitousage.annotation.SpyAnnotationTest::should_report_instantiation_exception_with_correct_class_name
+  - org.mockitousage.annotation.SpyAnnotationTest::should_spy_inner_class
+  - org.mockitousage.annotation.SpyAnnotationTest::should_report_when_constructor_is_explosive
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_not_found
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::mocking_inner_classes_with_wrong_outer_instance
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+---- exit code: 0 | Mockito-20-buggy_ind1
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 8, add tests: 1, total: 9
+[JACOCO] defects4j test -t org.mockitousage.annotation.SpyAnnotationTest::should_spy_inner_class
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.SpyAnnotationTest::should_spy_inner_class
+[JACOCO] defects4j test -t org.mockitousage.annotation.SpyAnnotationTest::should_report_when_constructor_is_explosive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.SpyAnnotationTest::should_report_when_constructor_is_explosive
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_not_found
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_not_found
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::mocking_inner_classes_with_wrong_outer_instance
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::mocking_inner_classes_with_wrong_outer_instance
+[JACOCO] defects4j test -t org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+[JACOCO] base snapshot saved (8 trigger tests)
+[JACOCO] defects4j test -t org.mockitousage.annotation.SpyAnnotationTest::should_report_instantiation_exception_with_correct_class_name
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.SpyAnnotationTest::should_report_instantiation_exception_with_correct_class_name
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-buggy_ind1/jacoco_base.exec.
+[INFO] Analyzing 326 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-20-buggy_ind1/jacoco.exec.
+[INFO] Analyzing 326 classes.
+>>> [JACOCO] done

@@ -1,0 +1,11 @@
+==== 2026-03-27 18:02:33 :: Closure-140-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CrossModuleCodeMotionTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CrossModuleCodeMotionTest::testEmptyModule
+---- exit code: 0 | test_result: Not Pass | Closure-140-buggy
+

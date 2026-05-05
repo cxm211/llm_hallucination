@@ -1,0 +1,11 @@
+==== 2026-04-21 06:31:31 :: Closure-133-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtentsMultiLine
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtentsWithInlineTag
+---- exit code: 0 | Closure-133-fixed
+

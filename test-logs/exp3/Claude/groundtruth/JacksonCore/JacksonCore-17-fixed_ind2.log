@@ -1,0 +1,9 @@
+==== 2026-04-21 08:25:59 :: JacksonCore-17-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest::testRawWithMultipleSurrogatePairs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | JacksonCore-17-fixed_ind2
+

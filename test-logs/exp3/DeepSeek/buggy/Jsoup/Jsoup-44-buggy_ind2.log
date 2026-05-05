@@ -1,0 +1,10 @@
+==== 2026-04-24 04:43:44 :: Jsoup-44-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.HtmlParserTest::testInvalidTableContents
+---- exit code: 0 | Jsoup-44-buggy_ind2
+

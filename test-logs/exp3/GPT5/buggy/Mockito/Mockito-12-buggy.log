@@ -1,0 +1,20 @@
+==== 2026-04-28 15:57:32 :: Mockito-12-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithWildcardGenerics
+  - org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics
+  - org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor
+  - org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay
+  - org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList
+  - org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor
+  - org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor
+  - org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage
+  - org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton
+  - org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass
+  - org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses
+---- exit code: 0 | Mockito-12-buggy
+

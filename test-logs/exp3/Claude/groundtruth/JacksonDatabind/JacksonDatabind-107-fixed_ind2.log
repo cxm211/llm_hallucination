@@ -1,0 +1,10 @@
+==== 2026-04-21 10:29:29 :: JacksonDatabind-107-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testHandlerReturnsNull
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testHandlerReturnsNull
+---- exit code: 0 | JacksonDatabind-107-fixed_ind2
+

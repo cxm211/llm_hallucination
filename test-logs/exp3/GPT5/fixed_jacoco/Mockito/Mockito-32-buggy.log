@@ -1,0 +1,11 @@
+==== 2026-04-28 19:25:25 :: Mockito-32-buggy ====
+[RESTORE] restored target/eclipse-classes/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+[RESTORE] restored test/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | Mockito-32-buggy
+

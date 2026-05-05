@@ -1,0 +1,57 @@
+==== 2026-04-24 01:58:11 :: Codec-1-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+  - org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+---- exit code: 0 | Codec-1-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 2, total: 7
+[JACOCO] defects4j test -t org.apache.commons.codec.language.CaverphoneTest::testLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testLocaleIndependence
+[JACOCO] defects4j test -t org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.language.MetaphoneTest::testLocaleIndependence
+[JACOCO] defects4j test -t org.apache.commons.codec.language.RefinedSoundexTest::testLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.codec.language.SoundexTest::testLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (5 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.codec.StringEncoderAbstractTest::testCaverphoneLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.StringEncoderAbstractTest
+[JACOCO] defects4j test -t org.apache.commons.codec.StringEncoderAbstractTest::testSoundexCleanLocaleIndependence
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.StringEncoderAbstractTest
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-1-buggy/jacoco_base.exec.
+[INFO] Analyzing 20 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-1-buggy/jacoco.exec.
+[INFO] Analyzing 20 classes.
+>>> [JACOCO] done

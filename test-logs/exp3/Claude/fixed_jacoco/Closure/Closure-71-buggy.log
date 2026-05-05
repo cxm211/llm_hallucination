@@ -1,0 +1,12 @@
+==== 2026-03-27 17:41:38 :: Closure-71-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/CheckAccessControlsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8
+---- exit code: 0 | test_result: Not Pass | Closure-71-buggy
+

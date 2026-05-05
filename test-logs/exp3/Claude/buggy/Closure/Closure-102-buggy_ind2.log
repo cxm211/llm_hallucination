@@ -1,0 +1,11 @@
+==== 2026-03-27 05:21:53 :: Closure-102-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CompilerRunnerTest::testIssue115_multipleShadowing
+  - com.google.javascript.jscomp.CompilerRunnerTest::testIssue115
+---- exit code: 0 | Closure-102-buggy_ind2
+

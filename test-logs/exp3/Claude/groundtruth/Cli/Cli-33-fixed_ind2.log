@@ -1,0 +1,10 @@
+==== 2026-04-21 15:41:49 :: Cli-33-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextLongWordAfterWrapWithIndent
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextLongWordAfterWrapWithIndent
+---- exit code: 0 | Cli-33-fixed_ind2
+

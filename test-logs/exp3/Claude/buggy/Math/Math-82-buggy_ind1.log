@@ -1,0 +1,11 @@
+==== 2026-03-30 00:31:31 :: Math-82-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testPivotRowWithZeroEntry
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath288
+---- exit code: 0 | Math-82-buggy_ind1
+

@@ -1,0 +1,14 @@
+==== 2026-04-24 04:32:28 :: Jsoup-11-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.select.SelectorTest::notAll
+  - org.jsoup.select.SelectorTest::commaInsideAttribute
+  - org.jsoup.select.SelectorTest::testPseudoHas
+  - org.jsoup.select.SelectorTest::notClass
+  - org.jsoup.select.SelectorTest::notParas
+---- exit code: 0 | Jsoup-11-buggy
+

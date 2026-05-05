@@ -1,0 +1,11 @@
+==== 2026-03-28 05:57:59 :: JacksonDatabind-88-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheckWithSubtype
+  - com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735
+---- exit code: 0 | JacksonDatabind-88-buggy_ind1
+

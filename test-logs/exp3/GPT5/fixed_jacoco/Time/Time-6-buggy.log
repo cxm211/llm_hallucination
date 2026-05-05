@@ -1,0 +1,14 @@
+==== 2026-04-28 04:27:57 :: Time-6-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/chrono/TestGJDate.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover
+---- exit code: 0 | test_result: Not Pass | Time-6-buggy
+

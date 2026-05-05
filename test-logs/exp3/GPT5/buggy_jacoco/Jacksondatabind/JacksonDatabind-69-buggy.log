@@ -1,0 +1,13 @@
+==== 2026-04-26 18:07:31 :: JacksonDatabind-69-buggy ====
+[JACOCO] trigger=1 add=0 total=1
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.creators.Creator1476Test::testConstructorChoice
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.creators.Creator1476Test::testConstructorChoice
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-69-buggy/jacoco.exec.
+[INFO] Analyzing 501 classes.
+[JACOCO] done.
+[PARSE] 77 line rows.

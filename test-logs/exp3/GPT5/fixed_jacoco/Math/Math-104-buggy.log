@@ -1,0 +1,11 @@
+==== 2026-04-28 23:29:29 :: Math-104-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.special.GammaTest::testRegularizedGammaPositivePositive
+---- exit code: 0 | test_result: Not Pass | Math-104-buggy
+

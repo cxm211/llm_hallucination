@@ -1,0 +1,12 @@
+==== 2026-04-24 08:04:53 :: Math-99-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.util.MathUtilsTest::testLcmAdditionalOverflow
+  - org.apache.commons.math.util.MathUtilsTest::testGcd
+  - org.apache.commons.math.util.MathUtilsTest::testLcm
+---- exit code: 0 | Math-99-buggy
+

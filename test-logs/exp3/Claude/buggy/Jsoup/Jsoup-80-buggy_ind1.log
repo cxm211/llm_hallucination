@@ -1,0 +1,10 @@
+==== 2026-03-31 21:48:42 :: Jsoup-80-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::handlesDodgyXmlDecl
+---- exit code: 0 | Jsoup-80-buggy_ind1
+

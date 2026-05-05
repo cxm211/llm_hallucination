@@ -1,0 +1,12 @@
+==== 2026-03-30 06:39:35 :: Math-52-buggy ====
+[RESTORE] restored src/test/java/org/apache/commons/math/geometry/euclidean/threed/RotationTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.geometry.euclidean.threed.RotationTest::testVectorTwoPairs
+  - org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639
+---- exit code: 0 | test_result: Not Pass | Math-52-buggy
+

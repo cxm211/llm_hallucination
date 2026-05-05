@@ -1,0 +1,12 @@
+==== 2026-03-29 18:30:26 :: Lang-45-buggy ====
+[RESTORE] restored src/test/org/apache/commons/lang/WordUtilsTest.java
+[RESTORE] restored target/tests/org/apache/commons/lang/WordUtilsTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.WordUtilsTest::testAbbreviate
+---- exit code: 0 | test_result: Not Pass | Lang-45-buggy
+

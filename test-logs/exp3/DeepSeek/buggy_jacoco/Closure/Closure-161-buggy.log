@@ -1,0 +1,29 @@
+==== 2026-04-22 06:27:37 :: Closure-161-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue522
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue522
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-161-buggy/jacoco_base.exec.
+[INFO] Analyzing 1103 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testArrayAccessCompoundAssignment
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testArrayAccessCompoundAssignment
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testArrayAccessIncDec
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testArrayAccessIncDec
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-161-buggy/jacoco.exec.
+[INFO] Analyzing 1103 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 45 line rows.
+[PARSE] 45 base line rows.

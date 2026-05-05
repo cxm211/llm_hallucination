@@ -1,0 +1,11 @@
+==== 2026-03-30 00:19:28 :: Math-38-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithBoundaryInterpolationPoints
+  - org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints
+---- exit code: 0 | Math-38-buggy_ind2
+

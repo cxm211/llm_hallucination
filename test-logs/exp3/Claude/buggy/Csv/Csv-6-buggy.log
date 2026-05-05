@@ -1,0 +1,13 @@
+==== 2026-03-28 00:37:38 :: Csv-6-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.csv.CSVRecordTest::testToMapWithSingleColumnShort
+  - org.apache.commons.csv.CSVRecordTest::testToMapWithMultipleColumnsShort
+  - org.apache.commons.csv.CSVRecordTest::testToMapWithShortRecord
+  - org.apache.commons.csv.CSVRecordTest::testToMapWithEmptyRecord
+---- exit code: 0 | Csv-6-buggy
+

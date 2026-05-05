@@ -1,0 +1,15 @@
+==== 2026-04-22 02:51:58 :: Closure-138-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArrayOnNull
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArrayOnNumber
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunctionOnNull
+  - com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsObjectOnNull
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124
+---- exit code: 0 | Closure-138-buggy_ind2
+

@@ -1,0 +1,12 @@
+==== 2026-04-22 00:06:00 :: Closure-87-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291_computedEvent
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291_onclick
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291
+---- exit code: 0 | Closure-87-buggy
+

@@ -1,0 +1,9 @@
+==== 2026-04-21 20:06:39 :: Mockito-24-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest::should_compare_to_return_nonzero_when_comparing_different_mocks
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Mockito-24-fixed_ind2
+

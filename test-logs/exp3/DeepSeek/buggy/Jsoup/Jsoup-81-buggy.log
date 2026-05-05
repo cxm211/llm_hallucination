@@ -1,0 +1,11 @@
+==== 2026-04-24 04:38:52 :: Jsoup-81-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.helper.DataUtilTest::supportsXmlCharsetDeclarationWithComment
+  - org.jsoup.helper.DataUtilTest::supportsXmlCharsetDeclaration
+---- exit code: 0 | Jsoup-81-buggy
+

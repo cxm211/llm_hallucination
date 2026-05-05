@@ -1,0 +1,11 @@
+==== 2026-04-29 12:11:52 :: Gson-13-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.stream.JsonReaderTest::testNegativeZeroTopLevel
+  - com.google.gson.stream.JsonReaderTest::testNegativeZero
+---- exit code: 0 | Gson-13-buggy
+

@@ -1,0 +1,39 @@
+==== 2026-04-23 00:14:13 :: Closure-81-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testLinenoDeclaration
+  - com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatementNewline
+  - com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement
+  - com.google.javascript.jscomp.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput2
+  - com.google.javascript.jscomp.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput3
+  - com.google.javascript.jscomp.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput4
+---- exit code: 0 | Closure-81-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatementNewline
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatementNewline
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-81-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 991 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-81-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 991 classes.
+>>> [JACOCO] done

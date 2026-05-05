@@ -1,0 +1,10 @@
+==== 2026-04-24 08:19:35 :: Math-74-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::polynomial
+---- exit code: 0 | Math-74-buggy_ind1
+

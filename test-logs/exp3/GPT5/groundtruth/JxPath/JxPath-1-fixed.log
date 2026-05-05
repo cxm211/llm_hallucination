@@ -1,0 +1,11 @@
+==== 2026-04-29 01:44:48 :: JxPath-1-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNodeAxisOnAttributes
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testNodeAxisOnAttributes
+---- exit code: 0 | JxPath-1-fixed
+

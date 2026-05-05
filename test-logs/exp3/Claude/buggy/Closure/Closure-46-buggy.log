@@ -1,0 +1,14 @@
+==== 2026-03-27 02:59:11 :: Closure-46-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType_NoCommonProperties
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf_NoCommonProperties
+---- exit code: 0 | Closure-46-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-04-24 03:22:04 :: Compress-31-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.compress.archivers.TarTestCase::testCOMPRESS178
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalEmbeddedNulNoLeadingSpace
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalEmbeddedNulAfterSpace
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+---- exit code: 0 | Compress-31-buggy
+

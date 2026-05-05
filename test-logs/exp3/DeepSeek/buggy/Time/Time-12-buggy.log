@@ -1,0 +1,21 @@
+==== 2026-04-24 14:53:58 :: Time-12-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero_comprehensive
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+  - org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero_comprehensive
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero_comprehensive
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+  - org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero_comprehensive
+---- exit code: 0 | Time-12-buggy
+

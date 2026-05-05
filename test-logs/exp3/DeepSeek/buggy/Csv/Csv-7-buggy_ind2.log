@@ -1,0 +1,10 @@
+==== 2026-04-26 01:39:47 :: Csv-7-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVParserTest::testDuplicateHeaderEntries
+---- exit code: 0 | Csv-7-buggy_ind2
+

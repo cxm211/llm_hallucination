@@ -1,0 +1,57 @@
+==== 2026-03-27 11:18:48 :: Closure-86-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValueNewExpressions
+---- exit code: 0 | Closure-86-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 7, add tests: 1, total: 8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (7 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NodeUtilTest::testLocalValueNewExpressions
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValueNewExpressions
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-86-buggy/jacoco_base.exec.
+[INFO] Analyzing 990 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-86-buggy/jacoco.exec.
+[INFO] Analyzing 990 classes.
+>>> [JACOCO] done

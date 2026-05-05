@@ -1,0 +1,12 @@
+==== 2026-03-30 03:11:37 :: Time-7-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_leapYear_march
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear
+---- exit code: 0 | Time-7-buggy_ind2
+

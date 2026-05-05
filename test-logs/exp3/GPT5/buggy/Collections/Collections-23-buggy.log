@@ -1,0 +1,12 @@
+==== 2026-04-29 17:21:11 :: Collections-23-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.collections4.TrieUtilsTest::testUnmodifiableTrieWithAlreadyUnmodifiableFromOtherFactory
+  - org.apache.commons.collections4.TrieUtilsTest::testUnmodifiableTrie
+  - org.apache.commons.collections4.trie.UnmodifiableTrieTest::testDecorateFactory
+---- exit code: 0 | Collections-23-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-22 17:10:14 :: Chart-6-buggy_ind2 ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.chart.util.junit.ShapeListTests::testSerialization
+  - org.jfree.chart.util.junit.ShapeListTests::testEquals
+---- exit code: 0 | Chart-6-buggy_ind2
+

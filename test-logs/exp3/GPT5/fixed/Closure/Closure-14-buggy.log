@@ -1,0 +1,51 @@
+==== 2026-04-26 04:35:55 :: Closure-14-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFoldWithMarkers1a
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFoldWithMarkers1
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testFoldWithMarkers2
+  - com.google.javascript.jscomp.IntegrationTest::testCoaleseVariables
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSubsituteBreakForThrow
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveDuplicateThrow
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldReturns
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveDuplicateReturn
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveElseCause2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSubsituteReturn
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testRemoveUnreachableCode
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testSwitchCase
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testUselessUnconditionalReturn
+---- exit code: 0 | Closure-14-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 3, add tests: 0, total: 3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-14-buggy/jacoco.exec.
+[INFO] Analyzing 1162 classes.
+>>> [JACOCO] done

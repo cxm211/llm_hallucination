@@ -1,0 +1,39 @@
+==== 2026-04-01 01:24:02 :: Jsoup-61-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.select.ElementsTest::hasClassCaseInsensitive
+  - org.jsoup.select.SelectorTest::testByClassCaseInsensitive
+---- exit code: 0 | Jsoup-61-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 1, total: 3
+[JACOCO] defects4j test -t org.jsoup.select.ElementsTest::hasClassCaseInsensitive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.ElementsTest::hasClassCaseInsensitive
+[JACOCO] defects4j test -t org.jsoup.select.SelectorTest::testByClassCaseInsensitive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.select.SelectorTest::testByClassCaseInsensitive
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.select.ElementsTest::hasClassWithEmptyClassAttribute
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-61-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 223 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-61-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 223 classes.
+>>> [JACOCO] done

@@ -1,0 +1,10 @@
+==== 2026-04-28 19:38:44 :: Mockito-12-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithWildcardGenerics
+---- exit code: 0 | Mockito-12-fixed
+

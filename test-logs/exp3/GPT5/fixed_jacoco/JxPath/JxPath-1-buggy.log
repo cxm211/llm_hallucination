@@ -1,0 +1,11 @@
+==== 2026-04-29 01:42:04 :: JxPath-1-buggy ====
+[RESTORE] restored src/test/org/apache/commons/jxpath/ri/model/dom/DOMModelTest.java
+[RESTORE] restored src/test/org/apache/commons/jxpath/ri/model/jdom/JDOMModelTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | JxPath-1-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-23 06:22:04 :: Closure-70-fixed_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDeclNoJsDoc
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDeclNoJsDoc
+---- exit code: 0 | Closure-70-fixed_ind1
+

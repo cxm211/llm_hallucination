@@ -1,0 +1,11 @@
+==== 2026-04-27 02:15:55 :: Chart-5-buggy ====
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jfree.data.xy.junit.XYSeriesTests::testAddDuplicateMaintainsOrderWithAutoSort
+  - org.jfree.data.xy.junit.XYSeriesTests::testBug1955483
+---- exit code: 0 | Chart-5-buggy
+

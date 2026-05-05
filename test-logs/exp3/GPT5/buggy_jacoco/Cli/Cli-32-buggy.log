@@ -1,0 +1,29 @@
+==== 2026-04-28 00:42:38 :: Cli-32-buggy ====
+[JACOCO] trigger=2 add=1 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextWordCut
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testRenderWrappedTextWordCut
+[JACOCO] defects4j test -t org.apache.commons.cli.HelpFormatterTest::testFindWrapPos
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testFindWrapPos
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy/jacoco_base.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.HelpFormatterTest::testFindWrapPosNewlineWithinWidthFromOffset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.HelpFormatterTest::testFindWrapPosNewlineWithinWidthFromOffset
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-32-buggy/jacoco.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 42 line rows.
+[PARSE] 42 base line rows.

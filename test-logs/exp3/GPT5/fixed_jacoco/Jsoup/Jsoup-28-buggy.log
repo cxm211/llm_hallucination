@@ -1,0 +1,16 @@
+==== 2026-04-27 04:54:53 :: Jsoup-28-buggy ====
+[RESTORE] restored src/test/java/org/jsoup/nodes/EntitiesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.jsoup.nodes.DocumentTest::testXhtmlReferences
+  - org.jsoup.nodes.EntitiesTest::unescape
+  - org.jsoup.nodes.EntitiesTest::noSpuriousDecodes
+  - org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+  - org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+  - org.jsoup.safety.CleanerTest::supplyOutputSettings
+---- exit code: 0 | test_result: Not Pass | Jsoup-28-buggy
+

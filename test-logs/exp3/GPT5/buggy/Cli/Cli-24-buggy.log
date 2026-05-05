@@ -1,0 +1,10 @@
+==== 2026-04-28 00:37:49 :: Cli-24-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.bug.BugCLI162Test::testLongLineChunkingIndentIgnored
+---- exit code: 0 | Cli-24-buggy
+

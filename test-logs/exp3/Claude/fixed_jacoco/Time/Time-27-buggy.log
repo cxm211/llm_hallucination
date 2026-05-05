@@ -1,0 +1,11 @@
+==== 2026-03-30 05:43:52 :: Time-27-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455
+---- exit code: 0 | test_result: Not Pass | Time-27-buggy
+

@@ -1,0 +1,15 @@
+==== 2026-04-22 00:28:04 :: Closure-137-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion3
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion4
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testArguments
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testShallowTraversalFunctionDeclaration
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext1
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations2
+---- exit code: 0 | Closure-137-buggy
+

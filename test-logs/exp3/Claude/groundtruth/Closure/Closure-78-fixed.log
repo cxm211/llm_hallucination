@@ -1,0 +1,11 @@
+==== 2026-04-21 06:14:11 :: Closure-78-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldModuloByZero
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldDivideByZero
+---- exit code: 0 | Closure-78-fixed
+

@@ -1,0 +1,10 @@
+==== 2026-03-28 04:17:00 :: JacksonDatabind-110-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.jdk.UtilCollectionsTypesTest::testUnmodifiableListFromLinkedList
+---- exit code: 0 | JacksonDatabind-110-buggy
+

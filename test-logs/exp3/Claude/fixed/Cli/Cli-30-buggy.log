@@ -1,0 +1,87 @@
+==== 2026-03-27 00:58:34 :: Cli-30-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+---- exit code: 0 | Cli-30-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 9, add tests: 3, total: 12
+[JACOCO] defects4j test -t org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+[JACOCO] defects4j test -t org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.DefaultParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+[JACOCO] base snapshot saved (9 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.ParserTestCase::testPropertyOptionFalseValue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParserTestCase
+[JACOCO] defects4j test -t org.apache.commons.cli.ParserTestCase::testPropertyOptionWithArg
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParserTestCase
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionGroupTest::testThreeOptionsFromTwoGroups
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-30-buggy/jacoco_base.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-30-buggy/jacoco.exec.
+[INFO] Analyzing 22 classes.
+>>> [JACOCO] done

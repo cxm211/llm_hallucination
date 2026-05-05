@@ -1,0 +1,17 @@
+==== 2026-03-30 00:06:19 :: Math-102-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare
+  - org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareMinimalLength
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare
+  - org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareMinimalLength
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare
+---- exit code: 0 | Math-102-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-04-24 04:37:41 :: Jsoup-69-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.FormElementTest::removeFormElement
+  - org.jsoup.nodes.FormElementTest::removeTextareaFormElement
+  - org.jsoup.nodes.FormElementTest::removeSelectFormElement
+---- exit code: 0 | Jsoup-69-buggy
+

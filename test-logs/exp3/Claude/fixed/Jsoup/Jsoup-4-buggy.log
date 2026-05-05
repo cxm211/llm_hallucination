@@ -1,0 +1,51 @@
+==== 2026-03-31 22:50:50 :: Jsoup-4-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.nodes.EntitiesTest::escape
+  - org.jsoup.nodes.EntitiesTest::caseSensitive
+  - org.jsoup.nodes.EntitiesTest::unescapeUnknownEntity
+  - org.jsoup.nodes.EntitiesTest::unescapeOutOfRangeNumeric
+---- exit code: 0 | Jsoup-4-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 2, add tests: 3, total: 5
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::escape
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::escape
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::caseSensitive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::caseSensitive
+[JACOCO] base snapshot saved (2 trigger tests)
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescapeUnknownEntity
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::unescapeUnknownEntity
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescapeOutOfRangeNumeric
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::unescapeOutOfRangeNumeric
+[JACOCO] defects4j test -t org.jsoup.nodes.EntitiesTest::unescapeMixedValidInvalid
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-4-buggy/jacoco_base.exec.
+[INFO] Analyzing 57 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-4-buggy/jacoco.exec.
+[INFO] Analyzing 57 classes.
+>>> [JACOCO] done

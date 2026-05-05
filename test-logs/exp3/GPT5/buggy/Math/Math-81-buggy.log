@@ -1,0 +1,10 @@
+==== 2026-04-28 21:33:37 :: Math-81-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplTest::testMath308
+---- exit code: 0 | Math-81-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-04-23 05:48:57 :: Closure-153-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateFunctionInExternsNoSuppression
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateVarInExternsNoSuppression
+---- exit code: 0 | Closure-153-fixed
+

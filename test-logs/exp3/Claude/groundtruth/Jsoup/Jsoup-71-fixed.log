@@ -1,0 +1,11 @@
+==== 2026-04-21 10:42:07 :: Jsoup-71-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.select.SelectorTest::matchTextNthChild
+  - org.jsoup.select.SelectorTest::matchTextWithCombinator
+---- exit code: 0 | Jsoup-71-fixed
+

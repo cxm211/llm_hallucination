@@ -1,0 +1,11 @@
+==== 2026-03-30 00:30:34 :: Math-78-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.ode.events.EventStateTest::backwardCloseEvents
+  - org.apache.commons.math.ode.events.EventStateTest::closeEvents
+---- exit code: 0 | Math-78-buggy_ind1
+

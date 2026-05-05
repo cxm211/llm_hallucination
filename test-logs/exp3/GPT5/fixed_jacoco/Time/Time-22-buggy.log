@@ -1,0 +1,13 @@
+==== 2026-04-28 04:30:43 :: Time-22-buggy ====
+[RESTORE] restored build/tests/org/joda/time/TestDuration_Basics.java
+[RESTORE] restored src/test/java/org/joda/time/TestDuration_Basics.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+---- exit code: 0 | test_result: Not Pass | Time-22-buggy
+

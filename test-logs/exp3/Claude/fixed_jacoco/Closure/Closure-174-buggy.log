@@ -1,0 +1,13 @@
+==== 2026-03-27 18:17:23 :: Closure-174-buggy ====
+[RESTORE] restored test/com/google/javascript/jscomp/ScopedAliasesTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+---- exit code: 0 | test_result: Not Pass | Closure-174-buggy
+

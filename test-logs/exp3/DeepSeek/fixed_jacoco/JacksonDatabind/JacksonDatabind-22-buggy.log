@@ -1,0 +1,13 @@
+==== 2026-04-23 22:29:05 :: JacksonDatabind-22-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/ser/TestJsonValue.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestJsonValue::testWithList
+  - com.fasterxml.jackson.databind.ser.TestJsonValue::testWithMap
+---- exit code: 0 | test_result: Not Pass | JacksonDatabind-22-buggy
+

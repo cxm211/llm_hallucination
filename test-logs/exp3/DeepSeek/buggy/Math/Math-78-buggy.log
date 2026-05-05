@@ -1,0 +1,12 @@
+==== 2026-04-24 08:02:41 :: Math-78-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.ode.events.EventStateTest::testEventAfterStepBackward
+  - org.apache.commons.math.ode.events.EventStateTest::closeEvents
+  - org.apache.commons.math.ode.events.EventStateTest::testEventAfterStepForward
+---- exit code: 0 | Math-78-buggy
+

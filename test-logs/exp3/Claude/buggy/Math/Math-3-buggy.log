@@ -1,0 +1,13 @@
+==== 2026-03-29 23:50:00 :: Math-3-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math3.util.MathArraysTest::testLinearCombinationWithSingleElementArrayNegative
+  - org.apache.commons.math3.util.MathArraysTest::testLinearCombinationWithSingleElementArray
+  - org.apache.commons.math3.util.MathArraysTest::testLinearCombinationWithEmptyArray
+  - org.apache.commons.math3.util.MathArraysTest::testLinearCombinationWithSingleElementArrayZero
+---- exit code: 0 | Math-3-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-04-27 04:17:49 :: Jsoup-39-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMarkWhenNoCharsetSet
+---- exit code: 0 | Jsoup-39-buggy
+

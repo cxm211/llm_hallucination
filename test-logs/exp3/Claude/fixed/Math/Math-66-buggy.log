@@ -1,0 +1,59 @@
+==== 2026-03-30 03:54:51 :: Math-66-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMaxMin
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMax
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+---- exit code: 0 | Math-66-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 4, add tests: 2, total: 6
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+[JACOCO] base snapshot saved (4 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMax
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMax
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMaxMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMaxMin
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-66-buggy/jacoco_base.exec.
+[INFO] Analyzing 459 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-66-buggy/jacoco.exec.
+[INFO] Analyzing 459 classes.
+>>> [JACOCO] done

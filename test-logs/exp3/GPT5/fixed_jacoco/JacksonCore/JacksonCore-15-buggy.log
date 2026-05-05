@@ -1,0 +1,12 @@
+==== 2026-04-29 02:36:23 :: JacksonCore-15-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/filter/BasicParserFilteringTest.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimpleWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimpleNoPath
+---- exit code: 0 | test_result: Not Pass | JacksonCore-15-buggy
+

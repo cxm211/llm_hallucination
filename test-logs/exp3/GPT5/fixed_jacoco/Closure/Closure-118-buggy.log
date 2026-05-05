@@ -1,0 +1,14 @@
+==== 2026-04-26 07:04:10 :: Closure-118-buggy ====
+[RESTORE] no *.java.orig backups found, nothing to restore
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testObjectLiteralLends
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType4
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes4
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testObjectLiteralReflected
+---- exit code: 0 | test_result: Not Pass | Closure-118-buggy
+

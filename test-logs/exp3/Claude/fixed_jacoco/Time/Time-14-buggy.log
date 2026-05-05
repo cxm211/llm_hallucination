@@ -1,0 +1,18 @@
+==== 2026-03-30 05:40:07 :: Time-14-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/TestMonthDay_Basics.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap
+  - org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap
+  - org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap
+  - org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust
+  - org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust
+  - org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap
+  - org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap
+  - org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap
+---- exit code: 0 | test_result: Not Pass | Time-14-buggy
+

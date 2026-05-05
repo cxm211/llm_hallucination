@@ -1,0 +1,12 @@
+==== 2026-04-26 03:31:23 :: Closure-166-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeInferenceTest::testRecordInferenceWithNullUnion
+  - com.google.javascript.jscomp.TypeInferenceTest::testRecordInference
+  - com.google.javascript.jscomp.TypeInferenceTest::testIssue785
+---- exit code: 0 | Closure-166-buggy
+

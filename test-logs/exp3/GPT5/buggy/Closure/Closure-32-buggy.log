@@ -1,0 +1,14 @@
+==== 2026-04-26 02:43:49 :: Closure-32-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseNoSpaceAfterStar
+---- exit code: 0 | Closure-32-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-03-30 00:26:17 :: Math-61-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testMean
+  - org.apache.commons.math.distribution.PoissonDistributionTest::testVerySmallPositiveMean
+---- exit code: 0 | Math-61-buggy_ind2
+

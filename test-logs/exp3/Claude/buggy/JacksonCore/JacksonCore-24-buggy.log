@@ -1,0 +1,19 @@
+==== 2026-03-28 15:13:41 :: JacksonCore-24-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToLongFailing
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testIntBoundaryValues
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToIntFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToLongFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testLongBoundaryValues
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousLongOverflow
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testSimpleLongOverflow
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousIntOverflow
+  - com.fasterxml.jackson.core.read.NumberParsingTest::testSimpleLong
+---- exit code: 0 | JacksonCore-24-buggy
+

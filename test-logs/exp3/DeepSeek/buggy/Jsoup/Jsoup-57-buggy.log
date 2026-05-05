@@ -1,0 +1,10 @@
+==== 2026-04-24 04:35:36 :: Jsoup-57-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testChainedRemoveAttributes
+---- exit code: 0 | Jsoup-57-buggy
+

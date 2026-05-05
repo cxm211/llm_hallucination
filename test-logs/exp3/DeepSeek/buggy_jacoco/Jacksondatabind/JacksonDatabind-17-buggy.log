@@ -1,0 +1,29 @@
+==== 2026-04-23 10:15:24 :: JacksonDatabind-17-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestJsonNode::testArrayWithDefaultTyping
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestJsonNode::testArrayWithDefaultTyping
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-17-buggy/jacoco_base.exec.
+[INFO] Analyzing 487 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestJsonNode::testDefaultTypingWithTreeNode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestJsonNode::testDefaultTypingWithTreeNode
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.node.TestJsonNode::testDefaultTypingNonConcreteAndArraysWithTreeNodeArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.node.TestJsonNode::testDefaultTypingNonConcreteAndArraysWithTreeNodeArray
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-17-buggy/jacoco.exec.
+[INFO] Analyzing 487 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 27 line rows.
+[PARSE] 27 base line rows.

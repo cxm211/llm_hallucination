@@ -1,0 +1,18 @@
+==== 2026-04-29 04:33:01 :: Compress-21-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenEmptyFiles
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightFilesSomeNotEmpty
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixEmptyFiles
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testEightEmptyFiles
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineEmptyFiles
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixFilesSomeNotEmpty
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSixteenFilesSomeNotEmpty
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testNineFilesSomeNotEmpty
+  - org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest::testSevenFilesSomeNotEmpty
+---- exit code: 0 | Compress-21-buggy
+

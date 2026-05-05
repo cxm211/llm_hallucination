@@ -1,0 +1,13 @@
+==== 2026-03-27 03:03:03 :: Closure-57-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.ClosureCodingConventionTest::testRequireWithNull
+  - com.google.javascript.jscomp.ClosureCodingConventionTest::testRequireWithBoolean
+  - com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire
+  - com.google.javascript.jscomp.ClosureCodingConventionTest::testRequireWithNumber
+---- exit code: 0 | Closure-57-buggy
+

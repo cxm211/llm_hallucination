@@ -1,0 +1,10 @@
+==== 2026-04-24 07:24:06 :: Jsoup-52-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.jsoup.parser.XmlTreeBuilderTest::testXmlDeclarationWithStandalone
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::testXmlDeclarationWithStandalone
+---- exit code: 0 | Jsoup-52-fixed_ind2
+

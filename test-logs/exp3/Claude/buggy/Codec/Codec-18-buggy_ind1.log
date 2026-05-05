@@ -1,0 +1,12 @@
+==== 2026-03-27 20:00:47 :: Codec-18-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS1
+  - org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS2
+  - org.apache.commons.codec.binary.StringUtilsTest::testEqualsCS3
+---- exit code: 0 | Codec-18-buggy_ind1
+

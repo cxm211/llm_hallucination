@@ -1,0 +1,37 @@
+==== 2026-03-29 16:20:58 :: Lang-43-buggy ====
+[JACOCO] trigger=1 add=3 total=4
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-buggy/jacoco_base.exec.
+[INFO] Analyzing 126 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuoteAtEnd_LANG_477
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuoteAtEnd_LANG_477
+[JACOCO] defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testMultipleEscapedQuotes_LANG_477
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testMultipleEscapedQuotes_LANG_477
+[JACOCO] defects4j test -t org.apache.commons.lang.text.ExtendedMessageFormatTest::testQuotedStringAfterEscapedQuote_LANG_477
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.text.ExtendedMessageFormatTest::testQuotedStringAfterEscapedQuote_LANG_477
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-43-buggy/jacoco.exec.
+[INFO] Analyzing 126 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 28 line rows.
+[PARSE] 28 base line rows.

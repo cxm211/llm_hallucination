@@ -1,0 +1,11 @@
+==== 2026-04-26 03:26:12 :: Closure-150-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+---- exit code: 0 | Closure-150-buggy
+

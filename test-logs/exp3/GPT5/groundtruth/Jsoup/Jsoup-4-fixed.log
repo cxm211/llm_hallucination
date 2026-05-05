@@ -1,0 +1,10 @@
+==== 2026-04-27 05:07:37 :: Jsoup-4-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.EntitiesTest::unescapeSupplementaryAndDollar
+---- exit code: 0 | Jsoup-4-fixed
+

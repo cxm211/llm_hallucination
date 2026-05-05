@@ -1,0 +1,28 @@
+==== 2026-04-29 17:30:44 :: Collections-10-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.collections.map.TestMultiValueMap::testEmptyMapCompatibility
+  - org.apache.commons.collections.map.TestMultiValueMap::testFullMapCompatibility
+---- exit code: 0 | Collections-10-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] trigger tests: 2, add tests: 0, total: 2
+[JACOCO] defects4j test -t org.apache.commons.collections.map.TestMultiValueMap::testEmptyMapCompatibility
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestMultiValueMap::testEmptyMapCompatibility
+[JACOCO] defects4j test -t org.apache.commons.collections.map.TestMultiValueMap::testFullMapCompatibility
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections.map.TestMultiValueMap::testFullMapCompatibility
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Collections/Collections-10-buggy/jacoco.exec.
+[INFO] Analyzing 420 classes.
+>>> [JACOCO] done

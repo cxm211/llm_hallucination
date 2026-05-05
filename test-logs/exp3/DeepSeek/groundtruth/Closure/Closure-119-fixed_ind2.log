@@ -1,0 +1,9 @@
+==== 2026-04-23 06:32:28 :: Closure-119-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatchNestedFunction
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | Closure-119-fixed_ind2
+

@@ -1,0 +1,10 @@
+==== 2026-04-23 06:26:09 :: Closure-90-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse11
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse11
+---- exit code: 0 | Closure-90-fixed_ind2
+

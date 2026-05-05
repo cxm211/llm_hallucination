@@ -1,0 +1,71 @@
+==== 2026-04-21 19:53:37 :: Cli-40-buggy_ind3 ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.cli.TypeHandlerTest::testCreateValueInteger_failure
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3 && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/jacoco.exec,append=false,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+commons-cli-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+commons-cli-from-maven.compile.tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/maven-build.xml:110: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 14 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/target/test-classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugCLI133Test.java:26: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java:25: warning: [deprecation] OptionBuilder in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.OptionBuilder;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java:28: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java:24: warning: [deprecation] OptionBuilder in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.OptionBuilder;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java:26: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugCLI71Test.java:28: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugsTest.java:32: warning: [deprecation] GnuParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.GnuParser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugsTest.java:36: warning: [deprecation] OptionBuilder in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.OptionBuilder;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugsTest.java:40: warning: [deprecation] Parser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.Parser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/bug/BugsTest.java:41: warning: [deprecation] PosixParser in org.apache.commons.cli has been deprecated
+    [javac] import org.apache.commons.cli.PosixParser;
+    [javac]                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/src/test/java/org/apache/commons/cli/TypeHandlerTest.java:168: error: cannot find symbol
+    [javac]     TypeHandler.createValue("invalid-date", Date.class);
+    [javac]                                             ^
+    [javac]   symbol:   class Date
+    [javac]   location: class TypeHandlerTest
+    [javac] 1 error
+    [javac] 14 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-40-buggy_ind3/maven-build.xml:110: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+[JACOCO] FAILED: Not Compilable: test suite failed to compile
+[NOT_COMPILABLE] writing 43 rows.

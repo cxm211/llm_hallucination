@@ -1,0 +1,31 @@
+==== 2026-03-28 14:38:26 :: Gson-5-buggy ====
+[JACOCO] trigger=1 add=2 total=3
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-buggy/jacoco_base.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_NegativeOffset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_NegativeOffset
+[JACOCO] defects4j test -t com.google.gson.DefaultDateTypeAdapterTest::testDateDeserializationISO8601_MultiDigitOffset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-5-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 154 line rows.
+[PARSE] 154 base line rows.

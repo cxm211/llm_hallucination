@@ -1,0 +1,11 @@
+==== 2026-04-24 08:22:17 :: Math-96-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.complex.ComplexTest::testMath221
+  - org.apache.commons.math.complex.ComplexTest::testEqualsImaginarySignedZero
+---- exit code: 0 | Math-96-buggy_ind1
+

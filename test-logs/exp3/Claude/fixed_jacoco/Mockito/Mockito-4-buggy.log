@@ -1,0 +1,11 @@
+==== 2026-03-30 10:45:36 :: Mockito-4-buggy ====
+[RESTORE] restored test/org/mockito/exceptions/ReporterTest.java
+>>> ant clean exit code: 1
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.exceptions.ReporterTest::can_use_print_mock_name_even_when_mock_bogus_default_answer_and_when_reporting_injection_failure
+---- exit code: 0 | test_result: Not Pass | Mockito-4-buggy
+

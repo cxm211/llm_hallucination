@@ -1,0 +1,11 @@
+==== 2026-03-30 04:12:59 :: Mockito-16-buggy_ind1 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest::shouldAllowNestedStubbingWithRETURNS_MOCKS
+  - org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest::shouldAllowStubbingMocksConfiguredWithRETURNS_MOCKS
+---- exit code: 0 | Mockito-16-buggy_ind1
+

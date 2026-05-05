@@ -1,0 +1,17 @@
+==== 2026-04-25 21:42:50 :: JxPath-4-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testPreserveDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedJDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedWithCommentsJDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testCommentPreserveDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testPreserveJDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testCommentPreserveJDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedDOM
+  - org.apache.commons.jxpath.ri.model.XMLSpaceTest::testNestedWithCommentsDOM
+---- exit code: 0 | JxPath-4-buggy
+

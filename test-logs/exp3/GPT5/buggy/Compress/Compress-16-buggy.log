@@ -1,0 +1,10 @@
+==== 2026-04-29 04:32:42 :: Compress-16-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ArchiveStreamFactoryTest::aiffFilesAreNoTARs
+---- exit code: 0 | Compress-16-buggy
+

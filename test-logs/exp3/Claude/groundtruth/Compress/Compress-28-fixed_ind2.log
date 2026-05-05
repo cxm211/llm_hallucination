@@ -1,0 +1,10 @@
+==== 2026-04-21 08:08:17 :: Compress-28-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::shouldThrowExceptionOnPartialRead
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::shouldThrowExceptionOnPartialRead
+---- exit code: 0 | Compress-28-fixed_ind2
+

@@ -1,0 +1,10 @@
+==== 2026-04-26 16:09:55 :: JacksonDatabind-40-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestSimpleTypes::testEmptyToNullCoercionForPrimitives
+---- exit code: 0 | JacksonDatabind-40-buggy
+

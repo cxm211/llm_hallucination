@@ -1,0 +1,12 @@
+==== 2026-04-24 04:16:12 :: Compress-14-fixed ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalNoTerminator
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalLengthZero
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::testParseOctalSingleDigit
+---- exit code: 0 | Compress-14-fixed
+

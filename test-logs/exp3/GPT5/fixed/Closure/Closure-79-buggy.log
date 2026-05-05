@@ -1,0 +1,47 @@
+==== 2026-04-26 05:16:57 :: Closure-79-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+  - com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+  - com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+---- exit code: 0 | Closure-79-buggy
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 5, add tests: 0, total: 5
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NormalizeTest::testIssue
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+[JACOCO] defects4j test -t com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-79-buggy/jacoco.exec.
+[INFO] Analyzing 1000 classes.
+>>> [JACOCO] done

@@ -1,0 +1,10 @@
+==== 2026-03-31 21:51:19 :: Jsoup-93-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.FormElementTest::createsFormData
+---- exit code: 0 | Jsoup-93-buggy_ind2
+

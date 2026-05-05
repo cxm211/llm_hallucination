@@ -1,0 +1,10 @@
+==== 2026-04-25 19:39:32 :: Mockito-22-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t org.mockito.internal.matchers.EqualityTest::shouldNotTreatNonArrayAsEqualToArray
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.matchers.EqualityTest::shouldNotTreatNonArrayAsEqualToArray
+---- exit code: 0 | Mockito-22-fixed_ind2
+

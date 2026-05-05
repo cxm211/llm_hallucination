@@ -1,0 +1,10 @@
+==== 2026-04-24 01:35:29 :: JacksonDatabind-74-fixed_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -t com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testWithEmptyStringWithoutFeature
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testWithEmptyStringWithoutFeature
+---- exit code: 0 | JacksonDatabind-74-fixed_ind2
+

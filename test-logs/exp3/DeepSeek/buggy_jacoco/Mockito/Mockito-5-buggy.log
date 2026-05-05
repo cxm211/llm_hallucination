@@ -1,0 +1,24 @@
+==== 2026-04-24 19:13:51 :: Mockito-5-buggy ====
+[JACOCO] trigger=1 add=1 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.mockitointegration.NoJUnitDependenciesTest::pure_mockito_should_not_depend_JUnit
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitointegration.NoJUnitDependenciesTest::pure_mockito_should_not_depend_JUnit
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-5-buggy/jacoco_base.exec.
+[INFO] Analyzing 309 classes.
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t org.mockitointegration.NoJUnitDependenciesTest::verificationOverTimeImpl_should_not_depend_on_JUnit
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitointegration.NoJUnitDependenciesTest::verificationOverTimeImpl_should_not_depend_on_JUnit
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-5-buggy/jacoco.exec.
+[INFO] Analyzing 309 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 25 line rows.
+[PARSE] 25 base line rows.

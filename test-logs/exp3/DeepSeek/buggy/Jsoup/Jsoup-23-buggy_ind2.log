@@ -1,0 +1,11 @@
+==== 2026-04-24 04:42:05 :: Jsoup-23-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.nodes.EntitiesTest::invalidDigitEntityWithPrefix
+  - org.jsoup.nodes.EntitiesTest::letterDigitEntities
+---- exit code: 0 | Jsoup-23-buggy_ind2
+

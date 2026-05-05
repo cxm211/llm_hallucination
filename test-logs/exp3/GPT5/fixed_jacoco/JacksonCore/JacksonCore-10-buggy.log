@@ -1,0 +1,14 @@
+==== 2026-04-29 02:35:51 :: JacksonCore-10-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/core/sym/TestSymbolTables.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+---- exit code: 0 | test_result: Not Pass | JacksonCore-10-buggy
+

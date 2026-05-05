@@ -1,0 +1,10 @@
+==== 2026-04-23 22:32:57 :: JacksonDatabind-28-buggy ====
+[RESTORE] restored src/test/java/com/fasterxml/jackson/databind/node/TestObjectNode.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- exit code: 0 | test_result: Pass | JacksonDatabind-28-buggy
+

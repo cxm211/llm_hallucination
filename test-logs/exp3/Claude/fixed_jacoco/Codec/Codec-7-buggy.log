@@ -1,0 +1,13 @@
+==== 2026-03-27 20:16:07 :: Codec-7-buggy ====
+[RESTORE] restored src/test/org/apache/commons/codec/binary/Base64Test.java
+[RESTORE] restored target/tests/org/apache/commons/codec/binary/Base64Test.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.binary.Base64Test::testByteToStringVariations
+  - org.apache.commons.codec.binary.Base64Test::testRfc4648Section10Encode
+---- exit code: 0 | test_result: Not Pass | Codec-7-buggy
+

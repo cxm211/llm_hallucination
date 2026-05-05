@@ -1,0 +1,10 @@
+==== 2026-04-28 15:51:46 :: Mockito-8-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.util.reflection.GenericMetadataSupportTest::typeVariable_of_self_type
+---- exit code: 0 | Mockito-8-buggy
+

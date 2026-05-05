@@ -1,0 +1,18 @@
+==== 2026-04-26 03:59:14 :: Closure-71-buggy ====
+[JACOCO] trigger=2 add=0 total=2
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-71-buggy/jacoco.exec.
+[INFO] Analyzing 1062 classes.
+[JACOCO] done.
+[PARSE] 94 line rows.

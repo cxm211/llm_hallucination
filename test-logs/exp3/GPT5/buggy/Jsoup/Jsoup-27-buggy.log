@@ -1,0 +1,12 @@
+==== 2026-04-27 04:17:15 :: Jsoup-27-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.helper.DataUtilTest::testSingleQuotedCharset
+  - org.jsoup.helper.DataUtilTest::testCharset
+  - org.jsoup.helper.DataUtilTest::testQuotedCharset
+---- exit code: 0 | Jsoup-27-buggy
+

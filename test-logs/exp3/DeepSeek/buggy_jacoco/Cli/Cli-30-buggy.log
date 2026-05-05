@@ -1,0 +1,64 @@
+==== 2026-04-21 19:43:44 :: Cli-30-buggy ====
+[JACOCO] trigger=9 add=1 total=10
+[JACOCO] starting coverage collection (defects4j test -t per test)...
+[JACOCO] defects4j test -t org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+[JACOCO] defects4j test -t org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.DefaultParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionUnexpected
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+[JACOCO] defects4j test -t org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+[JACOCO] defects4j test -t org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+[JACOCO] generating XML report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-30-buggy/jacoco_base.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] base snapshot saved (9 trigger tests)
+[JACOCO] defects4j test -t org.apache.commons.cli.ParserTestCase::testPropertyOptionGroupWithArgument
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.cli.ParserTestCase
+[JACOCO] generating XML report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Cli/Cli-30-buggy/jacoco.exec.
+[INFO] Analyzing 22 classes.
+[JACOCO] done.
+[PARSE] base XML parsed: jacoco_base.xml
+[PARSE] 88 line rows.
+[PARSE] 88 base line rows.

@@ -1,0 +1,14 @@
+==== 2026-03-27 03:33:59 :: Closure-145-buggy ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity
+  - com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity
+  - com.google.javascript.jscomp.CodePrinterTest::testNestedBlocksWithFunction
+  - com.google.javascript.jscomp.CodePrinterTest::testLabeledBlockWithDoLoop
+  - com.google.javascript.jscomp.CodePrinterTest::testNestedBlocksWithDoLoop
+---- exit code: 0 | Closure-145-buggy
+

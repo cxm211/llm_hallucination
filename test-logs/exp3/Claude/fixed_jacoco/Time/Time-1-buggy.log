@@ -1,0 +1,17 @@
+==== 2026-03-30 05:36:16 :: Time-1-buggy ====
+[RESTORE] restored src/test/java/org/joda/time/TestPartial_Constructors.java
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.TestPartial_Basics::testWith_baseAndArgHaveNoRange
+  - org.joda.time.TestPartial_Basics::testToString5
+  - org.joda.time.TestPartial_Basics::testWith3e
+  - org.joda.time.TestPartial_Basics::testWith3f
+  - org.joda.time.TestPartial_Basics::testGetFormatter2
+  - org.joda.time.TestPartial_Constructors::testConstructorEx8_TypeArray_intArray
+  - org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray
+---- exit code: 0 | test_result: Not Pass | Time-1-buggy
+

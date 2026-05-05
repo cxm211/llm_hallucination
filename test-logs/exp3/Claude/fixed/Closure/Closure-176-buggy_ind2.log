@@ -1,0 +1,101 @@
+==== 2026-03-27 17:02:29 :: Closure-176-buggy_ind2 ====
+>>> ant clean exit code: 0
+
+>>> defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 69
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testCast
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionType
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionTypeInvalidation
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionTypeTwoFields
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAdd14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAdd16
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAdd17
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testComparison9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFlowScopeBug2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceAssignment6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSwitchCase4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSwitchCase5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSwitchCase6
+  - com.google.javascript.jscomp.TightenTypesTest::testOr
+  - com.google.javascript.jscomp.TightenTypesTest::testGetProp
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.TypeCheckTest::testAdd14
+  - com.google.javascript.jscomp.TypeCheckTest::testAdd16
+  - com.google.javascript.jscomp.TypeCheckTest::testAdd17
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa10
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa3
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa9
+  - com.google.javascript.jscomp.TypeCheckTest::testComparison9
+  - com.google.javascript.jscomp.TypeCheckTest::testFlowScopeBug2
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceAssignment6
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1056_functionType
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration8
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized1
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized4
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction10
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction11
+  - com.google.javascript.jscomp.TypeCheckTest::testForIn2
+  - com.google.javascript.jscomp.TypeCheckTest::testForIn3
+  - com.google.javascript.jscomp.TypeCheckTest::testForIn4
+  - com.google.javascript.jscomp.TypeCheckTest::testBadImplements3
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure7
+  - com.google.javascript.jscomp.TypeInferenceTest::testDo
+  - com.google.javascript.jscomp.TypeInferenceTest::testFlattening
+  - com.google.javascript.jscomp.TypeInferenceTest::testArrayLit
+  - com.google.javascript.jscomp.TypeInferenceTest::testGetElem
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssignment
+  - com.google.javascript.jscomp.TypeInferenceTest::testReturn1
+  - com.google.javascript.jscomp.TypeInferenceTest::testReturn2
+  - com.google.javascript.jscomp.TypeInferenceTest::testExprWithinCast
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssignAdd
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType2b
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7b
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7c
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredVar
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7
+---- exit code: 0 | Closure-176-buggy_ind2
+
+
+>>> [JACOCO] starting JaCoCo coverage collection
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] trigger tests: 1, add tests: 1, total: 2
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1056
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] base snapshot saved (1 trigger tests)
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1056_functionType
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1056_functionType
+[JACOCO] generating report -> jacoco_base.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-176-buggy_ind2/jacoco_base.exec.
+[INFO] Analyzing 1354 classes.
+[JACOCO] generating report -> jacoco.xml...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-176-buggy_ind2/jacoco.exec.
+[INFO] Analyzing 1354 classes.
+>>> [JACOCO] done
