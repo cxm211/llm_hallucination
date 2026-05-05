@@ -1,0 +1,65 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Time,1,add_test.java,org.joda.time.TestPartial_Constructors,testConstructorEx7_TypeArray_intArray_AdditionalCase1,Pass
+Time,1,add_test1.java,org.joda.time.TestPartial_Constructors,testConstructorEx7_TypeArray_intArray_AdditionalCase2,Pass
+Time,2,add_test.java,org.joda.time.TestPartial_Basics,testWith_unsupportedField,Pass
+Time,2,add_test1.java,org.joda.time.TestPartial_Basics,testWith_mixedSupportedAndUnsupportedFields,Pass
+Time,2,add_test2.java,org.joda.time.TestPartial_Basics,testConstructor_withTwoFieldsNoRange,Pass
+Time,3,add_test.java,org.joda.time.TestMutableDateTime_Adds,testAddWeekyears_int_dstOverlapWinter_addZero,Pass
+Time,3,add_test1.java,org.joda.time.TestMutableDateTime_Adds,testAddMinutes_int_dstOverlapWinter_addZero,Not Compilable
+Time,3,add_test2.java,org.joda.time.TestMutableDateTime_Adds,testAddSeconds_int_dstOverlapWinter_addZero,Not Compilable
+Time,3,add_test3.java,org.joda.time.TestMutableDateTime_Adds,testAddMillis_int_dstOverlapWinter_addZero,Not Compilable
+Time,4,add_test.java,org.joda.time.TestPartial_Basics,testWithNewFieldValidationFailure,Pass
+Time,4,add_test1.java,org.joda.time.TestPartial_Basics,testWithNewFieldInvalidRangeType,Not Pass
+Time,5,add_test.java,org.joda.time.TestPeriod_Basics,testNormalizedStandard_periodType_months3,Not Compilable
+Time,5,add_test1.java,org.joda.time.TestPeriod_Basics,testNormalizedStandard_periodType_years1,Pass
+Time,6,add_test.java,org.joda.time.chrono.TestGJDate,test_cutoverAtEpoch,Pass
+Time,6,add_test1.java,org.joda.time.chrono.TestGJDate,test_cutoverAtYearOne,Pass
+Time,6,add_test2.java,org.joda.time.chrono.TestGJDate,test_cutoverAtYearZero,Pass
+Time,7,add_test.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_withZoneChange,Pass
+Time,7,add_test1.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_leapYear_march,Not Pass
+Time,7,add_test2.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_nonLeapYear_feb28,Pass
+Time,7,add_test3.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_endOfYear_differentZone,Pass
+Time,8,add_test.java,org.joda.time.TestDateTimeZone,testForOffsetHoursMinutes_negativeMinutesWithZeroHours,Pass
+Time,8,add_test1.java,org.joda.time.TestDateTimeZone,testForOffsetHoursMinutes_positiveHoursNegativeMinutes,Pass
+Time,8,add_test2.java,org.joda.time.TestDateTimeZone,testForOffsetHoursMinutes_boundaryNegativeMinutes,Pass
+Time,9,add_test.java,org.joda.time.TestDateTimeZone,testForOffsetHoursMinutes_boundaryHours,Pass
+Time,9,add_test1.java,org.joda.time.TestDateTimeZone,testForOffsetHoursMinutes_edgeCaseMinutes,Not Pass
+Time,10,add_test.java,org.joda.time.TestDays,testFactory_daysBetween_RPartial_MonthDay_Reversed,Not Pass
+Time,10,add_test1.java,org.joda.time.TestMonths,testFactory_monthsBetween_RPartial_MonthDay_Reversed,Pass
+Time,12,add_test.java,org.joda.time.TestLocalDate_Constructors,testFactory_fromCalendarFields_AD,Pass
+Time,12,add_test1.java,org.joda.time.TestLocalDateTime_Constructors,testFactory_fromCalendarFields_AD,Pass
+Time,12,add_test2.java,org.joda.time.TestLocalDate_Constructors,testFactory_fromCalendarFields_beforeYearZero10,Pass
+Time,12,add_test3.java,org.joda.time.TestLocalDateTime_Constructors,testFactory_fromCalendarFields_beforeYearZero10,Pass
+Time,14,add_test.java,org.joda.time.TestMonthDay_Basics,testPlusDays_int_negativeFromLeap,Not Compilable
+Time,14,add_test1.java,org.joda.time.TestMonthDay_Basics,testPlusMonths_int_multipleMonthsFromLeap,Pass
+Time,14,add_test2.java,org.joda.time.TestMonthDay_Basics,testMinusDays_int_fromLeap,Not Compilable
+Time,15,add_test.java,org.joda.time.field.TestFieldUtils,testSafeMultiplyLongIntAdditional1,Pass
+Time,15,add_test1.java,org.joda.time.field.TestFieldUtils,testSafeMultiplyLongIntAdditional2,Pass
+Time,15,add_test2.java,org.joda.time.field.TestFieldUtils,testSafeMultiplyLongIntAdditional3,Pass
+Time,15,add_test3.java,org.joda.time.field.TestFieldUtils,testSafeMultiplyLongIntAdditional4,Pass
+Time,15,add_test4.java,org.joda.time.field.TestFieldUtils,testSafeMultiplyLongIntAdditional5,Pass
+Time,16,add_test.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_withDefaultYear_nonLeapYear,Pass
+Time,16,add_test1.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_dayOnly_withDefaultYear,Pass
+Time,16,add_test2.java,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_withDefaultYear_leapToNonLeap,Not Pass
+Time,17,add_test.java,org.joda.time.TestDateTimeZoneCutover,testBug3476684_adjustOffset_gap,Pass
+Time,17,add_test1.java,org.joda.time.TestDateTimeZoneCutover,testBug3476684_adjustOffset_reverseOverlap,Pass
+Time,18,add_test.java,org.joda.time.chrono.TestGJChronology,testInvalidGregorianDateBeforeCutover,Pass
+Time,18,add_test1.java,org.joda.time.chrono.TestGJChronology,testValidGregorianDateBeforeCutover,Pass
+Time,19,add_test.java,org.joda.time.TestDateTimeZoneCutover,testDateTimeCreation_london_zeroOffset,Not Pass
+Time,19,add_test1.java,org.joda.time.TestDateTimeZoneCutover,testDateTimeCreation_newYork_fallBack,Pass
+Time,20,add_test.java,org.joda.time.format.TestDateTimeFormatterBuilder,test_printParseZonePrefixMatch,Pass
+Time,20,add_test1.java,org.joda.time.format.TestDateTimeFormatterBuilder,test_printParseZoneLongestPrefix,Pass
+Time,22,add_test.java,org.joda.time.TestPeriod_Constructors,testConstructor_long_fixedZone_negative,Pass
+Time,22,add_test1.java,org.joda.time.TestDuration_Basics,testToPeriod_fixedZone_boundary,Pass
+Time,23,add_test.java,org.joda.time.TestDateTimeZone,testForID_String_old_additional1,Pass
+Time,23,add_test1.java,org.joda.time.TestDateTimeZone,testForID_String_old_additional2,Pass
+Time,24,add_test.java,org.joda.time.format.TestDateTimeFormatter,testParseLocalDate_weekyear_month_week_2015,Not Pass
+Time,24,add_test1.java,org.joda.time.format.TestDateTimeFormatter,testParseLocalDate_year_month_week_2015,Not Compilable
+Time,25,add_test.java,org.joda.time.TestDateTimeZoneCutover,test_getOffsetFromLocal_Moscow_Autumn_boundary,Pass
+Time,25,add_test1.java,org.joda.time.TestDateTimeZoneCutover,test_DateTime_constructor_Moscow_Autumn_edge,Pass
+Time,26,add_test.java,org.joda.time.TestDateTimeZoneCutover,testWithHourOfDayInDstChange_fallBack,Pass
+Time,26,add_test1.java,org.joda.time.TestDateTimeZoneCutover,testAddWrapFieldInDstChange,Not Compilable
+Time,26,add_test2.java,org.joda.time.TestDateTimeZoneCutover,testRoundFloorInDstChange,Pass
+Time,27,add_test.java,org.joda.time.format.TestPeriodFormatterBuilder,testSeparatorWithPrinterOnly,Not Compilable
+Time,27,add_test1.java,org.joda.time.format.TestPeriodFormatterBuilder,testSeparatorWithParserOnly,Not Compilable
+Time,27,add_test2.java,org.joda.time.format.TestPeriodFormatterBuilder,testMultipleSeparators,Pass

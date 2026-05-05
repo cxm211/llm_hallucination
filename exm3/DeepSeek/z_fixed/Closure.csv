@@ -1,0 +1,175 @@
+project,bug_id,folder,result
+Closure,1,Closure-1-buggy,Not Pass
+Closure,2,Closure-2-buggy,Pass
+Closure,3,Closure-3-buggy,Pass
+Closure,4,Closure-4-buggy,Not Pass
+Closure,5,Closure-5-buggy,Pass
+Closure,6,Closure-6-buggy,Pass
+Closure,7,Closure-7-buggy,Not Pass
+Closure,8,Closure-8-buggy,Not Compilable
+Closure,9,Closure-9-buggy,Pass
+Closure,10,Closure-10-buggy,Pass
+Closure,11,Closure-11-buggy,Pass
+Closure,12,Closure-12-buggy,Pass
+Closure,13,Closure-13-buggy,Pass
+Closure,14,Closure-14-buggy,Not Compilable
+Closure,15,Closure-15-buggy,Pass
+Closure,16,Closure-16-buggy,Pass
+Closure,17,Closure-17-buggy,Not Pass
+Closure,18,Closure-18-buggy,Pass
+Closure,19,Closure-19-buggy,Pass
+Closure,20,Closure-20-buggy,Pass
+Closure,21,Closure-21-buggy,Not Pass
+Closure,22,Closure-22-buggy,Pass
+Closure,23,Closure-23-buggy,Pass
+Closure,24,Closure-24-buggy,Not Pass
+Closure,25,Closure-25-buggy,Not Compilable
+Closure,26,Closure-26-buggy,Not Pass
+Closure,27,Closure-27-buggy,Not Pass
+Closure,28,Closure-28-buggy,Not Pass
+Closure,29,Closure-29-buggy,Not Compilable
+Closure,30,Closure-30-buggy,Not Pass
+Closure,31,Closure-31-buggy,Not Pass
+Closure,32,Closure-32-buggy,Not Pass
+Closure,33,Closure-33-buggy,Not Pass
+Closure,34,Closure-34-buggy,Not Compilable
+Closure,35,Closure-35-buggy,Not Compilable
+Closure,36,Closure-36-buggy,Not Compilable
+Closure,37,Closure-37-buggy,Not Pass
+Closure,38,Closure-38-buggy,Pass
+Closure,39,Closure-39-buggy,Pass
+Closure,40,Closure-40-buggy,Not Pass
+Closure,41,Closure-41-buggy,Not Pass
+Closure,42,Closure-42-buggy,Not Compilable
+Closure,43,Closure-43-buggy,Not Compilable
+Closure,44,Closure-44-buggy,Not Pass
+Closure,45,Closure-45-buggy,Not Pass
+Closure,46,Closure-46-buggy,Pass
+Closure,47,Closure-47-buggy,Not Pass
+Closure,48,Closure-48-buggy,Not Pass
+Closure,49,Closure-49-buggy,Not Pass
+Closure,50,Closure-50-buggy,Not Pass
+Closure,51,Closure-51-buggy,Pass
+Closure,52,Closure-52-buggy,Not Pass
+Closure,53,Closure-53-buggy,Pass
+Closure,54,Closure-54-buggy,Not Pass
+Closure,55,Closure-55-buggy,Not Compilable
+Closure,56,Closure-56-buggy,Not Pass
+Closure,57,Closure-57-buggy,Pass
+Closure,58,Closure-58-buggy,Not Pass
+Closure,59,Closure-59-buggy,Not Pass
+Closure,60,Closure-60-buggy,Not Pass
+Closure,61,Closure-61-buggy,Pass
+Closure,62,Closure-62-buggy,Pass
+Closure,64,Closure-64-buggy,Pass
+Closure,65,Closure-65-buggy,Pass
+Closure,66,Closure-66-buggy,Pass
+Closure,67,Closure-67-buggy,Not Pass
+Closure,68,Closure-68-buggy,Not Pass
+Closure,69,Closure-69-buggy,Not Compilable
+Closure,70,Closure-70-buggy,Not Pass
+Closure,71,Closure-71-buggy,Not Pass
+Closure,72,Closure-72-buggy,Not Pass
+Closure,73,Closure-73-buggy,Pass
+Closure,74,Closure-74-buggy,Not Pass
+Closure,75,Closure-75-buggy,Not Pass
+Closure,76,Closure-76-buggy,Not Pass
+Closure,77,Closure-77-buggy,Pass
+Closure,78,Closure-78-buggy,Not Pass
+Closure,79,Closure-79-buggy,Not Pass
+Closure,80,Closure-80-buggy,Not Compilable
+Closure,81,Closure-81-buggy,Not Pass
+Closure,82,Closure-82-buggy,Not Compilable
+Closure,83,Closure-83-buggy,Not Pass
+Closure,84,Closure-84-buggy,Not Compilable
+Closure,85,Closure-85-buggy,Not Pass
+Closure,86,Closure-86-buggy,Pass
+Closure,87,Closure-87-buggy,Not Compilable
+Closure,88,Closure-88-buggy,Not Compilable
+Closure,89,Closure-89-buggy,Not Pass
+Closure,90,Closure-90-buggy,Pass
+Closure,91,Closure-91-buggy,Not Compilable
+Closure,92,Closure-92-buggy,Pass
+Closure,94,Closure-94-buggy,Pass
+Closure,95,Closure-95-buggy,Not Pass
+Closure,96,Closure-96-buggy,Not Compilable
+Closure,97,Closure-97-buggy,Pass
+Closure,98,Closure-98-buggy,Not Compilable
+Closure,99,Closure-99-buggy,Pass
+Closure,100,Closure-100-buggy,Not Pass
+Closure,101,Closure-101-buggy,Pass
+Closure,102,Closure-102-buggy,Not Compilable
+Closure,103,Closure-103-buggy,Not Pass
+Closure,104,Closure-104-buggy,Not Compilable
+Closure,105,Closure-105-buggy,Not Pass
+Closure,106,Closure-106-buggy,Not Compilable
+Closure,107,Closure-107-buggy,Not Pass
+Closure,108,Closure-108-buggy,Not Pass
+Closure,109,Closure-109-buggy,Pass
+Closure,110,Closure-110-buggy,Not Pass
+Closure,111,Closure-111-buggy,Not Compilable
+Closure,112,Closure-112-buggy,Not Pass
+Closure,113,Closure-113-buggy,Not Pass
+Closure,114,Closure-114-buggy,Not Compilable
+Closure,115,Closure-115-buggy,Not Pass
+Closure,116,Closure-116-buggy,Not Compilable
+Closure,117,Closure-117-buggy,Not Pass
+Closure,118,Closure-118-buggy,Not Compilable
+Closure,119,Closure-119-buggy,Pass
+Closure,120,Closure-120-buggy,Not Pass
+Closure,121,Closure-121-buggy,Not Pass
+Closure,122,Closure-122-buggy,Not Compilable
+Closure,123,Closure-123-buggy,Not Pass
+Closure,124,Closure-124-buggy,Pass
+Closure,125,Closure-125-buggy,Not Pass
+Closure,126,Closure-126-buggy,Pass
+Closure,127,Closure-127-buggy,Not Compilable
+Closure,128,Closure-128-buggy,Pass
+Closure,129,Closure-129-buggy,Pass
+Closure,130,Closure-130-buggy,Not Compilable
+Closure,131,Closure-131-buggy,Pass
+Closure,132,Closure-132-buggy,Not Pass
+Closure,133,Closure-133-buggy,Not Pass
+Closure,134,Closure-134-buggy,Not Pass
+Closure,135,Closure-135-buggy,Not Compilable
+Closure,136,Closure-136-buggy,Not Compilable
+Closure,137,Closure-137-buggy,Not Pass
+Closure,138,Closure-138-buggy,Not Pass
+Closure,139,Closure-139-buggy,Not Pass
+Closure,140,Closure-140-buggy,Not Pass
+Closure,141,Closure-141-buggy,Not Pass
+Closure,142,Closure-142-buggy,Not Compilable
+Closure,143,Closure-143-buggy,Not Pass
+Closure,144,Closure-144-buggy,Not Pass
+Closure,145,Closure-145-buggy,Not Pass
+Closure,146,Closure-146-buggy,Not Compilable
+Closure,147,Closure-147-buggy,Not Compilable
+Closure,148,Closure-148-buggy,Not Pass
+Closure,149,Closure-149-buggy,Not Pass
+Closure,150,Closure-150-buggy,Not Compilable
+Closure,151,Closure-151-buggy,Not Compilable
+Closure,152,Closure-152-buggy,Not Compilable
+Closure,153,Closure-153-buggy,Not Compilable
+Closure,154,Closure-154-buggy,Not Compilable
+Closure,155,Closure-155-buggy,Not Pass
+Closure,156,Closure-156-buggy,Not Pass
+Closure,157,Closure-157-buggy,Not Pass
+Closure,158,Closure-158-buggy,Not Compilable
+Closure,159,Closure-159-buggy,Pass
+Closure,160,Closure-160-buggy,Not Pass
+Closure,161,Closure-161-buggy,Pass
+Closure,162,Closure-162-buggy,Not Compilable
+Closure,163,Closure-163-buggy,Not Compilable
+Closure,164,Closure-164-buggy,Not Pass
+Closure,165,Closure-165-buggy,Not Pass
+Closure,166,Closure-166-buggy,Pass
+Closure,167,Closure-167-buggy,Not Compilable
+Closure,168,Closure-168-buggy,Not Compilable
+Closure,169,Closure-169-buggy,Not Compilable
+Closure,170,Closure-170-buggy,Pass
+Closure,171,Closure-171-buggy,Not Pass
+Closure,172,Closure-172-buggy,Not Pass
+Closure,173,Closure-173-buggy,Not Pass
+Closure,174,Closure-174-buggy,Not Compilable
+Closure,175,Closure-175-buggy,Not Pass
+Closure,176,Closure-176-buggy,Not Pass

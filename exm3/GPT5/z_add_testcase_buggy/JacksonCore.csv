@@ -1,0 +1,16 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JacksonCore,1,add_test.java,com.fasterxml.jackson.core.json.TestParserNonStandard,testAllowNaN,Not Pass
+JacksonCore,3,add_test.java,com.fasterxml.jackson.core.json.TestLocation,testOffsetWithInputOffsetEnd,Not Pass
+JacksonCore,4,add_test.java,com.fasterxml.jackson.core.util.TestTextBuffer,testExpandNoUnitGrowthAtThreshold,Not Compilable
+JacksonCore,5,add_test.java,com.fasterxml.jackson.core.TestJsonPointer,testWonkyNumber173,Not Pass
+JacksonCore,6,add_test.java,com.fasterxml.jackson.core.TestJsonPointer,testIZeroIndex,Not Compilable
+JacksonCore,7,add_test.java,com.fasterxml.jackson.core.json.GeneratorFailTest,testFailOnWritingNumberNotFieldName,Not Pass
+JacksonCore,8,add_test.java,com.fasterxml.jackson.core.util.TestTextBuffer,testEmpty,Not Pass
+JacksonCore,10,add_test.java,com.fasterxml.jackson.core.sym.TestSymbolTables,testSyntheticWithBytesNew,Not Pass
+JacksonCore,11,add_test.java,com.fasterxml.jackson.core.sym.SymbolsViaParserTest,testSymbolTableExpansionChars,Not Compilable
+JacksonCore,14,add_test.java,com.fasterxml.jackson.core.io.TestIOContext,testAllocations,Not Pass
+JacksonCore,15,add_test.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesArray,Not Pass
+JacksonCore,16,add_test.java,com.fasterxml.jackson.core.json.ParserSequenceTest,testSecondHasCurrentToken,Not Pass
+JacksonCore,20,add_test.java,com.fasterxml.jackson.core.base64.Base64GenerationTest,testBinaryAsEmbeddedObject,Not Pass
+JacksonCore,23,add_test.java,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter,testInvalidAnonymousSubClass,Not Pass
+JacksonCore,26,add_test.java,com.fasterxml.jackson.core.json.async.AsyncLocationTest,testLocationOffsets2,Not Pass

@@ -1,0 +1,23 @@
+project,bug_id,folder,result
+JxPath,1,JxPath-1-buggy,Not Compilable
+JxPath,2,JxPath-2-buggy,Not Pass
+JxPath,3,JxPath-3-buggy,Not Compilable
+JxPath,4,JxPath-4-buggy,Not Pass
+JxPath,5,JxPath-5-buggy,Not Pass
+JxPath,6,JxPath-6-buggy,Not Pass
+JxPath,7,JxPath-7-buggy,Pass
+JxPath,8,JxPath-8-buggy,Not Compilable
+JxPath,9,JxPath-9-buggy,Not Pass
+JxPath,10,JxPath-10-buggy,Not Compilable
+JxPath,11,JxPath-11-buggy,Not Pass
+JxPath,12,JxPath-12-buggy,Not Pass
+JxPath,13,JxPath-13-buggy,Not Pass
+JxPath,14,JxPath-14-buggy,Pass
+JxPath,15,JxPath-15-buggy,Not Compilable
+JxPath,16,JxPath-16-buggy,Pass
+JxPath,17,JxPath-17-buggy,Not Pass
+JxPath,18,JxPath-18-buggy,Not Compilable
+JxPath,19,JxPath-19-buggy,Not Pass
+JxPath,20,JxPath-20-buggy,Not Pass
+JxPath,21,JxPath-21-buggy,Not Pass
+JxPath,22,JxPath-22-buggy,Not Pass

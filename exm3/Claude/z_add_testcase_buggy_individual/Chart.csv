@@ -1,0 +1,62 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Chart,1,add_test.java,org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests,testGetLegendItemsWithMultipleSeries,Not Pass
+Chart,1,add_test1.java,org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests,testGetLegendItemsWithDescendingOrder,Not Compilable
+Chart,2,add_test.java,org.jfree.data.general.junit.DatasetUtilitiesTests,testIterateDomainBounds_EmptyDataset,Pass
+Chart,2,add_test1.java,org.jfree.data.general.junit.DatasetUtilitiesTests,testIterateDomainBounds_AllNaN,Pass
+Chart,2,add_test2.java,org.jfree.data.general.junit.DatasetUtilitiesTests,testIterateRangeBounds_EmptyDataset,Pass
+Chart,2,add_test3.java,org.jfree.data.general.junit.DatasetUtilitiesTests,testIterateRangeBounds_AllNaN,Pass
+Chart,3,add_test.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyEmptyRange,Not Pass
+Chart,3,add_test1.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyFullRange,Pass
+Chart,3,add_test2.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyWithNegativeValues,Pass
+Chart,5,add_test.java,org.jfree.data.xy.junit.XYSeriesTests,testAddOrUpdateWithDuplicatesNotAllowedAndAutoSort,Pass
+Chart,5,add_test1.java,org.jfree.data.xy.junit.XYSeriesTests,testAddOrUpdateWithDuplicatesAllowedNotSorted,Pass
+Chart,6,add_test.java,org.jfree.chart.util.junit.ShapeListTests,testEqualsDifferentSizes,Not Pass
+Chart,6,add_test1.java,org.jfree.chart.util.junit.ShapeListTests,testEqualsDifferentShapes,Pass
+Chart,6,add_test2.java,org.jfree.chart.util.junit.ShapeListTests,testEqualsNullVsNonNull,Pass
+Chart,8,add_test.java,org.jfree.data.time.junit.WeekTests,testConstructorWithDifferentTimeZones,Not Compilable
+Chart,8,add_test1.java,org.jfree.data.time.junit.WeekTests,testConstructorWithJapaneseLocale,Not Pass
+Chart,9,add_test.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyStartAfterEnd,Pass
+Chart,9,add_test1.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyEndBeforeStart,Pass
+Chart,9,add_test2.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyRangeWithinGap,Not Pass
+Chart,10,add_test.java,org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests,testGenerateURLFragmentWithAmpersand,Not Pass
+Chart,10,add_test1.java,org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests,testGenerateURLFragmentWithLessThanGreaterThan,Not Pass
+Chart,10,add_test2.java,org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests,testGenerateURLFragmentWithSingleQuote,Not Pass
+Chart,10,add_test3.java,org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests,testGenerateURLFragmentWithMixedSpecialChars,Not Pass
+Chart,11,add_test.java,org.jfree.chart.util.junit.ShapeUtilitiesTests,testEqualGeneralPathsWithDifferentWindingRules,Pass
+Chart,11,add_test1.java,org.jfree.chart.util.junit.ShapeUtilitiesTests,testEqualGeneralPathsWithNull,Pass
+Chart,11,add_test2.java,org.jfree.chart.util.junit.ShapeUtilitiesTests,testEqualGeneralPathsEmpty,Pass
+Chart,11,add_test3.java,org.jfree.chart.util.junit.ShapeUtilitiesTests,testEqualGeneralPathsDifferentSegmentTypes,Not Pass
+Chart,12,add_test.java,org.jfree.chart.plot.junit.MultiplePiePlotTests,testConstructorWithNullDataset,Pass
+Chart,12,add_test1.java,org.jfree.chart.plot.junit.MultiplePiePlotTests,testDatasetChangeListenerRegistration,Not Pass
+Chart,14,add_test.java,org.jfree.chart.plot.junit.CategoryPlotTests,testRemoveDomainMarkerNull,Not Pass
+Chart,14,add_test1.java,org.jfree.chart.plot.junit.XYPlotTests,testRemoveRangeMarkerNull,Pass
+Chart,15,add_test.java,org.jfree.chart.plot.junit.PiePlot3DTests,testDrawWithNullDatasetAndLegend,Not Pass
+Chart,15,add_test1.java,org.jfree.chart.plot.junit.PiePlot3DTests,testGetMaximumExplodePercentWithNullDataset,Not Pass
+Chart,16,add_test.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testConstructorWithNonEmptySeriesKeys,Not Compilable
+Chart,16,add_test1.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testConstructorWithMismatchedSeriesKeysLength,Not Compilable
+Chart,16,add_test2.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testConstructorWithEmptySeriesKeysArray,Not Compilable
+Chart,16,add_test3.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testConstructorWithNonEmptyCategoryKeys,Not Compilable
+Chart,16,add_test4.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testConstructorWithMismatchedCategoryKeysLength,Not Compilable
+Chart,16,add_test5.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testConstructorWithEmptyCategoryKeysArray,Not Compilable
+Chart,17,add_test.java,org.jfree.data.time.junit.TimeSeriesTests,testCloneWithSingleItem,Pass
+Chart,17,add_test1.java,org.jfree.data.time.junit.TimeSeriesTests,testCloneWithMultipleItems,Pass
+Chart,18,add_test.java,org.jfree.data.junit.DefaultKeyedValuesTests,testRemoveValueAtBeginning,Not Compilable
+Chart,18,add_test1.java,org.jfree.data.junit.DefaultKeyedValuesTests,testRemoveValueAtEnd,Not Compilable
+Chart,18,add_test2.java,org.jfree.data.category.junit.DefaultCategoryDatasetTests,testRemoveColumnMultipleRows,Pass
+Chart,19,add_test.java,org.jfree.chart.plot.junit.CategoryPlotTests,testGetDomainAxisIndexWithParent,Pass
+Chart,19,add_test1.java,org.jfree.chart.plot.junit.CategoryPlotTests,testGetRangeAxisIndexWithParent,Pass
+Chart,19,add_test2.java,org.jfree.chart.plot.junit.CategoryPlotTests,testGetRangeAxisIndexWithNonCategoryParent,Not Compilable
+Chart,20,add_test.java,org.jfree.chart.plot.junit.ValueMarkerTests,testValueMarkerWithNullOutlinePaint,Not Pass
+Chart,20,add_test1.java,org.jfree.chart.plot.junit.ValueMarkerTests,testValueMarkerWithDifferentStrokes,Not Pass
+Chart,21,add_test.java,org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests,testGetRangeBoundsReplaceMax,Not Pass
+Chart,21,add_test1.java,org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests,testGetRangeBoundsMultipleReplacements,Not Pass
+Chart,22,add_test.java,org.jfree.data.junit.KeyedObjects2DTests,testGetObjectAfterRemoval,Pass
+Chart,22,add_test1.java,org.jfree.data.junit.KeyedObjects2DTests,testGetObjectMultipleRowsSameColumn,Pass
+Chart,23,add_test.java,org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests,testCloning,Not Compilable
+Chart,23,add_test1.java,org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests,testSerialization,Not Compilable
+Chart,24,add_test.java,org.jfree.chart.renderer.junit.GrayPaintScaleTests,testGetPaintMidpoint,Pass
+Chart,24,add_test1.java,org.jfree.chart.renderer.junit.GrayPaintScaleTests,testGetPaintQuarter,Pass
+Chart,25,add_test.java,org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests,testDrawWithBothNullHorizontal,Not Pass
+Chart,25,add_test1.java,org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests,testDrawWithBothNullVertical,Not Pass
+Chart,26,add_test.java,org.jfree.chart.junit.ScatterPlotTests,testDrawWithNullInfo,Not Compilable
+Chart,26,add_test1.java,org.jfree.chart.junit.PieChartTests,testDrawWithNullInfo,Not Compilable

@@ -1,0 +1,2 @@
+project,bug_id,folder,jacoco_xml,error
+Chart,6,Chart-6-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-6-buggy/jacoco.xml,Missing jacoco.xml

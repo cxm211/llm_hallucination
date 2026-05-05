@@ -1,0 +1,22 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JxPath,1,add_test.java,org.apache.commons.jxpath.ri.model.dom.DOMModelTest,testNodeTypeTests,Not Compilable
+JxPath,1,add_test1.java,org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest,testNodeTypeTests,Not Compilable
+JxPath,2,add_test.java,org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest,testNullReturn,Not Compilable
+JxPath,2,add_test1.java,org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest,testSimpleValueReturnNoCurrentNode,Not Compilable
+JxPath,3,add_test.java,org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest,testBadFactoryImplementationAttribute,Not Compilable
+JxPath,3,add_test1.java,org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest,testBadFactoryImplementationWithValue,Not Compilable
+JxPath,3,add_test2.java,org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest,testBadFactoryImplementationAttributeWithValue,Not Compilable
+JxPath,4,add_test.java,org.apache.commons.jxpath.ri.model.XMLSpaceTest,testCommentPreserveDOM,Not Pass
+JxPath,4,add_test1.java,org.apache.commons.jxpath.ri.model.XMLSpaceTest,testCommentPreserveJDOM,Not Pass
+JxPath,5,add_test.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testCompareSiblingNodePointers,Pass
+JxPath,5,add_test1.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testCompareAncestorDescendant,Pass
+JxPath,5,add_test2.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testCompareDifferentTrees,Not Pass
+JxPath,12,add_test.java,org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest,testAttributeNameTestDOM,Not Compilable
+JxPath,12,add_test1.java,org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest,testNodeNodeTestDOM,Not Compilable
+JxPath,19,add_test.java,org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest,testGetRelativePositionByQNameDOM,Not Compilable
+JxPath,19,add_test1.java,org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest,testGetRelativePositionByQNameJDOM,Not Pass
+JxPath,20,add_test.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testVariableComparison,Pass
+JxPath,20,add_test1.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testVariableCollectionComparison,Not Compilable
+JxPath,20,add_test2.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testVariableCollectionRightSide,Not Compilable
+JxPath,22,add_test.java,org.apache.commons.jxpath.ri.model.JXPath154Test,testGetNamespaceURI_DocumentNoRoot,Not Compilable
+JxPath,22,add_test1.java,org.apache.commons.jxpath.ri.model.JXPath154Test,testGetNamespaceURI_AttributeWithPrefix,Not Compilable

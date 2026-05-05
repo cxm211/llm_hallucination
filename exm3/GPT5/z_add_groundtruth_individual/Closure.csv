@@ -1,0 +1,9 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Closure,127,add_test.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testDontRemoveBreakInFinallyLoop,Pass
+Closure,127,add_test1.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testDontRemoveContinueInFinallyLoop,Pass
+Closure,145,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testDoLoopIECompatiblity,Not Compilable
+Closure,145,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testFunctionSafariCompatiblity,Not Compilable
+Closure,157,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testGetter,Not Compilable
+Closure,157,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testSetter,Not Compilable
+Closure,170,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssinInsideHookIssue965,Not Compilable
+Closure,170,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssinInsideHookIssue965,Not Compilable

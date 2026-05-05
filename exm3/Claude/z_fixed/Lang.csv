@@ -1,0 +1,61 @@
+project,bug_id,folder,result
+Lang,1,Lang-1-buggy,Not Pass
+Lang,3,Lang-3-buggy,Not Pass
+Lang,4,Lang-4-buggy,Not Compilable
+Lang,5,Lang-5-buggy,Pass
+Lang,6,Lang-6-buggy,Not Pass
+Lang,7,Lang-7-buggy,Not Pass
+Lang,8,Lang-8-buggy,Not Pass
+Lang,9,Lang-9-buggy,Not Pass
+Lang,10,Lang-10-buggy,Not Pass
+Lang,11,Lang-11-buggy,Pass
+Lang,12,Lang-12-buggy,Pass
+Lang,13,Lang-13-buggy,Pass
+Lang,14,Lang-14-buggy,Pass
+Lang,15,Lang-15-buggy,Not Pass
+Lang,16,Lang-16-buggy,Not Pass
+Lang,17,Lang-17-buggy,Not Pass
+Lang,19,Lang-19-buggy,Not Pass
+Lang,20,Lang-20-buggy,Not Pass
+Lang,21,Lang-21-buggy,Not Pass
+Lang,22,Lang-22-buggy,Pass
+Lang,24,Lang-24-buggy,Pass
+Lang,26,Lang-26-buggy,Not Pass
+Lang,27,Lang-27-buggy,Not Pass
+Lang,28,Lang-28-buggy,Pass
+Lang,29,Lang-29-buggy,Not Pass
+Lang,30,Lang-30-buggy,Not Pass
+Lang,31,Lang-31-buggy,Pass
+Lang,32,Lang-32-buggy,Not Compilable
+Lang,33,Lang-33-buggy,Pass
+Lang,34,Lang-34-buggy,Not Compilable
+Lang,35,Lang-35-buggy,Pass
+Lang,36,Lang-36-buggy,Pass
+Lang,37,Lang-37-buggy,Pass
+Lang,38,Lang-38-buggy,Not Pass
+Lang,39,Lang-39-buggy,Pass
+Lang,40,Lang-40-buggy,Pass
+Lang,41,Lang-41-buggy,Not Pass
+Lang,42,Lang-42-buggy,Not Pass
+Lang,43,Lang-43-buggy,Not Pass
+Lang,44,Lang-44-buggy,Not Pass
+Lang,45,Lang-45-buggy,Not Pass
+Lang,46,Lang-46-buggy,Pass
+Lang,47,Lang-47-buggy,Pass
+Lang,49,Lang-49-buggy,Pass
+Lang,50,Lang-50-buggy,Pass
+Lang,51,Lang-51-buggy,Pass
+Lang,52,Lang-52-buggy,Pass
+Lang,53,Lang-53-buggy,Pass
+Lang,54,Lang-54-buggy,Pass
+Lang,55,Lang-55-buggy,Pass
+Lang,56,Lang-56-buggy,Not Pass
+Lang,57,Lang-57-buggy,Not Pass
+Lang,58,Lang-58-buggy,Pass
+Lang,59,Lang-59-buggy,Pass
+Lang,60,Lang-60-buggy,Pass
+Lang,61,Lang-61-buggy,Pass
+Lang,62,Lang-62-buggy,Pass
+Lang,63,Lang-63-buggy,Not Pass
+Lang,64,Lang-64-buggy,Pass
+Lang,65,Lang-65-buggy,Not Pass

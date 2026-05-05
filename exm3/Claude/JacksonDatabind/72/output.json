@@ -1,0 +1,15 @@
+{
+  "fixed_code": [
+    "public int getPropertyIndex() {\n    if (_delegate == null) {\n        return -1;\n    }\n    return _delegate.getPropertyIndex();\n}"
+  ],
+  "additional_testcases": [
+    {
+      "path": "72/input.java",
+      "testcase": "@Test\npublic void testNullDelegateHandling() throws Exception {\n    ObjectMapper mapper = new ObjectMapper();\n    mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);\n    String ser = mapper.writeValueAsString(new Something());\n    Something result = mapper.readValue(ser, Something.class);\n    assertNotNull(result);\n}"
+    },
+    {
+      "path": "72/input.java",
+      "testcase": "@Test\npublic void testEmptyObjectSerialization() throws Exception {\n    ObjectMapper mapper = new ObjectMapper();\n    mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);\n    String json = mapper.writeValueAsString(new Something());\n    assertTrue(json.contains(\"{\"));\n    assertTrue(json.contains(\"}\"));\n}"
+    }
+  ]
+}

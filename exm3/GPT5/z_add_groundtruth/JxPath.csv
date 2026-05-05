@@ -1,0 +1,18 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JxPath,1,add_test.java,org.apache.commons.jxpath.ri.model.dom.DOMModelTest,testNodeAxisOnAttributes,Pass
+JxPath,1,add_test1.java,org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest,testNodeAxisOnAttributes,Pass
+JxPath,2,add_test.java,org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest,testNodeSetReturnPointersBase,Pass
+JxPath,5,add_test.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testUnionOfNodeAndVariableReverse,Pass
+JxPath,6,add_test.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testIterateVariable,Not Compilable
+JxPath,7,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testNodeSetOperations,Not Compilable
+JxPath,8,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testNan,Not Compilable
+JxPath,10,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testEmptyNodeSetOperationsRightHand,Pass
+JxPath,11,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testNamespaceMapping,Pass
+JxPath,12,add_test.java,org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest,testElementDOM,Pass
+JxPath,14,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreFunctionTest,testCoreFunctions,Not Compilable
+JxPath,15,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testUnion,Not Compilable
+JxPath,16,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testAxisPreceding,Not Compilable
+JxPath,17,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testAxisAttribute,Pass
+JxPath,20,add_test.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testRightIteratorComparisonOrder,Pass
+JxPath,21,add_test.java,org.apache.commons.jxpath.ri.model.MixedModelTest,testNullCount,Pass
+JxPath,22,add_test.java,org.apache.commons.jxpath.ri.model.JXPath154Test,testInnerEmptyNamespaceDOM,Pass

@@ -1,0 +1,7 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JacksonXml,1,add_test.java,com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test,testEmptyElementInSimpleArray,Not Compilable
+JacksonXml,1,add_test1.java,com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test,testEmptyElementAsProperty,Not Compilable
+JacksonXml,2,add_test.java,com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest,testMixedContentNoAttributes,Not Pass
+JacksonXml,2,add_test1.java,com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest,testMixedContentMultipleAttributes,Not Pass
+JacksonXml,6,add_test.java,com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization,testAttributeWith0Bytes,Not Compilable
+JacksonXml,6,add_test1.java,com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization,testAttributeWith1Byte,Not Compilable

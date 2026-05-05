@@ -1,0 +1,107 @@
+project,bug_id,folder,result
+Math,1,Math-1-buggy,Not Pass
+Math,2,Math-2-buggy,Pass
+Math,3,Math-3-buggy,Pass
+Math,4,Math-4-buggy,Pass
+Math,5,Math-5-buggy,Pass
+Math,6,Math-6-buggy,Not Pass
+Math,7,Math-7-buggy,Not Pass
+Math,8,Math-8-buggy,Pass
+Math,9,Math-9-buggy,Not Pass
+Math,10,Math-10-buggy,Pass
+Math,11,Math-11-buggy,Pass
+Math,12,Math-12-buggy,Not Pass
+Math,13,Math-13-buggy,Not Pass
+Math,14,Math-14-buggy,Not Pass
+Math,15,Math-15-buggy,Not Pass
+Math,16,Math-16-buggy,Not Pass
+Math,17,Math-17-buggy,Not Compilable
+Math,18,Math-18-buggy,Not Pass
+Math,19,Math-19-buggy,Not Pass
+Math,20,Math-20-buggy,Pass
+Math,21,Math-21-buggy,Not Pass
+Math,22,Math-22-buggy,Pass
+Math,23,Math-23-buggy,Not Pass
+Math,24,Math-24-buggy,Not Pass
+Math,25,Math-25-buggy,Not Pass
+Math,26,Math-26-buggy,Not Pass
+Math,27,Math-27-buggy,Pass
+Math,28,Math-28-buggy,Not Pass
+Math,29,Math-29-buggy,Pass
+Math,30,Math-30-buggy,Pass
+Math,31,Math-31-buggy,Not Pass
+Math,32,Math-32-buggy,Not Compilable
+Math,33,Math-33-buggy,Not Pass
+Math,34,Math-34-buggy,Not Pass
+Math,35,Math-35-buggy,Pass
+Math,36,Math-36-buggy,Pass
+Math,37,Math-37-buggy,Pass
+Math,38,Math-38-buggy,Not Pass
+Math,39,Math-39-buggy,Pass
+Math,40,Math-40-buggy,Not Pass
+Math,41,Math-41-buggy,Pass
+Math,42,Math-42-buggy,Not Pass
+Math,43,Math-43-buggy,Not Pass
+Math,44,Math-44-buggy,Not Compilable
+Math,45,Math-45-buggy,Not Pass
+Math,46,Math-46-buggy,Pass
+Math,47,Math-47-buggy,Pass
+Math,48,Math-48-buggy,Not Pass
+Math,49,Math-49-buggy,Pass
+Math,50,Math-50-buggy,Not Pass
+Math,51,Math-51-buggy,Not Pass
+Math,52,Math-52-buggy,Not Pass
+Math,53,Math-53-buggy,Pass
+Math,54,Math-54-buggy,Pass
+Math,55,Math-55-buggy,Not Pass
+Math,56,Math-56-buggy,Not Compilable
+Math,57,Math-57-buggy,Not Compilable
+Math,58,Math-58-buggy,Not Pass
+Math,59,Math-59-buggy,Pass
+Math,60,Math-60-buggy,Not Pass
+Math,61,Math-61-buggy,Not Compilable
+Math,62,Math-62-buggy,Not Pass
+Math,63,Math-63-buggy,Pass
+Math,64,Math-64-buggy,Not Pass
+Math,65,Math-65-buggy,Pass
+Math,66,Math-66-buggy,Not Compilable
+Math,67,Math-67-buggy,Not Compilable
+Math,68,Math-68-buggy,Not Pass
+Math,69,Math-69-buggy,Pass
+Math,70,Math-70-buggy,Not Compilable
+Math,71,Math-71-buggy,Pass
+Math,72,Math-72-buggy,Pass
+Math,73,Math-73-buggy,Pass
+Math,74,Math-74-buggy,Not Pass
+Math,75,Math-75-buggy,Pass
+Math,76,Math-76-buggy,Not Pass
+Math,77,Math-77-buggy,Pass
+Math,78,Math-78-buggy,Not Pass
+Math,79,Math-79-buggy,Pass
+Math,80,Math-80-buggy,Not Pass
+Math,81,Math-81-buggy,Not Pass
+Math,82,Math-82-buggy,Pass
+Math,83,Math-83-buggy,Not Pass
+Math,84,Math-84-buggy,Not Compilable
+Math,85,Math-85-buggy,Pass
+Math,86,Math-86-buggy,Pass
+Math,87,Math-87-buggy,Pass
+Math,88,Math-88-buggy,Not Pass
+Math,89,Math-89-buggy,Pass
+Math,90,Math-90-buggy,Not Pass
+Math,91,Math-91-buggy,Pass
+Math,92,Math-92-buggy,Not Pass
+Math,93,Math-93-buggy,Not Pass
+Math,94,Math-94-buggy,Pass
+Math,95,Math-95-buggy,Not Pass
+Math,96,Math-96-buggy,Not Pass
+Math,97,Math-97-buggy,Pass
+Math,98,Math-98-buggy,Pass
+Math,99,Math-99-buggy,Pass
+Math,100,Math-100-buggy,Not Pass
+Math,101,Math-101-buggy,Pass
+Math,102,Math-102-buggy,Pass
+Math,103,Math-103-buggy,Pass
+Math,104,Math-104-buggy,Not Pass
+Math,105,Math-105-buggy,Pass
+Math,106,Math-106-buggy,Pass

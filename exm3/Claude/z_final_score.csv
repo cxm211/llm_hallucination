@@ -1,0 +1,12 @@
+repair_result,buggy_result,fixed_result,groundtruth_result,count,ratio
+Not Pass,Not Pass,Not Pass,Pass,518,0.24584717607973422
+Not Pass,Pass,Pass,Pass,355,0.1684859990507831
+Pass,Pass,Pass,Pass,282,0.13383958234456572
+Pass,Not Pass,Pass,Pass,254,0.12055054579971523
+Not Pass,Not Compilable,Not Compilable,Not Compilable,225,0.10678690080683437
+Not Pass,Not Pass,Pass,Pass,153,0.07261509254864737
+Pass,Not Compilable,Not Compilable,Not Compilable,112,0.053156146179401995
+Pass,Not Pass,Not Pass,Pass,106,0.05030849549121975
+Not Pass,Pass,Not Pass,Pass,96,0.045562411010915994
+Not Pass,Not Generated,Not Generated,Not Generated,5,0.0023730422401518746
+Pass,Pass,Not Pass,Pass,1,0.00047460844803037496

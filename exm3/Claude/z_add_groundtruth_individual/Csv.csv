@@ -1,0 +1,42 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Csv,1,add_test.java,org.apache.commons.csv.CSVParserTest,testGetLineNumberWithLF,Not Compilable
+Csv,1,add_test1.java,org.apache.commons.csv.CSVParserTest,testGetLineNumberWithCRLF,Not Compilable
+Csv,1,add_test2.java,org.apache.commons.csv.CSVParserTest,testGetLineNumberWithMixedLineEndings,Pass
+Csv,2,add_test.java,org.apache.commons.csv.CSVRecordTest,testGetStringIndexOutOfBoundsNegative,Not Compilable
+Csv,2,add_test1.java,org.apache.commons.csv.CSVRecordTest,testGetStringIndexAtBoundary,Not Compilable
+Csv,3,add_test.java,org.apache.commons.csv.CSVLexerTest,testEscapedDigit,Pass
+Csv,3,add_test1.java,org.apache.commons.csv.CSVLexerTest,testEscapedSpecialChar,Pass
+Csv,3,add_test2.java,org.apache.commons.csv.CSVParserTest,testBackslashEscapingWithUnknownChar,Pass
+Csv,4,add_test.java,org.apache.commons.csv.CSVParserTest,testHeaderMapWithHeaders,Not Compilable
+Csv,4,add_test1.java,org.apache.commons.csv.CSVParserTest,testHeaderMapImmutability,Not Compilable
+Csv,5,add_test.java,org.apache.commons.csv.CSVFormatTest,testNullRecordSeparatorWithMultipleRecords,Not Compilable
+Csv,5,add_test1.java,org.apache.commons.csv.CSVFormatTest,testNullRecordSeparatorPrintln,Not Compilable
+Csv,6,add_test.java,org.apache.commons.csv.CSVRecordTest,testToMapWithEmptyRecord,Not Pass
+Csv,6,add_test1.java,org.apache.commons.csv.CSVRecordTest,testToMapWithSingleColumnShort,Pass
+Csv,6,add_test2.java,org.apache.commons.csv.CSVRecordTest,testToMapWithMultipleColumnsShort,Pass
+Csv,7,add_test.java,org.apache.commons.csv.CSVParserTest,testDuplicateHeaderEntriesWithExplicitHeader,Not Pass
+Csv,7,add_test1.java,org.apache.commons.csv.CSVParserTest,testDuplicateHeaderEntriesMultipleDuplicates,Not Pass
+Csv,7,add_test2.java,org.apache.commons.csv.CSVParserTest,testNoDuplicateHeaderEntriesWithEmptyHeader,Pass
+Csv,7,add_test3.java,org.apache.commons.csv.CSVParserTest,testNoDuplicateHeaderEntriesWithExplicitHeader,Pass
+Csv,8,add_test.java,org.apache.commons.csv.CSVFormatTest,testDuplicateHeaderElementsWithThreeElements,Not Pass
+Csv,8,add_test1.java,org.apache.commons.csv.CSVFormatTest,testDuplicateHeaderElementsMultipleDuplicates,Not Pass
+Csv,8,add_test2.java,org.apache.commons.csv.CSVFormatTest,testNoDuplicateHeaderElements,Pass
+Csv,9,add_test.java,org.apache.commons.csv.CSVRecordTest,testToMapWithNoHeaderMultipleRecords,Not Compilable
+Csv,9,add_test1.java,org.apache.commons.csv.CSVRecordTest,testToMapWithNoHeaderEmptyRecord,Pass
+Csv,10,add_test.java,org.apache.commons.csv.CSVPrinterTest,testHeaderWithSingleColumn,Pass
+Csv,10,add_test1.java,org.apache.commons.csv.CSVPrinterTest,testHeaderWithQuotedValues,Pass
+Csv,11,add_test.java,org.apache.commons.csv.CSVParserTest,testHeaderDuplicateNonEmpty,Pass
+Csv,11,add_test1.java,org.apache.commons.csv.CSVParserTest,testHeaderDuplicateEmptyWithIgnoreFalse,Pass
+Csv,11,add_test2.java,org.apache.commons.csv.CSVParserTest,testHeaderMixedEmptyNonEmpty,Not Pass
+Csv,13,add_test.java,org.apache.commons.csv.CSVPrinterTest,testNullStringWithQuoteModeAll,Not Pass
+Csv,13,add_test1.java,org.apache.commons.csv.CSVPrinterTest,testNullStringWithEscapeChar,Not Pass
+Csv,13,add_test2.java,org.apache.commons.csv.CSVPrinterTest,testNullVsNullStringLiteral,Not Pass
+Csv,14,add_test.java,org.apache.commons.csv.CSVPrinterTest,testQuoteCharInMiddle,Not Pass
+Csv,14,add_test1.java,org.apache.commons.csv.CSVPrinterTest,testMultipleQuoteChars,Not Pass
+Csv,14,add_test2.java,org.apache.commons.csv.CSVPrinterTest,testQuoteCharAtEnd,Not Pass
+Csv,15,add_test.java,org.apache.commons.csv.CSVPrinterTest,testDontQuoteUnicodeCharactersInMiddle,Pass
+Csv,15,add_test1.java,org.apache.commons.csv.CSVPrinterTest,testDontQuoteCJKFirstChar,Pass
+Csv,15,add_test2.java,org.apache.commons.csv.CSVPrinterTest,testQuoteUnicodeWithComma,Pass
+Csv,16,add_test.java,org.apache.commons.csv.CSVParserTest,testIteratorMultipleHasNextCalls,Pass
+Csv,16,add_test1.java,org.apache.commons.csv.CSVParserTest,testIteratorNextWithoutHasNext,Pass
+Csv,16,add_test2.java,org.apache.commons.csv.CSVParserTest,testIteratorMixedHasNextAndNext,Pass

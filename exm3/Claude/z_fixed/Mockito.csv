@@ -1,0 +1,39 @@
+project,bug_id,folder,result
+Mockito,1,Mockito-1-buggy,Not Pass
+Mockito,2,Mockito-2-buggy,Not Compilable
+Mockito,3,Mockito-3-buggy,Not Pass
+Mockito,4,Mockito-4-buggy,Not Pass
+Mockito,5,Mockito-5-buggy,Pass
+Mockito,6,Mockito-6-buggy,Not Compilable
+Mockito,7,Mockito-7-buggy,Not Pass
+Mockito,8,Mockito-8-buggy,Not Pass
+Mockito,9,Mockito-9-buggy,Not Compilable
+Mockito,10,Mockito-10-buggy,Not Pass
+Mockito,11,Mockito-11-buggy,Not Pass
+Mockito,12,Mockito-12-buggy,Pass
+Mockito,13,Mockito-13-buggy,Pass
+Mockito,14,Mockito-14-buggy,Not Pass
+Mockito,15,Mockito-15-buggy,Not Pass
+Mockito,16,Mockito-16-buggy,Pass
+Mockito,17,Mockito-17-buggy,Not Compilable
+Mockito,18,Mockito-18-buggy,Pass
+Mockito,19,Mockito-19-buggy,Not Pass
+Mockito,20,Mockito-20-buggy,Not Pass
+Mockito,21,Mockito-21-buggy,Pass
+Mockito,22,Mockito-22-buggy,Not Pass
+Mockito,23,Mockito-23-buggy,Not Pass
+Mockito,24,Mockito-24-buggy,Pass
+Mockito,25,Mockito-25-buggy,Not Compilable
+Mockito,26,Mockito-26-buggy,Not Compilable
+Mockito,27,Mockito-27-buggy,Not Compilable
+Mockito,28,Mockito-28-buggy,Not Compilable
+Mockito,29,Mockito-29-buggy,Pass
+Mockito,30,Mockito-30-buggy,Not Pass
+Mockito,31,Mockito-31-buggy,Pass
+Mockito,32,Mockito-32-buggy,Not Pass
+Mockito,33,Mockito-33-buggy,Pass
+Mockito,34,Mockito-34-buggy,Pass
+Mockito,35,Mockito-35-buggy,Not Compilable
+Mockito,36,Mockito-36-buggy,Not Compilable
+Mockito,37,Mockito-37-buggy,Not Compilable
+Mockito,38,Mockito-38-buggy,Pass

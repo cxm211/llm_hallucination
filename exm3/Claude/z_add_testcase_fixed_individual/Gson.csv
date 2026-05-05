@@ -1,0 +1,47 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Gson,1,add_test.java,com.google.gson.functional.TypeVariableTest,testNestedTypeVariables,Not Compilable
+Gson,1,add_test1.java,com.google.gson.functional.TypeVariableTest,testMultipleTypeParameters,Not Compilable
+Gson,2,add_test.java,com.google.gson.functional.DefaultTypeAdaptersTest,testJsonElementSubtypeDeserialization,Not Pass
+Gson,2,add_test1.java,com.google.gson.functional.DefaultTypeAdaptersTest,testJsonElementArrayTypeMismatch,Not Pass
+Gson,3,add_test.java,com.google.gson.functional.MapTest,testNavigableMap,Not Compilable
+Gson,3,add_test1.java,com.google.gson.functional.MapTest,testPlainMap,Not Compilable
+Gson,4,add_test.java,com.google.gson.stream.JsonWriterTest,testTopLevelJsonValue,Not Pass
+Gson,4,add_test1.java,com.google.gson.stream.JsonWriterTest,testTopLevelNumberValue,Not Pass
+Gson,4,add_test2.java,com.google.gson.stream.JsonReaderTest,testTopLevelStringMultiplePeeks,Pass
+Gson,5,add_test.java,com.google.gson.DefaultDateTypeAdapterTest,testDateDeserializationISO8601_NegativeOffset,Not Pass
+Gson,5,add_test1.java,com.google.gson.DefaultDateTypeAdapterTest,testDateDeserializationISO8601_MultiDigitOffset,Pass
+Gson,6,add_test.java,com.google.gson.regression.JsonAdapterNullSafeTest,testNullSafeFalseWithNullValue,Not Compilable
+Gson,6,add_test1.java,com.google.gson.regression.JsonAdapterNullSafeTest,testTypeAdapterFactoryWithNullSafe,Not Compilable
+Gson,7,add_test.java,com.google.gson.stream.JsonReaderTest,testNextLongWithQuotedValue,Pass
+Gson,7,add_test1.java,com.google.gson.stream.JsonReaderTest,testNextIntWithQuotedValue,Pass
+Gson,7,add_test2.java,com.google.gson.stream.JsonReaderTest,testNextLongWithSingleQuotedValue,Pass
+Gson,7,add_test3.java,com.google.gson.stream.JsonReaderTest,testNextIntWithInvalidQuotedDouble,Pass
+Gson,9,add_test.java,com.google.gson.stream.JsonWriterTest,testBoxedBooleansInObject,Not Pass
+Gson,9,add_test1.java,com.google.gson.stream.JsonWriterTest,testBoxedBooleansMixed,Not Pass
+Gson,10,add_test.java,com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest,testNonPrimitiveFieldAnnotationTakesPrecedenceOverDefault,Not Compilable
+Gson,10,add_test1.java,com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest,testFieldWithoutAnnotationUsesDefaultAdapter,Not Pass
+Gson,10,add_test2.java,com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest,testNullValueWithPrimitiveAnnotation,Not Pass
+Gson,11,add_test.java,com.google.gson.functional.PrimitiveTest,testNumberAsStringDeserializationWithDecimal,Pass
+Gson,11,add_test1.java,com.google.gson.functional.PrimitiveTest,testNumberAsStringDeserializationWithNegative,Pass
+Gson,11,add_test2.java,com.google.gson.functional.PrimitiveTest,testNumberAsStringDeserializationWithScientificNotation,Pass
+Gson,12,add_test.java,com.google.gson.internal.bind.JsonTreeReaderTest,testSkipValue_emptyJsonArray,Not Pass
+Gson,12,add_test1.java,com.google.gson.internal.bind.JsonTreeReaderTest,testSkipValue_filledJsonArray,Not Pass
+Gson,12,add_test2.java,com.google.gson.internal.bind.JsonTreeReaderTest,testSkipValue_primitiveString,Not Compilable
+Gson,12,add_test3.java,com.google.gson.internal.bind.JsonTreeReaderTest,testSkipValue_primitiveNumber,Not Compilable
+Gson,12,add_test4.java,com.google.gson.internal.bind.JsonTreeReaderTest,testSkipValue_primitiveBoolean,Not Compilable
+Gson,12,add_test5.java,com.google.gson.internal.bind.JsonTreeReaderTest,testSkipValue_jsonNull,Not Pass
+Gson,13,add_test.java,com.google.gson.stream.JsonReaderTest,testNegativeZeroInObject,Pass
+Gson,13,add_test1.java,com.google.gson.stream.JsonReaderTest,testPositiveZeroIsLong,Pass
+Gson,14,add_test.java,com.google.gson.internal.bind.RecursiveTypesResolveTest,testTripleSubtype,Pass
+Gson,14,add_test1.java,com.google.gson.internal.bind.RecursiveTypesResolveTest,testTripleSupertype,Pass
+Gson,14,add_test2.java,com.google.gson.internal.bind.RecursiveTypesResolveTest,testSuperSubSupertype,Pass
+Gson,15,add_test.java,com.google.gson.stream.JsonWriterTest,testNonFiniteDoublesWhenNotLenient,Pass
+Gson,15,add_test1.java,com.google.gson.stream.JsonWriterTest,testNegativeInfinityWhenNotLenient,Pass
+Gson,15,add_test2.java,com.google.gson.stream.JsonWriterTest,testPositiveInfinityWhenNotLenient,Pass
+Gson,15,add_test3.java,com.google.gson.stream.JsonWriterTest,testFiniteDoubleWhenLenient,Pass
+Gson,17,add_test.java,com.google.gson.DefaultDateTypeAdapterTest,testNullValueWithTimestamp,Not Compilable
+Gson,17,add_test1.java,com.google.gson.DefaultDateTypeAdapterTest,testNullValueWithSqlDate,Pass
+Gson,17,add_test2.java,com.google.gson.DefaultDateTypeAdapterTest,testUnexpectedTokenArray,Not Pass
+Gson,17,add_test3.java,com.google.gson.DefaultDateTypeAdapterTest,testUnexpectedTokenNumber,Pass
+Gson,18,add_test.java,com.google.gson.functional.CollectionTest,testWildcardTypeWithLowerBound,Pass
+Gson,18,add_test1.java,com.google.gson.functional.CollectionTest,testWildcardTypeWithMultipleBounds,Not Compilable

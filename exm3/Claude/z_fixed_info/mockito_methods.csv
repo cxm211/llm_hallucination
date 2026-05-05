@@ -1,0 +1,334 @@
+project,bug_id,folder,class_entry,file,method_sig_snippet,fixed_method_start_line,fixed_method_end_line
+Mockito,1,Mockito-1-buggy,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation invocation) {,120,127
+Mockito,1,Mockito-1-buggy_ind1,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation invocation) {,120,127
+Mockito,1,Mockito-1-buggy_ind2,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation invocation) {,120,127
+Mockito,10,Mockito-10-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object deepStub(InvocationOnMock invocation, GenericMetadataSupport returnTypeGenericMetadata) throws Throwable {",58,74
+Mockito,10,Mockito-10-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private Object newDeepStubMock(GenericMetadataSupport returnTypeGenericMetadata) {,87,92
+Mockito,10,Mockito-10-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {,94,101
+Mockito,10,Mockito-10-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object deepStub(InvocationOnMock invocation, GenericMetadataSupport returnTypeGenericMetadata) throws Throwable {",58,74
+Mockito,10,Mockito-10-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private Object newDeepStubMock(GenericMetadataSupport returnTypeGenericMetadata) {,87,92
+Mockito,10,Mockito-10-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {,94,101
+Mockito,10,Mockito-10-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object deepStub(InvocationOnMock invocation, GenericMetadataSupport returnTypeGenericMetadata) throws Throwable {",58,74
+Mockito,10,Mockito-10-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private Object newDeepStubMock(GenericMetadataSupport returnTypeGenericMetadata) {,87,92
+Mockito,10,Mockito-10-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {,94,101
+Mockito,11,Mockito-11-buggy,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public boolean equals(Object o) {,54,59
+Mockito,11,Mockito-11-buggy,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public int hashCode() {,62,64
+Mockito,11,Mockito-11-buggy_ind1,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public boolean equals(Object o) {,54,59
+Mockito,11,Mockito-11-buggy_ind1,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public int hashCode() {,62,64
+Mockito,11,Mockito-11-buggy_ind2,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public boolean equals(Object o) {,54,59
+Mockito,11,Mockito-11-buggy_ind2,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public int hashCode() {,62,64
+Mockito,11,Mockito-11-buggy_ind3,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public boolean equals(Object o) {,54,59
+Mockito,11,Mockito-11-buggy_ind3,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public int hashCode() {,62,64
+Mockito,11,Mockito-11-buggy_ind4,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public boolean equals(Object o) {,54,59
+Mockito,11,Mockito-11-buggy_ind4,org.mockito.internal.creation.DelegatingMethod,org/mockito/internal/creation/DelegatingMethod.java,public int hashCode() {,62,64
+Mockito,12,Mockito-12-buggy,org.mockito.internal.util.reflection.GenericMaster,org/mockito/internal/util/reflection/GenericMaster.java,public Class getGenericType(Field field) {,16,29
+Mockito,12,Mockito-12-buggy_ind1,org.mockito.internal.util.reflection.GenericMaster,org/mockito/internal/util/reflection/GenericMaster.java,public Class getGenericType(Field field) {,16,29
+Mockito,12,Mockito-12-buggy_ind2,org.mockito.internal.util.reflection.GenericMaster,org/mockito/internal/util/reflection/GenericMaster.java,public Class getGenericType(Field field) {,16,29
+Mockito,12,Mockito-12-buggy_ind3,org.mockito.internal.util.reflection.GenericMaster,org/mockito/internal/util/reflection/GenericMaster.java,public Class getGenericType(Field field) {,16,29
+Mockito,13,Mockito-13-buggy,org.mockito.internal.MockHandler,org/mockito/internal/MockHandler.java,public Object handle(Invocation invocation) throws Throwable {,58,107
+Mockito,13,Mockito-13-buggy_ind1,org.mockito.internal.MockHandler,org/mockito/internal/MockHandler.java,public Object handle(Invocation invocation) throws Throwable {,58,107
+Mockito,13,Mockito-13-buggy_ind2,org.mockito.internal.MockHandler,org/mockito/internal/MockHandler.java,public Object handle(Invocation invocation) throws Throwable {,58,107
+Mockito,14,Mockito-14-buggy,org.mockito.internal.MockHandler,org/mockito/internal/MockHandler.java,public Object handle(Invocation invocation) throws Throwable {,57,101
+Mockito,14,Mockito-14-buggy,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T verify(T mock, VerificationMode mode) {",67,75
+Mockito,14,Mockito-14-buggy_ind1,org.mockito.internal.MockHandler,org/mockito/internal/MockHandler.java,public Object handle(Invocation invocation) throws Throwable {,57,101
+Mockito,14,Mockito-14-buggy_ind1,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T verify(T mock, VerificationMode mode) {",67,75
+Mockito,14,Mockito-14-buggy_ind2,org.mockito.internal.MockHandler,org/mockito/internal/MockHandler.java,public Object handle(Invocation invocation) throws Throwable {,57,101
+Mockito,14,Mockito-14-buggy_ind2,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T verify(T mock, VerificationMode mode) {",67,75
+Mockito,15,Mockito-15-buggy,org.mockito.internal.configuration.injection.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",18,42
+Mockito,15,Mockito-15-buggy_ind1,org.mockito.internal.configuration.injection.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",18,42
+Mockito,15,Mockito-15-buggy_ind2,org.mockito.internal.configuration.injection.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",18,42
+Mockito,15,Mockito-15-buggy_ind3,org.mockito.internal.configuration.injection.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",18,42
+Mockito,16,Mockito-16-buggy,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings, boolean shouldResetOngoingStubbing) { return mock(classToMock, mockSettings); }",32,39
+Mockito,16,Mockito-16-buggy,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",40,44
+Mockito,16,Mockito-16-buggy,org.mockito.Mockito,org/mockito/Mockito.java,"public static <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",826,828
+Mockito,16,Mockito-16-buggy,org.mockito.Mockito,org/mockito/Mockito.java,public static <T> T spy(T object) {,896,900
+Mockito,16,Mockito-16-buggy_ind1,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings, boolean shouldResetOngoingStubbing) { return mock(classToMock, mockSettings); }",32,39
+Mockito,16,Mockito-16-buggy_ind1,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",40,44
+Mockito,16,Mockito-16-buggy_ind1,org.mockito.Mockito,org/mockito/Mockito.java,"public static <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",826,828
+Mockito,16,Mockito-16-buggy_ind1,org.mockito.Mockito,org/mockito/Mockito.java,public static <T> T spy(T object) {,896,900
+Mockito,16,Mockito-16-buggy_ind2,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings, boolean shouldResetOngoingStubbing) { return mock(classToMock, mockSettings); }",32,39
+Mockito,16,Mockito-16-buggy_ind2,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",40,44
+Mockito,16,Mockito-16-buggy_ind2,org.mockito.Mockito,org/mockito/Mockito.java,"public static <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",826,828
+Mockito,16,Mockito-16-buggy_ind2,org.mockito.Mockito,org/mockito/Mockito.java,public static <T> T spy(T object) {,896,900
+Mockito,16,Mockito-16-buggy_ind3,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings, boolean shouldResetOngoingStubbing) { return mock(classToMock, mockSettings); }",32,39
+Mockito,16,Mockito-16-buggy_ind3,org.mockito.internal.MockitoCore,org/mockito/internal/MockitoCore.java,"public <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",40,44
+Mockito,16,Mockito-16-buggy_ind3,org.mockito.Mockito,org/mockito/Mockito.java,"public static <T> T mock(Class<T> classToMock, MockSettings mockSettings) {",826,828
+Mockito,16,Mockito-16-buggy_ind3,org.mockito.Mockito,org/mockito/Mockito.java,public static <T> T spy(T object) {,896,900
+Mockito,17,Mockito-17-buggy,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public MockSettings serializable() {,21,24
+Mockito,17,Mockito-17-buggy,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public boolean isSerializable() {,74,76
+Mockito,17,Mockito-17-buggy,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,"public <T> T createMock(Class<T> classToMock, MockSettingsImpl settings) {",33,76
+Mockito,17,Mockito-17-buggy_ind1,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public MockSettings serializable() {,21,24
+Mockito,17,Mockito-17-buggy_ind1,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public boolean isSerializable() {,74,76
+Mockito,17,Mockito-17-buggy_ind1,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,"public <T> T createMock(Class<T> classToMock, MockSettingsImpl settings) {",33,76
+Mockito,17,Mockito-17-buggy_ind2,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public MockSettings serializable() {,21,24
+Mockito,17,Mockito-17-buggy_ind2,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public boolean isSerializable() {,74,76
+Mockito,17,Mockito-17-buggy_ind2,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,"public <T> T createMock(Class<T> classToMock, MockSettingsImpl settings) {",33,76
+Mockito,17,Mockito-17-buggy_ind3,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public MockSettings serializable() {,21,24
+Mockito,17,Mockito-17-buggy_ind3,org.mockito.internal.creation.MockSettingsImpl,org/mockito/internal/creation/MockSettingsImpl.java,public boolean isSerializable() {,74,76
+Mockito,17,Mockito-17-buggy_ind3,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,"public <T> T createMock(Class<T> classToMock, MockSettingsImpl settings) {",33,76
+Mockito,18,Mockito-18-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,Object returnValueFor(Class<?> type) {,82,120
+Mockito,18,Mockito-18-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,Object returnValueFor(Class<?> type) {,82,120
+Mockito,18,Mockito-18-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,Object returnValueFor(Class<?> type) {,82,120
+Mockito,18,Mockito-18-buggy_ind3,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,Object returnValueFor(Class<?> type) {,82,120
+Mockito,19,Mockito-19-buggy,org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",23,47
+Mockito,19,Mockito-19-buggy,org.mockito.internal.configuration.injection.filter.MockCandidateFilter,org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java,"OngoingInjecter filterCandidate( Collection<Object> mocks, Field fieldToBeInjected, Object fieldInstance );",12,16
+Mockito,19,Mockito-19-buggy,org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",22,37
+Mockito,19,Mockito-19-buggy,org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",20,29
+Mockito,19,Mockito-19-buggy,org.mockito.internal.configuration.injection.PropertyAndSetterInjection,org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,"private boolean injectMockCandidatesOnFields(Set<Object> mocks, Object instance, boolean injectionOccurred, List<Field> orderedInstanceFields) {",111,122
+Mockito,19,Mockito-19-buggy_ind1,org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",23,47
+Mockito,19,Mockito-19-buggy_ind1,org.mockito.internal.configuration.injection.filter.MockCandidateFilter,org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java,"OngoingInjecter filterCandidate( Collection<Object> mocks, Field fieldToBeInjected, Object fieldInstance );",12,16
+Mockito,19,Mockito-19-buggy_ind1,org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",22,37
+Mockito,19,Mockito-19-buggy_ind1,org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",20,29
+Mockito,19,Mockito-19-buggy_ind1,org.mockito.internal.configuration.injection.PropertyAndSetterInjection,org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,"private boolean injectMockCandidatesOnFields(Set<Object> mocks, Object instance, boolean injectionOccurred, List<Field> orderedInstanceFields) {",111,122
+Mockito,19,Mockito-19-buggy_ind2,org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",23,47
+Mockito,19,Mockito-19-buggy_ind2,org.mockito.internal.configuration.injection.filter.MockCandidateFilter,org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java,"OngoingInjecter filterCandidate( Collection<Object> mocks, Field fieldToBeInjected, Object fieldInstance );",12,16
+Mockito,19,Mockito-19-buggy_ind2,org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",22,37
+Mockito,19,Mockito-19-buggy_ind2,org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",20,29
+Mockito,19,Mockito-19-buggy_ind2,org.mockito.internal.configuration.injection.PropertyAndSetterInjection,org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,"private boolean injectMockCandidatesOnFields(Set<Object> mocks, Object instance, boolean injectionOccurred, List<Field> orderedInstanceFields) {",111,122
+Mockito,19,Mockito-19-buggy_ind3,org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter,org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.java,"public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {",23,47
+Mockito,19,Mockito-19-buggy_ind3,org.mockito.internal.configuration.injection.filter.MockCandidateFilter,org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java,"OngoingInjecter filterCandidate( Collection<Object> mocks, Field fieldToBeInjected, Object fieldInstance );",12,16
+Mockito,19,Mockito-19-buggy_ind3,org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",22,37
+Mockito,19,Mockito-19-buggy_ind3,org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter,org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java,"public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {",20,29
+Mockito,19,Mockito-19-buggy_ind3,org.mockito.internal.configuration.injection.PropertyAndSetterInjection,org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java,"private boolean injectMockCandidatesOnFields(Set<Object> mocks, Object instance, boolean injectionOccurred, List<Field> orderedInstanceFields) {",111,122
+Mockito,2,Mockito-2-buggy,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public Timer(long durationMillis) {,9,18
+Mockito,2,Mockito-2-buggy,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public void start() {,31,33
+Mockito,2,Mockito-2-buggy_ind1,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public Timer(long durationMillis) {,9,18
+Mockito,2,Mockito-2-buggy_ind1,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public void start() {,31,33
+Mockito,2,Mockito-2-buggy_ind2,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public Timer(long durationMillis) {,9,18
+Mockito,2,Mockito-2-buggy_ind2,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public void start() {,31,33
+Mockito,2,Mockito-2-buggy_ind3,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public Timer(long durationMillis) {,9,18
+Mockito,2,Mockito-2-buggy_ind3,org.mockito.internal.util.Timer,org/mockito/internal/util/Timer.java,public void start() {,31,33
+Mockito,20,Mockito-20-buggy,org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker,org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,"public <T> T createMock(MockCreationSettings<T> settings, MockHandler handler) {",24,53
+Mockito,20,Mockito-20-buggy_ind1,org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker,org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,"public <T> T createMock(MockCreationSettings<T> settings, MockHandler handler) {",24,53
+Mockito,20,Mockito-20-buggy_ind2,org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker,org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,"public <T> T createMock(MockCreationSettings<T> settings, MockHandler handler) {",24,53
+Mockito,21,Mockito-21-buggy,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,public <T> T newInstance(Class<T> cls) {,13,18
+Mockito,21,Mockito-21-buggy,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,private <T> T withOuterClass(Class<T> cls) {,20,45
+Mockito,21,Mockito-21-buggy,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,"private static <T> InstantationException paramsException(Class<T> cls, Exception e) {",47,50
+Mockito,21,Mockito-21-buggy_ind1,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,public <T> T newInstance(Class<T> cls) {,13,18
+Mockito,21,Mockito-21-buggy_ind1,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,private <T> T withOuterClass(Class<T> cls) {,20,45
+Mockito,21,Mockito-21-buggy_ind1,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,"private static <T> InstantationException paramsException(Class<T> cls, Exception e) {",47,50
+Mockito,21,Mockito-21-buggy_ind2,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,public <T> T newInstance(Class<T> cls) {,13,18
+Mockito,21,Mockito-21-buggy_ind2,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,private <T> T withOuterClass(Class<T> cls) {,20,45
+Mockito,21,Mockito-21-buggy_ind2,org.mockito.internal.creation.instance.ConstructorInstantiator,org/mockito/internal/creation/instance/ConstructorInstantiator.java,"private static <T> InstantationException paramsException(Class<T> cls, Exception e) {",47,50
+Mockito,22,Mockito-22-buggy,org.mockito.internal.matchers.Equality,org/mockito/internal/matchers/Equality.java,"public static boolean areEqual(Object o1, Object o2) {",12,22
+Mockito,22,Mockito-22-buggy_ind1,org.mockito.internal.matchers.Equality,org/mockito/internal/matchers/Equality.java,"public static boolean areEqual(Object o1, Object o2) {",12,22
+Mockito,22,Mockito-22-buggy_ind2,org.mockito.internal.matchers.Equality,org/mockito/internal/matchers/Equality.java,"public static boolean areEqual(Object o1, Object o2) {",12,22
+Mockito,23,Mockito-23-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,public Object answer(InvocationOnMock invocation) throws Throwable {,47,57
+Mockito,23,Mockito-23-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {,93,102
+Mockito,23,Mockito-23-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object recordDeepStubMock(final Object mock, InvocationContainerImpl container) throws Throwable {",113,122
+Mockito,23,Mockito-23-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,public Object answer(InvocationOnMock invocation) throws Throwable {,47,57
+Mockito,23,Mockito-23-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {,93,102
+Mockito,23,Mockito-23-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object recordDeepStubMock(final Object mock, InvocationContainerImpl container) throws Throwable {",113,122
+Mockito,23,Mockito-23-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,public Object answer(InvocationOnMock invocation) throws Throwable {,47,57
+Mockito,23,Mockito-23-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {,93,102
+Mockito,23,Mockito-23-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object recordDeepStubMock(final Object mock, InvocationContainerImpl container) throws Throwable {",113,122
+Mockito,24,Mockito-24-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,public Object answer(InvocationOnMock invocation) {,63,86
+Mockito,24,Mockito-24-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,public Object answer(InvocationOnMock invocation) {,63,86
+Mockito,24,Mockito-24-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues,org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,public Object answer(InvocationOnMock invocation) {,63,86
+Mockito,25,Mockito-25-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,public Object answer(InvocationOnMock invocation) throws Throwable {,44,54
+Mockito,25,Mockito-25-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private Object getMock(InvocationOnMock invocation) throws Throwable {,56,69
+Mockito,25,Mockito-25-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object recordDeepStubMock(InvocationOnMock invocation, InvocationContainerImpl container) {",81,92
+Mockito,25,Mockito-25-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,public Object answer(InvocationOnMock invocation) throws Throwable {,44,54
+Mockito,25,Mockito-25-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private Object getMock(InvocationOnMock invocation) throws Throwable {,56,69
+Mockito,25,Mockito-25-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object recordDeepStubMock(InvocationOnMock invocation, InvocationContainerImpl container) {",81,92
+Mockito,25,Mockito-25-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,public Object answer(InvocationOnMock invocation) throws Throwable {,44,54
+Mockito,25,Mockito-25-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,private Object getMock(InvocationOnMock invocation) throws Throwable {,56,69
+Mockito,25,Mockito-25-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs,org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java,"private Object recordDeepStubMock(InvocationOnMock invocation, InvocationContainerImpl container) {",81,92
+Mockito,27,Mockito-27-buggy,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,public <T> void resetMock(T mock) {,62,68
+Mockito,27,Mockito-27-buggy_ind1,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,public <T> void resetMock(T mock) {,62,68
+Mockito,27,Mockito-27-buggy_ind2,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,public <T> void resetMock(T mock) {,62,68
+Mockito,27,Mockito-27-buggy_ind3,org.mockito.internal.util.MockUtil,org/mockito/internal/util/MockUtil.java,public <T> void resetMock(T mock) {,62,68
+Mockito,28,Mockito-28-buggy,org.mockito.internal.configuration.DefaultInjectionEngine,org/mockito/internal/configuration/DefaultInjectionEngine.java,"private void injectMockCandidate(Class<?> awaitingInjectionClazz, Set<Object> mocks, Object fieldInstance) {",91,99
+Mockito,28,Mockito-28-buggy_ind1,org.mockito.internal.configuration.DefaultInjectionEngine,org/mockito/internal/configuration/DefaultInjectionEngine.java,"private void injectMockCandidate(Class<?> awaitingInjectionClazz, Set<Object> mocks, Object fieldInstance) {",91,99
+Mockito,28,Mockito-28-buggy_ind2,org.mockito.internal.configuration.DefaultInjectionEngine,org/mockito/internal/configuration/DefaultInjectionEngine.java,"private void injectMockCandidate(Class<?> awaitingInjectionClazz, Set<Object> mocks, Object fieldInstance) {",91,99
+Mockito,29,Mockito-29-buggy,org.mockito.internal.matchers.Same,org/mockito/internal/matchers/Same.java,public void describeTo(Description description) {,26,32
+Mockito,29,Mockito-29-buggy_ind1,org.mockito.internal.matchers.Same,org/mockito/internal/matchers/Same.java,public void describeTo(Description description) {,26,32
+Mockito,29,Mockito-29-buggy_ind2,org.mockito.internal.matchers.Same,org/mockito/internal/matchers/Same.java,public void describeTo(Description description) {,26,32
+Mockito,3,Mockito-3-buggy,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation invocation) {,118,141
+Mockito,3,Mockito-3-buggy_ind1,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation invocation) {,118,141
+Mockito,3,Mockito-3-buggy_ind2,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation invocation) {,118,141
+Mockito,30,Mockito-30-buggy,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void smartNullPointerException(Location location) {,438,446
+Mockito,30,Mockito-30-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,"public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {",51,58
+Mockito,30,Mockito-30-buggy_ind1,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void smartNullPointerException(Location location) {,438,446
+Mockito,30,Mockito-30-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,"public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {",51,58
+Mockito,30,Mockito-30-buggy_ind2,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void smartNullPointerException(Location location) {,438,446
+Mockito,30,Mockito-30-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,"public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {",51,58
+Mockito,31,Mockito-31-buggy,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,private String formatMethodCall() {,59,72
+Mockito,31,Mockito-31-buggy_ind1,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,private String formatMethodCall() {,59,72
+Mockito,31,Mockito-31-buggy_ind2,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,private String formatMethodCall() {,59,72
+Mockito,31,Mockito-31-buggy_ind3,org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls,org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,private String formatMethodCall() {,59,72
+Mockito,32,Mockito-32-buggy,org.mockito.internal.configuration.SpyAnnotationEngine,org/mockito/internal/configuration/SpyAnnotationEngine.java,"public void process(Class<?> context, Object testClass) {",28,58
+Mockito,32,Mockito-32-buggy_ind1,org.mockito.internal.configuration.SpyAnnotationEngine,org/mockito/internal/configuration/SpyAnnotationEngine.java,"public void process(Class<?> context, Object testClass) {",28,58
+Mockito,32,Mockito-32-buggy_ind2,org.mockito.internal.configuration.SpyAnnotationEngine,org/mockito/internal/configuration/SpyAnnotationEngine.java,"public void process(Class<?> context, Object testClass) {",28,58
+Mockito,33,Mockito-33-buggy,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public boolean hasSameMethod(Invocation candidate) {,92,118
+Mockito,33,Mockito-33-buggy_ind1,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public boolean hasSameMethod(Invocation candidate) {,92,118
+Mockito,33,Mockito-33-buggy_ind2,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public boolean hasSameMethod(Invocation candidate) {,92,118
+Mockito,33,Mockito-33-buggy_ind3,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public boolean hasSameMethod(Invocation candidate) {,92,118
+Mockito,34,Mockito-34-buggy,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation i) {,103,111
+Mockito,34,Mockito-34-buggy_ind1,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation i) {,103,111
+Mockito,34,Mockito-34-buggy_ind2,org.mockito.internal.invocation.InvocationMatcher,org/mockito/internal/invocation/InvocationMatcher.java,public void captureArgumentsFrom(Invocation i) {,103,111
+Mockito,35,Mockito-35-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T isA(Class<T> clazz) {,361,363
+Mockito,35,Mockito-35-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T eq(T value) {,478,480
+Mockito,35,Mockito-35-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T same(T value) {,515,517
+Mockito,35,Mockito-35-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T isA(Class<T> clazz) {,361,363
+Mockito,35,Mockito-35-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T eq(T value) {,478,480
+Mockito,35,Mockito-35-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T same(T value) {,515,517
+Mockito,35,Mockito-35-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T isA(Class<T> clazz) {,361,363
+Mockito,35,Mockito-35-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T eq(T value) {,478,480
+Mockito,35,Mockito-35-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T same(T value) {,515,517
+Mockito,35,Mockito-35-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T isA(Class<T> clazz) {,361,363
+Mockito,35,Mockito-35-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T eq(T value) {,478,480
+Mockito,35,Mockito-35-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T same(T value) {,515,517
+Mockito,36,Mockito-36-buggy,org.mockito.internal.invocation.Invocation,org/mockito/internal/invocation/Invocation.java,public Object callRealMethod() throws Throwable {,201,209
+Mockito,36,Mockito-36-buggy_ind1,org.mockito.internal.invocation.Invocation,org/mockito/internal/invocation/Invocation.java,public Object callRealMethod() throws Throwable {,201,209
+Mockito,36,Mockito-36-buggy_ind2,org.mockito.internal.invocation.Invocation,org/mockito/internal/invocation/Invocation.java,public Object callRealMethod() throws Throwable {,201,209
+Mockito,37,Mockito-37-buggy,org.mockito.internal.stubbing.answers.AnswersValidator,org/mockito/internal/stubbing/answers/AnswersValidator.java,"public void validate(Answer<?> answer, Invocation invocation) {",15,31
+Mockito,37,Mockito-37-buggy_ind1,org.mockito.internal.stubbing.answers.AnswersValidator,org/mockito/internal/stubbing/answers/AnswersValidator.java,"public void validate(Answer<?> answer, Invocation invocation) {",15,31
+Mockito,37,Mockito-37-buggy_ind2,org.mockito.internal.stubbing.answers.AnswersValidator,org/mockito/internal/stubbing/answers/AnswersValidator.java,"public void validate(Answer<?> answer, Invocation invocation) {",15,31
+Mockito,37,Mockito-37-buggy_ind3,org.mockito.internal.stubbing.answers.AnswersValidator,org/mockito/internal/stubbing/answers/AnswersValidator.java,"public void validate(Answer<?> answer, Invocation invocation) {",15,31
+Mockito,38,Mockito-38-buggy,org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool,org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,"private boolean toStringEquals(Matcher m, Object arg) {",47,52
+Mockito,38,Mockito-38-buggy_ind1,org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool,org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,"private boolean toStringEquals(Matcher m, Object arg) {",47,52
+Mockito,38,Mockito-38-buggy_ind2,org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool,org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,"private boolean toStringEquals(Matcher m, Object arg) {",47,52
+Mockito,4,Mockito-4-buggy,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,"public void noMoreInteractionsWanted(Invocation undesired, List<VerificationAwareInvocation> invocations) {",417,428
+Mockito,4,Mockito-4-buggy,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void noMoreInteractionsWantedInOrder(Invocation undesired) {,430,437
+Mockito,4,Mockito-4-buggy,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,private String exceptionCauseMessageIfAvailable(Exception details) {,676,686
+Mockito,4,Mockito-4-buggy_ind1,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,"public void noMoreInteractionsWanted(Invocation undesired, List<VerificationAwareInvocation> invocations) {",417,428
+Mockito,4,Mockito-4-buggy_ind1,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void noMoreInteractionsWantedInOrder(Invocation undesired) {,430,437
+Mockito,4,Mockito-4-buggy_ind1,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,private String exceptionCauseMessageIfAvailable(Exception details) {,676,686
+Mockito,4,Mockito-4-buggy_ind2,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,"public void noMoreInteractionsWanted(Invocation undesired, List<VerificationAwareInvocation> invocations) {",417,428
+Mockito,4,Mockito-4-buggy_ind2,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void noMoreInteractionsWantedInOrder(Invocation undesired) {,430,437
+Mockito,4,Mockito-4-buggy_ind2,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,private String exceptionCauseMessageIfAvailable(Exception details) {,676,686
+Mockito,4,Mockito-4-buggy_ind3,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,"public void noMoreInteractionsWanted(Invocation undesired, List<VerificationAwareInvocation> invocations) {",417,428
+Mockito,4,Mockito-4-buggy_ind3,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,public void noMoreInteractionsWantedInOrder(Invocation undesired) {,430,437
+Mockito,4,Mockito-4-buggy_ind3,org.mockito.exceptions.Reporter,org/mockito/exceptions/Reporter.java,private String exceptionCauseMessageIfAvailable(Exception details) {,676,686
+Mockito,5,Mockito-5-buggy,org.mockito.internal.verification.VerificationOverTimeImpl,org/mockito/internal/verification/VerificationOverTimeImpl.java,public void verify(VerificationData data) {,75,99
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,124
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,137,140
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,153,156
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,169,172
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,185,188
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,201,204
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,217,220
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,233,236
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,251,254
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,300,303
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,318,320
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,333,336
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,349,352
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,369,372
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,385,388
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,405,408
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,421,424
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",442,445
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,458,461
+Mockito,6,Mockito-6-buggy,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,478,481
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,124
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,137,140
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,153,156
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,169,172
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,185,188
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,201,204
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,217,220
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,233,236
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,251,254
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,300,303
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,318,320
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,333,336
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,349,352
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,369,372
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,385,388
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,405,408
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,421,424
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",442,445
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,458,461
+Mockito,6,Mockito-6-buggy_ind1,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,478,481
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,124
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,137,140
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,153,156
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,169,172
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,185,188
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,201,204
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,217,220
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,233,236
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,251,254
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,300,303
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,318,320
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,333,336
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,349,352
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,369,372
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,385,388
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,405,408
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,421,424
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",442,445
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,458,461
+Mockito,6,Mockito-6-buggy_ind2,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,478,481
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,124
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,137,140
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,153,156
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,169,172
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,185,188
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,201,204
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,217,220
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,233,236
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,251,254
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,300,303
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,318,320
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,333,336
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,349,352
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,369,372
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,385,388
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,405,408
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,421,424
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",442,445
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,458,461
+Mockito,6,Mockito-6-buggy_ind3,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,478,481
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,124
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,137,140
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,153,156
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,169,172
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,185,188
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,201,204
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,217,220
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,233,236
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,251,254
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,300,303
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,318,320
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,333,336
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,349,352
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,369,372
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,385,388
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,405,408
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,421,424
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",442,445
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,458,461
+Mockito,6,Mockito-6-buggy_ind4,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,478,481
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,124
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,137,140
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,153,156
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,169,172
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,185,188
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,201,204
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,217,220
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,233,236
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,251,254
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,300,303
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,318,320
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,333,336
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,349,352
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,369,372
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,385,388
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,405,408
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,421,424
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",442,445
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,458,461
+Mockito,6,Mockito-6-buggy_ind5,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,478,481
+Mockito,7,Mockito-7-buggy,org.mockito.internal.util.reflection.GenericMetadataSupport,org/mockito/internal/util/reflection/GenericMetadataSupport.java,private void readTypeVariables() {,375,383
+Mockito,7,Mockito-7-buggy_ind1,org.mockito.internal.util.reflection.GenericMetadataSupport,org/mockito/internal/util/reflection/GenericMetadataSupport.java,private void readTypeVariables() {,375,383
+Mockito,7,Mockito-7-buggy_ind2,org.mockito.internal.util.reflection.GenericMetadataSupport,org/mockito/internal/util/reflection/GenericMetadataSupport.java,private void readTypeVariables() {,375,383
+Mockito,8,Mockito-8-buggy,org.mockito.internal.util.reflection.GenericMetadataSupport,org/mockito/internal/util/reflection/GenericMetadataSupport.java,protected void registerTypeVariablesOn(Type classType) {,66,87
+Mockito,8,Mockito-8-buggy_ind1,org.mockito.internal.util.reflection.GenericMetadataSupport,org/mockito/internal/util/reflection/GenericMetadataSupport.java,protected void registerTypeVariablesOn(Type classType) {,66,87
+Mockito,8,Mockito-8-buggy_ind2,org.mockito.internal.util.reflection.GenericMetadataSupport,org/mockito/internal/util/reflection/GenericMetadataSupport.java,protected void registerTypeVariablesOn(Type classType) {,66,87
+Mockito,9,Mockito-9-buggy,org.mockito.internal.stubbing.answers.CallsRealMethods,org/mockito/internal/stubbing/answers/CallsRealMethods.java,public Object answer(InvocationOnMock invocation) throws Throwable {,35,41
+Mockito,9,Mockito-9-buggy_ind1,org.mockito.internal.stubbing.answers.CallsRealMethods,org/mockito/internal/stubbing/answers/CallsRealMethods.java,public Object answer(InvocationOnMock invocation) throws Throwable {,35,41
+Mockito,9,Mockito-9-buggy_ind2,org.mockito.internal.stubbing.answers.CallsRealMethods,org/mockito/internal/stubbing/answers/CallsRealMethods.java,public Object answer(InvocationOnMock invocation) throws Throwable {,35,41
+Mockito,9,Mockito-9-buggy_ind3,org.mockito.internal.stubbing.answers.CallsRealMethods,org/mockito/internal/stubbing/answers/CallsRealMethods.java,public Object answer(InvocationOnMock invocation) throws Throwable {,35,41

@@ -1,0 +1,3 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Mockito,6,add_test.java,org.mockitousage.matchers.AnyXMatchersAcceptNullsTest,shouldNotAcceptNullInAnyClassMatcher,Not Compilable
+Mockito,6,add_test1.java,org.mockitousage.matchers.NewMatchersTest,shouldNotAcceptNullInAnyListOfMatcher,Not Compilable

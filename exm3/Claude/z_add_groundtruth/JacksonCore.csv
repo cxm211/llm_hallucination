@@ -1,0 +1,58 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JacksonCore,1,add_test.java,com.fasterxml.jackson.core.json.TestParserNonStandard,testBigDecimalWithWhitespace,Not Compilable
+JacksonCore,1,add_test1.java,com.fasterxml.jackson.core.json.TestParserNonStandard,testBigDecimalWithEmptyString,Not Compilable
+JacksonCore,1,add_test2.java,com.fasterxml.jackson.core.json.TestParserNonStandard,testBigDecimalWithCharArray,Not Compilable
+JacksonCore,2,add_test.java,com.fasterxml.jackson.core.json.TestParserErrorHandling,testLeadingZeroInInteger,Not Compilable
+JacksonCore,2,add_test1.java,com.fasterxml.jackson.core.json.TestParserErrorHandling,testNegativeLeadingZero,Not Compilable
+JacksonCore,2,add_test2.java,com.fasterxml.jackson.core.json.TestParserErrorHandling,testZeroAlone,Not Compilable
+JacksonCore,3,add_test.java,com.fasterxml.jackson.core.json.TestLocation,testOffsetWithLargerInputOffset,Pass
+JacksonCore,3,add_test1.java,com.fasterxml.jackson.core.json.TestLocation,testOffsetWithInputOffsetMultiline,Pass
+JacksonCore,4,add_test.java,com.fasterxml.jackson.core.util.TestTextBuffer,testExpandAtMaxSegmentLen,Pass
+JacksonCore,4,add_test1.java,com.fasterxml.jackson.core.util.TestTextBuffer,testExpandBeyondMaxSegmentLen,Pass
+JacksonCore,5,add_test.java,com.fasterxml.jackson.core.TestJsonPointer,testWonkyNumberAtStart,Pass
+JacksonCore,5,add_test1.java,com.fasterxml.jackson.core.TestJsonPointer,testWonkyNumberOverflow,Pass
+JacksonCore,6,add_test.java,com.fasterxml.jackson.core.TestJsonPointer,testLeadingZeroesRejected,Pass
+JacksonCore,6,add_test1.java,com.fasterxml.jackson.core.TestJsonPointer,testValidIndicesWithoutLeadingZeroes,Pass
+JacksonCore,7,add_test.java,com.fasterxml.jackson.core.json.GeneratorFailTest,testFailOnWritingStringInRootContext,Not Compilable
+JacksonCore,7,add_test1.java,com.fasterxml.jackson.core.json.GeneratorFailTest,testFailOnWritingStringInArrayContext,Not Compilable
+JacksonCore,8,add_test.java,com.fasterxml.jackson.core.util.TestTextBuffer,testGetTextBufferAfterAppend,Not Compilable
+JacksonCore,8,add_test1.java,com.fasterxml.jackson.core.util.TestTextBuffer,testGetTextBufferWithResultString,Not Compilable
+JacksonCore,8,add_test2.java,com.fasterxml.jackson.core.util.TestTextBuffer,testGetTextBufferMultipleCalls,Not Compilable
+JacksonCore,9,add_test.java,com.fasterxml.jackson.core.json.TestJsonParser,testGetValueAsTextNullToken,Pass
+JacksonCore,9,add_test1.java,com.fasterxml.jackson.core.json.TestJsonParser,testGetValueAsTextNonString,Pass
+JacksonCore,10,add_test.java,com.fasterxml.jackson.core.sym.TestSymbolTables,testSpilloverBoundaryCondition,Pass
+JacksonCore,10,add_test1.java,com.fasterxml.jackson.core.sym.TestByteBasedSymbols,testLargeSpilloverArea,Pass
+JacksonCore,11,add_test.java,com.fasterxml.jackson.core.sym.SymbolsViaParserTest,testSymbolTableExpansionChars,Not Compilable
+JacksonCore,12,add_test.java,com.fasterxml.jackson.core.json.LocationInObjectTest,testOffsetWithNestedArrays,Pass
+JacksonCore,12,add_test1.java,com.fasterxml.jackson.core.json.LocationInObjectTest,testOffsetWithMixedContent,Pass
+JacksonCore,13,add_test.java,com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures,testFieldNameQuotingDisabled,Pass
+JacksonCore,13,add_test1.java,com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures,testFieldNameQuotingToggle,Pass
+JacksonCore,14,add_test.java,com.fasterxml.jackson.core.io.TestIOContext,testReleaseWithEqualSizedBuffer,Pass
+JacksonCore,14,add_test1.java,com.fasterxml.jackson.core.io.TestIOContext,testReleaseWithLargerBuffer,Pass
+JacksonCore,15,add_test.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesWithArray,Pass
+JacksonCore,15,add_test1.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesNestedObject,Pass
+JacksonCore,15,add_test2.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesFieldAfterObject,Pass
+JacksonCore,16,add_test.java,com.fasterxml.jackson.core.json.ParserSequenceTest,testUninitializedParsers,Pass
+JacksonCore,16,add_test1.java,com.fasterxml.jackson.core.json.ParserSequenceTest,testPartiallyConsumedParsers,Pass
+JacksonCore,16,add_test2.java,com.fasterxml.jackson.core.json.ParserSequenceTest,testEmptyFirstParser,Pass
+JacksonCore,17,add_test.java,com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest,testRawWithSurrogatesAtBufferBoundary,Pass
+JacksonCore,17,add_test1.java,com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest,testRawWithMultipleSurrogatePairs,Pass
+JacksonCore,17,add_test2.java,com.fasterxml.jackson.core.json.RawValueWithSurrogatesTest,testRawWithLongStringAndSurrogates,Pass
+JacksonCore,18,add_test.java,com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures,testBigDecimalWithinBounds,Pass
+JacksonCore,18,add_test1.java,com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures,testBigDecimalWithoutPlainFeature,Pass
+JacksonCore,19,add_test.java,com.fasterxml.jackson.core.json.TestNumericValues,testLongerFloatingPointWithExponent,Pass
+JacksonCore,19,add_test1.java,com.fasterxml.jackson.core.json.TestNumericValues,testLongerNegativeFloatingPoint,Pass
+JacksonCore,20,add_test.java,com.fasterxml.jackson.core.base64.Base64GenerationTest,testBinaryAsEmbeddedObjectEmpty,Pass
+JacksonCore,20,add_test1.java,com.fasterxml.jackson.core.main.TestGeneratorMisc,testAsEmbeddedInArray,Pass
+JacksonCore,21,add_test.java,com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test,testNestedStructEndAfterMatch,Pass
+JacksonCore,21,add_test1.java,com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test,testMultipleEndObjectsAfterSingleMatch,Pass
+JacksonCore,22,add_test.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNestedObjectFilteringWithPathAndMultipleMatches,Not Compilable
+JacksonCore,22,add_test1.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNestedArrayFilteringWithPathAndMultipleMatches,Not Compilable
+JacksonCore,23,add_test.java,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter,testValidSubClassOverridesCreateInstance,Pass
+JacksonCore,23,add_test1.java,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter,testDirectDefaultPrettyPrinterCreateInstance,Pass
+JacksonCore,24,add_test.java,com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest,testIntBoundaryValues,Pass
+JacksonCore,24,add_test1.java,com.fasterxml.jackson.core.read.NumberCoercionTest,testLongBoundaryValues,Pass
+JacksonCore,25,add_test.java,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest,testUnquotedIssue510ExactMaxCode,Not Compilable
+JacksonCore,25,add_test1.java,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest,testUnquotedIssue510BelowMaxCode,Not Compilable
+JacksonCore,26,add_test.java,com.fasterxml.jackson.core.json.async.AsyncLocationTest,testLocationOffsetsWithEmptyFirstChunk,Pass
+JacksonCore,26,add_test1.java,com.fasterxml.jackson.core.json.async.AsyncLocationTest,testLocationOffsetsMultipleFeedsLineNumber,Pass

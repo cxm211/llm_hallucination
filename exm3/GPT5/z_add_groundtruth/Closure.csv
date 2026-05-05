@@ -1,0 +1,113 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Closure,1,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testSimpleModeLeavesUnusedParams,Pass
+Closure,3,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDoNotInlineCatchExpression2,Not Compilable
+Closure,4,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testExtendsLoopViaRegistry,Pass
+Closure,5,add_test.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testNoInlineDeletedProperties_afterReassign,Pass
+Closure,7,add_test.java,com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest,testGoogIsFunction_Object,Pass
+Closure,8,add_test.java,com.google.javascript.jscomp.CollapseVariableDeclarationsTest,testIssue820_additionalParamVarOrder,Pass
+Closure,9,add_test.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testGuessModuleName,Not Compilable
+Closure,10,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testIssue821,Not Compilable
+Closure,11,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue810,Pass
+Closure,12,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testIssue794c,Pass
+Closure,15,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testSimpleForIn,Not Compilable
+Closure,16,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testIssue772,Not Compilable
+Closure,17,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue688,Pass
+Closure,19,add_test.java,com.google.javascript.jscomp.TypeInferenceTest,testNoThisInference2,Pass
+Closure,20,add_test.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testSimpleFunctionCall,Not Compilable
+Closure,21,add_test.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCode,Not Compilable
+Closure,22,add_test.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCode,Not Compilable
+Closure,23,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldGetElem,Not Compilable
+Closure,25,add_test.java,com.google.javascript.jscomp.TypeInferenceTest,testBackwardsInferenceNew_multipleParams,Pass
+Closure,28,add_test.java,com.google.javascript.jscomp.InlineCostEstimatorTest,testCost,Not Compilable
+Closure,29,add_test.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testObject12,Pass
+Closure,31,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testDependencySortingWhitespaceMode,Pass
+Closure,32,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseLicenseNoSpaceAfterStar,Pass
+Closure,35,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue669Variant,Pass
+Closure,37,add_test.java,com.google.javascript.jscomp.IntegrationTest,testIncompleteFunction,Pass
+Closure,40,add_test.java,com.google.javascript.jscomp.NameAnalyzerTest,testIssue284,Not Compilable
+Closure,41,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue368,Not Compilable
+Closure,45,add_test.java,com.google.javascript.jscomp.RemoveUnusedVarsTest,testIssue618_1,Pass
+Closure,46,add_test.java,com.google.javascript.rhino.jstype.JSTypeTest,testRecordTypeLeastSuperType2,Pass
+Closure,47,add_test.java,com.google.debugging.sourcemap.SourceMapGeneratorV3Test,testOneBasedOriginalPositions,Not Compilable
+Closure,48,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue586_constructorOverride,Pass
+Closure,50,add_test.java,com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest,testNoStringJoin,Not Compilable
+Closure,51,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testIssue582_variantNegativeZeroAfterMinus,Pass
+Closure,52,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testNumericKeys,Not Compilable
+Closure,54,add_test.java,com.google.javascript.jscomp.TypedScopeCreatorTest,testPreservePrototypePropsOnSetProto,Pass
+Closure,55,add_test.java,com.google.javascript.jscomp.FunctionRewriterTest,testIssue538,Pass
+Closure,57,add_test.java,com.google.javascript.jscomp.ClosureCodingConventionTest,testRequire,Not Compilable
+Closure,58,add_test.java,com.google.javascript.jscomp.LiveVariableAnalysisTest,testForInVarLhs,Pass
+Closure,61,add_test.java,com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest,testRemoveUselessOps,Not Compilable
+Closure,65,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testZero,Pass
+Closure,66,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testGetTypedPercent_getterSetterKeys,Pass
+Closure,67,add_test.java,com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest,testAliasing7,Pass
+Closure,68,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testIssue477_newline,Pass
+Closure,70,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArguments13,Not Compilable
+Closure,73,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testUnicode,Not Compilable
+Closure,74,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldComparison3,Not Compilable
+Closure,75,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testIEString,Pass
+Closure,76,add_test.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testInExpression2,Not Compilable
+Closure,77,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testZeroInMiddle,Pass
+Closure,81,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testUnnamedFunctionStatementNoBlock,Pass
+Closure,82,add_test.java,com.google.javascript.rhino.jstype.FunctionTypeTest,testNoResolvedTypeNotEmpty,Pass
+Closure,84,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testDestructuringAssignForbiddenObject,Pass
+Closure,85,add_test.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testCascadedRemovalOfUnlessUnconditonalJumps,Not Compilable
+Closure,86,add_test.java,com.google.javascript.jscomp.NodeUtilTest,testLocalValue_functionAndRegexp,Pass
+Closure,87,add_test.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue291,Not Compilable
+Closure,88,add_test.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testIssue297f,Not Compilable
+Closure,90,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse8,Not Compilable
+Closure,92,add_test.java,com.google.javascript.jscomp.ProcessClosurePrimitivesTest,testProvideInIndependentModulesDeep,Pass
+Closure,94,add_test.java,com.google.javascript.jscomp.NodeUtilTest,testValidDefine_BitOrInvalid,Pass
+Closure,96,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArguments16_additional,Pass
+Closure,97,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldBitShifts,Not Compilable
+Closure,98,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineAliasesInWhileLoop,Pass
+Closure,99,add_test.java,com.google.javascript.jscomp.CheckGlobalThisTest,testComputedPrototype1,Not Compilable
+Closure,101,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testProcessClosurePrimitivesAdvancedOff,Pass
+Closure,104,add_test.java,com.google.javascript.rhino.jstype.UnionTypeTest,testGreatestSubtypeUnionTypes5_reverse,Pass
+Closure,105,add_test.java,com.google.javascript.jscomp.FoldConstantsTest,testStringJoinAdd,Not Compilable
+Closure,107,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testNullExtraAnnotationNamesDoesNotCrash,Pass
+Closure,110,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testFunctionDeclarationWithBody,Pass
+Closure,111,add_test.java,com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest,testGoogIsArray3,Not Compilable
+Closure,113,add_test.java,com.google.javascript.jscomp.VarCheckTest,testNoUndeclaredVarWhenUsingClosurePass_multipleRequires,Pass
+Closure,114,add_test.java,com.google.javascript.jscomp.NameAnalyzerTest,testAssignWithCallComma,Pass
+Closure,116,add_test.java,com.google.javascript.jscomp.FunctionInjectorTest,testIssue1101c,Pass
+Closure,117,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1047,Pass
+Closure,119,add_test.java,com.google.javascript.jscomp.CheckGlobalNamesTest,testGlobalCatchShadowGlobalVar,Pass
+Closure,121,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testAliasNotInlinedAcrossCall,Not Compilable
+Closure,122,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testSuspiciousBlockCommentWarningNewSingleLine,Pass
+Closure,123,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testPrintInOperatorInForLoop,Not Compilable
+Closure,124,add_test.java,com.google.javascript.jscomp.ExploitAssignsTest,testIssue1017,Pass
+Closure,126,add_test.java,com.google.javascript.jscomp.MinimizeExitPointsTest,testDontRemoveBreakInTryFinally,Not Compilable
+Closure,127,add_test.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testDontRemoveBreakInFinallyLoop,Pass
+Closure,127,add_test1.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testDontRemoveContinueInFinallyLoop,Pass
+Closure,128,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testIssue942_additional,Pass
+Closure,131,add_test.java,com.google.javascript.jscomp.ConvertToDottedPropertiesTest,testDoNotConvert,Not Compilable
+Closure,134,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testOverrideFromExtendedInterface,Pass
+Closure,137,add_test.java,com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest,testArguments,Not Compilable
+Closure,139,add_test.java,com.google.javascript.jscomp.NormalizeTest,testRemoveDuplicateVarDeclarations3,Not Compilable
+Closure,142,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseLicenseWithAnnotation,Pass
+Closure,143,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testDefineFlagEmptyString,Pass
+Closure,145,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testDoLoopIECompatiblity,Not Compilable
+Closure,145,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testFunctionSafariCompatiblity,Not Compilable
+Closure,147,add_test.java,com.google.javascript.jscomp.RuntimeTypeCheckTest,testValueWithInnerFn,Pass
+Closure,151,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testVersionFlagWithOtherArgs,Pass
+Closure,152,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse4,Pass
+Closure,153,add_test.java,com.google.javascript.jscomp.NormalizeTest,testMakeLocalNamesUnique,Not Compilable
+Closure,154,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testInterfaceInheritanceCheck12,Pass
+Closure,155,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testArgumentsEscapedInInnerFunction,Pass
+Closure,157,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testGetter,Not Compilable
+Closure,157,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testSetter,Not Compilable
+Closure,158,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testWarningGuardOrdering_NewWarningThenError,Pass
+Closure,160,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testCheckSymbolsOverrideForQuietWarning,Not Compilable
+Closure,161,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testArrayLitAccessLhsInc,Not Compilable
+Closure,163,add_test.java,com.google.javascript.jscomp.CrossModuleMethodMotionTest,testIssue600,Pass
+Closure,164,add_test.java,com.google.javascript.rhino.jstype.FunctionTypeTest,testSubtypeRequiredParamCheck,Pass
+Closure,165,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue725,Not Compilable
+Closure,166,add_test.java,com.google.javascript.jscomp.TypeInferenceTest,testRecordInferenceWithNullUnion,Pass
+Closure,169,add_test.java,com.google.javascript.rhino.jstype.RecordTypeTest,testSubtypeWithUnknowns2,Pass
+Closure,170,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssinInsideHookIssue965,Not Compilable
+Closure,170,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssinInsideHookIssue965,Not Compilable
+Closure,172,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1024,Not Compilable
+Closure,173,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testIssue1062_extra,Pass
+Closure,175,add_test.java,com.google.javascript.jscomp.FunctionInjectorTest,testIssue1101a,Pass
+Closure,176,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1056,Not Compilable

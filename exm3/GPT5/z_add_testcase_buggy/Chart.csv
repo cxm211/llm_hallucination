@@ -1,0 +1,24 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Chart,1,add_test.java,org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests,test2947660,Not Compilable
+Chart,2,add_test.java,org.jfree.data.general.junit.DatasetUtilitiesTests,testBug2849731_3,Not Compilable
+Chart,3,add_test.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyEndTooBig,Not Pass
+Chart,4,add_test.java,org.jfree.chart.plot.junit.XYPlotTests,testDrawRangeGridlines,Not Compilable
+Chart,5,add_test.java,org.jfree.data.xy.junit.XYSeriesTests,testAddDuplicateMaintainsOrderWithAutoSort,Not Pass
+Chart,6,add_test.java,org.jfree.chart.util.junit.ShapeListTests,testEqualsEmpty,Pass
+Chart,7,add_test.java,org.jfree.data.time.junit.TimePeriodValuesTests,testMaxMiddleIndexNotUpdatedAfterLowerMiddle,Not Pass
+Chart,8,add_test.java,org.jfree.data.time.junit.WeekTests,testConstructor_TimeZoneRespected,Pass
+Chart,9,add_test.java,org.jfree.data.time.junit.TimeSeriesTests,testCreateCopyEmptyRangeWithinGap,Not Pass
+Chart,10,add_test.java,org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests,testGenerateURLFragment,Not Pass
+Chart,11,add_test.java,org.jfree.chart.util.junit.ShapeUtilitiesTests,testEqualGeneralPaths,Not Pass
+Chart,13,add_test.java,org.jfree.chart.block.junit.BorderArrangementTests,testArrangeFFClampsNegativeRanges,Not Pass
+Chart,14,add_test.java,org.jfree.chart.plot.junit.XYPlotTests,testRemoveDomainMarkerWithParams,Not Pass
+Chart,15,add_test.java,org.jfree.chart.plot.junit.PiePlot3DTests,testGetMaximumExplodePercentWithNullDataset,Not Pass
+Chart,16,add_test.java,org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests,testSetCategoryKeys2,Not Pass
+Chart,18,add_test.java,org.jfree.data.junit.DefaultKeyedValuesTests,testRemoveLastUpdatesIndex,Not Pass
+Chart,19,add_test.java,org.jfree.chart.plot.junit.CategoryPlotTests,testGetDomainAxisIndex,Not Pass
+Chart,20,add_test.java,org.jfree.chart.plot.junit.ValueMarkerTests,testNullOutline,Not Pass
+Chart,21,add_test.java,org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests,testGetRangeBounds,Not Pass
+Chart,22,add_test.java,org.jfree.data.junit.KeyedObjects2DTests,testGetValueByKey,Not Pass
+Chart,23,add_test.java,org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests,testEqualsWithNulls,Not Pass
+Chart,24,add_test.java,org.jfree.chart.renderer.junit.GrayPaintScaleTests,testGetPaintWithCustomBounds,Not Pass
+Chart,26,add_test.java,org.jfree.chart.plot.junit.CategoryPlotTests,testDrawWithNullInfoRightAxis,Not Pass

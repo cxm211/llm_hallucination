@@ -1,0 +1,28 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Cli,1,add_test.java,org.apache.commons.cli.bug.BugCLI13Test,testCLI13WithHyphens,Not Pass
+Cli,2,add_test.java,org.apache.commons.cli.bug.BugCLI51Test,testSingleDashArg,Not Pass
+Cli,3,add_test.java,org.apache.commons.cli.PatternOptionBuilderTest,testInvalidNumberPattern,Not Pass
+Cli,8,add_test.java,org.apache.commons.cli.HelpFormatterTest,testPrintWrapped,Not Pass
+Cli,9,add_test.java,org.apache.commons.cli.OptionsTest,testMissingOptionsExceptionMultiple,Not Pass
+Cli,10,add_test.java,org.apache.commons.cli.ParseRequiredTest,testReuseOptionsAcrossParsers,Not Pass
+Cli,11,add_test.java,org.apache.commons.cli.HelpFormatterTest,testPrintOptionWithEmptyArgNameUsage,Not Compilable
+Cli,12,add_test.java,org.apache.commons.cli.GnuParserTest,testPropertyWithEqualShort,Pass
+Cli,14,add_test.java,org.apache.commons.cli2.bug.BugCLI144Test,testFileValidatorShortOption,Not Pass
+Cli,15,add_test.java,org.apache.commons.cli2.bug.BugCLI158Test,testSingleOptionThreeArguments,Not Pass
+Cli,17,add_test.java,org.apache.commons.cli.PosixParserTest,testStopBursting,Not Pass
+Cli,18,add_test.java,org.apache.commons.cli.PosixParserTest,testStopAfterRecognizedOption,Not Pass
+Cli,19,add_test.java,org.apache.commons.cli.PosixParserTest,testUnrecognizedLongOption,Pass
+Cli,20,add_test.java,org.apache.commons.cli.PosixParserTest,testStop3,Not Pass
+Cli,21,add_test.java,org.apache.commons.cli2.bug.BugCLI150Test,testNegativeNumberWithShortOption,Not Pass
+Cli,22,add_test.java,org.apache.commons.cli.ApplicationTest,testGroovy,Not Pass
+Cli,23,add_test.java,org.apache.commons.cli.bug.BugCLI162Test,testLongUnbreakableWordDoesNotThrow,Not Pass
+Cli,26,add_test.java,org.apache.commons.cli.OptionBuilderTest,testBuilderIsResettedAlways,Not Pass
+Cli,27,add_test.java,org.apache.commons.cli.ParserTestCase,testOptionGroupLongTwoOptions,Pass
+Cli,30,add_test.java,org.apache.commons.cli.ParserTestCase,testPropertyOptionGroupConflict,Pass
+Cli,31,add_test.java,org.apache.commons.cli.HelpFormatterTest,testDefaultArgName,Not Pass
+Cli,32,add_test.java,org.apache.commons.cli.HelpFormatterTest,testFindWrapPosNewlineWithinWidthFromOffset,Not Pass
+Cli,33,add_test.java,org.apache.commons.cli.HelpFormatterTest,testIndentedHeaderAndFooter,Not Pass
+Cli,37,add_test.java,org.apache.commons.cli.bug.BugCLI265Test,shouldRecognizeSingleDashLongOption,Pass
+Cli,38,add_test.java,org.apache.commons.cli.bug.BugCLI265Test,shouldParseConcatenatedShortOptionsReversed,Pass
+Cli,39,add_test.java,org.apache.commons.cli.PatternOptionBuilderTest,testExistingFilePatternWithDirectory,Not Pass
+Cli,40,add_test.java,org.apache.commons.cli.TypeHandlerTest,testCreateValueBoolean_failure,Pass

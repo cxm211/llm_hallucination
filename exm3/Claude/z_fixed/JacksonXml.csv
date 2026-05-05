@@ -1,0 +1,7 @@
+project,bug_id,folder,result
+JacksonXml,1,JacksonXml-1-buggy,Not Pass
+JacksonXml,2,JacksonXml-2-buggy,Pass
+JacksonXml,3,JacksonXml-3-buggy,Pass
+JacksonXml,4,JacksonXml-4-buggy,Not Compilable
+JacksonXml,5,JacksonXml-5-buggy,Pass
+JacksonXml,6,JacksonXml-6-buggy,Not Compilable

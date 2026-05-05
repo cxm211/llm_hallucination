@@ -1,0 +1,34 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JacksonCore,1,add_test.java,com.fasterxml.jackson.core.json.TestParserNonStandard,testDecimalWithResultArray,Not Compilable
+JacksonCore,1,add_test1.java,com.fasterxml.jackson.core.json.TestParserNonStandard,testDecimalWithSegments,Not Compilable
+JacksonCore,2,add_test.java,com.fasterxml.jackson.core.json.TestParserErrorHandling,testLeadingZeroFractionBytes,Not Compilable
+JacksonCore,2,add_test1.java,com.fasterxml.jackson.core.json.TestParserErrorHandling,testLeadingZeroFractionChars,Pass
+JacksonCore,5,add_test.java,com.fasterxml.jackson.core.TestJsonPointer,testNonDigitOddIndexLength2,Pass
+JacksonCore,5,add_test1.java,com.fasterxml.jackson.core.TestJsonPointer,testNonDigitOddIndexLength10,Pass
+JacksonCore,6,add_test.java,com.fasterxml.jackson.core.TestJsonPointer,testLeadingZeroThreeDigit,Pass
+JacksonCore,6,add_test1.java,com.fasterxml.jackson.core.TestJsonPointer,testLeadingZeroTenDigits,Pass
+JacksonCore,7,add_test.java,com.fasterxml.jackson.core.json.GeneratorFailTest,testWriteObjectWithTwoFields,Not Compilable
+JacksonCore,7,add_test1.java,com.fasterxml.jackson.core.json.GeneratorFailTest,testWriteRootValueNoLeadingSpace,Not Compilable
+JacksonCore,9,add_test.java,com.fasterxml.jackson.core.json.TestJsonParser,testGetValueAsStringLargeString,Not Compilable
+JacksonCore,9,add_test1.java,com.fasterxml.jackson.core.json.TestJsonParser,testGetValueAsStringWithDefaultValue,Pass
+JacksonCore,12,add_test.java,com.fasterxml.jackson.core.json.LocationInObjectTest,testFastPathFieldNameMatch,Not Pass
+JacksonCore,12,add_test1.java,com.fasterxml.jackson.core.json.LocationInObjectTest,testUnquotedFieldName,Not Compilable
+JacksonCore,12,add_test2.java,com.fasterxml.jackson.core.json.LocationInObjectTest,testMismatchedEndMarker,Pass
+JacksonCore,13,add_test.java,com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures,testEnableQuoteFieldNamesGenerator,Pass
+JacksonCore,13,add_test1.java,com.fasterxml.jackson.core.json.TestJsonGeneratorFeatures,testDisableQuoteFieldNamesGenerator,Not Pass
+JacksonCore,15,add_test.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesArray,Not Pass
+JacksonCore,15,add_test1.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesWithIncludePath,Pass
+JacksonCore,16,add_test.java,com.fasterxml.jackson.core.json.ParserSequenceTest,testMultipleTokensInFirstParser,Not Pass
+JacksonCore,16,add_test1.java,com.fasterxml.jackson.core.json.ParserSequenceTest,testThreeParsers,Not Compilable
+JacksonCore,19,add_test.java,com.fasterxml.jackson.core.json.TestNumericValues,testLongerFloatingPointNegative,Pass
+JacksonCore,19,add_test1.java,com.fasterxml.jackson.core.json.TestNumericValues,testLongerFloatingPoint400,Pass
+JacksonCore,21,add_test.java,com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test,testSingleMatchWithPathArray,Not Compilable
+JacksonCore,21,add_test1.java,com.fasterxml.jackson.core.filter.TokenVerifyingParserFiltering330Test,testSingleMatchWithPathNestedArray,Not Compilable
+JacksonCore,22,add_test.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesWithoutPathArray,Not Pass
+JacksonCore,22,add_test1.java,com.fasterxml.jackson.core.filter.BasicParserFilteringTest,testNotAllowMultipleMatchesWithoutPathObject,Not Pass
+JacksonCore,23,add_test.java,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter,testInvalidSubClassAnonymous,Pass
+JacksonCore,23,add_test1.java,com.fasterxml.jackson.core.util.TestDefaultPrettyPrinter,testInvalidSubClassMultiLevel,Pass
+JacksonCore,25,add_test.java,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest,testUnquotedNonASCIIWithExpansion,Pass
+JacksonCore,25,add_test1.java,com.fasterxml.jackson.core.read.NonStandardUnquotedNamesTest,testUnquotedInvalidCharAfterNonASCII,Not Pass
+JacksonCore,26,add_test.java,com.fasterxml.jackson.core.json.async.AsyncLocationTest,testLocationContiguousFeed,Not Pass
+JacksonCore,26,add_test1.java,com.fasterxml.jackson.core.json.async.AsyncLocationTest,testLocationNonContiguousWithNewline,Not Pass

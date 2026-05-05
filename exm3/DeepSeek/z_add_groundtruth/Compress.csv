@@ -1,0 +1,79 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Compress,1,add_test.java,org.apache.commons.compress.archivers.CpioTestCase,testCloseWithExceptionOnOutputStream,Not Compilable
+Compress,1,add_test1.java,org.apache.commons.compress.archivers.CpioTestCase,testCloseWithExceptionOnInputStream,Not Compilable
+Compress,2,add_test.java,org.apache.commons.compress.archivers.ArTestCase,testArWithZeroByte,Not Compilable
+Compress,2,add_test1.java,org.apache.commons.compress.archivers.ArTestCase,testArOddLength,Not Compilable
+Compress,3,add_test.java,org.apache.commons.compress.archivers.ArchiveOutputStreamTest,testFinishWithDirectoryEntry_Tar,Not Compilable
+Compress,3,add_test1.java,org.apache.commons.compress.archivers.ArchiveOutputStreamTest,testFinishWithFileWithData_Tar,Not Compilable
+Compress,3,add_test2.java,org.apache.commons.compress.archivers.ArchiveOutputStreamTest,testFinishWithLongNameGnu_Tar,Not Compilable
+Compress,3,add_test3.java,org.apache.commons.compress.archivers.ArchiveOutputStreamTest,testFinishWithLongNameTruncate_Tar,Not Compilable
+Compress,4,add_test.java,org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest,testDoubleClose,Not Compilable
+Compress,4,add_test1.java,org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest,testZipFileDoubleClose,Not Compilable
+Compress,5,add_test.java,org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest,testTruncatedStoredEntry,Not Compilable
+Compress,6,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest,testEqualsDifferentSize,Pass
+Compress,6,add_test1.java,org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest,testHashCodeConsistentWithEquals,Pass
+Compress,7,add_test.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testParseNameUnsignedByte,Pass
+Compress,8,add_test.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testParseOctalAdditional,Pass
+Compress,9,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest,testWriteSingleByte,Not Compilable
+Compress,9,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest,testWriteExactRecord,Not Compilable
+Compress,9,add_test2.java,org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest,testWritePartialThenFill,Not Compilable
+Compress,10,add_test.java,org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest,testReadWinZipArchiveWithData,Not Compilable
+Compress,11,add_test.java,org.apache.commons.compress.archivers.ArchiveStreamFactoryTest,shortZeroFileIsNoTAR,Pass
+Compress,12,add_test.java,org.apache.commons.compress.archivers.TarTestCase,testGNULongNameEntry,Not Compilable
+Compress,13,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest,testBackslashNormalization,Not Compilable
+Compress,13,add_test1.java,org.apache.commons.compress.archivers.zip.ZipFileTest,testBackslashNormalizationInZipFile,Not Compilable
+Compress,14,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParseOctalLengthZero,Pass
+Compress,14,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParseOctalSingleDigit,Pass
+Compress,14,add_test2.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParseOctalNoTerminator,Pass
+Compress,15,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest,testEmptyCommentEqualsNullComment,Pass
+Compress,16,add_test.java,org.apache.commons.compress.archivers.ArchiveStreamFactoryTest,allZeroStreamIsNoTAR,Pass
+Compress,17,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParseOctalMultipleTrailingSpaces,Pass
+Compress,17,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParseOctalLeadingNullWithDigits,Pass
+Compress,17,add_test2.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParseOctalLeadingSpacesThenNull,Pass
+Compress,18,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest,testWriteLongNonAsciiDirectoryName,Pass
+Compress,18,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest,testWriteLongAsciiDirectoryName,Pass
+Compress,18,add_test2.java,org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest,testWriteDeepNonAsciiDirectoryName,Pass
+Compress,19,add_test.java,org.apache.commons.compress.archivers.zip.ZipFileTest,testReparseCentralDirectoryDataExcessWithDiskStart,Not Compilable
+Compress,19,add_test1.java,org.apache.commons.compress.archivers.zip.ZipFileTest,testReparseCentralDirectoryDataExcessWithSizes,Not Compilable
+Compress,19,add_test2.java,org.apache.commons.compress.archivers.zip.ZipFileTest,testReparseCentralDirectoryDataExcessWithNoFields,Not Compilable
+Compress,20,add_test.java,org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest,testCpioUnarchiveOldBinaryWithTrailer,Pass
+Compress,21,add_test.java,org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest,testFifteenFilesSomeNotEmpty,Pass
+Compress,21,add_test1.java,org.apache.commons.compress.archivers.sevenz.SevenZOutputFileTest,testSixteenFilesSomeNotEmpty,Pass
+Compress,22,add_test.java,org.apache.commons.compress.compressors.bzip2.PythonTruncatedBzip2Test,testReadCompleteStream,Not Compilable
+Compress,23,add_test.java,org.apache.commons.compress.archivers.sevenz.SevenZFileTest,testDecodeDictionarySizeWithHighBitInLSB,Not Compilable
+Compress,23,add_test1.java,org.apache.commons.compress.archivers.sevenz.SevenZFileTest,testDecodeDictionarySizeWithHighBitInSecondByte,Not Compilable
+Compress,24,add_test.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testParseOctalNoTrailingSpace,Pass
+Compress,25,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest,testReadingDeflatedEntry,Not Compilable
+Compress,25,add_test1.java,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest,testReadingStoredEntryWithoutDataDescriptor,Not Compilable
+Compress,26,add_test.java,org.apache.commons.compress.utils.IOUtilsTest,skipAlternatingSkipAndRead,Pass
+Compress,27,add_test.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testParseOctalLeadingSpacesThenNul,Pass
+Compress,28,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testTruncatedEntryImmediateEOF,Not Compilable
+Compress,28,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testPartialReadThenTruncation,Not Compilable
+Compress,29,add_test.java,org.apache.commons.compress.archivers.ArchiveStreamFactoryTest,testTarEncodingFallbackDetection,Not Compilable
+Compress,30,add_test.java,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStreamTest,readWithOverflowShouldThrow,Pass
+Compress,31,add_test.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testParseOctalEmbeddedNulNoLeadingSpace,Pass
+Compress,31,add_test1.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testParseOctalEmbeddedNulAfterSpace,Pass
+Compress,32,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,shouldReadBigUid,Not Compilable
+Compress,33,add_test.java,org.apache.commons.compress.compressors.DetectCompressorTestCase,testDeflateDetection,Not Compilable
+Compress,34,add_test.java,org.apache.commons.compress.archivers.zip.X7875_NewUnixTest,testGetCentralDirectoryLength,Pass
+Compress,35,add_test.java,org.apache.commons.compress.DetectArchiverTestCase,testVerifyCheckSumWithSpaceInChecksumField,Not Compilable
+Compress,35,add_test1.java,org.apache.commons.compress.DetectArchiverTestCase,testVerifyCheckSumWithNonDigitInChecksumField,Not Compilable
+Compress,36,add_test.java,org.apache.commons.compress.archivers.sevenz.SevenZFileTest,readEmptyEntryMultipleTimes,Pass
+Compress,36,add_test1.java,org.apache.commons.compress.archivers.sevenz.SevenZFileTest,readEmptyThenNonEmpty,Pass
+Compress,37,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParsePaxHeadersWithBlankLineAndDelete,Not Compilable
+Compress,37,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParsePaxHeadersMultipleHeadersWithBlankLines,Not Compilable
+Compress,37,add_test2.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,testParsePaxHeadersValueWithNewlineAndBlankLine,Not Compilable
+Compress,38,add_test.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,symlinkWithTrailingSlashIsNotDirectory,Not Compilable
+Compress,38,add_test1.java,org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest,symlinkFileIsNotDirectory,Not Compilable
+Compress,39,add_test.java,org.apache.commons.compress.ArchiveUtilsTest,sanitizeWithControlChars,Pass
+Compress,39,add_test1.java,org.apache.commons.compress.ArchiveUtilsTest,sanitizeWithSpecialsChars,Pass
+Compress,40,add_test.java,org.apache.commons.compress.utils.BitInputStreamTest,bigEndianWithOverflow2,Pass
+Compress,40,add_test1.java,org.apache.commons.compress.utils.BitInputStreamTest,littleEndianWithOverflow2,Pass
+Compress,41,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest,testThrowOnInvalidSignatureAfterValidEntry,Not Compilable
+Compress,42,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest,isUnixSymlinkIsFalseForCombinedSymlinkAndFifo,Not Compilable
+Compress,43,add_test.java,org.apache.commons.compress.archivers.zip.DataDescriptorTest,doesntWriteDataDescriptorWhenAddingRawEntriesWithZip64,Not Compilable
+Compress,43,add_test1.java,org.apache.commons.compress.archivers.zip.DataDescriptorTest,doesntWriteDataDescriptorWhenAddingRawEntriesWithAlignment,Not Compilable
+Compress,45,add_test.java,org.apache.commons.compress.archivers.tar.TarUtilsTest,testRoundTripOctalOrBinary7,Pass
+Compress,46,add_test.java,org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestampTest,testOutOfRangeBoundaries,Pass
+Compress,47,add_test.java,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest,testCanReadEntryDataStoredWithDataDescriptor,Not Compilable
+Compress,47,add_test1.java,org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest,testCanReadEntryDataDeflatedWithDataDescriptor,Not Compilable

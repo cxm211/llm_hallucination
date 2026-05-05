@@ -1,0 +1,23 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Csv,1,add_test.java,org.apache.commons.csv.CSVParserTest,testGetLineNumberWithCRAtEOF,Not Pass
+Csv,1,add_test1.java,org.apache.commons.csv.CSVParserTest,testGetLineNumberWithCRLFAndLineSeparatorCR,Pass
+Csv,2,add_test.java,org.apache.commons.csv.CSVRecordTest,testGetStringNegativeIndex,Not Compilable
+Csv,2,add_test1.java,org.apache.commons.csv.CSVRecordTest,testGetStringIndexEqualsLength,Not Compilable
+Csv,3,add_test.java,org.apache.commons.csv.CSVLexerTest,testEscapedDigit,Not Pass
+Csv,4,add_test.java,org.apache.commons.csv.CSVParserTest,testNoHeaderMapWithTDF,Not Pass
+Csv,5,add_test.java,org.apache.commons.csv.CSVFormatTest,testPrintlnWithNullRecordSeparator,Not Compilable
+Csv,6,add_test.java,org.apache.commons.csv.CSVRecordTest,testToMapWithSingleValueAndThreeHeaders,Not Pass
+Csv,7,add_test.java,org.apache.commons.csv.CSVParserTest,testDuplicateHeaderEntriesExplicit,Pass
+Csv,7,add_test1.java,org.apache.commons.csv.CSVParserTest,testDuplicateHeaderEntriesExplicitSkip,Pass
+Csv,8,add_test.java,org.apache.commons.csv.CSVFormatTest,testDuplicateHeaderElementsCaseInsensitive,Not Compilable
+Csv,8,add_test1.java,org.apache.commons.csv.CSVFormatTest,testDuplicateHeaderWithNoEscape,Not Compilable
+Csv,9,add_test.java,org.apache.commons.csv.CSVRecordTest,testPutInWithNoHeader,Not Compilable
+Csv,10,add_test.java,org.apache.commons.csv.CSVPrinterTest,testHeaderWithComma,Not Pass
+Csv,10,add_test1.java,org.apache.commons.csv.CSVPrinterTest,testHeaderWithQuote,Not Pass
+Csv,11,add_test.java,org.apache.commons.csv.CSVParserTest,testIgnoreEmptyHeadersExplicit,Not Pass
+Csv,11,add_test1.java,org.apache.commons.csv.CSVParserTest,testIgnoreEmptyHeadersAllEmpty,Not Pass
+Csv,13,add_test.java,org.apache.commons.csv.CSVPrinterTest,testNullWithQuote,Not Pass
+Csv,13,add_test1.java,org.apache.commons.csv.CSVPrinterTest,testNullWithEscape,Not Pass
+Csv,14,add_test.java,org.apache.commons.csv.CSVPrinterTest,testMinimalQuotePeriod,Not Pass
+Csv,15,add_test.java,org.apache.commons.csv.CSVPrinterTest,testUnicodeFirstCharNotQuoted,Not Pass
+Csv,16,add_test.java,org.apache.commons.csv.CSVParserTest,testIteratorDiscardWithHasNext,Not Pass

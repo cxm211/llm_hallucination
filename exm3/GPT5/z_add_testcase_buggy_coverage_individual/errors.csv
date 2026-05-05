@@ -1,0 +1,13 @@
+project,bug_id,folder,error
+Closure,145,Closure-145-buggy_ind1,Not Compilable: test suite failed to compile
+Closure,145,Closure-145-buggy_ind2,Not Compilable: test suite failed to compile
+Closure,157,Closure-157-buggy_ind1,Not Compilable: test suite failed to compile
+Closure,157,Closure-157-buggy_ind2,Not Compilable: test suite failed to compile
+Closure,170,Closure-170-buggy_ind1,Not Compilable: test suite failed to compile
+Closure,170,Closure-170-buggy_ind2,Not Compilable: test suite failed to compile
+Lang,20,Lang-20-buggy_ind1,Not Compilable: test suite failed to compile
+Lang,20,Lang-20-buggy_ind2,Not Compilable: test suite failed to compile
+Lang,31,Lang-31-buggy_ind1,Not Compilable: test suite failed to compile
+Lang,31,Lang-31-buggy_ind2,Not Compilable: test suite failed to compile
+Lang,41,Lang-41-buggy_ind1,Not Compilable: test suite failed to compile
+Lang,41,Lang-41-buggy_ind2,Not Compilable: test suite failed to compile

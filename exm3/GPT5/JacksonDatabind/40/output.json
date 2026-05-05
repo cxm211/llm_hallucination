@@ -1,0 +1,11 @@
+{
+  "fixed_code": [
+    "public final T getNullValue() {\n            if (_nullValue != null) {\n                return _nullValue;\n            }\n            Class<?> cls = _valueClass;\n            if (cls == null) {\n                return null;\n            }\n            Object v = null;\n            if (cls == Integer.TYPE) {\n                v = Integer.valueOf(0);\n            } else if (cls == Long.TYPE) {\n                v = Long.valueOf(0L);\n            } else if (cls == Double.TYPE) {\n                v = Double.valueOf(0.0);\n            } else if (cls == Float.TYPE) {\n                v = Float.valueOf(0.0f);\n            } else if (cls == Short.TYPE) {\n                v = Short.valueOf((short) 0);\n            } else if (cls == Byte.TYPE) {\n                v = Byte.valueOf((byte) 0);\n            } else if (cls == Boolean.TYPE) {\n                v = Boolean.FALSE;\n            } else if (cls == Character.TYPE) {\n                v = Character.valueOf('\\0');\n            }\n            return (T) v;\n        }"
+  ],
+  "additional_testcases": [
+    {
+      "path": "40/input.java",
+      "testcase": "public void testEmptyToNullCoercionForBooleanPrimitive() throws Exception {\n        _testEmptyToNullCoercion(boolean.class, Boolean.FALSE);\n    }"
+    }
+  ]
+}

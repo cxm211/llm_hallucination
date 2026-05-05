@@ -1,0 +1,58 @@
+project,bug_id,folder,class_entry,file,method_sig_snippet,fixed_method_start_line,fixed_method_end_line
+Cli,1,Cli-1-buggy,org.apache.commons.cli.CommandLine,org/apache/commons/cli/CommandLine.java,public boolean hasOption(String opt),67,76
+Cli,1,Cli-1-buggy,org.apache.commons.cli.CommandLine,org/apache/commons/cli/CommandLine.java,public Object getOptionObject(String opt),95,114
+Cli,1,Cli-1-buggy,org.apache.commons.cli.CommandLine,org/apache/commons/cli/CommandLine.java,public String[] getOptionValues(String opt),160,175
+Cli,1,Cli-1-buggy,org.apache.commons.cli.CommandLine,org/apache/commons/cli/CommandLine.java,void addOption(Option opt),288,304
+Cli,1,Cli-1-buggy,org.apache.commons.cli.CommandLine,org/apache/commons/cli/CommandLine.java,public Iterator iterator(),312,315
+Cli,1,Cli-1-buggy,org.apache.commons.cli.CommandLine,org/apache/commons/cli/CommandLine.java,public Option[] getOptions(),322,331
+Cli,10,Cli-10-buggy,org.apache.commons.cli.Parser,org/apache/commons/cli/Parser.java,protected void setOptions(final Options options) {,44,47
+Cli,11,Cli-11-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"private static void appendOption(final StringBuffer buff, final Option option, final boolean required)",613,642
+Cli,12,Cli-12-buggy,org.apache.commons.cli.GnuParser,org/apache/commons/cli/GnuParser.java,"protected String[] flatten(Options options, String[] arguments, boolean stopAtNonOption)",52,128
+Cli,13,Cli-13-buggy,org.apache.commons.cli2.commandline.WriteableCommandLineImpl,org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java,"public List getValues(final Option option, final List defaultValues) {",109,130
+Cli,13,Cli-13-buggy,org.apache.commons.cli2.option.ArgumentImpl,org/apache/commons/cli2/option/ArgumentImpl.java,"public void processValues(final WriteableCommandLine commandLine, final ListIterator arguments, final Option option)",139,189
+Cli,14,Cli-14-buggy,org.apache.commons.cli2.option.GroupImpl,org/apache/commons/cli2/option/GroupImpl.java,public void validate(final WriteableCommandLine commandLine),237,278
+Cli,15,Cli-15-buggy,org.apache.commons.cli2.commandline.WriteableCommandLineImpl,org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java,"public List getValues(final Option option, List defaultValues) {",111,142
+Cli,16,Cli-16-buggy,org.apache.commons.cli2.Option,org/apache/commons/cli2/Option.java,"void appendUsage( final StringBuffer buffer, final Set helpSettings, final Comparator comp);",143,146
+Cli,16,Cli-16-buggy,org.apache.commons.cli2.commandline.WriteableCommandLineImpl,org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java,public void addOption(Option option) {,65,79
+Cli,16,Cli-16-buggy,org.apache.commons.cli2.option.GroupImpl,org/apache/commons/cli2/option/GroupImpl.java,"public GroupImpl(final List options, final String name, final String description, final int minimum, final int maximum) {",64,111
+Cli,16,Cli-16-buggy,org.apache.commons.cli2.option.OptionImpl,org/apache/commons/cli2/option/OptionImpl.java,public void defaults(final WriteableCommandLine commandLine) {,124,126
+Cli,17,Cli-17-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"protected void burstToken(String token, boolean stopAtNonOption)",282,311
+Cli,18,Cli-18-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"protected String[] flatten(Options options, String[] arguments, boolean stopAtNonOption)",97,166
+Cli,18,Cli-18-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,private void processSingleHyphen(String hyphen),220,223
+Cli,18,Cli-18-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"private void processOptionToken(String token, boolean stopAtNonOption)",238,250
+Cli,19,Cli-19-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"private void processOptionToken(String token, boolean stopAtNonOption)",227,243
+Cli,2,Cli-2-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"protected void burstToken(String token, boolean stopAtNonOption)",278,317
+Cli,20,Cli-20-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"protected String[] flatten(Options options, String[] arguments, boolean stopAtNonOption)",97,162
+Cli,21,Cli-21-buggy,org.apache.commons.cli2.commandline.WriteableCommandLineImpl,org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java,"public WriteableCommandLineImpl(final Option rootOption, final List arguments) {",59,63
+Cli,21,Cli-21-buggy,org.apache.commons.cli2.commandline.WriteableCommandLineImpl,org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java,public boolean looksLikeOption(final String trigger),232,254
+Cli,21,Cli-21-buggy,org.apache.commons.cli2.option.GroupImpl,org/apache/commons/cli2/option/GroupImpl.java,"private boolean looksLikeOption(final WriteableCommandLine commandLine, final String trigger) {",511,514
+Cli,22,Cli-22-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"protected String[] flatten(Options options, String[] arguments, boolean stopAtNonOption)",94,159
+Cli,22,Cli-22-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,private void processNonOptionToken(String value),184,192
+Cli,22,Cli-22-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"private void processOptionToken(String token, boolean stopAtNonOption)",206,215
+Cli,22,Cli-22-buggy,org.apache.commons.cli.PosixParser,org/apache/commons/cli/PosixParser.java,"protected void burstToken(String token, boolean stopAtNonOption)",243,273
+Cli,23,Cli-23-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text)",805,841
+Cli,24,Cli-24-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text)",809,852
+Cli,25,Cli-25-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text)",809,851
+Cli,26,Cli-26-buggy,org.apache.commons.cli.OptionBuilder,org/apache/commons/cli/OptionBuilder.java,public static Option create(String opt) throws IllegalArgumentException,346,365
+Cli,27,Cli-27-buggy,org.apache.commons.cli.OptionGroup,org/apache/commons/cli/OptionGroup.java,public void setSelected(Option option) throws AlreadySelectedException,86,106
+Cli,28,Cli-28-buggy,org.apache.commons.cli.Parser,org/apache/commons/cli/Parser.java,protected void processProperties(Properties properties),252,296
+Cli,29,Cli-29-buggy,org.apache.commons.cli.Util,org/apache/commons/cli/Util.java,static String stripLeadingAndTrailingQuotes(String str),63,69
+Cli,3,Cli-3-buggy,org.apache.commons.cli.TypeHandler,org/apache/commons/cli/TypeHandler.java,public static Number createNumber(String str),157,160
+Cli,30,Cli-30-buggy,org.apache.commons.cli.DefaultParser,org/apache/commons/cli/DefaultParser.java,private void handleProperties(Properties properties) throws ParseException,139,181
+Cli,30,Cli-30-buggy,org.apache.commons.cli.Parser,org/apache/commons/cli/Parser.java,protected void processProperties(Properties properties) throws ParseException,252,302
+Cli,31,Cli-31-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"private void appendOption(final StringBuffer buff, final Option option, final boolean required)",636,679
+Cli,31,Cli-31-buggy,org.apache.commons.cli.OptionBuilder,org/apache/commons/cli/OptionBuilder.java,private static void reset(),77,87
+Cli,32,Cli-32-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"protected int findWrapPos(String text, int width, int startPos)",902,937
+Cli,33,Cli-33-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"public void printWrapped(PrintWriter pw, int width, int nextLineTabStop, String text)",726,732
+Cli,33,Cli-33-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text)",848,894
+Cli,34,Cli-34-buggy,org.apache.commons.cli.OptionBuilder,org/apache/commons/cli/OptionBuilder.java,private static void reset(),79,89
+Cli,35,Cli-35-buggy,org.apache.commons.cli.Options,org/apache/commons/cli/Options.java,public List<String> getMatchingOptions(String opt),233,254
+Cli,37,Cli-37-buggy,org.apache.commons.cli.DefaultParser,org/apache/commons/cli/DefaultParser.java,private boolean isShortOption(String token),299,319
+Cli,38,Cli-38-buggy,org.apache.commons.cli.DefaultParser,org/apache/commons/cli/DefaultParser.java,private boolean isShortOption(String token),299,322
+Cli,39,Cli-39-buggy,org.apache.commons.cli.TypeHandler,org/apache/commons/cli/TypeHandler.java,"public static Object createValue(final String str, final Class<?> clazz) throws ParseException",64,115
+Cli,39,Cli-39-buggy,org.apache.commons.cli.TypeHandler,org/apache/commons/cli/TypeHandler.java,public static File createFile(final String str),231,234
+Cli,4,Cli-4-buggy,org.apache.commons.cli.Parser,org/apache/commons/cli/Parser.java,private void checkRequiredOptions(),290,299
+Cli,40,Cli-40-buggy,org.apache.commons.cli.TypeHandler,org/apache/commons/cli/TypeHandler.java,"public static <T> T createValue(final String str, final Class<T> clazz) throws ParseException",63,121
+Cli,5,Cli-5-buggy,org.apache.commons.cli.Util,org/apache/commons/cli/Util.java,static String stripLeadingHyphens(String str),34,50
+Cli,8,Cli-8-buggy,org.apache.commons.cli.HelpFormatter,org/apache/commons/cli/HelpFormatter.java,"protected StringBuffer renderWrappedText(StringBuffer sb, int width, int nextLineTabStop, String text)",792,851
+Cli,9,Cli-9-buggy,org.apache.commons.cli.Parser,org/apache/commons/cli/Parser.java,protected void checkRequiredOptions(),303,328

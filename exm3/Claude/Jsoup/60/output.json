@@ -1,0 +1,20 @@
+{
+  "fixed_code": [
+    "public String chompBalanced(char open, char close) {\n    int start = -1;\n    int end = -1;\n    int depth = 0;\n    char last = 0;\n    Character quoteChar = null;\n\n    do {\n        if (isEmpty()) break;\n        Character c = consume();\n        if (last == 0 || last != ESC) {\n            if (quoteChar == null && (c.equals('\\'') || c.equals('\"')) && c != open) {\n                quoteChar = c;\n            } else if (quoteChar != null && c.equals(quoteChar)) {\n                quoteChar = null;\n            }\n            if (quoteChar == null) {\n                if (c.equals(open)) {\n                    depth++;\n                    if (start == -1)\n                        start = pos;\n                }\n                else if (c.equals(close))\n                    depth--;\n            }\n        }\n\n        if (depth > 0 && last != 0)\n            end = pos;\n        last = c;\n    } while (depth > 0);\n    final String out = (end >= 0) ? queue.substring(start, end) : \"\";\n    return out;\n}",
+    "public static Evaluator parse(String query) {\n    QueryParser p = new QueryParser(query);\n    return p.parse();\n}"
+  ],
+  "additional_testcases": [
+    {
+      "path": "60/input.java",
+      "testcase": "@Test(expected = Selector.SelectorParseException.class) public void exceptionOnUncloseAttributeWithSingleQuote() {\n    Evaluator parse = QueryParser.parse(\"section > a[href=']\");\n}"
+    },
+    {
+      "path": "60/input.java",
+      "testcase": "@Test(expected = Selector.SelectorParseException.class) public void testParsesDoubleQuoteInContainsSingleQuoted() {\n    Evaluator parse = QueryParser.parse(\"p:contains('One \\\" One')\");\n}"
+    },
+    {
+      "path": "60/input.java",
+      "testcase": "@Test(expected = Selector.SelectorParseException.class) public void exceptionOnMixedQuotes() {\n    Evaluator parse = QueryParser.parse(\"a[data=\\\"test']\");\n}"
+    }
+  ]
+}

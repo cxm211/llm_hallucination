@@ -1,0 +1,23 @@
+{
+  "fixed_code": [
+    "public final T getNullValue() {\n    if (_valueClass.isPrimitive()) {\n        return _emptyValue;\n    }\n    return _nullValue;\n}"
+  ],
+  "additional_testcases": [
+    {
+      "path": "40/input.java",
+      "testcase": "public void testEmptyToNullCoercionForBoolean() throws Exception {\n    _testEmptyToNullCoercion(boolean.class, Boolean.valueOf(false));\n}"
+    },
+    {
+      "path": "40/input.java",
+      "testcase": "public void testEmptyToNullCoercionForByte() throws Exception {\n    _testEmptyToNullCoercion(byte.class, Byte.valueOf((byte)0));\n}"
+    },
+    {
+      "path": "40/input.java",
+      "testcase": "public void testEmptyToNullCoercionForShort() throws Exception {\n    _testEmptyToNullCoercion(short.class, Short.valueOf((short)0));\n}"
+    },
+    {
+      "path": "40/input.java",
+      "testcase": "public void testEmptyToNullCoercionForChar() throws Exception {\n    _testEmptyToNullCoercion(char.class, Character.valueOf('\\u0000'));\n}"
+    }
+  ]
+}

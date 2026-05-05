@@ -1,0 +1,48 @@
+project,bug_id,folder,result
+Compress,1,Compress-1-buggy,Not Pass
+Compress,2,Compress-2-buggy,Not Pass
+Compress,3,Compress-3-buggy,Not Pass
+Compress,4,Compress-4-buggy,Not Pass
+Compress,5,Compress-5-buggy,Not Pass
+Compress,6,Compress-6-buggy,Pass
+Compress,7,Compress-7-buggy,Not Pass
+Compress,8,Compress-8-buggy,Not Pass
+Compress,9,Compress-9-buggy,Not Pass
+Compress,10,Compress-10-buggy,Pass
+Compress,11,Compress-11-buggy,Pass
+Compress,12,Compress-12-buggy,Pass
+Compress,13,Compress-13-buggy,Pass
+Compress,14,Compress-14-buggy,Not Pass
+Compress,15,Compress-15-buggy,Pass
+Compress,16,Compress-16-buggy,Not Pass
+Compress,17,Compress-17-buggy,Not Pass
+Compress,18,Compress-18-buggy,Pass
+Compress,19,Compress-19-buggy,Pass
+Compress,20,Compress-20-buggy,Not Pass
+Compress,21,Compress-21-buggy,Pass
+Compress,22,Compress-22-buggy,Not Pass
+Compress,23,Compress-23-buggy,Pass
+Compress,24,Compress-24-buggy,Not Pass
+Compress,25,Compress-25-buggy,Not Compilable
+Compress,26,Compress-26-buggy,Pass
+Compress,27,Compress-27-buggy,Pass
+Compress,28,Compress-28-buggy,Pass
+Compress,29,Compress-29-buggy,Not Pass
+Compress,30,Compress-30-buggy,Pass
+Compress,31,Compress-31-buggy,Not Pass
+Compress,32,Compress-32-buggy,Pass
+Compress,33,Compress-33-buggy,Not Compilable
+Compress,34,Compress-34-buggy,Pass
+Compress,35,Compress-35-buggy,Not Pass
+Compress,36,Compress-36-buggy,Not Pass
+Compress,37,Compress-37-buggy,Pass
+Compress,38,Compress-38-buggy,Pass
+Compress,39,Compress-39-buggy,Pass
+Compress,40,Compress-40-buggy,Not Pass
+Compress,41,Compress-41-buggy,Pass
+Compress,42,Compress-42-buggy,Not Compilable
+Compress,43,Compress-43-buggy,Pass
+Compress,44,Compress-44-buggy,Pass
+Compress,45,Compress-45-buggy,Not Compilable
+Compress,46,Compress-46-buggy,Pass
+Compress,47,Compress-47-buggy,Not Pass

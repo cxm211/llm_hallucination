@@ -1,0 +1,418 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Closure,1,add_test.java,com.google.javascript.jscomp.RemoveUnusedVarsTest,testRemoveUnusedParamAtEnd,Not Compilable
+Closure,1,add_test1.java,com.google.javascript.jscomp.RemoveUnusedVarsTest,testKeepUnusedParamInMiddle,Not Compilable
+Closure,1,add_test2.java,com.google.javascript.jscomp.CommandLineRunnerTest,testAdvancedModeRemovesUnusedParams,Not Compilable
+Closure,2,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testInterfaceExtendsNonExistentWithValidInterface,Not Pass
+Closure,2,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testMultipleNonExistentInterfacesInChain,Not Pass
+Closure,3,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDoNotInlineCatchExpression2,Not Compilable
+Closure,3,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDoNotInlineCatchExpression4,Not Compilable
+Closure,4,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testImplementsLoopWithInterface,Not Pass
+Closure,4,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testExtendsLoop,Not Pass
+Closure,5,add_test.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testNoInlineDeletedPropertiesMultiple,Not Pass
+Closure,5,add_test1.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testNoInlineDeletedPropertiesBeforeUse,Not Pass
+Closure,6,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testEnumToEnumAssignment,Not Pass
+Closure,6,add_test1.java,com.google.javascript.jscomp.LooseTypeCheckTest,testConstructorToConstructorPropertyAssignment,Not Pass
+Closure,7,add_test.java,com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest,testGoogIsFunction3,Not Compilable
+Closure,7,add_test1.java,com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest,testTypeof4,Not Compilable
+Closure,8,add_test.java,com.google.javascript.jscomp.CollapseVariableDeclarationsTest,testCannotRedeclareFunctionName,Pass
+Closure,8,add_test1.java,com.google.javascript.jscomp.CollapseVariableDeclarationsTest,testCannotRedeclareCatchParameter,Not Pass
+Closure,8,add_test2.java,com.google.javascript.jscomp.CollapseVariableDeclarationsTest,testCanRedeclareVarDeclaredInScope,Pass
+Closure,9,add_test.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testGuessModuleNameMixedSlashes,Not Pass
+Closure,9,add_test1.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testGuessModuleNameNoPrefix,Not Pass
+Closure,9,add_test2.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testGuessModuleNameEmptyPrefix,Not Pass
+Closure,11,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testGetpropAssignmentWithUndefined,Not Pass
+Closure,11,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testGetpropAssignmentWithValidObject,Pass
+Closure,12,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testExceptionHandlerWithFinally,Not Pass
+Closure,12,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testNestedTryCatch,Not Pass
+Closure,12,add_test2.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testTryWithoutCatch,Not Pass
+Closure,13,add_test.java,com.google.javascript.jscomp.IntegrationTest,testIssue787_AdditionalTrigger1,Pass
+Closure,13,add_test1.java,com.google.javascript.jscomp.IntegrationTest,testIssue787_AdditionalTrigger2,Pass
+Closure,14,add_test.java,com.google.javascript.jscomp.CheckMissingReturnTest,testIssue779_nested_catch_finally,Not Pass
+Closure,14,add_test1.java,com.google.javascript.jscomp.ControlFlowAnalysisTest,testNestedCatchWithFinally,Not Pass
+Closure,15,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDeleteWithMultipleReferences,Not Pass
+Closure,15,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDeleteBeforeUse,Pass
+Closure,15,add_test2.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDeleteInConditional,Pass
+Closure,16,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testIssue772_nullQualifiedName,Not Pass
+Closure,16,add_test1.java,com.google.javascript.jscomp.ScopedAliasesTest,testIssue772_deeperNesting,Not Pass
+Closure,16,add_test2.java,com.google.javascript.jscomp.IntegrationTest,testIssue772_withoutDot,Not Pass
+Closure,17,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testConstWithTypeAndRValueWithoutType,Pass
+Closure,17,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testConstWithNestedOrIdiomMismatch,Pass
+Closure,17,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testConstWithObjectLiteralNoAnnotation,Pass
+Closure,18,add_test.java,com.google.javascript.jscomp.IntegrationTest,testDependencySortingWithMultipleRequires,Not Pass
+Closure,18,add_test1.java,com.google.javascript.jscomp.IntegrationTest,testDependencySortingWithCircularDependency,Not Pass
+Closure,19,add_test.java,com.google.javascript.jscomp.TypeInferenceTest,testNoThisInferenceWithTypeCheck,Not Compilable
+Closure,19,add_test1.java,com.google.javascript.jscomp.TypeInferenceTest,testNoThisInferenceNonNull,Not Compilable
+Closure,20,add_test.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testSimpleFunctionCallNoArgs,Pass
+Closure,20,add_test1.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testSimpleFunctionCallMultipleArgs,Not Pass
+Closure,21,add_test.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCodeInNestedComma,Not Pass
+Closure,21,add_test1.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCodeInCommaFirstChild,Not Pass
+Closure,21,add_test2.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCodeInForLoopComma,Pass
+Closure,22,add_test.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCodeInCommaFirstChild,Not Pass
+Closure,22,add_test1.java,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCodeInNestedComma,Pass
+Closure,23,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldGetElemMultipleHoles,Not Pass
+Closure,23,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldGetElemBoundaryConditions,Not Pass
+Closure,24,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testNonAliasLocalUninitializedVar,Pass
+Closure,24,add_test1.java,com.google.javascript.jscomp.ScopedAliasesTest,testNonAliasLocalComplexExpression,Not Pass
+Closure,25,add_test.java,com.google.javascript.jscomp.TypeInferenceTest,testBackwardsInferenceNewWithMultipleArgs,Not Pass
+Closure,25,add_test1.java,com.google.javascript.jscomp.TypeInferenceTest,testBackwardsInferenceNewWithNestedObject,Not Pass
+Closure,26,add_test.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testNullFilename,Not Pass
+Closure,26,add_test1.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testEmptyFilename,Not Pass
+Closure,26,add_test2.java,com.google.javascript.jscomp.ProcessCommonJSModulesTest,testFilenameWithoutPrefix,Not Pass
+Closure,26,add_test3.java,com.google.javascript.jscomp.CommandLineRunnerTest,testProcessCJSWithModuleExports,Not Pass
+Closure,27,add_test.java,com.google.javascript.rhino.IRTest,testTryFinallyWithStatements,Not Pass
+Closure,27,add_test1.java,com.google.javascript.rhino.IRTest,testTryCatchWithMultipleStatements,Not Pass
+Closure,28,add_test.java,com.google.javascript.jscomp.InlineCostEstimatorTest,testCostWithDifferentIdentifierLengths,Not Pass
+Closure,28,add_test1.java,com.google.javascript.jscomp.InlineFunctionsTest,testIssue728WithLongerIdentifiers,Not Pass
+Closure,29,add_test.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testObjectPropertyAccessNotInlinable,Not Pass
+Closure,29,add_test1.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testObjectPropertyChainAccess,Not Pass
+Closure,29,add_test2.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testObjectPropertyAccessInVarDecl,Not Pass
+Closure,30,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testDependsOnOuterScopeVarsWithNullDef,Pass
+Closure,30,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testInlineWithUndeclaredVariable,Pass
+Closure,31,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testDependencySortingWithExternsAndNoCompile,Pass
+Closure,31,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testDependencySortingWithNoCompileAnnotation,Pass
+Closure,32,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseLicenseEmptyLine,Not Pass
+Closure,32,add_test1.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParsePreserveEmptyLine,Not Pass
+Closure,32,add_test2.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseLicenseOnlyWhitespace,Not Pass
+Closure,33,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue700_AdditionalCase1,Pass
+Closure,33,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue700_AdditionalCase2,Pass
+Closure,34,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testManyMultiplies,Not Pass
+Closure,34,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testMixedAssociativeOps,Not Pass
+Closure,35,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue669_AdditionalCase1,Not Pass
+Closure,35,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue669_AdditionalCase2,Not Pass
+Closure,36,add_test.java,com.google.javascript.jscomp.IntegrationTest,testSingletonGetterInlineFunction,Not Pass
+Closure,36,add_test1.java,com.google.javascript.jscomp.IntegrationTest,testSingletonGetterNonCallContext,Not Pass
+Closure,37,add_test.java,com.google.javascript.jscomp.IntegrationTest,testIncompleteFunctionWithArgs,Not Pass
+Closure,37,add_test1.java,com.google.javascript.jscomp.IntegrationTest,testIncompleteFunctionNested,Not Pass
+Closure,38,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testMinusPositiveZero,Pass
+Closure,38,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testNegativeZeroAlone,Pass
+Closure,38,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testPositiveZeroAlone,Pass
+Closure,39,add_test.java,com.google.javascript.rhino.jstype.RecordTypeTest,testExactlyMaxPropertiesNoEllipsis,Not Pass
+Closure,39,add_test1.java,com.google.javascript.rhino.jstype.RecordTypeTest,testLongToAnnotationStringWithLoop,Not Pass
+Closure,40,add_test.java,com.google.javascript.jscomp.IntegrationTest,testIssue284_UndefinedInheritsParent,Pass
+Closure,40,add_test1.java,com.google.javascript.jscomp.NameAnalyzerTest,testIssue284_MultipleInheritsUndefined,Not Pass
+Closure,41,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testMethodInferenceMultipleParams,Not Pass
+Closure,41,add_test1.java,com.google.javascript.jscomp.LooseTypeCheckTest,testMethodInferenceMultipleParams,Not Pass
+Closure,42,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testForIn,Pass
+Closure,42,add_test1.java,com.google.javascript.jscomp.parsing.ParserTest,testForEachError,Not Pass
+Closure,43,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testLends12,Not Pass
+Closure,43,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testLends13,Not Pass
+Closure,44,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testIssue620_AdditionalCase1,Not Pass
+Closure,44,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testIssue620_AdditionalCase2,Pass
+Closure,44,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testIssue620_AdditionalCase3,Not Pass
+Closure,45,add_test.java,com.google.javascript.jscomp.RemoveUnusedVarsTest,testIssue618_aliased_no_property,Not Pass
+Closure,45,add_test1.java,com.google.javascript.jscomp.RemoveUnusedVarsTest,testIssue618_literal_with_property,Pass
+Closure,45,add_test2.java,com.google.javascript.jscomp.RemoveUnusedVarsTest,testIssue618_non_literal_no_alias,Not Pass
+Closure,46,add_test.java,com.google.javascript.rhino.jstype.JSTypeTest,testRecordTypeLeastSuperType_NoCommonProperties,Not Pass
+Closure,46,add_test1.java,com.google.javascript.rhino.jstype.RecordTypeTest,testSupAndInf_NoCommonProperties,Not Pass
+Closure,46,add_test2.java,com.google.javascript.rhino.jstype.JSTypeTest,testRecordTypeLeastSuperType_PartialOverlap,Pass
+Closure,47,add_test.java,com.google.debugging.sourcemap.SourceMapGeneratorV3Test,testMultilineEdgeCase,Not Pass
+Closure,47,add_test1.java,com.google.debugging.sourcemap.SourceMapGeneratorV3Test,testLineColumnAdjustment,Not Pass
+Closure,48,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue586_AdditionalTest1,Not Pass
+Closure,48,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue586_AdditionalTest2,Not Pass
+Closure,49,add_test.java,com.google.javascript.jscomp.FunctionInjectorTest,testInlineWithNestedFunction,Not Pass
+Closure,49,add_test1.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctionWithMultipleParameters,Not Pass
+Closure,49,add_test2.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctionWithNoParameters,Not Pass
+Closure,50,add_test.java,com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest,testNoStringJoinMultipleExtraArgs,Not Pass
+Closure,50,add_test1.java,com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest,testNoStringJoinWithStringLiteralExtraArg,Not Pass
+Closure,51,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testPositiveZero,Pass
+Closure,51,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testNegativeZeroInExpression,Not Pass
+Closure,51,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testLargeNumberExponentFormat,Pass
+Closure,51,add_test3.java,com.google.javascript.jscomp.CodePrinterTest,testDecimalNumber,Pass
+Closure,52,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testNumericKeysAdditionalCoverage,Not Pass
+Closure,53,add_test.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testEmptyObjectLiteralWithSingleProperty,Not Pass
+Closure,53,add_test1.java,com.google.javascript.jscomp.InlineObjectLiteralsTest,testEmptyObjectLiteralReassignment,Not Pass
+Closure,54,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue537c,Not Compilable
+Closure,54,add_test1.java,com.google.javascript.jscomp.TypedScopeCreatorTest,testPropertyOnUnknownSuperClass3,Not Compilable
+Closure,55,add_test.java,com.google.javascript.jscomp.FunctionRewriterTest,testSetterFunctionNotReduced,Not Compilable
+Closure,55,add_test1.java,com.google.javascript.jscomp.FunctionRewriterTest,testMixedGetterSetterNotReduced,Not Compilable
+Closure,55,add_test2.java,com.google.javascript.jscomp.FunctionRewriterTest,testRegularFunctionExpressionReduced,Not Compilable
+Closure,56,add_test.java,com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest,testSingleLineNoNewLine,Not Compilable
+Closure,56,add_test1.java,com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest,testEmptyLastLine,Not Compilable
+Closure,56,add_test2.java,com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest,testMultipleLinesLastNoNewLine,Not Compilable
+Closure,57,add_test.java,com.google.javascript.jscomp.ClosureCodingConventionTest,testRequireWithNumber,Not Pass
+Closure,57,add_test1.java,com.google.javascript.jscomp.ClosureCodingConventionTest,testRequireWithBoolean,Not Pass
+Closure,57,add_test2.java,com.google.javascript.jscomp.ClosureCodingConventionTest,testRequireWithNull,Not Pass
+Closure,58,add_test.java,com.google.javascript.jscomp.LiveVariableAnalysisTest,testComplexExpressionInForIn,Not Compilable
+Closure,58,add_test1.java,com.google.javascript.jscomp.LiveVariableAnalysisTest,testPropertyAccessInForIn,Not Compilable
+Closure,59,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testCheckGlobalThisOffWithDefaultLevel,Pass
+Closure,60,add_test.java,com.google.javascript.jscomp.NodeUtilTest,testGetBooleanValueVoidWithSideEffects,Not Pass
+Closure,61,add_test.java,com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest,testCallMathWithArgs,Not Pass
+Closure,61,add_test1.java,com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest,testCallMathInExpression,Not Pass
+Closure,61,add_test2.java,com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest,testCallMathCos,Not Pass
+Closure,62,add_test.java,com.google.javascript.jscomp.LightweightMessageFormatterTest,testFormatErrorAtExactEndOfLine,Not Pass
+Closure,62,add_test1.java,com.google.javascript.jscomp.LightweightMessageFormatterTest,testFormatErrorBeyondEndOfLine,Pass
+Closure,62,add_test2.java,com.google.javascript.jscomp.LightweightMessageFormatterTest,testFormatErrorAtBeginningOfLine,Pass
+Closure,64,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testES5StrictUseStrictSingleInput,Pass
+Closure,64,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testES5StrictUseStrictWithEmptyFirstInput,Not Pass
+Closure,64,add_test2.java,com.google.javascript.jscomp.CommandLineRunnerTest,testNonStrictModeNoUseStrict,Pass
+Closure,65,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testZeroFollowedByNonDigit,Pass
+Closure,65,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testZeroAtEndOfString,Pass
+Closure,65,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testMultipleZeros,Not Pass
+Closure,66,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testGetTypedPercent7,Not Pass
+Closure,66,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testGetTypedPercent8,Not Pass
+Closure,67,add_test.java,com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest,testAliasing8,Not Pass
+Closure,67,add_test1.java,com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest,testAliasing9,Not Pass
+Closure,67,add_test2.java,com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest,testAliasing10,Not Pass
+Closure,68,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testIssue477_missingOpeningLPAfterStringType,Not Compilable
+Closure,68,add_test1.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testIssue477_validFunction,Not Compilable
+Closure,69,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testThisTypeOfFunction5,Pass
+Closure,69,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testThisTypeOfFunction6,Pass
+Closure,69,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testThisTypeOfFunction7,Not Pass
+Closure,69,add_test3.java,com.google.javascript.jscomp.TypeCheckTest,testThisTypeOfFunction8,Not Pass
+Closure,70,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArgumentsNoJSDoc,Pass
+Closure,70,add_test1.java,com.google.javascript.jscomp.LooseTypeCheckTest,testFunctionArgumentsNoJSDoc,Pass
+Closure,70,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArgumentsNullFunctionType,Pass
+Closure,71,add_test.java,com.google.javascript.jscomp.CheckAccessControlsTest,testNoPrivateAccessForProperties6_AdditionalBranch,Not Pass
+Closure,71,add_test1.java,com.google.javascript.jscomp.CheckAccessControlsTest,testNoPrivateAccessForProperties8_AdditionalBranch,Pass
+Closure,71,add_test2.java,com.google.javascript.jscomp.CheckAccessControlsTest,testProtectedPropertyAccess,Pass
+Closure,72,add_test.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions31_nested,Not Pass
+Closure,72,add_test1.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions31_unreferenced,Not Pass
+Closure,72,add_test2.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions31_multiple,Not Pass
+Closure,73,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testUnicodeBoundary,Not Pass
+Closure,74,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldComparisonNumberWithUndefined,Pass
+Closure,74,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldComparisonStringWithUndefined,Pass
+Closure,75,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testVerticalTabNotWhitespace,Not Pass
+Closure,75,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testVerticalTabWithDigits,Not Pass
+Closure,75,add_test2.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testVerticalTabAtEnd,Not Pass
+Closure,76,add_test.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testNestedShortCircuit,Pass
+Closure,76,add_test1.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testHookWithShortCircuit,Pass
+Closure,76,add_test2.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testMultipleShortCircuitWithReturn,Pass
+Closure,77,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testControlCharactersEscaping,Pass
+Closure,77,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testHighCharactersEscaping,Not Pass
+Closure,78,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldDivideByZero,Not Pass
+Closure,78,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldModuloByZero,Not Pass
+Closure,79,add_test.java,com.google.javascript.jscomp.NormalizeTest,testMultipleVarDeclarationsWithSameName,Pass
+Closure,79,add_test1.java,com.google.javascript.jscomp.VarCheckTest,testMultipleExternReferences,Not Pass
+Closure,79,add_test2.java,com.google.javascript.jscomp.VarCheckTest,testNestedPropReferenceInExterns,Not Pass
+Closure,80,add_test.java,com.google.javascript.jscomp.NodeUtilTest,testIsBooleanResultAdditional,Not Compilable
+Closure,80,add_test1.java,com.google.javascript.jscomp.NodeUtilTest,testLocalValue2,Not Compilable
+Closure,81,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testUnnamedFunctionInForLoop,Not Pass
+Closure,81,add_test1.java,com.google.javascript.jscomp.parsing.ParserTest,testUnnamedFunctionInWhileLoop,Not Pass
+Closure,81,add_test2.java,com.google.javascript.jscomp.parsing.ParserTest,testUnnamedFunctionInTryCatch,Not Pass
+Closure,82,add_test.java,com.google.javascript.rhino.jstype.FunctionTypeTest,testEmptyFunctionTypesWithSubtypes,Not Compilable
+Closure,82,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue301WithChainedCalls,Not Compilable
+Closure,84,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testDestructuringAssignForbidden5,Not Pass
+Closure,84,add_test1.java,com.google.javascript.jscomp.parsing.ParserTest,testDestructuringAssignForbidden6,Not Pass
+Closure,85,add_test.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testRemoveBreakWhenFollowNodeIsNull,Not Pass
+Closure,85,add_test1.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testRemoveContinueWhenFollowNodeIsNull,Not Pass
+Closure,85,add_test2.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testRemoveReturnWhenFollowNodeIsNull,Not Pass
+Closure,86,add_test.java,com.google.javascript.jscomp.NodeUtilTest,testLocalValueNewExpressions,Not Pass
+Closure,87,add_test.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue291_additionalCase1,Not Pass
+Closure,87,add_test1.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue291_additionalCase2,Not Pass
+Closure,87,add_test2.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue291_additionalCase3,Pass
+Closure,87,add_test3.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue291_additionalCase4,Pass
+Closure,88,add_test.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testIssue297g,Not Compilable
+Closure,88,add_test1.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testIssue297h,Not Compilable
+Closure,88,add_test2.java,com.google.javascript.jscomp.DeadAssignmentsEliminationTest,testIssue297i,Not Compilable
+Closure,89,add_test.java,com.google.javascript.jscomp.CollapsePropertiesTest,testAliasCreatedForCtorDepth1,Not Pass
+Closure,89,add_test1.java,com.google.javascript.jscomp.CollapsePropertiesTest,testAliasCreatedForObjectDepth2WithLocalSetInFunction,Pass
+Closure,89,add_test2.java,com.google.javascript.jscomp.CollapsePropertiesTest,testNoCollapseWithMultipleGlobalSets,Not Pass
+Closure,90,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse10,Not Pass
+Closure,90,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse11,Not Pass
+Closure,90,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse12,Not Pass
+Closure,90,add_test3.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse13,Not Pass
+Closure,91,add_test.java,com.google.javascript.jscomp.CheckGlobalThisTest,testLendsAnnotationNonPrototype,Not Pass
+Closure,91,add_test1.java,com.google.javascript.jscomp.CheckGlobalThisTest,testLendsAnnotationWithoutDotPrototype,Not Pass
+Closure,92,add_test.java,com.google.javascript.jscomp.ProcessClosurePrimitivesTest,testProvideInIndependentModules5,Not Pass
+Closure,92,add_test1.java,com.google.javascript.jscomp.ProcessClosurePrimitivesTest,testProvideInIndependentModules6,Pass
+Closure,94,add_test.java,com.google.javascript.jscomp.NodeUtilTest,testValidDefineWithBitwiseOperations,Not Pass
+Closure,94,add_test1.java,com.google.javascript.jscomp.NodeUtilTest,testValidDefineWithNestedOperations,Not Pass
+Closure,95,add_test.java,com.google.javascript.jscomp.TypedScopeCreatorTest,testGlobalQualifiedNameInNestedLocalScope,Not Compilable
+Closure,95,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testQualifiedNameInference6,Not Compilable
+Closure,96,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArguments16_additional1,Not Pass
+Closure,96,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArguments16_additional2,Not Pass
+Closure,96,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionArguments16_additional3,Not Pass
+Closure,97,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldBitShiftsAdditional1,Not Pass
+Closure,97,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldBitShiftsAdditional2,Not Pass
+Closure,97,add_test2.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldBitShiftsAdditional3,Not Pass
+Closure,98,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineAliasesInNestedLoop,Not Pass
+Closure,98,add_test1.java,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineAliasesInWhileLoop,Not Pass
+Closure,99,add_test.java,com.google.javascript.jscomp.CheckGlobalThisTest,testInterfaceWithThisType,Pass
+Closure,99,add_test1.java,com.google.javascript.jscomp.CheckGlobalThisTest,testGetElemPrototypeAssignment,Not Pass
+Closure,99,add_test2.java,com.google.javascript.jscomp.CheckGlobalThisTest,testNestedPrototypeProperty,Pass
+Closure,99,add_test3.java,com.google.javascript.jscomp.CheckGlobalThisTest,testConstructorWithoutAnnotation,Pass
+Closure,100,add_test.java,com.google.javascript.jscomp.CheckGlobalThisTest,testGlobalThisWithoutPropertyAccess,Pass
+Closure,100,add_test1.java,com.google.javascript.jscomp.CheckGlobalThisTest,testInnerFunctionThisWithoutPropertyAccess,Pass
+Closure,100,add_test2.java,com.google.javascript.jscomp.CheckGlobalThisTest,testNestedPropertyAccess,Not Pass
+Closure,101,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testProcessClosurePrimitivesWithRequire,Not Pass
+Closure,101,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testProcessClosurePrimitivesExplicitTrue,Pass
+Closure,102,add_test.java,com.google.javascript.jscomp.CompilerRunnerTest,testIssue115_shadowingInNestedScope,Not Pass
+Closure,102,add_test1.java,com.google.javascript.jscomp.CompilerRunnerTest,testIssue115_multipleShadowing,Not Pass
+Closure,103,add_test.java,com.google.javascript.jscomp.CheckUnreachableCodeTest,testInstanceOfThrowsExceptionNoTry,Pass
+Closure,103,add_test1.java,com.google.javascript.jscomp.ControlFlowAnalysisTest,testInstanceOfInCondition,Pass
+Closure,103,add_test2.java,com.google.javascript.jscomp.CheckUnreachableCodeTest,testInstanceOfNestedThrowsException,Not Pass
+Closure,104,add_test.java,com.google.javascript.rhino.jstype.UnionTypeTest,testGreatestSubtypeUnionTypes6,Pass
+Closure,104,add_test1.java,com.google.javascript.rhino.jstype.UnionTypeTest,testGreatestSubtypeUnionTypes7,Pass
+Closure,105,add_test.java,com.google.javascript.jscomp.FoldConstantsTest,testStringJoinAddEdgeCases,Not Pass
+Closure,106,add_test.java,com.google.javascript.jscomp.CollapsePropertiesTest,testTwinReferenceBlocksGrandchildCollapsing,Not Pass
+Closure,106,add_test1.java,com.google.javascript.jscomp.CollapsePropertiesTest,testNoTwinReferenceAllowsChildCollapsing,Pass
+Closure,106,add_test2.java,com.google.javascript.jscomp.CheckSideEffectsTest,testJSDocBlockComment,Pass
+Closure,107,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testGetMsgWiringNoWarningsSimpleMode,Pass
+Closure,107,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testGetMsgWiringNoWarningsWhitespaceMode,Pass
+Closure,107,add_test2.java,com.google.javascript.jscomp.CommandLineRunnerTest,testGetMsgWiringAdvancedWithTranslationsFile,Not Pass
+Closure,108,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testMultipleAliasesInJSDoc,Not Pass
+Closure,108,add_test1.java,com.google.javascript.jscomp.ScopedAliasesTest,testNestedPropertyInJSDoc,Not Pass
+Closure,109,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testStructuralConstructor4,Not Pass
+Closure,109,add_test1.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testStructuralConstructor5,Not Pass
+Closure,110,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testFunctionDeclarationMultipleSameName,Not Pass
+Closure,110,add_test1.java,com.google.javascript.jscomp.ScopedAliasesTest,testFunctionDeclarationInLoop,Not Pass
+Closure,111,add_test.java,com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest,testGoogIsArrayWithUnknownType,Not Pass
+Closure,111,add_test1.java,com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest,testGoogIsArrayWithCheckedUnknownType,Not Pass
+Closure,112,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testTemplateInferenceWithNoMatchingParameters,Pass
+Closure,112,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testTemplateInferenceWithUnrelatedTemplateParam,Pass
+Closure,113,add_test.java,com.google.javascript.jscomp.VarCheckTest,testNoUndeclaredVarWhenUsingClosurePassWithMultipleRequires,Not Pass
+Closure,113,add_test1.java,com.google.javascript.jscomp.VarCheckTest,testNoUndeclaredVarWithUnrecognizedRequireInExpression,Not Pass
+Closure,114,add_test.java,com.google.javascript.jscomp.NameAnalyzerTest,testAssignWithCallNested,Not Pass
+Closure,114,add_test1.java,com.google.javascript.jscomp.NameAnalyzerTest,testAssignInForLoopInit,Not Pass
+Closure,114,add_test2.java,com.google.javascript.jscomp.NameAnalyzerTest,testAssignInForLoopCondition,Not Pass
+Closure,114,add_test3.java,com.google.javascript.jscomp.NameAnalyzerTest,testAssignInForLoopIncrement,Not Pass
+Closure,115,add_test.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineWithFewerArgsThanParams,Pass
+Closure,115,add_test1.java,com.google.javascript.jscomp.InlineFunctionsTest,testInlineWithMoreArgsThanParams,Pass
+Closure,115,add_test2.java,com.google.javascript.jscomp.InlineFunctionsTest,testNoInlineExtraArgWithSideEffect,Not Pass
+Closure,116,add_test.java,com.google.javascript.jscomp.FunctionInjectorTest,testIssue1101c,Pass
+Closure,116,add_test1.java,com.google.javascript.jscomp.FunctionInjectorTest,testIssue1101d,Pass
+Closure,117,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1047_InheritedProperty,Not Pass
+Closure,117,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1047_NestedProperty,Not Pass
+Closure,118,add_test.java,com.google.javascript.jscomp.DisambiguatePropertiesTest,testMixedQuotedAndUnquotedInObjectLiteral,Not Pass
+Closure,118,add_test1.java,com.google.javascript.jscomp.DisambiguatePropertiesTest,testOnlyQuotedPropertiesInObjectLiteral,Not Pass
+Closure,118,add_test2.java,com.google.javascript.jscomp.DisambiguatePropertiesTest,testThreeTypesWithQuotedProperties,Not Pass
+Closure,119,add_test.java,com.google.javascript.jscomp.CheckGlobalNamesTest,testGlobalCatchWithVar,Not Pass
+Closure,119,add_test1.java,com.google.javascript.jscomp.CheckGlobalNamesTest,testNestedCatchBlocks,Pass
+Closure,120,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testAssignmentInNestedFunction,Not Pass
+Closure,120,add_test1.java,com.google.javascript.jscomp.InlineVariablesTest,testAssignmentInFunctionCalledMultipleTimes,Pass
+Closure,121,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineAliasOfMutableVariable,Pass
+Closure,121,add_test1.java,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineAliasOfReassignedVariable,Pass
+Closure,121,add_test2.java,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineAliasWhenBaseModifiedLater,Pass
+Closure,122,add_test.java,com.google.javascript.jscomp.parsing.ParserTest,testSuspiciousBlockCommentWarning6,Not Compilable
+Closure,122,add_test1.java,com.google.javascript.jscomp.parsing.ParserTest,testSuspiciousBlockCommentWarning7,Not Compilable
+Closure,122,add_test2.java,com.google.javascript.jscomp.parsing.ParserTest,testSuspiciousBlockCommentWarningNegative,Not Compilable
+Closure,123,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testPrintInOperatorInHookExpression,Not Pass
+Closure,123,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testPrintInOperatorInNameInitializer,Not Pass
+Closure,124,add_test.java,com.google.javascript.jscomp.ExploitAssignsTest,testIssue1017_NestedGetProp,Not Pass
+Closure,124,add_test1.java,com.google.javascript.jscomp.ExploitAssignsTest,testIssue1017_DeeplyNested,Not Pass
+Closure,124,add_test2.java,com.google.javascript.jscomp.ExploitAssignsTest,testIssue1017_SingleLevel,Pass
+Closure,125,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testNewWithNoInstanceType,Pass
+Closure,125,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testNewWithUnknownType,Pass
+Closure,125,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testNewWithEmptyType,Not Pass
+Closure,126,add_test.java,com.google.javascript.jscomp.MinimizeExitPointsTest,testDontMinimizeExitsInTryCatchFinally,Not Pass
+Closure,126,add_test1.java,com.google.javascript.jscomp.MinimizeExitPointsTest,testDontMinimizeExitsInTryFinally,Not Pass
+Closure,127,add_test.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testRemoveBreakNotInFinally,Not Pass
+Closure,127,add_test1.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testRemoveContinueNotInFinally,Not Pass
+Closure,127,add_test2.java,com.google.javascript.jscomp.UnreachableCodeEliminationTest,testDontRemoveContinueInNestedFinally,Not Pass
+Closure,128,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testIssue942_SingleDigitZero,Not Pass
+Closure,128,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testIssue942_LeadingZero,Not Pass
+Closure,128,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testIssue942_MultiDigitNumber,Pass
+Closure,129,add_test.java,com.google.javascript.jscomp.IntegrationTest,testCastEvalDirectEval,Pass
+Closure,129,add_test1.java,com.google.javascript.jscomp.IntegrationTest,testNestedCastFunctionCall,Not Pass
+Closure,129,add_test2.java,com.google.javascript.jscomp.IntegrationTest,testCastFreeCall,Pass
+Closure,130,add_test.java,com.google.javascript.jscomp.CollapsePropertiesTest,testArgumentsWithProperties,Not Pass
+Closure,130,add_test1.java,com.google.javascript.jscomp.CollapsePropertiesTest,testNestedFunctionWithArgumentsAlias,Not Pass
+Closure,130,add_test2.java,com.google.javascript.jscomp.CollapsePropertiesTest,testArgumentsAliasWithMultipleRefs,Not Pass
+Closure,131,add_test.java,com.google.javascript.jscomp.ConvertToDottedPropertiesTest,testConvertValidASCIIIdentifiers,Not Compilable
+Closure,131,add_test1.java,com.google.javascript.jscomp.ConvertToDottedPropertiesTest,testDoNotConvertNonASCIIIdentifiers,Not Compilable
+Closure,131,add_test2.java,com.google.javascript.jscomp.ConvertToDottedPropertiesTest,testBoundaryASCIICharacters,Not Compilable
+Closure,131,add_test3.java,com.google.javascript.jscomp.ConvertToDottedPropertiesTest,testControlCharactersInMiddle,Not Compilable
+Closure,132,add_test.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue925_AdditionalCase1,Pass
+Closure,132,add_test1.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue925_AdditionalCase2,Pass
+Closure,132,add_test2.java,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest,testIssue925_AdditionalCase3,Not Pass
+Closure,133,add_test.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testTextExtentsMultiLine,Not Pass
+Closure,133,add_test1.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testTextExtentsWithInlineTag,Not Pass
+Closure,134,add_test.java,com.google.javascript.jscomp.AmbiguatePropertiesTest,testMultipleInterfacesWithSameProperty,Not Pass
+Closure,134,add_test1.java,com.google.javascript.jscomp.AmbiguatePropertiesTest,testImplementsInterfaceWithInheritedProperty,Pass
+Closure,135,add_test.java,com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest,testRewritePrototypeMethodsWithNestedThis,Not Pass
+Closure,135,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testPrototypePropertyDefinition,Pass
+Closure,136,add_test.java,com.google.javascript.jscomp.InlineGettersTest,testIssue2508576_2,Not Compilable
+Closure,136,add_test1.java,com.google.javascript.jscomp.MethodCheckTest,testIndirectMethodDefinition,Not Compilable
+Closure,136,add_test2.java,com.google.javascript.jscomp.RenameVarsTest,testLocalScopeWithExterns,Not Compilable
+Closure,137,add_test.java,com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest,testInversionWithNonNumericSuffix,Not Pass
+Closure,137,add_test1.java,com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest,testInversionFirstDeclarationNoSuffix,Pass
+Closure,138,add_test.java,com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest,testGoogIsStringOnNull,Not Pass
+Closure,138,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue124c,Not Pass
+Closure,139,add_test.java,com.google.javascript.jscomp.NormalizeTest,testRemoveDuplicateVarDeclarationsWithNestedFunctions,Not Pass
+Closure,139,add_test1.java,com.google.javascript.jscomp.NormalizeTest,testMoveFunctionsWithLabelsAndBlocks,Not Pass
+Closure,139,add_test2.java,com.google.javascript.jscomp.NormalizeTest,testFunctionDeclarationRedeclarationEdgeCases,Not Pass
+Closure,140,add_test.java,com.google.javascript.jscomp.CrossModuleCodeMotionTest,testAllEmptyModules,Not Pass
+Closure,140,add_test1.java,com.google.javascript.jscomp.CrossModuleCodeMotionTest,testEmptyModuleWithNonEmptyDependency,Not Pass
+Closure,140,add_test2.java,com.google.javascript.jscomp.CrossModuleCodeMotionTest,testMultipleEmptyModulesInChain,Not Pass
+Closure,141,add_test.java,com.google.javascript.jscomp.ExpresssionDecomposerTest,testCanExposeExpression_AdditionalAnonymousFunction,Not Pass
+Closure,141,add_test1.java,com.google.javascript.jscomp.PureFunctionIdentifierTest,testCallFunctionWithNestedAnonymous,Not Pass
+Closure,142,add_test.java,com.google.javascript.jscomp.CoalesceVariableNamesTest,testParameter5,Not Pass
+Closure,142,add_test1.java,com.google.javascript.jscomp.CoalesceVariableNamesTest,testParameter6,Not Pass
+Closure,142,add_test2.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseLicenseWithMultipleAnnotations,Not Pass
+Closure,142,add_test3.java,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseLicenseWithAnnotationAtStart,Pass
+Closure,143,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testDefineFlag_DoubleQuotedString,Not Pass
+Closure,143,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testDefineFlag_SingleQuoteInsideDoubleQuotes,Not Pass
+Closure,144,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testReturnTypeNonConstructorFunction,Not Pass
+Closure,144,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testReturnTypeArrowFunctionNoReturn,Not Pass
+Closure,144,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testInferredReturnTypeUndefinedForExplicitReturn,Not Pass
+Closure,144,add_test3.java,com.google.javascript.jscomp.LooseTypeCheckTest,testInferredReturnTypeUndefinedForExplicitReturn,Not Pass
+Closure,145,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testNestedBlocksWithDoLoop,Not Pass
+Closure,145,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testNestedBlocksWithFunction,Not Pass
+Closure,145,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testBlockWithMultipleStatementsAndDo,Pass
+Closure,145,add_test3.java,com.google.javascript.jscomp.CodePrinterTest,testLabeledBlockWithDoLoop,Not Pass
+Closure,146,add_test.java,com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest,testEqCondition_NumberAndString,Not Pass
+Closure,146,add_test1.java,com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest,testEqCondition_NullAndVoid,Pass
+Closure,147,add_test.java,com.google.javascript.jscomp.CheckGlobalThisTest,testIssue182c,Not Compilable
+Closure,147,add_test1.java,com.google.javascript.jscomp.RuntimeTypeCheckTest,testValueWithMultipleInnerFns,Not Compilable
+Closure,148,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldTypeofRegex,Pass
+Closure,148,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldTypeofFunction,Pass
+Closure,148,add_test2.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testFoldTypeofName,Pass
+Closure,149,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testCharSetExpansionISO88591,Not Pass
+Closure,151,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testVersionFlagNotSetDoesNotPrintVersion,Not Pass
+Closure,151,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testNoFlagsDoesNotPrintVersion,Pass
+Closure,152,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse4,Not Pass
+Closure,152,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse5,Not Pass
+Closure,152,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testBackwardsTypedefUse6,Not Pass
+Closure,153,add_test.java,com.google.javascript.jscomp.NormalizeTest,testDuplicateVarWithInitializer,Not Pass
+Closure,153,add_test1.java,com.google.javascript.jscomp.NormalizeTest,testDuplicateFunctionDeclaration,Not Pass
+Closure,153,add_test2.java,com.google.javascript.jscomp.NormalizeTest,testMultipleDuplicateVars,Not Pass
+Closure,154,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testInterfaceInheritanceCheck12_AdditionalCase1,Not Pass
+Closure,154,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testInterfaceInheritanceCheck12_AdditionalCase2,Not Pass
+Closure,155,add_test.java,com.google.javascript.jscomp.InlineVariablesTest,testArgumentsModifiedInSiblingFunction,Pass
+Closure,155,add_test1.java,com.google.javascript.jscomp.InlineVariablesTest,testArgumentsNotModified,Pass
+Closure,156,add_test.java,com.google.javascript.jscomp.CollapsePropertiesTest,testFunctionAssignmentWithoutEnum,Not Pass
+Closure,157,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testObjectLitNumericKeysWithDecimals,Not Pass
+Closure,157,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testGetterWithDecimalKey,Not Pass
+Closure,157,add_test2.java,com.google.javascript.jscomp.CodePrinterTest,testSetterWithDecimalKey,Not Pass
+Closure,158,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testWarningGuardOrdering1,Not Compilable
+Closure,158,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testWarningGuardOrdering3,Not Compilable
+Closure,159,add_test.java,com.google.javascript.jscomp.InlineFunctionsTest,testIssue423_AdditionalCase1,Pass
+Closure,159,add_test1.java,com.google.javascript.jscomp.InlineFunctionsTest,testIssue423_AdditionalCase2,Not Pass
+Closure,160,add_test.java,com.google.javascript.jscomp.CommandLineRunnerTest,testCheckSymbolsNotSuppressedWhenWarningSet,Not Pass
+Closure,160,add_test1.java,com.google.javascript.jscomp.CommandLineRunnerTest,testCheckSymbolsSuppressedByDefault,Pass
+Closure,160,add_test2.java,com.google.javascript.jscomp.CommandLineRunnerTest,testCheckSymbolsWithCheckSymbolsOption,Not Pass
+Closure,161,add_test.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testArrayAccessCompoundAssignment,Not Pass
+Closure,161,add_test1.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testArrayAccessIncrementDecrement,Not Pass
+Closure,161,add_test2.java,com.google.javascript.jscomp.PeepholeFoldConstantsTest,testArrayAccessNonAssignment,Pass
+Closure,162,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testAliasDefinitionWithJsDocTypes,Not Pass
+Closure,162,add_test1.java,com.google.javascript.jscomp.ScopedAliasesTest,testMultipleAliasesWithJsDocReferences,Not Pass
+Closure,163,add_test.java,com.google.javascript.jscomp.CrossModuleMethodMotionTest,testIssue600_NestedClosureWithMultipleLevels,Not Pass
+Closure,163,add_test1.java,com.google.javascript.jscomp.CrossModuleMethodMotionTest,testIssue600_ClosureInPrototypeAssignment,Pass
+Closure,164,add_test.java,com.google.javascript.jscomp.LooseTypeCheckTest,testMethodInferenceAdditional1,Not Pass
+Closure,164,add_test1.java,com.google.javascript.rhino.jstype.FunctionTypeTest,testSubtypeWithDifferentRequiredParams,Not Pass
+Closure,165,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue725_conflictingPropertyTypes,Not Pass
+Closure,165,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue725_multiplePropertiesOneDifferent,Not Pass
+Closure,166,add_test.java,com.google.javascript.jscomp.TypeInferenceTest,testUnionWithNullAndRecord,Not Pass
+Closure,166,add_test1.java,com.google.javascript.jscomp.TypeInferenceTest,testUnionWithUndefinedAndRecord,Not Pass
+Closure,166,add_test2.java,com.google.javascript.jscomp.TypeInferenceTest,testUnionWithNumberAndMultipleRecords,Not Pass
+Closure,167,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testMissingProperty21,Not Compilable
+Closure,167,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue783Variation,Not Compilable
+Closure,169,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testFunctionTypeEquivalenceWithUnknownReturn,Not Pass
+Closure,169,add_test1.java,com.google.javascript.rhino.jstype.RecordTypeTest,testSubtypeWithUnknownReturnTypes,Not Pass
+Closure,170,add_test.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssignInsideNestedExpression,Pass
+Closure,170,add_test1.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssignInComplexChain,Pass
+Closure,170,add_test2.java,com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest,testVarAssignInBinaryOps,Pass
+Closure,171,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testObjectLiteralPropertyTypeInference,Pass
+Closure,171,add_test1.java,com.google.javascript.jscomp.TypedScopeCreatorTest,testObjectLiteralWithMultipleProperties,Pass
+Closure,172,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1024_AdditionalCase1,Pass
+Closure,172,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1024_AdditionalCase2,Pass
+Closure,172,add_test2.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1024_AdditionalCase3,Pass
+Closure,173,add_test.java,com.google.javascript.jscomp.CodePrinterTest,testModuloMultiplyPrecedence,Not Pass
+Closure,173,add_test1.java,com.google.javascript.jscomp.CodePrinterTest,testNestedNonAssociativeOps,Pass
+Closure,174,add_test.java,com.google.javascript.jscomp.ScopedAliasesTest,testUninitializedVarWithMultipleDeclarations,Not Pass
+Closure,174,add_test1.java,com.google.javascript.jscomp.ScopedAliasesTest,testMultipleUninitializedVars,Not Pass
+Closure,174,add_test2.java,com.google.javascript.jscomp.ScopedAliasesTest,testUninitializedVarWithJSDocAndLaterAssignment,Not Pass
+Closure,175,add_test.java,com.google.javascript.jscomp.FunctionInjectorTest,testIssue1101c,Pass
+Closure,175,add_test1.java,com.google.javascript.jscomp.InlineFunctionsTest,testNoInlineMutableArgsWithSideEffects,Not Pass
+Closure,176,add_test.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1056_undefined,Not Pass
+Closure,176,add_test1.java,com.google.javascript.jscomp.TypeCheckTest,testIssue1056_functionType,Not Pass

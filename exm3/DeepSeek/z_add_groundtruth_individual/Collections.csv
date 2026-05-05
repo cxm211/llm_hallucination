@@ -1,0 +1,38 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Collections,1,add_test.java,org.apache.commons.collections.map.TestFlat3Map,testEntryIteratorSetValue2Size2,Pass
+Collections,1,add_test1.java,org.apache.commons.collections.map.TestFlat3Map,testMapIteratorSetValue2Size2,Pass
+Collections,2,add_test.java,org.apache.commons.collections.TestExtendedProperties,testLoadISO88591Encoding,Not Compilable
+Collections,2,add_test1.java,org.apache.commons.collections.TestExtendedProperties,testIncludeWithISO88591,Not Compilable
+Collections,3,add_test.java,org.apache.commons.collections.TestCollectionUtils,testRemoveAllWithEmptySecondCollection,Pass
+Collections,3,add_test1.java,org.apache.commons.collections.TestCollectionUtils,testRemoveAllWithDuplicates,Pass
+Collections,6,add_test.java,org.apache.commons.collections.map.TestFlat3Map,testRemoveMiddleAndFirst,Pass
+Collections,6,add_test1.java,org.apache.commons.collections.map.TestFlat3Map,testRemoveNullKey,Pass
+Collections,7,add_test.java,org.apache.commons.collections.TestExtendedProperties,testPutAllWithNonExtendedProperties,Not Compilable
+Collections,7,add_test1.java,org.apache.commons.collections.TestExtendedProperties,testPutAllWithExistingKey,Not Compilable
+Collections,9,add_test.java,org.apache.commons.collections.TestExtendedProperties,testCombineMultipleValues,Not Compilable
+Collections,9,add_test1.java,org.apache.commons.collections.TestExtendedProperties,testCombinePreservesExisting,Not Compilable
+Collections,9,add_test2.java,org.apache.commons.collections.TestExtendedProperties,testCombineMultipleValuesWithBackslashes,Not Compilable
+Collections,11,add_test.java,org.apache.commons.collections.keyvalue.TestMultiKey,testHashCodeOrderSensitivity,Pass
+Collections,11,add_test1.java,org.apache.commons.collections.keyvalue.TestMultiKey,testHashCodeWithNullKeys,Pass
+Collections,12,add_test.java,org.apache.commons.collections.TestExtendedProperties,testCombineOverwrite,Pass
+Collections,12,add_test1.java,org.apache.commons.collections.TestExtendedProperties,testCombineNested,Pass
+Collections,14,add_test.java,org.apache.commons.collections.map.TestCaseInsensitiveMap,testTurkishDotlessI,Pass
+Collections,14,add_test1.java,org.apache.commons.collections.map.TestCaseInsensitiveMap,testNonStringKeyWithLocale,Pass
+Collections,18,add_test.java,org.apache.commons.collections.set.ListOrderedSetTest,testRetainAllPartial,Not Compilable
+Collections,18,add_test1.java,org.apache.commons.collections.set.ListOrderedSetTest,testRetainAllRemovesOrphanedListElements,Not Compilable
+Collections,19,add_test.java,org.apache.commons.collections.list.SetUniqueListTest,testSetSameElementNull,Pass
+Collections,19,add_test1.java,org.apache.commons.collections.list.SetUniqueListTest,testSetEqualButNotSame,Pass
+Collections,20,add_test.java,org.apache.commons.collections.list.TreeListTest,testRemoveAfterPreviousAtBeginning,Pass
+Collections,20,add_test1.java,org.apache.commons.collections.list.TreeListTest,testRemoveAfterPreviousAtEnd,Pass
+Collections,20,add_test2.java,org.apache.commons.collections.list.TreeListTest,testRemoveAfterPreviousSingleElement,Pass
+Collections,20,add_test3.java,org.apache.commons.collections.list.TreeListTest,testRemoveAfterNextThenPrevious,Pass
+Collections,22,add_test.java,org.apache.commons.collections4.map.ListOrderedMapTest,testPutAllExistingKeysAtStart,Not Compilable
+Collections,22,add_test1.java,org.apache.commons.collections4.map.ListOrderedMapTest,testPutAllMixNewAndExisting,Not Compilable
+Collections,25,add_test.java,org.apache.commons.collections4.IteratorUtilsTest,testCollatedIteratorWithNoIterators,Pass
+Collections,25,add_test1.java,org.apache.commons.collections4.IteratorUtilsTest,testCollatedIteratorWithEmptyCollection,Not Compilable
+Collections,26,add_test.java,org.apache.commons.collections4.keyvalue.MultiKeyTest,testEqualsAfterSerializationWithSingleKey,Not Compilable
+Collections,26,add_test1.java,org.apache.commons.collections4.keyvalue.MultiKeyTest,testEqualsAfterSerializationWithNullKeys,Not Compilable
+Collections,27,add_test.java,org.apache.commons.collections4.map.MultiValueMapTest,testUnsafeDeSerializationWithStringBuilder,Pass
+Collections,27,add_test1.java,org.apache.commons.collections4.map.MultiValueMapTest,testUnsafeDeSerializationWithInteger,Pass
+Collections,28,add_test.java,org.apache.commons.collections4.trie.PatriciaTrieTest,testSubMapClear,Not Compilable
+Collections,28,add_test1.java,org.apache.commons.collections4.trie.PatriciaTrieTest,testHeadMapClear,Not Compilable

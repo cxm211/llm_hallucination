@@ -1,0 +1,16 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Codec,1,add_test.java,org.apache.commons.codec.StringEncoderAbstractTest,testCaverphoneLocaleIndependence,Pass
+Codec,1,add_test1.java,org.apache.commons.codec.StringEncoderAbstractTest,testSoundexCleanLocaleIndependence,Pass
+Codec,2,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testBase64ThreeBytesNoLineBreak,Pass
+Codec,2,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testBase64ThreeBytesWithLineBreak,Pass
+Codec,5,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testDecodePartialGroups,Pass
+Codec,5,add_test1.java,org.apache.commons.codec.binary.Base64OutputStreamTest,testDecodePartialGroups,Pass
+Codec,6,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testNonBase64Bytes,Pass
+Codec,6,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testEncodeEOF,Pass
+Codec,8,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testSetInitialBufferWithOffsetDecode,Pass
+Codec,8,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testSetInitialBufferWithOffsetEncode,Pass
+Codec,11,add_test.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testDecodeSoftLineBreakAtStart,Pass
+Codec,11,add_test1.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testEncodeLineLengthLimit,Not Compilable
+Codec,11,add_test2.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testDecodeInvalidHexThrows,Pass
+Codec,14,add_test.java,org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest,testNoRuleMatches,Pass
+Codec,14,add_test1.java,org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest,testApplyFinalRulesMergesLanguages,Not Compilable

@@ -1,0 +1,19 @@
+{
+  "fixed_code": [
+    "public Attribute(String key, String val, Attributes parent) {\n    Validate.notNull(key);\n    String trimmedKey = key.trim();\n    Validate.notEmpty(trimmedKey); // trimming could potentially make empty, so validate here\n    this.key = trimmedKey;\n    this.val = val;\n    this.parent = parent;\n}"
+  ],
+  "additional_testcases": [
+    {
+      "path": "85/input.java",
+      "testcase": "@Test(expected = IllegalArgumentException.class) public void validatesKeysNotEmptyWithTabs() {\n    Attribute attr = new Attribute(\"\\t\\t\", \"Check\");\n}"
+    },
+    {
+      "path": "85/input.java",
+      "testcase": "@Test(expected = IllegalArgumentException.class) public void validatesKeysNotEmptyWithMixedWhitespace() {\n    Attribute attr = new Attribute(\" \\t \\n \", \"Check\");\n}"
+    },
+    {
+      "path": "85/input.java",
+      "testcase": "@Test public void validatesKeysWithLeadingTrailingSpaces() {\n    Attribute attr = new Attribute(\"  key  \", \"value\", null);\n    assertEquals(\"key\", attr.getKey());\n}"
+    }
+  ]
+}

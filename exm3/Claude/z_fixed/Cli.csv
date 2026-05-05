@@ -1,0 +1,38 @@
+project,bug_id,folder,result
+Cli,1,Cli-1-buggy,Pass
+Cli,2,Cli-2-buggy,Not Pass
+Cli,3,Cli-3-buggy,Not Pass
+Cli,4,Cli-4-buggy,Pass
+Cli,5,Cli-5-buggy,Pass
+Cli,8,Cli-8-buggy,Pass
+Cli,9,Cli-9-buggy,Pass
+Cli,10,Cli-10-buggy,Not Compilable
+Cli,11,Cli-11-buggy,Pass
+Cli,12,Cli-12-buggy,Pass
+Cli,13,Cli-13-buggy,Not Pass
+Cli,14,Cli-14-buggy,Pass
+Cli,15,Cli-15-buggy,Pass
+Cli,16,Cli-16-buggy,Not Compilable
+Cli,17,Cli-17-buggy,Pass
+Cli,18,Cli-18-buggy,Pass
+Cli,19,Cli-19-buggy,Not Compilable
+Cli,20,Cli-20-buggy,Not Pass
+Cli,21,Cli-21-buggy,Pass
+Cli,22,Cli-22-buggy,Not Pass
+Cli,23,Cli-23-buggy,Not Pass
+Cli,24,Cli-24-buggy,Not Pass
+Cli,25,Cli-25-buggy,Pass
+Cli,26,Cli-26-buggy,Pass
+Cli,27,Cli-27-buggy,Pass
+Cli,28,Cli-28-buggy,Pass
+Cli,29,Cli-29-buggy,Not Pass
+Cli,30,Cli-30-buggy,Not Pass
+Cli,31,Cli-31-buggy,Not Pass
+Cli,32,Cli-32-buggy,Not Pass
+Cli,33,Cli-33-buggy,Not Pass
+Cli,34,Cli-34-buggy,Pass
+Cli,35,Cli-35-buggy,Pass
+Cli,37,Cli-37-buggy,Not Pass
+Cli,38,Cli-38-buggy,Not Pass
+Cli,39,Cli-39-buggy,Not Compilable
+Cli,40,Cli-40-buggy,Pass

@@ -1,0 +1,19 @@
+project,bug_id,folder,jacoco_xml,error
+Csv,10,Csv-10-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-buggy/jacoco.xml,Missing jacoco.xml
+Csv,10,Csv-10-buggy_ind1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-buggy_ind1/jacoco.xml,Missing jacoco.xml
+Csv,10,Csv-10-buggy_ind2,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-10-buggy_ind2/jacoco.xml,Missing jacoco.xml
+Csv,16,Csv-16-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-buggy/jacoco.xml,Missing jacoco.xml
+Csv,16,Csv-16-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-buggy/jacoco.xml,Missing jacoco.xml
+Csv,16,Csv-16-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-16-buggy/jacoco.xml,Missing jacoco.xml
+Csv,2,Csv-2-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-buggy/jacoco.xml,Missing jacoco.xml
+Csv,2,Csv-2-buggy_ind1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-buggy_ind1/jacoco.xml,Missing jacoco.xml
+Csv,2,Csv-2-buggy_ind2,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-2-buggy_ind2/jacoco.xml,Missing jacoco.xml
+Csv,3,Csv-3-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-buggy/jacoco.xml,Missing jacoco.xml
+Csv,5,Csv-5-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-5-buggy/jacoco.xml,Missing jacoco.xml
+Csv,8,Csv-8-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy/jacoco.xml,Missing jacoco.xml
+Csv,8,Csv-8-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy/jacoco.xml,Missing jacoco.xml
+Csv,8,Csv-8-buggy_ind1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy_ind1/jacoco.xml,Missing jacoco.xml
+Csv,8,Csv-8-buggy_ind1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy_ind1/jacoco.xml,Missing jacoco.xml
+Csv,8,Csv-8-buggy_ind2,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy_ind2/jacoco.xml,Missing jacoco.xml
+Csv,8,Csv-8-buggy_ind2,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy_ind2/jacoco.xml,Missing jacoco.xml
+Csv,9,Csv-9-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-9-buggy/jacoco.xml,Missing jacoco.xml

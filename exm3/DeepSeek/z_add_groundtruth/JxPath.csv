@@ -1,0 +1,35 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JxPath,1,add_test.java,org.apache.commons.jxpath.ri.model.dom.DOMModelTest,testNodeTypeTests,Not Compilable
+JxPath,1,add_test1.java,org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest,testNodeTypeTests,Not Compilable
+JxPath,2,add_test.java,org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest,testNullReturn,Not Compilable
+JxPath,2,add_test1.java,org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest,testSimpleValueReturnNoCurrentNode,Not Compilable
+JxPath,3,add_test.java,org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest,testBadFactoryImplementationAttribute,Not Compilable
+JxPath,3,add_test1.java,org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest,testBadFactoryImplementationWithValue,Not Compilable
+JxPath,3,add_test2.java,org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest,testBadFactoryImplementationAttributeWithValue,Not Compilable
+JxPath,4,add_test.java,org.apache.commons.jxpath.ri.model.XMLSpaceTest,testCommentPreserveDOM,Pass
+JxPath,4,add_test1.java,org.apache.commons.jxpath.ri.model.XMLSpaceTest,testCommentPreserveJDOM,Pass
+JxPath,5,add_test.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testCompareSiblingNodePointers,Pass
+JxPath,5,add_test1.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testCompareAncestorDescendant,Pass
+JxPath,5,add_test2.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testCompareDifferentTrees,Pass
+JxPath,6,add_test.java,org.apache.commons.jxpath.ri.compiler.VariableTest,testIterateVariable,Not Compilable
+JxPath,7,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testNodeSetOperationsRelational,Pass
+JxPath,8,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testNanBothSides,Pass
+JxPath,9,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testComparisons,Pass
+JxPath,10,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreOperationTest,testEmptyNodeSetOperationsAdditional,Pass
+JxPath,11,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testAttributeNamespaceFromContext,Not Compilable
+JxPath,12,add_test.java,org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest,testAttributeNameTestDOM,Not Compilable
+JxPath,12,add_test1.java,org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest,testNodeNodeTestDOM,Not Compilable
+JxPath,13,add_test.java,org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest,testGetPrefixWithUpdatedNamespace,Not Compilable
+JxPath,14,add_test.java,org.apache.commons.jxpath.ri.compiler.CoreFunctionTest,testCoreFunctionsRoundSpecial,Pass
+JxPath,15,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testUnionOrdering,Pass
+JxPath,16,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testNodeTestOnCommentAndPI,Not Compilable
+JxPath,17,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testAxisAttributeNamespaceURI,Pass
+JxPath,18,add_test.java,org.apache.commons.jxpath.ri.model.XMLModelTestCase,testAxisAttributeWildcardSecondLocation,Pass
+JxPath,19,add_test.java,org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest,testGetRelativePositionByQNameDOM,Not Compilable
+JxPath,19,add_test1.java,org.apache.commons.jxpath.ri.model.AliasedNamespaceIterationTest,testGetRelativePositionByQNameJDOM,Not Compilable
+JxPath,20,add_test.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testVariableComparison,Not Compilable
+JxPath,20,add_test1.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testVariableCollectionComparison,Not Compilable
+JxPath,20,add_test2.java,org.apache.commons.jxpath.ri.compiler.JXPath149Test,testVariableCollectionRightSide,Not Compilable
+JxPath,21,add_test.java,org.apache.commons.jxpath.ri.model.MixedModelTest,testGetLengthForNull,Pass
+JxPath,22,add_test.java,org.apache.commons.jxpath.ri.model.JXPath154Test,testGetNamespaceURI_DocumentNoRoot,Not Compilable
+JxPath,22,add_test1.java,org.apache.commons.jxpath.ri.model.JXPath154Test,testGetNamespaceURI_AttributeWithPrefix,Not Compilable

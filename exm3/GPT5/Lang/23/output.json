@@ -1,0 +1,6 @@
+{
+  "fixed_code": [
+    "public void setFormatsByArgumentIndex(Format[] newFormats) {\n        if (newFormats == null) {\n            throw new NullPointerException(\"newFormats\");\n        }\n        for (int i = 0; i < newFormats.length; i++) {\n            super.setFormatByArgumentIndex(i, newFormats[i]);\n        }\n    }"
+  ],
+  "additional_testcases": []
+}

@@ -1,0 +1,20 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Collections,3,add_test.java,org.apache.commons.collections.TestCollectionUtils,testRemoveAllWithDuplicates,Not Pass
+Collections,4,add_test.java,org.apache.commons.collections.map.TestMultiValueMap,testPutWithSet,Not Pass
+Collections,5,add_test.java,org.apache.commons.collections.list.TestSetUniqueList,testIntCollectionAddAll,Not Pass
+Collections,6,add_test.java,org.apache.commons.collections.map.TestFlat3Map,testCollections261_NullKeyRemovals,Not Pass
+Collections,9,add_test.java,org.apache.commons.collections.TestExtendedProperties,testCombineProcessedWithoutPreRead,Not Pass
+Collections,11,add_test.java,org.apache.commons.collections.keyvalue.TestMultiKey,testHashCodeWithNullPositionDifference,Not Compilable
+Collections,13,add_test.java,org.apache.commons.collections.TestExtendedProperties,testCollections299_overrideNonStringIgnoresDefaultString,Not Pass
+Collections,14,add_test.java,org.apache.commons.collections.map.TestCaseInsensitiveMap,testLocaleIndependence,Not Pass
+Collections,15,add_test.java,org.apache.commons.collections.list.TestSetUniqueList,testSetReplacesWithExistingElementAndUpdatesSet,Pass
+Collections,17,add_test.java,org.apache.commons.collections.functors.TestEqualPredicate,constructorUsesEqualsForTest,Not Pass
+Collections,18,add_test.java,org.apache.commons.collections.set.ListOrderedSetTest,testRetainAllCollectionsSameElements,Not Pass
+Collections,19,add_test.java,org.apache.commons.collections.list.SetUniqueListTest,testSetSameIndexEqualButDifferentInstance,Not Pass
+Collections,20,add_test.java,org.apache.commons.collections.list.TreeListTest,testRemoveAfterPreviousThenNext,Pass
+Collections,21,add_test.java,org.apache.commons.collections4.list.SetUniqueListTest,testSubListIsUnmodifiable,Not Pass
+Collections,22,add_test.java,org.apache.commons.collections4.map.ListOrderedMapTest,testPutAll_existingNullThenNewAtEnd,Not Pass
+Collections,23,add_test.java,org.apache.commons.collections4.TrieUtilsTest,testUnmodifiableTrieWithAlreadyUnmodifiableFromOtherFactory,Not Pass
+Collections,24,add_test.java,org.apache.commons.collections4.collection.UnmodifiableBoundedCollectionTest,testDecorateFactoryWithUnmodifiableButNotWrapper,Not Compilable
+Collections,27,add_test.java,org.apache.commons.collections4.map.MultiValueMapTest,testUnsafeDeSerialization,Not Pass
+Collections,28,add_test.java,org.apache.commons.collections4.trie.PatriciaTrieTest,testPrefixMapClear,Not Compilable

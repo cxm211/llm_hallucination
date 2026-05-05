@@ -1,0 +1,82 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Math,1,add_test.java,org.apache.commons.math3.fraction.BigFractionTest,testDigitLimitConstructorNegativeOverflow,Pass
+Math,3,add_test.java,org.apache.commons.math3.util.MathArraysTest,testLinearCombinationWithEmptyArray,Not Pass
+Math,4,add_test.java,org.apache.commons.math3.geometry.euclidean.threed.SubLineTest,testIntersectionColinearDisjoint,Pass
+Math,6,add_test.java,org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest,testIterationsUpdatedPowell,Not Pass
+Math,7,add_test.java,org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest,testEventsSchedulingBackward,Not Pass
+Math,8,add_test.java,org.apache.commons.math3.distribution.DiscreteRealDistributionTest,testIssue942,Not Pass
+Math,9,add_test.java,org.apache.commons.math3.geometry.euclidean.threed.LineTest,testDoubleRevert,Not Pass
+Math,10,add_test.java,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testAtan2InfinityCases,Not Pass
+Math,11,add_test.java,org.apache.commons.math3.distribution.MultivariateNormalDistributionTest,testThreeDimensionalStandardAtMean,Not Pass
+Math,13,add_test.java,org.apache.commons.math3.optimization.fitting.PolynomialFitterTest,testLargeSample,Not Pass
+Math,15,add_test.java,org.apache.commons.math3.util.FastMathTest,testMath904_additionalOddLarge,Not Pass
+Math,17,add_test.java,org.apache.commons.math3.dfp.DfpTest,testMultiply,Not Compilable
+Math,18,add_test.java,org.apache.commons.math3.optimization.direct.CMAESOptimizerTest,testZeroRangeBound,Not Pass
+Math,19,add_test.java,org.apache.commons.math3.optimization.direct.CMAESOptimizerTest,testBoundaryRangeTooLargeMixedDimensions,Pass
+Math,20,add_test.java,org.apache.commons.math3.optimization.direct.CMAESOptimizerTest,testLowerBoundRepair,Not Pass
+Math,21,add_test.java,org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest,testSemidefiniteRank,Not Pass
+Math,23,add_test.java,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testKeepInitIfBestMaximize,Not Pass
+Math,24,add_test.java,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testConvergenceCheckerReturnsBestPoint,Not Pass
+Math,25,add_test.java,org.apache.commons.math3.optimization.fitting.HarmonicFitterTest,testMath844DegenerateTwoPoints,Pass
+Math,26,add_test.java,org.apache.commons.math3.fraction.FractionTest,testIntegerOverflow2,Not Pass
+Math,27,add_test.java,org.apache.commons.math3.fraction.FractionTest,testMath835Negative,Not Pass
+Math,29,add_test.java,org.apache.commons.math3.linear.RealVectorAbstractTest,testEbeDivideZeroByZero,Pass
+Math,29,add_test1.java,org.apache.commons.math3.linear.RealVectorAbstractTest,testEbeMultiplyZeroWithSpecialValues,Pass
+Math,31,add_test.java,org.apache.commons.math3.distribution.FDistributionTest,testCdfAtOneLargeDof,Not Pass
+Math,34,add_test.java,org.apache.commons.math3.genetics.ListPopulationTest,testIterator,Not Pass
+Math,36,add_test.java,org.apache.commons.math.fraction.BigFractionTest,testDoubleValueForPowerOfTwoRatio,Pass
+Math,37,add_test.java,org.apache.commons.math.complex.ComplexTest,testTan,Not Compilable
+Math,39,add_test.java,org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest,testTooLargeFirstStep,Not Pass
+Math,40,add_test.java,org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest,testIssue716,Not Pass
+Math,41,add_test.java,org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest,testEvaluateArraySegmentWeightedAdditional,Pass
+Math,44,add_test.java,org.apache.commons.math.ode.events.EventStateTest,testIssue695,Not Pass
+Math,45,add_test.java,org.apache.commons.math.linear.OpenMapRealMatrixTest,testOverflowByRows,Not Compilable
+Math,46,add_test.java,org.apache.commons.math.complex.ComplexTest,testDivideZero,Not Pass
+Math,47,add_test.java,org.apache.commons.math.complex.ComplexTest,testDivideZero,Not Pass
+Math,48,add_test.java,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testIssue631LeftSide,Not Compilable
+Math,53,add_test.java,org.apache.commons.math.complex.ComplexTest,testAddNaNRealPart,Not Pass
+Math,54,add_test.java,org.apache.commons.math.dfp.DfpTest,testSignedZeroUnderflow,Not Compilable
+Math,55,add_test.java,org.apache.commons.math.geometry.Vector3DTest,testCrossProductOverflowPrevention,Not Pass
+Math,56,add_test.java,org.apache.commons.math.util.MultidimensionalCounterTest,testOneDimensionalCounts,Not Pass
+Math,57,add_test.java,org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest,testTwoSmallDistanceUniques,Not Pass
+Math,58,add_test.java,org.apache.commons.math.optimization.fitting.GaussianFitterTest,testMath519Variant,Not Pass
+Math,59,add_test.java,org.apache.commons.math.util.FastMathTest,testMinMaxFloat,Not Pass
+Math,60,add_test.java,org.apache.commons.math.distribution.NormalDistributionTest,testNaNInput,Pass
+Math,61,add_test.java,org.apache.commons.math.distribution.PoissonDistributionTest,testConstructorEpsilonMaxItersNegativeMean,Not Pass
+Math,62,add_test.java,org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizerTest,testQuinticMinWithStartValue,Not Pass
+Math,63,add_test.java,org.apache.commons.math.util.MathUtilsTest,testDoubleEqualsNaN,Not Pass
+Math,65,add_test.java,org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest,testRMSAndChiSquareWeighting,Not Pass
+Math,66,add_test.java,org.apache.commons.math.optimization.univariate.BrentOptimizerTest,testSinMax,Not Pass
+Math,67,add_test.java,org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest,testQuinticMax,Not Pass
+Math,69,add_test.java,org.apache.commons.math.stat.correlation.PearsonsCorrelationTest,testNegativeCorrelationPValueNearZero,Not Pass
+Math,70,add_test.java,org.apache.commons.math.analysis.solvers.BisectionSolverTest,testInitialValueDelegation,Not Compilable
+Math,71,add_test.java,org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest,testStartEventImmediate,Not Pass
+Math,71,add_test1.java,org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest,testStartEventImmediate,Not Pass
+Math,73,add_test.java,org.apache.commons.math.analysis.solvers.BrentSolverTest,testEndpointIsRootMin,Not Pass
+Math,74,add_test.java,org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest,polynomial,Not Compilable
+Math,76,add_test.java,org.apache.commons.math.linear.SingularValueSolverTest,testMath320C_RectangularWide,Not Pass
+Math,77,add_test.java,org.apache.commons.math.linear.ArrayRealVectorTest,testGetLInfNormNegativeOnly,Not Pass
+Math,79,add_test.java,org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest,testDistanceOverflow,Not Compilable
+Math,81,add_test.java,org.apache.commons.math.linear.EigenDecompositionImplTest,testSmallTridiagonalUpperSpectraLastIndex,Pass
+Math,83,add_test.java,org.apache.commons.math.optimization.linear.SimplexSolverTest,testMath286_variantMaxSum,Pass
+Math,84,add_test.java,org.apache.commons.math.optimization.direct.MultiDirectionalTest,testMath283,Not Pass
+Math,85,add_test.java,org.apache.commons.math.distribution.NormalDistributionTest,testMath280,Not Compilable
+Math,86,add_test.java,org.apache.commons.math.linear.CholeskyDecompositionImplTest,testNotPositiveDefiniteImmediate,Not Compilable
+Math,87,add_test.java,org.apache.commons.math.optimization.linear.SimplexSolverTest,testSingleVariableAndConstraint,Not Pass
+Math,89,add_test.java,org.apache.commons.math.stat.FrequencyTest,testAddNonComparable,Not Pass
+Math,90,add_test.java,org.apache.commons.math.stat.FrequencyTest,testAddNonComparableAfterString,Not Pass
+Math,91,add_test.java,org.apache.commons.math.fraction.FractionTest,testCompareTo,Not Compilable
+Math,93,add_test.java,org.apache.commons.math.util.MathUtilsTest,testFactorialOverflow,Pass
+Math,94,add_test.java,org.apache.commons.math.util.MathUtilsTest,testGcd,Not Compilable
+Math,95,add_test.java,org.apache.commons.math.distribution.FDistributionTest,testSmallDegreesOfFreedomDifferentParams,Not Pass
+Math,96,add_test.java,org.apache.commons.math.complex.ComplexTest,testSignedZeroEquality,Not Pass
+Math,97,add_test.java,org.apache.commons.math.analysis.BrentSolverTest,testBothEndpointsAreRoots,Not Pass
+Math,98,add_test.java,org.apache.commons.math.linear.BigMatrixImplTest,testMath209,Not Pass
+Math,98,add_test1.java,org.apache.commons.math.linear.RealMatrixImplTest,testMath209,Not Pass
+Math,99,add_test.java,org.apache.commons.math.util.MathUtilsTest,testLcm,Not Pass
+Math,100,add_test.java,org.apache.commons.math.estimation.GaussNewtonEstimatorTest,testGuessParametersErrorsWithResiduals,Not Pass
+Math,101,add_test.java,org.apache.commons.math.complex.ComplexFormatAbstractTest,testForgottenImaginaryCharacter,Pass
+Math,102,add_test.java,org.apache.commons.math.stat.inference.ChiSquareTestTest,testChiSquare,Not Compilable
+Math,103,add_test.java,org.apache.commons.math.distribution.NormalDistributionTest,testExtremeValues,Not Compilable
+Math,105,add_test.java,org.apache.commons.math.stat.regression.SimpleRegressionTest,testSSENonNegativeScaled,Pass
+Math,106,add_test.java,org.apache.commons.math.fraction.FractionFormatTest,testParseProperInvalidMinusNoSlash,Not Pass

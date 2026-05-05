@@ -1,0 +1,15 @@
+{
+  "fixed_code": [
+    "public void setFormatsByArgumentIndex(Format[] newFormats) {\n    for (int i = 0; i < newFormats.length; i++) {\n        super.setFormatByArgumentIndex(i, newFormats[i]);\n    }\n}"
+  ],
+  "additional_testcases": [
+    {
+      "path": "23/input.java",
+      "testcase": "public void testSetFormatsByArgumentIndex() {\n    ExtendedMessageFormat emf = new ExtendedMessageFormat(\"{0} {1}\", Locale.US);\n    Format[] formats = new Format[] { NumberFormat.getInstance(), DateFormat.getInstance() };\n    try {\n        emf.setFormatsByArgumentIndex(formats);\n        Format[] retrievedFormats = emf.getFormatsByArgumentIndex();\n        assertNotNull(\"Formats should be set\", retrievedFormats);\n        assertEquals(\"Number of formats should match\", formats.length, retrievedFormats.length);\n        for (int i = 0; i < formats.length; i++) {\n            assertEquals(\"Format at index \" + i + \" should match\", formats[i], retrievedFormats[i]);\n        }\n    } catch (UnsupportedOperationException e) {\n        fail(\"setFormatsByArgumentIndex should be supported\");\n    }\n}"
+    },
+    {
+      "path": "23/input.java",
+      "testcase": "public void testSetFormatsByArgumentIndexEmpty() {\n    ExtendedMessageFormat emf = new ExtendedMessageFormat(\"{0}\", Locale.US);\n    Format[] emptyFormats = new Format[] {};\n    try {\n        emf.setFormatsByArgumentIndex(emptyFormats);\n        Format[] retrievedFormats = emf.getFormatsByArgumentIndex();\n        assertTrue(\"Empty formats should be handled\", retrievedFormats == null || retrievedFormats.length == 0);\n    } catch (UnsupportedOperationException e) {\n        fail(\"setFormatsByArgumentIndex should support empty array\");\n    }\n}"
+    }
+  ]
+}

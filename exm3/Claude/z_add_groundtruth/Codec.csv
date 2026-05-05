@@ -1,0 +1,38 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Codec,1,add_test.java,org.apache.commons.codec.StringEncoderAbstractTest,testLocaleIndependenceTurkishUpperCase,Pass
+Codec,2,add_test.java,org.apache.commons.codec.binary.Base64OutputStreamTest,testBase64SingleByteOutputStream,Pass
+Codec,2,add_test1.java,org.apache.commons.codec.binary.Base64OutputStreamTest,testBase64TwoBytesOutputStream,Pass
+Codec,3,add_test.java,org.apache.commons.codec.language.DoubleMetaphone2Test,testDoubleMetaphoneAlternateOGGR,Not Compilable
+Codec,3,add_test1.java,org.apache.commons.codec.language.DoubleMetaphone2Test,testDoubleMetaphoneAlternateAGGR,Not Compilable
+Codec,4,add_test.java,org.apache.commons.codec.binary.Base64Codec13Test,testBase64ConstructorDefaultsToNoLineBreaks,Pass
+Codec,4,add_test1.java,org.apache.commons.codec.binary.Base64Codec13Test,testBase64DefaultConstructorChunking,Pass
+Codec,5,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testModulus2EOF,Pass
+Codec,5,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testModulus3EOF,Pass
+Codec,5,add_test2.java,org.apache.commons.codec.binary.Base64OutputStreamTest,testEmptyBufferWithPadding,Pass
+Codec,6,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testCodec101WithOffset,Pass
+Codec,6,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testCodec101WithNonZeroOffsetAndFullLength,Pass
+Codec,7,add_test.java,org.apache.commons.codec.binary.Base64Test,testEncodeBase64StringWithNullInput,Pass
+Codec,7,add_test1.java,org.apache.commons.codec.binary.Base64Test,testEncodeBase64StringWithSingleByte,Pass
+Codec,7,add_test2.java,org.apache.commons.codec.binary.Base64Test,testEncodeBase64StringWithBinaryData,Pass
+Codec,8,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testReadWithBufferLargerThanLength,Not Compilable
+Codec,8,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testReadWithBufferExactlyEqualToLength,Not Compilable
+Codec,8,add_test2.java,org.apache.commons.codec.binary.Base64InputStreamTest,testReadWithOffsetAndLargerBuffer,Not Compilable
+Codec,9,add_test.java,org.apache.commons.codec.binary.Base64Test,testCodec112_UrlSafe,Not Compilable
+Codec,9,add_test1.java,org.apache.commons.codec.binary.Base64Test,testCodec112_Chunked,Not Compilable
+Codec,9,add_test2.java,org.apache.commons.codec.binary.Base64Test,testCodec112_LargerInput,Not Compilable
+Codec,10,add_test.java,org.apache.commons.codec.language.CaverphoneTest,testMbInMiddle,Pass
+Codec,10,add_test1.java,org.apache.commons.codec.language.CaverphoneTest,testMbAtStart,Pass
+Codec,11,add_test.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testLongLineWithoutSpecialChars,Not Compilable
+Codec,11,add_test1.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testMultipleConsecutiveSpecialChars,Not Compilable
+Codec,11,add_test2.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testOnlyWhitespace,Not Compilable
+Codec,12,add_test.java,org.apache.commons.codec.binary.Base32InputStreamTest,testMarkSupported,Not Compilable
+Codec,12,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testMarkSupported,Not Compilable
+Codec,14,add_test.java,org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest,testFinalRulesWithMultipleLanguageSets,Pass
+Codec,14,add_test1.java,org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest,testFinalRulesEmptyCase,Pass
+Codec,15,add_test.java,org.apache.commons.codec.language.SoundexTest,testHWRuleEx2,Not Compilable
+Codec,15,add_test1.java,org.apache.commons.codec.language.SoundexTest,testHWRuleEx3,Not Compilable
+Codec,17,add_test.java,org.apache.commons.codec.binary.StringUtilsTest,testNewStringIso8859_1WithEmptyBytes,Pass
+Codec,17,add_test1.java,org.apache.commons.codec.binary.StringUtilsTest,testNewStringIso8859_1WithValidBytes,Pass
+Codec,17,add_test2.java,org.apache.commons.codec.binary.StringUtilsTest,testNewStringIso8859_1WithExtendedCharacters,Pass
+Codec,18,add_test.java,org.apache.commons.codec.binary.StringUtilsTest,testEqualsCS3,Pass
+Codec,18,add_test1.java,org.apache.commons.codec.binary.StringUtilsTest,testEqualsCS4,Pass

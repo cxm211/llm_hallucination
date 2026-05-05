@@ -1,0 +1,139 @@
+project,bug_id,folder,class_entry,file,method_sig_snippet,fixed_method_start_line,fixed_method_end_line
+Chart,1,Chart-1-buggy,org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,public LegendItemCollection getLegendItems() {,1790,1822
+Chart,1,Chart-1-buggy_ind1,org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,public LegendItemCollection getLegendItems() {,1790,1822
+Chart,1,Chart-1-buggy_ind2,org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java,public LegendItemCollection getLegendItems() {,1790,1822
+Chart,10,Chart-10-buggy,org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator,org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,public String generateToolTipFragment(String toolTipText) {,64,67
+Chart,10,Chart-10-buggy_ind1,org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator,org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,public String generateToolTipFragment(String toolTipText) {,64,67
+Chart,10,Chart-10-buggy_ind2,org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator,org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,public String generateToolTipFragment(String toolTipText) {,64,67
+Chart,10,Chart-10-buggy_ind3,org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator,org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,public String generateToolTipFragment(String toolTipText) {,64,67
+Chart,10,Chart-10-buggy_ind4,org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator,org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,public String generateToolTipFragment(String toolTipText) {,64,67
+Chart,11,Chart-11-buggy,org.jfree.chart.util.ShapeUtilities,org/jfree/chart/util/ShapeUtilities.java,"public static boolean equal(GeneralPath p1, GeneralPath p2) {",264,296
+Chart,11,Chart-11-buggy_ind1,org.jfree.chart.util.ShapeUtilities,org/jfree/chart/util/ShapeUtilities.java,"public static boolean equal(GeneralPath p1, GeneralPath p2) {",264,296
+Chart,11,Chart-11-buggy_ind2,org.jfree.chart.util.ShapeUtilities,org/jfree/chart/util/ShapeUtilities.java,"public static boolean equal(GeneralPath p1, GeneralPath p2) {",264,296
+Chart,11,Chart-11-buggy_ind3,org.jfree.chart.util.ShapeUtilities,org/jfree/chart/util/ShapeUtilities.java,"public static boolean equal(GeneralPath p1, GeneralPath p2) {",264,296
+Chart,11,Chart-11-buggy_ind4,org.jfree.chart.util.ShapeUtilities,org/jfree/chart/util/ShapeUtilities.java,"public static boolean equal(GeneralPath p1, GeneralPath p2) {",264,296
+Chart,12,Chart-12-buggy,org.jfree.chart.plot.MultiplePiePlot,org/jfree/chart/plot/MultiplePiePlot.java,public MultiplePiePlot(CategoryDataset dataset) {,143,161
+Chart,12,Chart-12-buggy_ind1,org.jfree.chart.plot.MultiplePiePlot,org/jfree/chart/plot/MultiplePiePlot.java,public MultiplePiePlot(CategoryDataset dataset) {,143,161
+Chart,12,Chart-12-buggy_ind2,org.jfree.chart.plot.MultiplePiePlot,org/jfree/chart/plot/MultiplePiePlot.java,public MultiplePiePlot(CategoryDataset dataset) {,143,161
+Chart,13,Chart-13-buggy,org.jfree.chart.block.BorderArrangement,org/jfree/chart/block/BorderArrangement.java,"protected Size2D arrangeFF(BlockContainer container, Graphics2D g2, RectangleConstraint constraint) {",422,586
+Chart,14,Chart-14-buggy,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,"public boolean removeDomainMarker(int index, Marker marker, Layer layer, boolean notify) {",2155,2177
+Chart,14,Chart-14-buggy,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,"public boolean removeRangeMarker(int index, Marker marker, Layer layer, boolean notify) {",2440,2462
+Chart,14,Chart-14-buggy,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,"public boolean removeDomainMarker(int index, Marker marker, Layer layer, boolean notify) {",2282,2304
+Chart,14,Chart-14-buggy,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,"public boolean removeRangeMarker(int index, Marker marker, Layer layer, boolean notify) {",2521,2543
+Chart,14,Chart-14-buggy_ind1,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,"public boolean removeDomainMarker(int index, Marker marker, Layer layer, boolean notify) {",2155,2177
+Chart,14,Chart-14-buggy_ind1,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,"public boolean removeRangeMarker(int index, Marker marker, Layer layer, boolean notify) {",2440,2462
+Chart,14,Chart-14-buggy_ind1,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,"public boolean removeDomainMarker(int index, Marker marker, Layer layer, boolean notify) {",2282,2304
+Chart,14,Chart-14-buggy_ind1,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,"public boolean removeRangeMarker(int index, Marker marker, Layer layer, boolean notify) {",2521,2543
+Chart,14,Chart-14-buggy_ind2,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,"public boolean removeDomainMarker(int index, Marker marker, Layer layer, boolean notify) {",2155,2177
+Chart,14,Chart-14-buggy_ind2,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,"public boolean removeRangeMarker(int index, Marker marker, Layer layer, boolean notify) {",2440,2462
+Chart,14,Chart-14-buggy_ind2,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,"public boolean removeDomainMarker(int index, Marker marker, Layer layer, boolean notify) {",2282,2304
+Chart,14,Chart-14-buggy_ind2,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,"public boolean removeRangeMarker(int index, Marker marker, Layer layer, boolean notify) {",2521,2543
+Chart,15,Chart-15-buggy,org.jfree.chart.plot.PiePlot,org/jfree/chart/plot/PiePlot.java,public double getMaximumExplodePercent() {,1377,1392
+Chart,15,Chart-15-buggy,org.jfree.chart.plot.PiePlot,org/jfree/chart/plot/PiePlot.java,"public PiePlotState initialise(Graphics2D g2, Rectangle2D plotArea, PiePlot plot, Integer index, PlotRenderingInfo info) {",2050,2066
+Chart,15,Chart-15-buggy_ind1,org.jfree.chart.plot.PiePlot,org/jfree/chart/plot/PiePlot.java,public double getMaximumExplodePercent() {,1377,1392
+Chart,15,Chart-15-buggy_ind1,org.jfree.chart.plot.PiePlot,org/jfree/chart/plot/PiePlot.java,"public PiePlotState initialise(Graphics2D g2, Rectangle2D plotArea, PiePlot plot, Integer index, PlotRenderingInfo info) {",2050,2066
+Chart,15,Chart-15-buggy_ind2,org.jfree.chart.plot.PiePlot,org/jfree/chart/plot/PiePlot.java,public double getMaximumExplodePercent() {,1377,1392
+Chart,15,Chart-15-buggy_ind2,org.jfree.chart.plot.PiePlot,org/jfree/chart/plot/PiePlot.java,"public PiePlotState initialise(Graphics2D g2, Rectangle2D plotArea, PiePlot plot, Integer index, PlotRenderingInfo info) {",2050,2066
+Chart,16,Chart-16-buggy,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,16,Chart-16-buggy_ind1,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy_ind1,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,16,Chart-16-buggy_ind2,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy_ind2,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,16,Chart-16-buggy_ind3,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy_ind3,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,16,Chart-16-buggy_ind4,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy_ind4,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,16,Chart-16-buggy_ind5,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy_ind5,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,16,Chart-16-buggy_ind6,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,"public DefaultIntervalCategoryDataset(Comparable[] seriesKeys, Comparable[] categoryKeys, Number[][] starts, Number[][] ends) {",142,212
+Chart,16,Chart-16-buggy_ind6,org.jfree.data.category.DefaultIntervalCategoryDataset,org/jfree/data/category/DefaultIntervalCategoryDataset.java,public void setCategoryKeys(Comparable[] categoryKeys) {,334,355
+Chart,17,Chart-17-buggy,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,public Object clone() throws CloneNotSupportedException {,856,862
+Chart,17,Chart-17-buggy_ind1,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,public Object clone() throws CloneNotSupportedException {,856,862
+Chart,17,Chart-17-buggy_ind2,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,public Object clone() throws CloneNotSupportedException {,856,862
+Chart,18,Chart-18-buggy,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(int index) {,315,319
+Chart,18,Chart-18-buggy,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(Comparable key) {,330,336
+Chart,18,Chart-18-buggy,org.jfree.data.DefaultKeyedValues2D,org/jfree/data/DefaultKeyedValues2D.java,public void removeColumn(Comparable columnKey) {,454,461
+Chart,18,Chart-18-buggy_ind1,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(int index) {,315,319
+Chart,18,Chart-18-buggy_ind1,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(Comparable key) {,330,336
+Chart,18,Chart-18-buggy_ind1,org.jfree.data.DefaultKeyedValues2D,org/jfree/data/DefaultKeyedValues2D.java,public void removeColumn(Comparable columnKey) {,454,461
+Chart,18,Chart-18-buggy_ind2,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(int index) {,315,319
+Chart,18,Chart-18-buggy_ind2,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(Comparable key) {,330,336
+Chart,18,Chart-18-buggy_ind2,org.jfree.data.DefaultKeyedValues2D,org/jfree/data/DefaultKeyedValues2D.java,public void removeColumn(Comparable columnKey) {,454,461
+Chart,18,Chart-18-buggy_ind3,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(int index) {,315,319
+Chart,18,Chart-18-buggy_ind3,org.jfree.data.DefaultKeyedValues,org/jfree/data/DefaultKeyedValues.java,public void removeValue(Comparable key) {,330,336
+Chart,18,Chart-18-buggy_ind3,org.jfree.data.DefaultKeyedValues2D,org/jfree/data/DefaultKeyedValues2D.java,public void removeColumn(Comparable columnKey) {,454,461
+Chart,19,Chart-19-buggy,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getDomainAxisIndex(CategoryAxis axis) {,697,710
+Chart,19,Chart-19-buggy,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getRangeAxisIndex(ValueAxis axis) {,983,996
+Chart,19,Chart-19-buggy_ind1,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getDomainAxisIndex(CategoryAxis axis) {,697,710
+Chart,19,Chart-19-buggy_ind1,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getRangeAxisIndex(ValueAxis axis) {,983,996
+Chart,19,Chart-19-buggy_ind2,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getDomainAxisIndex(CategoryAxis axis) {,697,710
+Chart,19,Chart-19-buggy_ind2,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getRangeAxisIndex(ValueAxis axis) {,983,996
+Chart,19,Chart-19-buggy_ind3,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getDomainAxisIndex(CategoryAxis axis) {,697,710
+Chart,19,Chart-19-buggy_ind3,org.jfree.chart.plot.CategoryPlot,org/jfree/chart/plot/CategoryPlot.java,public int getRangeAxisIndex(ValueAxis axis) {,983,996
+Chart,2,Chart-2-buggy,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateDomainBounds(XYDataset dataset, boolean includeInterval) {",740,790
+Chart,2,Chart-2-buggy,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateRangeBounds(XYDataset dataset, boolean includeInterval) {",1234,1304
+Chart,2,Chart-2-buggy_ind1,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateDomainBounds(XYDataset dataset, boolean includeInterval) {",740,790
+Chart,2,Chart-2-buggy_ind1,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateRangeBounds(XYDataset dataset, boolean includeInterval) {",1234,1304
+Chart,2,Chart-2-buggy_ind2,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateDomainBounds(XYDataset dataset, boolean includeInterval) {",740,790
+Chart,2,Chart-2-buggy_ind2,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateRangeBounds(XYDataset dataset, boolean includeInterval) {",1234,1304
+Chart,2,Chart-2-buggy_ind3,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateDomainBounds(XYDataset dataset, boolean includeInterval) {",740,790
+Chart,2,Chart-2-buggy_ind3,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateRangeBounds(XYDataset dataset, boolean includeInterval) {",1234,1304
+Chart,2,Chart-2-buggy_ind4,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateDomainBounds(XYDataset dataset, boolean includeInterval) {",740,790
+Chart,2,Chart-2-buggy_ind4,org.jfree.data.general.DatasetUtilities,org/jfree/data/general/DatasetUtilities.java,"public static Range iterateRangeBounds(XYDataset dataset, boolean includeInterval) {",1234,1304
+Chart,20,Chart-20-buggy,org.jfree.chart.plot.ValueMarker,org/jfree/chart/plot/ValueMarker.java,"public ValueMarker(double value, Paint paint, Stroke stroke, Paint outlinePaint, Stroke outlineStroke, float alpha) {",93,97
+Chart,20,Chart-20-buggy_ind1,org.jfree.chart.plot.ValueMarker,org/jfree/chart/plot/ValueMarker.java,"public ValueMarker(double value, Paint paint, Stroke stroke, Paint outlinePaint, Stroke outlineStroke, float alpha) {",93,97
+Chart,20,Chart-20-buggy_ind2,org.jfree.chart.plot.ValueMarker,org/jfree/chart/plot/ValueMarker.java,"public ValueMarker(double value, Paint paint, Stroke stroke, Paint outlinePaint, Stroke outlineStroke, float alpha) {",93,97
+Chart,21,Chart-21-buggy,org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,"public void add(BoxAndWhiskerItem item, Comparable rowKey, Comparable columnKey) {",144,197
+Chart,21,Chart-21-buggy,org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,private void updateBounds() {,743,785
+Chart,21,Chart-21-buggy_ind1,org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,"public void add(BoxAndWhiskerItem item, Comparable rowKey, Comparable columnKey) {",144,197
+Chart,21,Chart-21-buggy_ind1,org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,private void updateBounds() {,743,785
+Chart,21,Chart-21-buggy_ind2,org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,"public void add(BoxAndWhiskerItem item, Comparable rowKey, Comparable columnKey) {",144,197
+Chart,21,Chart-21-buggy_ind2,org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset,org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,private void updateBounds() {,743,785
+Chart,22,Chart-22-buggy,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,"public Object getObject(Comparable rowKey, Comparable columnKey) {",214,233
+Chart,22,Chart-22-buggy,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,"public void removeObject(Comparable rowKey, Comparable columnKey) {",291,329
+Chart,22,Chart-22-buggy,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,public void removeRow(Comparable rowKey) {,352,358
+Chart,22,Chart-22-buggy,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,public void removeColumn(Comparable columnKey) {,381,406
+Chart,22,Chart-22-buggy_ind1,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,"public Object getObject(Comparable rowKey, Comparable columnKey) {",214,233
+Chart,22,Chart-22-buggy_ind1,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,"public void removeObject(Comparable rowKey, Comparable columnKey) {",291,329
+Chart,22,Chart-22-buggy_ind1,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,public void removeRow(Comparable rowKey) {,352,358
+Chart,22,Chart-22-buggy_ind1,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,public void removeColumn(Comparable columnKey) {,381,406
+Chart,22,Chart-22-buggy_ind2,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,"public Object getObject(Comparable rowKey, Comparable columnKey) {",214,233
+Chart,22,Chart-22-buggy_ind2,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,"public void removeObject(Comparable rowKey, Comparable columnKey) {",291,329
+Chart,22,Chart-22-buggy_ind2,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,public void removeRow(Comparable rowKey) {,352,358
+Chart,22,Chart-22-buggy_ind2,org.jfree.data.KeyedObjects2D,org/jfree/data/KeyedObjects2D.java,public void removeColumn(Comparable columnKey) {,381,406
+Chart,23,Chart-23-buggy,org.jfree.chart.renderer.category.MinMaxCategoryRenderer,org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,"public void drawItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, CategoryDataset dataset, int row, int column, int pass) {",330,428
+Chart,23,Chart-23-buggy_ind1,org.jfree.chart.renderer.category.MinMaxCategoryRenderer,org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,"public void drawItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, CategoryDataset dataset, int row, int column, int pass) {",330,428
+Chart,23,Chart-23-buggy_ind2,org.jfree.chart.renderer.category.MinMaxCategoryRenderer,org/jfree/chart/renderer/category/MinMaxCategoryRenderer.java,"public void drawItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, CategoryDataset dataset, int row, int column, int pass) {",330,428
+Chart,24,Chart-24-buggy,org.jfree.chart.renderer.GrayPaintScale,org/jfree/chart/renderer/GrayPaintScale.java,public Paint getPaint(double value) {,123,139
+Chart,24,Chart-24-buggy_ind1,org.jfree.chart.renderer.GrayPaintScale,org/jfree/chart/renderer/GrayPaintScale.java,public Paint getPaint(double value) {,123,139
+Chart,24,Chart-24-buggy_ind2,org.jfree.chart.renderer.GrayPaintScale,org/jfree/chart/renderer/GrayPaintScale.java,public Paint getPaint(double value) {,123,139
+Chart,25,Chart-25-buggy,org.jfree.chart.renderer.category.StatisticalBarRenderer,org/jfree/chart/renderer/category/StatisticalBarRenderer.java,"protected void drawHorizontalItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, StatisticalCategoryDataset dataset, int row, int column) {",230,364
+Chart,25,Chart-25-buggy,org.jfree.chart.renderer.category.StatisticalBarRenderer,org/jfree/chart/renderer/category/StatisticalBarRenderer.java,"protected void drawVerticalItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, StatisticalCategoryDataset dataset, int row, int column) {",379,512
+Chart,25,Chart-25-buggy_ind1,org.jfree.chart.renderer.category.StatisticalBarRenderer,org/jfree/chart/renderer/category/StatisticalBarRenderer.java,"protected void drawHorizontalItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, StatisticalCategoryDataset dataset, int row, int column) {",230,364
+Chart,25,Chart-25-buggy_ind1,org.jfree.chart.renderer.category.StatisticalBarRenderer,org/jfree/chart/renderer/category/StatisticalBarRenderer.java,"protected void drawVerticalItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, StatisticalCategoryDataset dataset, int row, int column) {",379,512
+Chart,25,Chart-25-buggy_ind2,org.jfree.chart.renderer.category.StatisticalBarRenderer,org/jfree/chart/renderer/category/StatisticalBarRenderer.java,"protected void drawHorizontalItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, StatisticalCategoryDataset dataset, int row, int column) {",230,364
+Chart,25,Chart-25-buggy_ind2,org.jfree.chart.renderer.category.StatisticalBarRenderer,org/jfree/chart/renderer/category/StatisticalBarRenderer.java,"protected void drawVerticalItem(Graphics2D g2, CategoryItemRendererState state, Rectangle2D dataArea, CategoryPlot plot, CategoryAxis domainAxis, ValueAxis rangeAxis, StatisticalCategoryDataset dataset, int row, int column) {",379,512
+Chart,26,Chart-26-buggy,org.jfree.chart.axis.Axis,org/jfree/chart/axis/Axis.java,"protected AxisState drawLabel(String label, Graphics2D g2, Rectangle2D plotArea, Rectangle2D dataArea, RectangleEdge edge, AxisState state, PlotRenderingInfo plotState) {",1092,1202
+Chart,26,Chart-26-buggy_ind1,org.jfree.chart.axis.Axis,org/jfree/chart/axis/Axis.java,"protected AxisState drawLabel(String label, Graphics2D g2, Rectangle2D plotArea, Rectangle2D dataArea, RectangleEdge edge, AxisState state, PlotRenderingInfo plotState) {",1092,1202
+Chart,26,Chart-26-buggy_ind2,org.jfree.chart.axis.Axis,org/jfree/chart/axis/Axis.java,"protected AxisState drawLabel(String label, Graphics2D g2, Rectangle2D plotArea, Rectangle2D dataArea, RectangleEdge edge, AxisState state, PlotRenderingInfo plotState) {",1092,1202
+Chart,3,Chart-3-buggy,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(int start, int end)",1048,1078
+Chart,3,Chart-3-buggy_ind1,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(int start, int end)",1048,1078
+Chart,3,Chart-3-buggy_ind2,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(int start, int end)",1048,1078
+Chart,3,Chart-3-buggy_ind3,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(int start, int end)",1048,1078
+Chart,4,Chart-4-buggy,org.jfree.chart.plot.XYPlot,org/jfree/chart/plot/XYPlot.java,public Range getDataRange(ValueAxis axis) {,4425,4528
+Chart,5,Chart-5-buggy,org.jfree.data.xy.XYSeries,org/jfree/data/xy/XYSeries.java,"public XYDataItem addOrUpdate(Number x, Number y) {",540,589
+Chart,5,Chart-5-buggy_ind1,org.jfree.data.xy.XYSeries,org/jfree/data/xy/XYSeries.java,"public XYDataItem addOrUpdate(Number x, Number y) {",540,589
+Chart,5,Chart-5-buggy_ind2,org.jfree.data.xy.XYSeries,org/jfree/data/xy/XYSeries.java,"public XYDataItem addOrUpdate(Number x, Number y) {",540,589
+Chart,6,Chart-6-buggy,org.jfree.chart.util.ShapeList,org/jfree/chart/util/ShapeList.java,public boolean equals(Object obj) {,103,130
+Chart,6,Chart-6-buggy_ind1,org.jfree.chart.util.ShapeList,org/jfree/chart/util/ShapeList.java,public boolean equals(Object obj) {,103,130
+Chart,6,Chart-6-buggy_ind2,org.jfree.chart.util.ShapeList,org/jfree/chart/util/ShapeList.java,public boolean equals(Object obj) {,103,130
+Chart,6,Chart-6-buggy_ind3,org.jfree.chart.util.ShapeList,org/jfree/chart/util/ShapeList.java,public boolean equals(Object obj) {,103,130
+Chart,7,Chart-7-buggy,org.jfree.data.time.TimePeriodValues,org/jfree/data/time/TimePeriodValues.java,"private void updateBounds(TimePeriod period, int index) {",257,335
+Chart,8,Chart-8-buggy,org.jfree.data.time.Week,org/jfree/data/time/Week.java,"public Week(Date time, TimeZone zone) {",173,176
+Chart,8,Chart-8-buggy_ind1,org.jfree.data.time.Week,org/jfree/data/time/Week.java,"public Week(Date time, TimeZone zone) {",173,176
+Chart,8,Chart-8-buggy_ind2,org.jfree.data.time.Week,org/jfree/data/time/Week.java,"public Week(Date time, TimeZone zone) {",173,176
+Chart,9,Chart-9-buggy,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(RegularTimePeriod start, RegularTimePeriod end)",918,959
+Chart,9,Chart-9-buggy_ind1,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(RegularTimePeriod start, RegularTimePeriod end)",918,959
+Chart,9,Chart-9-buggy_ind2,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(RegularTimePeriod start, RegularTimePeriod end)",918,959
+Chart,9,Chart-9-buggy_ind3,org.jfree.data.time.TimeSeries,org/jfree/data/time/TimeSeries.java,"public TimeSeries createCopy(RegularTimePeriod start, RegularTimePeriod end)",918,959

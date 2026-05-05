@@ -1,0 +1,3 @@
+project,bug_id,folder,jacoco_xml,error
+Csv,3,Csv-3-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-3-buggy/jacoco.xml,Missing jacoco.xml
+Csv,7,Csv-7-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-7-buggy/jacoco.xml,Missing jacoco.xml

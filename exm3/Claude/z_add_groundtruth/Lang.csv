@@ -1,0 +1,145 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Lang,1,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testHexBoundariesWithNegative,Pass
+Lang,1,add_test1.java,org.apache.commons.lang3.math.NumberUtilsTest,testHexWithHashPrefix,Pass
+Lang,1,add_test2.java,org.apache.commons.lang3.math.NumberUtilsTest,testHexExactly9And17Digits,Pass
+Lang,3,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberWithTypeSuffixPrecisionLoss,Pass
+Lang,3,add_test1.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberEdgeCasesInfinity,Pass
+Lang,4,add_test.java,org.apache.commons.lang3.text.translate.LookupTranslatorTest,testLang882MultipleEntries,Pass
+Lang,4,add_test1.java,org.apache.commons.lang3.text.translate.LookupTranslatorTest,testLang882StringBuilder,Pass
+Lang,5,add_test.java,org.apache.commons.lang3.LocaleUtilsTest,testLang865_AdditionalCase1,Pass
+Lang,5,add_test1.java,org.apache.commons.lang3.LocaleUtilsTest,testLang865_AdditionalCase2,Pass
+Lang,6,add_test.java,org.apache.commons.lang3.StringUtilsTest,testEscapeSurrogatePairsWithEscaping,Pass
+Lang,6,add_test1.java,org.apache.commons.lang3.StringUtilsTest,testEscapeSurrogatePairsInQuotes,Pass
+Lang,7,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberWithDSuffix,Pass
+Lang,8,add_test.java,org.apache.commons.lang3.time.FastDatePrinterTest,testCalendarTimezoneRespectedWithDST,Pass
+Lang,8,add_test1.java,org.apache.commons.lang3.time.FastDatePrinterTest,testCalendarTimezoneRespectedWithoutDST,Pass
+Lang,9,add_test.java,org.apache.commons.lang3.time.FastDateParserTest,testUnterminatedQuoteAtEnd,Not Compilable
+Lang,9,add_test1.java,org.apache.commons.lang3.time.FastDateParserTest,testUnterminatedQuoteMiddle,Not Compilable
+Lang,9,add_test2.java,org.apache.commons.lang3.time.FastDateParserTest,testProperlyTerminatedQuote,Not Compilable
+Lang,10,add_test.java,org.apache.commons.lang3.time.FastDateParserTest,testEscapeRegexMultipleSpaces,Pass
+Lang,10,add_test1.java,org.apache.commons.lang3.time.FastDateParserTest,testEscapeRegexSpecialChars,Pass
+Lang,10,add_test2.java,org.apache.commons.lang3.time.FastDateParserTest,testEscapeRegexTrailingWhitespace,Pass
+Lang,11,add_test.java,org.apache.commons.lang3.RandomStringUtilsTest,testLANG807_StartGreaterThanEnd,Pass
+Lang,11,add_test1.java,org.apache.commons.lang3.RandomStringUtilsTest,testLANG807_WithCharsArrayStartEqualsLength,Pass
+Lang,11,add_test2.java,org.apache.commons.lang3.RandomStringUtilsTest,testLANG807_WithCharsArrayEndExceedsLength,Pass
+Lang,12,add_test.java,org.apache.commons.lang3.RandomStringUtilsTest,testRandomWithNonEmptyCharArray,Pass
+Lang,12,add_test1.java,org.apache.commons.lang3.RandomStringUtilsTest,testRandomWithSingleCharArray,Pass
+Lang,13,add_test.java,org.apache.commons.lang3.SerializationUtilsTest,testPrimitiveTypeArrayClassSerialization,Not Compilable
+Lang,13,add_test1.java,org.apache.commons.lang3.SerializationUtilsTest,testMixedPrimitiveAndObjectClassSerialization,Not Compilable
+Lang,14,add_test.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testEqualsAdditional1,Not Compilable
+Lang,14,add_test1.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testEqualsAdditional2,Not Compilable
+Lang,14,add_test2.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testEqualsAdditional3,Not Compilable
+Lang,15,add_test.java,org.apache.commons.lang3.reflect.TypeUtilsTest,testGetTypeArgumentsWithTypeParameters,Not Compilable
+Lang,16,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberWithBothEAndUppercaseE,Pass
+Lang,17,add_test.java,org.apache.commons.lang3.StringEscapeUtilsTest,testLang720_MultipleSupplementaryCharacters,Pass
+Lang,17,add_test1.java,org.apache.commons.lang3.StringEscapeUtilsTest,testLang720_SupplementaryAtEnd,Pass
+Lang,17,add_test2.java,org.apache.commons.lang3.StringEscapeUtilsTest,testLang720_MixedCharacters,Pass
+Lang,19,add_test.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testDecimalEntityWithoutSemicolon,Pass
+Lang,19,add_test1.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testValidEntitiesWithSemicolon,Pass
+Lang,19,add_test2.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testSupplementaryCharacter,Pass
+Lang,20,add_test.java,org.apache.commons.lang3.StringUtilsTest,testJoin_ArrayChar_MultipleElements,Pass
+Lang,20,add_test1.java,org.apache.commons.lang3.StringUtilsTest,testJoin_ArrayString_MultipleElements,Pass
+Lang,21,add_test.java,org.apache.commons.lang3.time.DateUtilsTest,testIsSameLocalTime_HourDifference,Pass
+Lang,21,add_test1.java,org.apache.commons.lang3.time.DateUtilsTest,testIsSameLocalTime_AMvsPM,Pass
+Lang,22,add_test.java,org.apache.commons.lang3.math.FractionTest,testReduceWithZeroNumerator,Pass
+Lang,22,add_test1.java,org.apache.commons.lang3.math.FractionTest,testReducedFactoryWithPowersOfTwo,Pass
+Lang,22,add_test2.java,org.apache.commons.lang3.math.FractionTest,testReducedFactoryWithOneOperand,Pass
+Lang,24,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testIsNumberAdditional1,Pass
+Lang,26,add_test.java,org.apache.commons.lang3.time.FastDateFormatTest,testLang645_AdditionalLocale,Pass
+Lang,26,add_test1.java,org.apache.commons.lang3.time.FastDateFormatTest,testLang645_FrenchLocale,Pass
+Lang,27,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberDoubleWithAllZeros,Not Compilable
+Lang,27,add_test1.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberDoubleNonZero,Not Compilable
+Lang,28,add_test.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testOutOfBoundsProtection,Pass
+Lang,28,add_test1.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testInvalidCodePoint,Pass
+Lang,28,add_test2.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testHexadecimalEntities,Pass
+Lang,28,add_test3.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testEmptyNumericEntity,Pass
+Lang,29,add_test.java,org.apache.commons.lang3.SystemUtilsTest,testJavaVersionAsIntAdditional,Not Compilable
+Lang,30,add_test.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testIndexOfAny_WithMixedSupplementaryAndBMP,Pass
+Lang,30,add_test1.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testContainsAny_WithLoneHighSurrogate,Pass
+Lang,30,add_test2.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testIndexOfAnyBut_WithLoneSurrogates,Pass
+Lang,31,add_test.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testContainsAnyCharArrayWithMixedSupplementaryAndBMP,Pass
+Lang,31,add_test1.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testContainsAnyCharArrayWithLoneSurrogates,Pass
+Lang,31,add_test2.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testContainsAnyCharArrayEdgeCases,Pass
+Lang,32,add_test.java,org.apache.commons.lang3.builder.HashCodeBuilderTest,testReflectionObjectCycleMultiple,Pass
+Lang,32,add_test1.java,org.apache.commons.lang3.builder.HashCodeBuilderTest,testReflectionObjectNoCycle,Pass
+Lang,32,add_test2.java,org.apache.commons.lang3.builder.HashCodeBuilderTest,testReflectionObjectDeepCycle,Pass
+Lang,33,add_test.java,org.apache.commons.lang3.ClassUtilsTest,testToClass_objectWithNullAtStart,Pass
+Lang,33,add_test1.java,org.apache.commons.lang3.ClassUtilsTest,testToClass_objectWithAllNulls,Pass
+Lang,33,add_test2.java,org.apache.commons.lang3.ClassUtilsTest,testToClass_objectWithMultipleNulls,Pass
+Lang,34,add_test.java,org.apache.commons.lang3.builder.ToStringBuilderTest,testRegistryInitialization,Not Compilable
+Lang,34,add_test1.java,org.apache.commons.lang3.builder.ToStringBuilderTest,testMultiLevelObjectCycle,Not Compilable
+Lang,35,add_test.java,org.apache.commons.lang3.ArrayUtilsAddTest,testAddNullArrayNonNullElement,Pass
+Lang,35,add_test1.java,org.apache.commons.lang3.ArrayUtilsAddTest,testAddWithIndexNullArrayNonNullElement,Pass
+Lang,35,add_test2.java,org.apache.commons.lang3.ArrayUtilsAddTest,testAddNonNullArrayNullElement,Pass
+Lang,36,add_test.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberTrailingDecimal,Pass
+Lang,36,add_test1.java,org.apache.commons.lang3.math.NumberUtilsTest,testCreateNumberInvalidTrailingDecimal,Pass
+Lang,37,add_test.java,org.apache.commons.lang3.ArrayUtilsAddTest,testAddAllCompatibleTypes,Not Compilable
+Lang,37,add_test1.java,org.apache.commons.lang3.ArrayUtilsAddTest,testAddAllIncompatiblePrimitiveWrappers,Not Compilable
+Lang,37,add_test2.java,org.apache.commons.lang3.ArrayUtilsAddTest,testAddAllSameType,Not Compilable
+Lang,38,add_test.java,org.apache.commons.lang3.time.FastDateFormatTest,testLang538_AdditionalCase1,Pass
+Lang,38,add_test1.java,org.apache.commons.lang3.time.FastDateFormatTest,testLang538_AdditionalCase2,Pass
+Lang,39,add_test.java,org.apache.commons.lang3.StringUtilsTest,testReplaceEach_NullInMiddleOfArrays,Pass
+Lang,39,add_test1.java,org.apache.commons.lang3.StringUtilsTest,testReplaceEach_EmptySearchString,Pass
+Lang,40,add_test.java,org.apache.commons.lang.StringUtilsEqualsIndexOfTest,testContainsIgnoreCase_EmptyString,Pass
+Lang,40,add_test1.java,org.apache.commons.lang.StringUtilsEqualsIndexOfTest,testContainsIgnoreCase_MultipleOccurrences,Pass
+Lang,40,add_test2.java,org.apache.commons.lang.StringUtilsEqualsIndexOfTest,testContainsIgnoreCase_BoundaryConditions,Pass
+Lang,41,add_test.java,org.apache.commons.lang.ClassUtilsTest,test_getShortClassName_MultiDimensionalPrimitiveArrays,Pass
+Lang,41,add_test1.java,org.apache.commons.lang.ClassUtilsTest,test_getPackageName_MultiDimensionalArrays,Pass
+Lang,41,add_test2.java,org.apache.commons.lang.ClassUtilsTest,test_getShortClassName_InnerClassArray,Pass
+Lang,43,add_test.java,org.apache.commons.lang.text.ExtendedMessageFormatTest,testEscapedQuoteAtEnd_LANG_477,Pass
+Lang,43,add_test1.java,org.apache.commons.lang.text.ExtendedMessageFormatTest,testMultipleEscapedQuotes_LANG_477,Pass
+Lang,43,add_test2.java,org.apache.commons.lang.text.ExtendedMessageFormatTest,testQuotedStringAfterEscapedQuote_LANG_477,Pass
+Lang,44,add_test.java,org.apache.commons.lang.NumberUtilsTest,testLang457Additional1,Pass
+Lang,44,add_test1.java,org.apache.commons.lang.NumberUtilsTest,testLang457Additional2,Pass
+Lang,44,add_test2.java,org.apache.commons.lang.NumberUtilsTest,testLang457Additional3,Pass
+Lang,45,add_test.java,org.apache.commons.lang.WordUtilsTest,testAbbreviateAdditional1,Pass
+Lang,45,add_test1.java,org.apache.commons.lang.WordUtilsTest,testAbbreviateAdditional2,Pass
+Lang,45,add_test2.java,org.apache.commons.lang.WordUtilsTest,testAbbreviateAdditional3,Pass
+Lang,45,add_test3.java,org.apache.commons.lang.WordUtilsTest,testAbbreviateAdditional4,Pass
+Lang,46,add_test.java,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJavaScriptWithSlash,Pass
+Lang,46,add_test1.java,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJavaWithSingleQuote,Pass
+Lang,46,add_test2.java,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJavaScriptWithSingleQuote,Pass
+Lang,47,add_test.java,org.apache.commons.lang.text.StrBuilderTest,testAppendFixedWidthPadLeftLongerString,Pass
+Lang,47,add_test1.java,org.apache.commons.lang.text.StrBuilderTest,testAppendFixedWidthPadRightLongerString,Pass
+Lang,47,add_test2.java,org.apache.commons.lang.text.StrBuilderTest,testAppendFixedWidthPadLeftShorterString,Pass
+Lang,47,add_test3.java,org.apache.commons.lang.text.StrBuilderTest,testAppendFixedWidthPadRightShorterString,Pass
+Lang,47,add_test4.java,org.apache.commons.lang.text.StrBuilderTest,testAppendFixedWidthPadLeftZeroWidth,Pass
+Lang,49,add_test.java,org.apache.commons.lang.math.FractionTest,testReduceNegativeZero,Pass
+Lang,49,add_test1.java,org.apache.commons.lang.math.FractionTest,testReduceLargeNumeratorWithGcd,Pass
+Lang,49,add_test2.java,org.apache.commons.lang.math.FractionTest,testReduceAlreadyReducedNegative,Pass
+Lang,50,add_test.java,org.apache.commons.lang.time.FastDateFormatTest,test_changeDefault_Locale_DateInstance_withTimeZone,Pass
+Lang,50,add_test1.java,org.apache.commons.lang.time.FastDateFormatTest,test_changeDefault_Locale_DateTimeInstance_withTimeZone,Pass
+Lang,51,add_test.java,org.apache.commons.lang.BooleanUtilsTest,test_toBoolean_String_EdgeCases,Pass
+Lang,52,add_test.java,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJavaScriptForwardSlash,Pass
+Lang,52,add_test1.java,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJavaScriptMixedContent,Pass
+Lang,53,add_test.java,org.apache.commons.lang.time.DateUtilsTest,testRoundLang346_Additional1,Pass
+Lang,53,add_test1.java,org.apache.commons.lang.time.DateUtilsTest,testRoundLang346_Additional2,Pass
+Lang,54,add_test.java,org.apache.commons.lang.LocaleUtilsTest,testLang328_AdditionalCase1,Pass
+Lang,54,add_test1.java,org.apache.commons.lang.LocaleUtilsTest,testLang328_AdditionalCase2,Pass
+Lang,54,add_test2.java,org.apache.commons.lang.LocaleUtilsTest,testLang328_AdditionalCase3,Pass
+Lang,55,add_test.java,org.apache.commons.lang.time.StopWatchTest,testStopFromRunningState,Pass
+Lang,55,add_test1.java,org.apache.commons.lang.time.StopWatchTest,testMultipleSuspendResumeBeforeStop,Pass
+Lang,56,add_test.java,org.apache.commons.lang.time.FastDateFormatTest,testToStringWithNullPattern,Pass
+Lang,56,add_test1.java,org.apache.commons.lang.time.FastDateFormatTest,testToStringAfterMultipleSerialization,Pass
+Lang,57,add_test.java,org.apache.commons.lang.LocaleUtilsTest,testIsAvailableLocale_Null,Pass
+Lang,58,add_test.java,org.apache.commons.lang.math.NumberUtilsTest,testCreateNumberWithLeadingZeroAndTypeSuffix,Pass
+Lang,58,add_test1.java,org.apache.commons.lang.math.NumberUtilsTest,testCreateNumberWithNegativeLeadingZero,Pass
+Lang,59,add_test.java,org.apache.commons.lang.text.StrBuilderAppendInsertTest,testAppendFixedWidthPadRight_TruncateLongerString,Pass
+Lang,59,add_test1.java,org.apache.commons.lang.text.StrBuilderAppendInsertTest,testAppendFixedWidthPadRight_PadShorterString,Pass
+Lang,59,add_test2.java,org.apache.commons.lang.text.StrBuilderAppendInsertTest,testAppendFixedWidthPadRight_ExactWidth,Pass
+Lang,59,add_test3.java,org.apache.commons.lang.text.StrBuilderAppendInsertTest,testAppendFixedWidthPadRight_NullObject,Pass
+Lang,60,add_test.java,org.apache.commons.lang.text.StrBuilderTest,testContainsWithEmptyBuffer,Pass
+Lang,60,add_test1.java,org.apache.commons.lang.text.StrBuilderTest,testContainsAfterPartialDelete,Pass
+Lang,60,add_test2.java,org.apache.commons.lang.text.StrBuilderTest,testIndexOfWithStartIndexBeyondSize,Pass
+Lang,61,add_test.java,org.apache.commons.lang.text.StrBuilderTest,testIndexOfAtEnd,Pass
+Lang,61,add_test1.java,org.apache.commons.lang.text.StrBuilderTest,testIndexOfAfterModification,Pass
+Lang,61,add_test2.java,org.apache.commons.lang.text.StrBuilderTest,testIndexOfExactMatch,Pass
+Lang,62,add_test.java,org.apache.commons.lang.EntitiesTest,testNegativeNumberOverflow,Pass
+Lang,62,add_test1.java,org.apache.commons.lang.EntitiesTest,testUpperBoundary,Pass
+Lang,63,add_test.java,org.apache.commons.lang.time.DurationFormatUtilsTest,testFormatPeriodFebruaryLeapYear,Pass
+Lang,63,add_test1.java,org.apache.commons.lang.time.DurationFormatUtilsTest,testFormatPeriodFebruaryNonLeapYear,Pass
+Lang,64,add_test.java,org.apache.commons.lang.enums.ValuedEnumTest,testCompareTo_sameEnumType,Not Compilable
+Lang,64,add_test1.java,org.apache.commons.lang.enums.ValuedEnumTest,testCompareTo_null,Not Compilable
+Lang,64,add_test2.java,org.apache.commons.lang.enums.ValuedEnumTest,testCompareTo_valueOrdering,Not Compilable
+Lang,65,add_test.java,org.apache.commons.lang.time.DateUtilsTest,testRoundSemiMonth,Pass
+Lang,65,add_test1.java,org.apache.commons.lang.time.DateUtilsTest,testRoundAmPm,Pass

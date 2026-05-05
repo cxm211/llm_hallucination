@@ -1,0 +1,243 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Jsoup,1,add_test.java,org.jsoup.parser.ParserTest,normaliseSingleTextNode,Pass
+Jsoup,1,add_test1.java,org.jsoup.parser.ParserTest,normaliseMultipleTextNodes,Pass
+Jsoup,1,add_test2.java,org.jsoup.parser.ParserTest,normaliseEmptyString,Pass
+Jsoup,2,add_test.java,org.jsoup.parser.ParserTest,handlesMultipleDataTagsInSequence,Pass
+Jsoup,2,add_test1.java,org.jsoup.parser.ParserTest,handlesDataTagWithTextBetween,Not Pass
+Jsoup,2,add_test2.java,org.jsoup.parser.ParserTest,handlesEmptyDataTag,Not Pass
+Jsoup,3,add_test.java,org.jsoup.nodes.ElementTest,testAppendMultipleRowsToTable,Not Pass
+Jsoup,3,add_test1.java,org.jsoup.nodes.ElementTest,testPrependMultipleRowsToTable,Not Pass
+Jsoup,4,add_test.java,org.jsoup.nodes.EntitiesTest,unescapeUnknownEntity,Not Pass
+Jsoup,4,add_test1.java,org.jsoup.nodes.EntitiesTest,unescapeOutOfRangeNumeric,Not Pass
+Jsoup,4,add_test2.java,org.jsoup.nodes.EntitiesTest,unescapeMixedValidInvalid,Pass
+Jsoup,5,add_test.java,org.jsoup.parser.ParserTest,parsesEmptyAttributeKeyWithValue,Not Compilable
+Jsoup,5,add_test1.java,org.jsoup.parser.ParserTest,parsesEmptyAttributeKeyWithQuotedValue,Not Compilable
+Jsoup,5,add_test2.java,org.jsoup.parser.ParserTest,parsesMultipleEmptyAttributeKeys,Not Compilable
+Jsoup,6,add_test.java,org.jsoup.nodes.EntitiesTest,unescapeHighUnicodeValue,Pass
+Jsoup,6,add_test1.java,org.jsoup.nodes.EntitiesTest,unescapeInvalidCharValue,Pass
+Jsoup,6,add_test2.java,org.jsoup.nodes.EntitiesTest,unescapeZeroCharValue,Pass
+Jsoup,7,add_test.java,org.jsoup.nodes.DocumentTest,testNormalisesMultipleHeads,Not Compilable
+Jsoup,7,add_test1.java,org.jsoup.nodes.DocumentTest,testNormalisesMultipleBodies,Not Compilable
+Jsoup,7,add_test2.java,org.jsoup.nodes.DocumentTest,testNormalisesEmptyNoscriptInHead,Not Compilable
+Jsoup,8,add_test.java,org.jsoup.nodes.ElementTest,orphanedElementWithAttributes,Not Compilable
+Jsoup,8,add_test1.java,org.jsoup.nodes.ElementTest,orphanedElementWithChildren,Not Compilable
+Jsoup,8,add_test2.java,org.jsoup.nodes.ElementTest,orphanedSelfClosingElement,Not Compilable
+Jsoup,10,add_test.java,org.jsoup.nodes.NodeTest,absHandlesRelativeQueryWithoutFile,Pass
+Jsoup,10,add_test1.java,org.jsoup.nodes.NodeTest,absHandlesRelativeQueryAtRoot,Pass
+Jsoup,10,add_test2.java,org.jsoup.nodes.NodeTest,absHandlesRelativeQueryWithPort,Pass
+Jsoup,10,add_test3.java,org.jsoup.nodes.NodeTest,absHandlesAbsoluteUrl,Pass
+Jsoup,11,add_test.java,org.jsoup.select.SelectorTest,notWithId,Not Compilable
+Jsoup,11,add_test1.java,org.jsoup.select.SelectorTest,notWithTagAndClass,Not Compilable
+Jsoup,11,add_test2.java,org.jsoup.select.SelectorTest,notWithAttribute,Not Compilable
+Jsoup,12,add_test.java,org.jsoup.select.SelectorTest,testByAttributeRegexWithPipeInChildCombinator,Not Pass
+Jsoup,12,add_test1.java,org.jsoup.select.SelectorTest,testByAttributeRegexWithPipeInAdjacentSiblingCombinator,Not Pass
+Jsoup,12,add_test2.java,org.jsoup.select.SelectorTest,testByAttributeRegexWithPipeInGeneralSiblingCombinator,Not Pass
+Jsoup,13,add_test.java,org.jsoup.nodes.NodeTest,handlesAbsPrefixWithEmptyBaseUri,Pass
+Jsoup,13,add_test1.java,org.jsoup.nodes.NodeTest,handlesAbsPrefixWithFullUrl,Pass
+Jsoup,13,add_test2.java,org.jsoup.nodes.NodeTest,handlesAbsPrefixWithMissingAttr,Pass
+Jsoup,14,add_test.java,org.jsoup.parser.ParserTest,handlesTextareaWithMixedCaseClosingTag,Pass
+Jsoup,14,add_test1.java,org.jsoup.parser.ParserTest,handlesTitleWithAllUppercaseClosingTag,Pass
+Jsoup,14,add_test2.java,org.jsoup.parser.ParserTest,handlesTextareaWithUppercaseClosingTag,Pass
+Jsoup,15,add_test.java,org.jsoup.parser.ParserTest,handlesMarqueeEndTag,Pass
+Jsoup,15,add_test1.java,org.jsoup.parser.ParserTest,handlesAppletEndTag,Pass
+Jsoup,15,add_test2.java,org.jsoup.parser.ParserTest,handlesObjectEndTag,Pass
+Jsoup,16,add_test.java,org.jsoup.nodes.DocumentTypeTest,constructorValidationThrowsExceptionOnNullName,Not Compilable
+Jsoup,16,add_test1.java,org.jsoup.nodes.DocumentTypeTest,constructorValidationThrowsExceptionOnWhitespaceName,Not Compilable
+Jsoup,16,add_test2.java,org.jsoup.nodes.DocumentTypeTest,outerHtmlGenerationWithPublicIdOnly,Not Compilable
+Jsoup,16,add_test3.java,org.jsoup.nodes.DocumentTypeTest,,Not Compilable
+Jsoup,18,add_test.java,org.jsoup.parser.CharacterReaderTest,consumeToEndWhenEmpty,Pass
+Jsoup,18,add_test1.java,org.jsoup.parser.CharacterReaderTest,consumeToEndAfterPartialConsume,Pass
+Jsoup,19,add_test.java,org.jsoup.safety.CleanerTest,handlesPreserveRelativeLinksWithCustomProtocols,Not Compilable
+Jsoup,19,add_test1.java,org.jsoup.safety.CleanerTest,handlesEmptyProtocolValue,Not Compilable
+Jsoup,20,add_test.java,org.jsoup.helper.DataUtilTest,discardsSpuriousByteOrderMarkWhenCharsetIsNull,Not Compilable
+Jsoup,20,add_test1.java,org.jsoup.helper.DataUtilTest,discardsSpuriousByteOrderMarkWithCharsetRedecode,Not Compilable
+Jsoup,20,add_test2.java,org.jsoup.helper.DataUtilTest,handlesEmptyDocumentWithBOM,Not Compilable
+Jsoup,21,add_test.java,org.jsoup.select.SelectorTest,handlesMultipleCommasInSelector,Not Pass
+Jsoup,21,add_test1.java,org.jsoup.select.SelectorTest,handlesCommaWithSingleSelector,Pass
+Jsoup,21,add_test2.java,org.jsoup.select.SelectorTest,handlesCommaCombinatorMix,Not Pass
+Jsoup,22,add_test.java,org.jsoup.nodes.ElementTest,siblingElementsWithSingleChild,Not Compilable
+Jsoup,22,add_test1.java,org.jsoup.nodes.NodeTest,siblingNodesWithSingleChild,Not Compilable
+Jsoup,22,add_test2.java,org.jsoup.nodes.ElementTest,siblingElementsFirstChild,Not Compilable
+Jsoup,22,add_test3.java,org.jsoup.nodes.ElementTest,siblingElementsLastChild,Not Compilable
+Jsoup,23,add_test.java,org.jsoup.nodes.EntitiesTest,numericEntities,Pass
+Jsoup,23,add_test1.java,org.jsoup.nodes.EntitiesTest,mixedLetterDigitEntities,Pass
+Jsoup,23,add_test2.java,org.jsoup.nodes.EntitiesTest,entitiesEndingWithDigits,Pass
+Jsoup,24,add_test.java,org.jsoup.parser.HtmlParserTest,handlesPartialEndTagInScript,Pass
+Jsoup,24,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesEndTagWithWhitespaceInScript,Not Pass
+Jsoup,24,add_test2.java,org.jsoup.parser.HtmlParserTest,handlesSelfClosingEndTagInScript,Not Pass
+Jsoup,26,add_test.java,org.jsoup.safety.CleanerTest,handlesDocumentWithoutBody,Pass
+Jsoup,26,add_test1.java,org.jsoup.safety.CleanerTest,handlesEmptyDocument,Pass
+Jsoup,27,add_test.java,org.jsoup.helper.DataUtilTest,testCharsetWithWhitespaceInQuotes,Not Pass
+Jsoup,27,add_test1.java,org.jsoup.helper.DataUtilTest,testCharsetCaseSensitivity,Not Pass
+Jsoup,27,add_test2.java,org.jsoup.helper.DataUtilTest,testUnsupportedCharsetUnquoted,Pass
+Jsoup,28,add_test.java,org.jsoup.nodes.EntitiesTest,supplementaryPlaneCharacter,Not Pass
+Jsoup,28,add_test1.java,org.jsoup.nodes.EntitiesTest,invalidHighCharacterValue,Pass
+Jsoup,28,add_test2.java,org.jsoup.nodes.EntitiesTest,boundaryCharacterValue,Pass
+Jsoup,28,add_test3.java,org.jsoup.nodes.EntitiesTest,charValueJustOverBoundary,Pass
+Jsoup,29,add_test.java,org.jsoup.nodes.DocumentTest,testTitleMultipleWhitespaceTypes,Not Compilable
+Jsoup,29,add_test1.java,org.jsoup.nodes.DocumentTest,testTitleLeadingTrailingWhitespace,Not Compilable
+Jsoup,29,add_test2.java,org.jsoup.nodes.DocumentTest,testTitleConsecutiveSpaces,Not Compilable
+Jsoup,30,add_test.java,org.jsoup.safety.CleanerTest,testIsValidWithCommentOnly,Not Compilable
+Jsoup,30,add_test1.java,org.jsoup.safety.CleanerTest,testIsValidWithDataNode,Not Compilable
+Jsoup,30,add_test2.java,org.jsoup.safety.CleanerTest,testIsValidWithMultipleComments,Not Compilable
+Jsoup,31,add_test.java,org.jsoup.parser.XmlTreeBuilderTest,handlesCommentWithoutClosingBracket,Not Compilable
+Jsoup,31,add_test1.java,org.jsoup.parser.XmlTreeBuilderTest,handlesMultipleCommentsAndDeclarations,Not Compilable
+Jsoup,31,add_test2.java,org.jsoup.parser.XmlTreeBuilderTest,handlesEmptyComment,Not Compilable
+Jsoup,32,add_test.java,org.jsoup.nodes.ElementTest,testCloneWithNoClassNames,Not Pass
+Jsoup,32,add_test1.java,org.jsoup.nodes.ElementTest,testCloneClassNamesIndependence,Pass
+Jsoup,33,add_test.java,org.jsoup.parser.HtmlParserTest,handlesUnknownSelfClosingTags,Pass
+Jsoup,33,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesKnownVoidElementsSelfClosing,Pass
+Jsoup,33,add_test2.java,org.jsoup.parser.HtmlParserTest,handlesNestedKnownTagsSelfClosing,Pass
+Jsoup,34,add_test.java,org.jsoup.parser.CharacterReaderTest,nextIndexOfSequenceAtEnd,Pass
+Jsoup,34,add_test1.java,org.jsoup.parser.CharacterReaderTest,nextIndexOfSequenceExactLength,Pass
+Jsoup,34,add_test2.java,org.jsoup.parser.CharacterReaderTest,nextIndexOfPartialMatchAtEnd,Pass
+Jsoup,35,add_test.java,org.jsoup.parser.HtmlParserTest,handlesNestedFormattingElements,Not Pass
+Jsoup,35,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesFormattingElementsWithAttributes,Not Pass
+Jsoup,35,add_test2.java,org.jsoup.parser.HtmlParserTest,handlesUnclosedFormattingInTable,Not Pass
+Jsoup,36,add_test.java,org.jsoup.helper.DataUtilTest,shouldHandleSingleQuotedCharset,Pass
+Jsoup,36,add_test1.java,org.jsoup.helper.DataUtilTest,shouldHandleMixedQuotesInCharset,Pass
+Jsoup,36,add_test2.java,org.jsoup.helper.DataUtilTest,shouldReturnNullForQuotedEmptyCharset,Pass
+Jsoup,36,add_test3.java,org.jsoup.integration.ParseTest,testHtml5CharsetWithSingleQuote,Pass
+Jsoup,37,add_test.java,org.jsoup.nodes.ElementTest,testNotPrettyWithTrailingWhitespace,Not Compilable
+Jsoup,37,add_test1.java,org.jsoup.nodes.ElementTest,testNotPrettyWithLeadingWhitespace,Not Compilable
+Jsoup,37,add_test2.java,org.jsoup.nodes.ElementTest,testPrettyPrintStillTrims,Not Compilable
+Jsoup,38,add_test.java,org.jsoup.parser.HtmlParserTest,convertsImageToImgInNestedSvg,Pass
+Jsoup,38,add_test1.java,org.jsoup.parser.HtmlParserTest,convertsImageToImgOutsideSvg,Pass
+Jsoup,39,add_test.java,org.jsoup.helper.DataUtilTest,discardsSpuriousByteOrderMarkWithCharsetInMeta,Not Pass
+Jsoup,39,add_test1.java,org.jsoup.helper.DataUtilTest,discardsSpuriousByteOrderMarkWithExplicitCharset,Not Pass
+Jsoup,40,add_test.java,org.jsoup.nodes.DocumentTypeTest,constructorAcceptsWhitespaceOnlyName,Pass
+Jsoup,40,add_test1.java,org.jsoup.nodes.DocumentTypeTest,constructorRejectsNullName,Pass
+Jsoup,40,add_test2.java,org.jsoup.parser.HtmlParserTest,handlesDoctypeWithWhitespace,Not Pass
+Jsoup,41,add_test.java,org.jsoup.nodes.ElementTest,testEqualsNullAndDifferentClass,Pass
+Jsoup,41,add_test1.java,org.jsoup.nodes.ElementTest,testEqualsSameReference,Pass
+Jsoup,41,add_test2.java,org.jsoup.nodes.ElementTest,testEqualsDifferentAttributes,Pass
+Jsoup,42,add_test.java,org.jsoup.nodes.FormElementTest,skipsDisabledSelectElement,Pass
+Jsoup,42,add_test1.java,org.jsoup.nodes.FormElementTest,skipsDisabledRadioButton,Pass
+Jsoup,42,add_test2.java,org.jsoup.nodes.FormElementTest,includesEnabledTextareaWithDisabledInput,Pass
+Jsoup,43,add_test.java,org.jsoup.nodes.ElementTest,testElementSiblingIndexWithIdenticalElements,Not Compilable
+Jsoup,43,add_test1.java,org.jsoup.nodes.ElementTest,testPreviousNextSiblingWithEqualContent,Not Compilable
+Jsoup,44,add_test.java,org.jsoup.parser.HtmlParserTest,testStartTagWithNameOnly,Not Compilable
+Jsoup,44,add_test1.java,org.jsoup.parser.HtmlParserTest,testEndTagProcessing,Not Compilable
+Jsoup,44,add_test2.java,org.jsoup.parser.HtmlParserTest,testNestedTagsWithAttributes,Not Compilable
+Jsoup,45,add_test.java,org.jsoup.parser.HtmlParserTest,testReinsertionModeForThCellsAtStackBottom,Pass
+Jsoup,45,add_test1.java,org.jsoup.parser.HtmlParserTest,testReinsertionModeForTdCells,Pass
+Jsoup,46,add_test.java,org.jsoup.nodes.DocumentTest,testNbspWithUtf8Xhtml,Pass
+Jsoup,46,add_test1.java,org.jsoup.nodes.DocumentTest,testNbspWithAsciiNonXhtml,Pass
+Jsoup,46,add_test2.java,org.jsoup.nodes.DocumentTest,testNbspWithIso88591Xhtml,Pass
+Jsoup,47,add_test.java,org.jsoup.nodes.EntitiesTest,escapesLtGtInXmlNonAttributeContent,Not Compilable
+Jsoup,47,add_test1.java,org.jsoup.nodes.EntitiesTest,doesNotEscapeGtInHtmlAttributeButEscapesInXhtml,Not Compilable
+Jsoup,48,add_test.java,org.jsoup.helper.HttpConnectionTest,singleHeaderValue,Pass
+Jsoup,48,add_test1.java,org.jsoup.helper.HttpConnectionTest,threeHeaderValuesCombine,Pass
+Jsoup,48,add_test2.java,org.jsoup.helper.HttpConnectionTest,emptyHeaderValuesList,Pass
+Jsoup,49,add_test.java,org.jsoup.nodes.ElementTest,insertChildrenAtMiddlePosition,Not Pass
+Jsoup,49,add_test1.java,org.jsoup.nodes.ElementTest,insertChildrenFromDifferentParents,Pass
+Jsoup,50,add_test.java,org.jsoup.helper.DataUtilTest,supportsUTF8BOM,Not Compilable
+Jsoup,50,add_test1.java,org.jsoup.helper.DataUtilTest,supportsNoBOM,Not Compilable
+Jsoup,50,add_test2.java,org.jsoup.helper.DataUtilTest,supportsBOMWithMetaCharset,Not Compilable
+Jsoup,51,add_test.java,org.jsoup.parser.HtmlParserTest,testSupportsNonAsciiTagsWithCyrillic,Pass
+Jsoup,51,add_test1.java,org.jsoup.parser.HtmlParserTest,testSupportsNonAsciiTagsWithArabic,Pass
+Jsoup,51,add_test2.java,org.jsoup.parser.HtmlParserTest,testSupportsNonAsciiTagsWithGreek,Pass
+Jsoup,52,add_test.java,org.jsoup.nodes.DocumentTest,testMetaCharsetUpdateXmlMultipleAttributes,Not Compilable
+Jsoup,52,add_test1.java,org.jsoup.parser.XmlTreeBuilderTest,testXmlDeclarationWithOnlyVersion,Not Compilable
+Jsoup,52,add_test2.java,org.jsoup.parser.XmlTreeBuilderTest,testParseByteDataWithNullCharset,Not Compilable
+Jsoup,53,add_test.java,org.jsoup.select.SelectorTest,attributeWithUnbalancedBracketsThrows,Not Pass
+Jsoup,53,add_test1.java,org.jsoup.select.SelectorTest,attributeWithEscapedBrackets,Pass
+Jsoup,53,add_test2.java,org.jsoup.select.SelectorTest,attributeWithNestedBrackets,Pass
+Jsoup,54,add_test.java,org.jsoup.helper.W3CDomTest,handlesAttributeNamesStartingWithInvalidCharacters,Not Compilable
+Jsoup,54,add_test1.java,org.jsoup.helper.W3CDomTest,handlesAttributeNamesBecomeEmpty,Not Compilable
+Jsoup,55,add_test.java,org.jsoup.parser.AttributeParseTest,selfClosingWithMultipleSlashes,Pass
+Jsoup,55,add_test1.java,org.jsoup.parser.AttributeParseTest,selfClosingWithSlashBeforeEOF,Not Pass
+Jsoup,55,add_test2.java,org.jsoup.parser.AttributeParseTest,selfClosingWithSlashAndSpace,Pass
+Jsoup,56,add_test.java,org.jsoup.nodes.DocumentTypeTest,testNullPublicId,Not Compilable
+Jsoup,56,add_test1.java,org.jsoup.nodes.DocumentTypeTest,testNullSystemId,Not Compilable
+Jsoup,56,add_test2.java,org.jsoup.nodes.DocumentTypeTest,testOnlySystemId,Not Compilable
+Jsoup,57,add_test.java,org.jsoup.nodes.ElementTest,testRemoveAttributeCaseInsensitive,Pass
+Jsoup,57,add_test1.java,org.jsoup.nodes.ElementTest,testRemoveMultipleSameCaseAttributes,Pass
+Jsoup,58,add_test.java,org.jsoup.safety.CleanerTest,testIsValidWithEmptyInput,Pass
+Jsoup,58,add_test1.java,org.jsoup.safety.CleanerTest,testIsValidWithWhitespaceOnly,Pass
+Jsoup,58,add_test2.java,org.jsoup.safety.CleanerTest,testIsValidWithPlainText,Pass
+Jsoup,58,add_test3.java,org.jsoup.safety.CleanerTest,testIsValidWithNestedAllowedTags,Pass
+Jsoup,58,add_test4.java,org.jsoup.safety.CleanerTest,testIsValidWithMultipleTopLevelElements,Pass
+Jsoup,58,add_test5.java,org.jsoup.safety.CleanerTest,testIsValidWithDisallowedAttribute,Pass
+Jsoup,58,add_test6.java,org.jsoup.safety.CleanerTest,testIsValidDocumentWithEmptyBody,Pass
+Jsoup,59,add_test.java,org.jsoup.parser.HtmlParserTest,handlesMultipleControlCharsInAttributeName,Pass
+Jsoup,59,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesBooleanAttributeWithOnlyControlChar,Pass
+Jsoup,59,add_test2.java,org.jsoup.safety.CleanerTest,handlesWhitespaceOnlyAttributeName,Pass
+Jsoup,61,add_test.java,org.jsoup.select.ElementsTest,hasClassWithNullClassAttribute,Pass
+Jsoup,61,add_test1.java,org.jsoup.select.ElementsTest,hasClassWithEmptyClassAttribute,Pass
+Jsoup,61,add_test2.java,org.jsoup.select.ElementsTest,hasClassWithMultipleWhitespaces,Pass
+Jsoup,62,add_test.java,org.jsoup.parser.HtmlParserTest,caseSensitiveEndTagMismatchSpecialElement,Not Compilable
+Jsoup,62,add_test1.java,org.jsoup.parser.HtmlParserTest,caseSensitiveNestedTags,Not Compilable
+Jsoup,63,add_test.java,org.jsoup.parser.HtmlParserTest,selfClosingUnknownTagNoError,Not Compilable
+Jsoup,63,add_test1.java,org.jsoup.parser.HtmlParserTest,multipleSelfClosingNonVoidTags,Not Compilable
+Jsoup,63,add_test2.java,org.jsoup.parser.HtmlParserTest,mixedSelfClosingVoidAndNonVoid,Not Compilable
+Jsoup,64,add_test.java,org.jsoup.parser.HtmlParserTest,handlesKnownEmptyScript,Not Compilable
+Jsoup,64,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesKnownEmptyTitle,Not Compilable
+Jsoup,64,add_test2.java,org.jsoup.parser.HtmlParserTest,handlesKnownEmptyTextarea,Not Compilable
+Jsoup,65,add_test.java,org.jsoup.parser.HtmlParserTest,testTemplateInTableRow,Pass
+Jsoup,65,add_test1.java,org.jsoup.parser.HtmlParserTest,testTemplateInTableBody,Pass
+Jsoup,66,add_test.java,org.jsoup.nodes.ElementTest,testCloneWithMultipleChildren,Pass
+Jsoup,66,add_test1.java,org.jsoup.nodes.ElementTest,testCloneWithNestedStructure,Pass
+Jsoup,67,add_test.java,org.jsoup.parser.HtmlParserTest,handlesDeepNestedListItems,Not Pass
+Jsoup,67,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesDeepTableStructure,Pass
+Jsoup,68,add_test.java,org.jsoup.parser.HtmlParserTest,testHandlesDeepNestedDivs,Pass
+Jsoup,68,add_test1.java,org.jsoup.parser.HtmlParserTest,testHandlesExactlyMaxScopeDepth,Pass
+Jsoup,69,add_test.java,org.jsoup.nodes.FormElementTest,addElementNotInFormShouldNotBeAdded,Pass
+Jsoup,69,add_test1.java,org.jsoup.nodes.FormElementTest,removeAndReAddFormElement,Not Pass
+Jsoup,70,add_test.java,org.jsoup.nodes.ElementTest,testKeepsPreTextAtDepthFive,Not Pass
+Jsoup,70,add_test1.java,org.jsoup.nodes.ElementTest,testDoesNotKeepPreTextAtDepthSix,Pass
+Jsoup,71,add_test.java,org.jsoup.select.SelectorTest,matchTextWithAttribute,Not Compilable
+Jsoup,71,add_test1.java,org.jsoup.select.SelectorTest,matchTextWithCombinator,Not Compilable
+Jsoup,71,add_test2.java,org.jsoup.select.SelectorTest,matchTextNthChild,Not Compilable
+Jsoup,72,add_test.java,org.jsoup.parser.CharacterReaderTest,cacheStringWithDifferentHashCollisions,Pass
+Jsoup,72,add_test1.java,org.jsoup.parser.HtmlParserTest,parseEmptyCommentLikeTag,Pass
+Jsoup,73,add_test.java,org.jsoup.helper.W3CDomTest,namespaceInheritanceWithoutPrefix,Not Compilable
+Jsoup,73,add_test1.java,org.jsoup.helper.W3CDomTest,nestedNamespaceSwitch,Not Compilable
+Jsoup,74,add_test.java,org.jsoup.nodes.ElementTest,testNormalizesMultipleConsecutiveInvisibles,Pass
+Jsoup,74,add_test1.java,org.jsoup.nodes.ElementTest,testNormalizesInvisiblesAtBoundaries,Pass
+Jsoup,74,add_test2.java,org.jsoup.nodes.ElementTest,testNormalizesInvisiblesWithWhitespace,Pass
+Jsoup,75,add_test.java,org.jsoup.nodes.ElementTest,booleanAttributeOutputEmptyString,Pass
+Jsoup,75,add_test1.java,org.jsoup.nodes.ElementTest,booleanAttributeOutputNonBooleanAttribute,Pass
+Jsoup,75,add_test2.java,org.jsoup.nodes.ElementTest,booleanAttributeOutputXmlSyntax,Pass
+Jsoup,76,add_test.java,org.jsoup.parser.HtmlParserTest,listingSkipsFirstNewline,Not Compilable
+Jsoup,76,add_test1.java,org.jsoup.parser.HtmlParserTest,textareaSkipsFirstNewline,Not Compilable
+Jsoup,76,add_test2.java,org.jsoup.parser.HtmlParserTest,preWithoutLeadingNewline,Not Compilable
+Jsoup,77,add_test.java,org.jsoup.parser.XmlTreeBuilderTest,handlesNestedMixedCaseTags,Not Compilable
+Jsoup,77,add_test1.java,org.jsoup.parser.XmlTreeBuilderTest,handlesMixedCaseWithSiblings,Not Compilable
+Jsoup,78,add_test.java,org.jsoup.integration.ConnectTest,handlesEmptyStreamWithCharsetSpecified,Not Compilable
+Jsoup,78,add_test1.java,org.jsoup.integration.ConnectTest,handlesPartialStreamWithReparse,Not Compilable
+Jsoup,79,add_test.java,org.jsoup.nodes.TextNodeTest,testLeafNodeChildNodesIsImmutable,Not Compilable
+Jsoup,79,add_test1.java,org.jsoup.nodes.TextNodeTest,testLeafNodeChildNodesMultipleCalls,Not Compilable
+Jsoup,80,add_test.java,org.jsoup.parser.XmlTreeBuilderTest,handlesXmlDeclWithClosingQuestionMark,Pass
+Jsoup,80,add_test1.java,org.jsoup.parser.XmlTreeBuilderTest,handlesBogusCommentWithExclamation,Pass
+Jsoup,80,add_test2.java,org.jsoup.parser.XmlTreeBuilderTest,handlesXmlDeclWithAttributes,Pass
+Jsoup,81,add_test.java,org.jsoup.helper.DataUtilTest,supportsXmlCharsetDeclarationWithSingleQuotes,Not Compilable
+Jsoup,81,add_test1.java,org.jsoup.helper.DataUtilTest,supportsXmlCharsetDeclarationWithSpaces,Not Compilable
+Jsoup,82,add_test.java,org.jsoup.parser.HtmlParserTest,fallbackToUtfIfCantEncodeWithHttpEquiv,Not Pass
+Jsoup,82,add_test1.java,org.jsoup.parser.HtmlParserTest,keepEncodableCharset,Not Pass
+Jsoup,83,add_test.java,org.jsoup.parser.TokeniserStateTest,handlesLessInTagNameFollowedBySlash,Not Pass
+Jsoup,83,add_test1.java,org.jsoup.parser.HtmlParserTest,handlesLessInTagNameFollowedByGreater,Not Pass
+Jsoup,83,add_test2.java,org.jsoup.parser.TokeniserStateTest,handlesLessInTagNameWithAttribute,Not Pass
+Jsoup,84,add_test.java,org.jsoup.helper.W3CDomTest,handlesMultipleUndeclaredNamespaces,Not Pass
+Jsoup,84,add_test1.java,org.jsoup.helper.W3CDomTest,handlesMixedDeclaredAndUndeclaredNamespaces,Not Pass
+Jsoup,86,add_test.java,org.jsoup.parser.XmlTreeBuilderTest,handlesShortPseudoXmlDecl,Not Compilable
+Jsoup,86,add_test1.java,org.jsoup.parser.XmlTreeBuilderTest,handlesEmptyPseudoXmlDecl,Not Compilable
+Jsoup,86,add_test2.java,org.jsoup.parser.XmlTreeBuilderTest,handlesExclamationPseudoXmlDecl,Not Compilable
+Jsoup,87,add_test.java,org.jsoup.parser.HtmlParserTest,preservedCaseFormattingElementsWithNestedSpecialElements,Not Pass
+Jsoup,87,add_test1.java,org.jsoup.parser.HtmlParserTest,preservedCaseMultipleFormattingElementsAdoptionAgency,Not Pass
+Jsoup,88,add_test.java,org.jsoup.nodes.AttributeTest,nullValueAttributesReturnEmptyString,Not Compilable
+Jsoup,88,add_test1.java,org.jsoup.nodes.AttributeTest,explicitEmptyStringValuePreserved,Not Compilable
+Jsoup,88,add_test2.java,org.jsoup.nodes.AttributeTest,nonEmptyValuePreserved,Not Compilable
+Jsoup,89,add_test.java,org.jsoup.nodes.AttributeTest,setValueOnAttributeWithParent,Not Compilable
+Jsoup,89,add_test1.java,org.jsoup.nodes.AttributeTest,setValueMultipleTimesOnOrphanAttribute,Not Compilable
+Jsoup,90,add_test.java,org.jsoup.helper.HttpConnectionTest,handlesHeaderEncodingOnRequestWithTruncatedUtf8,Pass
+Jsoup,90,add_test1.java,org.jsoup.helper.HttpConnectionTest,handlesHeaderEncodingOnRequestWithThreeByteUtf8,Pass
+Jsoup,90,add_test2.java,org.jsoup.helper.HttpConnectionTest,handlesHeaderEncodingOnRequestWithFourByteUtf8,Pass
+Jsoup,91,add_test.java,org.jsoup.integration.ConnectTest,testBinaryExceptionMessagePreserved,Not Compilable
+Jsoup,91,add_test1.java,org.jsoup.integration.ParseTest,testBinaryExceptionCauseChain,Not Compilable
+Jsoup,92,add_test.java,org.jsoup.parser.HtmlParserTest,dropsDuplicateAttributesWithEmptyValues,Not Compilable
+Jsoup,92,add_test1.java,org.jsoup.parser.XmlTreeBuilderTest,dropsDuplicateAttributesWithNullValues,Not Compilable
+Jsoup,92,add_test2.java,org.jsoup.parser.HtmlParserTest,dropsDuplicateAttributesMixedCase,Not Compilable
+Jsoup,93,add_test.java,org.jsoup.nodes.FormElementTest,excludesSubmitAndResetTypes,Pass
+Jsoup,93,add_test1.java,org.jsoup.nodes.FormElementTest,handlesEmptySelectWithoutOptions,Pass
+Jsoup,93,add_test2.java,org.jsoup.nodes.FormElementTest,handlesRadioWithoutChecked,Pass

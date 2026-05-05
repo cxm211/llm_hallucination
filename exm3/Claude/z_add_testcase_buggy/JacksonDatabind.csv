@@ -1,0 +1,221 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JacksonDatabind,1,add_test.java,com.fasterxml.jackson.databind.struct.TestPOJOAsArray,testEmptyValueSuppression,Not Compilable
+JacksonDatabind,1,add_test1.java,com.fasterxml.jackson.databind.struct.TestPOJOAsArray,testCustomNullSerializer,Not Compilable
+JacksonDatabind,1,add_test2.java,com.fasterxml.jackson.databind.struct.TestPOJOAsArray,testDefaultValueSuppression,Not Compilable
+JacksonDatabind,2,add_test.java,com.fasterxml.jackson.databind.node.TestConversions,testConversionOfPojosWithNullValue,Not Pass
+JacksonDatabind,2,add_test1.java,com.fasterxml.jackson.databind.node.TestConversions,testConversionOfPojosWithNegativeValue,Not Pass
+JacksonDatabind,3,add_test.java,com.fasterxml.jackson.databind.deser.TestArrayDeserialization,testStringArrayMultipleNulls,Not Pass
+JacksonDatabind,3,add_test1.java,com.fasterxml.jackson.databind.deser.TestArrayDeserialization,testStringArrayMixedNullsAndStrings,Not Pass
+JacksonDatabind,4,add_test.java,com.fasterxml.jackson.databind.deser.TestCollectionDeserialization,testArrayIndexForExceptionsAtIndex0,Not Pass
+JacksonDatabind,4,add_test1.java,com.fasterxml.jackson.databind.deser.TestCollectionDeserialization,testArrayIndexForExceptionsAtIndex2,Not Pass
+JacksonDatabind,5,add_test.java,com.fasterxml.jackson.databind.introspect.TestMixinMerging,testMultiLevelMixinMerge,Not Pass
+JacksonDatabind,6,add_test.java,com.fasterxml.jackson.databind.deser.TestDateDeserialization,testISO8601MissingSecondsAndMilliseconds,Not Pass
+JacksonDatabind,6,add_test1.java,com.fasterxml.jackson.databind.deser.TestDateDeserialization,testISO8601SingleDigitMilliseconds,Not Pass
+JacksonDatabind,7,add_test.java,com.fasterxml.jackson.databind.creators.TestCreatorsDelegating,testDelegateWithTokenBufferStartArray,Pass
+JacksonDatabind,7,add_test1.java,com.fasterxml.jackson.databind.creators.TestCreatorsDelegating,testDelegateWithTokenBufferEmptyObject,Not Pass
+JacksonDatabind,7,add_test2.java,com.fasterxml.jackson.databind.creators.TestCreatorsDelegating,testDelegateWithTokenBufferNestedObject,Not Pass
+JacksonDatabind,8,add_test.java,com.fasterxml.jackson.databind.deser.TestJdkTypes,testStringBuilderWithWhitespace,Not Pass
+JacksonDatabind,8,add_test1.java,com.fasterxml.jackson.databind.deser.TestJdkTypes,testEmptyStringBuilder,Not Pass
+JacksonDatabind,9,add_test.java,com.fasterxml.jackson.databind.ser.TestMapSerialization,testMultipleClassKeys,Not Pass
+JacksonDatabind,9,add_test1.java,com.fasterxml.jackson.databind.ser.TestMapSerialization,testPrimitiveClassKeys,Pass
+JacksonDatabind,9,add_test2.java,com.fasterxml.jackson.databind.ser.TestMapSerialization,testArrayClassKey,Not Pass
+JacksonDatabind,10,add_test.java,com.fasterxml.jackson.databind.ser.TestAnyGetter,testIssue705WithNullValue,Not Pass
+JacksonDatabind,10,add_test1.java,com.fasterxml.jackson.databind.ser.TestAnyGetter,testIssue705WithEmptyKey,Not Pass
+JacksonDatabind,11,add_test.java,com.fasterxml.jackson.databind.type.TestJavaType,testRecursiveTypeVariable,Not Pass
+JacksonDatabind,11,add_test1.java,com.fasterxml.jackson.databind.type.TestLocalType609,testNestedGenericTypes,Pass
+JacksonDatabind,12,add_test.java,com.fasterxml.jackson.databind.deser.TestCustomDeserializers,testCustomMapKeyDeser735,Not Pass
+JacksonDatabind,12,add_test1.java,com.fasterxml.jackson.databind.deser.TestCustomDeserializers,testCustomMapDeserWithNullKeyDeser735,Not Pass
+JacksonDatabind,13,add_test.java,com.fasterxml.jackson.databind.struct.TestObjectIdDeserialization,testNullObjectIdWithoutIdProperty,Not Pass
+JacksonDatabind,13,add_test1.java,com.fasterxml.jackson.databind.struct.TestObjectIdDeserialization,testNullObjectIdWithReference,Not Pass
+JacksonDatabind,14,add_test.java,com.fasterxml.jackson.databind.convert.TestUpdateValue,testTreeToValueWithNullNode,Not Compilable
+JacksonDatabind,14,add_test1.java,com.fasterxml.jackson.databind.convert.TestUpdateValue,testUpdateWithEmptyArray,Not Compilable
+JacksonDatabind,15,add_test.java,com.fasterxml.jackson.databind.convert.TestConvertingSerializer,testIssue731WithNestedConverter,Not Pass
+JacksonDatabind,15,add_test1.java,com.fasterxml.jackson.databind.convert.TestConvertingSerializer,testIssue731WithNullDelegateValue,Not Pass
+JacksonDatabind,16,add_test.java,com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest,testMixinWithBundlesMultipleAnnotations,Not Pass
+JacksonDatabind,16,add_test1.java,com.fasterxml.jackson.databind.mixins.MixinsWithBundlesTest,testMixinWithBundlesDifferentAnnotations,Not Pass
+JacksonDatabind,17,add_test.java,com.fasterxml.jackson.databind.node.TestJsonNode,testNestedArrayWithDefaultTyping,Not Pass
+JacksonDatabind,17,add_test1.java,com.fasterxml.jackson.databind.node.TestJsonNode,testObjectNodeWithDefaultTyping,Not Pass
+JacksonDatabind,18,add_test.java,com.fasterxml.jackson.databind.seq.ReadRecoveryTest,testArrayRecoveryWithMultipleErrors,Not Pass
+JacksonDatabind,18,add_test1.java,com.fasterxml.jackson.databind.seq.ReadRecoveryTest,testRootRecoveryWithComplexNesting,Not Pass
+JacksonDatabind,19,add_test.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testPropertiesSubclass,Pass
+JacksonDatabind,19,add_test1.java,com.fasterxml.jackson.databind.deser.TestMapDeserialization,testPropertiesWithNonStringKeys,Not Pass
+JacksonDatabind,19,add_test2.java,com.fasterxml.jackson.databind.convert.TestMapConversions,testPropertiesToMap,Pass
+JacksonDatabind,20,add_test.java,com.fasterxml.jackson.databind.introspect.TestNamingStrategyStd,testNamingWithEmptyObjectNode,Not Pass
+JacksonDatabind,20,add_test1.java,com.fasterxml.jackson.databind.introspect.TestNamingStrategyStd,testNamingWithNullValueInObjectNode,Not Pass
+JacksonDatabind,21,add_test.java,com.fasterxml.jackson.databind.deser.TestEnumDeserialization,testEnumWithNullAnnotation,Not Pass
+JacksonDatabind,21,add_test1.java,com.fasterxml.jackson.databind.deser.TestEnumDeserialization,testEnumWithNonBundleAnnotation,Pass
+JacksonDatabind,22,add_test.java,com.fasterxml.jackson.databind.ser.TestJsonValue,testCustomSerializerForMapLikeType,Not Compilable
+JacksonDatabind,22,add_test1.java,com.fasterxml.jackson.databind.ser.TestJsonValue,testCustomSerializerForCollectionLikeType,Not Compilable
+JacksonDatabind,23,add_test.java,com.fasterxml.jackson.databind.ser.TestJsonSerialize2,testEmptyInclusionPrimitiveTypes,Not Pass
+JacksonDatabind,24,add_test.java,com.fasterxml.jackson.databind.ser.TestConfig,testDateFormatConfigWithNullDateFormat,Pass
+JacksonDatabind,24,add_test1.java,com.fasterxml.jackson.databind.ser.TestConfig,testDateFormatConfigWithSameDateFormat,Not Pass
+JacksonDatabind,25,add_test.java,com.fasterxml.jackson.databind.deser.TestArrayDeserialization,testByteArrayContentDeserializerWithNull,Not Compilable
+JacksonDatabind,25,add_test1.java,com.fasterxml.jackson.databind.deser.TestArrayDeserialization,testByteArrayContentDeserializerWithEmptyString,Not Compilable
+JacksonDatabind,27,add_test.java,com.fasterxml.jackson.databind.jsontype.TestExternalId,testExternalIdWithMultiplePropertiesReordered,Pass
+JacksonDatabind,27,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestExternalId,testExternalIdAsLastProperty,Pass
+JacksonDatabind,28,add_test.java,com.fasterxml.jackson.databind.node.TestObjectNode,testEmptyObjectWithNullValue,Not Compilable
+JacksonDatabind,28,add_test1.java,com.fasterxml.jackson.databind.node.TestObjectNode,testEmptyObjectNestedInArray,Not Compilable
+JacksonDatabind,29,add_test.java,com.fasterxml.jackson.databind.jsontype.TestExternalId,testExternalTypeIdWithNullAndMultipleFields,Not Pass
+JacksonDatabind,29,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestExternalId,testExternalTypeIdWithNonNullValue,Pass
+JacksonDatabind,30,add_test.java,com.fasterxml.jackson.databind.jsontype.TestExternalId,testBigDecimalWithNaN,Pass
+JacksonDatabind,30,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestExternalId,testBigDecimalWithFloat,Pass
+JacksonDatabind,31,add_test.java,com.fasterxml.jackson.databind.util.TestTokenBuffer,testTokensWithoutValue,Not Pass
+JacksonDatabind,32,add_test.java,com.fasterxml.jackson.databind.deser.TestUntypedDeserialization,testNestedUntyped989_AdditionalEmptyArray,Pass
+JacksonDatabind,32,add_test1.java,com.fasterxml.jackson.databind.deser.TestUntypedDeserialization,testNestedUntyped989_AdditionalEmptyObjectInMap,Pass
+JacksonDatabind,33,add_test.java,com.fasterxml.jackson.databind.struct.TestUnwrapped,testUnwrappedWithJsonGetter,Pass
+JacksonDatabind,33,add_test1.java,com.fasterxml.jackson.databind.struct.TestUnwrapped,testUnwrappedWithJsonProperty,Pass
+JacksonDatabind,34,add_test.java,com.fasterxml.jackson.databind.jsonschema.NewSchemaTest,testBigDecimalWithNullWrapper,Not Compilable
+JacksonDatabind,34,add_test1.java,com.fasterxml.jackson.databind.jsonschema.NewSchemaTest,testBigIntegerFormat,Not Compilable
+JacksonDatabind,35,add_test.java,com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest,testEmptyCompany,Pass
+JacksonDatabind,35,add_test1.java,com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest,testSingleComputer,Not Pass
+JacksonDatabind,36,add_test.java,com.fasterxml.jackson.databind.TestStdDateFormat,testLenientWithTimeZoneChange,Not Pass
+JacksonDatabind,36,add_test1.java,com.fasterxml.jackson.databind.TestStdDateFormat,testLenientWithLocaleChange,Not Pass
+JacksonDatabind,37,add_test.java,com.fasterxml.jackson.databind.objectid.Objecid1083Test,testNarrowWithSubclass,Not Pass
+JacksonDatabind,37,add_test1.java,com.fasterxml.jackson.databind.objectid.Objecid1083Test,testNarrowWithEmptyArray,Pass
+JacksonDatabind,38,add_test.java,com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test,testNestedCollectionType,Not Pass
+JacksonDatabind,38,add_test1.java,com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test,testMapWithComplexValue,Pass
+JacksonDatabind,38,add_test2.java,com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test,testEmptyCollectionType,Pass
+JacksonDatabind,39,add_test.java,com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl,testUnknownTypeIDRecoveryWithNestedObject,Not Pass
+JacksonDatabind,39,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl,testUnknownTypeIDRecoveryWithArrayValue,Not Pass
+JacksonDatabind,41,add_test.java,com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test,testDeprecatedTypeResolutionWithPrimitives,Not Pass
+JacksonDatabind,41,add_test1.java,com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test,testDeprecatedTypeResolutionWithGenerics,Not Pass
+JacksonDatabind,42,add_test.java,com.fasterxml.jackson.databind.deser.TestJdkTypes,testLocaleEmptyStringVariants,Not Pass
+JacksonDatabind,42,add_test1.java,com.fasterxml.jackson.databind.deser.TestJdkTypes,testURIEmptyString,Pass
+JacksonDatabind,43,add_test.java,com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization,testNullNumericPropertyId,Not Compilable
+JacksonDatabind,43,add_test1.java,com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization,testValidPropertyIdAfterNull,Not Compilable
+JacksonDatabind,44,add_test.java,com.fasterxml.jackson.databind.jsontype.TestSubtypes,testNarrowWithSameClass,Not Pass
+JacksonDatabind,44,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestSubtypes,testNarrowWithDifferentSubclass,Not Pass
+JacksonDatabind,45,add_test.java,com.fasterxml.jackson.databind.ser.DateSerializationTest,testDateWithCombinedPatternAndLocale,Not Pass
+JacksonDatabind,45,add_test1.java,com.fasterxml.jackson.databind.ser.DateSerializationTest,testDateWithCombinedPatternAndTimezone,Not Pass
+JacksonDatabind,45,add_test2.java,com.fasterxml.jackson.databind.ser.DateSerializationTest,testDateWithLocaleAndTimezone,Not Pass
+JacksonDatabind,46,add_test.java,com.fasterxml.jackson.databind.type.TestJavaType,testGenericSignatureNestedGenerics,Not Pass
+JacksonDatabind,46,add_test1.java,com.fasterxml.jackson.databind.type.TestJavaType,testGenericSignatureComplexNesting,Not Pass
+JacksonDatabind,47,add_test.java,com.fasterxml.jackson.databind.ser.TestJsonSerialize,testGeneralizedAnnotation,Not Pass
+JacksonDatabind,47,add_test1.java,com.fasterxml.jackson.databind.ser.TestJsonSerialize,testSpecializedAnnotation,Not Pass
+JacksonDatabind,48,add_test.java,com.fasterxml.jackson.databind.ser.TestFeatures,testVisibilityFeaturesGettersOnly,Pass
+JacksonDatabind,48,add_test1.java,com.fasterxml.jackson.databind.ser.TestFeatures,testVisibilityFeaturesIsGettersOnly,Pass
+JacksonDatabind,48,add_test2.java,com.fasterxml.jackson.databind.ser.TestFeatures,testVisibilityFeaturesCreatorsOnly,Pass
+JacksonDatabind,49,add_test.java,com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest,testMultipleReferencesToSameObject,Not Compilable
+JacksonDatabind,49,add_test1.java,com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest,testMultipleDistinctObjects,Not Compilable
+JacksonDatabind,50,add_test.java,com.fasterxml.jackson.databind.objectid.ObjectWithCreator1261Test,testObjectIdsWithBuildException,Not Compilable
+JacksonDatabind,50,add_test1.java,com.fasterxml.jackson.databind.objectid.ObjectWithCreator1261Test,testObjectIdsMinimalProperties,Not Compilable
+JacksonDatabind,51,add_test.java,com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver,testPolymorphicTypeViaCustomWithoutGenerics,Not Pass
+JacksonDatabind,51,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver,testPolymorphicTypeViaCustomWithDifferentTypeClass,Not Pass
+JacksonDatabind,52,add_test.java,com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId999Test,testExternalTypeIdWithMultipleProperties,Not Pass
+JacksonDatabind,52,add_test1.java,com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId999Test,testExternalTypeIdWithEmptyPayload,Not Pass
+JacksonDatabind,53,add_test.java,com.fasterxml.jackson.databind.jsontype.TypeRefinementForMap1215Test,testMapRefinementWithTreeMap,Not Compilable
+JacksonDatabind,53,add_test1.java,com.fasterxml.jackson.databind.jsontype.TypeRefinementForMap1215Test,testMapRefinementWithEnumMap,Not Compilable
+JacksonDatabind,54,add_test.java,com.fasterxml.jackson.databind.deser.TestJDKAtomicTypes,testNonAbsentWithNonNullAtomicReference,Not Compilable
+JacksonDatabind,54,add_test1.java,com.fasterxml.jackson.databind.deser.TestJDKAtomicTypes,testNonAbsentWithPresentAtomicReference,Not Compilable
+JacksonDatabind,55,add_test.java,com.fasterxml.jackson.databind.ser.TestEnumSerialization,testEnumsWithoutJsonPropertyAsKey,Not Compilable
+JacksonDatabind,55,add_test1.java,com.fasterxml.jackson.databind.ser.TestEnumSerialization,testRawEnumClassAsKey,Not Compilable
+JacksonDatabind,56,add_test.java,com.fasterxml.jackson.databind.deser.TestJdkTypes,testLocaleWithHyphens,Not Pass
+JacksonDatabind,56,add_test1.java,com.fasterxml.jackson.databind.deser.TestJdkTypes,testLocaleMixedSeparators,Not Pass
+JacksonDatabind,57,add_test.java,com.fasterxml.jackson.databind.seq.ReadValuesTest,testRootBeansWithOffset,Not Pass
+JacksonDatabind,57,add_test1.java,com.fasterxml.jackson.databind.seq.ReadValuesTest,testRootBeansWithSubarray,Not Pass
+JacksonDatabind,58,add_test.java,com.fasterxml.jackson.databind.misc.AccessFixTest,testCauseOfThrowableIgnoralSubclass,Not Pass
+JacksonDatabind,58,add_test1.java,com.fasterxml.jackson.databind.misc.AccessFixTest,testNonCausePropertyOfThrowable,Not Pass
+JacksonDatabind,59,add_test.java,com.fasterxml.jackson.databind.jsontype.TypeRefinementForMapTest,testMapKeyRefinementWithLinkedHashMap,Not Pass
+JacksonDatabind,59,add_test1.java,com.fasterxml.jackson.databind.jsontype.TypeRefinementForMapTest,testMapKeyRefinementWithTreeMap,Not Pass
+JacksonDatabind,60,add_test.java,com.fasterxml.jackson.databind.jsontype.TestDefaultWithCreators,testWithCreatorAndJsonValueNullValue,Pass
+JacksonDatabind,60,add_test1.java,com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest,testWithAsValueEmptyArray,Not Pass
+JacksonDatabind,61,add_test.java,com.fasterxml.jackson.databind.jsontype.DefaultTypingWithPrimitivesTest,testDefaultTypingWithInt,Pass
+JacksonDatabind,61,add_test1.java,com.fasterxml.jackson.databind.jsontype.DefaultTypingWithPrimitivesTest,testDefaultTypingWithBoolean,Pass
+JacksonDatabind,61,add_test2.java,com.fasterxml.jackson.databind.jsontype.DefaultTypingWithPrimitivesTest,testDefaultTypingWithDouble,Pass
+JacksonDatabind,62,add_test.java,com.fasterxml.jackson.databind.creators.ArrayDelegatorCreatorForCollectionTest,testUnmodifiableWithArrayDelegate,Not Compilable
+JacksonDatabind,63,add_test.java,com.fasterxml.jackson.databind.deser.exc.ExceptionPathTest,testReferenceChainForNestedInnerClass,Not Pass
+JacksonDatabind,63,add_test1.java,com.fasterxml.jackson.databind.deser.exc.ExceptionPathTest,testReferenceChainForTopLevelClass,Not Pass
+JacksonDatabind,64,add_test.java,com.fasterxml.jackson.databind.filter.JsonIncludeTest,testIssue1351AdditionalCoverage,Not Pass
+JacksonDatabind,66,add_test.java,com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer,testCustomEnumKeyDeserializerWithNullKey,Not Compilable
+JacksonDatabind,66,add_test1.java,com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer,testCustomEnumKeyDeserializerWithMultipleKeys,Not Compilable
+JacksonDatabind,67,add_test.java,com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer,testEnumKeyWithoutModifier,Not Compilable
+JacksonDatabind,67,add_test1.java,com.fasterxml.jackson.databind.module.TestCustomEnumKeyDeserializer,testNonEnumKeyWithModifier,Not Compilable
+JacksonDatabind,68,add_test.java,com.fasterxml.jackson.databind.struct.SingleValueAsArrayTest,testSuccessfulDeserializationWithArrayDelegateAndInjectables,Not Pass
+JacksonDatabind,69,add_test.java,com.fasterxml.jackson.databind.creators.Creator1476Test,testDelegatingConstructorChoice,Not Compilable
+JacksonDatabind,69,add_test1.java,com.fasterxml.jackson.databind.creators.Creator1476Test,testArrayDelegatingConstructor,Not Compilable
+JacksonDatabind,70,add_test.java,com.fasterxml.jackson.databind.struct.TestUnwrapped,testRemovePropertyCaseInsensitive,Not Compilable
+JacksonDatabind,70,add_test1.java,com.fasterxml.jackson.databind.struct.TestUnwrapped,testRemovePropertyWithMultipleProps,Not Compilable
+JacksonDatabind,71,add_test.java,com.fasterxml.jackson.databind.deser.TestMapDeserialization,testObjectKeyMap,Pass
+JacksonDatabind,71,add_test1.java,com.fasterxml.jackson.databind.deser.TestMapDeserialization,testEmptyCharSequenceKeyMap,Not Pass
+JacksonDatabind,73,add_test.java,com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest,testAutoAccessWithInferMutatorsDisabled,Not Pass
+JacksonDatabind,73,add_test1.java,com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest,testWriteOnlyProperty,Pass
+JacksonDatabind,74,add_test.java,com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl,testWithNonEmptyStringWithoutDefaultImpl,Pass
+JacksonDatabind,74,add_test1.java,com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl,testWithEmptyStringAsNullObjectDisabled,Pass
+JacksonDatabind,75,add_test.java,com.fasterxml.jackson.databind.struct.EnumFormatShapeTest,testEnumPropertyAsString,Not Compilable
+JacksonDatabind,75,add_test1.java,com.fasterxml.jackson.databind.struct.EnumFormatShapeTest,testEnumClassLevelAnnotation,Not Compilable
+JacksonDatabind,76,add_test.java,com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest,testWithUnwrappedAndCreatorSingleParameterAtEnd,Not Compilable
+JacksonDatabind,76,add_test1.java,com.fasterxml.jackson.databind.deser.builder.BuilderWithUnwrappedTest,testWithUnwrappedAndCreatorMultipleParametersAtEnd,Not Compilable
+JacksonDatabind,77,add_test.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testIllegalTypeWithNestedObject,Not Pass
+JacksonDatabind,77,add_test1.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testIllegalTypeInArray,Not Pass
+JacksonDatabind,78,add_test.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testIssue1599AdditionalBlocked,Not Pass
+JacksonDatabind,78,add_test1.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testIssue1599WithAbstractType,Not Pass
+JacksonDatabind,79,add_test.java,com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest,testObjectIdWithoutReferenceAnnotation,Pass
+JacksonDatabind,79,add_test1.java,com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest,testObjectIdReferenceWithFalseFlag,Pass
+JacksonDatabind,80,add_test.java,com.fasterxml.jackson.databind.jsontype.TestTypeNames,testBaseTypeIdWithNullPropertyClass,Not Compilable
+JacksonDatabind,81,add_test.java,com.fasterxml.jackson.databind.introspect.TypeCoercion1592Test,testTypeCoercionWithPrimitiveWrapperInMapKey,Not Compilable
+JacksonDatabind,81,add_test1.java,com.fasterxml.jackson.databind.introspect.TypeCoercion1592Test,testTypeCoercionWithPrimitiveWrapperInCollectionContent,Not Compilable
+JacksonDatabind,82,add_test.java,com.fasterxml.jackson.databind.filter.IgnorePropertyOnDeserTest,testIgnoreGetterWithSetterNotIgnored,Not Compilable
+JacksonDatabind,82,add_test1.java,com.fasterxml.jackson.databind.filter.IgnorePropertyOnDeserTest,testIgnoreGetterWithFieldSetter,Not Compilable
+JacksonDatabind,83,add_test.java,com.fasterxml.jackson.databind.filter.ProblemHandlerTest,testWeirdStringHandlingWithValidValue,Pass
+JacksonDatabind,83,add_test1.java,com.fasterxml.jackson.databind.filter.ProblemHandlerTest,testWeirdStringHandlingNullReturnFromDeserialize,Not Pass
+JacksonDatabind,84,add_test.java,com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes,testBasePropertiesIncludedWhenSerializingBaseWhenBaseTypeLoadedMultipleTimes,Pass
+JacksonDatabind,84,add_test1.java,com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes,testSubPropertiesIncludedWhenSerializingSubWhenSubTypeLoadedMultipleTimes,Not Pass
+JacksonDatabind,84,add_test2.java,com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes,testBasePropertiesIncludedWhenSerializingSubWhenBothTypesLoadedMultipleTimes,Not Pass
+JacksonDatabind,85,add_test.java,com.fasterxml.jackson.databind.ser.DateSerializationTest,testFormatWithExplicitTimezone,Not Pass
+JacksonDatabind,85,add_test1.java,com.fasterxml.jackson.databind.ser.DateSerializationTest,testFormatWithLocale,Pass
+JacksonDatabind,85,add_test2.java,com.fasterxml.jackson.databind.ser.DateSerializationTest,testFormatWithDefaultSettings,Not Pass
+JacksonDatabind,86,add_test.java,com.fasterxml.jackson.databind.type.RecursiveTypeTest,testMultipleConstructionOfSameRecursiveType,Pass
+JacksonDatabind,86,add_test1.java,com.fasterxml.jackson.databind.type.TestTypeFactoryWithRecursiveTypes,testRepeatedSubTypeConstruction,Not Pass
+JacksonDatabind,87,add_test.java,com.fasterxml.jackson.databind.deser.TestDateDeserialization,testDateUtilISO8601NoTimezoneCase11,Not Pass
+JacksonDatabind,87,add_test1.java,com.fasterxml.jackson.databind.deser.TestDateDeserialization,testDateUtilISO8601NoTimezoneCase10,Not Pass
+JacksonDatabind,88,add_test.java,com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test,testNestedTypeCheckWithSubtype,Not Pass
+JacksonDatabind,88,add_test1.java,com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test,testNestedTypeCheckWithComplexGenerics,Not Pass
+JacksonDatabind,88,add_test2.java,com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test,testNestedTypeCheckWithoutGenerics,Not Pass
+JacksonDatabind,90,add_test.java,com.fasterxml.jackson.databind.creators.DelegatingArrayCreator1804Test,testDelegatingArrayWithValues1804,Not Pass
+JacksonDatabind,90,add_test1.java,com.fasterxml.jackson.databind.creators.DelegatingArrayCreator1804Test,testDelegatingArrayNull1804,Pass
+JacksonDatabind,91,add_test.java,com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest,testCustomValueDeserializer,Not Compilable
+JacksonDatabind,91,add_test1.java,com.fasterxml.jackson.databind.deser.jdk.MapDeserializerCachingTest,testMapWithBothKeyAndValueHandlers,Not Compilable
+JacksonDatabind,93,add_test.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testJDKTypes1872_Interface,Pass
+JacksonDatabind,93,add_test1.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testJDKTypes1872_SpringClassHierarchy,Not Pass
+JacksonDatabind,94,add_test.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testC3P0JndiRefForwardingDataSource,Not Compilable
+JacksonDatabind,94,add_test1.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testC3P0WrapperConnectionPoolDataSource,Not Compilable
+JacksonDatabind,94,add_test2.java,com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest,testC3P0DebugAfterCloseLoggingComboPooledDataSource,Not Compilable
+JacksonDatabind,95,add_test.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testConstructSpecializedTypeForEnumSet,Pass
+JacksonDatabind,95,add_test1.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testConstructSpecializedTypeForHashMap,Pass
+JacksonDatabind,95,add_test2.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testConstructSpecializedTypeForArrayList,Pass
+JacksonDatabind,96,add_test.java,com.fasterxml.jackson.databind.deser.creators.CreatorWithNamingStrategyTest,testSnakeCaseWithOneArgWriteOnly,Not Compilable
+JacksonDatabind,96,add_test1.java,com.fasterxml.jackson.databind.deser.creators.CreatorWithNamingStrategyTest,testSnakeCaseWithOneArgNoAccessors,Not Compilable
+JacksonDatabind,97,add_test.java,com.fasterxml.jackson.databind.node.POJONodeTest,testPOJONodeWithNullValue,Not Compilable
+JacksonDatabind,97,add_test1.java,com.fasterxml.jackson.databind.node.POJONodeTest,testPOJONodeWithJsonSerializable,Not Compilable
+JacksonDatabind,97,add_test2.java,com.fasterxml.jackson.databind.node.POJONodeTest,testPOJONodeWithSimpleValue,Not Compilable
+JacksonDatabind,98,add_test.java,com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test,testEnumTypeIdWithMultipleItems,Not Compilable
+JacksonDatabind,98,add_test1.java,com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test,testEnumTypeIdSingleObject,Not Compilable
+JacksonDatabind,99,add_test.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testCanonicalNamesAdditional1,Pass
+JacksonDatabind,99,add_test1.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testCanonicalNamesAdditional2,Not Pass
+JacksonDatabind,99,add_test2.java,com.fasterxml.jackson.databind.type.TestTypeFactory,testCanonicalNamesAdditional3,Pass
+JacksonDatabind,100,add_test.java,com.fasterxml.jackson.databind.node.TestConversions,testBase64WithDifferentVariants,Pass
+JacksonDatabind,100,add_test1.java,com.fasterxml.jackson.databind.node.TestConversions,testBase64EmptyData,Pass
+JacksonDatabind,100,add_test2.java,com.fasterxml.jackson.databind.node.TestConversions,testBase64LargeData,Not Pass
+JacksonDatabind,101,add_test.java,com.fasterxml.jackson.databind.struct.TestUnwrapped,testIssue2088UnwrappedFieldsOnlyBeforeCreatorProps,Pass
+JacksonDatabind,101,add_test1.java,com.fasterxml.jackson.databind.struct.TestUnwrapped,testIssue2088UnwrappedFieldsBeforeAndAfterFirstCreatorProp,Pass
+JacksonDatabind,102,add_test.java,com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest,testSqlDateConfigOverrideWithLocale,Not Compilable
+JacksonDatabind,102,add_test1.java,com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest,testSqlDateConfigOverrideWithTimeZone,Not Compilable
+JacksonDatabind,102,add_test2.java,com.fasterxml.jackson.databind.ser.jdk.SqlDateSerializationTest,testSqlDateConfigOverrideNumericShape,Not Compilable
+JacksonDatabind,103,add_test.java,com.fasterxml.jackson.databind.exc.BasicExceptionTest,testExceptionMessageWithNullCause,Pass
+JacksonDatabind,104,add_test.java,com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest,testDateISO8601_EdgeCases,Not Pass
+JacksonDatabind,105,add_test.java,com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest,testVoidDeserNull,Pass
+JacksonDatabind,105,add_test1.java,com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest,testVoidDeserString,Not Pass
+JacksonDatabind,106,add_test.java,com.fasterxml.jackson.databind.node.TestTreeTraversingParser,testNumberOverflowIntNegative,Not Pass
+JacksonDatabind,106,add_test1.java,com.fasterxml.jackson.databind.node.TestTreeTraversingParser,testNumberOverflowLongNegative,Not Pass
+JacksonDatabind,106,add_test2.java,com.fasterxml.jackson.databind.node.TestTreeTraversingParser,testNumberValidIntFromLong,Not Pass
+JacksonDatabind,107,add_test.java,com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test,testWithoutDeserializationProblemHandler,Not Compilable
+JacksonDatabind,107,add_test1.java,com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test,testHandlerReturnsNull,Not Compilable
+JacksonDatabind,108,add_test.java,com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest,testNullNodeFromExplicitNullWithParser,Pass
+JacksonDatabind,108,add_test1.java,com.fasterxml.jackson.databind.node.EmptyContentAsTreeTest,testNonEmptyTreeWithParser,Pass
+JacksonDatabind,109,add_test.java,com.fasterxml.jackson.databind.ser.jdk.BigDecimalPlain2230Test,testBigIntegerWithStringShapeFormat,Not Compilable
+JacksonDatabind,109,add_test1.java,com.fasterxml.jackson.databind.ser.jdk.BigDecimalPlain2230Test,testBigDecimalWithoutStringShape,Not Compilable
+JacksonDatabind,110,add_test.java,com.fasterxml.jackson.databind.deser.jdk.UtilCollectionsTypesTest,testUnmodifiableListFromArrayList,Pass
+JacksonDatabind,110,add_test1.java,com.fasterxml.jackson.databind.deser.jdk.UtilCollectionsTypesTest,testUnmodifiableSetFromLinkedHashSet,Pass
+JacksonDatabind,111,add_test.java,com.fasterxml.jackson.databind.deser.jdk.JDKAtomicTypesDeserTest,testNullWithinNestedDifferentNullProvider,Not Pass
+JacksonDatabind,112,add_test.java,com.fasterxml.jackson.databind.deser.creators.DelegatingArrayCreator2324Test,testDeserializeBagOfStringsWithArrayDelegate,Not Compilable
+JacksonDatabind,112,add_test1.java,com.fasterxml.jackson.databind.deser.creators.DelegatingArrayCreator2324Test,testDeserializeEmptyBagWithArrayDelegate,Not Compilable

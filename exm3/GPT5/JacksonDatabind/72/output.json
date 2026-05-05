@@ -1,0 +1,6 @@
+{
+  "fixed_code": [
+    "public int getPropertyIndex() { return (_delegate == null) ? -1 : _delegate.getPropertyIndex(); }"
+  ],
+  "additional_testcases": []
+}

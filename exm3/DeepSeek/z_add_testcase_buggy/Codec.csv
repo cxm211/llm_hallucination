@@ -1,0 +1,23 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Codec,1,add_test.java,org.apache.commons.codec.StringEncoderAbstractTest,testCaverphoneLocaleIndependence,Pass
+Codec,1,add_test1.java,org.apache.commons.codec.StringEncoderAbstractTest,testSoundexCleanLocaleIndependence,Pass
+Codec,2,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testBase64ThreeBytesNoLineBreak,Not Pass
+Codec,2,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testBase64ThreeBytesWithLineBreak,Not Pass
+Codec,3,add_test.java,org.apache.commons.codec.language.DoubleMetaphone2Test,testGierNotAtStart,Not Pass
+Codec,4,add_test.java,org.apache.commons.codec.binary.Base64Codec13Test,testLongInputNoLineBreaks,Not Pass
+Codec,5,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testDecodePartialGroups,Not Pass
+Codec,5,add_test1.java,org.apache.commons.codec.binary.Base64OutputStreamTest,testDecodePartialGroups,Pass
+Codec,6,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testNonBase64Bytes,Pass
+Codec,6,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testEncodeEOF,Not Pass
+Codec,8,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testSetInitialBufferWithOffsetDecode,Pass
+Codec,8,add_test1.java,org.apache.commons.codec.binary.Base64InputStreamTest,testSetInitialBufferWithOffsetEncode,Not Pass
+Codec,9,add_test.java,org.apache.commons.codec.binary.Base64Test,testEncodeBase64NonChunkedLargeData,Not Pass
+Codec,10,add_test.java,org.apache.commons.codec.language.CaverphoneTest,testMbEdgeCases,Not Pass
+Codec,11,add_test.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testDecodeSoftLineBreakAtStart,Not Compilable
+Codec,11,add_test1.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testEncodeLineLengthLimit,Not Compilable
+Codec,11,add_test2.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testDecodeInvalidHexThrows,Not Compilable
+Codec,12,add_test.java,org.apache.commons.codec.binary.Base32InputStreamTest,testMarkSupported,Not Compilable
+Codec,14,add_test.java,org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest,testNoRuleMatches,Not Compilable
+Codec,14,add_test1.java,org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest,testApplyFinalRulesMergesLanguages,Not Compilable
+Codec,15,add_test.java,org.apache.commons.codec.language.SoundexTest,testHWRuleBug,Not Pass
+Codec,18,add_test.java,org.apache.commons.codec.binary.StringUtilsTest,testEqualsCS3,Not Pass

@@ -1,0 +1,107 @@
+project,bug_id,folder,result
+JacksonDatabind,1,JacksonDatabind-1-buggy,Not Pass
+JacksonDatabind,2,JacksonDatabind-2-buggy,Not Pass
+JacksonDatabind,3,JacksonDatabind-3-buggy,Not Pass
+JacksonDatabind,4,JacksonDatabind-4-buggy,Not Pass
+JacksonDatabind,5,JacksonDatabind-5-buggy,Not Pass
+JacksonDatabind,6,JacksonDatabind-6-buggy,Not Pass
+JacksonDatabind,7,JacksonDatabind-7-buggy,Not Pass
+JacksonDatabind,8,JacksonDatabind-8-buggy,Pass
+JacksonDatabind,9,JacksonDatabind-9-buggy,Not Pass
+JacksonDatabind,10,JacksonDatabind-10-buggy,Not Pass
+JacksonDatabind,11,JacksonDatabind-11-buggy,Not Compilable
+JacksonDatabind,12,JacksonDatabind-12-buggy,Not Pass
+JacksonDatabind,13,JacksonDatabind-13-buggy,Not Pass
+JacksonDatabind,14,JacksonDatabind-14-buggy,Not Pass
+JacksonDatabind,15,JacksonDatabind-15-buggy,Not Compilable
+JacksonDatabind,16,JacksonDatabind-16-buggy,Not Pass
+JacksonDatabind,17,JacksonDatabind-17-buggy,Not Pass
+JacksonDatabind,18,JacksonDatabind-18-buggy,Not Compilable
+JacksonDatabind,19,JacksonDatabind-19-buggy,Not Compilable
+JacksonDatabind,20,JacksonDatabind-20-buggy,Not Pass
+JacksonDatabind,21,JacksonDatabind-21-buggy,Not Pass
+JacksonDatabind,22,JacksonDatabind-22-buggy,Not Pass
+JacksonDatabind,23,JacksonDatabind-23-buggy,Not Compilable
+JacksonDatabind,24,JacksonDatabind-24-buggy,Not Pass
+JacksonDatabind,25,JacksonDatabind-25-buggy,Not Pass
+JacksonDatabind,27,JacksonDatabind-27-buggy,Not Pass
+JacksonDatabind,28,JacksonDatabind-28-buggy,Pass
+JacksonDatabind,29,JacksonDatabind-29-buggy,Pass
+JacksonDatabind,30,JacksonDatabind-30-buggy,Not Compilable
+JacksonDatabind,31,JacksonDatabind-31-buggy,Not Compilable
+JacksonDatabind,32,JacksonDatabind-32-buggy,Not Pass
+JacksonDatabind,33,JacksonDatabind-33-buggy,Not Pass
+JacksonDatabind,34,JacksonDatabind-34-buggy,Not Pass
+JacksonDatabind,35,JacksonDatabind-35-buggy,Not Pass
+JacksonDatabind,36,JacksonDatabind-36-buggy,Not Pass
+JacksonDatabind,37,JacksonDatabind-37-buggy,Not Compilable
+JacksonDatabind,38,JacksonDatabind-38-buggy,Not Pass
+JacksonDatabind,39,JacksonDatabind-39-buggy,Not Compilable
+JacksonDatabind,41,JacksonDatabind-41-buggy,Not Pass
+JacksonDatabind,42,JacksonDatabind-42-buggy,Pass
+JacksonDatabind,43,JacksonDatabind-43-buggy,Not Pass
+JacksonDatabind,44,JacksonDatabind-44-buggy,Not Pass
+JacksonDatabind,45,JacksonDatabind-45-buggy,Not Compilable
+JacksonDatabind,46,JacksonDatabind-46-buggy,Not Pass
+JacksonDatabind,47,JacksonDatabind-47-buggy,Not Pass
+JacksonDatabind,48,JacksonDatabind-48-buggy,Not Pass
+JacksonDatabind,49,JacksonDatabind-49-buggy,Not Compilable
+JacksonDatabind,50,JacksonDatabind-50-buggy,Not Pass
+JacksonDatabind,51,JacksonDatabind-51-buggy,Pass
+JacksonDatabind,52,JacksonDatabind-52-buggy,Not Pass
+JacksonDatabind,53,JacksonDatabind-53-buggy,Not Pass
+JacksonDatabind,54,JacksonDatabind-54-buggy,Not Pass
+JacksonDatabind,55,JacksonDatabind-55-buggy,Not Pass
+JacksonDatabind,56,JacksonDatabind-56-buggy,Pass
+JacksonDatabind,57,JacksonDatabind-57-buggy,Not Pass
+JacksonDatabind,58,JacksonDatabind-58-buggy,Not Pass
+JacksonDatabind,59,JacksonDatabind-59-buggy,Not Pass
+JacksonDatabind,60,JacksonDatabind-60-buggy,Not Pass
+JacksonDatabind,61,JacksonDatabind-61-buggy,Not Pass
+JacksonDatabind,62,JacksonDatabind-62-buggy,Not Pass
+JacksonDatabind,63,JacksonDatabind-63-buggy,Not Pass
+JacksonDatabind,64,JacksonDatabind-64-buggy,Not Pass
+JacksonDatabind,66,JacksonDatabind-66-buggy,Not Compilable
+JacksonDatabind,67,JacksonDatabind-67-buggy,Not Pass
+JacksonDatabind,68,JacksonDatabind-68-buggy,Not Pass
+JacksonDatabind,69,JacksonDatabind-69-buggy,Not Compilable
+JacksonDatabind,70,JacksonDatabind-70-buggy,Pass
+JacksonDatabind,71,JacksonDatabind-71-buggy,Not Pass
+JacksonDatabind,73,JacksonDatabind-73-buggy,Not Pass
+JacksonDatabind,74,JacksonDatabind-74-buggy,Pass
+JacksonDatabind,75,JacksonDatabind-75-buggy,Not Pass
+JacksonDatabind,76,JacksonDatabind-76-buggy,Not Pass
+JacksonDatabind,77,JacksonDatabind-77-buggy,Not Compilable
+JacksonDatabind,78,JacksonDatabind-78-buggy,Not Pass
+JacksonDatabind,79,JacksonDatabind-79-buggy,Not Compilable
+JacksonDatabind,80,JacksonDatabind-80-buggy,Not Pass
+JacksonDatabind,81,JacksonDatabind-81-buggy,Not Pass
+JacksonDatabind,82,JacksonDatabind-82-buggy,Not Compilable
+JacksonDatabind,83,JacksonDatabind-83-buggy,Pass
+JacksonDatabind,84,JacksonDatabind-84-buggy,Not Pass
+JacksonDatabind,85,JacksonDatabind-85-buggy,Not Pass
+JacksonDatabind,86,JacksonDatabind-86-buggy,Not Pass
+JacksonDatabind,87,JacksonDatabind-87-buggy,Not Pass
+JacksonDatabind,88,JacksonDatabind-88-buggy,Not Compilable
+JacksonDatabind,90,JacksonDatabind-90-buggy,Not Pass
+JacksonDatabind,91,JacksonDatabind-91-buggy,Not Pass
+JacksonDatabind,93,JacksonDatabind-93-buggy,Pass
+JacksonDatabind,94,JacksonDatabind-94-buggy,Pass
+JacksonDatabind,95,JacksonDatabind-95-buggy,Not Pass
+JacksonDatabind,96,JacksonDatabind-96-buggy,Not Pass
+JacksonDatabind,97,JacksonDatabind-97-buggy,Not Pass
+JacksonDatabind,98,JacksonDatabind-98-buggy,Not Compilable
+JacksonDatabind,99,JacksonDatabind-99-buggy,Pass
+JacksonDatabind,100,JacksonDatabind-100-buggy,Not Compilable
+JacksonDatabind,101,JacksonDatabind-101-buggy,Not Pass
+JacksonDatabind,102,JacksonDatabind-102-buggy,Not Pass
+JacksonDatabind,103,JacksonDatabind-103-buggy,Not Compilable
+JacksonDatabind,104,JacksonDatabind-104-buggy,Not Pass
+JacksonDatabind,105,JacksonDatabind-105-buggy,Not Pass
+JacksonDatabind,106,JacksonDatabind-106-buggy,Not Pass
+JacksonDatabind,107,JacksonDatabind-107-buggy,Pass
+JacksonDatabind,108,JacksonDatabind-108-buggy,Not Pass
+JacksonDatabind,109,JacksonDatabind-109-buggy,Not Compilable
+JacksonDatabind,110,JacksonDatabind-110-buggy,Not Compilable
+JacksonDatabind,111,JacksonDatabind-111-buggy,Not Pass
+JacksonDatabind,112,JacksonDatabind-112-buggy,Not Pass

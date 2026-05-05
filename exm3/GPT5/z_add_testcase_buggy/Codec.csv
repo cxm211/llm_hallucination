@@ -1,0 +1,10 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Codec,2,add_test.java,org.apache.commons.codec.binary.Base64OutputStreamTest,testBase64EmptyOutputStream,Not Pass
+Codec,4,add_test.java,org.apache.commons.codec.binary.Base64Codec13Test,testBinaryEncoder,Not Pass
+Codec,6,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testCodec101Encode,Not Pass
+Codec,8,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testZeroByteReadDecodeDoesNotHang,Unknown
+Codec,9,add_test.java,org.apache.commons.codec.binary.Base64Test,testCodec112_more,Not Pass
+Codec,10,add_test.java,org.apache.commons.codec.language.CaverphoneTest,testEndMb,Not Compilable
+Codec,11,add_test.java,org.apache.commons.codec.net.QuotedPrintableCodecTest,testSoftLineBreakDecodeLFOnly,Not Pass
+Codec,12,add_test.java,org.apache.commons.codec.binary.Base64InputStreamTest,testMarkSupported,Not Compilable
+Codec,17,add_test.java,org.apache.commons.codec.binary.StringUtilsTest,testNewStringIso8859_1_Null,Not Pass

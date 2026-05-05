@@ -1,0 +1,94 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Cli,1,add_test.java,org.apache.commons.cli.bug.BugCLI13Test,testCLI13WithHyphens,Pass
+Cli,1,add_test1.java,org.apache.commons.cli.bug.BugCLI13Test,testCLI13LongOptOnly,Pass
+Cli,2,add_test.java,org.apache.commons.cli.bug.BugCLI51Test,testStopAtNonOptionMultipleChars,Not Pass
+Cli,2,add_test1.java,org.apache.commons.cli.bug.BugCLI51Test,testStopAtNonOptionSingleChar,Not Pass
+Cli,3,add_test.java,org.apache.commons.cli.PatternOptionBuilderTest,testNumberFormatException,Not Pass
+Cli,3,add_test1.java,org.apache.commons.cli.PatternOptionBuilderTest,testNegativeNumber,Not Pass
+Cli,3,add_test2.java,org.apache.commons.cli.PatternOptionBuilderTest,testIntegerNumber,Pass
+Cli,5,add_test.java,org.apache.commons.cli.UtilTest,testStripLeadingHyphensEmptyString,Pass
+Cli,5,add_test1.java,org.apache.commons.cli.UtilTest,testStripLeadingHyphensNoHyphens,Pass
+Cli,5,add_test2.java,org.apache.commons.cli.UtilTest,testStripLeadingHyphensTripleHyphen,Pass
+Cli,8,add_test.java,org.apache.commons.cli.HelpFormatterTest,testPrintWrappedLongWordWithPadding,Not Pass
+Cli,8,add_test1.java,org.apache.commons.cli.HelpFormatterTest,testPrintWrappedExactWidthWithPadding,Not Pass
+Cli,9,add_test.java,org.apache.commons.cli.OptionsTest,testMissingOptionsExceptionSingleOption,Pass
+Cli,9,add_test1.java,org.apache.commons.cli.ParseRequiredTest,testMissingThreeRequiredOptions,Not Pass
+Cli,10,add_test.java,org.apache.commons.cli.ParseRequiredTest,testReuseOptionsMultipleParsings,Not Compilable
+Cli,10,add_test1.java,org.apache.commons.cli.ParseRequiredTest,testReuseOptionsAfterSuccessfulParse,Not Compilable
+Cli,11,add_test.java,org.apache.commons.cli.HelpFormatterTest,testPrintOptionWithNullArgNameUsage,Pass
+Cli,11,add_test1.java,org.apache.commons.cli.HelpFormatterTest,testPrintOptionWithEmptyArgNameNotRequired,Pass
+Cli,11,add_test2.java,org.apache.commons.cli.HelpFormatterTest,testPrintOptionWithValidArgNameUsage,Pass
+Cli,11,add_test3.java,org.apache.commons.cli.HelpFormatterTest,testPrintLongOptionWithEmptyArgNameUsage,Pass
+Cli,12,add_test.java,org.apache.commons.cli.GnuParserTest,testLongWithEqualDoubleDash,Pass
+Cli,12,add_test1.java,org.apache.commons.cli.GnuParserTest,testShortWithoutEqual,Not Compilable
+Cli,12,add_test2.java,org.apache.commons.cli.GnuParserTest,testPropertiesOptionWithEqual,Not Pass
+Cli,13,add_test.java,org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest,testLoopingOptionLookAlike_SingleValue,Not Compilable
+Cli,13,add_test1.java,org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest,testLoopingOptionLookAlike_ThreeValues,Not Pass
+Cli,14,add_test.java,org.apache.commons.cli2.bug.BugCLI144Test,testFileValidatorWithMissingFile,Not Compilable
+Cli,14,add_test1.java,org.apache.commons.cli2.bug.BugCLI144Test,testFileValidatorWithMissingRequiredOption,Not Compilable
+Cli,15,add_test.java,org.apache.commons.cli2.bug.BugCLI158Test,testMultipleOptionsWithDefaults,Not Pass
+Cli,15,add_test1.java,org.apache.commons.cli2.bug.BugCLI158Test,testNoArgumentsAllDefaults,Not Pass
+Cli,15,add_test2.java,org.apache.commons.cli2.bug.BugCLI158Test,testExactlyMaximumArguments,Pass
+Cli,16,add_test.java,org.apache.commons.cli2.bug.BugCLI123Test,testNestedGroupWithMultipleOptions,Not Compilable
+Cli,16,add_test1.java,org.apache.commons.cli2.CommandLineTestCase,,Not Compilable
+Cli,17,add_test.java,org.apache.commons.cli.PosixParserTest,testStopBurstingAtEndOfString,Pass
+Cli,17,add_test1.java,org.apache.commons.cli.PosixParserTest,testStopBurstingMultipleNonOptions,Pass
+Cli,18,add_test.java,org.apache.commons.cli.PosixParserTest,testStopAtNonOptionWithUnknownShortOption,Pass
+Cli,18,add_test1.java,org.apache.commons.cli.PosixParserTest,testStopAtNonOptionWithKnownOption,Not Pass
+Cli,19,add_test.java,org.apache.commons.cli.PosixParserTest,testUnrecognizedOptionWithStopAtNonOption,Not Compilable
+Cli,19,add_test1.java,org.apache.commons.cli.PosixParserTest,testUnrecognizedOptionAtEnd,Not Compilable
+Cli,20,add_test.java,org.apache.commons.cli.PosixParserTest,testStopWithUnknownLongOptionNoEquals,Pass
+Cli,20,add_test1.java,org.apache.commons.cli.PosixParserTest,testStopWithKnownLongOptionWithEquals,Not Pass
+Cli,20,add_test2.java,org.apache.commons.cli.PosixParserTest,testStopWithMixedKnownUnknown,Pass
+Cli,21,add_test.java,org.apache.commons.cli2.bug.BugCLI150Test,testPositiveNumber,Pass
+Cli,21,add_test1.java,org.apache.commons.cli2.bug.BugCLI150Test,testNegativeDecimal,Pass
+Cli,21,add_test2.java,org.apache.commons.cli2.bug.BugCLI150Test,testActualOption,Pass
+Cli,22,add_test.java,org.apache.commons.cli.ApplicationTest,testGroovyWithLongOptStopAtNonOption,Pass
+Cli,22,add_test1.java,org.apache.commons.cli.ParserTestCase,testStopAtNonOptionWithBurst,Pass
+Cli,23,add_test.java,org.apache.commons.cli.bug.BugCLI162Test,testWrappingWithPaddingExactFit,Pass
+Cli,23,add_test1.java,org.apache.commons.cli.bug.BugCLI162Test,testWrappingWithLargePadding,Pass
+Cli,23,add_test2.java,org.apache.commons.cli.bug.BugCLI162Test,testWrappingMultipleIterations,Pass
+Cli,24,add_test.java,org.apache.commons.cli.bug.BugCLI162Test,testLongLineChunkingWithLargerIndent,Not Pass
+Cli,24,add_test1.java,org.apache.commons.cli.bug.BugCLI162Test,testLongLineChunkingWithNoIndent,Not Pass
+Cli,25,add_test.java,org.apache.commons.cli.bug.BugCLI162Test,testLongLineChunkingWithZeroIndent,Not Pass
+Cli,25,add_test1.java,org.apache.commons.cli.bug.BugCLI162Test,testLongLineChunkingWithLargeIndent,Pass
+Cli,26,add_test.java,org.apache.commons.cli.OptionBuilderTest,testBuilderIsResettedOnSuccess,Pass
+Cli,26,add_test1.java,org.apache.commons.cli.OptionBuilderTest,testBuilderIsResettedOnNullPointerException,Not Pass
+Cli,26,add_test2.java,org.apache.commons.cli.OptionBuilderTest,testBuilderIsResettedWithLongOpt,Pass
+Cli,27,add_test.java,org.apache.commons.cli.ParserTestCase,testOptionGroupShortOnly,Pass
+Cli,27,add_test1.java,org.apache.commons.cli.ParserTestCase,testOptionGroupMixed,Pass
+Cli,27,add_test2.java,org.apache.commons.cli.ParserTestCase,testOptionGroupReselect,Pass
+Cli,28,add_test.java,org.apache.commons.cli.ValueTest,testPropertyOptionMixedCases,Pass
+Cli,28,add_test1.java,org.apache.commons.cli.ValueTest,testPropertyOptionEmptyAndNull,Pass
+Cli,28,add_test2.java,org.apache.commons.cli.ValueTest,testPropertyOptionMultipleProperties,Pass
+Cli,29,add_test.java,org.apache.commons.cli.UtilTest,testStripLeadingAndTrailingQuotesEmptyString,Pass
+Cli,29,add_test1.java,org.apache.commons.cli.UtilTest,testStripLeadingAndTrailingQuotesNoQuotes,Pass
+Cli,29,add_test2.java,org.apache.commons.cli.UtilTest,testStripLeadingAndTrailingQuotesLeadingOnly,Pass
+Cli,29,add_test3.java,org.apache.commons.cli.UtilTest,testStripLeadingAndTrailingQuotesTrailingOnly,Pass
+Cli,29,add_test4.java,org.apache.commons.cli.UtilTest,testStripLeadingAndTrailingQuotesDoubleQuote,Pass
+Cli,30,add_test.java,org.apache.commons.cli.ParserTestCase,testPropertyOptionFalseValue,Pass
+Cli,30,add_test1.java,org.apache.commons.cli.ParserTestCase,testPropertyOptionWithArg,Pass
+Cli,30,add_test2.java,org.apache.commons.cli.OptionGroupTest,testThreeOptionsFromTwoGroups,Pass
+Cli,31,add_test.java,org.apache.commons.cli.HelpFormatterTest,testDefaultArgNameWithLongOpt,Not Pass
+Cli,31,add_test1.java,org.apache.commons.cli.HelpFormatterTest,testDefaultArgNameOptionalOption,Not Pass
+Cli,32,add_test.java,org.apache.commons.cli.HelpFormatterTest,testFindWrapPosWithNewline,Pass
+Cli,32,add_test1.java,org.apache.commons.cli.HelpFormatterTest,testFindWrapPosEdgeCases,Pass
+Cli,33,add_test.java,org.apache.commons.cli.HelpFormatterTest,testRenderWrappedTextLongWordWithIndent,Not Pass
+Cli,33,add_test1.java,org.apache.commons.cli.HelpFormatterTest,testRenderWrappedTextLongWordAfterWrapWithIndent,Not Pass
+Cli,33,add_test2.java,org.apache.commons.cli.HelpFormatterTest,testRenderWrappedTextMultipleLongWordsWithIndent,Not Pass
+Cli,34,add_test.java,org.apache.commons.cli.OptionBuilderTest,testTypeNotResetAfterCreate,Pass
+Cli,34,add_test1.java,org.apache.commons.cli.OptionBuilderTest,testMultipleOptionsWithDifferentTypes,Pass
+Cli,35,add_test.java,org.apache.commons.cli.bug.BugCLI252Test,testPrefixMatchWithMultipleOptions,Not Compilable
+Cli,35,add_test1.java,org.apache.commons.cli.bug.BugCLI252Test,testAmbiguousPrefixMatch,Not Compilable
+Cli,35,add_test2.java,org.apache.commons.cli.bug.BugCLI252Test,testUniquePrefixMatch,Pass
+Cli,37,add_test.java,org.apache.commons.cli.bug.BugCLI265Test,shouldParseLongOptionAsNonShortOption,Pass
+Cli,37,add_test1.java,org.apache.commons.cli.bug.BugCLI265Test,shouldHandleSingleDashAsNonOption,Pass
+Cli,37,add_test2.java,org.apache.commons.cli.bug.BugCLI265Test,shouldParseMultipleShortOptionsWithDifferentPrefixes,Pass
+Cli,38,add_test.java,org.apache.commons.cli.bug.BugCLI265Test,shouldParseSingleCharacterShortOption,Pass
+Cli,38,add_test1.java,org.apache.commons.cli.bug.BugCLI265Test,shouldParseShortOptionWithValue,Not Compilable
+Cli,38,add_test2.java,org.apache.commons.cli.bug.BugCLI265Test,shouldRejectInvalidConcatenatedOptions,Not Compilable
+Cli,38,add_test3.java,org.apache.commons.cli.bug.BugCLI265Test,shouldParseTripleConcatenatedShortOptions,Not Pass
+Cli,39,add_test.java,org.apache.commons.cli.PatternOptionBuilderTest,testExistingFilePatternUnreadableFile,Not Compilable
+Cli,39,add_test1.java,org.apache.commons.cli.PatternOptionBuilderTest,testFilePatternCreatesFile,Not Compilable
+Cli,40,add_test.java,org.apache.commons.cli.TypeHandlerTest,testCreateValueBoolean_failure,Pass
+Cli,40,add_test1.java,org.apache.commons.cli.TypeHandlerTest,testCreateValueCustomClass_failure,Pass

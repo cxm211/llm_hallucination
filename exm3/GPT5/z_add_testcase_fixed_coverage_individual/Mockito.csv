@@ -1,0 +1,121 @@
+project,bug_id,folder,add_test_file,function_id,class_fqcn,file,method_sig_snippet,method_start,method_end,line,line_in_method,ci,mi,cb,mb,executed
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,123,121,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,123,122,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,123,123,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,136,138,136,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,136,138,137,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,136,138,138,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,151,153,151,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,151,153,152,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,151,153,153,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,166,168,166,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,166,168,167,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,166,168,168,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,181,183,181,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,181,183,182,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,181,183,183,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_6,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,196,198,196,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_6,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,196,198,197,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_6,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,196,198,198,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_7,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,211,213,211,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_7,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,211,213,212,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_7,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,211,213,213,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_8,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,226,228,226,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_8,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,226,228,227,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_8,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,226,228,228,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_9,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,243,245,243,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_9,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,243,245,244,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_9,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,243,245,245,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_10,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,291,293,291,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_10,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,291,293,292,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_10,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,291,293,293,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_11,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,308,310,308,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_11,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,308,310,309,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_11,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,308,310,310,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_12,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,323,325,323,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_12,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,323,325,324,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_12,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,323,325,325,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_13,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,338,340,338,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_13,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,338,340,339,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_13,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,338,340,340,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_14,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,357,359,357,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_14,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,357,359,358,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_14,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,357,359,359,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_15,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,372,374,372,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_15,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,372,374,373,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_15,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,372,374,374,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_16,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,391,393,391,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_16,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,391,393,392,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_16,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,391,393,393,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_17,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,406,408,406,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_17,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,406,408,407,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_17,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,406,408,408,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_18,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",426,428,426,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_18,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",426,428,427,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_18,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",426,428,428,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_19,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,441,443,441,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_19,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,441,443,442,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_19,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,441,443,443,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_20,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,460,462,460,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_20,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,460,462,461,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind1,add_test.java,function_20,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,460,462,462,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,123,121,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,123,122,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_1,org.mockito.Matchers,org/mockito/Matchers.java,public static boolean anyBoolean() {,121,123,123,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,136,138,136,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,136,138,137,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_2,org.mockito.Matchers,org/mockito/Matchers.java,public static byte anyByte() {,136,138,138,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,151,153,151,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,151,153,152,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_3,org.mockito.Matchers,org/mockito/Matchers.java,public static char anyChar() {,151,153,153,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,166,168,166,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,166,168,167,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_4,org.mockito.Matchers,org/mockito/Matchers.java,public static int anyInt() {,166,168,168,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,181,183,181,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,181,183,182,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_5,org.mockito.Matchers,org/mockito/Matchers.java,public static long anyLong() {,181,183,183,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_6,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,196,198,196,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_6,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,196,198,197,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_6,org.mockito.Matchers,org/mockito/Matchers.java,public static float anyFloat() {,196,198,198,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_7,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,211,213,211,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_7,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,211,213,212,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_7,org.mockito.Matchers,org/mockito/Matchers.java,public static double anyDouble() {,211,213,213,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_8,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,226,228,226,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_8,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,226,228,227,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_8,org.mockito.Matchers,org/mockito/Matchers.java,public static short anyShort() {,226,228,228,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_9,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,243,245,243,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_9,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,243,245,244,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_9,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T anyObject() {,243,245,245,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_10,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,291,293,291,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_10,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,291,293,292,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_10,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any(Class<T> clazz) {,291,293,293,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_11,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,308,310,308,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_11,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,308,310,309,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_11,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> T any() {,308,310,310,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_12,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,323,325,323,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_12,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,323,325,324,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_12,org.mockito.Matchers,org/mockito/Matchers.java,public static String anyString() {,323,325,325,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_13,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,338,340,338,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_13,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,338,340,339,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_13,org.mockito.Matchers,org/mockito/Matchers.java,public static List anyList() {,338,340,340,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_14,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,357,359,357,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_14,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,357,359,358,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_14,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> List<T> anyListOf(Class<T> clazz) {,357,359,359,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_15,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,372,374,372,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_15,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,372,374,373,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_15,org.mockito.Matchers,org/mockito/Matchers.java,public static Set anySet() {,372,374,374,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_16,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,391,393,391,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_16,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,391,393,392,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_16,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Set<T> anySetOf(Class<T> clazz) {,391,393,393,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_17,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,406,408,406,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_17,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,406,408,407,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_17,org.mockito.Matchers,org/mockito/Matchers.java,public static Map anyMap() {,406,408,408,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_18,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",426,428,426,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_18,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",426,428,427,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_18,org.mockito.Matchers,org/mockito/Matchers.java,"public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {",426,428,428,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_19,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,441,443,441,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_19,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,441,443,442,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_19,org.mockito.Matchers,org/mockito/Matchers.java,public static Collection anyCollection() {,441,443,443,3,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_20,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,460,462,460,1,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_20,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,460,462,461,2,,,,,Not Compilable
+Mockito,6,Mockito-6-buggy_ind2,add_test1.java,function_20,org.mockito.Matchers,org/mockito/Matchers.java,public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {,460,462,462,3,,,,,Not Compilable

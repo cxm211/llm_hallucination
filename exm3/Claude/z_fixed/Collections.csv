@@ -1,0 +1,28 @@
+project,bug_id,folder,result
+Collections,1,Collections-1-buggy,Pass
+Collections,2,Collections-2-buggy,Not Pass
+Collections,3,Collections-3-buggy,Not Compilable
+Collections,4,Collections-4-buggy,Pass
+Collections,5,Collections-5-buggy,Pass
+Collections,6,Collections-6-buggy,Pass
+Collections,7,Collections-7-buggy,Not Pass
+Collections,8,Collections-8-buggy,Pass
+Collections,9,Collections-9-buggy,Not Pass
+Collections,11,Collections-11-buggy,Not Pass
+Collections,12,Collections-12-buggy,Not Pass
+Collections,13,Collections-13-buggy,Not Pass
+Collections,14,Collections-14-buggy,Not Compilable
+Collections,15,Collections-15-buggy,Not Pass
+Collections,16,Collections-16-buggy,Pass
+Collections,17,Collections-17-buggy,Pass
+Collections,18,Collections-18-buggy,Not Pass
+Collections,19,Collections-19-buggy,Not Pass
+Collections,20,Collections-20-buggy,Not Pass
+Collections,21,Collections-21-buggy,Not Compilable
+Collections,22,Collections-22-buggy,Pass
+Collections,23,Collections-23-buggy,Pass
+Collections,24,Collections-24-buggy,Not Pass
+Collections,25,Collections-25-buggy,Not Pass
+Collections,26,Collections-26-buggy,Not Compilable
+Collections,27,Collections-27-buggy,Not Pass
+Collections,28,Collections-28-buggy,Not Pass

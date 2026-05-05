@@ -1,0 +1,12 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Csv,1,add_test.java,org.apache.commons.csv.CSVParserTest,testGetLineNumberWithCRConsecutive,Pass
+Csv,2,add_test.java,org.apache.commons.csv.CSVRecordTest,testGetStringInconsistentRecord,Pass
+Csv,3,add_test.java,org.apache.commons.csv.CSVLexerTest,testEscapedCharacter,Pass
+Csv,6,add_test.java,org.apache.commons.csv.CSVRecordTest,testToMapWithShortRecordNullForMissing,Pass
+Csv,7,add_test.java,org.apache.commons.csv.CSVParserTest,testDuplicateHeaderEntriesRemapped,Not Compilable
+Csv,8,add_test.java,org.apache.commons.csv.CSVFormatTest,testDuplicateHeaderElementsMessage,Pass
+Csv,10,add_test.java,org.apache.commons.csv.CSVPrinterTest,testHeaderPrintedInConstructor,Pass
+Csv,11,add_test.java,org.apache.commons.csv.CSVParserTest,testHeaderMissingWithNullNoIgnore,Pass
+Csv,13,add_test.java,org.apache.commons.csv.CSVPrinterTest,testNullValueNoQuoteNoEscape,Pass
+Csv,14,add_test.java,org.apache.commons.csv.CSVPrinterTest,testNoQuoteAtSignAtStart,Pass
+Csv,15,add_test.java,org.apache.commons.csv.CSVPrinterTest,testDontQuoteEmojiFirstChar,Pass

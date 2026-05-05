@@ -1,0 +1,53 @@
+project,bug_id,folder,class_entry,file,method_sig_snippet,fixed_method_start_line,fixed_method_end_line
+Time,1,Time-1-buggy,org.joda.time.field.UnsupportedDurationField,org/joda/time/field/UnsupportedDurationField.java,public int compareTo(DurationField durationField) {,226,244
+Time,1,Time-1-buggy,org.joda.time.Partial,org/joda/time/Partial.java,"public Partial(DateTimeFieldType[] types, int[] values, Chronology chronology) {",189,251
+Time,10,Time-10-buggy,org.joda.time.base.BaseSingleFieldPeriod,org/joda/time/base/BaseSingleFieldPeriod.java,"protected static int between(ReadablePartial start, ReadablePartial end, ReadablePeriod zeroInstance) {",88,126
+Time,12,Time-12-buggy,org.joda.time.LocalDate,org/joda/time/LocalDate.java,public static LocalDate fromCalendarFields(Calendar calendar) {,206,218
+Time,12,Time-12-buggy,org.joda.time.LocalDate,org/joda/time/LocalDate.java,public static LocalDate fromDateFields(Date date) {,241,255
+Time,12,Time-12-buggy,org.joda.time.LocalDateTime,org/joda/time/LocalDateTime.java,public static LocalDateTime fromCalendarFields(Calendar calendar) {,195,211
+Time,12,Time-12-buggy,org.joda.time.LocalDateTime,org/joda/time/LocalDateTime.java,public static LocalDateTime fromDateFields(Date date) {,234,252
+Time,13,Time-13-buggy,org.joda.time.format.PeriodFormatterBuilder,org/joda/time/format/PeriodFormatterBuilder.java,"public int calculatePrintedLength(ReadablePeriod period, Locale locale) {",1088,1122
+Time,13,Time-13-buggy,org.joda.time.format.PeriodFormatterBuilder,org/joda/time/format/PeriodFormatterBuilder.java,"public void printTo(StringBuffer buf, ReadablePeriod period, Locale locale) {",1124,1168
+Time,14,Time-14-buggy,org.joda.time.chrono.BasicMonthOfYearDateTimeField,org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"public int[] add(ReadablePartial partial, int fieldIndex, int[] values, int valueToAdd) {",203,221
+Time,15,Time-15-buggy,org.joda.time.field.FieldUtils,org/joda/time/field/FieldUtils.java,"public static long safeMultiply(long val1, int val2) {",135,152
+Time,16,Time-16-buggy,org.joda.time.format.DateTimeFormatter,org/joda/time/format/DateTimeFormatter.java,"public int parseInto(ReadWritableInstant instant, String text, int position) {",697,725
+Time,17,Time-17-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,"public long adjustOffset(long instant, boolean earlierOrLater) {",1163,1180
+Time,18,Time-18-buggy,org.joda.time.chrono.GJChronology,org/joda/time/chrono/GJChronology.java,"public long getDateTimeMillis(int year, int monthOfYear, int dayOfMonth, int hourOfDay, int minuteOfHour, int secondOfMinute, int millisOfSecond)",350,389
+Time,19,Time-19-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,public int getOffsetFromLocal(long instantLocal) {,880,911
+Time,2,Time-2-buggy,org.joda.time.field.UnsupportedDurationField,org/joda/time/field/UnsupportedDurationField.java,public int compareTo(DurationField durationField) {,226,236
+Time,2,Time-2-buggy,org.joda.time.Partial,org/joda/time/Partial.java,"public Partial(DateTimeFieldType[] types, int[] values, Chronology chronology) {",189,251
+Time,2,Time-2-buggy,org.joda.time.Partial,org/joda/time/Partial.java,"public Partial with(DateTimeFieldType fieldType, int value) {",428,476
+Time,20,Time-20-buggy,org.joda.time.format.DateTimeFormatterBuilder,org/joda/time/format/DateTimeFormatterBuilder.java,"public int parseInto(DateTimeParserBucket bucket, String text, int position) {",2540,2558
+Time,22,Time-22-buggy,org.joda.time.base.BasePeriod,org/joda/time/base/BasePeriod.java,protected BasePeriod(long duration) {,221,223
+Time,23,Time-23-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,private static synchronized String getConvertedId(String id) {,558,597
+Time,24,Time-24-buggy,org.joda.time.format.DateTimeParserBucket,org/joda/time/format/DateTimeParserBucket.java,"public long computeMillis(boolean resetFields, String text) {",331,393
+Time,25,Time-25-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,public int getOffsetFromLocal(long instantLocal) {,879,901
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,"public long add(long instant, int value) {",428,438
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,"public long add(long instant, long value) {",440,450
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,"public long addWrapField(long instant, int value) {",452,462
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,"public long set(long instant, int value) {",464,475
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,"public long set(long instant, String text, Locale locale) {",477,482
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,public long roundFloor(long instant) {,520,530
+Time,26,Time-26-buggy,org.joda.time.chrono.ZonedChronology,org/joda/time/chrono/ZonedChronology.java,public long roundCeiling(long instant) {,532,542
+Time,26,Time-26-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,public long convertUTCToLocal(long instantUTC) {,909,917
+Time,26,Time-26-buggy,org.joda.time.field.LenientDateTimeField,org/joda/time/field/LenientDateTimeField.java,"public long set(long instant, int value) {",69,76
+Time,27,Time-27-buggy,org.joda.time.format.PeriodFormatterBuilder,org/joda/time/format/PeriodFormatterBuilder.java,"private static PeriodFormatter toFormatter(List<Object> elementPairs, boolean notPrinter, boolean notParser) {",794,813
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,"public void add(DurationFieldType type, int amount) {",635,643
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addYears(final int years) {,662,667
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addWeekyears(final int weekyears) {,686,691
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addMonths(final int months) {,710,715
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addWeeks(final int weeks) {,734,739
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addDays(final int days) {,778,783
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addHours(final int hours) {,802,807
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addMinutes(final int minutes) {,836,841
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addSeconds(final int seconds) {,870,875
+Time,3,Time-3-buggy,org.joda.time.MutableDateTime,org/joda/time/MutableDateTime.java,public void addMillis(final int millis) {,906,911
+Time,4,Time-4-buggy,org.joda.time.Partial,org/joda/time/Partial.java,"public Partial with(DateTimeFieldType fieldType, int value) {",426,486
+Time,5,Time-5-buggy,org.joda.time.Period,org/joda/time/Period.java,public Period normalizedStandard(PeriodType type) {,1616,1653
+Time,6,Time-6-buggy,org.joda.time.chrono.GJChronology,org/joda/time/chrono/GJChronology.java,"public static synchronized GJChronology getInstance( DateTimeZone zone, ReadableInstant gregorianCutover, int minDaysInFirstWeek) {",185,238
+Time,6,Time-6-buggy,org.joda.time.chrono.GJChronology,org/joda/time/chrono/GJChronology.java,"public long add(long instant, int value) {",981,1001
+Time,6,Time-6-buggy,org.joda.time.chrono.GJChronology,org/joda/time/chrono/GJChronology.java,"public long add(long instant, long value) {",1003,1023
+Time,7,Time-7-buggy,org.joda.time.format.DateTimeFormatter,org/joda/time/format/DateTimeFormatter.java,"public int parseInto(ReadWritableInstant instant, String text, int position) {",700,728
+Time,8,Time-8-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,"public static DateTimeZone forOffsetHoursMinutes(int hoursOffset, int minutesOffset) throws IllegalArgumentException {",272,301
+Time,9,Time-9-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,"public static DateTimeZone forOffsetHoursMinutes(int hoursOffset, int minutesOffset) throws IllegalArgumentException {",253,276
+Time,9,Time-9-buggy,org.joda.time.DateTimeZone,org/joda/time/DateTimeZone.java,public static DateTimeZone forOffsetMillis(int millisOffset) {,284,287

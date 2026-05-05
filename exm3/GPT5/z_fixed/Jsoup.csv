@@ -1,0 +1,94 @@
+project,bug_id,folder,result
+Jsoup,1,Jsoup-1-buggy,Not Compilable
+Jsoup,2,Jsoup-2-buggy,Pass
+Jsoup,3,Jsoup-3-buggy,Not Pass
+Jsoup,4,Jsoup-4-buggy,Not Pass
+Jsoup,5,Jsoup-5-buggy,Pass
+Jsoup,6,Jsoup-6-buggy,Pass
+Jsoup,7,Jsoup-7-buggy,Not Pass
+Jsoup,8,Jsoup-8-buggy,Not Compilable
+Jsoup,9,Jsoup-9-buggy,Not Pass
+Jsoup,10,Jsoup-10-buggy,Pass
+Jsoup,11,Jsoup-11-buggy,Not Compilable
+Jsoup,12,Jsoup-12-buggy,Not Compilable
+Jsoup,13,Jsoup-13-buggy,Not Pass
+Jsoup,14,Jsoup-14-buggy,Not Pass
+Jsoup,15,Jsoup-15-buggy,Pass
+Jsoup,16,Jsoup-16-buggy,Pass
+Jsoup,17,Jsoup-17-buggy,Not Pass
+Jsoup,18,Jsoup-18-buggy,Not Pass
+Jsoup,19,Jsoup-19-buggy,Not Compilable
+Jsoup,20,Jsoup-20-buggy,Pass
+Jsoup,21,Jsoup-21-buggy,Not Pass
+Jsoup,22,Jsoup-22-buggy,Not Compilable
+Jsoup,23,Jsoup-23-buggy,Pass
+Jsoup,24,Jsoup-24-buggy,Pass
+Jsoup,25,Jsoup-25-buggy,Not Pass
+Jsoup,26,Jsoup-26-buggy,Pass
+Jsoup,27,Jsoup-27-buggy,Pass
+Jsoup,28,Jsoup-28-buggy,Not Pass
+Jsoup,29,Jsoup-29-buggy,Not Compilable
+Jsoup,30,Jsoup-30-buggy,Not Pass
+Jsoup,31,Jsoup-31-buggy,Not Compilable
+Jsoup,32,Jsoup-32-buggy,Not Compilable
+Jsoup,33,Jsoup-33-buggy,Not Pass
+Jsoup,34,Jsoup-34-buggy,Pass
+Jsoup,35,Jsoup-35-buggy,Not Pass
+Jsoup,36,Jsoup-36-buggy,Not Pass
+Jsoup,37,Jsoup-37-buggy,Not Pass
+Jsoup,38,Jsoup-38-buggy,Pass
+Jsoup,39,Jsoup-39-buggy,Not Pass
+Jsoup,40,Jsoup-40-buggy,Pass
+Jsoup,41,Jsoup-41-buggy,Pass
+Jsoup,42,Jsoup-42-buggy,Pass
+Jsoup,43,Jsoup-43-buggy,Pass
+Jsoup,44,Jsoup-44-buggy,Not Pass
+Jsoup,45,Jsoup-45-buggy,Pass
+Jsoup,46,Jsoup-46-buggy,Pass
+Jsoup,47,Jsoup-47-buggy,Pass
+Jsoup,48,Jsoup-48-buggy,Pass
+Jsoup,49,Jsoup-49-buggy,Not Pass
+Jsoup,50,Jsoup-50-buggy,Pass
+Jsoup,51,Jsoup-51-buggy,Pass
+Jsoup,52,Jsoup-52-buggy,Not Pass
+Jsoup,53,Jsoup-53-buggy,Pass
+Jsoup,54,Jsoup-54-buggy,Pass
+Jsoup,55,Jsoup-55-buggy,Pass
+Jsoup,56,Jsoup-56-buggy,Not Pass
+Jsoup,57,Jsoup-57-buggy,Pass
+Jsoup,58,Jsoup-58-buggy,Not Compilable
+Jsoup,59,Jsoup-59-buggy,Pass
+Jsoup,60,Jsoup-60-buggy,Not Pass
+Jsoup,61,Jsoup-61-buggy,Not Pass
+Jsoup,62,Jsoup-62-buggy,Not Compilable
+Jsoup,63,Jsoup-63-buggy,Not Compilable
+Jsoup,64,Jsoup-64-buggy,Pass
+Jsoup,65,Jsoup-65-buggy,Pass
+Jsoup,66,Jsoup-66-buggy,Not Pass
+Jsoup,67,Jsoup-67-buggy,Not Pass
+Jsoup,68,Jsoup-68-buggy,Pass
+Jsoup,69,Jsoup-69-buggy,Not Pass
+Jsoup,70,Jsoup-70-buggy,Pass
+Jsoup,71,Jsoup-71-buggy,Not Compilable
+Jsoup,72,Jsoup-72-buggy,Not Pass
+Jsoup,73,Jsoup-73-buggy,Pass
+Jsoup,74,Jsoup-74-buggy,Pass
+Jsoup,75,Jsoup-75-buggy,Not Pass
+Jsoup,76,Jsoup-76-buggy,Not Pass
+Jsoup,77,Jsoup-77-buggy,Pass
+Jsoup,78,Jsoup-78-buggy,Not Pass
+Jsoup,79,Jsoup-79-buggy,Pass
+Jsoup,80,Jsoup-80-buggy,Pass
+Jsoup,81,Jsoup-81-buggy,Not Pass
+Jsoup,82,Jsoup-82-buggy,Pass
+Jsoup,83,Jsoup-83-buggy,Not Pass
+Jsoup,84,Jsoup-84-buggy,Not Pass
+Jsoup,85,Jsoup-85-buggy,Not Pass
+Jsoup,86,Jsoup-86-buggy,Not Pass
+Jsoup,87,Jsoup-87-buggy,Not Compilable
+Jsoup,88,Jsoup-88-buggy,Pass
+Jsoup,89,Jsoup-89-buggy,Pass
+Jsoup,90,Jsoup-90-buggy,Pass
+Jsoup,91,Jsoup-91-buggy,Not Pass
+Jsoup,92,Jsoup-92-buggy,Not Compilable
+Jsoup,93,Jsoup-93-buggy,Not Pass

@@ -1,0 +1,14 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+JacksonXml,1,add_test.java,com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test,testNestedUnwrappedListsMultipleEmpty,Pass
+JacksonXml,1,add_test1.java,com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest,testNestedWithMultipleEmptyVehicleActivity,Pass
+JacksonXml,2,add_test.java,com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest,testMixedContentMultipleTextNodes,Pass
+JacksonXml,2,add_test1.java,com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest,testMixedContentTextBeforeMultipleElements,Not Pass
+JacksonXml,3,add_test.java,com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest,testXmlAttributesWithNextTextValueEmpty,Pass
+JacksonXml,3,add_test1.java,com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest,testXmlLeafElementWithNextTextValue,Pass
+JacksonXml,3,add_test2.java,com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest,testXmlEmptyElementWithNextTextValue,Pass
+JacksonXml,4,add_test.java,com.fasterxml.jackson.dataformat.xml.misc.RootNameTest,testDynamicRootNameWithNullOnly,Not Compilable
+JacksonXml,4,add_test1.java,com.fasterxml.jackson.dataformat.xml.misc.RootNameTest,testDynamicRootNameWithDifferentNames,Not Compilable
+JacksonXml,5,add_test.java,com.fasterxml.jackson.dataformat.xml.MapperCopyTest,testCopyWithCustomRootName,Not Compilable
+JacksonXml,5,add_test1.java,com.fasterxml.jackson.dataformat.xml.MapperCopyTest,testCopyWithNoAnnotation,Not Compilable
+JacksonXml,6,add_test.java,com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization,testWith5Bytes,Not Compilable
+JacksonXml,6,add_test1.java,com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization,testWith6Bytes,Not Compilable

@@ -1,0 +1,11 @@
+project,bug_id,add_test_file,class_fqcn,method_name,result
+Lang,6,add_test.java,org.apache.commons.lang3.StringUtilsTest,testEscapeUnpairedHighSurrogate,Pass
+Lang,6,add_test1.java,org.apache.commons.lang3.StringUtilsTest,testEscapeUnpairedLowSurrogate,Pass
+Lang,19,add_test.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testUnfinishedDecimalEntity,Not Pass
+Lang,19,add_test1.java,org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest,testSupplementaryEntity,Pass
+Lang,20,add_test.java,org.apache.commons.lang3.StringUtilsTest,testJoin_ArrayChar,Not Compilable
+Lang,20,add_test1.java,org.apache.commons.lang3.StringUtilsTest,testJoin_Objectarray,Not Compilable
+Lang,31,add_test.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testContainsAnyCharArrayWithSupplementaryChars,Not Compilable
+Lang,31,add_test1.java,org.apache.commons.lang3.StringUtilsEqualsIndexOfTest,testContainsAnyStringWithSupplementaryChars,Not Compilable
+Lang,41,add_test.java,org.apache.commons.lang.ClassUtilsTest,test_getPackageName_Class,Not Compilable
+Lang,41,add_test1.java,org.apache.commons.lang.ClassUtilsTest,test_getShortClassName_Class,Not Compilable
