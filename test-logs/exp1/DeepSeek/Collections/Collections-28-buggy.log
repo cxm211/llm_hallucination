@@ -1,0 +1,10 @@
+==== 2026-05-14 16:25:38 :: Collections-28-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.collections4.trie.PatriciaTrieTest::testPrefixMapClear
+---- 退出码：0 | Collections-28-buggy
+

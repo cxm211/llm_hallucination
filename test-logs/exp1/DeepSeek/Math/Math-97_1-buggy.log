@@ -1,0 +1,22 @@
+==== 2026-01-12 00:01:41 :: Math-97_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - org.apache.commons.math.analysis.BrentSolverTest::testInitialGuess
+  - org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints
+  - org.apache.commons.math.analysis.BrentSolverTest::testQuinticZero
+  - org.apache.commons.math.analysis.BrentSolverTest::testSinZero
+  - org.apache.commons.math.distribution.ChiSquareDistributionTest::testSmallDf
+  - org.apache.commons.math.distribution.ChiSquareDistributionTest::testInverseCumulativeProbabilities
+  - org.apache.commons.math.distribution.FDistributionTest::testLargeDegreesOfFreedom
+  - org.apache.commons.math.distribution.FDistributionTest::testInverseCumulativeProbabilities
+  - org.apache.commons.math.distribution.GammaDistributionTest::testValues
+  - org.apache.commons.math.distribution.GammaDistributionTest::testInverseCumulativeProbabilities
+  - org.apache.commons.math.distribution.NormalDistributionTest::testInverseCumulativeProbabilities
+  - org.apache.commons.math.distribution.TDistributionTest::testSmallDf
+  - org.apache.commons.math.distribution.TDistributionTest::testInverseCumulativeProbabilities
+---- 退出码：0 | Math-97_1-buggy
+

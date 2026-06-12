@@ -1,0 +1,14 @@
+==== 2026-05-28 19:48:31 :: JacksonDatabind-37_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDefaultImplWithObjectWrapper
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testDefaultImpl
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testDefaultImplViaModule
+  - com.fasterxml.jackson.databind.objectid.Objecid1083Test::testSimple
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- 退出码：0 | JacksonDatabind-37_3-buggy
+

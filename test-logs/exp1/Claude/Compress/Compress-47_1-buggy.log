@@ -1,0 +1,20 @@
+==== 2026-05-23 11:17:52 :: Compress-47_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::properlyMarksEntriesAsUnreadableIfUncompressedSizeIsUnknown
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::testTurningOnCachingReEvaluatesAvailability
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::testCanTurnOffCaching
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::singleByteReadWorksAsExpected
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::singleByteReadReturnsMinusOneAtEof
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::testZstdDecode
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::testCachingIsEnabledByDefaultAndZstdUtilsPresent
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::shouldBeAbleToSkipAByte
+  - org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStreamTest::testZstandardUnarchive
+  - org.apache.commons.compress.compressors.zstandard.ZstdRoundtripTest::directRoundtrip
+  - org.apache.commons.compress.compressors.zstandard.ZstdRoundtripTest::factoryRoundtrip
+---- 退出码：0 | Compress-47_1-buggy
+

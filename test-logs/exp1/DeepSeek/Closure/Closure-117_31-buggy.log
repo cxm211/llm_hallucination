@@ -1,0 +1,36 @@
+==== 2026-01-29 02:43:34 :: Closure-117_31-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 27
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrintFunctionName1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionCall2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionCall4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnumStaticMethod1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnumStaticMethod2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStaticMethodDeclaration1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStaticMethodDeclaration2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling4
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling6
+  - com.google.javascript.jscomp.TypeCheckTest::testPrintFunctionName1
+  - com.google.javascript.jscomp.TypeCheckTest::testIIFE4
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionBind1
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionBind5
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionCall2
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionCall4
+  - com.google.javascript.jscomp.TypeCheckTest::testEnumStaticMethod1
+  - com.google.javascript.jscomp.TypeCheckTest::testEnumStaticMethod2
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends15
+  - com.google.javascript.jscomp.TypeCheckTest::testStaticMethodDeclaration1
+  - com.google.javascript.jscomp.TypeCheckTest::testStaticMethodDeclaration2
+  - com.google.javascript.jscomp.TypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference6
+  - com.google.javascript.jscomp.TypeCheckTest::testLocallyInferredGlobalProperty1
+---- 退出码：0 | Closure-117_31-buggy
+

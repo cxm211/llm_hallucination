@@ -1,0 +1,13 @@
+==== 2026-05-12 23:02:54 :: Time-5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_yearMonth2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_yearMonth2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+---- 退出码：0 | Time-5-buggy
+

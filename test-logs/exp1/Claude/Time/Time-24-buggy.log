@@ -1,0 +1,16 @@
+==== 2026-05-12 23:41:22 :: Time-24-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+  - org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+---- 退出码：0 | Time-24-buggy
+

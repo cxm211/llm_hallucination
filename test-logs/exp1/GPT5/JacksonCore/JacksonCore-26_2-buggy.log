@@ -1,0 +1,10 @@
+==== 2025-10-16 21:27:39 :: JacksonCore-26_2-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.async.AsyncLocationTest::testLocationOffsets
+---- 退出码：0 | JacksonCore-26_2-buggy
+

@@ -1,0 +1,310 @@
+==== 2026-04-05 03:59:20 :: Math-6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 152
+  - org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest::testPlane
+  - org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest::testPreconditions
+  - org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest::testParaboloid
+  - org.apache.commons.math3.fitting.CurveFitterTest::testMath303
+  - org.apache.commons.math3.fitting.CurveFitterTest::testMath304
+  - org.apache.commons.math3.fitting.CurveFitterTest::testMath372
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testFit01
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testFit04
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testFit05
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testFit06
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testFit07
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testMath519
+  - org.apache.commons.math3.fitting.GaussianFitterTest::testMath798
+  - org.apache.commons.math3.fitting.HarmonicFitterTest::test1PercentError
+  - org.apache.commons.math3.fitting.HarmonicFitterTest::testTinyVariationsData
+  - org.apache.commons.math3.fitting.HarmonicFitterTest::testInitialGuess
+  - org.apache.commons.math3.fitting.HarmonicFitterTest::testUnsorted
+  - org.apache.commons.math3.fitting.HarmonicFitterTest::testNoError
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testFit
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testMath798WithToleranceTooLowButNoException
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testMath798WithToleranceTooLow
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testMath798
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testSmallError
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testRedundantSolvable
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testNoError
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testLargeSample
+  - org.apache.commons.math3.fitting.PolynomialFitterTest::testRedundantUnsolvable
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest::testRosenbrock
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest::testCircleFitting
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapterTest::testStartSimplexInsideRange
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapterTest::testOptimumOutsideRange
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapterTest::testUnbounded
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapterTest::testHalfBounded
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapterTest::testStartSimplexInsideRange
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapterTest::testOptimumOutsideRange
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapterTest::testUnbounded
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapterTest::testStartSimplexOutsideRange
+  - org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapterTest::testHalfBounded
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testNoDependency
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testRedundantEquations
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testTrivial
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testTwoSets
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testMoreEstimatedParametersSimple
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testMoreEstimatedParametersUnsorted
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testIllConditioned
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testColumnsPermutation
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testNonInversible
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testInconsistentEquations
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testCircleFitting
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testOneSet
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testConstrainedRosen
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testElliRotated
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testEllipse
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTwoAxes
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigar
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRosen
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testFitAccuracyDependsOnBoundary
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRastrigin
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testMath864
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiagonalRosen
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSsDiffPow
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testMaximize
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testAckley
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigTab
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiffPow
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSphere
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTablet
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigarWithBoundaries
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testQuadratic
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testRelativeToleranceOnScaledValues
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testMaximizeQuadratic
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testSumSinc
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMath283
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testRosenbrock
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testPowell
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaxIterations
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testRosenbrock
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testLeastSquares1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testLeastSquares2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testLeastSquares3
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize2
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testPowell
+  - org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest::testTrivial
+  - org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest::testNoOptimum
+  - org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest::testIssue914
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testHahn1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testMoreEstimatedParametersSimple
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testMoreEstimatedParametersUnsorted
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testMaxEvaluations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testCircleFittingBadInit
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testCircleFittingGoodInit
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testNoDependency
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testRedundantEquations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testTrivial
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testQRColumnsPermutation
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testInconsistentSizes1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testInconsistentSizes2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testTwoSets
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testIllConditioned
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testGetIterations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testNonInvertible
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testInconsistentEquations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testCircleFitting
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testKirby2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testOneSet
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testBevington
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testNonInvertible
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testCircleFitting2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testControlParameters
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testCircleFittingGoodInit
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testNoDependency
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testRedundantEquations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testTrivial
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testQRColumnsPermutation
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testInconsistentSizes1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testInconsistentSizes2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testTwoSets
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testHahn1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testMoreEstimatedParametersSimple
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testMoreEstimatedParametersUnsorted
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testIllConditioned
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testGetIterations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testInconsistentEquations
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testCircleFitting
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testKirby2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testOneSet
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testCircleFittingBadInit
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackLinearRank1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackBrownDennis
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackJennrichSampson
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackRosenbrok
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackBox3Dimensional
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackHelicalValley
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackMeyer
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackLinearFullRank
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackFreudensteinRoth
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackOsborne1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackOsborne2
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackWatson
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackKowalikOsborne
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackPowellSingular
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackChebyquad
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackLinearRank1ZeroColsAndRows
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackBard
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest::testMinpackBrownAlmostLinear
+---- 主命令退出码：0 | Math-6-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testTrivial
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest::testTrivial
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testConstrainedRosen
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testConstrainedRosen
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testElliRotated
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testElliRotated
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testEllipse
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testEllipse
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTwoAxes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTwoAxes
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigar
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigar
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRosen
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRosen
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRastrigin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testRastrigin
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiagonalRosen
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiagonalRosen
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSsDiffPow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSsDiffPow
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testMaximize
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testMaximize
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testAckley
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testAckley
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigTab
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigTab
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiffPow
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testDiffPow
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSphere
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testSphere
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTablet
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testTablet
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigarWithBoundaries
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest::testCigarWithBoundaries
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testSumSinc
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest::testSumSinc
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize1
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMaximize2
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize1
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest::testMinimize2
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize1
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMaximize2
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize1
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest::testMinimize2
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testGetIterations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest::testGetIterations
+[JACOCO] defects4j test -t org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testGetIterations
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest::testGetIterations
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-6-buggy/jacoco.exec.
+[INFO] Analyzing 809 classes.
+>>> [JACOCO] 结束

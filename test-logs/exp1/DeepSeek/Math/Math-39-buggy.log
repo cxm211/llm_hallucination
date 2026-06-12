@@ -1,0 +1,11 @@
+==== 2026-05-29 02:00:22 :: Math-39-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest::testKepler
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStep
+---- 退出码：0 | Math-39-buggy
+

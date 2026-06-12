@@ -1,0 +1,13 @@
+==== 2026-01-11 22:38:54 :: Jsoup-60_1-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.parser.TokenQueueTest::chompEscapedBalanced
+  - org.jsoup.select.QueryParserTest::testParsesSingleQuoteInContains
+  - org.jsoup.select.QueryParserTest::exceptionOnUncloseAttribute
+  - org.jsoup.select.SelectorTest::testPsuedoContainsWithParentheses
+---- 退出码：0 | Jsoup-60_1-buggy
+

@@ -1,0 +1,16 @@
+==== 2026-05-29 01:38:24 :: Jsoup-66_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jsoup.nodes.DocumentTest::testClonesDeclarations
+  - org.jsoup.nodes.DocumentTest::testClone
+  - org.jsoup.nodes.ElementTest::testClone
+  - org.jsoup.nodes.ElementTest::insertChildrenAsCopy
+  - org.jsoup.nodes.ElementTest::testNextElementSiblingAfterClone
+  - org.jsoup.nodes.NodeTest::supportsClone
+  - org.jsoup.nodes.NodeTest::childNodesCopy
+---- 退出码：0 | Jsoup-66_1-buggy
+

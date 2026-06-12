@@ -1,0 +1,47 @@
+==== 2026-05-11 07:38:18 :: Closure-92_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 38
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn4
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn6
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitives
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceSortingOff
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceSortingOn
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalOfRequires
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideAfterDeclarationError
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideErrorCases
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testSimpleProvides
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testNoRemovalFunction1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testNoRemovalFunction2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testImplicitProvideInIndependentModules
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testMultipleProvides
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testLateProvides
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder3a
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder3b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder4a
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder4b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testMissingProvides
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testBadCrossModuleRequire
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testGoodCrossModuleRequire1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testGoodCrossModuleRequire2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules2b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules3b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvidedDeclaredFunctionError
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules3
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testImplicitProvideInIndependentModules2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testImplicitProvideInIndependentModules3
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testImplicitAndExplicitProvide
+---- 退出码：0 | Closure-92_2-buggy
+

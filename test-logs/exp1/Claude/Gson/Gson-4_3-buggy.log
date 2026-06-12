@@ -1,0 +1,12 @@
+==== 2026-05-23 11:20:13 :: Gson-4_3-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+---- 退出码：0 | Gson-4_3-buggy
+

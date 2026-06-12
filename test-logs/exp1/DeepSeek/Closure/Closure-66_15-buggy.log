@@ -1,0 +1,14 @@
+==== 2026-05-28 04:21:40 :: Closure-66_15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPrototypePropertiesAsObjLitKeys1
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent5
+  - com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent6
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef4
+  - com.google.javascript.jscomp.TypeCheckTest::testCast16
+---- 退出码：0 | Closure-66_15-buggy
+

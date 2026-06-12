@@ -1,0 +1,62 @@
+bug,status,exit_code,failing_tests,log_file
+Lang-1-buggy,Not Pass,0,1,Lang-1-buggy.log
+Lang-3-buggy,Pass,0,0,Lang-3-buggy.log
+Lang-4-buggy,Not Pass,0,1,Lang-4-buggy.log
+Lang-5-buggy,Pass,0,0,Lang-5-buggy.log
+Lang-6-buggy,Not Pass,0,1,Lang-6-buggy.log
+Lang-7-buggy,Not Pass,0,1,Lang-7-buggy.log
+Lang-8-buggy,Pass,0,0,Lang-8-buggy.log
+Lang-9-buggy,Not Pass,0,1,Lang-9-buggy.log
+Lang-10-buggy,Not Pass,0,1,Lang-10-buggy.log
+Lang-11-buggy,Pass,0,0,Lang-11-buggy.log
+Lang-12-buggy,Not Pass,0,1,Lang-12-buggy.log
+Lang-13-buggy,Pass,0,0,Lang-13-buggy.log
+Lang-14-buggy,Pass,0,0,Lang-14-buggy.log
+Lang-15-buggy,Not Pass,0,1,Lang-15-buggy.log
+Lang-16-buggy,Not Pass,0,1,Lang-16-buggy.log
+Lang-17-buggy,Not Pass,0,1,Lang-17-buggy.log
+Lang-19-buggy,Not Pass,0,1,Lang-19-buggy.log
+Lang-20-buggy,Not Pass,0,1,Lang-20-buggy.log
+Lang-21-buggy,Pass,0,0,Lang-21-buggy.log
+Lang-22-buggy,Not Pass,0,1,Lang-22-buggy.log
+Lang-23-buggy,Not Pass,0,1,Lang-23-buggy.log
+Lang-24-buggy,Pass,0,0,Lang-24-buggy.log
+Lang-26-buggy,Pass,0,0,Lang-26-buggy.log
+Lang-27-buggy,Not Pass,0,1,Lang-27-buggy.log
+Lang-28-buggy,Pass,0,0,Lang-28-buggy.log
+Lang-29-buggy,Not Pass,0,1,Lang-29-buggy.log
+Lang-30-buggy,Not Pass,0,1,Lang-30-buggy.log
+Lang-31-buggy,Pass,0,0,Lang-31-buggy.log
+Lang-32-buggy,not compilable,1,,Lang-32-buggy.log
+Lang-33-buggy,Pass,0,0,Lang-33-buggy.log
+Lang-34-buggy,Not Pass,0,1,Lang-34-buggy.log
+Lang-35-buggy,Pass,0,0,Lang-35-buggy.log
+Lang-36-buggy,Pass,0,0,Lang-36-buggy.log
+Lang-37-buggy,Pass,0,0,Lang-37-buggy.log
+Lang-38-buggy,Not Pass,0,1,Lang-38-buggy.log
+Lang-39-buggy,Pass,0,0,Lang-39-buggy.log
+Lang-40-buggy,Not Pass,0,1,Lang-40-buggy.log
+Lang-41-buggy,Not Pass,0,1,Lang-41-buggy.log
+Lang-42-buggy,Pass,0,0,Lang-42-buggy.log
+Lang-43-buggy,Not Pass,0,1,Lang-43-buggy.log
+Lang-44-buggy,Not Pass,0,1,Lang-44-buggy.log
+Lang-45-buggy,Not Pass,0,1,Lang-45-buggy.log
+Lang-46-buggy,Pass,0,0,Lang-46-buggy.log
+Lang-47-buggy,Pass,0,0,Lang-47-buggy.log
+Lang-49-buggy,Not Pass,0,1,Lang-49-buggy.log
+Lang-50-buggy,Pass,0,0,Lang-50-buggy.log
+Lang-51-buggy,Pass,0,0,Lang-51-buggy.log
+Lang-52-buggy,Pass,0,0,Lang-52-buggy.log
+Lang-53-buggy,Pass,0,0,Lang-53-buggy.log
+Lang-54-buggy,Not Pass,0,1,Lang-54-buggy.log
+Lang-55-buggy,Pass,0,0,Lang-55-buggy.log
+Lang-56-buggy,Not Pass,0,1,Lang-56-buggy.log
+Lang-57-buggy,Not Pass,0,1,Lang-57-buggy.log
+Lang-58-buggy,Pass,0,0,Lang-58-buggy.log
+Lang-59-buggy,Pass,0,0,Lang-59-buggy.log
+Lang-60-buggy,Pass,0,0,Lang-60-buggy.log
+Lang-61-buggy,Pass,0,0,Lang-61-buggy.log
+Lang-62-buggy,Not Pass,0,1,Lang-62-buggy.log
+Lang-63-buggy,Not Pass,0,1,Lang-63-buggy.log
+Lang-64-buggy,Pass,0,0,Lang-64-buggy.log
+Lang-65-buggy,Not Pass,0,1,Lang-65-buggy.log

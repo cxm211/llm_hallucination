@@ -1,0 +1,14 @@
+==== 2026-01-18 17:17:03 :: JacksonDatabind-26_10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.TestJDKSerialization::testEnumHandlers
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestVirtualProperties::testCustomProperties
+  - com.fasterxml.jackson.databind.ser.TestVirtualProperties::testAttributePropInclusion
+  - com.fasterxml.jackson.databind.ser.TestVirtualProperties::testAttributeProperties
+---- 退出码：0 | JacksonDatabind-26_10-buggy
+

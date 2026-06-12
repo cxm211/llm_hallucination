@@ -1,0 +1,29 @@
+==== 2026-05-01 09:47:34 :: Time-5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_yearMonth3
+  - org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_years
+---- 主命令退出码：0 | Time-5-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-5-buggy/jacoco.exec.
+[INFO] Analyzing 208 classes.
+>>> [JACOCO] 结束

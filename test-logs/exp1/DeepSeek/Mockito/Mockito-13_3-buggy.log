@@ -1,0 +1,95 @@
+==== 2026-01-10 18:16:35 :: Mockito-13_3-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy && ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+
+ant.compile:
+
+clean:
+
+prepare:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/target/classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/target/test-classes
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/target/reports/junit
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/build.xml:76: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 230 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/configuration/DefaultMockitoConfiguration.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/configuration/IMockitoConfiguration.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/configuration/GlobalConfiguration.java:7: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/runners/JUnit44RunnerImpl.java:7: warning: [deprecation] InitializationError in org.junit.internal.runners has been deprecated
+    [javac] import org.junit.internal.runners.InitializationError;
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/runners/JUnit44RunnerImpl.java:8: warning: [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+    [javac] import org.junit.internal.runners.JUnit4ClassRunner;
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/stubbing/answers/AnswerReturnValuesAdapter.java:9: warning: [deprecation] ReturnValues in org.mockito has been deprecated
+    [javac] import org.mockito.ReturnValues;
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:35: warning: [deprecation] Character(char) in Character has been deprecated
+    [javac]         wrapperReturnValues.put(Character.class, new Character((char) 0));
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:36: warning: [deprecation] Byte(byte) in Byte has been deprecated
+    [javac]         wrapperReturnValues.put(Byte.class, new Byte((byte) 0));
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:37: warning: [deprecation] Short(short) in Short has been deprecated
+    [javac]         wrapperReturnValues.put(Short.class, new Short((short) 0));
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:38: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac]         wrapperReturnValues.put(Integer.class, new Integer(0));
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:39: warning: [deprecation] Long(long) in Long has been deprecated
+    [javac]         wrapperReturnValues.put(Long.class, new Long(0));
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:40: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]         wrapperReturnValues.put(Float.class, new Float(0));
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/Primitives.java:41: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         wrapperReturnValues.put(Double.class, new Double(0));
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/MockHandler.java:65: error: cannot find symbol
+    [javac]             VerificationMode verificationMode = mockingProgress.getVerificationMode();
+    [javac]                                                                ^
+    [javac]   symbol:   method getVerificationMode()
+    [javac]   location: variable mockingProgress of type MockingProgress
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/configuration/ClassPathLoader.java:27: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]             return (IMockitoConfiguration) configClass.newInstance();
+    [javac]                                                       ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/configuration/DefaultInjectionEngine.java:35: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             boolean wasAccessible = field.isAccessible();
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/configuration/SpyAnnotationEngine.java:23: warning: [deprecation] createMockFor(Annotation,Field) in AnnotationEngine has been deprecated
+    [javac]     public Object createMockFor(Annotation annotation, Field field) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/src/org/mockito/internal/util/reflection/AccessibilityChanger.java:29: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]         wasAccessible = field.isAccessible();
+    [javac]                              ^
+    [javac] 1 error
+    [javac] 17 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:144: The following error occurred while executing this line:
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:65: The following error occurred while executing this line:
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-13_3-buggy/build.xml:76: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Mockito-13_3-buggy
+

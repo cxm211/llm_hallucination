@@ -1,0 +1,25 @@
+==== 2026-05-01 21:17:51 :: Lang-15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+---- 主命令退出码：0 | Lang-15-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-15-buggy/jacoco.exec.
+[INFO] Analyzing 143 classes.
+>>> [JACOCO] 结束

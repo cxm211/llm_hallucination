@@ -1,0 +1,17 @@
+==== 2026-05-12 21:32:05 :: Math-88-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testRestrictVariablesToNonNegative
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testEpsilon
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSimplexSolver
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testModelWithNoArtificialVars
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMinimization
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testLargeModel
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSolutionWithNegativeDecisionVariable
+---- 退出码：0 | Math-88-buggy
+

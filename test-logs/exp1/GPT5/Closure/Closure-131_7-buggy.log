@@ -1,0 +1,12 @@
+==== 2026-05-19 11:11:47 :: Closure-131_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps
+  - com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert
+  - com.google.javascript.jscomp.NodeUtilTest::testValidNames
+---- 退出码：0 | Closure-131_7-buggy
+

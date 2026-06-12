@@ -1,0 +1,20 @@
+==== 2026-05-28 08:47:44 :: Closure-119_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch
+  - com.google.javascript.jscomp.CheckGlobalNamesTest::testIndirectlyDeclaredProperties
+  - com.google.javascript.jscomp.CheckGlobalNamesTest::testGoogInheritsAlias
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testChainedAssignments3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testPeerAndSubpropertyOfUncollapsibleProperty
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitWithNonIdentifierKeys
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitWithUsedNumericKey
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff
+  - com.google.javascript.jscomp.IntegrationTest::testGoogDefineClass3
+  - com.google.javascript.jscomp.IntegrationTest::testIssue598
+  - com.google.javascript.jscomp.ProcessDefinesTest::testDeclareInNonGlobalScope
+---- 退出码：0 | Closure-119_3-buggy
+

@@ -1,0 +1,30 @@
+==== 2026-05-28 16:59:59 :: Gson-4_3-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 21
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testUrlNullSerialization
+  - com.google.gson.functional.ExposeFieldsTest::testNullExposeFieldSerialization
+  - com.google.gson.functional.ExposeFieldsTest::testArrayWithOneNullExposeFieldObjectSerialization
+  - com.google.gson.functional.JavaUtilTest::testCurrency
+  - com.google.gson.functional.MapTest::testSerializeMaps
+  - com.google.gson.functional.MapTest::testMapSerializationWithNullValue
+  - com.google.gson.functional.MapTest::testMapSerializationWithWildcardValues
+  - com.google.gson.functional.MapTest::testMapSerializationWithNullValues
+  - com.google.gson.functional.NamingPolicyTest::testDeprecatedNamingStrategy
+  - com.google.gson.functional.NullObjectAndFieldTest::testPrintPrintingObjectWithNulls
+  - com.google.gson.functional.ObjectTest::testNullFieldsSerialization
+  - com.google.gson.functional.ParameterizedTypesTest::testVariableTypeArrayDeserialization
+  - com.google.gson.functional.ParameterizedTypesTest::testVariableTypeDeserialization
+  - com.google.gson.functional.ParameterizedTypesTest::testParameterizedTypeGenericArraysSerialization
+  - com.google.gson.functional.ParameterizedTypesTest::testParameterizedTypeGenericArraysDeserialization
+  - com.google.gson.functional.ParameterizedTypesTest::testParameterizedTypeWithVariableTypeDeserialization
+  - com.google.gson.functional.PrintFormattingTest::testJsonObjectWithNullValues
+  - com.google.gson.functional.UncategorizedTest::testObjectEqualButNotSameSerialization
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+---- 退出码：0 | Gson-4_3-buggy
+

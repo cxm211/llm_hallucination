@@ -1,0 +1,32 @@
+==== 2026-05-19 02:21:58 :: Closure-40-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 23
+  - com.google.javascript.jscomp.IntegrationTest::testSmartNamePass
+  - com.google.javascript.jscomp.IntegrationTest::testIssue284
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAliasInstanceof5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testTopLevelClass3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testTopLevelClass4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testTopLevelClass7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExternalAliasInstanceof1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveInstanceOfOnly
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSingletonGetter1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSingletonGetter2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveNamedFunction
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignmentWithComplexLhs3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveInstanceOfWithReferencedMethod
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveLocalScopedInstanceOfOnly
+---- 退出码：0 | Closure-40-buggy
+

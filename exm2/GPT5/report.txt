@@ -1,0 +1,86 @@
+Total records: 17
+
+[empty_buggy_after_filter] Cli/36
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Cli/Cli_36
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Cli/Cli_36/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Cli/Cli_36/tests.java
+
+[empty_buggy_after_filter] Cli/7
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Cli/Cli_7
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Cli/Cli_7/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Cli/Cli_7/tests.java
+
+[empty_buggy_after_filter] Closure/150
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Closure/Closure_150
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Closure/Closure_150/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Closure/Closure_150/tests.java
+
+[empty_buggy_after_filter] Closure/168
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Closure/Closure_168
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Closure/Closure_168/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Closure/Closure_168/tests.java
+
+[missing_tests] Codec/13
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Codec/Codec_13
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Codec/Codec_13/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Codec/Codec_13/tests.java
+
+[empty_buggy_after_filter] Codec/16
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Codec/Codec_16
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Codec/Codec_16/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Codec/Codec_16/tests.java
+
+[empty_buggy_after_filter] Collections/10
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Collections/Collections_10
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Collections/Collections_10/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Collections/Collections_10/tests.java
+
+[empty_buggy_after_filter] Csv/12
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Csv/Csv_12
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Csv/Csv_12/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Csv/Csv_12/tests.java
+
+[empty_buggy_after_filter] JacksonDatabind/26
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/JacksonDatabind/JacksonDatabind_26
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/JacksonDatabind/JacksonDatabind_26/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/JacksonDatabind/JacksonDatabind_26/tests.java
+
+[empty_buggy_after_filter] JacksonDatabind/92
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/JacksonDatabind/JacksonDatabind_92
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/JacksonDatabind/JacksonDatabind_92/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/JacksonDatabind/JacksonDatabind_92/tests.java
+
+[empty_buggy_after_filter] Jsoup/17
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_17
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_17/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_17/tests.java
+
+[empty_buggy_after_filter] Jsoup/25
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_25
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_25/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_25/tests.java
+
+[empty_buggy_after_filter] Jsoup/9
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_9
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_9/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Jsoup/Jsoup_9/tests.java
+
+[empty_buggy_after_filter] Math/104
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Math/Math_104
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Math/Math_104/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Math/Math_104/tests.java
+
+[empty_buggy_after_filter] Math/12
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Math/Math_12
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Math/Math_12/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Math/Math_12/tests.java
+
+[empty_buggy_after_filter] Mockito/26
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Mockito/Mockito_26
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Mockito/Mockito_26/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Mockito/Mockito_26/tests.java
+
+[empty_buggy_after_filter] Time/11
+  sample_dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Time/Time_11
+  buggy_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Time/Time_11/buggy.java
+  tests_path: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j_input/Time/Time_11/tests.java

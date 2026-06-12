@@ -1,0 +1,24 @@
+==== 2026-05-20 06:51:49 :: Time-7_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29_newYork_endOfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29_newYork
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_endOfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_OfYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+---- 退出码：0 | Time-7_1-buggy
+

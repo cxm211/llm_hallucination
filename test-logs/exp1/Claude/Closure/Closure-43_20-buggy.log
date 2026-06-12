@@ -1,0 +1,78 @@
+==== 2026-05-22 20:48:01 :: Closure-43_20-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 69
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExternedPropertyName
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExternedPropertyNameDefinedByObjectLiteral
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testLotsOfVars
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testSetQuotedPropertyOfThis
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOneVar1
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOneVar2
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOneVar3
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOneVar4
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExtends
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testSetPropertyOfGlobalThis
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPropertyOfObjectOfUnknownType
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoVar1
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoVar2
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testFunctionSubType2
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticAndInstanceMethodWithSameName
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPropertyOnParamOfUnknownType
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testUnion
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOverlappingOriginalAndGeneratedNames
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoTypesTwoVar
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testRenamingMap
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoIndependentVar
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testImplementsAndExtends
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPrototypePropertiesAsObjLitKeys1
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPrototypePropertiesAsObjLitKeys2
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testReadPropertyOfGlobalThis
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testImplementsAndExtends2
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticAndSubInstanceProperties
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testQuotedPrototypeProperty
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testFunctionSubType
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExtendsInterface
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testFunctionType
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPropertyAddedToFunction
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTypeMismatch
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testPropertyAddedToObject
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testInline
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testLotsOfClasses
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticWithFunctions
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testUnions
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticAndInstanceProperties
+  - com.google.javascript.jscomp.ReplaceStringsTest::testRepeatedStringsWithDifferentMethods
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnVar
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowError1
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowError2
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowError3
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowError4
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowNonStringError
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowNewError1
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowNewError2
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnObject1
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnObject2
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnObject4
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnObject5
+  - com.google.javascript.jscomp.ReplaceStringsTest::testThrowConstStringError
+  - com.google.javascript.jscomp.ReplaceStringsTest::testRepeatedErrorString1
+  - com.google.javascript.jscomp.ReplaceStringsTest::testRepeatedErrorString2
+  - com.google.javascript.jscomp.ReplaceStringsTest::testRepeatedErrorString3
+  - com.google.javascript.jscomp.ReplaceStringsTest::testStartTracer1
+  - com.google.javascript.jscomp.ReplaceStringsTest::testStartTracer2
+  - com.google.javascript.jscomp.ReplaceStringsTest::testStartTracer3
+  - com.google.javascript.jscomp.ReplaceStringsTest::testStartTracer4
+  - com.google.javascript.jscomp.ReplaceStringsTest::testRepeatedTracerString
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnThis
+  - com.google.javascript.jscomp.ReplaceStringsTest::testReserved
+  - com.google.javascript.jscomp.ReplaceStringsTest::testRepeatedLoggerString
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnObject3a
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerOnObject3b
+  - com.google.javascript.jscomp.ReplaceStringsTest::testLoggerInitialization
+  - com.google.javascript.jscomp.TypeCheckTest::testLends10
+  - com.google.javascript.jscomp.TypeCheckTest::testLends11
+---- 退出码：0 | Closure-43_20-buggy
+

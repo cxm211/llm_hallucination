@@ -1,0 +1,11 @@
+==== 2026-05-29 01:41:40 :: Jsoup-72_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.CharacterReaderTest::consumeToNonexistentEndWhenAtAnd
+  - org.jsoup.parser.HtmlParserTest::commentAtEnd
+---- 退出码：0 | Jsoup-72_1-buggy
+

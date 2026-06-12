@@ -1,0 +1,37 @@
+==== 2026-05-19 07:19:38 :: Closure-80_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 28
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExpressions1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNamespacedClass1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNamespacedClass3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveFunction
+  - com.google.javascript.jscomp.NameAnalyzerTest::testFor
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testWhile
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPreservePropertyMutationsToAlias7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPreservePropertyMutationsToAlias8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIfElse
+  - com.google.javascript.jscomp.NameAnalyzerTest::testMixin3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn4
+  - com.google.javascript.jscomp.NodeUtilTest::testMayHaveSideEffects
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects6
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects7
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testUnaryOperators3
+---- 退出码：0 | Closure-80_4-buggy
+

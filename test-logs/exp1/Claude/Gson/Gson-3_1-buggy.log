@@ -1,0 +1,11 @@
+==== 2026-05-23 11:19:45 :: Gson-3_1-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.functional.MapTest::testConcurrentMap
+  - com.google.gson.functional.MapTest::testConcurrentNavigableMap
+---- 退出码：0 | Gson-3_1-buggy
+

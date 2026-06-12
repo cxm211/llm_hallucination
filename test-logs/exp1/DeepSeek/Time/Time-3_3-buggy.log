@@ -1,0 +1,101 @@
+==== 2026-05-17 19:29:16 :: Time-3_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+joda-time-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 157 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/DateTimeZone.java:477: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     provider = (Provider) Class.forName(providerClass).newInstance();
+    [javac]                                                                       ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/DateTimeZone.java:559: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     nameProvider = (NameProvider) Class.forName(providerClass).newInstance();
+    [javac]                                                                               ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:639: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = type.getField(getChronology());
+    [javac]                                            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:641: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, amount);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:663: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().years();
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:665: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, years);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:687: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().weekyears();
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:689: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, weekyears);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:711: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().months();
+    [javac]                                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:713: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, months);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:735: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().weeks();
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:737: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, weeks);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:779: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().days();
+    [javac]                                                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:781: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, days);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:803: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().hours();
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:805: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, hours);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:837: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().minutes();
+    [javac]                                                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:839: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, minutes);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:871: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().seconds();
+    [javac]                                                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:873: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, seconds);
+    [javac]                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:907: error: incompatible types: DurationField cannot be converted to DateTimeField
+    [javac]         DateTimeField field = getChronology().millis();
+    [javac]                                                     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/src/main/java/org/joda/time/MutableDateTime.java:909: error: incompatible types: possible lossy conversion from long to int
+    [javac]         int newValue = field.add(currentValue, millis);
+    [javac]                                 ^
+    [javac] 20 errors
+    [javac] 6 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-3_3-buggy/maven-build.xml:77: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Time-3_3-buggy
+

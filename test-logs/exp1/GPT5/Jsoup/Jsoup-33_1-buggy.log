@@ -1,0 +1,11 @@
+==== 2026-05-20 03:51:43 :: Jsoup-33_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyBlocks
+  - org.jsoup.parser.HtmlParserTest::tracksErrorsWhenRequested
+---- 退出码：0 | Jsoup-33_1-buggy
+

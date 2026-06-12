@@ -1,0 +1,25 @@
+==== 2026-05-23 04:20:19 :: Closure-96_16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 16
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testExternsLifting2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTypeCheckOverride2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference6
+  - com.google.javascript.jscomp.TypeCheckFunctionCheckTest::testWrongNumberOfArgs
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling2
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling4
+  - com.google.javascript.jscomp.TypeCheckTest::testNoTypeCheck14
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction7
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction8
+  - com.google.javascript.jscomp.TypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference6
+---- 退出码：0 | Closure-96_16-buggy
+

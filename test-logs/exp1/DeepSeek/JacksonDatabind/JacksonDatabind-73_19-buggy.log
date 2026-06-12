@@ -1,0 +1,20 @@
+==== 2026-01-19 22:24:38 :: JacksonDatabind-73_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnlyAndWriteOnly
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnly935
+  - com.fasterxml.jackson.databind.filter.TestJsonFilter::testIssue89
+  - com.fasterxml.jackson.databind.jsontype.TestVisibleTypeId::testVisibleWithWrapperArray
+  - com.fasterxml.jackson.databind.jsontype.TestVisibleTypeId::testVisibleWithProperty
+  - com.fasterxml.jackson.databind.jsontype.TestVisibleTypeId::testVisibleWithWrapperObject
+  - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass::testClassMixInsTopLevel
+  - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass::testClassMixInsForObjectClass
+  - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass::testClassMixInsMidLevel
+  - com.fasterxml.jackson.databind.ser.AnyGetterTest::testAnyGetterWithValueSerializer
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- 退出码：0 | JacksonDatabind-73_19-buggy
+

@@ -1,0 +1,17 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3
+    ],
+    "fixed": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fixed_code": [
+    "public void testRegularizedGammaPositivePositive() {\n        testRegularizedGamma(0.632120558828558, 1.0, 1.0);\n    }"
+  ]
+}

@@ -1,0 +1,52 @@
+==== 2026-05-19 12:53:04 :: Closure-155_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 43
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTypeParsingOnWithVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testMissingReturnCheckOnWithVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDepreciationWithVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTypeCheckingOnWithVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue115
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckUndefinedProperties3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag4
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInInnerFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias1a
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias1b
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias2a
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias2b
+  - com.google.javascript.jscomp.InlineVariablesTest::testCrossFunctionsAsLeftLeaves
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInOuterFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments2
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments2
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments4
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineNamedFunction
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testRedeclare
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testUnreferencedBleedingFunction
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testDoubleDeclaration2
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectRecursion
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectCatch
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectRedeclare
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testDoubleDeclaration
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectShadowing
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction2
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction3
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction4
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction5
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction7
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testEarlyReference
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedRecursiveFunction2
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectCode
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testHoistedFunction1
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testHoistedFunction2
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectEarlyReference
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testReferencedBleedingFunction
+  - com.google.javascript.jscomp.VariableVisibilityAnalysisTest::testFunctions
+---- 退出码：0 | Closure-155_7-buggy
+

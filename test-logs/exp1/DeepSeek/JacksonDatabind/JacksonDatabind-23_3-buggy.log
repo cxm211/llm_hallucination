@@ -1,0 +1,16 @@
+==== 2026-05-28 18:17:45 :: JacksonDatabind-23_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForLists::testListOfNumbers
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForMaps::testJackson428
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForScalars::testScalarArrays
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForScalars::testNumericScalars
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testWithNaturalScalar118
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize2::testEmptyInclusionScalars
+---- 退出码：0 | JacksonDatabind-23_3-buggy
+

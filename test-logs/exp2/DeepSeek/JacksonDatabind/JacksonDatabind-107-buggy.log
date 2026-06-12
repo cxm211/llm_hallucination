@@ -1,0 +1,26 @@
+==== 2026-05-01 06:24:16 :: JacksonDatabind-107-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+  - com.fasterxml.jackson.databind.jsontype.ExistingPropertyTest::testExistingEnumTypeIdViaDefault
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDefaultImplWithObjectWrapper
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testDefaultImpl
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testDefaultImplViaModule
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId198Test::testFails
+---- 主命令退出码：0 | JacksonDatabind-107-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.filter.ProblemHandlerUnknownTypeId2221Test::testWithDeserializationProblemHandler
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-107-buggy/jacoco.exec.
+[INFO] Analyzing 547 classes.
+>>> [JACOCO] 结束

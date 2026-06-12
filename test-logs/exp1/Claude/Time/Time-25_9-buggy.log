@@ -1,0 +1,28 @@
+==== 2026-05-12 23:44:57 :: Time-25_9-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 19
+  - org.joda.time.TestDateTimeZoneCutover::test_MutableDateTime_setZoneRetainFields_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusDay_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusHour_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withZoneRetainFields_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_MutableDateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDayMidGap_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDayMidGap_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDay_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+---- 退出码：0 | Time-25_9-buggy
+

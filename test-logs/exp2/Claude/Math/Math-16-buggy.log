@@ -1,0 +1,27 @@
+==== 2026-05-01 21:46:46 :: Math-16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargePositive
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargeNegative
+---- 主命令退出码：0 | Math-16-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.math3.util.FastMathTest::testMath905LargePositive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargePositive
+[JACOCO] defects4j test -t org.apache.commons.math3.util.FastMathTest::testMath905LargeNegative
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargeNegative
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-16-buggy/jacoco.exec.
+[INFO] Analyzing 689 classes.
+>>> [JACOCO] 结束

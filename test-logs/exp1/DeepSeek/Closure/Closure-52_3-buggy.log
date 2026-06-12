@@ -1,0 +1,15 @@
+==== 2026-05-28 02:12:09 :: Closure-52_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit
+  - com.google.javascript.jscomp.CodePrinterTest::testNumericKeys
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit2
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit3
+  - com.google.javascript.jscomp.CodePrinterTest::testGetter
+  - com.google.javascript.jscomp.CodePrinterTest::testSetter
+---- 退出码：0 | Closure-52_3-buggy
+

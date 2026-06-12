@@ -1,0 +1,62 @@
+==== 2026-05-28 00:50:02 :: Closure-43_15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 53
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testEnum
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAliasedEnum1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAliasedEnum2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAliasedEnum3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAliasedEnum4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAliasedEnum5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsEnumUse3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsEnumUse4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsEnumUse5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum12
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum29
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum31
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum37
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition
+  - com.google.javascript.jscomp.SymbolTableTest::testNaturalSymbolOrdering
+  - com.google.javascript.jscomp.SymbolTableTest::testInnerEnum
+  - com.google.javascript.jscomp.SymbolTableTest::testNamespaceDefinitionOrder
+  - com.google.javascript.jscomp.TypeCheckTest::testAliasedEnum1
+  - com.google.javascript.jscomp.TypeCheckTest::testAliasedEnum2
+  - com.google.javascript.jscomp.TypeCheckTest::testAliasedEnum3
+  - com.google.javascript.jscomp.TypeCheckTest::testAliasedEnum4
+  - com.google.javascript.jscomp.TypeCheckTest::testAliasedEnum5
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsEnumUse3
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsEnumUse4
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsEnumUse5
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum7
+  - com.google.javascript.jscomp.TypeCheckTest::testUndeclaredGlobalProperty2
+  - com.google.javascript.jscomp.TypeCheckTest::testLends10
+  - com.google.javascript.jscomp.TypeCheckTest::testLends11
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537c
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537d
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum12
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum13
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum14
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum15
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum29
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum31
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum37
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testEnum
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredConstType2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredConstType5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testEnumProperty
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testEnumAlias
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedEnum
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacesEnumAlias
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+---- 退出码：0 | Closure-43_15-buggy
+

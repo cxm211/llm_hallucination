@@ -1,0 +1,246 @@
+==== 2026-05-22 16:57:30 :: Closure-27_22-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy -DOUTFILE=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/failing_tests -Dd4j.relevant.tests.only=true run.dev.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+rhino:
+
+properties:
+
+init:
+
+compile:
+
+compile-most:
+
+compile-jdk15:
+
+compile:
+
+properties:
+
+compile:
+
+xmlimplsrc-compile:
+     [echo] Calling /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/lib/rhino/xmlimplsrc/build.xml
+
+compile:
+
+compile-all:
+
+compile:
+
+jar:
+
+rhino-jarjar:
+   [jarjar] Updating jar: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/build/lib/rhino.jar
+
+svnversion:
+
+compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/build.xml:258: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 119 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java:22: error: package com.google.debugging.sourcemap.proto.Mapping does not exist
+    [javac] import com.google.debugging.sourcemap.proto.Mapping.OriginalMapping;
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapping.java:19: error: package com.google.debugging.sourcemap.proto.Mapping does not exist
+    [javac] import com.google.debugging.sourcemap.proto.Mapping.OriginalMapping;
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java:52: error: cannot find symbol
+    [javac]   private List<OriginalMapping> mappings;
+    [javac]                ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV2
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java:145: error: cannot find symbol
+    [javac]   public OriginalMapping getMappingForLine(int lineNumber, int columnIndex) {
+    [javac]          ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV2
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapping.java:34: error: cannot find symbol
+    [javac]   OriginalMapping getMappingForLine(int lineNumber, int columnIndex);
+    [javac]   ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: interface SourceMapping
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMappingReversable.java:19: error: package com.google.debugging.sourcemap.proto.Mapping does not exist
+    [javac] import com.google.debugging.sourcemap.proto.Mapping.OriginalMapping;
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMappingReversable.java:44: error: cannot find symbol
+    [javac]   public Collection<OriginalMapping> getReverseMapping(String originalFile, int line, int column);
+    [javac]                     ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: interface SourceMappingReversable
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/Compiler.java:145: error: cannot find symbol
+    [javac]   private FunctionInformationMap functionInformationMap;
+    [javac]           ^
+    [javac]   symbol:   class FunctionInformationMap
+    [javac]   location: class Compiler
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/Compiler.java:2179: error: cannot find symbol
+    [javac]   FunctionInformationMap getFunctionalInformationMap() {
+    [javac]   ^
+    [javac]   symbol:   class FunctionInformationMap
+    [javac]   location: class Compiler
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/Result.java:33: error: cannot find symbol
+    [javac]   public final FunctionInformationMap functionInformationMap;
+    [javac]                ^
+    [javac]   symbol:   class FunctionInformationMap
+    [javac]   location: class Result
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/Result.java:43: error: cannot find symbol
+    [javac]          FunctionInformationMap functionInformationMap,
+    [javac]          ^
+    [javac]   symbol:   class FunctionInformationMap
+    [javac]   location: class Result
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/Result.java:65: error: cannot find symbol
+    [javac]                 FunctionInformationMap functionInformationMap,
+    [javac]                 ^
+    [javac]   symbol:   class FunctionInformationMap
+    [javac]   location: class Result
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java:135: error: package OriginalMapping does not exist
+    [javac]       OriginalMapping.Builder builder = OriginalMapping.newBuilder()
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV2.java:135: error: cannot find symbol
+    [javac]       OriginalMapping.Builder builder = OriginalMapping.newBuilder()
+    [javac]                                         ^
+    [javac]   symbol:   variable OriginalMapping
+    [javac]   location: class SourceMapConsumerV2
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:22: error: package com.google.debugging.sourcemap.proto.Mapping does not exist
+    [javac] import com.google.debugging.sourcemap.proto.Mapping.OriginalMapping;
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:23: error: package com.google.debugging.sourcemap.proto.Mapping.OriginalMapping does not exist
+    [javac] import com.google.debugging.sourcemap.proto.Mapping.OriginalMapping.Builder;
+    [javac]                                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:53: error: cannot find symbol
+    [javac]   private Map<String, Map<Integer, Collection<OriginalMapping>>>
+    [javac]                                               ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:206: error: cannot find symbol
+    [javac]   public OriginalMapping getMappingForLine(int lineNumber, int column) {
+    [javac]          ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:242: error: cannot find symbol
+    [javac]   public Collection<OriginalMapping> getReverseMapping(String originalFile,
+    [javac]                     ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:468: error: cannot find symbol
+    [javac]   private OriginalMapping getPreviousMapping(int lineNumber) {
+    [javac]           ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:482: error: cannot find symbol
+    [javac]   private OriginalMapping getOriginalMappingForEntry(Entry entry) {
+    [javac]           ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/RecordFunctionInformation.java:38: error: package FunctionInformationMap does not exist
+    [javac]   private final FunctionInformationMap.Builder mapBuilder;
+    [javac]                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/RecordFunctionInformation.java:57: error: cannot find symbol
+    [javac]   FunctionInformationMap getMap() {
+    [javac]   ^
+    [javac]   symbol:   class FunctionInformationMap
+    [javac]   location: class RecordFunctionInformation
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:252: error: cannot find symbol
+    [javac]     Map<Integer, Collection<OriginalMapping>> sourceLineToCollectionMap =
+    [javac]                             ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:258: error: cannot find symbol
+    [javac]       Collection<OriginalMapping> mappings =
+    [javac]                  ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:487: error: cannot find symbol
+    [javac]       Builder x = OriginalMapping.newBuilder()
+    [javac]       ^
+    [javac]   symbol:   class Builder
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:487: error: cannot find symbol
+    [javac]       Builder x = OriginalMapping.newBuilder()
+    [javac]                   ^
+    [javac]   symbol:   variable OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:505: error: cannot find symbol
+    [javac]         new HashMap<String, Map<Integer, Collection<OriginalMapping>>>();
+    [javac]                                                     ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:518: error: cannot find symbol
+    [javac]                   new HashMap<Integer, Collection<OriginalMapping>>());
+    [javac]                                                   ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:521: error: cannot find symbol
+    [javac]             Map<Integer, Collection<OriginalMapping>> lineToCollectionMap =
+    [javac]                                     ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:528: error: cannot find symbol
+    [javac]                   new ArrayList<OriginalMapping>(1));
+    [javac]                                 ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:531: error: cannot find symbol
+    [javac]             Collection<OriginalMapping> mappings =
+    [javac]                        ^
+    [javac]   symbol:   class OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:534: error: cannot find symbol
+    [javac]             Builder builder = OriginalMapping.newBuilder().setLineNumber(
+    [javac]             ^
+    [javac]   symbol:   class Builder
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:534: error: cannot find symbol
+    [javac]             Builder builder = OriginalMapping.newBuilder().setLineNumber(
+    [javac]                               ^
+    [javac]   symbol:   variable OriginalMapping
+    [javac]   location: class SourceMapConsumerV3
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/RecordFunctionInformation.java:51: error: cannot find symbol
+    [javac]     this.mapBuilder = FunctionInformationMap.newBuilder();
+    [javac]                       ^
+    [javac]   symbol:   variable FunctionInformationMap
+    [javac]   location: class RecordFunctionInformation
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/RecordFunctionInformation.java:96: error: package FunctionInformationMap does not exist
+    [javac]     mapBuilder.addEntry(FunctionInformationMap.Entry.newBuilder()
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/RecordFunctionInformation.java:128: error: package FunctionInformationMap does not exist
+    [javac]     mapBuilder.addModule(FunctionInformationMap.Module.newBuilder()
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/InstrumentFunctions.java:90: error: package Instrumentation does not exist
+    [javac]     Instrumentation.Builder builder = Instrumentation.newBuilder();
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/InstrumentFunctions.java:90: error: cannot find symbol
+    [javac]     Instrumentation.Builder builder = Instrumentation.newBuilder();
+    [javac]                                       ^
+    [javac]   symbol:   variable Instrumentation
+    [javac]   location: class InstrumentFunctions
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/InstrumentFunctions.java:106: error: cannot find symbol
+    [javac]     Instrumentation template = builder.build();
+    [javac]     ^
+    [javac]   symbol:   class Instrumentation
+    [javac]   location: class InstrumentFunctions
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/CompilerOptions.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/src/com/google/javascript/jscomp/ant/CompileTask.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 40 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-27_22-buggy/build.xml:258: Compile failed; see the compiler error output for details.
+
+Total time: 4 seconds
+Cannot run tests! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 131.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Closure-27_22-buggy
+

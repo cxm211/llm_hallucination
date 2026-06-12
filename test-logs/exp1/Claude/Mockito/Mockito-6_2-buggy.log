@@ -1,0 +1,18 @@
+==== 2026-05-24 03:56:10 :: Mockito-6_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.mockitousage.bugs.NPEOnAnyClassMatcherAutounboxTest::shouldNotThrowNPE
+  - org.mockitousage.bugs.NPEOnAnyClassMatcherAutounboxTest::shouldNotThrowNPE
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyXMatchers
+  - org.mockitousage.matchers.MatchersTest::anyStringMatcher
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollection
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyList
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMap
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySet
+---- 退出码：0 | Mockito-6_2-buggy
+

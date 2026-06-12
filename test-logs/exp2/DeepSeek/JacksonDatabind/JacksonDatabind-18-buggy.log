@@ -1,0 +1,33 @@
+==== 2026-05-01 05:16:57 :: JacksonDatabind-18-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+---- 主命令退出码：0 | JacksonDatabind-18-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleRootRecovery
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testRootBeans
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.seq.ReadRecoveryTest::testSimpleArrayRecovery
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-18-buggy/jacoco.exec.
+[INFO] Analyzing 490 classes.
+>>> [JACOCO] 结束

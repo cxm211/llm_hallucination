@@ -1,0 +1,27 @@
+==== 2026-05-01 20:56:11 :: Jsoup-58-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+  - org.jsoup.safety.CleanerTest::testIsValidDocument
+---- 主命令退出码：0 | Jsoup-58-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+[JACOCO] defects4j test -t org.jsoup.safety.CleanerTest::testIsValidDocument
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.safety.CleanerTest::testIsValidDocument
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-58-buggy/jacoco.exec.
+[INFO] Analyzing 223 classes.
+>>> [JACOCO] 结束

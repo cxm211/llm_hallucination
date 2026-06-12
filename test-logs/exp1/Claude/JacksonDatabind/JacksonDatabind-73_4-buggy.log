@@ -1,0 +1,66 @@
+==== 2026-05-23 17:08:27 :: JacksonDatabind-73_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 57
+  - com.fasterxml.jackson.databind.RoundtripTest::testMedaItemRoundtrip
+  - com.fasterxml.jackson.databind.TestJDKSerialization::testObjectMapper
+  - com.fasterxml.jackson.databind.TestJDKSerialization::testObjectReader
+  - com.fasterxml.jackson.databind.TestObjectMapperBeanDeserializer::testSimpleBean
+  - com.fasterxml.jackson.databind.TestObjectMapperBeanDeserializer::testListBean
+  - com.fasterxml.jackson.databind.creators.CreatorPropertiesTest::testPossibleNamingConflict
+  - com.fasterxml.jackson.databind.creators.DelegatingExternalProperty1003Test::testExtrnalPropertyDelegatingCreator
+  - com.fasterxml.jackson.databind.creators.ImplicitNameMatch792Test::testImplicitWithSetterGetter
+  - com.fasterxml.jackson.databind.creators.ImplicitNameMatch792Test::testWriteOnly
+  - com.fasterxml.jackson.databind.deser.JDKStringLikeTypesTest::testStackTraceElementWithCustom
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnlyAndWriteOnly
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnly935
+  - com.fasterxml.jackson.databind.deser.TestArrayDeserialization::testBeanArray
+  - com.fasterxml.jackson.databind.deser.TestCyclicTypes::testCycleWith2Classes
+  - com.fasterxml.jackson.databind.deser.TestValueAnnotations::testRootInterfaceAs
+  - com.fasterxml.jackson.databind.deser.exc.TestExceptionDeserialization::testWithCreator
+  - com.fasterxml.jackson.databind.deser.exc.TestExceptionHandlingWithDefaultDeserialization::testShouldThrowJsonMappingExceptionWithPathReference
+  - com.fasterxml.jackson.databind.filter.TestJsonFilter::testIssue89
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitMapType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testExplicitCollectionType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testPOJOSubType
+  - com.fasterxml.jackson.databind.interop.DeprecatedTypeHandling1102Test::testSimplePOJOType
+  - com.fasterxml.jackson.databind.interop.TestJDKProxy::testSimple
+  - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging::testSharedNamesFromGetterToSetter
+  - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging::testSharedNames
+  - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging::testSharedTypeInfo
+  - com.fasterxml.jackson.databind.introspect.TestInferredMutators::testDeserializationInference
+  - com.fasterxml.jackson.databind.introspect.TestJacksonAnnotationIntrospector::testSerializeDeserializeWithJaxbAnnotations
+  - com.fasterxml.jackson.databind.introspect.TestNameConflicts::testOverrideName
+  - com.fasterxml.jackson.databind.introspect.TestNameConflicts::testNonConflict
+  - com.fasterxml.jackson.databind.introspect.TestNamingStrategyCustom::testLowerCase
+  - com.fasterxml.jackson.databind.introspect.TestNamingStrategyCustom::testPerClassAnnotation
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testPartialIgnore
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testSimpleRenamed2
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testPropertyDesc
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testPropertyIndex
+  - com.fasterxml.jackson.databind.introspect.TestPropertyConflicts::testRegularAndIsGetter
+  - com.fasterxml.jackson.databind.introspect.TestPropertyRename::testCreatorPropRenameWithCleave
+  - com.fasterxml.jackson.databind.introspect.TestScalaLikeImplicitProperties::testGetterSetterProperty
+  - com.fasterxml.jackson.databind.jsontype.Generic1128Test::testIssue1128
+  - com.fasterxml.jackson.databind.jsontype.TestAbstractTypeNames::testInnerClassWithType
+  - com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization::testSubTypesFor356
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleMapMethod
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleListMethod
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleArrayMethod
+  - com.fasterxml.jackson.databind.jsontype.TypeRefinementForMapTest::testMapRefinement
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testBigDecimal965
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testIssue831
+  - com.fasterxml.jackson.databind.objectid.ObjectId825BTest::testFull825
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestAnnotations::testGettersWithoutSetters
+  - com.fasterxml.jackson.databind.struct.TestBackRefsWithPolymorphic::testDeserialize
+  - com.fasterxml.jackson.databind.struct.TestFormatForCollections::testListAsObject
+  - com.fasterxml.jackson.databind.struct.TestParentChildReferences::testSimpleRefsWithGetter
+  - com.fasterxml.jackson.databind.struct.TestParentChildReferences::testIssue693
+  - com.fasterxml.jackson.databind.type.LocalTypeTest::testLocalPartialType609
+  - com.fasterxml.jackson.databind.type.TestGenericsBounded::testGenericsComplex
+---- 退出码：0 | JacksonDatabind-73_4-buggy
+

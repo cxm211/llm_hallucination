@@ -1,0 +1,10 @@
+==== 2026-05-12 21:17:11 :: Math-34-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.genetics.ListPopulationTest::testIterator
+---- 退出码：0 | Math-34-buggy
+

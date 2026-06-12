@@ -1,0 +1,21 @@
+==== 2026-05-23 11:20:58 :: Gson-9-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - com.google.gson.functional.InheritanceTest::testBaseSerializedAsBaseWhenSpecifiedWithExplicitType
+  - com.google.gson.functional.InheritanceTest::testClassWithBaseCollectionFieldSerialization
+  - com.google.gson.functional.InheritanceTest::testBaseSerializedAsSubWhenSpecifiedWithExplicitType
+  - com.google.gson.functional.InheritanceTest::testClassWithBaseArrayFieldSerialization
+  - com.google.gson.functional.InheritanceTest::testBaseSerializedAsSub
+  - com.google.gson.functional.InheritanceTest::testClassWithBaseFieldSerialization
+  - com.google.gson.functional.JsonTreeTest::testJsonTreeNull
+  - com.google.gson.functional.MapTest::testInterfaceTypeMapWithSerializer
+  - com.google.gson.functional.MoreSpecificTypeSerializationTest::testMapOfParameterizedSubclassFields
+  - com.google.gson.functional.MoreSpecificTypeSerializationTest::testMapOfSubclassFields
+  - com.google.gson.internal.bind.JsonTreeWriterTest::testSerializeNullsFalse
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+---- 退出码：0 | Gson-9-buggy
+

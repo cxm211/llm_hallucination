@@ -1,0 +1,30 @@
+==== 2026-05-28 16:45:04 :: Closure-176_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 21
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAssignToUntypedVariable
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa10
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa3
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa9
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction10
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction11
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1056
+  - com.google.javascript.jscomp.TypeCheckTest::testAssignToUntypedVariable
+  - com.google.javascript.jscomp.TypeInferenceTest::testDo
+  - com.google.javascript.jscomp.TypeInferenceTest::testFlattening
+  - com.google.javascript.jscomp.TypeInferenceTest::testArrayLit
+  - com.google.javascript.jscomp.TypeInferenceTest::testGetElem
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssignment
+  - com.google.javascript.jscomp.TypeInferenceTest::testReturn1
+  - com.google.javascript.jscomp.TypeInferenceTest::testReturn2
+  - com.google.javascript.jscomp.TypeInferenceTest::testExprWithinCast
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssignAdd
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod2
+---- 退出码：0 | Closure-176_5-buggy
+

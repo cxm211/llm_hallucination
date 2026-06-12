@@ -1,0 +1,23 @@
+==== 2026-05-28 12:41:43 :: Closure-157_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - com.google.javascript.jscomp.CodePrinterTest::testHook
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit2
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit3
+  - com.google.javascript.jscomp.CodePrinterTest::testGetter
+  - com.google.javascript.jscomp.CodePrinterTest::testSetter
+  - com.google.javascript.jscomp.FunctionNamesTest::testFunctionsNamesAndIds
+  - com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallbackTest::testHook
+  - com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys2
+  - com.google.javascript.jscomp.RenamePropertiesTest::testPrototypePropertiesAsObjLitKeys3
+  - com.google.javascript.jscomp.SimpleDefinitionFinderTest::testDefineNumber
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral6
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral7
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral8
+  - com.google.javascript.jscomp.parsing.ParserTest::testObjectLiteralDoc1
+---- 退出码：0 | Closure-157_19-buggy
+

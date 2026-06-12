@@ -1,0 +1,14 @@
+==== 2026-05-28 10:50:25 :: Closure-137_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion3
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testOnlyInversion4
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testArguments
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext1
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations2
+---- 退出码：0 | Closure-137_5-buggy
+

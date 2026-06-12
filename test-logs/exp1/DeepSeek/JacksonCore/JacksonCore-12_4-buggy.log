@@ -1,0 +1,55 @@
+==== 2026-01-15 20:53:38 :: JacksonCore-12_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 46
+  - com.fasterxml.jackson.core.TestJDKSerializability::testJsonFactorySerializable
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testSingleMatchFilteringWithPath
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testMultipleMatchFilteringWithPath1
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testMultipleMatchFilteringWithPath2
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testMultipleMatchFilteringWithPath3
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testSingleMatchFilteringWithoutPath
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testSingleMatchFilteringWithPathSkippedArray
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testNonFiltering
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testIndexMatchWithPath1
+  - com.fasterxml.jackson.core.filter.BasicGeneratorFilteringTest::testIndexMatchWithPath2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testSingleMatchFilteringWithPath
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testMultipleMatchFilteringWithPath1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testMultipleMatchFilteringWithPath2
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testMultipleMatchFilteringWithPath3
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testSingleMatchFilteringWithoutPath
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testNonFiltering
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testIndexMatchWithPath1
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testIndexMatchWithPath2
+  - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest::testSimplePropertyWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest::testSimplePropertyWithoutPath
+  - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest::testArrayNestedWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest::testArrayElementWithoutPath
+  - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest::testArrayNestedWithoutPath
+  - com.fasterxml.jackson.core.filter.JsonPointerGeneratorFilteringTest::testArrayElementWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimpleWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimpleNoPath
+  - com.fasterxml.jackson.core.json.LocationInArrayTest::testOffsetInArraysChars
+  - com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithObjectFieldsUsingReader
+  - com.fasterxml.jackson.core.json.TestComments::testYAMLCommentsChars
+  - com.fasterxml.jackson.core.json.TestJsonParser::testSpecExampleFully
+  - com.fasterxml.jackson.core.json.TestJsonParser::testHandlingOfInvalidSpaceChars
+  - com.fasterxml.jackson.core.json.TestJsonParser::testSpecExampleSkipping
+  - com.fasterxml.jackson.core.json.TestLocation::testSimpleInitialOffsets
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextNameWithIndentation
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextTextValue
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextBooleanValue
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextLongValue
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextIntValue
+  - com.fasterxml.jackson.core.json.TestParserDupHandling::testSimpleDupsChars
+  - com.fasterxml.jackson.core.json.TestParserDupHandling::testSimpleDupsDisabled
+  - com.fasterxml.jackson.core.json.TestParserOverrides::testCurrentName
+  - com.fasterxml.jackson.core.main.TestGeneratorCopy::testCopyObjectTokens
+  - com.fasterxml.jackson.core.main.TestGeneratorObject::testConvenienceMethods
+  - com.fasterxml.jackson.core.main.TestParserWithObjects::testNextValueNested
+  - com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem::testSmallSymbolSetWithChars
+  - com.fasterxml.jackson.core.util.TestDelegates::testNotDelegateCopyMethods
+---- 退出码：0 | JacksonCore-12_4-buggy
+

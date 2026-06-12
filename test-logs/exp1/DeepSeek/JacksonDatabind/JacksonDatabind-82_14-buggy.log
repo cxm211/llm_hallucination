@@ -1,0 +1,14 @@
+==== 2026-01-20 02:30:24 :: JacksonDatabind-82_14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testProblem744
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testIgnored
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testIgnoredPart2
+  - com.fasterxml.jackson.databind.filter.IgnorePropertyOnDeserTest::testIgnoreGetterNotSetter1595
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- 退出码：0 | JacksonDatabind-82_14-buggy
+

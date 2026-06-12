@@ -1,0 +1,48 @@
+==== 2026-03-31 16:30:04 :: Codec-11-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.codec.net.QCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QCodecTest::testUnsafeEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testBasicEncodeDecode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakEncode
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUltimateSoftBreak
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testTrailingSpecial
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUnsafeEncodeDecode
+---- 主命令退出码：0 | Codec-11-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testSkipNotEncodedCRLF
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakDecode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakEncode
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testSoftLineBreakEncode
+[JACOCO] defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testUltimateSoftBreak
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testUltimateSoftBreak
+[JACOCO] defects4j test -t org.apache.commons.codec.net.QuotedPrintableCodecTest::testTrailingSpecial
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.codec.net.QuotedPrintableCodecTest::testTrailingSpecial
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-11-buggy/jacoco.exec.
+[INFO] Analyzing 66 classes.
+>>> [JACOCO] 结束

@@ -1,0 +1,11 @@
+==== 2025-10-22 15:47:14 :: JacksonDatabind-101_8-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testIssue2088UnwrappedFieldsAfterLastCreatorProp
+---- 退出码：0 | JacksonDatabind-101_8-buggy
+

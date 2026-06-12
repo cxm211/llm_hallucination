@@ -1,0 +1,41 @@
+==== 2026-05-28 12:28:22 :: Closure-155_14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 32
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue81
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag4
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionDeclaration
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInInnerFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testOverlappingInlines
+  - com.google.javascript.jscomp.InlineVariablesTest::testInsideHookConditional
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias1a
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias2a
+  - com.google.javascript.jscomp.InlineVariablesTest::testCrossFunctionsAsLeftLeaves
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliases2b
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliases2c
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliases2d
+  - com.google.javascript.jscomp.InlineVariablesTest::testOverlappingInlineFunctions
+  - com.google.javascript.jscomp.InlineVariablesTest::testArgumentsModifiedInOuterFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testSideEffectOrder
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378ModifiedArguments2
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliases2
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments1
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments2
+  - com.google.javascript.jscomp.InlineVariablesTest::testIssue378EscapedArguments4
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoCrossVar
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineGetpropIntoCall
+  - com.google.javascript.jscomp.InlineVariablesTest::testInsideIfConditional
+  - com.google.javascript.jscomp.InlineVariablesTest::testSingleReferenceAfterInitialzation
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineNamedFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testChainedAssignment
+  - com.google.javascript.jscomp.InlineVariablesTest::testOnlyReadAtInitialization
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoCrossNewVariables
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineInFunction2
+  - com.google.javascript.jscomp.InlineVariablesTest::testInsideAndConditional
+---- 退出码：0 | Closure-155_14-buggy
+

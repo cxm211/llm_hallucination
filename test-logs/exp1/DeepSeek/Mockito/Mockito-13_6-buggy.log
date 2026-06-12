@@ -1,0 +1,10 @@
+==== 2026-01-10 18:17:21 :: Mockito-13_6-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest::shouldAllowVerifyingWhenOtherMockCallIsInTheSameLine
+---- 退出码：0 | Mockito-13_6-buggy
+

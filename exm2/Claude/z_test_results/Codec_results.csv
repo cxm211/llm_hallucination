@@ -1,0 +1,19 @@
+bug,status,exit_code,failing_tests,log_file
+Codec-1-buggy,Pass,0,0,Codec-1-buggy.log
+Codec-2-buggy,Pass,0,0,Codec-2-buggy.log
+Codec-3-buggy,Not Pass,0,1,Codec-3-buggy.log
+Codec-4-buggy,Not Pass,0,1,Codec-4-buggy.log
+Codec-5-buggy,Pass,0,0,Codec-5-buggy.log
+Codec-6-buggy,Not Pass,0,1,Codec-6-buggy.log
+Codec-7-buggy,Not Pass,0,1,Codec-7-buggy.log
+Codec-8-buggy,Not Pass,0,1,Codec-8-buggy.log
+Codec-9-buggy,Pass,0,0,Codec-9-buggy.log
+Codec-10-buggy,Pass,0,0,Codec-10-buggy.log
+Codec-11-buggy,Not Pass,0,1,Codec-11-buggy.log
+Codec-12-buggy,Not Pass,0,1,Codec-12-buggy.log
+Codec-13-buggy,Not Pass,0,1,Codec-13-buggy.log
+Codec-14-buggy,not compilable,1,,Codec-14-buggy.log
+Codec-15-buggy,Not Pass,0,1,Codec-15-buggy.log
+Codec-16-buggy,Not Pass,0,1,Codec-16-buggy.log
+Codec-17-buggy,Pass,0,0,Codec-17-buggy.log
+Codec-18-buggy,Not Pass,0,1,Codec-18-buggy.log

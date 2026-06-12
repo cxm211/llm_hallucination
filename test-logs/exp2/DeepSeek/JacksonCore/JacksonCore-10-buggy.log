@@ -1,0 +1,48 @@
+==== 2026-05-01 04:14:14 :: JacksonCore-10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextNameWithLongContent
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLargeUnquoted
+  - com.fasterxml.jackson.core.json.TestWithTonsaSymbols::testStreamReaderParser
+  - com.fasterxml.jackson.core.main.TestGeneratorMisc::testLongerObjects
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testSharedSymbols
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortQuotedDirectBytes
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187a
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsViaParser
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testThousandsOfSymbolsWithNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+---- 主命令退出码：0 | JacksonCore-10-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-10-buggy/jacoco.exec.
+[INFO] Analyzing 83 classes.
+>>> [JACOCO] 结束

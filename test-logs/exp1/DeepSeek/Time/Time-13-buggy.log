@@ -1,0 +1,12 @@
+==== 2026-05-17 19:32:48 :: Time-13-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative
+  - org.joda.time.format.TestPeriodFormatterBuilder::testFormatSecondsWithOptionalMillis
+  - org.joda.time.format.TestPeriodFormatterBuilder::testFormatSecondsWithMillis
+---- 退出码：0 | Time-13-buggy
+

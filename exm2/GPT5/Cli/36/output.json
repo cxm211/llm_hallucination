@@ -1,0 +1,3 @@
+{
+  "error": "Missing buggy function implementations. Please provide the source code for the functions/classes under test (e.g., Options, Option, getOptions(), and the definition of insertedOrder), so I can analyze coverage and produce a fix."
+}

@@ -1,0 +1,21 @@
+==== 2026-05-28 12:15:58 :: Closure-153_14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue115
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testCatch
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testArguments
+  - com.google.javascript.jscomp.NormalizeTest::testIssue166b
+  - com.google.javascript.jscomp.NormalizeTest::testIssue166d
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateVarInExterns
+  - com.google.javascript.jscomp.NormalizeTest::testMakeLocalNamesUnique
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testRedeclare
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testDoubleDeclaration2
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectCatch
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testCorrectRedeclare
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testDoubleDeclaration
+---- 退出码：0 | Closure-153_14-buggy
+

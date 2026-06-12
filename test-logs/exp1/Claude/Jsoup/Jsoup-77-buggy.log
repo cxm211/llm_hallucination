@@ -1,0 +1,10 @@
+==== 2026-05-23 21:20:58 :: Jsoup-77-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.parser.XmlTreeBuilderTest::normalizesDiscordantTags
+---- 退出码：0 | Jsoup-77-buggy
+

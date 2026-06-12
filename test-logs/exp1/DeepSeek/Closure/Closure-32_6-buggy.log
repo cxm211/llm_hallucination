@@ -1,0 +1,43 @@
+==== 2026-05-27 23:19:21 :: Closure-32_6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 34
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testWarningForSuperClassWithDeprecatedSubclassMethod
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testWarningForSuperclassMethod2
+  - com.google.javascript.jscomp.ExternExportsPassTest::testUseExportsAsExterns
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportFunctionWithVariableArguments
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithTypeAnnotation
+  - com.google.javascript.jscomp.ExternExportsPassTest::testWarnOnExportFunctionWithUnknownParameterTypes
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+  - com.google.javascript.jscomp.JsMessageExtractorTest::testExtractNewStyleMessage2
+  - com.google.javascript.jscomp.JsMessageVisitorTest::testHugeMessage
+  - com.google.javascript.jscomp.JsMessageVisitorTest::testExtractPropertyMessage
+  - com.google.javascript.jscomp.SymbolTableTest::testJSDocOnlySymbol
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testAuthors
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testFileOverviewMultiLine
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseWithAnnotation
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning4
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testSingleTags
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testSingleTagsReordered
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testUnsupportedJsDocSyntax2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testRegression7
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testRegression8
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testRegression15
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkerNames2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testMultilineDocumentationParameter
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testFileOverviewDuplicate
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testDocumentationMultipleParameter
+---- 退出码：0 | Closure-32_6-buggy
+

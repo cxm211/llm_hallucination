@@ -1,0 +1,59 @@
+==== 2026-05-28 08:30:58 :: Closure-117_9-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 50
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew16
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsConstructor1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBackwardsConstructor2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty16
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty19
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis5
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis9
+  - com.google.javascript.jscomp.TypeCheckTest::testIIFE4
+  - com.google.javascript.jscomp.TypeCheckTest::testNew16
+  - com.google.javascript.jscomp.TypeCheckTest::testNonexistentPropertyAccessStructSubtype
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty2
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty4
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty5
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty7
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping7
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping8
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping9
+  - com.google.javascript.jscomp.TypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty1
+  - com.google.javascript.jscomp.TypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty2
+  - com.google.javascript.jscomp.TypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty3
+  - com.google.javascript.jscomp.TypeCheckTest::testMismatchingOverridingInferredPropertyBeforeDeclaredProperty4
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1024
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537c
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference7
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference8
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference9
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsConstructor1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsConstructor2
+  - com.google.javascript.jscomp.TypeCheckTest::testNonexistentPropertyAccessOnStruct
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue783
+  - com.google.javascript.jscomp.TypeCheckTest::testLends3
+  - com.google.javascript.jscomp.TypeCheckTest::testLocallyInferredGlobalProperty1
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty16
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty19
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty20
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty32
+  - com.google.javascript.jscomp.TypeCheckTest::testNonexistentPropertyAccessOnExternStruct
+---- 退出码：0 | Closure-117_9-buggy
+

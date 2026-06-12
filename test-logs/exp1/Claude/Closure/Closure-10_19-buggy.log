@@ -1,0 +1,10 @@
+==== 2026-05-22 10:01:49 :: Closure-10_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821
+---- 退出码：0 | Closure-10_19-buggy
+

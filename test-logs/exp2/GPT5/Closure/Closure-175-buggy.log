@@ -1,0 +1,60 @@
+==== 2026-03-31 14:41:35 :: Closure-175-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - com.google.javascript.jscomp.FunctionInjectorTest::testCanInlineReferenceToFunction14
+  - com.google.javascript.jscomp.FunctionInjectorTest::testInline11
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineNeverPartialSubtitution2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions16b
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineMutableArgsReferencedOnce
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions11
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions12
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions18
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions19
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions20
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions21
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+  - com.google.javascript.jscomp.SpecializeModuleTest::testSpecializeDevirtualizePrototypeMethodsWithInline
+---- 主命令退出码：0 | Closure-175-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.InlineFunctionsTest::testInlineMutableArgsReferencedOnce
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineMutableArgsReferencedOnce
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-175-buggy/jacoco.exec.
+[INFO] Analyzing 1349 classes.
+>>> [JACOCO] 结束

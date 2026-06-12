@@ -1,0 +1,14 @@
+==== 2026-05-19 11:37:07 :: Closure-141_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression2
+  - com.google.javascript.jscomp.ExpresssionDecomposerTest::testCanExposeExpression7
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDecomposeAnonymousInCall
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+---- 退出码：0 | Closure-141_1-buggy
+

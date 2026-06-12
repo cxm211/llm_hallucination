@@ -1,0 +1,28 @@
+==== 2026-05-01 22:05:45 :: Math-88-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testRestrictVariablesToNonNegative
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testEpsilon
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSimplexSolver
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testModelWithNoArtificialVars
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMinimization
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testLargeModel
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testSolutionWithNegativeDecisionVariable
+---- 主命令退出码：0 | Math-88-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-88-buggy/jacoco.exec.
+[INFO] Analyzing 325 classes.
+>>> [JACOCO] 结束

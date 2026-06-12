@@ -1,0 +1,17 @@
+==== 2026-01-11 01:31:49 :: Mockito-20_13-buggy ====
+>>> `ant clean` 已执行，退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.mockitousage.annotation.SpyAnnotationTest::should_spy_inner_class
+  - org.mockitousage.annotation.SpyAnnotationTest::should_report_when_constructor_is_explosive
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::exception_message_when_constructor_not_found
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::mocking_inner_classes_with_wrong_outer_instance
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+---- 退出码：0 | Mockito-20_13-buggy
+

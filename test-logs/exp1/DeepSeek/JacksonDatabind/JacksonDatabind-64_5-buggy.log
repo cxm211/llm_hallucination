@@ -1,0 +1,14 @@
+==== 2026-01-19 15:46:56 :: JacksonDatabind-64_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.fasterxml.jackson.databind.deser.JDKAtomicTypesTest::testPolymorphicAtomicReference
+  - com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351
+  - com.fasterxml.jackson.databind.jsontype.PolymorphicViaRefTypeTest::testPolymorphicAtomicRefProperty
+  - com.fasterxml.jackson.databind.jsontype.PolymorphicViaRefTypeTest::testAtomicRefViaDefaultTyping
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- 退出码：0 | JacksonDatabind-64_5-buggy
+

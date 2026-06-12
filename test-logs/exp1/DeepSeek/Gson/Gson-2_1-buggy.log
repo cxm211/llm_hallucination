@@ -1,0 +1,10 @@
+==== 2026-05-28 16:59:23 :: Gson-2_1-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch
+---- 退出码：0 | Gson-2_1-buggy
+

@@ -1,0 +1,24 @@
+==== 2026-06-05 17:40:20 :: Jsoup-32-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jsoup.nodes.ElementTest::testClonesClassnames
+  - org.jsoup.nodes.ElementTest::testClone
+  - org.jsoup.nodes.ElementTest::insertChildrenAsCopy
+  - org.jsoup.nodes.NodeTest::childNodesCopy
+---- 主命令退出码：0 | Jsoup-32-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.jsoup.nodes.ElementTest::testClonesClassnames
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.nodes.ElementTest::testClonesClassnames
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-32-buggy/jacoco.exec.
+[INFO] Analyzing 196 classes.
+>>> [JACOCO] 结束

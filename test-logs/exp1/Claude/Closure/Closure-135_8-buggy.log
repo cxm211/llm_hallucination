@@ -1,0 +1,11 @@
+==== 2026-05-23 08:42:44 :: Closure-135_8-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends9
+---- 退出码：0 | Closure-135_8-buggy
+

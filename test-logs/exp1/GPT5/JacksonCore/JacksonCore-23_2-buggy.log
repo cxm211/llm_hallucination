@@ -1,0 +1,9 @@
+==== 2025-10-16 21:26:01 :: JacksonCore-23_2-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- 退出码：0 | JacksonCore-23_2-buggy
+

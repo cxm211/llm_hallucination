@@ -1,0 +1,52 @@
+==== 2026-05-29 02:39:37 :: Mockito-14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 43
+  - org.mockito.internal.InvalidStateDetectionTest::shouldDetectUnfinishedStubbing
+  - org.mockito.internal.creation.cglib.CGLIBHackerTest::shouldSetMockitoNamingPolicyEvenIfMethodProxyIsProxied
+  - org.mockitousage.basicapi.MocksSerializationTest::shouldStubEvenIfSomeMethodsCalledAfterSerialization
+  - org.mockitousage.basicapi.MocksSerializationTest::shouldAllMockAndSerializableValueToBeSerialized
+  - org.mockitousage.basicapi.MocksSerializationTest::shouldSerializeMethodCallsUsingAnyStringMatcher
+  - org.mockitousage.basicapi.MocksSerializationTest::shouldSerializeMethodCallWithParametersThatAreSerializable
+  - org.mockitousage.basicapi.MocksSerializationTest::shouldRememberInteractionsForSerializedMock
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldStubCorrectlyWhenDoubleStringAndMixedVarargsUsed
+  - org.mockitousage.bugs.CovariantOverrideTest::returnFoo2
+  - org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest::shouldAllowVerifyingWhenOtherMockCallIsInTheSameLine
+  - org.mockitousage.customization.BDDMockitoTest::shouldStubByDelegatingToRealMethodUsingTypicalStubbingSyntax
+  - org.mockitousage.customization.BDDMockitoTest::shouldStubConsecutively
+  - org.mockitousage.matchers.CustomMatchersTest::shouldUseCustomPrimitiveNumberMatchers
+  - org.mockitousage.matchers.MatchersTest::notNullMatcher
+  - org.mockitousage.matchers.MatchersTest::anyMatcher
+  - org.mockitousage.matchers.MatchersTest::orMatcher
+  - org.mockitousage.matchers.MatchersTest::greaterOrEqualMatcherOverloaded
+  - org.mockitousage.matchers.MatchersTest::anyStringMatcher
+  - org.mockitousage.matchers.MatchersTest::lessThanOverloaded
+  - org.mockitousage.matchers.MatchersTest::findMatcher
+  - org.mockitousage.matchers.MatchersTest::lessOrEqualOverloaded
+  - org.mockitousage.matchers.MoreMatchersTest::shouldHelpOutWithUnnecessaryCastingOfSets
+  - org.mockitousage.matchers.VerificationAndStubbingUsingMatchersTest::shouldVerifyUsingMatchers
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldAllowStubbingOfMethodsThatDelegateToOtherMethods
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldAllowOverridingStubs
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldStub
+  - org.mockitousage.stubbing.BasicStubbingTest::shouldAllowStubbingToString
+  - org.mockitousage.stubbing.CallingRealMethodTest::shouldReturnRealValue
+  - org.mockitousage.stubbing.DeepStubbingTest::withComplexPatternArguments
+  - org.mockitousage.stubbing.DeepStubbingTest::withAnyPatternArguments
+  - org.mockitousage.stubbing.DeepStubbingTest::shouldStubbingBasicallyWorkFine
+  - org.mockitousage.stubbing.DeepStubbingTest::withArguments
+  - org.mockitousage.stubbing.DeepStubbingTest::withPatternPrimitive
+  - org.mockitousage.stubbing.DeepStubbingTest::interactions
+  - org.mockitousage.stubbing.DeepStubbingTest::withSimplePrimitive
+  - org.mockitousage.stubbing.DeprecatedStubbingTest::shouldAllowStubbingToString
+  - org.mockitousage.stubbing.StubbingConsecutiveAnswersTest::shouldReturnConsecutiveValues
+  - org.mockitousage.stubbing.StubbingConsecutiveAnswersTest::shouldThrowConsecutively
+  - org.mockitousage.stubbing.StubbingWithCustomAnswerTest::shouldMakeSureTheInterfaceDoesNotChange
+  - org.mockitousage.stubbing.StubbingWithExtraAnswersTest::shouldWorkAsStandardMockito
+  - org.mockitousage.stubbing.StubbingWithThrowablesTest::shouldStubbingWithThrowableFailVerification
+  - org.mockitousage.stubbing.StubbingWithThrowablesTest::shouldStubbingWithThrowableBeVerifiable
+---- 退出码：0 | Mockito-14-buggy
+

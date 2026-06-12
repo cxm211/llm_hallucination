@@ -1,0 +1,26 @@
+==== 2026-01-20 05:44:04 :: JacksonDatabind-93_10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - com.fasterxml.jackson.databind.creators.DelegatingExternalProperty1003Test::testExtrnalPropertyDelegatingCreator
+  - com.fasterxml.jackson.databind.deser.NullHandlingTest::testPolymorphicDataNull
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testEnumPolymorphicSerializationTest
+  - com.fasterxml.jackson.databind.interop.IllegalTypesCheckTest::testJDKTypes1872
+  - com.fasterxml.jackson.databind.jsontype.TestAbstractTypeNames::testEmptyCollection
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForScalars::test417
+  - com.fasterxml.jackson.databind.jsontype.TestEnumTyping::testEnumInterfaceList
+  - com.fasterxml.jackson.databind.jsontype.TestEnumTyping::testEnumInterface
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDeserializationWithArrayOfSize2
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDeserializationWithObject
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDeserializationWithString
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testUnknownTypeIDRecovery
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDeserializationWithArray
+  - com.fasterxml.jackson.databind.jsontype.TestScalars::testScalarsViaAbstractType
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testIssue798
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testIssue831
+  - com.fasterxml.jackson.databind.ser.TestJsonValue::testPolymorphicSerdeWithDelegate
+---- 退出码：0 | JacksonDatabind-93_10-buggy
+

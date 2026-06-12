@@ -1,0 +1,32 @@
+==== 2026-01-11 02:14:30 :: Mockito-27_12-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 23
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksByName
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldReportNicely
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldIInjectMocksInSpy
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInitializeAnnotatedFieldIfNull
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectSpies
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldKeepInstanceOnInjectMockFieldIfPresent
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksForClassHierarchyIfAnnotated
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldKeepSameInstanceIfFieldInitialized
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInitializeSpyIfNullAndInjectMocks
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInjectMocksIfAnnotated
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInstantiateInjectMockFieldIfPossible
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldNotInjectIfNotAnnotated
+  - org.mockitousage.basicapi.ResetTest::shouldNotAffectMockName
+  - org.mockitousage.basicapi.ResetTest::shouldRemoveAllStubbing
+  - org.mockitousage.basicapi.ResetTest::shouldRemoveStubbingToString
+  - org.mockitousage.basicapi.ResetTest::shouldMaintainPreviousDefaultAnswer
+  - org.mockitousage.basicapi.ResetTest::shouldResetOngoingStubbingSoThatMoreMeaningfulExceptionsAreRaised
+  - org.mockitousage.basicapi.ResetTest::shouldStubbingNotBeTreatedAsInteraction
+  - org.mockitousage.basicapi.ResetTest::shouldRemoveAllInteractions
+  - org.mockitousage.basicapi.ResetTest::shouldResetMultipleMocks
+  - org.mockitousage.bugs.ListenersLostOnResetMockTest::listener
+  - org.mockitousage.bugs.ShouldMocksCompareToBeConsistentWithEqualsTest::shouldResetNotRemoveDefaultStubbing
+  - org.mockitousage.stubbing.BasicStubbingTest::unfinishedStubbingCleansUpTheState
+---- 退出码：0 | Mockito-27_12-buggy
+

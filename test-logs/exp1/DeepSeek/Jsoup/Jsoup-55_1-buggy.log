@@ -1,0 +1,18 @@
+==== 2026-05-29 01:36:17 :: Jsoup-55_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.jsoup.nodes.DocumentTest::testHtmlAndXmlSyntax
+  - org.jsoup.parser.AttributeParseTest::dropsSlashFromAttributeName
+  - org.jsoup.parser.HtmlParserTest::handlesKnownEmptyBlocks
+  - org.jsoup.parser.HtmlParserTest::handlesUnknownNamespaceTags
+  - org.jsoup.parser.HtmlParserTest::convertsImageToImg
+  - org.jsoup.parser.HtmlParserTest::tracksErrorsWhenRequested
+  - org.jsoup.parser.XmlTreeBuilderTest::testCommentAndDocType
+  - org.jsoup.parser.XmlTreeBuilderTest::testSimpleXmlParse
+  - org.jsoup.parser.XmlTreeBuilderTest::xmlFragment
+---- 退出码：0 | Jsoup-55_1-buggy
+

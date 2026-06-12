@@ -1,0 +1,27 @@
+bug,status,exit_code,failing_tests,log_file
+JacksonCore-1-buggy,Not Pass,0,1,JacksonCore-1-buggy.log
+JacksonCore-2-buggy,Not Pass,0,1,JacksonCore-2-buggy.log
+JacksonCore-3-buggy,Not Pass,0,1,JacksonCore-3-buggy.log
+JacksonCore-4-buggy,Pass,0,0,JacksonCore-4-buggy.log
+JacksonCore-5-buggy,Pass,0,0,JacksonCore-5-buggy.log
+JacksonCore-6-buggy,Pass,0,0,JacksonCore-6-buggy.log
+JacksonCore-7-buggy,Not Pass,0,1,JacksonCore-7-buggy.log
+JacksonCore-8-buggy,Pass,0,0,JacksonCore-8-buggy.log
+JacksonCore-9-buggy,Not Pass,0,1,JacksonCore-9-buggy.log
+JacksonCore-10-buggy,Not Pass,0,1,JacksonCore-10-buggy.log
+JacksonCore-11-buggy,Pass,0,0,JacksonCore-11-buggy.log
+JacksonCore-12-buggy,Not Pass,0,1,JacksonCore-12-buggy.log
+JacksonCore-13-buggy,Not Pass,0,1,JacksonCore-13-buggy.log
+JacksonCore-14-buggy,Not Pass,0,1,JacksonCore-14-buggy.log
+JacksonCore-15-buggy,Not Pass,0,1,JacksonCore-15-buggy.log
+JacksonCore-16-buggy,Not Pass,0,1,JacksonCore-16-buggy.log
+JacksonCore-17-buggy,Not Pass,0,1,JacksonCore-17-buggy.log
+JacksonCore-18-buggy,Not Pass,0,1,JacksonCore-18-buggy.log
+JacksonCore-19-buggy,Pass,0,0,JacksonCore-19-buggy.log
+JacksonCore-20-buggy,Pass,0,0,JacksonCore-20-buggy.log
+JacksonCore-21-buggy,Not Pass,0,1,JacksonCore-21-buggy.log
+JacksonCore-22-buggy,Not Pass,0,1,JacksonCore-22-buggy.log
+JacksonCore-23-buggy,Pass,0,0,JacksonCore-23-buggy.log
+JacksonCore-24-buggy,not compilable,1,,JacksonCore-24-buggy.log
+JacksonCore-25-buggy,Pass,0,0,JacksonCore-25-buggy.log
+JacksonCore-26-buggy,Not Pass,0,1,JacksonCore-26-buggy.log

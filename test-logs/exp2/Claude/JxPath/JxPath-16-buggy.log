@@ -1,0 +1,39 @@
+==== 2026-05-01 21:06:36 :: JxPath-16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisPreceding
+---- 主命令退出码：0 | JxPath-16-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisPreceding
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisPreceding
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-16-buggy/jacoco.exec.
+[INFO] Analyzing 161 classes.
+>>> [JACOCO] 结束

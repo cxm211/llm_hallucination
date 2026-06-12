@@ -1,0 +1,25 @@
+==== 2026-05-10 21:58:17 :: Closure-28-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 16
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceIdentityFunction1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceReturnConst1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceReturnConst3
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceGetter1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceSetter1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceSetter2
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceEmptyFunction1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceEmptyFunction3
+  - com.google.javascript.jscomp.InlineCostEstimatorTest::testCost
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining10
+  - com.google.javascript.jscomp.InlineFunctionsTest::testMixedModeInliningCosting2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testMixedModeInliningCosting4
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInlining7
+  - com.google.javascript.jscomp.InlineFunctionsTest::testCostBasedInliningComplex7
+  - com.google.javascript.jscomp.InlineFunctionsTest::testFunctionExpressionOmega
+  - com.google.javascript.jscomp.IntegrationTest::testRewriteFunctionExpressions
+---- 退出码：0 | Closure-28-buggy
+

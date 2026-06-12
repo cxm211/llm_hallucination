@@ -1,0 +1,9 @@
+{
+  "function_1": {
+    "buggy": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "fixed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  },
+  "fixed_code": [
+    "public void testRequiredOptions(){\n\t\tPatternBuilder builder = new PatternBuilder();\n\t\tbuilder.withPattern(\"hc!<\");\n\t\tOption option = builder.create();\n\t\tassertTrue(option instanceof GroupImpl);\n\t\t\n\t\tGroupImpl group = (GroupImpl)option;\n\t\tIterator i = group.getOptions().iterator();\n\t\tassertEquals(\"[-h]\",i.next().toString());\n\t\tassertEquals(\"-c <arg>\",i.next().toString());\n\t\tassertFalse(i.hasNext());\n\t}"
+  ]
+}

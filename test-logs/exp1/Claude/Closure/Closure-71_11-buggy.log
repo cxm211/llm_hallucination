@@ -1,0 +1,14 @@
+==== 2026-05-23 01:51:25 :: Closure-71_11-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties4
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties5
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties7
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8
+---- 退出码：0 | Closure-71_11-buggy
+

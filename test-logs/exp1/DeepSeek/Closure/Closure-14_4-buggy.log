@@ -1,0 +1,20 @@
+==== 2026-05-27 22:01:31 :: Closure-14_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779
+  - com.google.javascript.jscomp.CoalesceVariableNamesTest::testForInWithAssignment
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testForIn
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testLabelledForInLoopOrder
+  - com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally
+  - com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testForIn
+  - com.google.javascript.jscomp.LiveVariableAnalysisTest::testForInAssignment
+  - com.google.javascript.jscomp.MaybeReachingVariableUseTest::testForIn
+  - com.google.javascript.jscomp.TypeInferenceTest::testFor2
+  - com.google.javascript.jscomp.TypeInferenceTest::testFor3
+---- 退出码：0 | Closure-14_4-buggy
+

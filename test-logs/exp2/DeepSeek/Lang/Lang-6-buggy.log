@@ -1,0 +1,49 @@
+==== 2026-05-01 07:02:34 :: Lang-6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 30
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testUnescapeJava
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testStandaloneAmphersand
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testUnescapeHtml4
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeHtml
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeJava
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeXmlSupplementaryCharacters
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testLang313
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testLang708
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeEcmaScript
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeCsvString
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeCsvWriter
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testUnescapeHexCharsHtml
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testUnescapeXmlSupplementaryCharacters
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testUnescapeCsvString
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testUnescapeCsvWriter
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeHtmlVersions
+  - org.apache.commons.lang3.StringEscapeUtilsTest::testEscapeXml
+  - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest::testAbove
+  - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest::testBelow
+  - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest::testBetween
+  - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest::testSupplementary
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping
+  - org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity
+  - org.apache.commons.lang3.text.translate.OctalUnescaperTest::testBetween
+  - org.apache.commons.lang3.text.translate.UnicodeEscaperTest::testAbove
+  - org.apache.commons.lang3.text.translate.UnicodeEscaperTest::testBelow
+  - org.apache.commons.lang3.text.translate.UnicodeEscaperTest::testBetween
+  - org.apache.commons.lang3.text.translate.UnicodeUnescaperTest::testUPlus
+  - org.apache.commons.lang3.text.translate.UnicodeUnescaperTest::testUuuuu
+  - org.apache.commons.lang3.text.translate.UnicodeUnescaperTest::testLessThanFour
+---- 主命令退出码：0 | Lang-6-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairs
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Lang/Lang-6-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] 结束

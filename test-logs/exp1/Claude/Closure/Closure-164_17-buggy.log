@@ -1,0 +1,32 @@
+==== 2026-05-23 10:14:28 :: Closure-164_17-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 23
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticWithFunctions
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionAssignement
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl4
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralDefinedThisArgument
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralUnreadNullThisArgument
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck13
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralUndefinedThisArgument
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionAssignement
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodImplements4
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue586
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference7
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl4
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfOfReturnTypesWithNumOfParams
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionVariableArgsOneOnly
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionTypeRelationships
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionFixedArgs
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionUnionSubtypeChain
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingMostGeneralFunction
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionFixedArgsNotMatching
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionSubtypeChain
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionMultipleFixedArgs
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionSubTypeRelationships
+---- 退出码：0 | Closure-164_17-buggy
+

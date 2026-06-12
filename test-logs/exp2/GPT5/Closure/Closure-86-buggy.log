@@ -1,0 +1,60 @@
+==== 2026-03-31 13:41:45 :: Closure-86-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+---- 主命令退出码：0 | Closure-86-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-86-buggy/jacoco.exec.
+[INFO] Analyzing 990 classes.
+>>> [JACOCO] 结束

@@ -1,0 +1,17 @@
+==== 2026-05-19 01:43:41 :: Closure-35_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType1
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType2
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType3
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType4
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType5
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType6
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType7
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue669
+---- 退出码：0 | Closure-35_2-buggy
+

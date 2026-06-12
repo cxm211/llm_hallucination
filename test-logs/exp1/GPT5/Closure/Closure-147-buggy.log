@@ -1,0 +1,26 @@
+==== 2026-05-19 12:03:19 :: Closure-147-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testIssue182a
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testIssue182b
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testUntypedParam
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testQualifiedClass
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testUnion
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterfaceOrdering
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testConstValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterfaceOrderingGoogInherits
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testExtendedInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValueWithInnerFn
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testNativeClass
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testSkipParamOK
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testNullValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValues
+---- 退出码：0 | Closure-147-buggy
+

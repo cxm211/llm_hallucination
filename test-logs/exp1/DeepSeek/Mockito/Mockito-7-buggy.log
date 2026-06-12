@@ -1,0 +1,12 @@
+==== 2026-05-29 02:30:16 :: Mockito-7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::generic_deep_mock_frenzy__look_at_these_chained_calls
+  - org.mockito.internal.util.reflection.GenericMetadataSupportTest::typeVariable_return_type_of____get____resolved_to_Set_and_type_argument_to_Number
+  - org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest::discoverDeepMockingOfGenerics
+---- 退出码：0 | Mockito-7-buggy
+

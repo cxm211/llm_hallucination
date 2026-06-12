@@ -1,0 +1,39 @@
+bug,status,exit_code,failing_tests,log_file
+Mockito-1-buggy,Pass,0,0,Mockito-1-buggy.log
+Mockito-2-buggy,not compilable,1,,Mockito-2-buggy.log
+Mockito-3-buggy,not compilable,1,,Mockito-3-buggy.log
+Mockito-4-buggy,not compilable,1,,Mockito-4-buggy.log
+Mockito-5-buggy,Not Pass,0,1,Mockito-5-buggy.log
+Mockito-6-buggy,not compilable,1,,Mockito-6-buggy.log
+Mockito-7-buggy,Not Pass,0,1,Mockito-7-buggy.log
+Mockito-8-buggy,Pass,0,0,Mockito-8-buggy.log
+Mockito-9-buggy,not compilable,1,,Mockito-9-buggy.log
+Mockito-10-buggy,Pass,0,0,Mockito-10-buggy.log
+Mockito-11-buggy,Pass,0,0,Mockito-11-buggy.log
+Mockito-12-buggy,Pass,0,0,Mockito-12-buggy.log
+Mockito-13-buggy,not compilable,1,,Mockito-13-buggy.log
+Mockito-14-buggy,Pass,0,0,Mockito-14-buggy.log
+Mockito-15-buggy,Not Pass,0,1,Mockito-15-buggy.log
+Mockito-16-buggy,Pass,0,0,Mockito-16-buggy.log
+Mockito-17-buggy,not compilable,1,,Mockito-17-buggy.log
+Mockito-18-buggy,Pass,0,0,Mockito-18-buggy.log
+Mockito-19-buggy,Not Pass,0,1,Mockito-19-buggy.log
+Mockito-20-buggy,Not Pass,0,1,Mockito-20-buggy.log
+Mockito-21-buggy,Pass,0,0,Mockito-21-buggy.log
+Mockito-22-buggy,Pass,0,0,Mockito-22-buggy.log
+Mockito-23-buggy,Not Pass,0,1,Mockito-23-buggy.log
+Mockito-24-buggy,Pass,0,0,Mockito-24-buggy.log
+Mockito-25-buggy,Not Pass,0,1,Mockito-25-buggy.log
+Mockito-26-buggy,Not Pass,0,1,Mockito-26-buggy.log
+Mockito-27-buggy,not compilable,1,,Mockito-27-buggy.log
+Mockito-28-buggy,not compilable,1,,Mockito-28-buggy.log
+Mockito-29-buggy,Pass,0,0,Mockito-29-buggy.log
+Mockito-30-buggy,Not Pass,0,1,Mockito-30-buggy.log
+Mockito-31-buggy,not compilable,1,,Mockito-31-buggy.log
+Mockito-32-buggy,not compilable,1,,Mockito-32-buggy.log
+Mockito-33-buggy,Pass,0,0,Mockito-33-buggy.log
+Mockito-34-buggy,Pass,0,0,Mockito-34-buggy.log
+Mockito-35-buggy,not compilable,1,,Mockito-35-buggy.log
+Mockito-36-buggy,not compilable,1,,Mockito-36-buggy.log
+Mockito-37-buggy,not compilable,1,,Mockito-37-buggy.log
+Mockito-38-buggy,Pass,0,0,Mockito-38-buggy.log

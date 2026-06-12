@@ -1,0 +1,18 @@
+==== 2026-05-24 16:04:16 :: Gson-10-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest::testPrimitiveFieldAnnotationTakesPrecedenceOverDefault
+  - com.google.gson.functional.NullObjectAndFieldTest::testExplicitSerializationOfNullArrayMembers
+  - com.google.gson.functional.NullObjectAndFieldTest::testExplicitSerializationOfNullCollectionMembers
+  - com.google.gson.functional.NullObjectAndFieldTest::testExplicitSerializationOfNullStringMembers
+  - com.google.gson.functional.NullObjectAndFieldTest::testNullWrappedPrimitiveMemberSerialization
+  - com.google.gson.functional.NullObjectAndFieldTest::testExplicitSerializationOfNulls
+  - com.google.gson.functional.NullObjectAndFieldTest::testPrintPrintingObjectWithNulls
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testSerializeNullField
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testSerializeRecursive
+---- 退出码：0 | Gson-10-buggy
+

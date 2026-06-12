@@ -1,0 +1,12 @@
+==== 2026-05-14 09:55:40 :: Closure-139_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.NormalizeTest::testNormalizeFunctionDeclarations
+  - com.google.javascript.jscomp.NormalizeTest::testRemoveDuplicateVarDeclarations3
+  - com.google.javascript.jscomp.NormalizeTest::testMoveFunctions2
+---- 退出码：0 | Closure-139_1-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-05-23 21:15:51 :: Jsoup-58-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.jsoup.safety.CleanerTest::testIsValidBodyHtml
+  - org.jsoup.safety.CleanerTest::testIsValidDocument
+---- 退出码：0 | Jsoup-58-buggy
+

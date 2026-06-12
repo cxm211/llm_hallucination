@@ -1,0 +1,14 @@
+==== 2026-01-27 09:40:11 :: Closure-41_33-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference6
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam3
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam4
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue368
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference6
+---- 退出码：0 | Closure-41_33-buggy
+

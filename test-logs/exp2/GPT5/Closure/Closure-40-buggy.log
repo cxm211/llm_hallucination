@@ -1,0 +1,189 @@
+==== 2026-03-31 13:09:58 :: Closure-40-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 161
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testReflectedMethods
+  - com.google.javascript.jscomp.IntegrationTest::testBrokenNameSpace
+  - com.google.javascript.jscomp.IntegrationTest::testNamelessParameter
+  - com.google.javascript.jscomp.IntegrationTest::testIssue284
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAliasInstanceof5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testExpressions1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveRecursiveFunction8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testTopLevelClass1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testBug2099540
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNamespacedClass1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNamespacedClass3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveVarDeclartion8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveFunction
+  - com.google.javascript.jscomp.NameAnalyzerTest::testFor
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIf5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAnonymous2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAnonymous3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAnonymous4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAnonymous5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAnonymous7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAnonymous8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSideEffectClassification2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveInstanceOfOnly
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testWhile
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsAssign9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct10
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct11
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct12
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct13
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct14
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct15
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct16
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithAnd2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveAlias
+  - com.google.javascript.jscomp.NameAnalyzerTest::testConstants2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation10
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation11
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation12
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation13
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation14
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation15
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNoSideEffectAnnotation16
+  - com.google.javascript.jscomp.NameAnalyzerTest::testInherits1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testInherits2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testInherits5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testInherits6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testInherits8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testDo
+  - com.google.javascript.jscomp.NameAnalyzerTest::testFunctions2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssigns
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPrototypePropertySetInLocalScope5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignmentToUnknownPrototype
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testShortCircuit8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemovePrototypeDefinitionsInGlobalScope2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testNestedAssign15
+  - com.google.javascript.jscomp.NameAnalyzerTest::testClassDefinedInObjectLit1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testClassDefinedInObjectLit2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testClassDefinedInObjectLit3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testClassDefinedInObjectLit4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testBrokenNamespaceWithPrototypeAssignment
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveLabeledStatment
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignmentWithComplexLhs3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveInstanceOfWithReferencedMethod
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain10
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain11
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain13
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain15
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain17
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain19
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain20
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain22
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRefChain23
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveLabeledStatment2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveLabeledStatment3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRemoveLabeledStatment4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInWhilePredicate
+  - com.google.javascript.jscomp.NameAnalyzerTest::testComplexNestedAssigns2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testComplexNestedAssigns3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPreservePropertyMutationsToAlias2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPreservePropertyMutationsToAlias7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testPreservePropertyMutationsToAlias8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetCreatingReference
+  - com.google.javascript.jscomp.NameAnalyzerTest::testConditionallyDefinedFunction1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testConditionallyDefinedFunction2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithHook6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIfElse
+  - com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithOr2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testMixin3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testMixin5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testMixin7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct5
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct6
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct7
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct8
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForStruct9
+  - com.google.javascript.jscomp.NameAnalyzerTest::testRhsReference4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn2
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn3
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn4
+  - com.google.javascript.jscomp.NameAnalyzerTest::testSetterInForIn5
+---- 主命令退出码：0 | Closure-40-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.IntegrationTest::testIssue284
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.IntegrationTest::testIssue284
+[JACOCO] defects4j test -t com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-40-buggy/jacoco.exec.
+[INFO] Analyzing 1127 classes.
+>>> [JACOCO] 结束

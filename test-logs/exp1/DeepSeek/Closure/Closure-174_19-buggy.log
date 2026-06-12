@@ -1,0 +1,59 @@
+==== 2026-05-28 16:31:01 :: Closure-174_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 50
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testPropertiesNotChanged
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testArrayJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocSubType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testWorksInClosures
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOneLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNullType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testShadowedScopedVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocExtends
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasRedefinition
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoSymbolsInTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTransitiveInSameVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordAliasFromMultipleGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUsingObjectLiteralToEscapeScoping
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOkAliasLocal
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordMultipleAliases
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocTypedef
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleLocals
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasOfSymbolInGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionReturnThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testShadowedScopedVarTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocEnum
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordOneAlias
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasReassign
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocImplements
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+  - com.google.javascript.jscomp.ScopedAliasesTest::testForwardJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFourLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+  - com.google.javascript.jscomp.ScopedAliasesTest::testCtorAlias
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocParameter
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionAssignsToVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasCycle
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOverridden
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUnionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testShadowedVar
+---- 退出码：0 | Closure-174_19-buggy
+

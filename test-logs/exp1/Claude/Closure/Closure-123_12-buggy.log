@@ -1,0 +1,54 @@
+==== 2026-05-23 07:10:56 :: Closure-123_12-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 45
+  - com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop
+  - com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity
+  - com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter
+  - com.google.javascript.jscomp.ControlStructureCheckTest::testContinueNotCrossFunction1
+  - com.google.javascript.jscomp.ControlStructureCheckTest::testContinueOutsideSwitch
+  - com.google.javascript.jscomp.CreateSyntheticBlocksTest::testNonMarkingUse
+  - com.google.javascript.jscomp.DenormalizeTest::testFor
+  - com.google.javascript.jscomp.DenormalizeTest::testForIn
+  - com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testRemoveWithLabels
+  - com.google.javascript.jscomp.IntegrationTest::testBiasedLabelRenaming
+  - com.google.javascript.jscomp.IntegrationTest::testRenameLabels
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testForContinueOptimization
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testWhileContinueOptimization
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testDoContinueOptimization
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testBreakOptimization
+  - com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization
+  - com.google.javascript.jscomp.NormalizeTest::testFor
+  - com.google.javascript.jscomp.NormalizeTest::testSplitVar
+  - com.google.javascript.jscomp.NormalizeTest::testForIn1
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testOptimizeSwitch
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveFromLabel2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSplitCommaExpressions
+  - com.google.javascript.jscomp.RenameLabelsTest::testRenameGlobals
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testVisibilityUnsafeMoves
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testVisibilitySafeMoves
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testDegenerateSafeMoves
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testDegenerateUnsafeMoves
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testVisibilityMergesParametersWithHeap
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testVisibilityMoveCalls
+  - com.google.javascript.jscomp.SideEffectsAnalysisTest::testMovedSideEffectsMustHaveSameControlFlow
+  - com.google.javascript.jscomp.StatementFusionTest::testFuseIntoLabel
+  - com.google.javascript.jscomp.StrictModeCheckTest::testEval8
+  - com.google.javascript.jscomp.StrictModeCheckTest::testUnknownVariable2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testReturnTypeInference3
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testUselessUnconditionalContinue
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testDontRemoveBreakInTryFinally
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428_continue
+  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testDontRemoveBreakInTryFinallySwitch
+  - com.google.javascript.jscomp.VarCheckTest::testBreak
+  - com.google.javascript.jscomp.VarCheckTest::testContinue
+  - com.google.javascript.jscomp.VariableVisibilityAnalysisTest::testCapturedVariables
+  - com.google.javascript.jscomp.VariableVisibilityAnalysisTest::testGlobals
+---- 退出码：0 | Closure-123_12-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-05-19 19:37:46 :: Codec-13-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testIsDoubleMetaphoneEqualBasic
+  - org.apache.commons.codec.language.DoubleMetaphoneTest::testCodec184
+---- 退出码：0 | Codec-13-buggy
+

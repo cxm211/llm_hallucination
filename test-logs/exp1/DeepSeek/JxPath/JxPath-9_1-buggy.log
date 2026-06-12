@@ -1,0 +1,19 @@
+==== 2026-01-12 00:29:42 :: JxPath-9_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNan
+  - org.apache.commons.jxpath.ri.compiler.CoreOperationTest::testNodeSetOperations
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testIterateVariable
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testVariablesInExpressions
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testAxisAncestor
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testAxisSelf
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCoreFunctions
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testAxisAncestor
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testAxisSelf
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCoreFunctions
+---- 退出码：0 | JxPath-9_1-buggy
+

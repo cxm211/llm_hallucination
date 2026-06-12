@@ -1,0 +1,21 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "fixed_code": [
+    "public void testJDKTypes1737() throws Exception\n    {\n        _testTypes1737(java.util.logging.FileHandler.class);\n        _testTypes1737(java.rmi.server.UnicastRemoteObject.class);\n    }"
+  ]
+}

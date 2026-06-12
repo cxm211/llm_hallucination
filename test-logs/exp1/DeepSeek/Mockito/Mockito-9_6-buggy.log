@@ -1,0 +1,38 @@
+==== 2026-01-10 17:48:40 :: Mockito-9_6-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 29
+  - org.mockito.internal.debugging.WarningsPrinterImplTest::shouldPrintToString
+  - org.mockitousage.annotation.SpyAnnotationTest::shouldResetSpies
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_spy_abstract_classes
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodStubbed
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_create_mock_with_constructor
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethod
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_inner_classes
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodReturnsDefault
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::can_mock_abstract_classes
+  - org.mockitousage.customization.BDDMockitoTest::shouldStubConsecutivelyWithCallRealMethod
+  - org.mockitousage.customization.BDDMockitoTest::shouldStubByDelegatingToRealMethodUsingTypicalStubbingSyntax
+  - org.mockitousage.customization.BDDMockitoTest::shouldStubByDelegatingToRealMethod
+  - org.mockitousage.misuse.SpyStubbingMisuseTest::nestedWhenTest
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldAllowStubbingOfMethodsThatDelegateToOtherMethods
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldVerify
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldStub
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldCallRealMethdsEvenDelegatedToOtherSelfMethod
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldDealWithPrivateFieldsOfSubclasses
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldStackTraceGetFilteredOnUserExceptions
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldVerify
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldAllowSpyingAnonymousClasses
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldVerifyNoMoreInteractionsAndFail
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldStub
+  - org.mockitousage.spies.SpyingOnRealObjectsTest::shouldToString
+  - org.mockitousage.stubbing.CallingRealMethodTest::shouldAllowCallingInternalMethod
+  - org.mockitousage.stubbing.CallingRealMethodTest::shouldNotCallRealMethodWhenStubbedLater
+  - org.mockitousage.stubbing.CallingRealMethodTest::shouldReturnRealValue
+  - org.mockitousage.stubbing.CallingRealMethodTest::shouldCallRealMethodByDefault
+  - org.mockitousage.stubbing.StubbingUsingDoReturnTest::shouldAllowDoCallRealMethodInChainedStubbing
+---- 退出码：0 | Mockito-9_6-buggy
+

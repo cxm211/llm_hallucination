@@ -1,0 +1,27 @@
+==== 2026-05-27 21:31:44 :: Closure-10_12-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - com.google.javascript.jscomp.ExpandJqueryAliasesTest::testJqueryExpandedEachExpansion
+  - com.google.javascript.jscomp.IntegrationTest::testFlowSensitiveInlineVariables2
+  - com.google.javascript.jscomp.IntegrationTest::testIssue550
+  - com.google.javascript.jscomp.NodeUtilTest::testIsNumbericResult
+  - com.google.javascript.jscomp.NodeUtilTest::testMayBeString
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldingMixTypesEarly
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBangConstants
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLeftChildOp
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldingAdd
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComplex
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic2
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testStringAdd
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLeftChildConcat
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLiteralsAsNumbers
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldMixed
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldingMixTypesLate
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldConstructor
+---- 退出码：0 | Closure-10_12-buggy
+

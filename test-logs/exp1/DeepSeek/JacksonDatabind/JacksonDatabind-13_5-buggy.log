@@ -1,0 +1,11 @@
+==== 2026-01-18 01:07:47 :: JacksonDatabind-13_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.TestObjectIdDeserialization::testNullObjectId
+---- 退出码：0 | JacksonDatabind-13_5-buggy
+

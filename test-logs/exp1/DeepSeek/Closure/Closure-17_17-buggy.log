@@ -1,0 +1,96 @@
+==== 2026-05-27 22:08:11 :: Closure-17_17-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 87
+  - com.google.javascript.jscomp.ExternExportsPassTest::testWarnOnExportFunctionWithUnknownParameterTypes
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAnnotatedPropertyOnInterface4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameReduction4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrototypePropertyReference
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testClosure1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testClosure2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testClosure3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testClosure4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testClosure5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testClosure6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testLateExtends
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testInheritance1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testInheritance2
+  - com.google.javascript.jscomp.TightenTypesTest::testImplicitPropCall
+  - com.google.javascript.jscomp.TightenTypesTest::testExternSubTypesForObject
+  - com.google.javascript.jscomp.TypeCheckFunctionCheckTest::testFunctionsWithJsDoc6
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeInferenceWithNoEntry2
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsInferenceGoogArrayFilter2
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsInferenceGoogArrayFilter3
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsInferenceGoogArrayFilter4
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn7
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn8
+  - com.google.javascript.jscomp.TypeCheckTest::testOverriddenParams3
+  - com.google.javascript.jscomp.TypeCheckTest::testAnnotatedPropertyOnInterface4
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck11
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck13
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction4
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration4
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration7
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends14
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends15
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends16
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends17
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference10
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction6
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction7
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction8
+  - com.google.javascript.jscomp.TypeCheckTest::testMultipleExtendsInterface6
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck17
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction7
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction8
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction9
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodImplements5
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodImplements6
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodImplements7
+  - com.google.javascript.jscomp.TypeCheckTest::testPrototypePropertyReference
+  - com.google.javascript.jscomp.TypeCheckTest::testComparison15
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends6
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure1
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure2
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure3
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure4
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure5
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure6
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure7
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction10
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction11
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction13
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction14
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction15
+  - com.google.javascript.jscomp.TypeCheckTest::testLateExtends
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck7
+  - com.google.javascript.jscomp.TypeCheckTest::testAnonymousPrototype2
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredObjectLitProperty2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredObjectLitProperty3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredObjectLitProperty6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope
+---- 退出码：0 | Closure-17_17-buggy
+

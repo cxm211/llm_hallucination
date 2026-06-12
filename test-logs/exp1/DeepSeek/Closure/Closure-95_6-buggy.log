@@ -1,0 +1,43 @@
+==== 2026-05-28 07:15:41 :: Closure-95_6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 34
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testForwardPropertyReference
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorType2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorType3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorType4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testThis4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testThis8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrototypePropertyTypes
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBadExtends2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScopedConstructors
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPropertyInference8
+  - com.google.javascript.jscomp.TypeCheckTest::testForwardPropertyReference
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorType2
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorType3
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorType4
+  - com.google.javascript.jscomp.TypeCheckTest::testThis4
+  - com.google.javascript.jscomp.TypeCheckTest::testThis8
+  - com.google.javascript.jscomp.TypeCheckTest::testPrototypePropertyTypes
+  - com.google.javascript.jscomp.TypeCheckTest::testBadExtends2
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration4
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration5
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping7
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping8
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping9
+  - com.google.javascript.jscomp.TypeCheckTest::testScopedConstructors
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference6
+  - com.google.javascript.jscomp.TypeCheckTest::testPropertyInference8
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStub
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedCtorProperty
+---- 退出码：0 | Closure-95_6-buggy
+

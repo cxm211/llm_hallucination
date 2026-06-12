@@ -1,0 +1,33 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "fixed_code": [
+    "@Test\n    public void testExcelHeaderCountLessThanData() throws Exception {\n        final String code = \"A,B,C,,\\r\\na,b,c,d,e\\r\\n\";\n        final CSVParser parser = CSVParser.parse(code, CSVFormat.EXCEL.withHeader());\n        try {\n            for (CSVRecord record : parser.getRecords()) {\n                Assert.assertEquals(\"a\", record.get(\"A\"));\n                Assert.assertEquals(\"b\", record.get(\"B\"));\n                Assert.assertEquals(\"c\", record.get(\"C\"));\n            }\n        } finally {\n            parser.close();\n        }\n    }"
+  ]
+}

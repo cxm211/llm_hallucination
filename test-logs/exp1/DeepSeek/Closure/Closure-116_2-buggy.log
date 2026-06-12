@@ -1,0 +1,22 @@
+==== 2026-05-14 07:21:52 :: Closure-116_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - com.google.javascript.jscomp.FunctionInjectorTest::testCanInlineReferenceToFunction18
+  - com.google.javascript.jscomp.FunctionInjectorTest::testCanInlineReferenceToFunction28
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+  - com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+  - com.google.javascript.jscomp.InlineFunctionsTest::testArgumentsWithSideEffectsNeverInlined2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+  - com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2
+  - com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions12
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions13
+  - com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+---- 退出码：0 | Closure-116_2-buggy
+

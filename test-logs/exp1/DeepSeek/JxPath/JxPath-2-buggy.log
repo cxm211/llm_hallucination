@@ -1,0 +1,31 @@
+==== 2026-05-17 17:04:30 :: JxPath-2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 22
+  - org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testCollectionReturn
+  - org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest::testNodeSetReturn
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testIterateArray
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testAxisDescendantOrSelf
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testUnion
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testAxisParent
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testAxisChildNestedCollection
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testBooleanPredicate
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testIndexPredicate
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisDescendant
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testAxisDescendantOrSelf
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testUnion
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testAxisParent
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testAxisChildNestedCollection
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testBooleanPredicate
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testIndexPredicate
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCollectionOfMaps
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisAttribute
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing
+  - org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisDescendant
+---- 退出码：0 | JxPath-2-buggy
+

@@ -1,0 +1,57 @@
+==== 2026-05-01 00:43:07 :: Closure-24-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 37
+  - com.google.javascript.jscomp.ScopedAliasesTest::testPropertiesNotChanged
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testArrayJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocSubType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOneLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNullType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocExtends
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasRedefinition
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoSymbolsInTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTransitiveInSameVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordAliasFromMultipleGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordMultipleAliases
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocTypedef
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasOfSymbolInGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionReturnThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocEnum
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordOneAlias
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocImplements
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocParameter
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionAssignsToVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testBadParameters
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOverridden
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUnionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testShadowedVar
+---- 主命令退出码：0 | Closure-24-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-24-buggy/jacoco.exec.
+[INFO] Analyzing 1150 classes.
+>>> [JACOCO] 结束

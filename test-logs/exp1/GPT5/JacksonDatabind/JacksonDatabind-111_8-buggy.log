@@ -1,0 +1,114 @@
+==== 2025-10-22 17:37:01 :: JacksonDatabind-111_8-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/maven-build.xml:90: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 419 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:198: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ctor.isAccessible()) {
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:269: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!m.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java:168: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!f.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/deser/CreatorProperty.java:135: error: no suitable constructor found for CreatorProperty(CreatorProperty,JsonDeserializer<CAP#1>,NullValueProvider,TypeDeserializer)
+    [javac]             return new CreatorProperty(this, deser, _nullProvider, _valueTypeDeserializer);
+    [javac]                    ^
+    [javac]     constructor CreatorProperty.CreatorProperty(PropertyName,JavaType,PropertyName,TypeDeserializer,Annotations,AnnotatedParameter,int,Object,PropertyMetadata) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreatorProperty.CreatorProperty(CreatorProperty,PropertyName) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreatorProperty.CreatorProperty(CreatorProperty,JsonDeserializer<?>,NullValueProvider) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/deser/impl/FieldProperty.java:93: error: no suitable constructor found for FieldProperty(FieldProperty,JsonDeserializer<CAP#1>,NullValueProvider,TypeDeserializer)
+    [javac]             return new FieldProperty(this, deser, _nullProvider, _valueTypeDeserializer);
+    [javac]                    ^
+    [javac]     constructor FieldProperty.FieldProperty(BeanPropertyDefinition,JavaType,TypeDeserializer,Annotations,AnnotatedField) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor FieldProperty.FieldProperty(FieldProperty,JsonDeserializer<?>,NullValueProvider) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor FieldProperty.FieldProperty(FieldProperty,PropertyName) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor FieldProperty.FieldProperty(FieldProperty) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java:84: error: no suitable constructor found for MethodProperty(MethodProperty,JsonDeserializer<CAP#1>,NullValueProvider,TypeDeserializer)
+    [javac]             return new MethodProperty(this, deser, _nullProvider, _valueTypeDeserializer);
+    [javac]                    ^
+    [javac]     constructor MethodProperty.MethodProperty(BeanPropertyDefinition,JavaType,TypeDeserializer,Annotations,AnnotatedMethod) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor MethodProperty.MethodProperty(MethodProperty,JsonDeserializer<?>,NullValueProvider) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor MethodProperty.MethodProperty(MethodProperty,PropertyName) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor MethodProperty.MethodProperty(MethodProperty,Method) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdReferenceProperty.java:54: error: no suitable constructor found for ObjectIdReferenceProperty(ObjectIdReferenceProperty,JsonDeserializer<CAP#1>,NullValueProvider,TypeDeserializer)
+    [javac]             return new ObjectIdReferenceProperty(this, deser, _nullProvider, _valueTypeDeserializer);
+    [javac]                    ^
+    [javac]     constructor ObjectIdReferenceProperty.ObjectIdReferenceProperty(SettableBeanProperty,ObjectIdInfo) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor ObjectIdReferenceProperty.ObjectIdReferenceProperty(ObjectIdReferenceProperty,JsonDeserializer<?>,NullValueProvider) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor ObjectIdReferenceProperty.ObjectIdReferenceProperty(ObjectIdReferenceProperty,PropertyName) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/deser/impl/ObjectIdValueProperty.java:55: error: no suitable constructor found for ObjectIdValueProperty(ObjectIdValueProperty,JsonDeserializer<CAP#1>,NullValueProvider,TypeDeserializer)
+    [javac]             return new ObjectIdValueProperty(this, deser, _nullProvider, _valueTypeDeserializer);
+    [javac]                    ^
+    [javac]     constructor ObjectIdValueProperty.ObjectIdValueProperty(ObjectIdReader,PropertyMetadata) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor ObjectIdValueProperty.ObjectIdValueProperty(ObjectIdValueProperty,JsonDeserializer<?>,NullValueProvider) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor ObjectIdValueProperty.ObjectIdValueProperty(ObjectIdValueProperty,PropertyName) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/deser/impl/SetterlessProperty.java:68: error: no suitable constructor found for SetterlessProperty(SetterlessProperty,JsonDeserializer<CAP#1>,NullValueProvider,TypeDeserializer)
+    [javac]             return new SetterlessProperty(this, deser, _nullProvider, _valueTypeDeserializer);
+    [javac]                    ^
+    [javac]     constructor SetterlessProperty.SetterlessProperty(BeanPropertyDefinition,JavaType,TypeDeserializer,Annotations,AnnotatedMethod) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor SetterlessProperty.SetterlessProperty(SetterlessProperty,JsonDeserializer<?>,NullValueProvider) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor SetterlessProperty.SetterlessProperty(SetterlessProperty,PropertyName) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]   where CAP#1 is a fresh type-variable:
+    [javac]     CAP#1 extends Object from capture of ?
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java:919: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ao.isAccessible()) {
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/src/main/java/com/fasterxml/jackson/databind/ser/PropertyBuilder.java:220: warning: [deprecation] WRITE_EMPTY_JSON_ARRAYS in SerializationFeature has been deprecated
+    [javac]                     && !_config.isEnabled(SerializationFeature.WRITE_EMPTY_JSON_ARRAYS)) {
+    [javac]                                                               ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 6 errors
+    [javac] 5 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_8-buggy/maven-build.xml:90: Compile failed; see the compiler error output for details.
+
+Total time: 3 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | JacksonDatabind-111_8-buggy
+

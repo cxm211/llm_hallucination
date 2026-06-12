@@ -1,0 +1,46 @@
+==== 2026-05-28 03:24:24 :: Closure-60_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 37
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitives
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOffForDefault
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue504
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOverrideForVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOffByDefault
+  - com.google.javascript.jscomp.NodeUtilTest::testGetBooleanValue
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testObjectLiteral
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testArrayLiteral
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testObjectLiteral
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testTrueFalseFolding
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testBugIssue43
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testArrayLiteral
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testNoNormalizeLabeledExpr
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testHookIfIntegration
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testBugIssue3
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testCommaSplitingConstantCondition
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testVersionSpecificRegExpQuirks
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSubsituteBreakForThrow
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testObjectLiteral
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldConditionalVarDeclaration
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldNot
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldTrueFalse
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldLiteralObjectConstructors
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testArrayLiteral
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSplitCommaExpressions
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldRegExpConstructor
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldLiteralArrayConstructors
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldAssignments
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testComma1
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testComma5
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testRemoveDuplicateStatements
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSubsituteReturn
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldOneChildBlocks
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testNotCond
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testFoldRegExpConstructorStringCompare
+---- 退出码：0 | Closure-60_19-buggy
+

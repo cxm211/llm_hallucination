@@ -1,0 +1,16 @@
+==== 2026-05-20 07:11:08 :: Time-16_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+---- 退出码：0 | Time-16_1-buggy
+

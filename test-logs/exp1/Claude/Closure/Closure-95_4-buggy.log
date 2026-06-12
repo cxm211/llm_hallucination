@@ -1,0 +1,11 @@
+==== 2026-05-23 04:14:25 :: Closure-95_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope
+---- 退出码：0 | Closure-95_4-buggy
+

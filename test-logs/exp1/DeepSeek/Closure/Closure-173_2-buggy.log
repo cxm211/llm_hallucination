@@ -1,0 +1,37 @@
+==== 2026-05-28 16:14:23 :: Closure-173_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 28
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testFunctionNameOutput4
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.CodePrinterTest::testLineBreak
+  - com.google.javascript.jscomp.CodePrinterTest::testParsePrintParse
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit
+  - com.google.javascript.jscomp.CodePrinterTest::testKeywordProperties2
+  - com.google.javascript.jscomp.CodePrinterTest::testNumericKeys
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation1
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation2
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit2
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit3
+  - com.google.javascript.jscomp.CodePrinterTest::testObjectLit4
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue5746867
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue1062
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue942
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testModuleJSON
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJSWithModuleOutput
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportEnum
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testObjectLit
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testObjectLit2
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testIssue2508576_1
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testIssue2508576_2
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testAnonymousGet
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testAnonymousSet
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSimpleInline2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testAssocitivity
+---- 退出码：0 | Closure-173_2-buggy
+

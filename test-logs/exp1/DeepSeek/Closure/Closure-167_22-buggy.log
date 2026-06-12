@@ -1,0 +1,17 @@
+==== 2026-05-28 14:16:21 :: Closure-167_22-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeOfReduction8
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction6
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeOfReduction8
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue783
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty20
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssert4
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRestrictedTypeGivenToBoolean
+---- 退出码：0 | Closure-167_22-buggy
+

@@ -1,0 +1,10 @@
+==== 2025-10-19 17:53:17 :: Mockito-19_4-buggy ====
+>>> `ant clean` 已执行，退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+---- 退出码：0 | Mockito-19_4-buggy
+

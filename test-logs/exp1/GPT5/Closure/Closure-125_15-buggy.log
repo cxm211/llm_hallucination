@@ -1,0 +1,23 @@
+==== 2026-05-19 10:38:32 :: Closure-125_15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInstantiation
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeCheckStandaloneAST
+  - com.google.javascript.jscomp.SymbolTableTest::testMissingConstructorTag
+  - com.google.javascript.jscomp.TypeCheckTest::testNew11
+  - com.google.javascript.jscomp.TypeCheckTest::testNew5
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInstantiation
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1002
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions3
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions4
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeCheckStandaloneAST
+---- 退出码：0 | Closure-125_15-buggy
+

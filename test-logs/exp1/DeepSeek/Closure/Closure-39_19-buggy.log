@@ -1,0 +1,17 @@
+==== 2026-05-28 00:22:56 :: Closure-39_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation2
+  - com.google.javascript.jscomp.ExternExportsPassTest::testTypedef
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple2
+  - com.google.javascript.rhino.jstype.JSTypeTest::testObjectType
+  - com.google.javascript.rhino.jstype.JSTypeTest::testCreateObjectType
+  - com.google.javascript.rhino.jstype.PrototypeObjectTypeTest::testToString
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString
+---- 退出码：0 | Closure-39_19-buggy
+

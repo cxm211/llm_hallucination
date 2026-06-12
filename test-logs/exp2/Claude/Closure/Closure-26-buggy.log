@@ -1,0 +1,57 @@
+==== 2026-05-01 10:57:22 :: Closure-26-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+---- 主命令退出码：0 | Closure-26-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+[JACOCO] defects4j test -t com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-26-buggy/jacoco.exec.
+[INFO] Analyzing 1150 classes.
+>>> [JACOCO] 结束

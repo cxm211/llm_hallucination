@@ -1,0 +1,7 @@
+project,buggy_folder,buggy_path,trigger_tests_count,jacoco_xml,success,error
+JacksonXml,JacksonXml-1-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-1-buggy,3,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-1-buggy/jacoco.xml,True,
+JacksonXml,JacksonXml-2-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-2-buggy,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-2-buggy/jacoco.xml,True,
+JacksonXml,JacksonXml-3-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-3-buggy,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-3-buggy/jacoco.xml,True,
+JacksonXml,JacksonXml-4-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-4-buggy,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-4-buggy/jacoco.xml,True,
+JacksonXml,JacksonXml-5-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-5-buggy,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-5-buggy/jacoco.xml,True,
+JacksonXml,JacksonXml-6-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-6-buggy,5,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonXml/JacksonXml-6-buggy/jacoco.xml,True,

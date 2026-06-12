@@ -1,0 +1,83 @@
+==== 2026-05-28 13:11:13 :: Closure-162_12-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 74
+  - com.google.javascript.jscomp.CheckRequiresForConstructorsTest::testRequiresAreCaughtBeforeProcessed
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn4
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourcePruningOn6
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceMapFormat1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceMapFormat2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitives
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testES5
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testChainModuleManifest
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceMapExpansion1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceMapExpansion2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSourceMapExpansion3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testStarModuleManifest
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTypeCheckOverride1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTypeCheckOverride2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOffForDefault
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOnForVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWithKeywordDefault
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testReflectedMethods
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testSyntheticExterns
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckUndefinedProperties1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckUndefinedProperties2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCssNameWiring
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOverrideForVerbose
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckSymbolsOverrideForQuiet
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue81
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWithKeywordWithEs5ChecksOff
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testQuietMode
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag3
+  - com.google.javascript.jscomp.ScopedAliasesTest::testPropertiesNotChanged
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testArrayJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNoGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocSubType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testWorksInClosures
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOneLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNullType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocExtends
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasRedefinition
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoSymbolsInTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTransitiveInSameVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordAliasFromMultipleGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUsedImproperly
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordMultipleAliases
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocTypedef
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTestTypes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasOfSymbolInGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionReturnThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocEnum
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordOneAlias
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocImplements
+  - com.google.javascript.jscomp.ScopedAliasesTest::testForwardJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFourLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocParameter
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionAssignsToVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOverridden
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasNonRedefinition
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUnionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testShadowedVar
+---- 退出码：0 | Closure-162_12-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-01-19 07:49:19 :: JacksonDatabind-51_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testPolymorphicTypeViaCustom
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForMaps::testJackson428
+---- 退出码：0 | JacksonDatabind-51_2-buggy
+

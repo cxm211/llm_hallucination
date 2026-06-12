@@ -1,0 +1,11 @@
+==== 2026-05-29 02:00:52 :: Math-50-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testQuinticZero
+---- 退出码：0 | Math-50-buggy
+

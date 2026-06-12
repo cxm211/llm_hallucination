@@ -1,0 +1,26 @@
+==== 2026-05-28 16:04:02 :: Closure-172_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoVar1
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testRenamingMap
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck12
+  - com.google.javascript.jscomp.TightenTypesTest::testCallPrototypeFunction
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateInstanceMethod1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateInstanceMethod4
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck7
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn7
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck12
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1024
+  - com.google.javascript.jscomp.TypeCheckTest::testOverriddenProperty4
+  - com.google.javascript.jscomp.TypeCheckTest::testOverriddenProperty5
+  - com.google.javascript.jscomp.TypeCheckTest::testOverriddenProperty6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredPrototypeProperty1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass1
+---- 退出码：0 | Closure-172_4-buggy
+

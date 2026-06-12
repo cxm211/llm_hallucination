@@ -1,0 +1,24 @@
+==== 2026-01-19 07:52:13 :: JacksonDatabind-52_10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 15
+  - com.fasterxml.jackson.databind.creators.DelegatingExternalProperty1003Test::testExtrnalPropertyDelegatingCreator
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testCustomWithExternal
+  - com.fasterxml.jackson.databind.jsontype.TestVisibleTypeId::testVisibleTypeId408
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId198Test::testFails
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId198Test::testWorks
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeId999Test::testExternalTypeId
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testBigDecimal965
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testWithAsValue
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testExternalTypeIdWithNull
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testWithScalar118
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testIssue831
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testSimpleDeserialization
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdTest::testMultipleTypeIdsDeserialization
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithSameName647::testUnwrappedWithSamePropertyName
+---- 退出码：0 | JacksonDatabind-52_10-buggy
+

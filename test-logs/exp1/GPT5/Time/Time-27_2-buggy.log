@@ -1,0 +1,44 @@
+==== 2026-05-20 07:33:12 :: Time-27_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 35
+  - org.joda.time.TestPeriod_Basics::testToString_PeriodFormatter
+  - org.joda.time.format.TestISOPeriodFormat::testFormatAlternateExtended
+  - org.joda.time.format.TestISOPeriodFormat::testFormatAlternateExtendedWithWeeks
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_es_formatTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_pt_FormatOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_de_FormatOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_pt_parseTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_de_parseTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_pt_formatStandard
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_de_formatStandard
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_fr_FormatOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_fr_parseTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_fr_formatStandard
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_es_parseOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_nl_FormatOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_pt_parseOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_nl_parseTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_fr_formatTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_getDefault_parseOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_nl_formatStandard
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_de_parseOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_nl_formatTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_getDefault_formatTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_getDefault_FormatOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_es_FormatOneField
+  - org.joda.time.format.TestPeriodFormat::test_getDefault_parseTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_es_parseTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_pt_formatTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_getDefault_formatStandard
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_es_formatStandard
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_de_formatTwoFields
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_nl_parseOneField
+  - org.joda.time.format.TestPeriodFormat::test_wordBased_fr_parseOneField
+  - org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455
+  - org.joda.time.format.TestPeriodFormatterBuilder::testFormatSeparatorComplex
+---- 退出码：0 | Time-27_2-buggy
+

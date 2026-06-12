@@ -1,0 +1,12 @@
+==== 2026-05-29 01:35:38 :: Jsoup-47_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jsoup.nodes.EntitiesTest::escapesGtInXmlAttributesButNotInHtml
+  - org.jsoup.nodes.EntitiesTest::escape
+  - org.jsoup.nodes.EntitiesTest::letterDigitEntities
+---- 退出码：0 | Jsoup-47_1-buggy
+

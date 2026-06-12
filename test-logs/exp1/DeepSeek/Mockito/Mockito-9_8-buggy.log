@@ -1,0 +1,50 @@
+==== 2026-01-10 17:51:50 :: Mockito-9_8-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9_8-buggy && ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9_8-buggy -DOUTFILE=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9_8-buggy/failing_tests -Dd4j.relevant.tests.only=true run.dev.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9_8-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9/lib/gradle-base-services-4.9.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] 
+     [exec] FAILURE: Build failed with an exception.
+     [exec] 
+     [exec] * What went wrong:
+     [exec] Failed to release lock on file hash cache (/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9_8-buggy/.gradle/4.9/fileHashes)
+     [exec] > No space left on device
+     [exec] 
+     [exec] * Try:
+     [exec] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+     [exec] 
+     [exec] * Get more help at https://help.gradle.org
+     [exec] 
+     [exec] BUILD FAILED in 0s
+     [exec] 
+     [exec] FAILURE: Build failed with an exception.
+     [exec] 
+     [exec] * What went wrong:
+     [exec] Failed to release lock on file hash cache (/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-9_8-buggy/.gradle_local_home/caches/4.9/fileHashes)
+     [exec] 
+     [exec] * Try:
+     [exec] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+     [exec] 
+     [exec] * Get more help at https://help.gradle.org
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:143: The following error occurred while executing this line:
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:79: exec returned: 1
+
+Total time: 2 seconds
+Cannot run tests! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 131.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Mockito-9_8-buggy
+

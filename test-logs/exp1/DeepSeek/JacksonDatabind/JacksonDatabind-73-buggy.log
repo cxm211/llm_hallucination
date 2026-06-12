@@ -1,0 +1,35 @@
+==== 2026-05-28 22:28:01 :: JacksonDatabind-73-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 26
+  - com.fasterxml.jackson.databind.creators.CreatorPropertiesTest::testPossibleNamingConflict
+  - com.fasterxml.jackson.databind.creators.DelegatingExternalProperty1003Test::testExtrnalPropertyDelegatingCreator
+  - com.fasterxml.jackson.databind.creators.ImplicitNameMatch792Test::testImplicitWithSetterGetter
+  - com.fasterxml.jackson.databind.creators.ImplicitNameMatch792Test::testWriteOnly
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnlyAndWriteOnly
+  - com.fasterxml.jackson.databind.deser.ReadOrWriteOnlyTest::testReadOnly935
+  - com.fasterxml.jackson.databind.deser.exc.TestExceptionHandlingWithDefaultDeserialization::testShouldThrowJsonMappingExceptionWithPathReference
+  - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging::testSharedNames
+  - com.fasterxml.jackson.databind.introspect.TestBuilderMethods::testSimple
+  - com.fasterxml.jackson.databind.introspect.TestInferredMutators::testDeserializationInference
+  - com.fasterxml.jackson.databind.introspect.TestNameConflicts::testNonConflict
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testPartialIgnore
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testSimpleIgnoreAndRename
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testSimpleRenamed2
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testPropertyDesc
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testSimpleRenamed
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testPropertyIndex
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testMergeWithRename
+  - com.fasterxml.jackson.databind.introspect.TestPOJOPropertiesCollector::testSimple
+  - com.fasterxml.jackson.databind.introspect.TestPropertyRename::testCreatorPropRenameWithCleave
+  - com.fasterxml.jackson.databind.jsontype.Generic1128Test::testIssue1128
+  - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass::testClassMixInsTopLevel
+  - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass::testClassMixInsForObjectClass
+  - com.fasterxml.jackson.databind.mixins.TestMixinDeserForClass::testClassMixInsMidLevel
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestAnnotations::testGettersWithoutSetters
+---- 退出码：0 | JacksonDatabind-73-buggy
+

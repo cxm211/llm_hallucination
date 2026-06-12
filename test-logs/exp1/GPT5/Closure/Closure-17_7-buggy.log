@@ -1,0 +1,50 @@
+==== 2026-05-18 23:07:29 :: Closure-17_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 41
+  - com.google.javascript.jscomp.InferJSDocInfoTest::testStructuralFunctions
+  - com.google.javascript.jscomp.InferJSDocInfoTest::testAbstractMethod
+  - com.google.javascript.jscomp.InferJSDocInfoTest::testNamespacedCtor
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testErrorMismatchingPropertyOnInterface6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference17
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference18
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference19
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference20
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExternStubs4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExternStubs5
+  - com.google.javascript.jscomp.SymbolTableTest::testJSDocOnlySymbol
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling6
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef4
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef5
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration1
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration3
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration4
+  - com.google.javascript.jscomp.TypeCheckTest::testErrorMismatchingPropertyOnInterface6
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference17
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference18
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference19
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference20
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodImplements6
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStubLocal
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyInExterns1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyInExterns2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStub
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testNamespacedFunctionStub
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredProperty2c
+---- 退出码：0 | Closure-17_7-buggy
+

@@ -1,0 +1,61 @@
+==== 2026-01-09 20:54:53 :: Cli-35_1-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 52
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.DefaultParserTest::testOptionGroupLong
+  - org.apache.commons.cli.DefaultParserTest::testPartialLongOptionSingleDash
+  - org.apache.commons.cli.DefaultParserTest::testAmbiguousPartialLongOption1
+  - org.apache.commons.cli.DefaultParserTest::testAmbiguousPartialLongOption2
+  - org.apache.commons.cli.DefaultParserTest::testAmbiguousPartialLongOption3
+  - org.apache.commons.cli.DefaultParserTest::testAmbiguousPartialLongOption4
+  - org.apache.commons.cli.DefaultParserTest::testUnambiguousPartialLongOption1
+  - org.apache.commons.cli.DefaultParserTest::testUnambiguousPartialLongOption2
+  - org.apache.commons.cli.DefaultParserTest::testUnambiguousPartialLongOption3
+  - org.apache.commons.cli.DefaultParserTest::testUnambiguousPartialLongOption4
+  - org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions
+  - org.apache.commons.cli.OptionsTest::testGetMatchingOpts
+  - org.apache.commons.cli.PosixParserTest::testOptionGroupLong
+  - org.apache.commons.cli.PosixParserTest::testPartialLongOptionSingleDash
+  - org.apache.commons.cli.PosixParserTest::testAmbiguousPartialLongOption1
+  - org.apache.commons.cli.PosixParserTest::testAmbiguousPartialLongOption2
+  - org.apache.commons.cli.PosixParserTest::testAmbiguousPartialLongOption3
+  - org.apache.commons.cli.PosixParserTest::testUnambiguousPartialLongOption1
+  - org.apache.commons.cli.PosixParserTest::testUnambiguousPartialLongOption2
+  - org.apache.commons.cli.PosixParserTest::testUnambiguousPartialLongOption3
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+  - org.apache.commons.cli.ValuesTest::testTwoArgValues
+  - org.apache.commons.cli.ValuesTest::testShortArgs
+  - org.apache.commons.cli.ValuesTest::testCharSeparator
+  - org.apache.commons.cli.ValuesTest::testExtraArgs
+  - org.apache.commons.cli.ValuesTest::testShortArgsWithValue
+  - org.apache.commons.cli.ValuesTest::testComplexValues
+  - org.apache.commons.cli.ValuesTest::testMultipleArgValues
+  - org.apache.commons.cli.bug.BugCLI252Test::testExactOptionNameMatch
+  - org.apache.commons.cli.bug.BugCLI252Test::testOptionGroupLong
+  - org.apache.commons.cli.bug.BugCLI252Test::testPartialLongOptionSingleDash
+  - org.apache.commons.cli.bug.BugCLI252Test::testAmbiguousPartialLongOption1
+  - org.apache.commons.cli.bug.BugCLI252Test::testAmbiguousPartialLongOption2
+  - org.apache.commons.cli.bug.BugCLI252Test::testAmbiguousPartialLongOption3
+  - org.apache.commons.cli.bug.BugCLI252Test::testAmbiguousPartialLongOption4
+  - org.apache.commons.cli.bug.BugCLI252Test::testUnambiguousPartialLongOption1
+  - org.apache.commons.cli.bug.BugCLI252Test::testUnambiguousPartialLongOption2
+  - org.apache.commons.cli.bug.BugCLI252Test::testUnambiguousPartialLongOption3
+  - org.apache.commons.cli.bug.BugCLI252Test::testUnambiguousPartialLongOption4
+  - org.apache.commons.cli.bug.BugsTest::test11457
+---- 退出码：0 | Cli-35_1-buggy
+

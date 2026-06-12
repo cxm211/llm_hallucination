@@ -1,0 +1,40 @@
+bug,status,exit_code,failing_tests,log_file
+Cli-1-buggy,Not Pass,0,1,Cli-1-buggy.log
+Cli-2-buggy,Not Pass,0,1,Cli-2-buggy.log
+Cli-3-buggy,Not Pass,0,1,Cli-3-buggy.log
+Cli-4-buggy,Pass,0,0,Cli-4-buggy.log
+Cli-5-buggy,Pass,0,0,Cli-5-buggy.log
+Cli-7-buggy,Not Pass,0,1,Cli-7-buggy.log
+Cli-8-buggy,Not Pass,0,1,Cli-8-buggy.log
+Cli-9-buggy,Pass,0,0,Cli-9-buggy.log
+Cli-10-buggy,not compilable,1,,Cli-10-buggy.log
+Cli-11-buggy,Pass,0,0,Cli-11-buggy.log
+Cli-12-buggy,Pass,0,0,Cli-12-buggy.log
+Cli-13-buggy,Not Pass,0,1,Cli-13-buggy.log
+Cli-14-buggy,Pass,0,0,Cli-14-buggy.log
+Cli-15-buggy,Pass,0,0,Cli-15-buggy.log
+Cli-16-buggy,not compilable,1,,Cli-16-buggy.log
+Cli-17-buggy,Pass,0,0,Cli-17-buggy.log
+Cli-18-buggy,Pass,0,0,Cli-18-buggy.log
+Cli-19-buggy,not compilable,1,,Cli-19-buggy.log
+Cli-20-buggy,Not Pass,0,1,Cli-20-buggy.log
+Cli-21-buggy,Pass,0,0,Cli-21-buggy.log
+Cli-22-buggy,Not Pass,0,1,Cli-22-buggy.log
+Cli-23-buggy,Pass,0,0,Cli-23-buggy.log
+Cli-24-buggy,Not Pass,0,1,Cli-24-buggy.log
+Cli-25-buggy,Not Pass,0,1,Cli-25-buggy.log
+Cli-26-buggy,Pass,0,0,Cli-26-buggy.log
+Cli-27-buggy,Not Pass,0,1,Cli-27-buggy.log
+Cli-28-buggy,Pass,0,0,Cli-28-buggy.log
+Cli-29-buggy,Not Pass,0,1,Cli-29-buggy.log
+Cli-30-buggy,not compilable,1,,Cli-30-buggy.log
+Cli-31-buggy,Not Pass,0,1,Cli-31-buggy.log
+Cli-32-buggy,Not Pass,0,1,Cli-32-buggy.log
+Cli-33-buggy,Not Pass,0,1,Cli-33-buggy.log
+Cli-34-buggy,Pass,0,0,Cli-34-buggy.log
+Cli-35-buggy,Pass,0,0,Cli-35-buggy.log
+Cli-36-buggy,Not Pass,0,1,Cli-36-buggy.log
+Cli-37-buggy,Not Pass,0,1,Cli-37-buggy.log
+Cli-38-buggy,Pass,0,0,Cli-38-buggy.log
+Cli-39-buggy,not compilable,1,,Cli-39-buggy.log
+Cli-40-buggy,Pass,0,0,Cli-40-buggy.log

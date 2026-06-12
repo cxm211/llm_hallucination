@@ -1,0 +1,23 @@
+bug,status,exit_code,failing_tests,log_file
+JxPath-1-buggy,Pass,0,0,JxPath-1-buggy.log
+JxPath-2-buggy,Not Pass,0,1,JxPath-2-buggy.log
+JxPath-3-buggy,Not Pass,0,1,JxPath-3-buggy.log
+JxPath-4-buggy,Not Pass,0,1,JxPath-4-buggy.log
+JxPath-5-buggy,Not Pass,0,1,JxPath-5-buggy.log
+JxPath-6-buggy,Not Pass,0,1,JxPath-6-buggy.log
+JxPath-7-buggy,Not Pass,0,1,JxPath-7-buggy.log
+JxPath-8-buggy,Not Pass,0,1,JxPath-8-buggy.log
+JxPath-9-buggy,Not Pass,0,1,JxPath-9-buggy.log
+JxPath-10-buggy,Not Pass,0,1,JxPath-10-buggy.log
+JxPath-11-buggy,Not Pass,0,1,JxPath-11-buggy.log
+JxPath-12-buggy,Not Pass,0,1,JxPath-12-buggy.log
+JxPath-13-buggy,Not Pass,0,1,JxPath-13-buggy.log
+JxPath-14-buggy,Pass,0,0,JxPath-14-buggy.log
+JxPath-15-buggy,not compilable,1,,JxPath-15-buggy.log
+JxPath-16-buggy,Not Pass,0,1,JxPath-16-buggy.log
+JxPath-17-buggy,Not Pass,0,1,JxPath-17-buggy.log
+JxPath-18-buggy,Not Pass,0,1,JxPath-18-buggy.log
+JxPath-19-buggy,Not Pass,0,1,JxPath-19-buggy.log
+JxPath-20-buggy,Not Pass,0,1,JxPath-20-buggy.log
+JxPath-21-buggy,Pass,0,0,JxPath-21-buggy.log
+JxPath-22-buggy,Not Pass,0,1,JxPath-22-buggy.log

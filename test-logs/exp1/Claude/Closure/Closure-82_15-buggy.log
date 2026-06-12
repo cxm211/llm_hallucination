@@ -1,0 +1,22 @@
+==== 2026-05-23 03:06:00 :: Closure-82_15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty23
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty28
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+  - com.google.javascript.jscomp.TypeCheckTest::testBadExtends4
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends12
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends13
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck14
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue301
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty23
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty28
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes
+---- 退出码：0 | Closure-82_15-buggy
+

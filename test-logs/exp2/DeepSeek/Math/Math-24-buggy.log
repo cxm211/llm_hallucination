@@ -1,0 +1,28 @@
+==== 2026-05-01 07:34:31 :: Math-24-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.math3.optimization.direct.PowellOptimizerTest::testMaximizeQuadratic
+  - org.apache.commons.math3.optimization.direct.PowellOptimizerTest::testSumSinc
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testMath832
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testMath855
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testSinMinWithValueChecker
+  - org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizerTest::testQuinticMin
+  - org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizerTest::testSinMin
+---- 主命令退出码：0 | Math-24-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testMath855
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testMath855
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-24-buggy/jacoco.exec.
+[INFO] Analyzing 656 classes.
+>>> [JACOCO] 结束

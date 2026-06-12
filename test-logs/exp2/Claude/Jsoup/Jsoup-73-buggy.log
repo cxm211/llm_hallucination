@@ -1,0 +1,21 @@
+==== 2026-05-01 20:59:50 :: Jsoup-73-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.W3CDomTest::namespacePreservation
+---- 主命令退出码：0 | Jsoup-73-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.jsoup.helper.W3CDomTest::namespacePreservation
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jsoup.helper.W3CDomTest::namespacePreservation
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-73-buggy/jacoco.exec.
+[INFO] Analyzing 236 classes.
+>>> [JACOCO] 结束

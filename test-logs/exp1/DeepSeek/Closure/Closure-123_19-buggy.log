@@ -1,0 +1,12 @@
+==== 2026-01-28 04:29:38 :: Closure-123_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CodePrinterTest::testParsePrintParse
+  - com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop
+  - com.google.javascript.jscomp.RemoveTryCatchTest::testPreserveTryBlockContainingReturnStatement
+---- 退出码：0 | Closure-123_19-buggy
+

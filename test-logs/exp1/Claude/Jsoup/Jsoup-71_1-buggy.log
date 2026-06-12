@@ -1,0 +1,14 @@
+==== 2026-05-23 21:19:55 :: Jsoup-71_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.nodes.ElementTest::testRemoveBeforeIndex
+  - org.jsoup.nodes.ElementTest::testRemoveAfterIndex
+  - org.jsoup.select.SelectorTest::splitOnBr
+  - org.jsoup.select.SelectorTest::textAsElements
+  - org.jsoup.select.SelectorTest::matchesOwn
+---- 退出码：0 | Jsoup-71_1-buggy
+

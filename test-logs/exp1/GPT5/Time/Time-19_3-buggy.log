@@ -1,0 +1,10 @@
+==== 2026-05-20 07:18:55 :: Time-19_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london
+---- 退出码：0 | Time-19_3-buggy
+

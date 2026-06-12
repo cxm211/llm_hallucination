@@ -1,0 +1,13 @@
+{
+  "function_1": {
+    "buggy": [
+      1
+    ],
+    "fixed": [
+      1
+    ]
+  },
+  "fixed_code": [
+    "public int getPropertyIndex() { return _delegate.getPropertyIndex(); }"
+  ]
+}

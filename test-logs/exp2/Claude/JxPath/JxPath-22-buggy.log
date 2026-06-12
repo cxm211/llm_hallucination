@@ -1,0 +1,56 @@
+==== 2026-05-01 21:07:41 :: JxPath-22-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 36
+  - org.apache.commons.jxpath.BasicNodeSetTest::testNodes
+  - org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest::testDoStepNoPredicatesStandard
+  - org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest::testDoStepPredicatesStandard
+  - org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest::testDoPredicatesStandard
+  - org.apache.commons.jxpath.ri.compiler.CoreFunctionTest::testIDFunction
+  - org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testElementDOM
+  - org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testCreateAndSetAttributeDOM
+  - org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testListElement
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testBeanContainer
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testListDocument
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testVarElement
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testMapDocument
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testBeanElement
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testListContainer
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testMapContainer
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testVarDocument
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testVarContainer
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testBeanDocument
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testMapElement
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisAttribute
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testID
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisParent
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNodeTypeText
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisNamespace
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testContainer
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNamespaceMapping
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNodeTypeProcessingInstruction
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testCreatePathAndSetValue
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testCreatePath
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testFunctionsLastAndPosition
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPrecedingSibling
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowingSibling
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testDocument
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding
+---- 主命令退出码：0 | JxPath-22-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.jxpath.ri.model.JXPath154Test::testInnerEmptyNamespaceDOM
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JxPath/JxPath-22-buggy/jacoco.exec.
+[INFO] Analyzing 165 classes.
+>>> [JACOCO] 结束

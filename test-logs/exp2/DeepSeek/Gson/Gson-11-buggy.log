@@ -1,0 +1,19 @@
+==== 2026-05-01 04:09:26 :: Gson-11-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- 主命令退出码：0 | Gson-11-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.gson.functional.PrimitiveTest::testNumberAsStringDeserialization
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-11-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] 结束

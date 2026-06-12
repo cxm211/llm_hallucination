@@ -1,0 +1,31 @@
+==== 2026-05-19 11:40:38 :: Closure-141_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 22
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue81
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAndOperators4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHookWithSideEffects
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionForGorH
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testHookOperators4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrG
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testOrOperator1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testOrOperator2
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testOrOperator3
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGViaHook
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAssignmentOverride
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testHookOperator1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testHookOperator2
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testHookOperator3
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testOrOperators4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testCallFunctionFOrGWithSideEffects
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAndOperator1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAndOperator2
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAndOperator3
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testNamespaceAnnotationInExterns4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testNamespaceAnnotationInExterns5
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testNamespaceAnnotationInExterns6
+---- 退出码：0 | Closure-141_7-buggy
+

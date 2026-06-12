@@ -1,0 +1,21 @@
+==== 2026-05-28 12:19:14 :: Closure-153_6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag3
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext2
+  - com.google.javascript.jscomp.NormalizeTest::testDuplicateVarInExterns
+  - com.google.javascript.jscomp.NormalizeTest::testMakeLocalNamesUnique
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testUnusedAssign5
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testUnusedAssign5b
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testFunctionWithName1
+  - com.google.javascript.jscomp.RemoveUnusedVarsTest::testFunctionWithName2
+  - com.google.javascript.jscomp.RenameVarsTest::testRecursiveFunctions1
+  - com.google.javascript.jscomp.RenameVarsTest::testRecursiveFunctions2
+  - com.google.javascript.jscomp.SyntacticScopeCreatorTest::testFunctionScopeArguments
+  - com.google.javascript.jscomp.VarCheckTest::testRecursiveFunction
+---- 退出码：0 | Closure-153_6-buggy
+

@@ -1,0 +1,49 @@
+==== 2026-05-24 04:12:11 :: Mockito-18_2-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 40
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_empty_collections_or_null_for_non_collections
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_empty_iterable
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::will_return_default_value_on_non_mockable_nested_generic
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldStubStringVarargs
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstract_method_returns_default
+  - org.mockitousage.customization.BDDMockitoTest::shouldStub
+  - org.mockitousage.customization.BDDMockitoTest::shouldStubUsingDoReturnStyle
+  - org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest::shouldPrintInvocationsWhenStubbingNotUsed
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldAcceptNullsInAnyObjectMatcher
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldAcceptNullsInAnyMatcher
+  - org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyXMatchers
+  - org.mockitousage.matchers.CustomMatchersTest::shouldUseCustomObjectMatcher
+  - org.mockitousage.matchers.CustomMatchersTest::shouldUseCustomCharMatcher
+  - org.mockitousage.matchers.CustomMatchersTest::shouldUseCustomPrimitiveNumberMatchers
+  - org.mockitousage.matchers.CustomMatchersTest::shouldUseCustomBooleanMatcher
+  - org.mockitousage.matchers.HamcrestMatchersTest::shouldAcceptHamcrestMatcher
+  - org.mockitousage.matchers.MatchersTest::compareToMatcher
+  - org.mockitousage.matchers.MatchersTest::matchesMatcher
+  - org.mockitousage.matchers.MatchersTest::orOverloaded
+  - org.mockitousage.matchers.MatchersTest::arrayEqualsMatcher
+  - org.mockitousage.matchers.MatchersTest::andOverloaded
+  - org.mockitousage.matchers.MatchersTest::endsWithMatcher
+  - org.mockitousage.matchers.MatchersTest::deltaMatcher
+  - org.mockitousage.matchers.MatchersTest::sameMatcher
+  - org.mockitousage.matchers.MatchersTest::greaterOrEqualMatcherOverloaded
+  - org.mockitousage.matchers.MatchersTest::containsMatcher
+  - org.mockitousage.matchers.MatchersTest::anyStringMatcher
+  - org.mockitousage.matchers.MatchersTest::greaterThanMatcherOverloaded
+  - org.mockitousage.matchers.MatchersTest::notOverloaded
+  - org.mockitousage.matchers.MatchersTest::lessThanOverloaded
+  - org.mockitousage.matchers.MatchersTest::startsWithMatcher
+  - org.mockitousage.matchers.MatchersTest::findMatcher
+  - org.mockitousage.matchers.MatchersTest::lessOrEqualOverloaded
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollection
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyList
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMap
+  - org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySet
+  - org.mockitousage.matchers.VerificationAndStubbingUsingMatchersTest::shouldStubUsingMatchers
+  - org.mockitousage.stubbing.StubbingUsingDoReturnTest::shouldStubWithArgs
+---- 退出码：0 | Mockito-18_2-buggy
+

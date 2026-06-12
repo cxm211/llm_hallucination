@@ -1,0 +1,7 @@
+bug,status,exit_code,failing_tests,log_file
+JacksonXml-1-buggy,Not Pass,0,1,JacksonXml-1-buggy.log
+JacksonXml-2-buggy,Not Pass,0,1,JacksonXml-2-buggy.log
+JacksonXml-3-buggy,Pass,0,0,JacksonXml-3-buggy.log
+JacksonXml-4-buggy,Not Pass,0,1,JacksonXml-4-buggy.log
+JacksonXml-5-buggy,Pass,0,0,JacksonXml-5-buggy.log
+JacksonXml-6-buggy,not compilable,1,,JacksonXml-6-buggy.log

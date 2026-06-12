@@ -1,0 +1,29 @@
+==== 2026-05-19 01:46:22 :: Closure-36-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag4
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionDeclaration
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineIntoFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineOutOfBranch
+  - com.google.javascript.jscomp.InlineVariablesTest::testRecursiveFunction2
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineIntoLoops
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineIntoTryCatch
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotExitTry
+  - com.google.javascript.jscomp.InlineVariablesTest::testForIn
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotEnterFinally
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotExitLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testInsideOrBranchInsideIfConditionalWithConstant
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineIntoNestedNamedFunctions
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotExitConditional1
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotExitConditional2
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotExitConditional3
+  - com.google.javascript.jscomp.InlineVariablesTest::testNoInlineIntoNamedFunction
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotExitForLoop
+  - com.google.javascript.jscomp.InlineVariablesTest::testDoNotEnterSubscope
+  - com.google.javascript.jscomp.IntegrationTest::testSingletonGetter1
+---- 退出码：0 | Closure-36-buggy
+

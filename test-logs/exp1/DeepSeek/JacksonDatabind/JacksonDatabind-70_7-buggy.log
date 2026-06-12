@@ -1,0 +1,23 @@
+==== 2026-01-19 16:56:38 :: JacksonDatabind-70_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - com.fasterxml.jackson.databind.deser.AnySetter349Test::testUnwrappedWithAny
+  - com.fasterxml.jackson.databind.deser.TestBasicAnnotations::testIssue442PrivateUnwrapped
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testDeepUnwrapping
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testDoubleUnwrapping
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testCaseInsensitiveUnwrap
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testSimpleUnwrappedDeserialize
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testIssue615
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testUnwrappedDeserializeWithCreator
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testHierarchicConfigDeserialize
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testPrefixedUnwrapping
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testIssue226
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testDeepPrefixedUnwrappingDeserialize
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testHierarchicConfigRoundTrip
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithSameName647::testUnwrappedWithSamePropertyName
+---- 退出码：0 | JacksonDatabind-70_7-buggy
+

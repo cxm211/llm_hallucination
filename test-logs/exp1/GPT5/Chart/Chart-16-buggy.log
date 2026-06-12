@@ -1,0 +1,16 @@
+==== 2026-05-18 19:20:17 :: Chart-16-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+  - org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+---- 退出码：0 | Chart-16-buggy
+

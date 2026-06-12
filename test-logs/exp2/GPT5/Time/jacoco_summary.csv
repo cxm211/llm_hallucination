@@ -1,0 +1,2 @@
+project,buggy_folder,buggy_path,trigger_tests_count,jacoco_xml,success,error
+Time,Time-11-buggy,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-11-buggy,1,/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-11-buggy/jacoco.xml,True,

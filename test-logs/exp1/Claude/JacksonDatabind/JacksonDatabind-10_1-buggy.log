@@ -1,0 +1,19 @@
+==== 2026-05-23 12:06:52 :: JacksonDatabind-10_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.fasterxml.jackson.databind.access.TestSerAnyGetter::testDynaBean
+  - com.fasterxml.jackson.databind.access.TestSerAnyGetter::testPrivate
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testPolymorphic
+  - com.fasterxml.jackson.databind.filter.TestAnyGetterFiltering::testAnyGetterFiltering
+  - com.fasterxml.jackson.databind.ser.TestAnyGetter::testAnyOnly
+  - com.fasterxml.jackson.databind.ser.TestAnyGetter::testAnyWithNull
+  - com.fasterxml.jackson.databind.ser.TestAnyGetter::testSimpleJsonValue
+  - com.fasterxml.jackson.databind.ser.TestAnyGetter::testIssue705
+  - com.fasterxml.jackson.databind.ser.TestDateSerialization::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testCustomEnumMapKeySerializer
+---- 退出码：0 | JacksonDatabind-10_1-buggy
+

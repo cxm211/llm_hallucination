@@ -1,0 +1,11 @@
+==== 2026-05-28 12:48:05 :: Closure-158_10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testWarningGuardOrdering4
+---- 退出码：0 | Closure-158_10-buggy
+

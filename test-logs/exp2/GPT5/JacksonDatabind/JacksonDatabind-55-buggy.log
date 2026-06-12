@@ -1,0 +1,32 @@
+==== 2026-06-05 16:50:53 :: JacksonDatabind-55-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - com.fasterxml.jackson.databind.convert.TestMapConversions::testMapToBean
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testEnumPolymorphicSerializationTest
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testEnumMap
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestCollectionSerialization::testEnumMap
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumMapSerDisableToString
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumMapSerDefault
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumsWithJsonPropertyAsKey
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testMapWithEnumKeys
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumMapSerEnableToString
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testToStringEnumWithEnumMap
+  - com.fasterxml.jackson.databind.ser.TestKeySerializers::testCustomEnumInnerMapKey
+---- 主命令退出码：0 | JacksonDatabind-55-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumsWithJsonPropertyAsKey
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.ser.TestEnumSerialization::testEnumsWithJsonPropertyAsKey
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-55-buggy/jacoco.exec.
+[INFO] Analyzing 501 classes.
+>>> [JACOCO] 结束

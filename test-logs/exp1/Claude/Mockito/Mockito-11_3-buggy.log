@@ -1,0 +1,12 @@
+==== 2026-05-24 04:04:40 :: Mockito-11_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_equal_to_method
+  - org.mockito.internal.creation.DelegatingMethodTest::equals_should_return_true_when_equal
+  - org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest::shouldSuccessfullyVerifyConcurrentInvocationsWithTimeout
+---- 退出码：0 | Mockito-11_3-buggy
+

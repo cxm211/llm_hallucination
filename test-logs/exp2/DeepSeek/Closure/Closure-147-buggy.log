@@ -1,0 +1,29 @@
+==== 2026-05-01 01:53:12 :: Closure-147-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValueWithInnerFn
+---- 主命令退出码：0 | Closure-147-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testIssue182a
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CheckGlobalThisTest::testIssue182b
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t com.google.javascript.jscomp.RuntimeTypeCheckTest::testValueWithInnerFn
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValueWithInnerFn
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-147-buggy/jacoco.exec.
+[INFO] Analyzing 899 classes.
+>>> [JACOCO] 结束

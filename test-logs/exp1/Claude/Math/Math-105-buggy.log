@@ -1,0 +1,18 @@
+==== 2026-05-12 21:36:40 :: Math-105-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testClear
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testCorr
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testNaNs
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testPerfect
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testPerfectNegative
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testNorris
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testInference
+  - org.apache.commons.math.stat.regression.SimpleRegressionTest::testRandom
+---- 退出码：0 | Math-105-buggy
+

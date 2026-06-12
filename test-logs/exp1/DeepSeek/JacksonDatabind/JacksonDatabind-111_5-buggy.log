@@ -1,0 +1,62 @@
+==== 2026-05-29 01:22:05 :: JacksonDatabind-111_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 53
+  - com.fasterxml.jackson.databind.RoundtripTest::testMedaItemRoundtrip
+  - com.fasterxml.jackson.databind.big.TestBiggerData::testRoundTrip
+  - com.fasterxml.jackson.databind.big.TestBiggerData::testReading
+  - com.fasterxml.jackson.databind.deser.TestArrayDeserialization::testFromEmptyString2
+  - com.fasterxml.jackson.databind.deser.TestCyclicTypes::testLinkedGeneric
+  - com.fasterxml.jackson.databind.deser.TestCyclicTypes::testCycleWith2Classes
+  - com.fasterxml.jackson.databind.deser.TestCyclicTypes::testLinked
+  - com.fasterxml.jackson.databind.deser.creators.FailOnNullCreatorTest::testRequiredNonNullParam
+  - com.fasterxml.jackson.databind.deser.creators.InnerClassCreatorTest::testIssue1503
+  - com.fasterxml.jackson.databind.deser.creators.TestCreators::testDeferredConstructorAndProps
+  - com.fasterxml.jackson.databind.deser.creators.TestCustomValueInstDefaults::testPresentNullReference
+  - com.fasterxml.jackson.databind.deser.creators.TestCustomValueInstDefaults::testMoreThan32CreatorParams
+  - com.fasterxml.jackson.databind.deser.filter.NullConversionsPojoTest::testNullsToEmptyScalar
+  - com.fasterxml.jackson.databind.deser.filter.NullConversionsPojoTest::testFailOnNull
+  - com.fasterxml.jackson.databind.deser.filter.NullConversionsPojoTest::testFailOnNullWithDefaults
+  - com.fasterxml.jackson.databind.deser.filter.NullConversionsSkipTest::testSkipNullMethod
+  - com.fasterxml.jackson.databind.deser.filter.NullConversionsSkipTest::testSkipNullWithDefaults
+  - com.fasterxml.jackson.databind.deser.filter.NullConversionsSkipTest::testSkipNullField
+  - com.fasterxml.jackson.databind.deser.jdk.JDKAtomicTypesDeserTest::testNullWithinNested
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testNullForPrimitivesViaCreator
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testEmptyStringForWrappers
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testLongPrimitive
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testVoidDeser
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testCharacterWrapper
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testBooleanPrimitive
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testIntPrimitive
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testDoublePrimitive
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testNullForPrimitives
+  - com.fasterxml.jackson.databind.deser.merge.MergeWithNullTest::testBeanMergingWithNullDefault
+  - com.fasterxml.jackson.databind.deser.merge.MergeWithNullTest::testBeanMergingWithNullSet
+  - com.fasterxml.jackson.databind.exc.ExceptionDeserializationTest::testIOException
+  - com.fasterxml.jackson.databind.exc.ExceptionDeserializationTest::testWithCreator
+  - com.fasterxml.jackson.databind.exc.ExceptionSerializationTest::testIgnorals
+  - com.fasterxml.jackson.databind.jsontype.TestAbstractTypeNames::testEmptyCollection
+  - com.fasterxml.jackson.databind.jsontype.deftyping.TestDefaultForObject::testNullValue
+  - com.fasterxml.jackson.databind.jsontype.ext.ExternalTypeIdWithEnum1328Test::testExample
+  - com.fasterxml.jackson.databind.node.TestNullNode::testNullHandlingCovariance
+  - com.fasterxml.jackson.databind.objectid.ObjectWithCreator1261Test::testObjectIds1261
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testKeepMapOrdering
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testForwardReferenceInMap
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testKeepCollectionOrdering
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testForwardReference
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testUnresolvedForwardReference
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testForwardReferenceInCollection
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testSimpleUUIDForClassRoundTrip
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdDeserialization::testNullObjectId
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization::testNullStringPropertyId
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdWithPolymorphic::testIssue811
+  - com.fasterxml.jackson.databind.ser.jdk.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.struct.TestParentChildReferences::testSimpleRefs
+  - com.fasterxml.jackson.databind.struct.TestParentChildReferences::testAbstract368
+  - com.fasterxml.jackson.databind.struct.TestParentChildReferences::testSimpleRefsWithGetter
+  - com.fasterxml.jackson.databind.struct.TestParentChildReferences::testFullRefs
+---- 退出码：0 | JacksonDatabind-111_5-buggy
+

@@ -1,0 +1,54 @@
+==== 2026-05-27 23:51:13 :: Closure-37_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 45
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testConstantFunction1
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testGlobalScope
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testAlert
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testBothScopes
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testMultipleVar
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testInnerFunction1
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testLocalScope1
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testLocalScope2
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testLocalScopeOnly1
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testLocalScopeOnly2
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testMultipleVar2
+  - com.google.javascript.jscomp.CollapseAnonymousFunctionsTest::testReturn
+  - com.google.javascript.jscomp.IntegrationTest::testIncompleteFunction
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPrototype2
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPrototype3
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPrototype4
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPrototype5
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testDuplicateNames
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testPrototypeInitializer
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPrototype
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testSimpleVarAssignment
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToProperty
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToGetElem
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPropertyOfCallReturnValue
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testGetElemWithDashes
+  - com.google.javascript.jscomp.NameAnonymousFunctionsMappedTest::testAssignmentToPropertyOfArrayElement
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToPrototype2
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToPrototype3
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToPrototype4
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testRecursiveObjectLiteral
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testPrototypeInitializer
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToPrototype
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testSimpleVarAssignment
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToProperty
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testMultiplePrototypeInitializer
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToGetElem
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testWhatCausedIeToFail
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToPropertyOfCallReturnValue
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testGetElemWithDashes
+  - com.google.javascript.jscomp.NameAnonymousFunctionsTest::testAssignmentToPropertyOfArrayElement
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral7
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testObjectLiteral8
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testGetter
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testSetter
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testLinenoDeclaration
+---- 退出码：0 | Closure-37_1-buggy
+

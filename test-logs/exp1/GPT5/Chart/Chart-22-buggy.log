@@ -1,0 +1,14 @@
+==== 2026-05-18 19:21:18 :: Chart-22-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue
+  - org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey
+  - org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex
+  - org.jfree.data.junit.KeyedObjects2DTests::testSetObject
+---- 退出码：0 | Chart-22-buggy
+

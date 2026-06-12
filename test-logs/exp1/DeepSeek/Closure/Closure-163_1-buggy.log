@@ -1,0 +1,12 @@
+==== 2026-05-28 13:18:24 :: Closure-163_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600b
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600e
+  - com.google.javascript.jscomp.CrossModuleMethodMotionTest::testIssue600
+---- 退出码：0 | Closure-163_1-buggy
+

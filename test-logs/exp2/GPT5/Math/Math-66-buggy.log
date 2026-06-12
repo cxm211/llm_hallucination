@@ -1,0 +1,42 @@
+==== 2026-04-05 04:45:00 :: Math-66-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+---- 主命令退出码：0 | Math-66-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+[JACOCO] defects4j test -t org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-66-buggy/jacoco.exec.
+[INFO] Analyzing 459 classes.
+>>> [JACOCO] 结束

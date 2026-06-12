@@ -1,0 +1,63 @@
+==== 2026-01-27 10:47:59 :: Closure-48_28-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 54
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoVar1
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testRenamingMap
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testConstantProperty3
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testAndOrBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testTryFinallyBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testBreakBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testLabeledContinueBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testContinueBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testForBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testSwitchBranchDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testWhileBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testAssignedAfterMerge
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testDoBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testHookBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testSwitchBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testReturnBranchNoDifference
+  - com.google.javascript.jscomp.CheckPropertyOrderTest::testLabeledBreakBranchNoDifference
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testThis3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAssign2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAssign3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAssign4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPropertyInferredPropagation
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameInference1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl4
+  - com.google.javascript.jscomp.TightenTypesTest::testCallPrototypeFunction
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef1a
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef1b
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef2a
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef2b
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis2
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateInstanceMethod1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateInstanceMethod4
+  - com.google.javascript.jscomp.TypeCheckTest::testThis3
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa8
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn7
+  - com.google.javascript.jscomp.TypeCheckTest::testAssign2
+  - com.google.javascript.jscomp.TypeCheckTest::testAssign3
+  - com.google.javascript.jscomp.TypeCheckTest::testAssign4
+  - com.google.javascript.jscomp.TypeCheckTest::testPropertyInferredPropagation
+  - com.google.javascript.jscomp.TypeCheckTest::testUndeclaredGlobalProperty1
+  - com.google.javascript.jscomp.TypeCheckTest::testUndeclaredGlobalProperty2
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration2
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue586
+  - com.google.javascript.jscomp.TypeCheckTest::testLocallyInferredGlobalProperty1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl3
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testBogusPrototypeInit
+---- 退出码：0 | Closure-48_28-buggy
+

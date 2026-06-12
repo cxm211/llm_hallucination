@@ -1,0 +1,28 @@
+==== 2026-05-22 15:22:43 :: Closure-19_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 19
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameReduction1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameReduction2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameReduction3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameReduction4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameInference4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPropertyInference2
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeInferenceWithNoEntry2
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa7
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction1
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction2
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction3
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction4
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction6
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference4
+  - com.google.javascript.jscomp.TypeCheckTest::testPropertyInference2
+  - com.google.javascript.jscomp.TypeInferenceTest::testAssert6
+  - com.google.javascript.jscomp.TypeInferenceTest::testPropertyInference1
+  - com.google.javascript.jscomp.TypeInferenceTest::testNoThisInference
+---- 退出码：0 | Closure-19_7-buggy
+

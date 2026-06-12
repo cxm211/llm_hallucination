@@ -1,0 +1,11 @@
+==== 2026-05-25 06:53:57 :: Mockito-9_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockitousage.annotation.SpyAnnotationTest::shouldResetSpies
+  - org.mockitousage.spies.PartialMockingWithSpiesTest::shouldStackTraceGetFilteredOnUserExceptions
+---- 退出码：0 | Mockito-9_1-buggy
+

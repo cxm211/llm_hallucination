@@ -1,0 +1,25 @@
+==== 2026-03-31 18:11:57 :: JacksonCore-16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.core.json.ParserSequenceTest::testInitialized
+  - com.fasterxml.jackson.core.json.ParserSequenceTest::testSimple
+---- 主命令退出码：0 | JacksonCore-16-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.ParserSequenceTest::testInitialized
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.ParserSequenceTest::testInitialized
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-16-buggy/jacoco.exec.
+[INFO] Analyzing 84 classes.
+>>> [JACOCO] 结束

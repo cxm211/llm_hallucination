@@ -1,0 +1,24 @@
+==== 2026-04-05 04:27:36 :: Math-30-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet
+---- 主命令退出码：0 | Math-30-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-30-buggy/jacoco.exec.
+[INFO] Analyzing 649 classes.
+>>> [JACOCO] 结束

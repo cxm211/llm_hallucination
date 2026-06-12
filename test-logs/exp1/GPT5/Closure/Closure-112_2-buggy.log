@@ -1,0 +1,19 @@
+==== 2026-05-19 09:00:27 :: Closure-112_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.google.javascript.jscomp.TypeCheckTest::testBug7701884
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsInferenceGoogArrayFilter2
+  - com.google.javascript.jscomp.TypeCheckTest::testUnionTemplateThisType
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralDefinedThisArgument2
+  - com.google.javascript.jscomp.TypeCheckTest::testGenerics1
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized11
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7b
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7c
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7
+---- 退出码：0 | Closure-112_2-buggy
+

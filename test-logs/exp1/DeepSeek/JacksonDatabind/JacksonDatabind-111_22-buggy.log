@@ -1,0 +1,489 @@
+==== 2026-01-20 22:51:39 :: JacksonDatabind-111_22-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/maven-build.xml:90: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 198 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/BeanDescription.java:11: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeBindings;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/JavaType.java:7: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeBindings;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/JavaType.java:8: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:7: error: cannot find symbol
+    [javac] import com.fasterxml.jackson.databind.AnnotationIntrospector;
+    [javac]                                      ^
+    [javac]   symbol:   class AnnotationIntrospector
+    [javac]   location: package com.fasterxml.jackson.databind
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:9: error: package com.fasterxml.jackson.databind.cfg does not exist
+    [javac] import com.fasterxml.jackson.databind.cfg.MapperConfig;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ClassIntrospector.java:6: error: cannot find symbol
+    [javac] import com.fasterxml.jackson.databind.SerializationConfig;
+    [javac]                                      ^
+    [javac]   symbol:   class SerializationConfig
+    [javac]   location: package com.fasterxml.jackson.databind
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ClassIntrospector.java:7: error: package com.fasterxml.jackson.databind.cfg does not exist
+    [javac] import com.fasterxml.jackson.databind.cfg.MapperConfig;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:11: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeBindings;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:12: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/Annotated.java:9: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeBindings;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/TypeResolutionContext.java:6: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeBindings;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/TypeResolutionContext.java:7: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java:7: error: cannot find symbol
+    [javac] import com.fasterxml.jackson.databind.PropertyName;
+    [javac]                                      ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: package com.fasterxml.jackson.databind
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/BeanDescription.java:87: error: cannot find symbol
+    [javac]     public abstract TypeBindings bindingsForBeanType();
+    [javac]                     ^
+    [javac]   symbol:   class TypeBindings
+    [javac]   location: class BeanDescription
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/Converter.java:4: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/Converter.java:37: error: cannot find symbol
+    [javac]     public JavaType getInputType(TypeFactory typeFactory);
+    [javac]                                  ^
+    [javac]   symbol:   class TypeFactory
+    [javac]   location: interface Converter<IN,OUT>
+    [javac]   where IN,OUT are type-variables:
+    [javac]     IN extends Object declared in interface Converter
+    [javac]     OUT extends Object declared in interface Converter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/Converter.java:47: error: cannot find symbol
+    [javac]     public JavaType getOutputType(TypeFactory typeFactory);
+    [javac]                                   ^
+    [javac]   symbol:   class TypeFactory
+    [javac]   location: interface Converter<IN,OUT>
+    [javac]   where IN,OUT are type-variables:
+    [javac]     IN extends Object declared in interface Converter
+    [javac]     OUT extends Object declared in interface Converter
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:39: error: cannot find symbol
+    [javac]     public abstract BeanPropertyDefinition withName(PropertyName newName);
+    [javac]                                                     ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class BeanPropertyDefinition
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:61: error: cannot find symbol
+    [javac]     public abstract PropertyName getFullName();
+    [javac]                     ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class BeanPropertyDefinition
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:66: error: cannot find symbol
+    [javac]     public boolean hasName(PropertyName name) {
+    [javac]                            ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class BeanPropertyDefinition
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:83: error: cannot find symbol
+    [javac]     public abstract PropertyName getWrapperName();
+    [javac]                     ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class BeanPropertyDefinition
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:134: error: cannot find symbol
+    [javac]     public abstract PropertyMetadata getMetadata();
+    [javac]                     ^
+    [javac]   symbol:   class PropertyMetadata
+    [javac]   location: class BeanPropertyDefinition
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.java:251: error: package AnnotationIntrospector does not exist
+    [javac]     public AnnotationIntrospector.ReferenceProperty findReferenceType() { return null; }
+    [javac]                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java:17: error: cannot find symbol
+    [javac]     protected final PropertyName _propertyName;
+    [javac]                     ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class ObjectIdInfo
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java:28: error: cannot find symbol
+    [javac]     public ObjectIdInfo(PropertyName name, Class<?> scope, Class<? extends ObjectIdGenerator<?>> gen,
+    [javac]                         ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class ObjectIdInfo
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java:34: error: cannot find symbol
+    [javac]     protected ObjectIdInfo(PropertyName prop, Class<?> scope, Class<? extends ObjectIdGenerator<?>> gen,
+    [javac]                            ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class ObjectIdInfo
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java:41: error: cannot find symbol
+    [javac]     protected ObjectIdInfo(PropertyName prop, Class<?> scope, Class<? extends ObjectIdGenerator<?>> gen,
+    [javac]                            ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class ObjectIdInfo
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ObjectIdInfo.java:65: error: cannot find symbol
+    [javac]     public PropertyName getPropertyName() { return _propertyName; }
+    [javac]            ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class ObjectIdInfo
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:46: error: cannot find symbol
+    [javac]     final protected TypeBindings _bindings;
+    [javac]                     ^
+    [javac]   symbol:   class TypeBindings
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:59: error: cannot find symbol
+    [javac]     final protected AnnotationIntrospector _annotationIntrospector;
+    [javac]                     ^
+    [javac]   symbol:   class AnnotationIntrospector
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:64: error: cannot find symbol
+    [javac]     final protected TypeFactory _typeFactory;
+    [javac]                     ^
+    [javac]   symbol:   class TypeFactory
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:131: error: cannot find symbol
+    [javac]             Class<?> primaryMixIn, Annotations classAnnotations, TypeBindings bindings, 
+    [javac]                                                                  ^
+    [javac]   symbol:   class TypeBindings
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:132: error: cannot find symbol
+    [javac]             AnnotationIntrospector aintr, MixInResolver mir, TypeFactory tf)
+    [javac]             ^
+    [javac]   symbol:   class AnnotationIntrospector
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:132: error: cannot find symbol
+    [javac]             AnnotationIntrospector aintr, MixInResolver mir, TypeFactory tf)
+    [javac]                                                              ^
+    [javac]   symbol:   class TypeFactory
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:167: error: cannot find symbol
+    [javac]     public static AnnotatedClass construct(JavaType type, MapperConfig<?> config) {
+    [javac]                                                           ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:175: error: cannot find symbol
+    [javac]     public static AnnotatedClass construct(JavaType type, MapperConfig<?> config,
+    [javac]                                                           ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:190: error: cannot find symbol
+    [javac]     public static AnnotatedClass constructWithoutSuperTypes(Class<?> raw, MapperConfig<?> config) {
+    [javac]                                                                           ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClass.java:198: error: cannot find symbol
+    [javac]     public static AnnotatedClass constructWithoutSuperTypes(Class<?> raw, MapperConfig<?> config,
+    [javac]                                                                           ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class AnnotatedClass
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/Annotated.java:55: error: cannot find symbol
+    [javac]     public final JavaType getType(TypeBindings bogus) {
+    [javac]                                   ^
+    [javac]   symbol:   class TypeBindings
+    [javac]   location: class Annotated
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ClassIntrospector.java:67: error: cannot find symbol
+    [javac]     public abstract BeanDescription forSerialization(SerializationConfig cfg,
+    [javac]                                                      ^
+    [javac]   symbol:   class SerializationConfig
+    [javac]   location: class ClassIntrospector
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:11: error: package com.fasterxml.jackson.databind.node does not exist
+    [javac] import com.fasterxml.jackson.databind.node.JsonNodeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:25: error: cannot find symbol
+    [javac]     extends MapperConfigBase<DeserializationFeature, DeserializationConfig>
+    [javac]             ^
+    [javac]   symbol: class MapperConfigBase
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:25: error: cannot find symbol
+    [javac]     extends MapperConfigBase<DeserializationFeature, DeserializationConfig>
+    [javac]                              ^
+    [javac]   symbol: class DeserializationFeature
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ClassIntrospector.java:99: error: cannot find symbol
+    [javac]     public abstract BeanDescription forClassAnnotations(MapperConfig<?> cfg, JavaType type,
+    [javac]                                                         ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class ClassIntrospector
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/ClassIntrospector.java:107: error: cannot find symbol
+    [javac]     public abstract BeanDescription forDirectClassAnnotations(MapperConfig<?> cfg, JavaType type,
+    [javac]                                                               ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class ClassIntrospector
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/deser/DeserializationProblemHandler.java:11: error: cannot find symbol
+    [javac] import com.fasterxml.jackson.databind.ObjectMapper;
+    [javac]                                      ^
+    [javac]   symbol:   class ObjectMapper
+    [javac]   location: package com.fasterxml.jackson.databind
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/deser/DeserializationProblemHandler.java:12: error: package com.fasterxml.jackson.databind.jsontype does not exist
+    [javac] import com.fasterxml.jackson.databind.jsontype.TypeIdResolver;
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:47: error: cannot find symbol
+    [javac]     protected final JsonNodeFactory _nodeFactory;
+    [javac]                     ^
+    [javac]   symbol:   class JsonNodeFactory
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:99: error: cannot find symbol
+    [javac]     public DeserializationConfig(BaseSettings base,
+    [javac]                                  ^
+    [javac]   symbol:   class BaseSettings
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:100: error: cannot find symbol
+    [javac]             SubtypeResolver str, SimpleMixInResolver mixins, RootNameLookup rootNames,
+    [javac]             ^
+    [javac]   symbol:   class SubtypeResolver
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/SimpleMixInResolver.java:6: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.ClassKey;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:4: error: package com.fasterxml.jackson.databind.cfg does not exist
+    [javac] import com.fasterxml.jackson.databind.cfg.MapperConfig;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:6: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.ClassKey;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:101: error: cannot find symbol
+    [javac]             ConfigOverrides configOverrides)
+    [javac]             ^
+    [javac]   symbol:   class ConfigOverrides
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:120: error: cannot find symbol
+    [javac]             ConfigOverrides configOverrides)
+    [javac]             ^
+    [javac]   symbol:   class ConfigOverrides
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:158: error: cannot find symbol
+    [javac]     private DeserializationConfig(DeserializationConfig src, SubtypeResolver str)
+    [javac]                                                              ^
+    [javac]   symbol:   class SubtypeResolver
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:170: error: cannot find symbol
+    [javac]     private DeserializationConfig(DeserializationConfig src, BaseSettings base)
+    [javac]                                                              ^
+    [javac]   symbol:   class BaseSettings
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:182: error: cannot find symbol
+    [javac]     private DeserializationConfig(DeserializationConfig src, JsonNodeFactory f)
+    [javac]                                                              ^
+    [javac]   symbol:   class JsonNodeFactory
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:207: error: cannot find symbol
+    [javac]     private DeserializationConfig(DeserializationConfig src, PropertyName rootName)
+    [javac]                                                              ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:231: error: cannot find symbol
+    [javac]     protected DeserializationConfig(DeserializationConfig src, ContextAttributes attrs)
+    [javac]                                                                ^
+    [javac]   symbol:   class ContextAttributes
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:256: error: cannot find symbol
+    [javac]     protected BaseSettings getBaseSettings() { return _base; }
+    [javac]               ^
+    [javac]   symbol:   class BaseSettings
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:265: error: cannot find symbol
+    [javac]     protected final DeserializationConfig _withBase(BaseSettings newBase) {
+    [javac]                                                     ^
+    [javac]   symbol:   class BaseSettings
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:283: error: cannot find symbol
+    [javac]     public DeserializationConfig with(SubtypeResolver str) {
+    [javac]                                       ^
+    [javac]   symbol:   class SubtypeResolver
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:288: error: cannot find symbol
+    [javac]     public DeserializationConfig withRootName(PropertyName rootName) {
+    [javac]                                               ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:305: error: cannot find symbol
+    [javac]     public DeserializationConfig with(ContextAttributes attrs) {
+    [javac]                                       ^
+    [javac]   symbol:   class ContextAttributes
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:319: error: cannot find symbol
+    [javac]     public DeserializationConfig with(DeserializationFeature feature)
+    [javac]                                       ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:332: error: cannot find symbol
+    [javac]     public DeserializationConfig with(DeserializationFeature first,
+    [javac]                                       ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:333: error: cannot find symbol
+    [javac]             DeserializationFeature... features)
+    [javac]             ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:349: error: cannot find symbol
+    [javac]     public DeserializationConfig withFeatures(DeserializationFeature... features)
+    [javac]                                               ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:365: error: cannot find symbol
+    [javac]     public DeserializationConfig without(DeserializationFeature feature)
+    [javac]                                          ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:378: error: cannot find symbol
+    [javac]     public DeserializationConfig without(DeserializationFeature first,
+    [javac]                                          ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:379: error: cannot find symbol
+    [javac]             DeserializationFeature... features)
+    [javac]             ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:395: error: cannot find symbol
+    [javac]     public DeserializationConfig withoutFeatures(DeserializationFeature... features)
+    [javac]                                                  ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:577: error: cannot find symbol
+    [javac]     public DeserializationConfig with(JsonNodeFactory f) {
+    [javac]                                       ^
+    [javac]   symbol:   class JsonNodeFactory
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:647: error: cannot find symbol
+    [javac]     public final boolean isEnabled(DeserializationFeature f) {
+    [javac]                                    ^
+    [javac]   symbol:   class DeserializationFeature
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:713: error: cannot find symbol
+    [javac]     public final JsonNodeFactory getNodeFactory() {
+    [javac]                  ^
+    [javac]   symbol:   class JsonNodeFactory
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:764: error: cannot find symbol
+    [javac]     public TypeDeserializer findTypeDeserializer(JavaType baseType)
+    [javac]            ^
+    [javac]   symbol:   class TypeDeserializer
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java:765: error: cannot find symbol
+    [javac]         throws JsonMappingException
+    [javac]                ^
+    [javac]   symbol:   class JsonMappingException
+    [javac]   location: class DeserializationConfig
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:19: error: cannot find symbol
+    [javac]     protected transient LRUMap<ClassKey,PropertyName> _rootNames;
+    [javac]                                ^
+    [javac]   symbol:   class ClassKey
+    [javac]   location: class RootNameLookup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:19: error: cannot find symbol
+    [javac]     protected transient LRUMap<ClassKey,PropertyName> _rootNames;
+    [javac]                                         ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class RootNameLookup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:25: error: cannot find symbol
+    [javac]     public PropertyName findRootName(JavaType rootType, MapperConfig<?> config) {
+    [javac]                                                         ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class RootNameLookup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:25: error: cannot find symbol
+    [javac]     public PropertyName findRootName(JavaType rootType, MapperConfig<?> config) {
+    [javac]            ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class RootNameLookup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:29: error: cannot find symbol
+    [javac]     public PropertyName findRootName(Class<?> rootType, MapperConfig<?> config)
+    [javac]                                                         ^
+    [javac]   symbol:   class MapperConfig
+    [javac]   location: class RootNameLookup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/RootNameLookup.java:29: error: cannot find symbol
+    [javac]     public PropertyName findRootName(Class<?> rootType, MapperConfig<?> config)
+    [javac]            ^
+    [javac]   symbol:   class PropertyName
+    [javac]   location: class RootNameLookup
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/SimpleMixInResolver.java:33: error: cannot find symbol
+    [javac]     protected Map<ClassKey,Class<?>> _localMixIns;
+    [javac]                   ^
+    [javac]   symbol:   class ClassKey
+    [javac]   location: class SimpleMixInResolver
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/SimpleMixInResolver.java:40: error: cannot find symbol
+    [javac]             Map<ClassKey,Class<?>> mixins) {
+    [javac]                 ^
+    [javac]   symbol:   class ClassKey
+    [javac]   location: class SimpleMixInResolver
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:15: error: package com.fasterxml.jackson.databind.cfg does not exist
+    [javac] import com.fasterxml.jackson.databind.cfg.ContextAttributes;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:20: error: package com.fasterxml.jackson.databind.exc does not exist
+    [javac] import com.fasterxml.jackson.databind.exc.MismatchedInputException;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:21: error: package com.fasterxml.jackson.databind.exc does not exist
+    [javac] import com.fasterxml.jackson.databind.exc.InvalidDefinitionException;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:22: error: package com.fasterxml.jackson.databind.exc does not exist
+    [javac] import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:23: error: package com.fasterxml.jackson.databind.exc does not exist
+    [javac] import com.fasterxml.jackson.databind.exc.InvalidTypeIdException;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:24: error: package com.fasterxml.jackson.databind.exc does not exist
+    [javac] import com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:27: error: package com.fasterxml.jackson.databind.jsontype does not exist
+    [javac] import com.fasterxml.jackson.databind.jsontype.TypeDeserializer;
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:28: error: package com.fasterxml.jackson.databind.jsontype does not exist
+    [javac] import com.fasterxml.jackson.databind.jsontype.TypeIdResolver;
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:29: error: package com.fasterxml.jackson.databind.node does not exist
+    [javac] import com.fasterxml.jackson.databind.node.JsonNodeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:30: error: package com.fasterxml.jackson.databind.type does not exist
+    [javac] import com.fasterxml.jackson.databind.type.TypeFactory;
+    [javac]                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/DeserializationContext.java:51: error: cannot find symbol
+    [javac]     extends DatabindContext
+    [javac]             ^
+    [javac]   symbol: class DatabindContext
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/JsonDeserializer.java:10: error: package com.fasterxml.jackson.databind.jsontype does not exist
+    [javac] import com.fasterxml.jackson.databind.jsontype.TypeDeserializer;
+    [javac]                                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/deser/NullValueProvider.java:4: error: cannot find symbol
+    [javac] import com.fasterxml.jackson.databind.JsonMappingException;
+    [javac]                                      ^
+    [javac]   symbol:   class JsonMappingException
+    [javac]   location: package com.fasterxml.jackson.databind
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/deser/DeserializationProblemHandler.java:340: error: cannot find symbol
+    [javac]             JavaType baseType, String subTypeId, TypeIdResolver idResolver,
+    [javac]                                                  ^
+    [javac]   symbol:   class TypeIdResolver
+    [javac]   location: class DeserializationProblemHandler
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedConstructor.java:198: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ctor.isAccessible()) {
+    [javac]                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java:269: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!m.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedField.java:168: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!f.isAccessible()) {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/util/ClassUtil.java:919: warning: [deprecation] isAccessible() in AccessibleObject has been deprecated
+    [javac]             if (!ao.isAccessible()) {
+    [javac]                    ^
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 100 errors
+    [javac] 4 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-111_22-buggy/maven-build.xml:90: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | JacksonDatabind-111_22-buggy
+

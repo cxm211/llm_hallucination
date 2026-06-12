@@ -1,0 +1,171 @@
+==== 2026-01-10 17:35:01 :: Mockito-6_8-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy && ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+   [delete] Deleting: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/buildSrc/src/test/groovy/org/mockito/release/notes/improvements/GitHubTicketFetcherTest.groovy
+     [exec] Downloading file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/lib/build_systems/gradle/dists/gradle-4.9-bin.zip
+     [exec] ........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+     [exec] Unzipping /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9-bin.zip to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537
+     [exec] Set executable permissions for: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9/bin/gradle
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9/lib/gradle-base-services-4.9.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] 
+     [exec] Welcome to Gradle 4.9!
+     [exec] 
+     [exec] Here are the highlights of this release:
+     [exec]  - Experimental APIs for creating and configuring tasks lazily
+     [exec]  - Pass arguments to JavaExec via CLI
+     [exec]  - Auxiliary publication dependency support for multi-project builds
+     [exec]  - Improved dependency insight report
+     [exec] 
+     [exec] For more details see https://docs.gradle.org/4.9/release-notes.html
+     [exec] 
+     [exec] Parallel execution is an incubating feature.
+     [exec] Generating JAR file 'gradle-api-4.9.jar'
+     [exec] > Task :buildSrc:compileJava NO-SOURCE
+     [exec] 
+     [exec] > Task :buildSrc:compileGroovy
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by worker.org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/.gradle_local_home/caches/4.9/workerMain/gradle-worker.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of worker.org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] Note: Some input files use unchecked or unsafe operations.
+     [exec] Note: Recompile with -Xlint:unchecked for details.
+     [exec] 
+     [exec] > Task :buildSrc:processResources
+     [exec] > Task :buildSrc:classes
+     [exec] > Task :buildSrc:jar
+     [exec] > Task :buildSrc:assemble
+     [exec] > Task :buildSrc:compileTestJava NO-SOURCE
+     [exec] > Task :buildSrc:compileTestGroovy
+     [exec] > Task :buildSrc:processTestResources NO-SOURCE
+     [exec] > Task :buildSrc:testClasses
+     [exec] 
+     [exec] > Task :buildSrc:test
+     [exec] 
+     [exec] > Task :buildSrc:check
+     [exec] > Task :buildSrc:build
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by worker.org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/.gradle_local_home/caches/4.9/workerMain/gradle-worker.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of worker.org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] Download https://jcenter.bintray.com/com/android/tools/build/gradle/maven-metadata.xml
+     [exec] Download https://jcenter.bintray.com/com/android/tools/build/gradle/0.11.2/gradle-0.11.2.pom
+     [exec] Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.1/http-builder-0.7.1.pom
+     [exec] POM relocation to an other version number is not fully supported in Gradle : xml-apis:xml-apis:2.0.2 relocated to xml-apis:xml-apis:1.0.b2.
+     [exec] 
+     [exec] > Configure project :
+     [exec] Please update your dependency to directly use the correct version 'xml-apis:xml-apis:1.0.b2'.
+     [exec] Resolution will only pick dependencies of the relocated element.  Artifacts and other metadata will be ignored.
+     [exec] Version: 2.0.0-beta
+     [exec] 
+     [exec] > Task :testng:processResources NO-SOURCE
+     [exec] > Task :extTest:compileJava NO-SOURCE
+     [exec] > Task :extTest:processResources NO-SOURCE
+     [exec] > Task :extTest:classes UP-TO-DATE
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:122: error: <anonymous org.mockito.Matchers$1> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Boolean>() {
+     [exec]                                                                 ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:141: error: <anonymous org.mockito.Matchers$2> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Byte>() {
+     [exec]                                                              ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:160: error: <anonymous org.mockito.Matchers$3> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Character>() {
+     [exec]                                                                   ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:179: error: <anonymous org.mockito.Matchers$4> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Integer>() {
+     [exec]                                                                 ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:198: error: <anonymous org.mockito.Matchers$5> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Long>() {
+     [exec]                                                              ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:217: error: <anonymous org.mockito.Matchers$6> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Float>() {
+     [exec]                                                               ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:236: error: <anonymous org.mockito.Matchers$7> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Double>() {
+     [exec]                                                                ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:255: error: <anonymous org.mockito.Matchers$8> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Short>() {
+     [exec]                                                               ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:328: error: <anonymous org.mockito.Matchers$10> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return (T) reportMatcher(new ArgumentMatcher<T>() {
+     [exec]                                                               ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:329: error: name clash: matches(T) in <anonymous org.mockito.Matchers$10> and matches(Object) in ArgumentMatcher have the same erasure, yet neither overrides the other
+     [exec]                 public boolean matches(T argument) {
+     [exec]                                ^
+     [exec]   where T is a type-variable:
+     [exec]     T extends Object declared in method <T>any(Class<T>)
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:364: error: <anonymous org.mockito.Matchers$11> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<String>() {
+     [exec]                                                                ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:383: error: <anonymous org.mockito.Matchers$12> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<List>() {
+     [exec]                                                              ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:406: error: <anonymous org.mockito.Matchers$13> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return (List) reportMatcher(new ArgumentMatcher<List>() {
+     [exec]                                                                     ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:425: error: <anonymous org.mockito.Matchers$14> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Set>() {
+     [exec]                                                             ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:448: error: <anonymous org.mockito.Matchers$15> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return (Set) reportMatcher(new ArgumentMatcher<Set>() {
+     [exec]                                                                   ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:467: error: <anonymous org.mockito.Matchers$16> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Map>() {
+     [exec]                                                             ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:491: error: <anonymous org.mockito.Matchers$17> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Map>() {
+     [exec]                                                             ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:510: error: <anonymous org.mockito.Matchers$18> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return reportMatcher(new ArgumentMatcher<Collection>() {
+     [exec]                                                                    ^
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-6_8-buggy/src/org/mockito/Matchers.java:533: error: <anonymous org.mockito.Matchers$19> is not abstract and does not override abstract method matches(Object) in ArgumentMatcher
+     [exec]             return (Collection) reportMatcher(new ArgumentMatcher<Collection>() {
+     [exec]                                                                                 ^
+     [exec] Note: Some input files use or override a deprecated API.
+     [exec] Note: Recompile with -Xlint:deprecation for details.
+     [exec] Note: Some input files use unchecked or unsafe operations.
+     [exec] Note: Recompile with -Xlint:unchecked for details.
+     [exec] 19 errors
+     [exec] 
+     [exec] FAILURE: Build failed with an exception.
+     [exec] 
+     [exec] * What went wrong:
+     [exec] Execution failed for task ':compileJava'.
+     [exec] > Compilation failed; see the compiler error output for details.
+     [exec] 
+     [exec] * Try:
+     [exec] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+     [exec] 
+     [exec] * Get more help at https://help.gradle.org
+     [exec] 
+     [exec] BUILD FAILED in 19s
+     [exec] 
+     [exec] > Task :compileJava FAILED
+     [exec] 
+     [exec] Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+     [exec] Use '--warning-mode all' to show the individual deprecation warnings.
+     [exec] See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
+     [exec] 1 actionable task: 1 executed
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:143: The following error occurred while executing this line:
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:79: exec returned: 1
+
+Total time: 20 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Mockito-6_8-buggy
+

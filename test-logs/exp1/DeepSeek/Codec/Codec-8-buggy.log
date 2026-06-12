@@ -1,0 +1,15 @@
+==== 2026-05-14 16:21:33 :: Codec-8-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByChunk
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testInputStreamReader
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec101
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testCodec105
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByteByByte
+---- 退出码：0 | Codec-8-buggy
+

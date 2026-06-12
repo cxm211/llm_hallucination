@@ -1,0 +1,17 @@
+bug,status,exit_code,failing_tests,log_file
+Csv-1-buggy,Pass,0,0,Csv-1-buggy.log
+Csv-2-buggy,Not Pass,0,1,Csv-2-buggy.log
+Csv-3-buggy,Not Pass,0,1,Csv-3-buggy.log
+Csv-4-buggy,Pass,0,0,Csv-4-buggy.log
+Csv-5-buggy,Pass,0,0,Csv-5-buggy.log
+Csv-6-buggy,Pass,0,0,Csv-6-buggy.log
+Csv-7-buggy,Not Pass,0,1,Csv-7-buggy.log
+Csv-8-buggy,Not Pass,0,1,Csv-8-buggy.log
+Csv-9-buggy,Not Pass,0,1,Csv-9-buggy.log
+Csv-10-buggy,not compilable,1,,Csv-10-buggy.log
+Csv-11-buggy,Pass,0,0,Csv-11-buggy.log
+Csv-12-buggy,Not Pass,0,1,Csv-12-buggy.log
+Csv-13-buggy,Not Pass,0,1,Csv-13-buggy.log
+Csv-14-buggy,Not Pass,0,1,Csv-14-buggy.log
+Csv-15-buggy,Pass,0,0,Csv-15-buggy.log
+Csv-16-buggy,Not Pass,0,1,Csv-16-buggy.log

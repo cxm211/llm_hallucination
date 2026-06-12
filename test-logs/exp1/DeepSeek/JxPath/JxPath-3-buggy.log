@@ -1,0 +1,39 @@
+==== 2026-05-17 17:04:36 :: JxPath-3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 30
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testCreatePathDeclareVariableSetProperty
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testCreatePathDeclareVariableSetCollectionElementProperty
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testCreatePathAndSetValueDeclVarSetCollectionElementProperty
+  - org.apache.commons.jxpath.ri.compiler.VariableTest::testCreatePathAndSetValueDeclareVariableSetProperty
+  - org.apache.commons.jxpath.ri.model.MixedModelTest::testCreatePath
+  - org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest::testBadFactoryImplementation
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathAndSetValueCreateBeanExpandCollection
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathAndSetValueExpandExistingCollection
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathCreateBeanExpandCollection
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathAndSetValue
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePath
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathAndSetValueExpandNewCollection
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathExpandNewCollection
+  - org.apache.commons.jxpath.ri.model.beans.BeanModelTest::testCreatePathExpandExistingCollectionAndSetProperty
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathAndSetValueCreateBeanExpandCollection
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathAndSetValueExpandExistingCollection
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathCreateBeanExpandCollection
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathAndSetValue
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePath
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathAndSetValueExpandNewCollection
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathExpandNewCollection
+  - org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest::testCreatePathExpandExistingCollectionAndSetProperty
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathNewCollectionElement
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathCollectionElement
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathAndSetValue
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePath
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathAndSetValueNewCollectionElement
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathCreateBean
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathAndSetValueCreateBean
+  - org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest::testCreatePathAndSetValueCollectionElement
+---- 退出码：0 | JxPath-3-buggy
+

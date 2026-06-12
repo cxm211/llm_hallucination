@@ -1,0 +1,51 @@
+==== 2026-05-23 08:54:04 :: Closure-140_6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 42
+  - com.google.javascript.jscomp.AliasKeywordsTest::testDontAlias
+  - com.google.javascript.jscomp.AliasKeywordsTest::testAliasThrowKeywordLiteral
+  - com.google.javascript.jscomp.AliasKeywordsTest::testAlias
+  - com.google.javascript.jscomp.AliasKeywordsTest::testAliasTrueFalseNull
+  - com.google.javascript.jscomp.CrossModuleCodeMotionTest::testEmptyModule
+  - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest::testExtractingPrototypeWithQName
+  - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest::testExtractingPrototypeWithNestedMembers
+  - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest::testExtractingTwoClassPrototype
+  - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest::testExtractingTwoClassPrototypeInDifferentBlocks
+  - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest::testExtractingSingleClassPrototype
+  - com.google.javascript.jscomp.ExtractPrototypeMemberDeclarationsTest::testUsedNameInScope
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceIdentityFunction1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceReturnConst1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceReturnConst3
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceGetter1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceSetter1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceSetter2
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceEmptyFunction1
+  - com.google.javascript.jscomp.FunctionRewriterTest::testReplaceEmptyFunction3
+  - com.google.javascript.jscomp.InstrumentFunctionsTest::testAppNameSetter
+  - com.google.javascript.jscomp.InstrumentFunctionsTest::testInit
+  - com.google.javascript.jscomp.InstrumentFunctionsTest::testInstrument
+  - com.google.javascript.jscomp.InstrumentFunctionsTest::testDeclare
+  - com.google.javascript.jscomp.InstrumentFunctionsTest::testNested
+  - com.google.javascript.jscomp.MoveFunctionDeclarationsTest::testFunctionDeclarations
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testUntypedParam
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testQualifiedClass
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testUnion
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterfaceOrdering
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterfaceOrderingGoogInherits
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testExtendedInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testFunctionType
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testNativeClass
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testSkipParamOK
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testImplementedInterface
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testReturnNothing
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testReturn
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testNullValue
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testValues
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testInnerConstructor
+---- 退出码：0 | Closure-140_6-buggy
+

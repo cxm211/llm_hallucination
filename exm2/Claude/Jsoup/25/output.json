@@ -1,0 +1,27 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "fixed_code": [
+    "@Test public void preservesSpaceInTextArea() {\n        // preserve because the tag is marked as preserve white space\n        Document doc = Jsoup.parse(\"<textarea>\\n\\tOne\\n\\tTwo\\n\\tThree\\n</textarea>\");\n        String expect = \"One\\n\\tTwo\\n\\tThree\"; // the leading and trailing spaces are dropped as a convenience to authors\n        Element el = doc.select(\"textarea\").first();\n        assertEquals(expect, el.text());\n        assertEquals(expect, el.val());\n        assertEquals(expect, el.html());\n        assertEquals(\"<textarea>\\n\\t\" + expect + \"\\n</textarea>\", el.outerHtml()); // but preserved in round-trip html\n    }"
+  ]
+}

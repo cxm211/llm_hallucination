@@ -1,0 +1,10 @@
+==== 2026-01-11 01:59:55 :: Mockito-23_6-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitousage.stubbing.DeepStubsSerializableTest::should_serialize_and_deserialize_mock_created_by_deep_stubs
+---- 退出码：0 | Mockito-23_6-buggy
+

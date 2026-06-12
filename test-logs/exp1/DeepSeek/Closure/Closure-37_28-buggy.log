@@ -1,0 +1,47 @@
+==== 2026-01-27 06:53:37 :: Closure-37_28-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 38
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCollapseForEachWithoutExterns
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testGlobalFunctionNameInBooleanExpressionDepth1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testFunctionPropertySetToObjLitConditionally
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCollapsePropertyOnExternType
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testPropertyOnGlobalCtor
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testFunctionPropertyResetInLocalScope
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToFunctionInLocalScopeDepth1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testResetFunctionPropertyInLocalScope
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue601b
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue601c
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag3
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag4
+  - com.google.javascript.jscomp.InlineVariablesTest::testRecursiveFunction2
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias1a
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias1b
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias2a
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias2b
+  - com.google.javascript.jscomp.InlineVariablesTest::testCrossFunctionsAsLeftLeaves
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineNamedFunction
+  - com.google.javascript.jscomp.IntegrationTest::testIncompleteFunction
+  - com.google.javascript.jscomp.IntegrationTest::testInlineVariables
+  - com.google.javascript.jscomp.IntegrationTest::testRemoveUnusedPrototypeProperties2
+  - com.google.javascript.jscomp.MakeDeclaredNamesUniqueTest::testMakeLocalNamesUniqueWithContext5
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testUsingAnonymousObjectsToDefeatRemoval
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testGetterBaseline
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testHook1
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testGlobalFunctionsInGraph
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testGetter1
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testGetter2
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testGlobalFunctionsInGraph4
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testGlobalFunctionsInGraph5
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testPropertyDefinedInBranch
+  - com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testPropertyReferenceGraph
+  - com.google.javascript.jscomp.ShadowVariablesTest::testOptimal
+  - com.google.javascript.jscomp.ShadowVariablesTest::testSharingAcrossInnerScopes
+  - com.google.javascript.jscomp.ShadowVariablesTest::testShadowBleedInFunctionName
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction2
+  - com.google.javascript.jscomp.VariableReferenceCheckTest::testNonHoistedFunction3
+---- 退出码：0 | Closure-37_28-buggy
+

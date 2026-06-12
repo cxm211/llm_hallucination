@@ -1,0 +1,129 @@
+==== 2026-05-01 10:56:50 :: Closure-25-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 109
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticAndInstanceMethodWithSameName
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOverlappingOriginalAndGeneratedNames
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testFunctionType
+  - com.google.javascript.jscomp.CheckAccessControlsTest::testConstantProperty2
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTypedAdvanced
+  - com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest::testRewritePrototypeMethods2
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionType
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testMultipleInterfaces
+  - com.google.javascript.jscomp.InferJSDocInfoTest::testNativeCtor
+  - com.google.javascript.jscomp.InferJSDocInfoTest::testInstanceObject
+  - com.google.javascript.jscomp.InferJSDocInfoTest::testNamespacedCtor
+  - com.google.javascript.jscomp.InlinePropertiesTest::testConstPrototypeProp2
+  - com.google.javascript.jscomp.InlinePropertiesTest::testConstInstanceProp2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAssignToUntypedProperty
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testExtendBuiltInType1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNestedFunctionInference1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrintFunctionName2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew12
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNew6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorAlias1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorAlias2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorAlias3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testConstructorAlias4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceAssignment2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDirectPrototypeAssignment1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDeclareBuiltInConstructor
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testResolutionViaRegistry4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference16
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference17
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testExtendFunction1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGoodExtends8
+  - com.google.javascript.jscomp.RemoveUnusedNamesTest::testAnalyzeUnusedPrototypeProperties
+  - com.google.javascript.jscomp.RemoveUnusedNamesTest::testAnalyzeUnusedPrototypeProperties3
+  - com.google.javascript.jscomp.SymbolTableTest::testSymbolsForType
+  - com.google.javascript.jscomp.TightenTypesTest::testImplicitPropCall
+  - com.google.javascript.jscomp.TightenTypesTest::testTopLevelVariables
+  - com.google.javascript.jscomp.TightenTypesTest::testSetTimeout
+  - com.google.javascript.jscomp.TightenTypesTest::testImplicitPropCallWithArgs
+  - com.google.javascript.jscomp.TypeCheckFunctionCheckTest::testMethodCalls
+  - com.google.javascript.jscomp.TypeCheckTest::testAssignToUntypedProperty
+  - com.google.javascript.jscomp.TypeCheckTest::testExtendBuiltInType1
+  - com.google.javascript.jscomp.TypeCheckTest::testNestedFunctionInference1
+  - com.google.javascript.jscomp.TypeCheckTest::testPrintFunctionName2
+  - com.google.javascript.jscomp.TypeCheckTest::testNew12
+  - com.google.javascript.jscomp.TypeCheckTest::testNew13
+  - com.google.javascript.jscomp.TypeCheckTest::testNew14
+  - com.google.javascript.jscomp.TypeCheckTest::testNew15
+  - com.google.javascript.jscomp.TypeCheckTest::testNew6
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn2
+  - com.google.javascript.jscomp.TypeCheckTest::testOverriddenParams6
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorAlias1
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorAlias2
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorAlias3
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorAlias4
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceAssignment2
+  - com.google.javascript.jscomp.TypeCheckTest::testDirectPrototypeAssignment1
+  - com.google.javascript.jscomp.TypeCheckTest::testLends10
+  - com.google.javascript.jscomp.TypeCheckTest::testLends11
+  - com.google.javascript.jscomp.TypeCheckTest::testParameterizedObject5
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration1
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration4
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration5
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration6
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration7
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck10
+  - com.google.javascript.jscomp.TypeCheckTest::testDeclareBuiltInConstructor
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends11
+  - com.google.javascript.jscomp.TypeCheckTest::testResolutionViaRegistry4
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis2b
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference16
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference17
+  - com.google.javascript.jscomp.TypeCheckTest::testExtendFunction1
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends7
+  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends8
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue368
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck9
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+  - com.google.javascript.jscomp.TypeInferenceTest::testNew1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAddMethodsPrototypeTwoWays
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testActiveXObject
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPrototypeInit
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testObjectLiteralCast
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTypedStubsInExterns
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredConstType4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDuplicateExternProperty1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDuplicateExternProperty2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStubLocal
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedFunctionStub
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testCollectedCtorProperty
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredPrototypeProperty1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredPrototypeProperty2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testStubsInExterns
+---- 主命令退出码：0 | Closure-25-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-25-buggy/jacoco.exec.
+[INFO] Analyzing 1150 classes.
+>>> [JACOCO] 结束

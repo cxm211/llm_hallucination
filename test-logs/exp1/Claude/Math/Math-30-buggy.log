@@ -1,0 +1,11 @@
+==== 2026-05-12 21:12:48 :: Math-30-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet
+  - org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testMannWhitneyUSimple
+---- 退出码：0 | Math-30-buggy
+

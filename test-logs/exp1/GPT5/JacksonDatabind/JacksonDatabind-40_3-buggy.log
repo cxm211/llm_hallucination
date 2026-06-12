@@ -1,0 +1,10 @@
+==== 2025-10-20 20:13:33 :: JacksonDatabind-40_3-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.TestSimpleTypes::testEmptyToNullCoercionForPrimitives
+---- 退出码：0 | JacksonDatabind-40_3-buggy
+

@@ -1,0 +1,17 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3
+    ],
+    "fixed": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fixed_code": [
+    "public final T getNullValue() {\n    if (_nullValue == null && _valueClass != null && _valueClass.isPrimitive()) {\n        if (_valueClass == int.class) return (T) Integer.valueOf(0);\n        if (_valueClass == long.class) return (T) Long.valueOf(0L);\n        if (_valueClass == double.class) return (T) Double.valueOf(0.0);\n        if (_valueClass == float.class) return (T) Float.valueOf(0.0f);\n        if (_valueClass == boolean.class) return (T) Boolean.FALSE;\n        if (_valueClass == byte.class) return (T) Byte.valueOf((byte) 0);\n        if (_valueClass == short.class) return (T) Short.valueOf((short) 0);\n        if (_valueClass == char.class) return (T) Character.valueOf('\\u0000');\n    }\n    return _nullValue;\n}"
+  ]
+}

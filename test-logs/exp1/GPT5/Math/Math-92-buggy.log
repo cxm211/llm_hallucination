@@ -1,0 +1,19 @@
+==== 2026-05-20 05:06:21 :: Math-92-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.math.distribution.BinomialDistributionTest::testDensities
+  - org.apache.commons.math.distribution.HypergeometricDistributionTest::testLargeValues
+  - org.apache.commons.math.distribution.HypergeometricDistributionTest::testMoreLargeValues
+  - org.apache.commons.math.distribution.HypergeometricDistributionTest::testDensities
+  - org.apache.commons.math.distribution.HypergeometricDistributionTest::testInverseCumulativeProbabilities
+  - org.apache.commons.math.distribution.HypergeometricDistributionTest::testCumulativeProbabilities
+  - org.apache.commons.math.distribution.HypergeometricDistributionTest::testFloatingPointArguments
+  - org.apache.commons.math.distribution.PascalDistributionTest::testDensities
+  - org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficient
+  - org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientLarge
+---- 退出码：0 | Math-92-buggy
+

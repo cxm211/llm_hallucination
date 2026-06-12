@@ -1,0 +1,16 @@
+==== 2026-01-27 04:27:08 :: Closure-26_34-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+  - com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+---- 退出码：0 | Closure-26_34-buggy
+

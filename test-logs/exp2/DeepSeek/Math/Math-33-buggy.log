@@ -1,0 +1,22 @@
+==== 2026-05-01 07:36:45 :: Math-33-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781
+  - org.apache.commons.math3.optimization.linear.SimplexTableauTest::testDropPhase1Objective
+---- 主命令退出码：0 | Math-33-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-33-buggy/jacoco.exec.
+[INFO] Analyzing 644 classes.
+>>> [JACOCO] 结束

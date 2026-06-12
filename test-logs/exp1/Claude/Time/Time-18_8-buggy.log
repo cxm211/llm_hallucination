@@ -1,0 +1,10 @@
+==== 2026-05-12 23:31:39 :: Time-18_8-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction
+---- 退出码：0 | Time-18_8-buggy
+

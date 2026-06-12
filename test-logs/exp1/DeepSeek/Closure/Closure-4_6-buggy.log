@@ -1,0 +1,52 @@
+==== 2026-05-27 20:43:08 :: Closure-4_6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 43
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testNamedType
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testPrototypeLoop
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeDef1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeDef2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeDef3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionInference14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testCircularTypeDef
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum26
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum35
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testEnum36
+  - com.google.javascript.jscomp.RuntimeTypeCheckTest::testQualifiedClass
+  - com.google.javascript.jscomp.TypeCheckTest::testPrototypeLoop
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse2
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse4
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse6
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse7
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorType8
+  - com.google.javascript.jscomp.TypeCheckTest::testConstructorType9
+  - com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeDef1
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeDef2
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeDef3
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeDef4
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeDef5
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse10
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference13
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionInference14
+  - com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck14
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference10
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference7
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference9
+  - com.google.javascript.jscomp.TypeCheckTest::testCircularTypeDef
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum26
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum35
+  - com.google.javascript.jscomp.TypeCheckTest::testEnum36
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue725
+  - com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNamedTypeEquals2
+---- 退出码：0 | Closure-4_6-buggy
+

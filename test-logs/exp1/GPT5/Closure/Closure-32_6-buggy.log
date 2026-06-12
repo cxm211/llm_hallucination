@@ -1,0 +1,29 @@
+==== 2026-05-19 01:24:37 :: Closure-32_6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+  - com.google.javascript.jscomp.JsMessageExtractorTest::testExtractNewStyleMessage2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc10
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc12
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc7
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc8
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseDesc9
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseMeaning3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testRegression15
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testMultilineDocumentationParameter
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testDocumentationMultipleParameter2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers6
+---- 退出码：0 | Closure-32_6-buggy
+

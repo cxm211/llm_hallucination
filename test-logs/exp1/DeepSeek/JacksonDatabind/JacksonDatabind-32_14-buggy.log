@@ -1,0 +1,47 @@
+==== 2026-01-18 20:45:30 :: JacksonDatabind-32_14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 38
+  - com.fasterxml.jackson.databind.creators.BuilderSimpleTest::testWithAnySetter822
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testIgnored
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testSimpleMapImitation
+  - com.fasterxml.jackson.databind.deser.TestAnyProperties::testIgnoredPart2
+  - com.fasterxml.jackson.databind.deser.TestArrayDeserialization::testUntypedArrayOfArrays
+  - com.fasterxml.jackson.databind.deser.TestCollectionDeserialization::testUntypedList
+  - com.fasterxml.jackson.databind.deser.TestExceptionHandling::testExceptionWithIncomplete
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testUntypedWithJsonArrays
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testSpecialMap
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testGenericMap
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testUntypedMap3
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testUntypedMap
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testBigUntypedMap
+  - com.fasterxml.jackson.databind.deser.TestUntypedDeserialization::testNestedUntyped989
+  - com.fasterxml.jackson.databind.deser.TestUntypedDeserialization::testNestedUntypes
+  - com.fasterxml.jackson.databind.deser.TestUntypedDeserialization::testSampleDoc
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testBeanAsObject
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDeserializationWithArrayOfSize2
+  - com.fasterxml.jackson.databind.jsontype.TestPolymorphicWithDefaultImpl::testDeserializationWithArray
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypesExistingProperty::testSimpleClassAsExistingPropertyDeserializationCars
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypesExistingProperty::testSimpleClassAsExistingPropertyDeserializationAnimals
+  - com.fasterxml.jackson.databind.jsontype.TestTypedSerialization::testTypeAsWrapper
+  - com.fasterxml.jackson.databind.jsontype.TestTypedSerialization::testTypeAsArray
+  - com.fasterxml.jackson.databind.jsontype.TestTypedSerialization::testInArray
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.FieldSerializationTest::testSimpleAnnotation
+  - com.fasterxml.jackson.databind.ser.TestCollectionSerialization::testEmptyBeanCollection
+  - com.fasterxml.jackson.databind.ser.TestCollectionSerialization::testEmptyBeanEnumMap
+  - com.fasterxml.jackson.databind.ser.TestCyclicTypes::testLinked
+  - com.fasterxml.jackson.databind.ser.TestExceptionSerialization::testSimple
+  - com.fasterxml.jackson.databind.ser.TestGenericTypes::testIssue468a
+  - com.fasterxml.jackson.databind.ser.TestGenericTypes::testIssue468b
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testMixedTypingForClass
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testSimpleValueDefinition
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testStaticTypingForClass
+  - com.fasterxml.jackson.databind.ser.TestTreeSerialization::testPOJOIntArray
+  - com.fasterxml.jackson.databind.ser.TestTreeSerialization::testSimpleViaObjectMapper
+  - com.fasterxml.jackson.databind.ser.TestTreeSerialization::testPOJOBean
+---- 退出码：0 | JacksonDatabind-32_14-buggy
+

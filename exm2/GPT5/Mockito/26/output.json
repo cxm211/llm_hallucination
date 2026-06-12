@@ -1,0 +1,3 @@
+{
+  "error": "Missing source for buggy functions referenced by the tests (e.g., h.returnFor, values.returnValueFor, ReturnsMocks.answer, ReturnsSmartNulls.answer). Please provide the implementations to analyze coverage and apply a fix."
+}

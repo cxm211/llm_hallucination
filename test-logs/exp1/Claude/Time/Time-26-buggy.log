@@ -1,0 +1,23 @@
+==== 2026-05-12 23:45:10 :: Time-26-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_minuteOfHour_NewYork_Autumn_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::testWithSecondOfMinuteInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_secondOfMinute_NewYork_Autumn_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_usCentral
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_hourOfDay_NewYork_Autumn_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_Paris_summer
+  - org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_NewYork_winter
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_ausNSW
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_hourOfDay_NewYork_Autumn_preCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_minuteOfHour_NewYork_Autumn_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_secondOfMinute_NewYork_Autumn_postCutover
+---- 退出码：0 | Time-26-buggy
+

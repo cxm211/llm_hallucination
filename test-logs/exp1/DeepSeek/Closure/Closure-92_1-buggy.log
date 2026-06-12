@@ -1,0 +1,15 @@
+==== 2026-05-14 06:38:10 :: Closure-92_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignment1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignmentInIf3
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalOfProvidedObjLit
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder3b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testLateRequire
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4
+---- 退出码：0 | Closure-92_1-buggy
+

@@ -1,0 +1,25 @@
+==== 2026-05-28 16:25:48 :: Closure-174_14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 16
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOneLevel
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoSymbolsInTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordAliasFromMultipleGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordMultipleAliases
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasOfSymbolInGoogScope
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionReturnThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleTransitive
+  - com.google.javascript.jscomp.ScopedAliasesTest::testRecordOneAlias
+  - com.google.javascript.jscomp.ScopedAliasesTest::testTwoScopes
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testScopedFunctionAssignsToVar
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOverridden
+  - com.google.javascript.jscomp.ScopedAliasesTest::testShadowedVar
+---- 退出码：0 | Closure-174_14-buggy
+

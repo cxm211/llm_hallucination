@@ -1,0 +1,21 @@
+==== 2026-05-23 21:42:49 :: Math-51-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.apache.commons.math.analysis.solvers.IllinoisSolverTest::testSolutionBelowSide
+  - org.apache.commons.math.analysis.solvers.IllinoisSolverTest::testSolutionLeftSide
+  - org.apache.commons.math.analysis.solvers.IllinoisSolverTest::testQuinticZero
+  - org.apache.commons.math.analysis.solvers.PegasusSolverTest::testSolutionBelowSide
+  - org.apache.commons.math.analysis.solvers.PegasusSolverTest::testSolutionLeftSide
+  - org.apache.commons.math.analysis.solvers.PegasusSolverTest::testQuinticZero
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSolutionBelowSide
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSolutionLeftSide
+  - org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testQuinticZero
+  - org.apache.commons.math.ode.events.OverlappingEventsTest::testOverlappingEvents0
+  - org.apache.commons.math.ode.events.OverlappingEventsTest::testOverlappingEvents1
+---- 退出码：0 | Math-51-buggy
+

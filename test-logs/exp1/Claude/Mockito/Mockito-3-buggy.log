@@ -1,0 +1,16 @@
+==== 2026-05-24 03:40:37 :: Mockito-3-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.mockito.internal.invocation.InvocationMatcherTest::should_capture_varargs_as_vararg
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_all_vararg
+  - org.mockitousage.matchers.CapturingArgumentsTest::captures_correctly_when_captor_used_multiple_times
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_vararg
+  - org.mockitousage.matchers.CapturingArgumentsTest::captures_correctly_when_captor_used_on_pure_vararg_method
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_byte_vararg_by_creating_captor_with_primitive_wrapper
+  - org.mockitousage.matchers.CapturingArgumentsTest::should_capture_byte_vararg_by_creating_captor_with_primitive
+---- 退出码：0 | Mockito-3-buggy
+

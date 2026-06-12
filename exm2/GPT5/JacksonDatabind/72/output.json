@@ -1,0 +1,33 @@
+{
+  "function_1": {
+    "buggy": [
+      1
+    ],
+    "fixed": [
+      1
+    ]
+  },
+  "function_2": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "fixed_code": [
+    "public int getPropertyIndex() { return (_delegate == null) ? -1 : _delegate.getPropertyIndex(); }",
+    "public void testIssue1501() throws Exception\n    {\n        ObjectMapper mapper = new ObjectMapper();\n        mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);\n        String ser = mapper.writeValueAsString(new Something());\n        mapper.readValue(ser, Something.class);\n    }"
+  ]
+}

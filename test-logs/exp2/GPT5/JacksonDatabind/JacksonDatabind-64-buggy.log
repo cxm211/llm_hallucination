@@ -1,0 +1,22 @@
+==== 2026-06-05 16:58:35 :: JacksonDatabind-64-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- 主命令退出码：0 | JacksonDatabind-64-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.filter.JsonIncludeTest::testIssue1351
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-64-buggy/jacoco.exec.
+[INFO] Analyzing 510 classes.
+>>> [JACOCO] 结束

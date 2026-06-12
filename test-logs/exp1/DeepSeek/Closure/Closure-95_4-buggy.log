@@ -1,0 +1,19 @@
+==== 2026-05-28 07:15:16 :: Closure-95_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAddMethodsPrototypeTwoWays
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAddingMethodsPrototypeIdiomAndObjectLiteralSimpleNamespace
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBug1940769
+  - com.google.javascript.jscomp.TypeCheckTest::testAddMethodsPrototypeTwoWays
+  - com.google.javascript.jscomp.TypeCheckTest::testAddingMethodsPrototypeIdiomAndObjectLiteralSimpleNamespace
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5
+  - com.google.javascript.jscomp.TypeCheckTest::testBug1940769
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAddMethodsPrototypeTwoWays
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPrototypeInit
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope
+---- 退出码：0 | Closure-95_4-buggy
+

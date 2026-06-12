@@ -1,0 +1,35 @@
+==== 2026-05-28 07:15:54 :: Closure-95_7-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 26
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticPropertyDecl3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticPropertyDecl4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticPropertyDecl5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateOldTypeDef
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateTypeDef
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testScoping4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExternStubs4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExternStubs5
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticPropertyDecl3
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticPropertyDecl4
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticPropertyDecl5
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateOldTypeDef
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateTypeDef
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping3
+  - com.google.javascript.jscomp.TypeCheckTest::testScoping4
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+  - com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl1
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope
+---- 退出码：0 | Closure-95_7-buggy
+

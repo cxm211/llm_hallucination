@@ -1,0 +1,11 @@
+==== 2026-05-23 09:25:03 :: Closure-145_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.javascript.jscomp.CodePrinterTest::testFunctionSafariCompatiblity
+  - com.google.javascript.jscomp.CodePrinterTest::testDoLoopIECompatiblity
+---- 退出码：0 | Closure-145_1-buggy
+

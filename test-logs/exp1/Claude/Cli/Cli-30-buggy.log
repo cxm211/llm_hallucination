@@ -1,0 +1,19 @@
+==== 2026-05-09 23:47:57 :: Cli-30-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.BasicParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.DefaultParserTest::testPropertyOptionRequired
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.GnuParserTest::testPropertyOptionUnexpected
+  - org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromGroupWithProperties
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionGroup
+  - org.apache.commons.cli.PosixParserTest::testPropertyOptionUnexpected
+---- 退出码：0 | Cli-30-buggy
+

@@ -1,0 +1,59 @@
+==== 2026-05-27 22:05:00 :: Closure-17_13-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 50
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoVar2
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testObjectLiteral
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa13
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testVar4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testIssue124b
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testCast15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testIssue124
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBug1942972
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis6
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa13
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa1
+  - com.google.javascript.jscomp.TypeCheckTest::testDfa2
+  - com.google.javascript.jscomp.TypeCheckTest::testVar4
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn5
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn6
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration3
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration6
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration7
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction2
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction3
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction4
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction5
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction9
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType3
+  - com.google.javascript.jscomp.TypeCheckTest::testRecordType8
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124b
+  - com.google.javascript.jscomp.TypeCheckTest::testCast15
+  - com.google.javascript.jscomp.TypeCheckTest::testCast16
+  - com.google.javascript.jscomp.TypeCheckTest::testControlFlowRestrictsType10
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue688
+  - com.google.javascript.jscomp.TypeCheckTest::testBug1942972
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPrototypeInit
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredObjectLitProperty4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredObjectLitProperty1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredObjectLitProperty2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredVar
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredPrototypeProperty2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testForLoopIntegration
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredProperty2
+---- 退出码：0 | Closure-17_13-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-01-12 00:30:03 :: JxPath-12_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest::testElementDOM
+  - org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisChild
+---- 退出码：0 | JxPath-12_1-buggy
+

@@ -1,0 +1,73 @@
+==== 2026-03-31 14:42:15 :: Closure-176-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 51
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testCast
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionType
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionTypeInvalidation
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testUnionTypeTwoFields
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAdd14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAdd16
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAdd17
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testComparison9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFlowScopeBug2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceAssignment6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSwitchCase4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSwitchCase5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSwitchCase6
+  - com.google.javascript.jscomp.TightenTypesTest::testOr
+  - com.google.javascript.jscomp.TightenTypesTest::testGetProp
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.TypeCheckTest::testAdd14
+  - com.google.javascript.jscomp.TypeCheckTest::testAdd16
+  - com.google.javascript.jscomp.TypeCheckTest::testAdd17
+  - com.google.javascript.jscomp.TypeCheckTest::testComparison9
+  - com.google.javascript.jscomp.TypeCheckTest::testFlowScopeBug2
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceAssignment6
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration8
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized1
+  - com.google.javascript.jscomp.TypeCheckTest::testTemplatized4
+  - com.google.javascript.jscomp.TypeCheckTest::testForIn2
+  - com.google.javascript.jscomp.TypeCheckTest::testForIn3
+  - com.google.javascript.jscomp.TypeCheckTest::testForIn4
+  - com.google.javascript.jscomp.TypeCheckTest::testBadImplements3
+  - com.google.javascript.jscomp.TypeCheckTest::testClosure7
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateInheritance5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testAbstractMethod3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClassTemplateType6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType2b
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7b
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7c
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testDeclaredVar
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType7
+---- 主命令退出码：0 | Closure-176-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.TypeCheckTest::testIssue1056
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-176-buggy/jacoco.exec.
+[INFO] Analyzing 1354 classes.
+>>> [JACOCO] 结束

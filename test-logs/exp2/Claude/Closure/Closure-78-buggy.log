@@ -1,0 +1,24 @@
+==== 2026-05-01 11:37:56 :: Closure-78-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmeticInfinity
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldLeftChildOp
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic3
+---- 主命令退出码：0 | Closure-78-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-78-buggy/jacoco.exec.
+[INFO] Analyzing 1006 classes.
+>>> [JACOCO] 结束

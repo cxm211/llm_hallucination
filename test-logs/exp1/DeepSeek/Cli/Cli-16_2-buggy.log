@@ -1,0 +1,16 @@
+==== 2026-01-09 18:40:54 :: Cli-16_2-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.cli2.bug.BugCLI123Test::testMultipleChildOptions
+  - org.apache.commons.cli2.bug.BugCLI123Test::testParentOptionAndChildOption
+  - org.apache.commons.cli2.bug.BugCLI123Test::testSingleChildOption
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_Order
+---- 退出码：0 | Cli-16_2-buggy
+

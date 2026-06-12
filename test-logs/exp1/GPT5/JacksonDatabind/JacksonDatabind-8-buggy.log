@@ -1,0 +1,12 @@
+==== 2026-05-24 16:44:47 :: JacksonDatabind-8-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.fasterxml.jackson.databind.creators.SingleArgCreatorTest::testExplicitFactory660b
+  - com.fasterxml.jackson.databind.creators.TestCreators::testConstructorCreator
+  - com.fasterxml.jackson.databind.deser.TestJdkTypes::testStringBuilder
+---- 退出码：0 | JacksonDatabind-8-buggy
+

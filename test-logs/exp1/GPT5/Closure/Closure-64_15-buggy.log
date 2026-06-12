@@ -1,0 +1,10 @@
+==== 2026-05-19 05:25:42 :: Closure-64_15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrictMultipleInputs
+---- 退出码：0 | Closure-64_15-buggy
+

@@ -1,0 +1,10 @@
+==== 2025-10-21 23:44:56 :: JacksonDatabind-88_1-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.jsontype.GenericTypeId1735Test::testNestedTypeCheck1735
+---- 退出码：0 | JacksonDatabind-88_1-buggy
+

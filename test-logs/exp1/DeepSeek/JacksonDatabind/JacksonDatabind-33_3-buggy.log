@@ -1,0 +1,18 @@
+==== 2026-05-28 18:43:58 :: JacksonDatabind-33_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.fasterxml.jackson.databind.contextual.TestContextualSerialization::testContextualViaAnnotation
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.FieldSerializationTest::testSimpleAnnotation
+  - com.fasterxml.jackson.databind.ser.RawValueTest::testWithValueToTree
+  - com.fasterxml.jackson.databind.ser.TestAnnotations::testSimpleGetter3
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testIssue294
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize3::testCustomContentSerializer
+  - com.fasterxml.jackson.databind.struct.TestUnwrapped::testUnwrappedAsPropertyIndicator
+  - com.fasterxml.jackson.databind.views.TestViewSerialization::testImplicitAutoDetection
+---- 退出码：0 | JacksonDatabind-33_3-buggy
+

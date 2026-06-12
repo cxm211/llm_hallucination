@@ -1,0 +1,12 @@
+==== 2026-05-29 01:56:42 :: Math-16_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargePositive
+  - org.apache.commons.math3.util.FastMathTest::testMath905LargeNegative
+  - org.apache.commons.math3.util.FastMathTest::testSinhAccuracy
+---- 退出码：0 | Math-16_1-buggy
+

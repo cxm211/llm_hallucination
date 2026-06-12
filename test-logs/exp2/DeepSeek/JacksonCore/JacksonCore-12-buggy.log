@@ -1,0 +1,26 @@
+==== 2026-05-01 04:14:32 :: JacksonCore-12-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.fasterxml.jackson.core.json.LocationInArrayTest::testOffsetInArraysBytes
+  - com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithObjectFieldsUsingUTF8
+  - com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithObjectFieldsUsingReader
+  - com.fasterxml.jackson.core.json.TestJsonParser::testUtf8BOMHandling
+  - com.fasterxml.jackson.core.json.TestLocation::testOffsetWithInputOffset
+  - com.fasterxml.jackson.core.json.TestLocation::testSimpleInitialOffsets
+---- 主命令退出码：0 | JacksonCore-12-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithObjectFieldsUsingReader
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.LocationInObjectTest::testOffsetWithObjectFieldsUsingReader
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-12-buggy/jacoco.exec.
+[INFO] Analyzing 79 classes.
+>>> [JACOCO] 结束

@@ -1,0 +1,54 @@
+==== 2026-05-01 17:33:49 :: Compress-41-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 30
+  - org.apache.commons.compress.ArchiveReadTest::testArchive
+  - org.apache.commons.compress.ArchiveReadTest::testArchive
+  - org.apache.commons.compress.archivers.JarTestCase::testJarUnarchiveAll
+  - org.apache.commons.compress.archivers.ZipTestCase::testSkipsPK00Prefix
+  - org.apache.commons.compress.archivers.ZipTestCase::testZipArchiveCreationInMemory
+  - org.apache.commons.compress.archivers.ZipTestCase::testSkipEntryWithUnsupportedCompressionMethod
+  - org.apache.commons.compress.archivers.ZipTestCase::testListAllFilesWithNestedArchive
+  - org.apache.commons.compress.archivers.ZipTestCase::testZipArchiveCreation
+  - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::shouldConsumeArchiveCompletely
+  - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::properUseOfInflater
+  - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testWithBytesAfterData
+  - org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::shouldReadNestedZip
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromAndAddToZipUsingZipFilePerform
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testAddToEmptyArchive
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteAddToOneFileArchive
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testAddAllreadyExistingWithReplaceFalse
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeletePlusAddSame
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testAddAllreadyExistingWithReplaceTrue
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromJar
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromZip
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromAndAddToJar
+  - org.apache.commons.compress.changes.ChangeSetTestCase::testDeleteFromAndAddToZip
+  - org.apache.commons.compress.compressors.Pack200TestCase::testJarArchiveCreationTempFile
+  - org.apache.commons.compress.compressors.Pack200TestCase::testJarUnarchiveAllInMemory
+  - org.apache.commons.compress.compressors.Pack200TestCase::testJarArchiveCreationInMemory
+  - org.apache.commons.compress.compressors.Pack200TestCase::testJarUnarchiveAllFileArgInMemory
+  - org.apache.commons.compress.compressors.Pack200TestCase::testJarUnarchiveAllFileTempFile
+  - org.apache.commons.compress.compressors.Pack200TestCase::testJarUnarchiveAllTempFile
+  - org.apache.commons.compress.compressors.pack200.Pack200UtilsTest::testNormalizeInPlace
+  - org.apache.commons.compress.compressors.pack200.Pack200UtilsTest::testNormalize
+---- 主命令退出码：0 | Compress-41-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.ZipTestCase::testListAllFilesWithNestedArchive
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.compress.archivers.ZipTestCase::testListAllFilesWithNestedArchive
+[JACOCO] defects4j test -t org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest::testThrowOnInvalidEntry
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Compress/Compress-41-buggy/jacoco.exec.
+[INFO] Analyzing 226 classes.
+>>> [JACOCO] 结束

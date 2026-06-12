@@ -1,0 +1,37 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "fixed_code": [
+    "public void testDateTimeZoneBuilder() throws Exception {\n    // test multithreading, issue #18\n    getTestDataTimeZoneBuilder().toDateTimeZone(\"TestDTZ1\", true);\n    final DateTimeZone[] zone = new DateTimeZone[1];\n    Thread t = new Thread(new Runnable() {\n        public void run() {\n            zone[0] = getTestDataTimeZoneBuilder().toDateTimeZone(\"TestDTZ2\", true);\n        }\n    });\n    t.start();\n    t.join();\n    assertNotNull(zone[0]);\n}"
+  ]
+}

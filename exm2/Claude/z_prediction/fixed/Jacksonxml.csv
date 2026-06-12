@@ -1,0 +1,354 @@
+bug_id,folder,function_id,line_in_method,executed,prediction
+1,JacksonXml-1-buggy,function_1,1,,TRUE
+1,JacksonXml-1-buggy,function_1,2,,TRUE
+1,JacksonXml-1-buggy,function_1,3,True,TRUE
+1,JacksonXml-1-buggy,function_1,4,True,TRUE
+1,JacksonXml-1-buggy,function_1,5,True,TRUE
+1,JacksonXml-1-buggy,function_1,6,True,TRUE
+1,JacksonXml-1-buggy,function_1,7,True,TRUE
+1,JacksonXml-1-buggy,function_1,8,True,TRUE
+1,JacksonXml-1-buggy,function_1,9,,TRUE
+1,JacksonXml-1-buggy,function_1,10,True,TRUE
+1,JacksonXml-1-buggy,function_1,11,True,TRUE
+1,JacksonXml-1-buggy,function_1,12,,TRUE
+1,JacksonXml-1-buggy,function_1,13,False,TRUE
+1,JacksonXml-1-buggy,function_1,14,False,TRUE
+1,JacksonXml-1-buggy,function_1,15,,TRUE
+1,JacksonXml-1-buggy,function_1,16,,TRUE
+1,JacksonXml-1-buggy,function_1,17,True,TRUE
+1,JacksonXml-1-buggy,function_1,18,True,TRUE
+1,JacksonXml-1-buggy,function_1,19,True,TRUE
+1,JacksonXml-1-buggy,function_1,20,,TRUE
+1,JacksonXml-1-buggy,function_1,21,True,TRUE
+1,JacksonXml-1-buggy,function_1,22,True,TRUE
+1,JacksonXml-1-buggy,function_1,23,,TRUE
+1,JacksonXml-1-buggy,function_1,24,,TRUE
+1,JacksonXml-1-buggy,function_1,25,,TRUE
+1,JacksonXml-1-buggy,function_1,26,True,TRUE
+1,JacksonXml-1-buggy,function_1,27,,TRUE
+1,JacksonXml-1-buggy,function_1,28,True,TRUE
+1,JacksonXml-1-buggy,function_1,29,,TRUE
+1,JacksonXml-1-buggy,function_1,30,,TRUE
+1,JacksonXml-1-buggy,function_1,31,,TRUE
+1,JacksonXml-1-buggy,function_1,32,True,TRUE
+1,JacksonXml-1-buggy,function_1,33,,TRUE
+1,JacksonXml-1-buggy,function_1,34,True,TRUE
+1,JacksonXml-1-buggy,function_1,35,,TRUE
+1,JacksonXml-1-buggy,function_1,36,True,TRUE
+1,JacksonXml-1-buggy,function_1,37,True,TRUE
+1,JacksonXml-1-buggy,function_1,38,True,TRUE
+1,JacksonXml-1-buggy,function_1,39,,TRUE
+1,JacksonXml-1-buggy,function_1,40,True,TRUE
+1,JacksonXml-1-buggy,function_1,41,,TRUE
+1,JacksonXml-1-buggy,function_1,42,,TRUE
+1,JacksonXml-1-buggy,function_1,43,False,TRUE
+1,JacksonXml-1-buggy,function_1,44,False,TRUE
+1,JacksonXml-1-buggy,function_1,45,False,TRUE
+1,JacksonXml-1-buggy,function_1,46,,TRUE
+1,JacksonXml-1-buggy,function_1,47,True,TRUE
+1,JacksonXml-1-buggy,function_1,48,True,TRUE
+1,JacksonXml-1-buggy,function_1,49,,TRUE
+1,JacksonXml-1-buggy,function_1,50,,TRUE
+1,JacksonXml-1-buggy,function_1,51,,TRUE
+1,JacksonXml-1-buggy,function_1,52,True,TRUE
+1,JacksonXml-1-buggy,function_1,53,True,TRUE
+1,JacksonXml-1-buggy,function_1,54,,TRUE
+1,JacksonXml-1-buggy,function_1,55,,TRUE
+1,JacksonXml-1-buggy,function_1,56,True,TRUE
+1,JacksonXml-1-buggy,function_1,57,,TRUE
+1,JacksonXml-1-buggy,function_1,58,,TRUE
+1,JacksonXml-1-buggy,function_1,59,True,TRUE
+1,JacksonXml-1-buggy,function_1,60,,TRUE
+1,JacksonXml-1-buggy,function_1,61,,TRUE
+1,JacksonXml-1-buggy,function_1,62,,TRUE
+1,JacksonXml-1-buggy,function_1,63,True,TRUE
+1,JacksonXml-1-buggy,function_1,64,,TRUE
+1,JacksonXml-1-buggy,function_1,65,,TRUE
+1,JacksonXml-1-buggy,function_1,66,True,TRUE
+1,JacksonXml-1-buggy,function_1,67,True,TRUE
+1,JacksonXml-1-buggy,function_1,68,,TRUE
+1,JacksonXml-1-buggy,function_1,69,,TRUE
+1,JacksonXml-1-buggy,function_1,70,True,TRUE
+1,JacksonXml-1-buggy,function_1,71,True,TRUE
+1,JacksonXml-1-buggy,function_1,72,True,TRUE
+1,JacksonXml-1-buggy,function_1,73,,TRUE
+1,JacksonXml-1-buggy,function_1,74,False,TRUE
+1,JacksonXml-1-buggy,function_1,75,,TRUE
+1,JacksonXml-1-buggy,function_1,76,True,TRUE
+1,JacksonXml-1-buggy,function_1,77,True,TRUE
+1,JacksonXml-1-buggy,function_1,78,True,TRUE
+1,JacksonXml-1-buggy,function_1,79,True,TRUE
+1,JacksonXml-1-buggy,function_1,80,,TRUE
+1,JacksonXml-1-buggy,function_1,81,,TRUE
+1,JacksonXml-1-buggy,function_1,82,,TRUE
+1,JacksonXml-1-buggy,function_1,83,False,TRUE
+1,JacksonXml-1-buggy,function_1,84,False,TRUE
+1,JacksonXml-1-buggy,function_1,85,False,TRUE
+1,JacksonXml-1-buggy,function_1,86,False,TRUE
+1,JacksonXml-1-buggy,function_1,87,False,TRUE
+1,JacksonXml-1-buggy,function_1,88,False,TRUE
+1,JacksonXml-1-buggy,function_1,89,,TRUE
+1,JacksonXml-1-buggy,function_1,90,False,TRUE
+1,JacksonXml-1-buggy,function_1,91,False,TRUE
+1,JacksonXml-1-buggy,function_1,92,,TRUE
+1,JacksonXml-1-buggy,function_1,93,False,TRUE
+1,JacksonXml-1-buggy,function_1,94,False,TRUE
+1,JacksonXml-1-buggy,function_1,95,,TRUE
+1,JacksonXml-1-buggy,function_1,96,True,TRUE
+1,JacksonXml-1-buggy,function_1,97,True,TRUE
+1,JacksonXml-1-buggy,function_1,98,True,TRUE
+1,JacksonXml-1-buggy,function_1,99,,TRUE
+1,JacksonXml-1-buggy,function_1,100,,TRUE
+1,JacksonXml-1-buggy,function_1,101,,TRUE
+1,JacksonXml-1-buggy,function_1,102,,TRUE
+1,JacksonXml-1-buggy,function_1,103,,TRUE
+1,JacksonXml-1-buggy,function_1,104,True,TRUE
+1,JacksonXml-1-buggy,function_1,105,True,TRUE
+1,JacksonXml-1-buggy,function_1,106,True,TRUE
+1,JacksonXml-1-buggy,function_1,107,,TRUE
+1,JacksonXml-1-buggy,function_1,108,,TRUE
+1,JacksonXml-1-buggy,function_1,109,,TRUE
+1,JacksonXml-1-buggy,function_1,110,True,TRUE
+1,JacksonXml-1-buggy,function_1,111,True,TRUE
+1,JacksonXml-1-buggy,function_1,112,,TRUE
+1,JacksonXml-1-buggy,function_1,113,,TRUE
+1,JacksonXml-1-buggy,function_1,114,True,TRUE
+1,JacksonXml-1-buggy,function_1,115,,TRUE
+1,JacksonXml-1-buggy,function_1,116,,TRUE
+1,JacksonXml-1-buggy,function_1,117,False,TRUE
+1,JacksonXml-1-buggy,function_1,118,False,TRUE
+1,JacksonXml-1-buggy,function_1,119,False,TRUE
+1,JacksonXml-1-buggy,function_1,120,False,TRUE
+1,JacksonXml-1-buggy,function_1,121,False,TRUE
+1,JacksonXml-1-buggy,function_1,122,False,TRUE
+1,JacksonXml-1-buggy,function_1,123,,TRUE
+1,JacksonXml-1-buggy,function_1,124,,TRUE
+1,JacksonXml-1-buggy,function_1,125,,TRUE
+1,JacksonXml-1-buggy,function_1,126,False,FALSE
+1,JacksonXml-1-buggy,function_1,127,False,FALSE
+1,JacksonXml-1-buggy,function_1,128,False,FALSE
+1,JacksonXml-1-buggy,function_1,129,,FALSE
+1,JacksonXml-1-buggy,function_1,130,False,FALSE
+1,JacksonXml-1-buggy,function_1,131,,FALSE
+1,JacksonXml-1-buggy,function_1,132,,FALSE
+1,JacksonXml-1-buggy,function_1,133,,FALSE
+1,JacksonXml-1-buggy,function_1,134,False,FALSE
+1,JacksonXml-1-buggy,function_1,135,False,FALSE
+1,JacksonXml-1-buggy,function_1,136,,FALSE
+2,JacksonXml-2-buggy,function_1,1,,TRUE
+2,JacksonXml-2-buggy,function_1,2,,TRUE
+2,JacksonXml-2-buggy,function_1,3,True,TRUE
+2,JacksonXml-2-buggy,function_1,4,,TRUE
+2,JacksonXml-2-buggy,function_1,5,True,TRUE
+2,JacksonXml-2-buggy,function_1,6,,TRUE
+2,JacksonXml-2-buggy,function_1,7,,TRUE
+2,JacksonXml-2-buggy,function_1,8,True,TRUE
+2,JacksonXml-2-buggy,function_1,9,True,TRUE
+2,JacksonXml-2-buggy,function_1,10,True,TRUE
+2,JacksonXml-2-buggy,function_1,11,True,TRUE
+2,JacksonXml-2-buggy,function_1,12,True,TRUE
+2,JacksonXml-2-buggy,function_1,13,,TRUE
+2,JacksonXml-2-buggy,function_1,14,,TRUE
+2,JacksonXml-2-buggy,function_1,15,True,TRUE
+2,JacksonXml-2-buggy,function_1,16,,TRUE
+2,JacksonXml-2-buggy,function_1,17,True,TRUE
+2,JacksonXml-2-buggy,function_1,18,True,TRUE
+2,JacksonXml-2-buggy,function_1,19,True,TRUE
+2,JacksonXml-2-buggy,function_1,20,True,TRUE
+2,JacksonXml-2-buggy,function_1,21,,TRUE
+2,JacksonXml-2-buggy,function_1,22,False,TRUE
+2,JacksonXml-2-buggy,function_1,23,,TRUE
+2,JacksonXml-2-buggy,function_1,24,,TRUE
+2,JacksonXml-2-buggy,function_1,25,False,TRUE
+2,JacksonXml-2-buggy,function_1,26,False,TRUE
+2,JacksonXml-2-buggy,function_1,27,False,TRUE
+2,JacksonXml-2-buggy,function_1,28,,TRUE
+2,JacksonXml-2-buggy,function_1,29,False,TRUE
+2,JacksonXml-2-buggy,function_1,30,,TRUE
+2,JacksonXml-2-buggy,function_1,31,,TRUE
+2,JacksonXml-2-buggy,function_1,32,,TRUE
+2,JacksonXml-2-buggy,function_1,33,True,TRUE
+2,JacksonXml-2-buggy,function_1,34,,TRUE
+2,JacksonXml-2-buggy,function_1,35,,TRUE
+2,JacksonXml-2-buggy,function_1,36,,TRUE
+2,JacksonXml-2-buggy,function_1,37,True,TRUE
+2,JacksonXml-2-buggy,function_1,38,,TRUE
+2,JacksonXml-2-buggy,function_1,39,False,TRUE
+2,JacksonXml-2-buggy,function_1,40,,TRUE
+2,JacksonXml-2-buggy,function_1,41,,TRUE
+2,JacksonXml-2-buggy,function_1,42,,TRUE
+2,JacksonXml-2-buggy,function_1,43,,TRUE
+2,JacksonXml-2-buggy,function_1,44,False,TRUE
+2,JacksonXml-2-buggy,function_1,45,,TRUE
+2,JacksonXml-2-buggy,function_1,46,False,TRUE
+2,JacksonXml-2-buggy,function_1,47,,TRUE
+2,JacksonXml-2-buggy,function_1,48,False,TRUE
+2,JacksonXml-2-buggy,function_1,49,,FALSE
+2,JacksonXml-2-buggy,function_1,50,,FALSE
+2,JacksonXml-2-buggy,function_1,51,False,FALSE
+2,JacksonXml-2-buggy,function_1,52,,FALSE
+2,JacksonXml-2-buggy,function_2,1,,TRUE
+2,JacksonXml-2-buggy,function_2,2,,TRUE
+2,JacksonXml-2-buggy,function_2,3,False,TRUE
+2,JacksonXml-2-buggy,function_2,4,False,TRUE
+2,JacksonXml-2-buggy,function_2,5,,TRUE
+2,JacksonXml-2-buggy,function_2,6,False,TRUE
+2,JacksonXml-2-buggy,function_2,7,False,TRUE
+2,JacksonXml-2-buggy,function_2,8,False,TRUE
+2,JacksonXml-2-buggy,function_2,9,False,FALSE
+2,JacksonXml-2-buggy,function_2,10,,FALSE
+3,JacksonXml-3-buggy,function_1,1,,TRUE
+3,JacksonXml-3-buggy,function_1,2,,TRUE
+3,JacksonXml-3-buggy,function_1,3,True,TRUE
+3,JacksonXml-3-buggy,function_1,4,True,TRUE
+3,JacksonXml-3-buggy,function_1,5,False,TRUE
+3,JacksonXml-3-buggy,function_1,6,False,FALSE
+3,JacksonXml-3-buggy,function_1,7,False,FALSE
+3,JacksonXml-3-buggy,function_1,8,,TRUE
+3,JacksonXml-3-buggy,function_1,9,,TRUE
+3,JacksonXml-3-buggy,function_1,10,False,TRUE
+3,JacksonXml-3-buggy,function_1,11,False,TRUE
+3,JacksonXml-3-buggy,function_1,12,,FALSE
+3,JacksonXml-3-buggy,function_1,13,False,TRUE
+3,JacksonXml-3-buggy,function_1,14,False,TRUE
+3,JacksonXml-3-buggy,function_1,15,,TRUE
+3,JacksonXml-3-buggy,function_1,16,,TRUE
+3,JacksonXml-3-buggy,function_1,17,True,TRUE
+3,JacksonXml-3-buggy,function_1,18,,TRUE
+3,JacksonXml-3-buggy,function_1,19,,TRUE
+3,JacksonXml-3-buggy,function_1,20,True,TRUE
+3,JacksonXml-3-buggy,function_1,21,False,TRUE
+3,JacksonXml-3-buggy,function_1,22,False,TRUE
+3,JacksonXml-3-buggy,function_1,23,False,TRUE
+3,JacksonXml-3-buggy,function_1,24,False,TRUE
+3,JacksonXml-3-buggy,function_1,25,False,TRUE
+3,JacksonXml-3-buggy,function_1,26,,TRUE
+3,JacksonXml-3-buggy,function_1,27,False,TRUE
+3,JacksonXml-3-buggy,function_1,28,False,TRUE
+3,JacksonXml-3-buggy,function_1,29,False,TRUE
+3,JacksonXml-3-buggy,function_1,30,False,TRUE
+3,JacksonXml-3-buggy,function_1,31,,TRUE
+3,JacksonXml-3-buggy,function_1,32,False,TRUE
+3,JacksonXml-3-buggy,function_1,33,False,TRUE
+3,JacksonXml-3-buggy,function_1,34,False,TRUE
+3,JacksonXml-3-buggy,function_1,35,False,TRUE
+3,JacksonXml-3-buggy,function_1,36,,TRUE
+3,JacksonXml-3-buggy,function_1,37,False,TRUE
+3,JacksonXml-3-buggy,function_1,38,False,TRUE
+3,JacksonXml-3-buggy,function_1,39,False,TRUE
+3,JacksonXml-3-buggy,function_1,40,,TRUE
+3,JacksonXml-3-buggy,function_1,41,,TRUE
+3,JacksonXml-3-buggy,function_1,42,,TRUE
+3,JacksonXml-3-buggy,function_1,43,True,TRUE
+3,JacksonXml-3-buggy,function_1,44,,TRUE
+3,JacksonXml-3-buggy,function_1,45,False,TRUE
+3,JacksonXml-3-buggy,function_1,46,,TRUE
+3,JacksonXml-3-buggy,function_1,47,False,TRUE
+3,JacksonXml-3-buggy,function_1,48,False,TRUE
+3,JacksonXml-3-buggy,function_1,49,False,TRUE
+3,JacksonXml-3-buggy,function_1,50,,TRUE
+3,JacksonXml-3-buggy,function_1,51,False,TRUE
+3,JacksonXml-3-buggy,function_1,52,False,TRUE
+3,JacksonXml-3-buggy,function_1,53,False,TRUE
+3,JacksonXml-3-buggy,function_1,54,False,TRUE
+3,JacksonXml-3-buggy,function_1,55,,TRUE
+3,JacksonXml-3-buggy,function_1,56,,TRUE
+3,JacksonXml-3-buggy,function_1,57,False,TRUE
+3,JacksonXml-3-buggy,function_1,58,False,TRUE
+3,JacksonXml-3-buggy,function_1,59,False,TRUE
+3,JacksonXml-3-buggy,function_1,60,False,TRUE
+3,JacksonXml-3-buggy,function_1,61,False,TRUE
+3,JacksonXml-3-buggy,function_1,62,False,TRUE
+3,JacksonXml-3-buggy,function_1,63,,TRUE
+3,JacksonXml-3-buggy,function_1,64,False,TRUE
+3,JacksonXml-3-buggy,function_1,65,False,TRUE
+3,JacksonXml-3-buggy,function_1,66,,TRUE
+3,JacksonXml-3-buggy,function_1,67,False,TRUE
+3,JacksonXml-3-buggy,function_1,68,,TRUE
+3,JacksonXml-3-buggy,function_1,69,True,TRUE
+3,JacksonXml-3-buggy,function_1,70,True,TRUE
+3,JacksonXml-3-buggy,function_1,71,True,TRUE
+3,JacksonXml-3-buggy,function_1,72,,TRUE
+3,JacksonXml-3-buggy,function_1,73,False,TRUE
+3,JacksonXml-3-buggy,function_1,74,False,TRUE
+3,JacksonXml-3-buggy,function_1,75,False,TRUE
+3,JacksonXml-3-buggy,function_1,76,,TRUE
+3,JacksonXml-3-buggy,function_1,77,False,TRUE
+3,JacksonXml-3-buggy,function_1,78,,TRUE
+3,JacksonXml-3-buggy,function_1,79,,TRUE
+3,JacksonXml-3-buggy,function_1,80,,TRUE
+3,JacksonXml-3-buggy,function_1,81,False,TRUE
+3,JacksonXml-3-buggy,function_1,82,False,TRUE
+3,JacksonXml-3-buggy,function_1,83,,TRUE
+3,JacksonXml-3-buggy,function_1,84,,TRUE
+3,JacksonXml-3-buggy,function_1,85,False,TRUE
+3,JacksonXml-3-buggy,function_1,86,False,FALSE
+3,JacksonXml-3-buggy,function_1,87,False,FALSE
+3,JacksonXml-3-buggy,function_1,88,False,FALSE
+3,JacksonXml-3-buggy,function_1,89,,FALSE
+3,JacksonXml-3-buggy,function_1,90,False,TRUE
+3,JacksonXml-3-buggy,function_1,91,,TRUE
+3,JacksonXml-3-buggy,function_1,92,False,FALSE
+3,JacksonXml-3-buggy,function_1,93,,FALSE
+4,JacksonXml-4-buggy,function_1,1,,TRUE
+4,JacksonXml-4-buggy,function_1,2,,TRUE
+4,JacksonXml-4-buggy,function_1,3,,TRUE
+4,JacksonXml-4-buggy,function_1,4,,TRUE
+4,JacksonXml-4-buggy,function_1,5,True,TRUE
+4,JacksonXml-4-buggy,function_1,6,True,TRUE
+4,JacksonXml-4-buggy,function_1,7,True,TRUE
+4,JacksonXml-4-buggy,function_1,8,,TRUE
+4,JacksonXml-4-buggy,function_1,9,False,TRUE
+4,JacksonXml-4-buggy,function_1,10,False,FALSE
+5,JacksonXml-5-buggy,function_1,1,,TRUE
+5,JacksonXml-5-buggy,function_1,2,True,TRUE
+5,JacksonXml-5-buggy,function_1,3,,FALSE
+5,JacksonXml-5-buggy,function_1,4,,FALSE
+5,JacksonXml-5-buggy,function_1,5,True,TRUE
+5,JacksonXml-5-buggy,function_1,6,True,FALSE
+6,JacksonXml-6-buggy,function_1,1,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,2,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,3,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,4,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,5,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,6,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,7,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,8,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,9,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,10,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,11,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,12,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,13,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,14,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,15,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,16,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,17,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,18,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,19,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,20,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,21,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,22,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,23,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,24,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,25,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,26,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,27,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,28,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,29,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,30,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,31,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,32,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,33,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_1,34,Not Compilable,FALSE
+6,JacksonXml-6-buggy,function_2,1,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,2,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,3,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,4,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,5,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,6,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,7,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,8,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,9,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,10,Not Compilable,TRUE
+6,JacksonXml-6-buggy,function_2,11,Not Compilable,FALSE
+6,JacksonXml-6-buggy,function_2,12,Not Compilable,FALSE

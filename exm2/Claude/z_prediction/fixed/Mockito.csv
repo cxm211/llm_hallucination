@@ -1,0 +1,885 @@
+bug_id,folder,function_id,line_in_method,executed,prediction
+1,Mockito-1-buggy,function_1,1,,TRUE
+1,Mockito-1-buggy,function_1,2,True,TRUE
+1,Mockito-1-buggy,function_1,3,True,TRUE
+1,Mockito-1-buggy,function_1,4,True,TRUE
+1,Mockito-1-buggy,function_1,5,True,FALSE
+1,Mockito-1-buggy,function_1,6,True,TRUE
+1,Mockito-1-buggy,function_1,7,True,TRUE
+1,Mockito-1-buggy,function_1,8,True,TRUE
+1,Mockito-1-buggy,function_1,9,True,TRUE
+1,Mockito-1-buggy,function_1,10,True,TRUE
+1,Mockito-1-buggy,function_1,11,True,TRUE
+1,Mockito-1-buggy,function_1,12,,FALSE
+1,Mockito-1-buggy,function_1,13,,TRUE
+1,Mockito-1-buggy,function_1,14,True,FALSE
+1,Mockito-1-buggy,function_1,15,True,FALSE
+1,Mockito-1-buggy,function_1,16,,FALSE
+1,Mockito-1-buggy,function_1,17,,FALSE
+1,Mockito-1-buggy,function_1,18,,FALSE
+1,Mockito-1-buggy,function_1,19,True,FALSE
+1,Mockito-1-buggy,function_1,20,True,FALSE
+1,Mockito-1-buggy,function_1,21,True,FALSE
+1,Mockito-1-buggy,function_1,22,True,FALSE
+1,Mockito-1-buggy,function_1,23,True,FALSE
+1,Mockito-1-buggy,function_1,24,,FALSE
+1,Mockito-1-buggy,function_1,25,,FALSE
+1,Mockito-1-buggy,function_1,26,,FALSE
+1,Mockito-1-buggy,function_1,27,True,FALSE
+10,Mockito-10-buggy,function_1,1,,TRUE
+10,Mockito-10-buggy,function_1,2,True,TRUE
+10,Mockito-10-buggy,function_1,3,True,TRUE
+10,Mockito-10-buggy,function_1,4,,FALSE
+10,Mockito-10-buggy,function_1,5,,FALSE
+10,Mockito-10-buggy,function_1,6,True,TRUE
+10,Mockito-10-buggy,function_1,7,False,TRUE
+10,Mockito-10-buggy,function_1,8,False,TRUE
+10,Mockito-10-buggy,function_1,9,,FALSE
+10,Mockito-10-buggy,function_1,10,False,FALSE
+10,Mockito-10-buggy,function_1,11,,FALSE
+10,Mockito-10-buggy,function_1,12,,FALSE
+10,Mockito-10-buggy,function_1,13,True,TRUE
+10,Mockito-10-buggy,function_1,14,True,TRUE
+10,Mockito-10-buggy,function_1,15,,TRUE
+10,Mockito-10-buggy,function_1,16,,TRUE
+10,Mockito-10-buggy,function_1,17,,TRUE
+10,Mockito-10-buggy,function_2,1,,TRUE
+10,Mockito-10-buggy,function_2,2,True,TRUE
+10,Mockito-10-buggy,function_2,3,True,TRUE
+10,Mockito-10-buggy,function_2,4,True,TRUE
+10,Mockito-10-buggy,function_2,5,,TRUE
+10,Mockito-10-buggy,function_2,6,,FALSE
+10,Mockito-10-buggy,function_3,1,,TRUE
+10,Mockito-10-buggy,function_3,2,True,TRUE
+10,Mockito-10-buggy,function_3,3,False,TRUE
+10,Mockito-10-buggy,function_3,4,True,TRUE
+10,Mockito-10-buggy,function_3,5,,TRUE
+10,Mockito-10-buggy,function_3,6,True,TRUE
+10,Mockito-10-buggy,function_3,7,True,TRUE
+10,Mockito-10-buggy,function_3,8,,FALSE
+11,Mockito-11-buggy,function_1,1,,TRUE
+11,Mockito-11-buggy,function_1,2,True,TRUE
+11,Mockito-11-buggy,function_1,3,True,TRUE
+11,Mockito-11-buggy,function_1,4,True,TRUE
+11,Mockito-11-buggy,function_1,5,True,TRUE
+11,Mockito-11-buggy,function_1,6,,FALSE
+11,Mockito-11-buggy,function_2,1,,FALSE
+11,Mockito-11-buggy,function_2,2,False,FALSE
+11,Mockito-11-buggy,function_2,3,,FALSE
+12,Mockito-12-buggy,function_1,1,,TRUE
+12,Mockito-12-buggy,function_1,2,True,TRUE
+12,Mockito-12-buggy,function_1,3,True,TRUE
+12,Mockito-12-buggy,function_1,4,True,TRUE
+12,Mockito-12-buggy,function_1,5,True,TRUE
+12,Mockito-12-buggy,function_1,6,True,TRUE
+12,Mockito-12-buggy,function_1,7,,TRUE
+12,Mockito-12-buggy,function_1,8,True,FALSE
+12,Mockito-12-buggy,function_1,9,,TRUE
+12,Mockito-12-buggy,function_1,10,True,FALSE
+12,Mockito-12-buggy,function_1,11,,FALSE
+13,Mockito-13-buggy,function_1,1,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,2,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,3,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,4,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,5,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,6,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,7,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,8,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,9,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,10,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,11,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,12,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,13,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,14,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,15,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,16,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,17,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,18,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,19,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,20,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,21,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,22,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,23,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,24,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,25,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,26,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,27,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,28,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,29,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,30,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,31,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,32,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,33,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,34,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,35,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,36,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,37,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,38,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,39,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,40,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,41,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,42,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,43,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,44,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,45,Not Compilable,TRUE
+13,Mockito-13-buggy,function_1,46,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,47,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,48,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,49,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,50,Not Compilable,FALSE
+13,Mockito-13-buggy,function_1,51,Not Compilable,FALSE
+14,Mockito-14-buggy,function_1,1,,TRUE
+14,Mockito-14-buggy,function_1,2,True,TRUE
+14,Mockito-14-buggy,function_1,3,,FALSE
+14,Mockito-14-buggy,function_1,4,False,FALSE
+14,Mockito-14-buggy,function_1,5,False,FALSE
+14,Mockito-14-buggy,function_1,6,False,FALSE
+14,Mockito-14-buggy,function_1,7,False,FALSE
+14,Mockito-14-buggy,function_1,8,,FALSE
+14,Mockito-14-buggy,function_1,9,True,FALSE
+14,Mockito-14-buggy,function_1,10,,TRUE
+14,Mockito-14-buggy,function_1,11,True,TRUE
+14,Mockito-14-buggy,function_1,12,,TRUE
+14,Mockito-14-buggy,function_1,13,,FALSE
+14,Mockito-14-buggy,function_1,14,True,TRUE
+14,Mockito-14-buggy,function_1,15,,FALSE
+14,Mockito-14-buggy,function_1,16,,TRUE
+14,Mockito-14-buggy,function_1,17,True,TRUE
+14,Mockito-14-buggy,function_1,18,,TRUE
+14,Mockito-14-buggy,function_1,19,,TRUE
+14,Mockito-14-buggy,function_1,20,True,TRUE
+14,Mockito-14-buggy,function_1,21,True,TRUE
+14,Mockito-14-buggy,function_1,22,True,TRUE
+14,Mockito-14-buggy,function_1,23,True,TRUE
+14,Mockito-14-buggy,function_1,24,,FALSE
+14,Mockito-14-buggy,function_1,25,,TRUE
+14,Mockito-14-buggy,function_1,26,True,TRUE
+14,Mockito-14-buggy,function_1,27,True,TRUE
+14,Mockito-14-buggy,function_1,28,True,FALSE
+14,Mockito-14-buggy,function_1,29,,TRUE
+14,Mockito-14-buggy,function_1,30,True,FALSE
+14,Mockito-14-buggy,function_1,31,,TRUE
+14,Mockito-14-buggy,function_1,32,True,TRUE
+14,Mockito-14-buggy,function_1,33,False,TRUE
+14,Mockito-14-buggy,function_1,34,False,TRUE
+14,Mockito-14-buggy,function_1,35,,FALSE
+14,Mockito-14-buggy,function_1,36,True,FALSE
+14,Mockito-14-buggy,function_1,37,,FALSE
+14,Mockito-14-buggy,function_1,38,,FALSE
+14,Mockito-14-buggy,function_1,39,,FALSE
+14,Mockito-14-buggy,function_1,40,,FALSE
+14,Mockito-14-buggy,function_1,41,,TRUE
+14,Mockito-14-buggy,function_1,42,,TRUE
+14,Mockito-14-buggy,function_1,43,True,TRUE
+14,Mockito-14-buggy,function_1,44,True,FALSE
+14,Mockito-14-buggy,function_1,45,,FALSE
+14,Mockito-14-buggy,function_1,46,,FALSE
+14,Mockito-14-buggy,function_2,1,,TRUE
+14,Mockito-14-buggy,function_2,2,True,TRUE
+14,Mockito-14-buggy,function_2,3,False,TRUE
+14,Mockito-14-buggy,function_2,4,True,TRUE
+14,Mockito-14-buggy,function_2,5,False,TRUE
+14,Mockito-14-buggy,function_2,6,,TRUE
+14,Mockito-14-buggy,function_2,7,True,TRUE
+14,Mockito-14-buggy,function_2,8,True,TRUE
+14,Mockito-14-buggy,function_2,9,,FALSE
+15,Mockito-15-buggy,function_1,1,,TRUE
+15,Mockito-15-buggy,function_1,2,True,TRUE
+15,Mockito-15-buggy,function_1,3,True,TRUE
+15,Mockito-15-buggy,function_1,4,,FALSE
+15,Mockito-15-buggy,function_1,5,True,TRUE
+15,Mockito-15-buggy,function_1,6,,TRUE
+15,Mockito-15-buggy,function_1,7,,TRUE
+15,Mockito-15-buggy,function_1,8,True,TRUE
+15,Mockito-15-buggy,function_1,9,False,TRUE
+15,Mockito-15-buggy,function_1,10,False,TRUE
+15,Mockito-15-buggy,function_1,11,True,TRUE
+15,Mockito-15-buggy,function_1,12,True,TRUE
+15,Mockito-15-buggy,function_1,13,,TRUE
+15,Mockito-15-buggy,function_1,14,,TRUE
+15,Mockito-15-buggy,function_1,15,,TRUE
+15,Mockito-15-buggy,function_1,16,,TRUE
+15,Mockito-15-buggy,function_1,17,True,TRUE
+15,Mockito-15-buggy,function_1,18,,TRUE
+15,Mockito-15-buggy,function_1,19,True,TRUE
+15,Mockito-15-buggy,function_1,20,,TRUE
+15,Mockito-15-buggy,function_1,21,,TRUE
+15,Mockito-15-buggy,function_1,22,,TRUE
+15,Mockito-15-buggy,function_1,23,,TRUE
+16,Mockito-16-buggy,function_1,1,True,TRUE
+16,Mockito-16-buggy,function_2,1,,TRUE
+16,Mockito-16-buggy,function_2,2,True,TRUE
+16,Mockito-16-buggy,function_2,3,True,FALSE
+16,Mockito-16-buggy,function_2,4,,TRUE
+16,Mockito-16-buggy,function_3,1,,TRUE
+16,Mockito-16-buggy,function_3,2,True,TRUE
+16,Mockito-16-buggy,function_3,3,,FALSE
+16,Mockito-16-buggy,function_4,1,,FALSE
+16,Mockito-16-buggy,function_4,2,False,FALSE
+16,Mockito-16-buggy,function_4,3,False,FALSE
+16,Mockito-16-buggy,function_4,4,False,FALSE
+16,Mockito-16-buggy,function_4,5,,FALSE
+17,Mockito-17-buggy,function_1,1,Not Compilable,TRUE
+17,Mockito-17-buggy,function_1,2,Not Compilable,TRUE
+17,Mockito-17-buggy,function_1,3,Not Compilable,FALSE
+17,Mockito-17-buggy,function_1,4,Not Compilable,FALSE
+17,Mockito-17-buggy,function_2,1,Not Compilable,TRUE
+17,Mockito-17-buggy,function_2,2,Not Compilable,TRUE
+17,Mockito-17-buggy,function_2,3,Not Compilable,FALSE
+17,Mockito-17-buggy,function_3,1,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,2,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,3,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,4,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,5,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,6,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,7,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,8,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,9,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,10,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,11,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,12,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,13,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,14,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,15,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,16,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,17,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,18,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,19,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,20,Not Compilable,TRUE
+17,Mockito-17-buggy,function_3,21,Not Compilable,FALSE
+17,Mockito-17-buggy,function_3,22,Not Compilable,FALSE
+17,Mockito-17-buggy,function_3,23,Not Compilable,FALSE
+17,Mockito-17-buggy,function_3,24,Not Compilable,FALSE
+18,Mockito-18-buggy,function_1,1,,TRUE
+18,Mockito-18-buggy,function_1,2,True,TRUE
+18,Mockito-18-buggy,function_1,3,False,TRUE
+18,Mockito-18-buggy,function_1,4,,FALSE
+18,Mockito-18-buggy,function_1,5,,FALSE
+18,Mockito-18-buggy,function_1,6,True,FALSE
+18,Mockito-18-buggy,function_1,7,False,TRUE
+18,Mockito-18-buggy,function_1,8,True,FALSE
+18,Mockito-18-buggy,function_1,9,False,TRUE
+18,Mockito-18-buggy,function_1,10,True,FALSE
+18,Mockito-18-buggy,function_1,11,False,TRUE
+18,Mockito-18-buggy,function_1,12,True,FALSE
+18,Mockito-18-buggy,function_1,13,False,TRUE
+18,Mockito-18-buggy,function_1,14,True,FALSE
+18,Mockito-18-buggy,function_1,15,False,TRUE
+18,Mockito-18-buggy,function_1,16,True,FALSE
+18,Mockito-18-buggy,function_1,17,False,TRUE
+18,Mockito-18-buggy,function_1,18,True,FALSE
+18,Mockito-18-buggy,function_1,19,False,TRUE
+18,Mockito-18-buggy,function_1,20,True,FALSE
+18,Mockito-18-buggy,function_1,21,False,TRUE
+18,Mockito-18-buggy,function_1,22,True,FALSE
+18,Mockito-18-buggy,function_1,23,False,TRUE
+18,Mockito-18-buggy,function_1,24,True,FALSE
+18,Mockito-18-buggy,function_1,25,False,TRUE
+18,Mockito-18-buggy,function_1,26,True,FALSE
+18,Mockito-18-buggy,function_1,27,False,TRUE
+18,Mockito-18-buggy,function_1,28,True,FALSE
+18,Mockito-18-buggy,function_1,29,False,TRUE
+18,Mockito-18-buggy,function_1,30,True,FALSE
+18,Mockito-18-buggy,function_1,31,False,TRUE
+18,Mockito-18-buggy,function_1,32,True,FALSE
+18,Mockito-18-buggy,function_1,33,False,TRUE
+18,Mockito-18-buggy,function_1,34,True,FALSE
+18,Mockito-18-buggy,function_1,35,True,TRUE
+18,Mockito-18-buggy,function_1,36,,TRUE
+18,Mockito-18-buggy,function_1,37,,TRUE
+18,Mockito-18-buggy,function_1,38,False,FALSE
+18,Mockito-18-buggy,function_1,39,,FALSE
+19,Mockito-19-buggy,function_1,1,,TRUE
+19,Mockito-19-buggy,function_1,2,True,TRUE
+19,Mockito-19-buggy,function_1,3,True,TRUE
+19,Mockito-19-buggy,function_1,4,,FALSE
+19,Mockito-19-buggy,function_1,5,True,TRUE
+19,Mockito-19-buggy,function_1,6,,TRUE
+19,Mockito-19-buggy,function_1,7,,TRUE
+19,Mockito-19-buggy,function_1,8,True,TRUE
+19,Mockito-19-buggy,function_1,9,True,TRUE
+19,Mockito-19-buggy,function_1,10,,TRUE
+19,Mockito-19-buggy,function_1,11,False,TRUE
+19,Mockito-19-buggy,function_1,12,False,TRUE
+19,Mockito-19-buggy,function_1,13,True,TRUE
+19,Mockito-19-buggy,function_1,14,True,TRUE
+19,Mockito-19-buggy,function_1,15,,TRUE
+19,Mockito-19-buggy,function_1,16,,TRUE
+19,Mockito-19-buggy,function_1,17,,TRUE
+19,Mockito-19-buggy,function_1,18,,TRUE
+19,Mockito-19-buggy,function_1,19,True,TRUE
+19,Mockito-19-buggy,function_1,20,,FALSE
+19,Mockito-19-buggy,function_1,21,True,TRUE
+19,Mockito-19-buggy,function_1,22,,TRUE
+19,Mockito-19-buggy,function_1,23,,TRUE
+19,Mockito-19-buggy,function_1,24,,TRUE
+19,Mockito-19-buggy,function_1,25,,TRUE
+19,Mockito-19-buggy,function_2,1,,TRUE
+19,Mockito-19-buggy,function_2,2,,TRUE
+19,Mockito-19-buggy,function_2,3,,TRUE
+19,Mockito-19-buggy,function_2,4,,TRUE
+19,Mockito-19-buggy,function_2,5,,TRUE
+19,Mockito-19-buggy,function_3,1,,TRUE
+19,Mockito-19-buggy,function_3,2,,TRUE
+19,Mockito-19-buggy,function_3,3,True,TRUE
+19,Mockito-19-buggy,function_3,4,True,TRUE
+19,Mockito-19-buggy,function_3,5,True,TRUE
+19,Mockito-19-buggy,function_3,6,True,TRUE
+19,Mockito-19-buggy,function_3,7,True,TRUE
+19,Mockito-19-buggy,function_3,8,,TRUE
+19,Mockito-19-buggy,function_3,9,True,FALSE
+19,Mockito-19-buggy,function_3,10,True,FALSE
+19,Mockito-19-buggy,function_3,11,True,FALSE
+19,Mockito-19-buggy,function_3,12,,FALSE
+19,Mockito-19-buggy,function_3,13,,FALSE
+19,Mockito-19-buggy,function_3,14,,FALSE
+19,Mockito-19-buggy,function_3,15,,FALSE
+19,Mockito-19-buggy,function_3,16,,FALSE
+19,Mockito-19-buggy,function_3,17,,FALSE
+19,Mockito-19-buggy,function_3,18,,FALSE
+19,Mockito-19-buggy,function_3,19,,FALSE
+19,Mockito-19-buggy,function_3,20,,FALSE
+19,Mockito-19-buggy,function_3,21,,FALSE
+19,Mockito-19-buggy,function_3,22,,FALSE
+19,Mockito-19-buggy,function_3,23,,FALSE
+19,Mockito-19-buggy,function_3,24,True,FALSE
+19,Mockito-19-buggy,function_3,25,,FALSE
+19,Mockito-19-buggy,function_4,1,,TRUE
+19,Mockito-19-buggy,function_4,2,True,TRUE
+19,Mockito-19-buggy,function_4,3,True,TRUE
+19,Mockito-19-buggy,function_4,4,True,TRUE
+19,Mockito-19-buggy,function_4,5,True,TRUE
+19,Mockito-19-buggy,function_4,6,,TRUE
+19,Mockito-19-buggy,function_4,7,True,TRUE
+19,Mockito-19-buggy,function_4,8,,TRUE
+19,Mockito-19-buggy,function_4,9,True,TRUE
+19,Mockito-19-buggy,function_4,10,,TRUE
+19,Mockito-19-buggy,function_5,1,,FALSE
+19,Mockito-19-buggy,function_5,2,True,FALSE
+19,Mockito-19-buggy,function_5,3,True,FALSE
+19,Mockito-19-buggy,function_5,4,True,FALSE
+19,Mockito-19-buggy,function_5,5,True,FALSE
+19,Mockito-19-buggy,function_5,6,True,FALSE
+19,Mockito-19-buggy,function_5,7,True,FALSE
+19,Mockito-19-buggy,function_5,8,True,FALSE
+19,Mockito-19-buggy,function_5,9,,FALSE
+19,Mockito-19-buggy,function_5,10,True,FALSE
+19,Mockito-19-buggy,function_5,11,True,FALSE
+19,Mockito-19-buggy,function_5,12,,FALSE
+2,Mockito-2-buggy,function_1,1,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,2,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,3,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,4,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,5,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,6,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,7,Not Compilable,TRUE
+2,Mockito-2-buggy,function_1,8,Not Compilable,FALSE
+2,Mockito-2-buggy,function_2,1,Not Compilable,TRUE
+2,Mockito-2-buggy,function_2,2,Not Compilable,TRUE
+2,Mockito-2-buggy,function_2,3,Not Compilable,TRUE
+20,Mockito-20-buggy,function_1,1,,TRUE
+20,Mockito-20-buggy,function_1,2,True,TRUE
+20,Mockito-20-buggy,function_1,3,False,TRUE
+20,Mockito-20-buggy,function_1,4,,FALSE
+20,Mockito-20-buggy,function_1,5,True,TRUE
+20,Mockito-20-buggy,function_1,6,True,TRUE
+20,Mockito-20-buggy,function_1,7,True,TRUE
+20,Mockito-20-buggy,function_1,8,,TRUE
+20,Mockito-20-buggy,function_1,9,True,TRUE
+20,Mockito-20-buggy,function_1,10,,TRUE
+20,Mockito-20-buggy,function_1,11,True,TRUE
+20,Mockito-20-buggy,function_1,12,True,TRUE
+20,Mockito-20-buggy,function_1,13,True,TRUE
+20,Mockito-20-buggy,function_1,14,,TRUE
+20,Mockito-20-buggy,function_1,15,True,TRUE
+20,Mockito-20-buggy,function_1,16,False,FALSE
+20,Mockito-20-buggy,function_1,17,False,FALSE
+20,Mockito-20-buggy,function_1,18,,FALSE
+20,Mockito-20-buggy,function_1,19,False,FALSE
+20,Mockito-20-buggy,function_1,20,False,FALSE
+20,Mockito-20-buggy,function_1,21,False,FALSE
+20,Mockito-20-buggy,function_1,22,False,FALSE
+20,Mockito-20-buggy,function_1,23,,FALSE
+20,Mockito-20-buggy,function_1,24,,FALSE
+20,Mockito-20-buggy,function_1,25,,FALSE
+20,Mockito-20-buggy,function_1,26,,TRUE
+20,Mockito-20-buggy,function_1,27,False,TRUE
+20,Mockito-20-buggy,function_1,28,False,FALSE
+20,Mockito-20-buggy,function_1,29,,FALSE
+20,Mockito-20-buggy,function_1,30,,FALSE
+21,Mockito-21-buggy,function_1,1,,TRUE
+21,Mockito-21-buggy,function_1,2,True,TRUE
+21,Mockito-21-buggy,function_1,3,False,TRUE
+21,Mockito-21-buggy,function_1,4,,FALSE
+21,Mockito-21-buggy,function_1,5,True,TRUE
+21,Mockito-21-buggy,function_1,6,,FALSE
+21,Mockito-21-buggy,function_2,1,,TRUE
+21,Mockito-21-buggy,function_2,2,,TRUE
+21,Mockito-21-buggy,function_2,3,,TRUE
+21,Mockito-21-buggy,function_2,4,,TRUE
+21,Mockito-21-buggy,function_2,5,True,TRUE
+21,Mockito-21-buggy,function_2,6,True,TRUE
+21,Mockito-21-buggy,function_2,7,,TRUE
+21,Mockito-21-buggy,function_2,8,,TRUE
+21,Mockito-21-buggy,function_2,9,True,TRUE
+21,Mockito-21-buggy,function_2,10,,TRUE
+21,Mockito-21-buggy,function_2,11,True,TRUE
+21,Mockito-21-buggy,function_2,12,True,TRUE
+21,Mockito-21-buggy,function_2,13,,TRUE
+21,Mockito-21-buggy,function_2,14,True,TRUE
+21,Mockito-21-buggy,function_2,15,True,TRUE
+21,Mockito-21-buggy,function_2,16,,TRUE
+21,Mockito-21-buggy,function_2,17,,TRUE
+21,Mockito-21-buggy,function_2,18,True,TRUE
+21,Mockito-21-buggy,function_2,19,False,TRUE
+21,Mockito-21-buggy,function_2,20,,TRUE
+21,Mockito-21-buggy,function_2,21,,TRUE
+21,Mockito-21-buggy,function_2,22,True,TRUE
+21,Mockito-21-buggy,function_2,23,False,TRUE
+21,Mockito-21-buggy,function_2,24,False,TRUE
+21,Mockito-21-buggy,function_2,25,,TRUE
+21,Mockito-21-buggy,function_2,26,,TRUE
+21,Mockito-21-buggy,function_3,1,,TRUE
+21,Mockito-21-buggy,function_3,2,False,TRUE
+21,Mockito-21-buggy,function_3,3,False,TRUE
+21,Mockito-21-buggy,function_3,4,,FALSE
+22,Mockito-22-buggy,function_1,1,,TRUE
+22,Mockito-22-buggy,function_1,2,True,TRUE
+22,Mockito-22-buggy,function_1,3,True,TRUE
+22,Mockito-22-buggy,function_1,4,True,TRUE
+22,Mockito-22-buggy,function_1,5,True,TRUE
+22,Mockito-22-buggy,function_1,6,,TRUE
+22,Mockito-22-buggy,function_1,7,True,TRUE
+22,Mockito-22-buggy,function_1,8,,TRUE
+22,Mockito-22-buggy,function_1,9,,TRUE
+23,Mockito-23-buggy,function_1,1,,TRUE
+23,Mockito-23-buggy,function_1,2,True,TRUE
+23,Mockito-23-buggy,function_1,3,True,TRUE
+23,Mockito-23-buggy,function_1,4,,TRUE
+23,Mockito-23-buggy,function_1,5,True,TRUE
+23,Mockito-23-buggy,function_1,6,True,TRUE
+23,Mockito-23-buggy,function_1,7,True,TRUE
+23,Mockito-23-buggy,function_1,8,,FALSE
+23,Mockito-23-buggy,function_1,9,,TRUE
+23,Mockito-23-buggy,function_1,10,True,TRUE
+23,Mockito-23-buggy,function_1,11,,FALSE
+23,Mockito-23-buggy,function_2,1,,TRUE
+23,Mockito-23-buggy,function_2,2,,TRUE
+23,Mockito-23-buggy,function_2,3,True,TRUE
+23,Mockito-23-buggy,function_2,4,False,TRUE
+23,Mockito-23-buggy,function_2,5,True,TRUE
+23,Mockito-23-buggy,function_2,6,,TRUE
+23,Mockito-23-buggy,function_2,7,True,TRUE
+23,Mockito-23-buggy,function_2,8,True,TRUE
+23,Mockito-23-buggy,function_2,9,True,TRUE
+23,Mockito-23-buggy,function_2,10,,TRUE
+23,Mockito-23-buggy,function_3,1,,TRUE
+23,Mockito-23-buggy,function_3,2,,TRUE
+23,Mockito-23-buggy,function_3,3,True,TRUE
+23,Mockito-23-buggy,function_3,4,,TRUE
+23,Mockito-23-buggy,function_3,5,True,TRUE
+23,Mockito-23-buggy,function_3,6,,TRUE
+23,Mockito-23-buggy,function_3,7,,TRUE
+23,Mockito-23-buggy,function_3,8,,TRUE
+23,Mockito-23-buggy,function_3,9,True,TRUE
+23,Mockito-23-buggy,function_3,10,,FALSE
+24,Mockito-24-buggy,function_1,1,,TRUE
+24,Mockito-24-buggy,function_1,2,True,TRUE
+24,Mockito-24-buggy,function_1,3,False,TRUE
+24,Mockito-24-buggy,function_1,4,False,TRUE
+24,Mockito-24-buggy,function_1,5,False,TRUE
+24,Mockito-24-buggy,function_1,6,False,TRUE
+24,Mockito-24-buggy,function_1,7,,TRUE
+24,Mockito-24-buggy,function_1,8,False,TRUE
+24,Mockito-24-buggy,function_1,9,,TRUE
+24,Mockito-24-buggy,function_1,10,True,TRUE
+24,Mockito-24-buggy,function_1,11,,TRUE
+24,Mockito-24-buggy,function_1,12,,TRUE
+24,Mockito-24-buggy,function_1,13,,TRUE
+24,Mockito-24-buggy,function_1,14,True,TRUE
+24,Mockito-24-buggy,function_1,15,True,TRUE
+24,Mockito-24-buggy,function_1,16,True,TRUE
+24,Mockito-24-buggy,function_1,17,True,TRUE
+24,Mockito-24-buggy,function_1,18,,TRUE
+24,Mockito-24-buggy,function_1,19,False,TRUE
+24,Mockito-24-buggy,function_1,20,,TRUE
+24,Mockito-24-buggy,function_1,21,,TRUE
+24,Mockito-24-buggy,function_1,22,False,TRUE
+24,Mockito-24-buggy,function_1,23,False,FALSE
+24,Mockito-24-buggy,function_1,24,,FALSE
+25,Mockito-25-buggy,function_1,1,,TRUE
+25,Mockito-25-buggy,function_1,2,True,TRUE
+25,Mockito-25-buggy,function_1,3,True,TRUE
+25,Mockito-25-buggy,function_1,4,,TRUE
+25,Mockito-25-buggy,function_1,5,True,TRUE
+25,Mockito-25-buggy,function_1,6,True,TRUE
+25,Mockito-25-buggy,function_1,7,False,TRUE
+25,Mockito-25-buggy,function_1,8,,FALSE
+25,Mockito-25-buggy,function_1,9,,TRUE
+25,Mockito-25-buggy,function_1,10,True,TRUE
+25,Mockito-25-buggy,function_1,11,,FALSE
+25,Mockito-25-buggy,function_2,1,,TRUE
+25,Mockito-25-buggy,function_2,2,True,TRUE
+25,Mockito-25-buggy,function_2,3,True,TRUE
+25,Mockito-25-buggy,function_2,4,,FALSE
+25,Mockito-25-buggy,function_2,5,,TRUE
+25,Mockito-25-buggy,function_2,6,True,TRUE
+25,Mockito-25-buggy,function_2,7,False,TRUE
+25,Mockito-25-buggy,function_2,8,False,TRUE
+25,Mockito-25-buggy,function_2,9,,TRUE
+25,Mockito-25-buggy,function_2,10,False,TRUE
+25,Mockito-25-buggy,function_2,11,,FALSE
+25,Mockito-25-buggy,function_2,12,,FALSE
+25,Mockito-25-buggy,function_2,13,True,TRUE
+25,Mockito-25-buggy,function_2,14,,TRUE
+25,Mockito-25-buggy,function_3,1,,TRUE
+25,Mockito-25-buggy,function_3,2,True,TRUE
+25,Mockito-25-buggy,function_3,3,True,FALSE
+25,Mockito-25-buggy,function_3,4,True,TRUE
+25,Mockito-25-buggy,function_3,5,True,TRUE
+25,Mockito-25-buggy,function_3,6,,TRUE
+25,Mockito-25-buggy,function_3,7,True,TRUE
+25,Mockito-25-buggy,function_3,8,,TRUE
+25,Mockito-25-buggy,function_3,9,True,TRUE
+25,Mockito-25-buggy,function_3,10,,TRUE
+25,Mockito-25-buggy,function_3,11,,FALSE
+25,Mockito-25-buggy,function_3,12,,FALSE
+25,Mockito-25-buggy,function_3,13,True,FALSE
+25,Mockito-25-buggy,function_3,14,,FALSE
+27,Mockito-27-buggy,function_1,1,Not Compilable,TRUE
+27,Mockito-27-buggy,function_1,2,Not Compilable,TRUE
+27,Mockito-27-buggy,function_1,3,Not Compilable,TRUE
+27,Mockito-27-buggy,function_1,4,Not Compilable,TRUE
+27,Mockito-27-buggy,function_1,5,Not Compilable,TRUE
+27,Mockito-27-buggy,function_1,6,Not Compilable,TRUE
+27,Mockito-27-buggy,function_1,7,Not Compilable,FALSE
+27,Mockito-27-buggy,function_1,8,Not Compilable,FALSE
+28,Mockito-28-buggy,function_1,1,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,2,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,3,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,4,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,5,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,6,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,7,Not Compilable,TRUE
+28,Mockito-28-buggy,function_1,8,Not Compilable,FALSE
+29,Mockito-29-buggy,function_1,1,,TRUE
+29,Mockito-29-buggy,function_1,2,True,TRUE
+29,Mockito-29-buggy,function_1,3,True,TRUE
+29,Mockito-29-buggy,function_1,4,True,TRUE
+29,Mockito-29-buggy,function_1,5,False,TRUE
+29,Mockito-29-buggy,function_1,6,,TRUE
+29,Mockito-29-buggy,function_1,7,True,TRUE
+29,Mockito-29-buggy,function_1,8,,TRUE
+29,Mockito-29-buggy,function_1,9,True,TRUE
+29,Mockito-29-buggy,function_1,10,True,TRUE
+29,Mockito-29-buggy,function_1,11,True,FALSE
+3,Mockito-3-buggy,function_1,1,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,2,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,3,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,4,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,5,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,6,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,7,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,8,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,9,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,10,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,11,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,12,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,13,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,14,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,15,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,16,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,17,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,18,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,19,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,20,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,21,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,22,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,23,Not Compilable,TRUE
+3,Mockito-3-buggy,function_1,24,Not Compilable,TRUE
+30,Mockito-30-buggy,function_1,1,,TRUE
+30,Mockito-30-buggy,function_1,2,True,TRUE
+30,Mockito-30-buggy,function_1,3,,TRUE
+30,Mockito-30-buggy,function_1,4,,TRUE
+30,Mockito-30-buggy,function_1,5,,TRUE
+30,Mockito-30-buggy,function_1,6,,TRUE
+30,Mockito-30-buggy,function_1,7,,TRUE
+30,Mockito-30-buggy,function_1,8,,TRUE
+30,Mockito-30-buggy,function_1,9,,FALSE
+30,Mockito-30-buggy,function_2,1,,TRUE
+30,Mockito-30-buggy,function_2,2,False,TRUE
+30,Mockito-30-buggy,function_2,3,False,TRUE
+30,Mockito-30-buggy,function_2,4,,FALSE
+30,Mockito-30-buggy,function_2,5,,TRUE
+30,Mockito-30-buggy,function_2,6,False,TRUE
+30,Mockito-30-buggy,function_2,7,False,TRUE
+30,Mockito-30-buggy,function_2,8,,FALSE
+31,Mockito-31-buggy,function_1,1,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,2,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,3,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,4,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,5,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,6,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,7,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,8,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,9,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,10,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,11,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,12,Not Compilable,TRUE
+31,Mockito-31-buggy,function_1,13,Not Compilable,FALSE
+31,Mockito-31-buggy,function_1,14,Not Compilable,FALSE
+32,Mockito-32-buggy,function_1,1,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,2,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,3,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,4,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,5,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,6,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,7,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,8,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,9,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,10,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,11,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,12,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,13,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,14,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,15,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,16,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,17,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,18,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,19,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,20,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,21,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,22,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,23,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,24,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,25,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,26,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,27,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,28,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,29,Not Compilable,TRUE
+32,Mockito-32-buggy,function_1,30,Not Compilable,FALSE
+32,Mockito-32-buggy,function_1,31,Not Compilable,FALSE
+32,Mockito-32-buggy,function_1,32,Not Compilable,FALSE
+32,Mockito-32-buggy,function_1,33,Not Compilable,FALSE
+33,Mockito-33-buggy,function_1,1,,TRUE
+33,Mockito-33-buggy,function_1,2,,TRUE
+33,Mockito-33-buggy,function_1,3,,TRUE
+33,Mockito-33-buggy,function_1,4,True,TRUE
+33,Mockito-33-buggy,function_1,5,True,TRUE
+33,Mockito-33-buggy,function_1,6,,TRUE
+33,Mockito-33-buggy,function_1,7,True,TRUE
+33,Mockito-33-buggy,function_1,8,True,TRUE
+33,Mockito-33-buggy,function_1,9,,TRUE
+33,Mockito-33-buggy,function_1,10,,TRUE
+33,Mockito-33-buggy,function_1,11,,TRUE
+33,Mockito-33-buggy,function_1,12,True,TRUE
+33,Mockito-33-buggy,function_1,13,,FALSE
+34,Mockito-34-buggy,function_1,1,,TRUE
+34,Mockito-34-buggy,function_1,2,True,TRUE
+34,Mockito-34-buggy,function_1,3,True,TRUE
+34,Mockito-34-buggy,function_1,4,True,TRUE
+34,Mockito-34-buggy,function_1,5,False,TRUE
+34,Mockito-34-buggy,function_1,6,,TRUE
+34,Mockito-34-buggy,function_1,7,True,TRUE
+34,Mockito-34-buggy,function_1,8,True,TRUE
+34,Mockito-34-buggy,function_1,9,True,TRUE
+35,Mockito-35-buggy,function_1,1,Not Compilable,TRUE
+35,Mockito-35-buggy,function_1,2,Not Compilable,TRUE
+35,Mockito-35-buggy,function_1,3,Not Compilable,TRUE
+35,Mockito-35-buggy,function_1,4,Not Compilable,TRUE
+35,Mockito-35-buggy,function_1,5,Not Compilable,TRUE
+35,Mockito-35-buggy,function_1,6,Not Compilable,FALSE
+35,Mockito-35-buggy,function_1,7,Not Compilable,FALSE
+35,Mockito-35-buggy,function_2,1,Not Compilable,TRUE
+35,Mockito-35-buggy,function_2,2,Not Compilable,TRUE
+35,Mockito-35-buggy,function_2,3,Not Compilable,TRUE
+35,Mockito-35-buggy,function_2,4,Not Compilable,TRUE
+35,Mockito-35-buggy,function_2,5,Not Compilable,TRUE
+35,Mockito-35-buggy,function_2,6,Not Compilable,FALSE
+35,Mockito-35-buggy,function_2,7,Not Compilable,FALSE
+35,Mockito-35-buggy,function_3,1,Not Compilable,TRUE
+35,Mockito-35-buggy,function_3,2,Not Compilable,TRUE
+35,Mockito-35-buggy,function_3,3,Not Compilable,TRUE
+35,Mockito-35-buggy,function_3,4,Not Compilable,TRUE
+35,Mockito-35-buggy,function_3,5,Not Compilable,TRUE
+35,Mockito-35-buggy,function_3,6,Not Compilable,FALSE
+35,Mockito-35-buggy,function_3,7,Not Compilable,FALSE
+36,Mockito-36-buggy,function_1,1,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,2,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,3,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,4,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,5,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,6,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,7,Not Compilable,TRUE
+36,Mockito-36-buggy,function_1,8,Not Compilable,FALSE
+36,Mockito-36-buggy,function_1,9,Not Compilable,FALSE
+37,Mockito-37-buggy,function_1,1,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,2,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,3,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,4,Not Compilable,FALSE
+37,Mockito-37-buggy,function_1,5,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,6,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,7,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,8,Not Compilable,FALSE
+37,Mockito-37-buggy,function_1,9,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,10,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,11,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,12,Not Compilable,FALSE
+37,Mockito-37-buggy,function_1,13,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,14,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,15,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,16,Not Compilable,TRUE
+37,Mockito-37-buggy,function_1,17,Not Compilable,FALSE
+38,Mockito-38-buggy,function_1,1,,TRUE
+38,Mockito-38-buggy,function_1,2,True,TRUE
+38,Mockito-38-buggy,function_1,3,True,TRUE
+38,Mockito-38-buggy,function_1,4,,TRUE
+38,Mockito-38-buggy,function_1,5,False,TRUE
+38,Mockito-38-buggy,function_1,6,,FALSE
+4,Mockito-4-buggy,function_1,1,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,2,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,3,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,4,Not Compilable,FALSE
+4,Mockito-4-buggy,function_1,5,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,6,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,7,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,8,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,9,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,10,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,11,Not Compilable,TRUE
+4,Mockito-4-buggy,function_1,12,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,1,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,2,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,3,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,4,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,5,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,6,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,7,Not Compilable,TRUE
+4,Mockito-4-buggy,function_2,8,Not Compilable,FALSE
+4,Mockito-4-buggy,function_3,1,Not Compilable,FALSE
+4,Mockito-4-buggy,function_3,2,Not Compilable,FALSE
+4,Mockito-4-buggy,function_3,3,Not Compilable,FALSE
+5,Mockito-5-buggy,function_1,1,,TRUE
+5,Mockito-5-buggy,function_1,2,False,TRUE
+5,Mockito-5-buggy,function_1,3,,TRUE
+5,Mockito-5-buggy,function_1,4,False,TRUE
+5,Mockito-5-buggy,function_1,5,False,TRUE
+5,Mockito-5-buggy,function_1,6,,TRUE
+5,Mockito-5-buggy,function_1,7,False,TRUE
+5,Mockito-5-buggy,function_1,8,,TRUE
+5,Mockito-5-buggy,function_1,9,False,TRUE
+5,Mockito-5-buggy,function_1,10,False,TRUE
+5,Mockito-5-buggy,function_1,11,,TRUE
+5,Mockito-5-buggy,function_1,12,False,TRUE
+5,Mockito-5-buggy,function_1,13,,TRUE
+5,Mockito-5-buggy,function_1,14,False,TRUE
+5,Mockito-5-buggy,function_1,15,False,TRUE
+5,Mockito-5-buggy,function_1,16,,TRUE
+5,Mockito-5-buggy,function_1,17,False,TRUE
+5,Mockito-5-buggy,function_1,18,False,TRUE
+5,Mockito-5-buggy,function_1,19,,TRUE
+5,Mockito-5-buggy,function_1,20,False,TRUE
+5,Mockito-5-buggy,function_1,21,False,TRUE
+5,Mockito-5-buggy,function_1,22,False,TRUE
+5,Mockito-5-buggy,function_1,23,,TRUE
+5,Mockito-5-buggy,function_1,24,,TRUE
+5,Mockito-5-buggy,function_1,25,False,TRUE
+5,Mockito-5-buggy,function_1,26,False,FALSE
+5,Mockito-5-buggy,function_1,27,,FALSE
+5,Mockito-5-buggy,function_1,28,False,FALSE
+6,Mockito-6-buggy,function_1,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_1,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_1,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_2,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_2,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_2,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_3,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_3,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_3,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_4,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_4,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_4,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_5,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_5,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_5,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_6,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_6,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_6,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_7,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_7,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_7,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_8,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_8,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_8,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_9,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_9,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_9,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_10,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_10,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_10,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_11,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_11,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_11,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_12,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_12,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_12,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_13,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_13,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_13,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_14,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_14,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_14,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_15,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_15,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_15,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_16,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_16,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_16,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_17,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_17,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_17,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_18,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_18,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_18,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_19,1,Not Compilable,TRUE
+6,Mockito-6-buggy,function_19,2,Not Compilable,TRUE
+6,Mockito-6-buggy,function_19,3,Not Compilable,FALSE
+6,Mockito-6-buggy,function_20,1,Not Compilable,FALSE
+6,Mockito-6-buggy,function_20,2,Not Compilable,FALSE
+6,Mockito-6-buggy,function_20,3,Not Compilable,FALSE
+7,Mockito-7-buggy,function_1,1,,TRUE
+7,Mockito-7-buggy,function_1,2,True,TRUE
+7,Mockito-7-buggy,function_1,3,True,TRUE
+7,Mockito-7-buggy,function_1,4,,TRUE
+7,Mockito-7-buggy,function_1,5,True,TRUE
+7,Mockito-7-buggy,function_1,6,True,TRUE
+7,Mockito-7-buggy,function_1,7,True,TRUE
+7,Mockito-7-buggy,function_1,8,,TRUE
+7,Mockito-7-buggy,function_1,9,True,FALSE
+8,Mockito-8-buggy,function_1,1,,TRUE
+8,Mockito-8-buggy,function_1,2,True,TRUE
+8,Mockito-8-buggy,function_1,3,True,TRUE
+8,Mockito-8-buggy,function_1,4,,FALSE
+8,Mockito-8-buggy,function_1,5,True,TRUE
+8,Mockito-8-buggy,function_1,6,True,TRUE
+8,Mockito-8-buggy,function_1,7,True,TRUE
+8,Mockito-8-buggy,function_1,8,True,TRUE
+8,Mockito-8-buggy,function_1,9,True,TRUE
+8,Mockito-8-buggy,function_1,10,True,TRUE
+8,Mockito-8-buggy,function_1,11,,TRUE
+8,Mockito-8-buggy,function_1,12,True,TRUE
+8,Mockito-8-buggy,function_1,13,False,TRUE
+8,Mockito-8-buggy,function_1,14,True,TRUE
+8,Mockito-8-buggy,function_1,15,True,TRUE
+8,Mockito-8-buggy,function_1,16,,TRUE
+8,Mockito-8-buggy,function_1,17,False,TRUE
+8,Mockito-8-buggy,function_1,18,,TRUE
+8,Mockito-8-buggy,function_1,19,,TRUE
+8,Mockito-8-buggy,function_1,20,,TRUE
+8,Mockito-8-buggy,function_1,21,True,TRUE
+9,Mockito-9-buggy,function_1,1,Not Compilable,TRUE
+9,Mockito-9-buggy,function_1,2,Not Compilable,TRUE
+9,Mockito-9-buggy,function_1,3,Not Compilable,TRUE
+9,Mockito-9-buggy,function_1,4,Not Compilable,TRUE
+9,Mockito-9-buggy,function_1,5,Not Compilable,TRUE
+9,Mockito-9-buggy,function_1,6,Not Compilable,TRUE

@@ -1,0 +1,16 @@
+==== 2026-05-12 23:35:25 :: Time-19_9-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_paris
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::testPeriod
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_athens
+---- 退出码：0 | Time-19_9-buggy
+

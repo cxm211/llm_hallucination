@@ -1,0 +1,36 @@
+==== 2026-05-17 17:46:19 :: Math-43-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 27
+  - org.apache.commons.math.ode.JacobianMatricesTest::testLowAccuracyExternalDifferentiation
+  - org.apache.commons.math.ode.JacobianMatricesTest::testHighAccuracyExternalDifferentiation
+  - org.apache.commons.math.ode.JacobianMatricesTest::testAnalyticalDifferentiation
+  - org.apache.commons.math.ode.JacobianMatricesTest::testInternalDifferentiation
+  - org.apache.commons.math.stat.CertifiedDataTest::testSummaryStatistics
+  - org.apache.commons.math.stat.data.LewTest::testCertifiedValues
+  - org.apache.commons.math.stat.data.LotteryTest::testCertifiedValues
+  - org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest::testAggregate
+  - org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest::testAggregateDegenerate
+  - org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest::testSummaryConsistency
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testGetSummary
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testStats
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testNaNContracts
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testN0andN1Conditions
+  - org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest::testSummaryConsistency
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testGetSummary
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testStats
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testNaNContracts
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testN0andN1Conditions
+  - org.apache.commons.math.stat.inference.TTestTest::testOneSampleTTest
+  - org.apache.commons.math.stat.inference.TTestTest::testTwoSampleTHeterscedastic
+  - org.apache.commons.math.stat.inference.TTestTest::testOneSampleT
+  - org.apache.commons.math.stat.inference.TTestTest::testTwoSampleTHomoscedastic
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testOneSampleTTest
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testTwoSampleTHeterscedastic
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testOneSampleT
+  - org.apache.commons.math.stat.inference.TestUtilsTest::testTwoSampleTHomoscedastic
+---- 退出码：0 | Math-43-buggy
+

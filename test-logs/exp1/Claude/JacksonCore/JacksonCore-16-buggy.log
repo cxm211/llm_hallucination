@@ -1,0 +1,10 @@
+==== 2026-05-11 23:33:08 :: JacksonCore-16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.core.json.ParserSequenceTest::testInitialized
+---- 退出码：0 | JacksonCore-16-buggy
+

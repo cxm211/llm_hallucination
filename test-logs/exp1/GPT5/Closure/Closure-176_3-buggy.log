@@ -1,0 +1,17 @@
+==== 2026-05-19 17:04:46 :: Closure-176_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testIssue124b
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testIssue124
+  - com.google.javascript.jscomp.TypeCheckTest::testBug7701884
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1056
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue124
+---- 退出码：0 | Closure-176_3-buggy
+

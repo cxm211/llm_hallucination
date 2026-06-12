@@ -1,0 +1,10 @@
+==== 2026-01-10 20:13:42 :: Mockito-18_9-buggy ====
+>>> `ant clean` 已执行，退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_empty_iterable
+---- 退出码：0 | Mockito-18_9-buggy
+

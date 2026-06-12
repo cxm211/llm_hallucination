@@ -1,0 +1,60 @@
+==== 2026-05-01 04:09:46 :: Gson-13-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 40
+  - com.google.gson.JavaSerializationTest::testNumberIsSerializable
+  - com.google.gson.functional.ArrayTest::testArrayOfPrimitivesAsObjectsDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testBigIntegerFieldDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testBigDecimalFieldDeserialization
+  - com.google.gson.functional.ExposeFieldsTest::testExposeAnnotationDeserialization
+  - com.google.gson.functional.InheritanceTest::testSubInterfacesOfCollectionDeserialization
+  - com.google.gson.functional.ObjectTest::testStringFieldWithNumberValueDeserialization
+  - com.google.gson.functional.ParameterizedTypesTest::testTypesWithMultipleParametersDeserialization
+  - com.google.gson.functional.PrimitiveTest::testSmallValueForBigDecimalDeserialization
+  - com.google.gson.functional.PrimitiveTest::testDeserializingBigDecimalAsFloat
+  - com.google.gson.functional.PrimitiveTest::testNumberDeserialization
+  - com.google.gson.functional.PrimitiveTest::testDeserializingBigIntegerAsBigDecimal
+  - com.google.gson.functional.PrimitiveTest::testLargeDoubleDeserialization
+  - com.google.gson.functional.PrimitiveTest::testValueVeryCloseToZeroIsZero
+  - com.google.gson.functional.PrimitiveTest::testBigDecimalDeserialization
+  - com.google.gson.functional.PrimitiveTest::testBigDecimalAsStringRepresentationDeserialization
+  - com.google.gson.functional.PrimitiveTest::testDoubleNoFractAsStringRepresentationDeserialization
+  - com.google.gson.functional.PrimitiveTest::testDeserializingBigDecimalAsDouble
+  - com.google.gson.functional.PrimitiveTest::testBigIntegerDeserialization
+  - com.google.gson.functional.PrimitiveTest::testBigDecimalNoFractAsStringRepresentationDeserialization
+  - com.google.gson.functional.PrimitiveTest::testPrimitiveDoubleAutoboxedDeserialization
+  - com.google.gson.functional.PrimitiveTest::testDeserializingDecimalPointValueZeroSucceeds
+  - com.google.gson.functional.PrimitiveTest::testDoubleArrayDeserialization
+  - com.google.gson.functional.PrimitiveTest::testBigDecimalPreservePrecisionDeserialization
+  - com.google.gson.functional.PrimitiveTest::testDoubleAsStringRepresentationDeserialization
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testNullSafe
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserialize1dArray
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserialize2dArray
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserializeWithCustomTypeAdapter
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserializeNullField
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserializeNullObject
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserializeMap
+  - com.google.gson.functional.StreamingTypeAdaptersTest::testDeserialize
+  - com.google.gson.stream.JsonReaderTest::testIntegerMismatchFailuresDoNotAdvance
+  - com.google.gson.stream.JsonReaderTest::testSkipDouble
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonReaderTest::testPeekMuchLargerThanLongMinValue
+  - com.google.gson.stream.JsonReaderTest::testIntegersWithFractionalPartSpecified
+  - com.google.gson.stream.JsonReaderTest::testNegativeZero
+  - com.google.gson.stream.JsonReaderTest::testDoubles
+---- 主命令退出码：0 | Gson-13-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t com.google.gson.stream.JsonReaderTest::testNegativeZero
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonReaderTest::testNegativeZero
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-13-buggy/jacoco.exec.
+[INFO] Analyzing 156 classes.
+>>> [JACOCO] 结束

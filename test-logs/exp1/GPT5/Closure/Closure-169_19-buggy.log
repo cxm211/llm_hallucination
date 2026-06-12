@@ -1,0 +1,40 @@
+==== 2026-05-19 14:38:18 :: Closure-169_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 31
+  - com.google.javascript.jscomp.IntegrationTest::testMemoizedTypedScopeCreator
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSuperClassDefinedAfterSubClass1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testSuperClassDefinedAfterSubClass2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceAssignment10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceAssignment11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testNestedCasts
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty21
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty22
+  - com.google.javascript.jscomp.TypeCheckTest::testSuperClassDefinedAfterSubClass1
+  - com.google.javascript.jscomp.TypeCheckTest::testSuperClassDefinedAfterSubClass2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue791
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceAssignment10
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceAssignment11
+  - com.google.javascript.jscomp.TypeCheckTest::testNestedCasts
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty15
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty21
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty22
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty33
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty40
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty41
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty42
+  - com.google.javascript.jscomp.TypeInferenceTest::testFor6
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType11
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+  - com.google.javascript.rhino.jstype.JSTypeTest::testForwardDeclaredNamedTypeEquals
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNullType
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNamedTypeEquals2
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSubtypeWithUnknowns2
+  - com.google.javascript.rhino.jstype.UnionTypeBuilderTest::testUnknownTypes
+  - com.google.javascript.rhino.jstype.UnionTypeTest::testUnionType
+---- 退出码：0 | Closure-169_19-buggy
+

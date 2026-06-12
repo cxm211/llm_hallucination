@@ -1,0 +1,54 @@
+==== 2026-05-12 23:46:28 :: Time-26_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 45
+  - org.joda.time.TestDateTimeUtils::testGetIntervalChronology_RInterval
+  - org.joda.time.TestDateTimeUtils::testGetInstantChronology_RI
+  - org.joda.time.TestDateTimeUtils::testGetChronology_Chronology
+  - org.joda.time.TestDateTimeUtils::testGetIntervalChronology_RI_RI
+  - org.joda.time.TestDateTimeZoneCutover::testWithSecondOfMinuteInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_usCentral
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_Paris_summer
+  - org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_NewYork_winter
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_ausNSW
+  - org.joda.time.chrono.TestLenientChronology::test_lenientChrononolgy_Turk
+  - org.joda.time.chrono.TestLenientChronology::test_lenientChrononolgy_Chicago
+  - org.joda.time.chrono.TestLenientChronology::testNearDstTransition
+  - org.joda.time.convert.TestCalendarConverter::testGetPartialValues
+  - org.joda.time.convert.TestDateConverter::testGetPartialValues
+  - org.joda.time.convert.TestLongConverter::testGetPartialValues
+  - org.joda.time.convert.TestReadableInstantConverter::testGetPartialValues
+  - org.joda.time.convert.TestReadableIntervalConverter::testSetIntoInterval_Object1
+  - org.joda.time.convert.TestReadableIntervalConverter::testSetIntoInterval_Object2
+  - org.joda.time.convert.TestReadableIntervalConverter::testSetIntoInterval_Object3
+  - org.joda.time.convert.TestReadableIntervalConverter::testSetIntoInterval_Object4
+  - org.joda.time.convert.TestReadablePartialConverter::testToString
+  - org.joda.time.convert.TestReadablePartialConverter::testGetChronology_Object_Zone
+  - org.joda.time.convert.TestReadablePartialConverter::testSingleton
+  - org.joda.time.convert.TestReadablePartialConverter::testGetPartialValues
+  - org.joda.time.convert.TestReadablePartialConverter::testGetChronology_Object_Chronology
+  - org.joda.time.convert.TestReadablePartialConverter::testSupportedType
+  - org.joda.time.field.TestOffsetDateTimeField::test_set_long_String
+  - org.joda.time.field.TestOffsetDateTimeField::test_isLeap_long
+  - org.joda.time.field.TestOffsetDateTimeField::test_roundHalfEven_long
+  - org.joda.time.field.TestOffsetDateTimeField::test_getAsShortText_long
+  - org.joda.time.field.TestOffsetDateTimeField::test_get
+  - org.joda.time.field.TestOffsetDateTimeField::test_getAsText_long
+  - org.joda.time.field.TestOffsetDateTimeField::test_add_long_int
+  - org.joda.time.field.TestOffsetDateTimeField::test_add_long_long
+  - org.joda.time.field.TestOffsetDateTimeField::test_remainder_long
+  - org.joda.time.field.TestOffsetDateTimeField::test_getAsShortText_long_Locale
+  - org.joda.time.field.TestOffsetDateTimeField::test_set_long_int
+  - org.joda.time.field.TestOffsetDateTimeField::test_getAsText_long_Locale
+  - org.joda.time.field.TestOffsetDateTimeField::test_addWrapField_long_int
+  - org.joda.time.field.TestOffsetDateTimeField::test_set_long_String_Locale
+  - org.joda.time.field.TestOffsetDateTimeField::test_getLeapAmount_long
+  - org.joda.time.format.TestDateTimeFormatter::testPrint_chrono_and_zone
+---- 退出码：0 | Time-26_4-buggy
+

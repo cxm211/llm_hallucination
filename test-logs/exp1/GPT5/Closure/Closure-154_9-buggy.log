@@ -1,0 +1,18 @@
+==== 2026-05-19 12:41:23 :: Closure-154_9-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck6
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInterfaceInheritanceCheck7
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck12
+  - com.google.javascript.jscomp.TypeCheckTest::testDataPropertyOnInterface2
+  - com.google.javascript.jscomp.TypeCheckTest::testDataPropertyOnInterface3
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck5
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck6
+  - com.google.javascript.jscomp.TypeCheckTest::testInterfaceInheritanceCheck7
+---- 退出码：0 | Closure-154_9-buggy
+

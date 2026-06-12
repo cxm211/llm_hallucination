@@ -1,0 +1,14 @@
+==== 2026-05-28 14:25:57 :: Closure-169-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.IntegrationTest::testMemoizedTypedScopeCreator
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue791
+  - com.google.javascript.rhino.jstype.JSTypeTest::testForwardDeclaredNamedTypeEquals
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNamedTypeEquals2
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSubtypeWithUnknowns2
+---- 退出码：0 | Closure-169-buggy
+

@@ -1,0 +1,13 @@
+==== 2026-05-09 21:22:28 :: Chart-18-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955
+  - org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+  - org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2
+---- 退出码：0 | Chart-18-buggy
+

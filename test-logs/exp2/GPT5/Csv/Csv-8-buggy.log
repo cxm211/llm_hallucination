@@ -1,0 +1,25 @@
+==== 2026-03-31 18:35:14 :: Csv-8-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.csv.CSVFormatTest::testQuotePolicyNoneWithoutEscapeThrowsException
+  - org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElements
+---- 主命令退出码：0 | Csv-8-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElements
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.csv.CSVFormatTest::testDuplicateHeaderElements
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Csv/Csv-8-buggy/jacoco.exec.
+[INFO] Analyzing 12 classes.
+>>> [JACOCO] 结束

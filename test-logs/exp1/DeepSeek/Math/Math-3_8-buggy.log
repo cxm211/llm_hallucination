@@ -1,0 +1,10 @@
+==== 2026-01-11 06:50:46 :: Math-3_8-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math3.util.MathArraysTest::testLinearCombination2
+---- 退出码：0 | Math-3_8-buggy
+

@@ -1,0 +1,32 @@
+==== 2026-05-24 16:08:51 :: JacksonCore-2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 23
+  - com.fasterxml.jackson.core.json.TestComments::testCommentsWithUTF8
+  - com.fasterxml.jackson.core.json.TestComments::testYAMLCommentsBytes
+  - com.fasterxml.jackson.core.json.TestComments::testCommentsEnabled
+  - com.fasterxml.jackson.core.json.TestJsonParser::testSpecExampleFully
+  - com.fasterxml.jackson.core.json.TestJsonParser::testSpecExampleSkipping
+  - com.fasterxml.jackson.core.json.TestJsonParser::testKeywords
+  - com.fasterxml.jackson.core.json.TestNumericValues::testSimpleDouble
+  - com.fasterxml.jackson.core.json.TestNumericValues::testParsingOfLongerSequences
+  - com.fasterxml.jackson.core.json.TestNumericValues::testNumbers
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersBytes
+  - com.fasterxml.jackson.core.json.TestParserErrorHandling::testMangledNumbersChars
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLargeUnquoted
+  - com.fasterxml.jackson.core.json.TestRootValueParsing::testSimpleBooleans
+  - com.fasterxml.jackson.core.json.TestRootValueParsing::testSimpleNumbers
+  - com.fasterxml.jackson.core.json.TestValueConversions::testAsInt
+  - com.fasterxml.jackson.core.json.TestValueConversions::testAsDouble
+  - com.fasterxml.jackson.core.json.TestValueConversions::testAsLong
+  - com.fasterxml.jackson.core.main.TestArrayParsing::testValidEmpty
+  - com.fasterxml.jackson.core.main.TestGeneratorMisc::testLongerObjects
+  - com.fasterxml.jackson.core.main.TestParserLinefeeds::testCRLF
+  - com.fasterxml.jackson.core.main.TestParserLinefeeds::testCR
+  - com.fasterxml.jackson.core.main.TestParserLinefeeds::testLF
+  - com.fasterxml.jackson.core.main.TestRawStringWriting::testUtf8StringsWithEscaping
+---- 退出码：0 | JacksonCore-2-buggy
+

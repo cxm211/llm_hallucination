@@ -1,0 +1,10 @@
+==== 2025-10-22 16:36:27 :: JacksonDatabind-105_5-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.fasterxml.jackson.databind.deser.jdk.JDKScalarsTest::testVoidDeser
+---- 退出码：0 | JacksonDatabind-105_5-buggy
+

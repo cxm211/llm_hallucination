@@ -1,0 +1,14 @@
+==== 2026-05-11 21:30:21 :: Compress-8-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.compress.archivers.TarTestCase::testFileEntryFromFile
+  - org.apache.commons.compress.archivers.TarTestCase::testDirectoryEntryFromFile
+  - org.apache.commons.compress.archivers.TarTestCase::testExplicitDirectoryEntry
+  - org.apache.commons.compress.archivers.TarTestCase::testExplicitFileEntry
+  - org.apache.commons.compress.archivers.tar.TarUtilsTest::testParseOctalInvalid
+---- 退出码：0 | Compress-8-buggy
+

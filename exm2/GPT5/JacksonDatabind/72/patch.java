@@ -1,0 +1,1 @@
+public int getPropertyIndex() { return (_delegate == null) ? -1 : _delegate.getPropertyIndex(); }

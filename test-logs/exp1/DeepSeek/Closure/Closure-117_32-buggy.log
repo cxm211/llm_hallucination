@@ -1,0 +1,10 @@
+==== 2026-01-29 02:45:08 :: Closure-117_32-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+---- 退出码：0 | Closure-117_32-buggy
+

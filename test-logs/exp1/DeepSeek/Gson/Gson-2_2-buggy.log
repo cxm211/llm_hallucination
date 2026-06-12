@@ -1,0 +1,16 @@
+==== 2026-05-28 16:59:28 :: Gson-2_2-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.gson.DefaultInetAddressTypeAdapterTest::testInetAddressSerializationAndDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonObjectDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonArrayDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonElementTypeMismatch
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonNullDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonNullSerialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonPrimitiveDeserialization
+---- 退出码：0 | Gson-2_2-buggy
+

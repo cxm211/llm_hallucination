@@ -1,0 +1,57 @@
+==== 2026-05-01 09:51:58 :: Time-16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+---- 主命令退出码：0 | Time-16-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+[JACOCO] defects4j test -t org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-16-buggy/jacoco.exec.
+[INFO] Analyzing 204 classes.
+>>> [JACOCO] 结束

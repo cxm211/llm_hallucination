@@ -1,0 +1,8 @@
+==== 2026-05-23 09:58:33 :: Closure-157_1-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Cannot open config file (/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-157_1-buggy/.defects4j.config): No such file or directory
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-157_1-buggy is not a valid working directory!
+---- 退出码：1 | Closure-157_1-buggy
+

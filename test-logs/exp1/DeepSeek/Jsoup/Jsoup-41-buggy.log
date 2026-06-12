@@ -1,0 +1,30 @@
+==== 2026-05-29 01:35:10 :: Jsoup-41-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 21
+  - org.jsoup.nodes.ElementTest::testElementSiblingIndex
+  - org.jsoup.nodes.ElementTest::testHashAndEquals
+  - org.jsoup.parser.HtmlParserTest::handlesUnclosedDefinitionLists
+  - org.jsoup.select.CssTest::nthLastOfType_advanced
+  - org.jsoup.select.CssTest::nthChild_advanced
+  - org.jsoup.select.CssTest::firstChild
+  - org.jsoup.select.CssTest::nthLastOfType_simple
+  - org.jsoup.select.CssTest::nthLastChild_simple
+  - org.jsoup.select.CssTest::nthChild_simple
+  - org.jsoup.select.CssTest::nthLastChild_advanced
+  - org.jsoup.select.CssTest::lastOfType
+  - org.jsoup.select.CssTest::lastChild
+  - org.jsoup.select.SelectorTest::testPseudoEquals
+  - org.jsoup.select.SelectorTest::testCombinedWithContains
+  - org.jsoup.select.SelectorTest::testPseudoGreaterThan
+  - org.jsoup.select.SelectorTest::mixCombinator
+  - org.jsoup.select.SelectorTest::testPseudoBetween
+  - org.jsoup.select.SelectorTest::testPseudoLessThan
+  - org.jsoup.select.SelectorTest::testPseudoCombined
+  - org.jsoup.select.SelectorTest::adjacentSiblings
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- 退出码：0 | Jsoup-41-buggy
+

@@ -1,0 +1,11 @@
+==== 2026-01-10 16:22:01 :: Mockito-1_4-buggy ====
+>>> `ant clean` 已执行，退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldStubBooleanVarargs
+  - org.mockitousage.basicapi.UsingVarargsTest::shouldVerifyBooleanVarargs
+---- 退出码：0 | Mockito-1_4-buggy
+

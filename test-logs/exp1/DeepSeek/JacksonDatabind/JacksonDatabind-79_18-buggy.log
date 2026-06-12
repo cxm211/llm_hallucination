@@ -1,0 +1,13 @@
+==== 2026-01-19 23:56:50 :: JacksonDatabind-79_18-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest::testIssue1607
+  - com.fasterxml.jackson.databind.objectid.TestObjectId::testMixedRefsIssue188
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdSerialization::testAlwaysAsId
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+---- 退出码：0 | JacksonDatabind-79_18-buggy
+

@@ -1,0 +1,12 @@
+==== 2026-05-29 02:33:39 :: Mockito-9_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodStubbed
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethod
+  - org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodReturnsDefault
+---- 退出码：0 | Mockito-9_3-buggy
+

@@ -1,0 +1,37 @@
+==== 2026-05-17 19:41:11 :: Time-25_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 28
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_NewYork
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_Berlin
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourForward_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_day_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusHour_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_hour_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_day_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_minute_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Guatemata_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_MutableDateTime_withZoneRetainFields_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_hour_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDayMidGap_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourAcross_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_minute_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_newValid_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_newValid_Turk
+---- 退出码：0 | Time-25_2-buggy
+

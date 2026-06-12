@@ -1,0 +1,17 @@
+==== 2026-05-28 06:31:37 :: Closure-84_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+  - com.google.javascript.jscomp.UnfoldCompoundAssignmentsTest::testPrefixWithinLargerExpression
+  - com.google.javascript.jscomp.jsonml.JsonMLConversionTest::testFor
+  - com.google.javascript.jscomp.jsonml.JsonMLConversionTest::testDecIncOperators
+  - com.google.javascript.jscomp.jsonml.JsonMLConversionTest::testDoWhile
+  - com.google.javascript.jscomp.parsing.IRFactoryTest::testUnary3
+  - com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden4
+---- 退出码：0 | Closure-84_3-buggy
+

@@ -1,0 +1,31 @@
+==== 2026-03-31 16:29:04 :: Codec-2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByChunk
+  - org.apache.commons.codec.binary.Base64InputStreamTest::testBase64InputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByteByByte
+  - org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64OutputStreamByChunk
+  - org.apache.commons.codec.binary.Base64Test::testSingletonsChunked
+---- 主命令退出码：0 | Codec-2-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64InputStreamTest::testBase64EmptyInputStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.codec.binary.Base64OutputStreamTest::testBase64EmptyOutputStream
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Codec/Codec-2-buggy/jacoco.exec.
+[INFO] Analyzing 22 classes.
+>>> [JACOCO] 结束

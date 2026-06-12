@@ -1,0 +1,120 @@
+==== 2026-03-31 18:09:20 :: JacksonCore-9-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-core-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 84 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/base/ParserMinimalBase.java:387: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/base/ParserMinimalBase.java:395: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:19: error: ReaderBasedJsonParser is not abstract and does not override abstract method getValueAsString(String) in JsonParser
+    [javac] public class ReaderBasedJsonParser // final in 2.3, earlier
+    [javac]        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:243: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:253: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(null);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:257: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:266: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(defValue);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:305: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(null);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:319: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(defValue);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/util/VersionUtil.java:108: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 return ((Versioned) vClass.newInstance()).version();
+    [javac]                                           ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 9 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/maven-build.xml:74: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 主命令退出码：1 | JacksonCore-9-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextBytes
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy  compile.tests 2>&1
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/Users/grace/Documents/Paper/BugFixing/Interpretation/jacoco/lib/jacocoagent.jar=destfile=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/jacoco.exec,append=true,output=file
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-core-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/maven-build.xml:74: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/base/ParserMinimalBase.java:387: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/base/ParserMinimalBase.java:395: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:19: error: ReaderBasedJsonParser is not abstract and does not override abstract method getValueAsString(String) in JsonParser
+    [javac] public class ReaderBasedJsonParser // final in 2.3, earlier
+    [javac]        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:243: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:253: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(null);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:257: error: method does not override or implement a method from a supertype
+    [javac]     @Override
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java:266: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(defValue);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:305: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(null);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java:319: error: abstract method getValueAsString(String) in JsonParser cannot be accessed directly
+    [javac]             return super.getValueAsString(defValue);
+    [javac]                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/src/main/java/com/fasterxml/jackson/core/util/VersionUtil.java:108: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                 return ((Versioned) vClass.newInstance()).version();
+    [javac]                                           ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 9 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonCore/JacksonCore-9-buggy/maven-build.xml:74: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 134.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+>>> [JACOCO] 失败：defects4j test -t failed (1) for com.fasterxml.jackson.core.json.TestJsonParser::testGetValueAsTextBytes
+>>> [JACOCO] 结束

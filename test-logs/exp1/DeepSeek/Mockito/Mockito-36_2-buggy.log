@@ -1,0 +1,11 @@
+==== 2026-05-29 03:11:34 :: Mockito-36_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockito.internal.invocation.InvocationTest::shouldScreamWhenCallingRealMethodOnInterface
+  - org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailInRuntimeWhenCallingRealMethodOnInterface
+---- 退出码：0 | Mockito-36_2-buggy
+

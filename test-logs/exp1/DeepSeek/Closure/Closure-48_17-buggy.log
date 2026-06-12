@@ -1,0 +1,20 @@
+==== 2026-05-28 01:49:44 :: Closure-48_17-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testQualifiedNameInference1
+  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis2
+  - com.google.javascript.jscomp.TypeCheckTest::testUndeclaredGlobalProperty1
+  - com.google.javascript.jscomp.TypeCheckTest::testUndeclaredGlobalProperty2
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference1
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue586
+  - com.google.javascript.jscomp.TypeCheckTest::testLocallyInferredGlobalProperty1
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testMethodBeforeFunction2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertiesOnInterface2
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testBogusPrototypeInit
+---- 退出码：0 | Closure-48_17-buggy
+

@@ -1,0 +1,15 @@
+==== 2026-05-12 23:00:08 :: Time-2_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.joda.time.TestPartial_Basics::testWith_baseAndArgHaveNoRange
+  - org.joda.time.TestPartial_Basics::testToString5
+  - org.joda.time.TestPartial_Basics::testWith3e
+  - org.joda.time.TestPartial_Basics::testWith3f
+  - org.joda.time.TestPartial_Basics::testGetFormatter2
+  - org.joda.time.TestPartial_Constructors::testConstructorEx8_TypeArray_intArray
+---- 退出码：0 | Time-2_4-buggy
+

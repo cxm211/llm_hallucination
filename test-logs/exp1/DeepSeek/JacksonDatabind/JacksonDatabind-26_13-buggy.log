@@ -1,0 +1,65 @@
+==== 2026-01-18 17:18:32 :: JacksonDatabind-26_13-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 56
+  - com.fasterxml.jackson.databind.TestJDKSerialization::testEnumHandlers
+  - com.fasterxml.jackson.databind.deser.TestJacksonTypes::testJsonLocation
+  - com.fasterxml.jackson.databind.deser.TestPolymorphicDeserialization676::testDeSerCorrect
+  - com.fasterxml.jackson.databind.deser.TestPolymorphicDeserialization676::testDeSerFail
+  - com.fasterxml.jackson.databind.filter.IgnorePropsTest::testIgnoreViaPropForUntyped
+  - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging::testSharedTypeInfoWithCtor
+  - com.fasterxml.jackson.databind.introspect.TestAnnotationMerging::testSharedTypeInfo
+  - com.fasterxml.jackson.databind.jsonschema.TestGenerateJsonSchema::testUnwrapping
+  - com.fasterxml.jackson.databind.jsontype.TestCustomTypeIdResolver::testCustomWithExternal
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForEnums::testSimpleEnumsAsField
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testFeature432
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testJackson311
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testIssue352
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testTokenBuffer
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForScalars::test417
+  - com.fasterxml.jackson.databind.jsontype.TestEnumTyping::testUntypedEnum
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testWithNaturalScalar118
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testExternalTypeWithCreator
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testWithAsValue
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testSimpleSerialization
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testWithScalar118
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testIssue798
+  - com.fasterxml.jackson.databind.jsontype.TestExternalId::testMultipleTypeIdsDeserialization
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleField
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleArrayField
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleMapMethod
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleMethod
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleListMethod
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleMapField
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleListField
+  - com.fasterxml.jackson.databind.jsontype.TestPropertyTypeInfo::testSimpleArrayMethod
+  - com.fasterxml.jackson.databind.jsontype.TestScalars::testScalarsViaAbstractType
+  - com.fasterxml.jackson.databind.jsontype.TestScalars::testScalarsWithTyping
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypes::testViaAtomic
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypesExistingProperty::testExistingPropertySerializationCars
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypesExistingProperty::testExistingPropertySerializationAnimals
+  - com.fasterxml.jackson.databind.jsontype.TestSubtypesExistingProperty::testExistingPropertySerializationFruits
+  - com.fasterxml.jackson.databind.jsontype.TestTypedSerialization::testTypeAsArray
+  - com.fasterxml.jackson.databind.jsontype.TestWithGenerics::testValueWithMoreGenericParameters
+  - com.fasterxml.jackson.databind.jsontype.TestWithGenerics::testJackson387
+  - com.fasterxml.jackson.databind.jsontype.TestWithGenerics::testJackson430
+  - com.fasterxml.jackson.databind.objectid.JSOGDeserialize622Test::testPolymorphicRoundTrip
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdWithPolymorphic::testPolymorphicRoundtrip
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.RawValueTest::testSimpleStringGetter
+  - com.fasterxml.jackson.databind.ser.RawValueTest::testSimpleNonStringGetter
+  - com.fasterxml.jackson.databind.ser.TestGenericTypes::testUnboundTypes
+  - com.fasterxml.jackson.databind.ser.TestJacksonTypes::testLocation
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testMixedTypingForClass
+  - com.fasterxml.jackson.databind.ser.TestVirtualProperties::testCustomProperties
+  - com.fasterxml.jackson.databind.ser.TestVirtualProperties::testAttributePropInclusion
+  - com.fasterxml.jackson.databind.ser.TestVirtualProperties::testAttributeProperties
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testIssue226
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testDeepPrefixedUnwrappingSerialize
+  - com.fasterxml.jackson.databind.struct.TestUnwrappedWithPrefix::testHierarchicConfigSerialize
+  - com.fasterxml.jackson.databind.type.TestGenericFieldInSubtype::test677
+---- 退出码：0 | JacksonDatabind-26_13-buggy
+

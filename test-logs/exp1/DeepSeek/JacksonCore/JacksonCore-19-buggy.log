@@ -1,0 +1,20 @@
+==== 2026-05-28 17:06:39 :: JacksonCore-19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - com.fasterxml.jackson.core.json.ArrayGenerationTest::testLongArray
+  - com.fasterxml.jackson.core.json.ArrayGenerationTest::testIntArray
+  - com.fasterxml.jackson.core.json.GeneratorBasicTest::testLongValueWrite
+  - com.fasterxml.jackson.core.json.GeneratorBasicTest::testIntValueWrite
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextBooleanValue
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextNameWithLongContent
+  - com.fasterxml.jackson.core.json.TestNumericValues::testSimpleInt
+  - com.fasterxml.jackson.core.json.TestNumericValues::testLongerFloatingPoint
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLeadingZeroesReader
+  - com.fasterxml.jackson.core.json.TestValueConversions::testAsBoolean
+  - com.fasterxml.jackson.core.json.TestWithTonsaSymbols::testReaderParser
+---- 退出码：0 | JacksonCore-19-buggy
+

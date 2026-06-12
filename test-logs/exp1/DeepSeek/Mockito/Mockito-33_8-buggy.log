@@ -1,0 +1,11 @@
+==== 2026-01-11 02:31:35 :: Mockito-33_8-buggy ====
+>>> `ant clean` 已执行，退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWork
+  - org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldVerificationWorks
+---- 退出码：0 | Mockito-33_8-buggy
+

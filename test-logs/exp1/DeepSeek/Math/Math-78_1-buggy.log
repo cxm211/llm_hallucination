@@ -1,0 +1,23 @@
+==== 2026-01-11 23:08:48 :: Math-78_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.math.ode.ContinuousOutputModelTest::testModelsMerging
+  - org.apache.commons.math.ode.events.EventStateTest::closeEvents
+  - org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegratorTest::backward
+  - org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::backward
+  - org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testDecreasingSteps
+  - org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest::testSmallLastStep
+  - org.apache.commons.math.ode.nonstiff.DormandPrince54IntegratorTest::testEvents
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testBackward
+  - org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testEvents
+  - org.apache.commons.math.ode.nonstiff.EulerIntegratorTest::testDecreasingSteps
+  - org.apache.commons.math.ode.nonstiff.GillIntegratorTest::testDecreasingSteps
+  - org.apache.commons.math.ode.nonstiff.GraggBulirschStoerIntegratorTest::testEvents
+  - org.apache.commons.math.ode.nonstiff.MidpointIntegratorTest::testDecreasingSteps
+  - org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegratorTest::testDecreasingSteps
+---- 退出码：0 | Math-78_1-buggy
+

@@ -1,0 +1,28 @@
+==== 2026-05-19 08:40:38 :: Closure-106_2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 19
+  - com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth1_1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth1_2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth1_3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth2_1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth2_2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForClassDepth2_3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceDefinedInLocalScope
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testChainedAssignments7
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForEnumDepth2_3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testGlobalObjectNameInBooleanExpressionDepth3
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInLocalScope1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInLocalScope2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInGlobalScope1
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testNamespaceResetInGlobalScope2
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator
+  - com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildTypeOfUncollapsibleObjectInLocalScope
+---- 退出码：0 | Closure-106_2-buggy
+

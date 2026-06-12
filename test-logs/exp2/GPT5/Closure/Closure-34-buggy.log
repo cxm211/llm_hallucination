@@ -1,0 +1,58 @@
+==== 2026-03-31 13:05:58 :: Closure-34-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 35
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsAssign
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMember
+  - com.google.javascript.jscomp.CodePrinterTest::testOptionalTypesAnnotation
+  - com.google.javascript.jscomp.CodePrinterTest::testTempConstructor
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsInterface
+  - com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter4
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher2
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMultipleInterface
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsImplements
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsNamespace
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation1
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation2
+  - com.google.javascript.jscomp.CodePrinterTest::testCommaSpacing
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+  - com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter
+  - com.google.javascript.jscomp.CodePrinterTest::testU2UFunctionTypeAnnotation
+  - com.google.javascript.jscomp.CodePrinterTest::testVariableArgumentsTypesAnnotation
+  - com.google.javascript.jscomp.CodePrinterTest::testEmitUnknownParamTypesAsAllType
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMemberSubclass
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportDontEmitPrototypePathPrefix
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple
+  - com.google.javascript.jscomp.ExternExportsPassTest::testTypedef
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithConstructor
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolDefinedInVar
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportEnum
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbol
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportFunctionWithVariableArguments
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple2
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple3
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithTypeAnnotation
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithConstructorWithoutTypeCheck
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportProperty
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithoutTypeCheck
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportFunctionWithOptionalArguments
+---- 主命令退出码：0 | Closure-34-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-34-buggy/jacoco.exec.
+[INFO] Analyzing 1144 classes.
+>>> [JACOCO] 结束

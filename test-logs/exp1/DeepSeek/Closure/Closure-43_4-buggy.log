@@ -1,0 +1,30 @@
+==== 2026-05-28 00:53:20 :: Closure-43_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 21
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOneVar3
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testOneVar4
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType3
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes3
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef2a
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef2b
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef3a
+  - com.google.javascript.jscomp.TypeCheckTest::testObjLitDef3b
+  - com.google.javascript.jscomp.TypeCheckTest::testLends10
+  - com.google.javascript.jscomp.TypeCheckTest::testLends11
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction6
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction7
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction8
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction9
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction10
+  - com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameReduction7a
+  - com.google.javascript.jscomp.TypeInferenceTest::testObjectLit
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredProperty3
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredProperty4
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredProperty5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testInferredProperty6
+---- 退出码：0 | Closure-43_4-buggy
+

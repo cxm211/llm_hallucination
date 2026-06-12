@@ -1,0 +1,115 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "function_2": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "function_3": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "fixed_code": [
+    "@Test\n    public void testDistributionClone()\n        throws IOException,\n               ClassNotFoundException {\n        // Construct a distribution and initialize its internal random\n        // generator, using a fixed seed for deterministic results.\n        distribution.reseedRandomGenerator(123);\n        distribution.sample();\n\n        // Clone the distribution.\n        final RealDistribution cloned = deepClone();\n\n        // Make sure they still produce the same samples.\n        final double s1 = distribution.sample();\n        final double s2 = cloned.sample();\n        Assert.assertEquals(s1, s2, 0d);\n    }",
+    "@Test\n    public void testDistributionClone()\n        throws IOException,\n               ClassNotFoundException {\n        // Construct a distribution and initialize its internal random\n        // generator, using a fixed seed for deterministic results.\n        distribution.reseedRandomGenerator(123);\n        distribution.sample();\n\n        // Clone the distribution.\n        final RealDistribution cloned = deepClone();\n\n        // Make sure they still produce the same samples.\n        final double s1 = distribution.sample();\n        final double s2 = cloned.sample();\n        Assert.assertEquals(s1, s2, 0d);\n    }",
+    "@Test\n    public void testDistributionClone()\n        throws IOException,\n               ClassNotFoundException {\n        // Construct a distribution and initialize its internal random\n        // generator, using a fixed seed for deterministic results.\n        distribution.reseedRandomGenerator(123);\n        distribution.sample();\n\n        // Clone the distribution.\n        final RealDistribution cloned = deepClone();\n\n        // Make sure they still produce the same samples.\n        final double s1 = distribution.sample();\n        final double s2 = cloned.sample();\n        Assert.assertEquals(s1, s2, 0d);\n    }"
+  ]
+}

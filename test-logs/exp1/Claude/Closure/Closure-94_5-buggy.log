@@ -1,0 +1,12 @@
+==== 2026-05-23 03:53:27 :: Closure-94_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.NodeUtilTest::testValidDefine
+  - com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1
+  - com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3
+---- 退出码：0 | Closure-94_5-buggy
+

@@ -1,0 +1,40 @@
+==== 2026-05-12 23:46:41 :: Time-26_5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 31
+  - org.joda.time.TestDateTimeZoneCutover::testWithSecondOfMinuteInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourForward_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourZero_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourZero_Turk
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withHourZero_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withHourZero_Turk
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_usCentral
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_Paris_summer
+  - org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourForward_NewYork_Spring
+  - org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_NewYork_winter
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourBack_NewYork_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_setHourBack_Moscow_Spring
+  - org.joda.time.TestDateTimeZoneCutover::testBug2182444_ausNSW
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_addWrapFieldDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_addWrapFieldDay_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withDay_Gaza
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_withDay_Turk
+  - org.joda.time.TestIllegalFieldValueException::testZoneTransition
+  - org.joda.time.TestLocalDate_Basics::testToDateTimeAtStartOfDay_Zone_avoidDST
+  - org.joda.time.TestLocalDate_Basics::testToInterval_Zone_noMidnight
+  - org.joda.time.TestLocalDate_Basics::testToDateTimeAtStartOfDay_avoidDST
+  - org.joda.time.chrono.TestLenientChronology::test_lenientChrononolgy_Turk
+  - org.joda.time.chrono.TestLenientChronology::test_lenientChrononolgy_Chicago
+  - org.joda.time.format.TestTextFields::testWeekdayNames
+---- 退出码：0 | Time-26_5-buggy
+

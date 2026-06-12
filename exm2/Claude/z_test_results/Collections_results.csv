@@ -1,0 +1,29 @@
+bug,status,exit_code,failing_tests,log_file
+Collections-1-buggy,Pass,0,0,Collections-1-buggy.log
+Collections-2-buggy,Not Pass,0,1,Collections-2-buggy.log
+Collections-3-buggy,Pass,0,0,Collections-3-buggy.log
+Collections-4-buggy,Pass,0,0,Collections-4-buggy.log
+Collections-5-buggy,Not Pass,0,1,Collections-5-buggy.log
+Collections-6-buggy,Pass,0,0,Collections-6-buggy.log
+Collections-7-buggy,Not Pass,0,1,Collections-7-buggy.log
+Collections-8-buggy,not compilable,1,,Collections-8-buggy.log
+Collections-9-buggy,Not Pass,0,1,Collections-9-buggy.log
+Collections-10-buggy,Not Pass,0,1,Collections-10-buggy.log
+Collections-11-buggy,Not Pass,0,1,Collections-11-buggy.log
+Collections-12-buggy,not compilable,1,,Collections-12-buggy.log
+Collections-13-buggy,Pass,0,0,Collections-13-buggy.log
+Collections-14-buggy,not compilable,1,,Collections-14-buggy.log
+Collections-15-buggy,Not Pass,0,1,Collections-15-buggy.log
+Collections-16-buggy,Pass,0,0,Collections-16-buggy.log
+Collections-17-buggy,Pass,0,0,Collections-17-buggy.log
+Collections-18-buggy,Not Pass,0,1,Collections-18-buggy.log
+Collections-19-buggy,Not Pass,0,1,Collections-19-buggy.log
+Collections-20-buggy,Not Pass,0,1,Collections-20-buggy.log
+Collections-21-buggy,not compilable,1,,Collections-21-buggy.log
+Collections-22-buggy,Pass,0,0,Collections-22-buggy.log
+Collections-23-buggy,Pass,0,0,Collections-23-buggy.log
+Collections-24-buggy,Not Pass,0,1,Collections-24-buggy.log
+Collections-25-buggy,Not Pass,0,1,Collections-25-buggy.log
+Collections-26-buggy,Not Pass,0,1,Collections-26-buggy.log
+Collections-27-buggy,Not Pass,0,1,Collections-27-buggy.log
+Collections-28-buggy,Not Pass,0,1,Collections-28-buggy.log

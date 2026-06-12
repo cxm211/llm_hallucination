@@ -1,0 +1,42 @@
+==== 2026-05-14 06:38:25 :: Closure-92_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 33
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testReorderedProvides
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignment1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignment2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignment3
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignment4
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignmentInIf1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignmentInIf2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignmentInIf3
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalMultipleAssignmentInIf4
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRemovalOfProvidedObjLit
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testMultipleDeclarationError1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testMultipleDeclarationError2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testMultipleDeclarationError3
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder3a
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder3b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder4a
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder4b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testSimpleAdditionalProvide
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testOverlappingDottedAdditionalProvide
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testOverlappingAdditionalProvide
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testRequireOfAdditionalProvide
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testLateRequire
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testReorderedProvides2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testSimpleDottedAdditionalProvide
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder1
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideOrder2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules2b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules3b
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules2
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testOverlappingAdditionalProvideAtEnd
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testMissingRequireWithAdditionalProvide
+  - com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testSimpleAdditionalProvideAtEnd
+---- 退出码：0 | Closure-92_3-buggy
+

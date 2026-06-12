@@ -1,0 +1,13 @@
+==== 2026-01-15 21:26:43 :: Gson-1_2-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampDeserialization
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampSerialization
+  - com.google.gson.functional.TypeVariableTest::testSingle
+---- 退出码：0 | Gson-1_2-buggy
+

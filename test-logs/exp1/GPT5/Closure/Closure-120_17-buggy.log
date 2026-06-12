@@ -1,0 +1,29 @@
+==== 2026-05-19 09:53:13 :: Closure-120_17-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineConditionallyDefinedConstant1
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineConditionallyDefinedConstant2
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineConditionallyDefinedConstant3
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineVariablesConstants
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineVariablesConstantsJsDocStyle
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineVariablesConstantsWithInlineAllStringsOn
+  - com.google.javascript.jscomp.InlineVariablesConstantsTest::testInlineDefinedConstant
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias1b
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineFunctionAlias2b
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliases1b
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineAliases1d
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineConstantAliasWithNonConstant
+  - com.google.javascript.jscomp.InlineVariablesTest::testCascadingInlines
+  - com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineConstants
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineCatchAlias1
+  - com.google.javascript.jscomp.InlineVariablesTest::testInlineCatchAlias2
+  - com.google.javascript.jscomp.IntegrationTest::testAddFunctionProperties4
+  - com.google.javascript.jscomp.IntegrationTest::testInlineConstants
+  - com.google.javascript.jscomp.IntegrationTest::testBug1962380
+---- 退出码：0 | Closure-120_17-buggy
+

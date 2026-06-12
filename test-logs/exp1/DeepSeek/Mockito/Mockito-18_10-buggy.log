@@ -1,0 +1,139 @@
+==== 2026-01-10 18:39:55 :: Mockito-18_10-buggy ====
+>>> `ant clean` 已执行，退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy && ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+compile:
+
+gradle.compile:
+     [exec] Downloading file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/lib/build_systems/gradle/dists/gradle-4.9-bin.zip
+     [exec] ........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+     [exec] Unzipping /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9-bin.zip to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537
+     [exec] Set executable permissions for: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9/bin/gradle
+     [exec] 
+     [exec] Welcome to Gradle 4.9!
+     [exec] 
+     [exec] Here are the highlights of this release:
+     [exec]  - Experimental APIs for creating and configuring tasks lazily
+     [exec]  - Pass arguments to JavaExec via CLI
+     [exec]  - Auxiliary publication dependency support for multi-project builds
+     [exec]  - Improved dependency insight report
+     [exec] 
+     [exec] For more details see https://docs.gradle.org/4.9/release-notes.html
+     [exec] 
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/.gradle_local_home/wrapper/dists/gradle-4.9-bin/38925f9gu1n2lbhes0r4q08537/gradle-4.9/lib/gradle-base-services-4.9.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] Parallel execution is an incubating feature.
+     [exec] Generating JAR file 'gradle-api-4.9.jar'
+     [exec] > Task :buildSrc:compileJava NO-SOURCE
+     [exec] 
+     [exec] > Task :buildSrc:compileGroovy
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by worker.org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/.gradle_local_home/caches/4.9/workerMain/gradle-worker.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of worker.org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] Note: Some input files use unchecked or unsafe operations.
+     [exec] Note: Recompile with -Xlint:unchecked for details.
+     [exec] 
+     [exec] > Task :buildSrc:processResources
+     [exec] > Task :buildSrc:classes
+     [exec] > Task :buildSrc:jar
+     [exec] > Task :buildSrc:assemble
+     [exec] > Task :buildSrc:compileTestJava NO-SOURCE
+     [exec] > Task :buildSrc:compileTestGroovy
+     [exec] > Task :buildSrc:processTestResources NO-SOURCE
+     [exec] > Task :buildSrc:testClasses
+     [exec] 
+     [exec] > Task :buildSrc:test
+     [exec] 
+     [exec] > Task :buildSrc:check
+     [exec] > Task :buildSrc:build
+     [exec] WARNING: An illegal reflective access operation has occurred
+     [exec] WARNING: Illegal reflective access by worker.org.gradle.internal.reflect.JavaMethod (file:/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/.gradle_local_home/caches/4.9/workerMain/gradle-worker.jar) to method java.lang.ClassLoader.getPackages()
+     [exec] WARNING: Please consider reporting this to the maintainers of worker.org.gradle.internal.reflect.JavaMethod
+     [exec] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+     [exec] WARNING: All illegal access operations will be denied in a future release
+     [exec] Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.1/http-builder-0.7.1.pom
+     [exec] POM relocation to an other version number is not fully supported in Gradle : xml-apis:xml-apis:2.0.2 relocated to xml-apis:xml-apis:1.0.b2.
+     [exec] 
+     [exec] > Configure project :
+     [exec] Please update your dependency to directly use the correct version 'xml-apis:xml-apis:1.0.b2'.
+     [exec] Resolution will only pick dependencies of the relocated element.  Artifacts and other metadata will be ignored.
+     [exec] Version: 2.0.11-beta
+     [exec] 
+     [exec] > Task :testng:processResources NO-SOURCE
+     [exec] > Task :extTest:compileJava NO-SOURCE
+     [exec] > Task :extTest:processResources NO-SOURCE
+     [exec] > Task :extTest:classes UP-TO-DATE
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:115: error: cannot find symbol
+     [exec]             } else if (type == Queue.class) {
+     [exec]                                ^
+     [exec]   symbol:   class Queue
+     [exec]   location: class ReturnsEmptyValues
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:117: error: cannot find symbol
+     [exec]             } else if (type == Deque.class) {
+     [exec]                                ^
+     [exec]   symbol:   class Deque
+     [exec]   location: class ReturnsEmptyValues
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:119: error: cannot find symbol
+     [exec]             } else if (type == NavigableSet.class) {
+     [exec]                                ^
+     [exec]   symbol:   class NavigableSet
+     [exec]   location: class ReturnsEmptyValues
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:121: error: cannot find symbol
+     [exec]             } else if (type == NavigableMap.class) {
+     [exec]                                ^
+     [exec]   symbol:   class NavigableMap
+     [exec]   location: class ReturnsEmptyValues
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:123: error: cannot find symbol
+     [exec]             } else if (type == ConcurrentHashMap.class) {
+     [exec]                                ^
+     [exec]   symbol:   class ConcurrentHashMap
+     [exec]   location: class ReturnsEmptyValues
+     [exec] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-18_10-buggy/src/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java:124: error: cannot find symbol
+     [exec]                 return new ConcurrentHashMap<Object, Object>();
+     [exec]                            ^
+     [exec]   symbol:   class ConcurrentHashMap
+     [exec]   location: class ReturnsEmptyValues
+     [exec] Note: Some input files use or override a deprecated API.
+     [exec] Note: Recompile with -Xlint:deprecation for details.
+     [exec] Note: Some input files use unchecked or unsafe operations.
+     [exec] Note: Recompile with -Xlint:unchecked for details.
+     [exec] 6 errors
+     [exec] 
+     [exec] FAILURE: Build failed with an exception.
+     [exec] 
+     [exec] * What went wrong:
+     [exec] Execution failed for task ':compileJava'.
+     [exec] > Compilation failed; see the compiler error output for details.
+     [exec] 
+     [exec] * Try:
+     [exec] Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+     [exec] 
+     [exec] * Get more help at https://help.gradle.org
+     [exec] 
+     [exec] BUILD FAILED in 17s
+     [exec] 
+     [exec] > Task :compileJava FAILED
+     [exec] 
+     [exec] Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+     [exec] Use '--warning-mode all' to show the individual deprecation warnings.
+     [exec] See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
+     [exec] 1 actionable task: 1 executed
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:143: The following error occurred while executing this line:
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/Mockito/Mockito.build.xml:79: exec returned: 1
+
+Total time: 18 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Mockito-18_10-buggy
+

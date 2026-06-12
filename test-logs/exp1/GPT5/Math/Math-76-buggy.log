@@ -1,0 +1,13 @@
+==== 2026-05-20 05:02:27 :: Math-76-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.linear.SingularValueSolverTest::testTruncated
+  - org.apache.commons.math.linear.SingularValueSolverTest::testLeastSquareSolve
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+  - org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+---- 退出码：0 | Math-76-buggy
+

@@ -1,0 +1,21 @@
+==== 2026-05-28 15:29:33 :: Closure-171_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 22
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStaticMethodDeclaration3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticMethodDecl5
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExternStubs4
+  - com.google.javascript.jscomp.SymbolTableTest::testMethodInAnonObject1
+  - com.google.javascript.jscomp.SymbolTableTest::testLocalThisReferences2
+  - com.google.javascript.jscomp.SymbolTableTest::testMissingConstructorTag
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateInstanceMethod3
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck3
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck5
+---- 退出码：0 | Closure-171_19-buggy
+

@@ -1,0 +1,78 @@
+==== 2026-03-31 18:44:18 :: Gson-9-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 55
+  - com.google.gson.JsonObjectTest::testWritePropertyWithEmptyStringName
+  - com.google.gson.JsonParserTest::testReadWriteTwoObjects
+  - com.google.gson.OverrideCoreTypeAdaptersTest::testOverridePrimitiveBooleanAdapter
+  - com.google.gson.OverrideCoreTypeAdaptersTest::testOverrideWrapperBooleanAdapter
+  - com.google.gson.functional.ArrayTest::testObjectArrayWithNonPrimitivesSerialization
+  - com.google.gson.functional.CollectionTest::testWildcardCollectionField
+  - com.google.gson.functional.CollectionTest::testRawCollectionSerialization
+  - com.google.gson.functional.CollectionTest::testCollectionOfBagOfPrimitivesSerialization
+  - com.google.gson.functional.CustomTypeAdaptersTest::testCustomSerializerInvokedForPrimitives
+  - com.google.gson.functional.DefaultTypeAdaptersTest::testJsonPrimitiveSerialization
+  - com.google.gson.functional.DelegateTypeAdapterTest::testDelegateInvoked
+  - com.google.gson.functional.EscapingTest::testGsonAcceptsEscapedAndNonEscapedJsonDeserialization
+  - com.google.gson.functional.EscapingTest::testEscapingObjectFields
+  - com.google.gson.functional.EscapingTest::testGsonDoubleDeserialization
+  - com.google.gson.functional.InheritanceTest::testSubClassSerialization
+  - com.google.gson.functional.JavaUtilConcurrentAtomicTest::testAtomicBoolean
+  - com.google.gson.functional.JsonArrayTest::testBooleanPrimitiveAddition
+  - com.google.gson.functional.JsonArrayTest::testSameAddition
+  - com.google.gson.functional.JsonTreeTest::testToJsonTreeObjectType
+  - com.google.gson.functional.JsonTreeTest::testJsonTreeToString
+  - com.google.gson.functional.JsonTreeTest::testJsonTreeNull
+  - com.google.gson.functional.JsonTreeTest::testToJsonTree
+  - com.google.gson.functional.MapAsArrayTypeAdapterTest::testSerializeComplexMapWithTypeAdapter
+  - com.google.gson.functional.MapTest::testWriteMapsWithEmptyStringKey
+  - com.google.gson.functional.ObjectTest::testArrayOfArraysSerialization
+  - com.google.gson.functional.ObjectTest::testArrayOfObjectsAsFields
+  - com.google.gson.functional.ObjectTest::testArrayOfObjectsSerialization
+  - com.google.gson.functional.ObjectTest::testNestedSerialization
+  - com.google.gson.functional.ObjectTest::testNullFieldsSerialization
+  - com.google.gson.functional.ObjectTest::testBagOfPrimitiveWrappersSerialization
+  - com.google.gson.functional.ObjectTest::testBagOfPrimitivesSerialization
+  - com.google.gson.functional.ParameterizedTypesTest::testTypesWithMultipleParametersSerialization
+  - com.google.gson.functional.PrettyPrintingTest::testPrettyPrintArrayOfObjects
+  - com.google.gson.functional.PrettyPrintingTest::testPrettyPrintList
+  - com.google.gson.functional.PrimitiveTest::testPrimitiveBooleanAutoboxedInASingleElementArraySerialization
+  - com.google.gson.functional.PrimitiveTest::testPrimitiveBooleanAutoboxedSerialization
+  - com.google.gson.functional.PrintFormattingTest::testCompactFormattingLeavesNoWhiteSpace
+  - com.google.gson.functional.ReadersWritersTest::testReadWriteTwoObjects
+  - com.google.gson.functional.ReadersWritersTest::testWriterForSerialization
+  - com.google.gson.functional.SecurityTest::testNonExecutableJsonSerialization
+  - com.google.gson.functional.TypeVariableTest::testBasicTypeVariables
+  - com.google.gson.functional.TypeVariableTest::testAdvancedTypeVariables
+  - com.google.gson.functional.TypeVariableTest::testTypeVariablesViaTypeParameter
+  - com.google.gson.functional.UncategorizedTest::testGsonInstanceReusableForSerializationAndDeserialization
+  - com.google.gson.functional.UncategorizedTest::testStaticFieldsAreNotSerialized
+  - com.google.gson.functional.VersioningTest::testVersionedGsonWithUnversionedClassesSerialization
+  - com.google.gson.stream.JsonWriterTest::testBooleans
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+  - com.google.gson.stream.JsonWriterTest::testArraysInObjects
+  - com.google.gson.stream.JsonWriterTest::testRepeatedName
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonWriterTest::testObjectsInArrays
+  - com.google.gson.stream.JsonWriterTest::testPrettyPrintArray
+  - com.google.gson.stream.JsonWriterTest::testPrettyPrintObject
+  - com.google.gson.stream.JsonWriterTest::testValueWithoutName
+---- 主命令退出码：0 | Gson-9-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] removed jacoco.exec
+[JACOCO] removed jacoco.xml
+[JACOCO] cleaned jacoco-html/
+[JACOCO] defects4j test -t com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.gson.stream.JsonWriterTest::testBoxedBooleans
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Gson/Gson-9-buggy/jacoco.exec.
+[INFO] Analyzing 157 classes.
+>>> [JACOCO] 结束

@@ -1,0 +1,12 @@
+==== 2026-05-22 07:24:57 :: Closure-4_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop
+  - com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop
+  - com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor
+---- 退出码：0 | Closure-4_3-buggy
+

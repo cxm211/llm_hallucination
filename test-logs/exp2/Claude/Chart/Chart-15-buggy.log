@@ -1,0 +1,21 @@
+==== 2026-05-01 10:06:23 :: Chart-15-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset
+---- 主命令退出码：0 | Chart-15-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-15-buggy/jacoco.exec.
+[INFO] Analyzing 513 classes.
+>>> [JACOCO] 结束

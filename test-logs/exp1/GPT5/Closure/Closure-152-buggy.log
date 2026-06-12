@@ -1,0 +1,12 @@
+==== 2026-05-19 12:11:16 :: Closure-152-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse1
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse2
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse3
+---- 退出码：0 | Closure-152-buggy
+

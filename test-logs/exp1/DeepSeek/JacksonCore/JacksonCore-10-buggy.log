@@ -1,0 +1,25 @@
+==== 2026-05-28 17:05:24 :: JacksonCore-10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 16
+  - com.fasterxml.jackson.core.json.TestNextXxx::testNextNameWithLongContent
+  - com.fasterxml.jackson.core.json.TestParserDupHandling::testSimpleDupsBytes
+  - com.fasterxml.jackson.core.json.TestParserDupHandling::testSimpleDupsDisabled
+  - com.fasterxml.jackson.core.json.TestParserNonStandard::testLargeUnquoted
+  - com.fasterxml.jackson.core.json.TestWithTonsaSymbols::testStreamReaderParser
+  - com.fasterxml.jackson.core.main.TestGeneratorMisc::testLongerObjects
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testSharedSymbols
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testIssue207
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortQuotedDirectBytes
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187a
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsViaParser
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testThousandsOfSymbolsWithNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+  - com.fasterxml.jackson.core.sym.TestSymbolsWithMediaItem::testSmallSymbolSetWithBytes
+---- 退出码：0 | JacksonCore-10-buggy
+

@@ -1,0 +1,15 @@
+==== 2026-05-23 20:52:23 :: Jsoup-28-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.jsoup.nodes.EntitiesTest::unescape
+  - org.jsoup.nodes.EntitiesTest::noSpuriousDecodes
+  - org.jsoup.parser.AttributeParseTest::moreAttributeUnescapes
+  - org.jsoup.parser.AttributeParseTest::strictAttributeUnescapes
+  - org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+  - org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+---- 退出码：0 | Jsoup-28-buggy
+

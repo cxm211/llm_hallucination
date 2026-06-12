@@ -1,0 +1,29 @@
+==== 2026-05-19 16:39:44 :: Closure-173_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 20
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue1062
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSimpleGetterInline1
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testCallWithConstArgs
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testExternFunction
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSkipConflictingMethods
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSimpleSetterInline1
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testObjectLit
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSameNamesDifferentDefinitions
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testEmptyMethodInlineWithSideEffects
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testCallWithArgs
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testObjectLit2
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testNestedProperties
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testConstantInlineWithSideEffects
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSameNamesSameDefinitions
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSkipComplexMethods
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testNoInlineOfExternMethods3
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSimpleInline1
+  - com.google.javascript.jscomp.InlineSimpleMethodsTest::testSimpleInline2
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testAssocitivity
+---- 退出码：0 | Closure-173_1-buggy
+

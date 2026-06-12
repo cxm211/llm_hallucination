@@ -1,0 +1,14 @@
+==== 2026-05-28 08:35:28 :: Closure-118_12-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testObjectLiteralLends
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testObjectLiteral
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes2
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes3
+  - com.google.javascript.jscomp.DisambiguatePropertiesTest::testObjectLiteralReflected
+---- 退出码：0 | Closure-118_12-buggy
+

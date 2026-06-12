@@ -1,0 +1,21 @@
+==== 2026-05-01 10:03:51 :: Chart-5-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.xy.junit.XYSeriesTests::testBug1955483
+---- 主命令退出码：0 | Chart-5-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.jfree.data.xy.junit.XYSeriesTests::testBug1955483
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.data.xy.junit.XYSeriesTests::testBug1955483
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Chart/Chart-5-buggy/jacoco.exec.
+[INFO] Analyzing 528 classes.
+>>> [JACOCO] 结束

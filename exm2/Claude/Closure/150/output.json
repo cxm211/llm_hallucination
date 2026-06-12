@@ -1,0 +1,78 @@
+{
+  "function_1": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "function_2": {
+    "buggy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "fixed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "fixed_code": [
+    "public void testCollectedFunctionStubLocal() {\n    testSame(\n        \"(function() {\" +\n        \"/** @constructor */ function f() { \" +\n        \"  /** @return {number} */ this.foo;\" +\n        \"}\" +\n        \"var x = new f();\" +\n        \"});\");\n    ObjectType x = (ObjectType) findNameType(\"x\", lastLocalScope);\n    assertEquals(\"f\", x.toString());\n    assertTrue(x.hasProperty(\"foo\"));\n    assertEquals(\"function (this:f): number\",\n        x.getPropertyType(\"foo\").toString());\n    assertFalse(x.isPropertyTypeInferred(\"foo\"));\n  }",
+    "public void testNamespacedFunctionStubLocal() {\n    testSame(\n        \"(function() {\" +\n        \"var goog = {};\" +\n        \"/** @param {number} x */ goog.foo;\" +\n        \"});\");\n\n    ObjectType goog = (ObjectType) findNameType(\"goog\", lastLocalScope);\n    assertTrue(goog.hasProperty(\"foo\"));\n    assertEquals(\"function (number): ?\",\n        goog.getPropertyType(\"foo\").toString());\n    assertTrue(goog.isPropertyTypeDeclared(\"foo\"));\n\n    assertEquals(lastLocalScope.getVar(\"goog.foo\").getType(),\n        goog.getPropertyType(\"foo\"));\n  }"
+  ]
+}

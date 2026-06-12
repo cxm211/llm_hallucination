@@ -1,0 +1,27 @@
+bug,status,exit_code,failing_tests,log_file
+Time-1-buggy,Not Pass,0,1,Time-1-buggy.log
+Time-2-buggy,Not Pass,0,1,Time-2-buggy.log
+Time-3-buggy,Pass,0,0,Time-3-buggy.log
+Time-4-buggy,Not Pass,0,1,Time-4-buggy.log
+Time-5-buggy,Pass,0,0,Time-5-buggy.log
+Time-6-buggy,Not Pass,0,1,Time-6-buggy.log
+Time-7-buggy,Not Pass,0,1,Time-7-buggy.log
+Time-8-buggy,Not Pass,0,1,Time-8-buggy.log
+Time-9-buggy,Not Pass,0,1,Time-9-buggy.log
+Time-10-buggy,Not Pass,0,1,Time-10-buggy.log
+Time-11-buggy,Not Pass,0,1,Time-11-buggy.log
+Time-12-buggy,Pass,0,0,Time-12-buggy.log
+Time-13-buggy,Not Pass,0,1,Time-13-buggy.log
+Time-14-buggy,Not Pass,0,1,Time-14-buggy.log
+Time-15-buggy,Pass,0,0,Time-15-buggy.log
+Time-16-buggy,Not Pass,0,1,Time-16-buggy.log
+Time-17-buggy,Not Pass,0,1,Time-17-buggy.log
+Time-18-buggy,Pass,0,0,Time-18-buggy.log
+Time-19-buggy,Pass,0,0,Time-19-buggy.log
+Time-20-buggy,Pass,0,0,Time-20-buggy.log
+Time-22-buggy,Not Pass,0,1,Time-22-buggy.log
+Time-23-buggy,Pass,0,0,Time-23-buggy.log
+Time-24-buggy,Not Pass,0,1,Time-24-buggy.log
+Time-25-buggy,Not Pass,0,1,Time-25-buggy.log
+Time-26-buggy,not compilable,1,,Time-26-buggy.log
+Time-27-buggy,Not Pass,0,1,Time-27-buggy.log

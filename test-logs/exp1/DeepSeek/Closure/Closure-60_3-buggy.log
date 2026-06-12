@@ -1,0 +1,27 @@
+==== 2026-05-28 03:25:46 :: Closure-60_3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue504
+  - com.google.javascript.jscomp.NodeUtilTest::testGetBooleanValue
+  - com.google.javascript.jscomp.NodeUtilTest::testGetExpressionBooleanValue
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testObjectLiteral
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testArrayLiteral
+  - com.google.javascript.jscomp.PeepholeFoldConstantsTest::testUnaryOps
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testFoldUselessForIntegration
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testObjectLiteral
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testMinimizeWhileConstantConditionIntegration
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testArrayLiteral
+  - com.google.javascript.jscomp.PeepholeIntegrationTest::testFoldUselessDoIntegration
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testFoldUselessDo
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testMinimizeWhileConstantCondition
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testIf
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testFoldUselessWhile
+  - com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testFoldUselessFor
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testObjectLiteral
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testArrayLiteral
+---- 退出码：0 | Closure-60_3-buggy
+

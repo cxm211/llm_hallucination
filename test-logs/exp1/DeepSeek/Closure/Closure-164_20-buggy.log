@@ -1,0 +1,23 @@
+==== 2026-05-28 13:28:07 :: Closure-164_20-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference8
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference9
+  - com.google.javascript.jscomp.TypeCheckTest::testAbstractMethodHandling5
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference8
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference9
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionVariableArgsOneOnly
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionTypeRelationships
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionFixedArgs
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionUnionSubtypeChain
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingMostGeneralFunction
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionFixedArgsNotMatching
+  - com.google.javascript.rhino.jstype.JSTypeTest::testFunctionSubtypeChain
+  - com.google.javascript.rhino.jstype.JSTypeTest::testSubtypingFunctionMultipleFixedArgs
+---- 退出码：0 | Closure-164_20-buggy
+

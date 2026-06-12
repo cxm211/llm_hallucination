@@ -1,0 +1,48 @@
+bug,status,exit_code,failing_tests,log_file
+Compress-1-buggy,Not Pass,0,1,Compress-1-buggy.log
+Compress-2-buggy,Not Pass,0,1,Compress-2-buggy.log
+Compress-3-buggy,Not Pass,0,1,Compress-3-buggy.log
+Compress-4-buggy,not compilable,1,,Compress-4-buggy.log
+Compress-5-buggy,Pass,0,0,Compress-5-buggy.log
+Compress-6-buggy,Pass,0,0,Compress-6-buggy.log
+Compress-7-buggy,Pass,0,0,Compress-7-buggy.log
+Compress-8-buggy,Not Pass,0,1,Compress-8-buggy.log
+Compress-9-buggy,Not Pass,0,1,Compress-9-buggy.log
+Compress-10-buggy,Not Pass,0,1,Compress-10-buggy.log
+Compress-11-buggy,Not Pass,0,1,Compress-11-buggy.log
+Compress-12-buggy,Pass,0,0,Compress-12-buggy.log
+Compress-13-buggy,Pass,0,0,Compress-13-buggy.log
+Compress-14-buggy,Not Pass,0,1,Compress-14-buggy.log
+Compress-15-buggy,Pass,0,0,Compress-15-buggy.log
+Compress-16-buggy,Pass,0,0,Compress-16-buggy.log
+Compress-17-buggy,Pass,0,0,Compress-17-buggy.log
+Compress-18-buggy,Pass,0,0,Compress-18-buggy.log
+Compress-19-buggy,Pass,0,0,Compress-19-buggy.log
+Compress-20-buggy,Not Pass,0,1,Compress-20-buggy.log
+Compress-21-buggy,Pass,0,0,Compress-21-buggy.log
+Compress-22-buggy,Not Pass,0,1,Compress-22-buggy.log
+Compress-23-buggy,Pass,0,0,Compress-23-buggy.log
+Compress-24-buggy,Not Pass,0,1,Compress-24-buggy.log
+Compress-25-buggy,Not Pass,0,1,Compress-25-buggy.log
+Compress-26-buggy,Pass,0,0,Compress-26-buggy.log
+Compress-27-buggy,Pass,0,0,Compress-27-buggy.log
+Compress-28-buggy,Not Pass,0,1,Compress-28-buggy.log
+Compress-29-buggy,Not Pass,0,1,Compress-29-buggy.log
+Compress-30-buggy,Pass,0,0,Compress-30-buggy.log
+Compress-31-buggy,Not Pass,0,1,Compress-31-buggy.log
+Compress-32-buggy,Pass,0,0,Compress-32-buggy.log
+Compress-33-buggy,not compilable,1,,Compress-33-buggy.log
+Compress-34-buggy,Not Pass,0,1,Compress-34-buggy.log
+Compress-35-buggy,Not Pass,0,1,Compress-35-buggy.log
+Compress-36-buggy,not compilable,1,,Compress-36-buggy.log
+Compress-37-buggy,Pass,0,0,Compress-37-buggy.log
+Compress-38-buggy,Not Pass,0,1,Compress-38-buggy.log
+Compress-39-buggy,Not Pass,0,1,Compress-39-buggy.log
+Compress-40-buggy,Not Pass,0,1,Compress-40-buggy.log
+Compress-41-buggy,Pass,0,0,Compress-41-buggy.log
+Compress-42-buggy,not compilable,1,,Compress-42-buggy.log
+Compress-43-buggy,Pass,0,0,Compress-43-buggy.log
+Compress-44-buggy,Pass,0,0,Compress-44-buggy.log
+Compress-45-buggy,Pass,0,0,Compress-45-buggy.log
+Compress-46-buggy,Not Pass,0,1,Compress-46-buggy.log
+Compress-47-buggy,Not Pass,0,1,Compress-47-buggy.log

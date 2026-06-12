@@ -1,0 +1,19 @@
+==== 2026-05-01 23:01:11 :: Mockito-21-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- 主命令退出码：0 | Mockito-21-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.mockito.internal.creation.instance.ConstructorInstantiatorTest::creates_instances_of_inner_classes
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Mockito/Mockito-21-buggy/jacoco.exec.
+[INFO] Analyzing 299 classes.
+>>> [JACOCO] 结束

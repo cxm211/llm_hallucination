@@ -1,0 +1,92 @@
+==== 2026-05-17 18:03:00 :: Math-92_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+[hastarget] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+init:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/target/lib
+
+junit-present:
+
+get-deps:
+
+compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/build.xml:46: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 278 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/linear/BigMatrixImpl.java:72: warning: [deprecation] ROUND_HALF_UP in BigDecimal has been deprecated
+    [javac]     private int roundingMode = BigDecimal.ROUND_HALF_UP;
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/linear/BigMatrixImpl.java:1157: warning: [deprecation] divide(BigDecimal,int,int) in BigDecimal has been deprecated
+    [javac]                 bpCol[j] = bpCol[j].divide(luDiag, scale, roundingMode);
+    [javac]                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/linear/BigMatrixImpl.java:1263: warning: [deprecation] divide(BigDecimal,int,int) in BigDecimal has been deprecated
+    [javac]                 luRow[col] = luRow[col].divide(luDiag, scale, roundingMode);
+    [javac]                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/ResizableDoubleArray.java:876: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]         hashData[0] = new Float(expansionFactor).hashCode();
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/ResizableDoubleArray.java:877: warning: [deprecation] Float(float) in Float has been deprecated
+    [javac]         hashData[1] = new Float(contractionCriteria).hashCode();
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:192: error: incompatible types: possible lossy conversion from long to int
+    [javac]             long g2 = gcd(result, b);
+    [javac]                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:511: warning: [deprecation] Double(double) in Double has been deprecated
+    [javac]         return new Double(value).hashCode();
+    [javac]                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:819: warning: [deprecation] ROUND_HALF_UP in BigDecimal has been deprecated
+    [javac]         return round(x, scale, BigDecimal.ROUND_HALF_UP);
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:838: warning: [deprecation] setScale(int,int) in BigDecimal has been deprecated
+    [javac]                    .setScale(scale, roundingMethod))
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:859: warning: [deprecation] ROUND_HALF_UP in BigDecimal has been deprecated
+    [javac]         return round(x, scale, BigDecimal.ROUND_HALF_UP);
+    [javac]                                          ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:895: warning: [deprecation] ROUND_CEILING in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_CEILING :
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:902: warning: [deprecation] ROUND_DOWN in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_DOWN :
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:905: warning: [deprecation] ROUND_FLOOR in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_FLOOR :
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:912: warning: [deprecation] ROUND_HALF_DOWN in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_HALF_DOWN : {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:922: warning: [deprecation] ROUND_HALF_EVEN in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_HALF_EVEN : {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:939: warning: [deprecation] ROUND_HALF_UP in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_HALF_UP : {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:949: warning: [deprecation] ROUND_UNNECESSARY in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_UNNECESSARY :
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/util/MathUtils.java:954: warning: [deprecation] ROUND_UP in BigDecimal has been deprecated
+    [javac]         case BigDecimal.ROUND_UP :
+    [javac]                        ^
+    [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/src/java/org/apache/commons/math/stat/Frequency.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+    [javac] 21 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-92_1-buggy/build.xml:46: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Math-92_1-buggy
+

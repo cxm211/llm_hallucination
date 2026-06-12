@@ -1,0 +1,14 @@
+{
+  "function_1": {
+    "buggy": [1, 2, 3, 4, 5],
+    "fixed": [1, 2, 3, 4, 5]
+  },
+  "function_2": {
+    "buggy": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "fixed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  },
+  "fixed_code": [
+    "public void testEmptyMapCompatibility() throws Exception {\n        Map map = makeEmptyMap();\n        Map map2 = (Map) readExternalFormFromDisk(getCanonicalEmptyCollectionName(map));\n        assertEquals(\"Map is empty\", 0, map2.size());\n    }",
+    "public void testFullMapCompatibility() throws Exception {\n        Map map = (Map) makeObject();\n        Map map2 = (Map) readExternalFormFromDisk(getCanonicalFullCollectionName(map));\n        assertEquals(\"Map is the right size\", map.size(), map2.size());\n        for (Iterator it = map.keySet().iterator(); it.hasNext();) {\n            Object key = it.next();\n            assertEquals( \"Map had inequal elements\", map.get(key), map2.get(key) );\n            map2.remove(key);\n        }\n        assertEquals(\"Map had extra values\", 0, map2.size());\n    }"
+  ]
+}

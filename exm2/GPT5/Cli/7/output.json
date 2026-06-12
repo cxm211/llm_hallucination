@@ -1,0 +1,3 @@
+{
+  "error": "Missing buggy function implementations. Please provide the source code of the buggy function(s) referenced by the trigger (e.g., PatternBuilder, GroupImpl, Option) so I can analyze coverage and apply a fix."
+}

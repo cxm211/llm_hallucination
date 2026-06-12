@@ -1,0 +1,14 @@
+{
+  "function_1": {
+    "buggy": [2,3,4,5,6,7,8,9,10,11,12,13,15,18,19,20,21,23,24,25,26,27,29,32,35],
+    "fixed": [2,3,4,5,6,7,8,9,10,11,12,13,15,18,19,20,21,23,24,25,26,27,29,32,35]
+  },
+  "function_2": {
+    "buggy": [2,4,5,6,9,10,11,12,13,15,17,18,24],
+    "fixed": [2,4,5,6,9,10,11,12,13,15,17,18,24]
+  },
+  "fixed_code": [
+    "public static String unescape(String string) {\n    if (string == null) return null;\n    if (!string.contains(\"&\")) return string;\n    StringBuilder accum = new StringBuilder(string.length());\n    int len = string.length();\n    for (int i = 0; i < len; i++) {\n        char c = string.charAt(i);\n        if (c == '&') {\n            int entityEnd = i + 1;\n            while (entityEnd < len) {\n                char ch = string.charAt(entityEnd);\n                if (Character.isLetterOrDigit(ch) || ch == '#' || ch == 'x') {\n                    entityEnd++;\n                } else {\n                    break;\n                }\n            }\n            boolean hasSemicolon = false;\n            if (entityEnd < len && string.charAt(entityEnd) == ';') {\n                hasSemicolon = true;\n                entityEnd++;\n            }\n            String entityToken = string.substring(i + 1, hasSemicolon ? entityEnd - 1 : entityEnd);\n            String decoded = decodeEntity(entityToken);\n            if (decoded != null) {\n                accum.append(decoded);\n                i = entityEnd - 1;\n            } else {\n                accum.append('&');\n            }\n        } else {\n            accum.append(c);\n        }\n    }\n    return accum.toString();\n}",
+    "private static String decodeEntity(String entity) {\n    if (entity.isEmpty()) return null;\n    // try named entity (case-insensitive)\n    String key = entity.toLowerCase();\n    if (namedEntities.containsKey(key)) {\n        return namedEntities.get(key);\n    }\n    // numeric entities\n    if (entity.startsWith(\"#\")) {\n        try {\n            int codePoint;\n            if (entity.length() > 1 && (entity.charAt(1) == 'x' || entity.charAt(1) == 'X')) {\n                codePoint = Integer.parseInt(entity.substring(2), 16);\n            } else {\n                codePoint = Integer.parseInt(entity.substring(1));\n            }\n            if (Character.isValidCodePoint(codePoint)) {\n                return new String(Character.toChars(codePoint));\n            }\n        } catch (NumberFormatException e) {\n            // fall through\n        }\n    }\n    return null;\n}"
+  ]
+}

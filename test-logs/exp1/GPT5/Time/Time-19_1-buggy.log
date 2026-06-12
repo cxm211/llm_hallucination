@@ -1,0 +1,26 @@
+==== 2026-05-20 07:17:42 :: Time-19_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_NewYork
+  - org.joda.time.TestDateTimeZone::testIsLocalDateTimeGap_Berlin
+  - org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_day_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_NewYork_Spring
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_minusDay_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_hour_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_day_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_minute_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundFloor_hour_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDayMidGap_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_plusDay_Turk
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_roundCeiling_minute_NewYork_Spring_postCutover
+  - org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+  - org.joda.time.TestDateTimeZoneCutover::test_DateTime_newValid_Turk
+---- 退出码：0 | Time-19_1-buggy
+

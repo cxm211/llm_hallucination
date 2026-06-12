@@ -1,0 +1,9 @@
+{
+  "function_1": {
+    "buggy": [1],
+    "fixed": [1,2,3,5]
+  },
+  "fixed_code": [
+    "public int getPropertyIndex() {\n    if (_delegate == null) {\n        return -1;\n    }\n    return _delegate.getPropertyIndex();\n}"
+  ]
+}

@@ -1,0 +1,16 @@
+==== 2026-05-19 04:12:34 :: Closure-57_4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.CheckProvidesTest::testHarmlessProcedural
+  - com.google.javascript.jscomp.CheckProvidesTest::testHarmless
+  - com.google.javascript.jscomp.CheckProvidesTest::testGoogProvideInWrongFileShouldCreateWarning
+  - com.google.javascript.jscomp.CheckRequiresForConstructorsTest::testPassWithTwoNewNodes
+  - com.google.javascript.jscomp.CheckRequiresForConstructorsTest::testPassWithNestedNewNodes
+  - com.google.javascript.jscomp.CheckRequiresForConstructorsTest::testFailWithNestedNewNodes
+  - com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire
+---- 退出码：0 | Closure-57_4-buggy
+

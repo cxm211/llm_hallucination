@@ -1,0 +1,27 @@
+==== 2026-05-23 03:02:22 :: Closure-82_1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty5
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testCast15
+  - com.google.javascript.jscomp.TypeCheckTest::testForwardTypeDeclaration5
+  - com.google.javascript.jscomp.TypeCheckTest::testForwardTypeDeclaration6
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty5
+  - com.google.javascript.jscomp.TypeCheckTest::testCast15
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue301
+  - com.google.javascript.jscomp.TypeCheckTest::testLends3
+  - com.google.javascript.jscomp.TypeCheckTest::testLends5
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty32
+  - com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes
+  - com.google.javascript.rhino.jstype.JSTypeTest::testForwardDeclaredNamedTypeEquals
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNullType
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNoObjectType
+  - com.google.javascript.rhino.jstype.JSTypeTest::testTestForEquality
+  - com.google.javascript.rhino.jstype.JSTypeTest::testUniversalConstructorType
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNoResolvedType
+  - com.google.javascript.rhino.jstype.JSTypeTest::testNoType
+---- 退出码：0 | Closure-82_1-buggy
+

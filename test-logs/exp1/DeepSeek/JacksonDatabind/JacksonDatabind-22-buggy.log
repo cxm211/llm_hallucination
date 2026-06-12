@@ -1,0 +1,36 @@
+==== 2026-05-28 18:12:15 :: JacksonDatabind-22-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 27
+  - com.fasterxml.jackson.databind.big.TestBiggerData::testRoundTrip
+  - com.fasterxml.jackson.databind.convert.TestConvertingSerializer::testIssue359
+  - com.fasterxml.jackson.databind.deser.TestMapDeserialization::testEnumPolymorphicSerializationTest
+  - com.fasterxml.jackson.databind.jsonschema.TestGenerateJsonSchema::testGeneratingJsonSchema
+  - com.fasterxml.jackson.databind.jsonschema.TestGenerateJsonSchema::testSchemaSerialization
+  - com.fasterxml.jackson.databind.jsontype.TestAbstractTypeNames::testEmptyCollection
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForLists::testListOfNumbers
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForLists::testDateTypes
+  - com.fasterxml.jackson.databind.jsontype.TestDefaultForMaps::testList
+  - com.fasterxml.jackson.databind.jsontype.TestGenericListSerialization::testSubTypesFor356
+  - com.fasterxml.jackson.databind.jsontype.TestTypedArraySerialization::testListWithPolymorphic
+  - com.fasterxml.jackson.databind.jsontype.TestTypedArraySerialization::testStringListAsObjectWrapper
+  - com.fasterxml.jackson.databind.jsontype.TestTypedContainerSerialization::testIssue508
+  - com.fasterxml.jackson.databind.jsontype.TestTypedSerialization::testTypedMaps
+  - com.fasterxml.jackson.databind.jsontype.TestWithGenerics::testJackson387
+  - com.fasterxml.jackson.databind.jsontype.TestWithGenerics::testJackson430
+  - com.fasterxml.jackson.databind.objectid.TestAbstractWithObjectId::testIssue877
+  - com.fasterxml.jackson.databind.objectid.TestObjectIdWithPolymorphic::testIssue811
+  - com.fasterxml.jackson.databind.ser.DateSerializationTest::testWithTimeZoneOverride
+  - com.fasterxml.jackson.databind.ser.TestCollectionSerialization::testCollections
+  - com.fasterxml.jackson.databind.ser.TestFeatures::testSingleElementCollections
+  - com.fasterxml.jackson.databind.ser.TestGenericTypes::testRootTypeForCollections727
+  - com.fasterxml.jackson.databind.ser.TestJsonSerialize::testStaticTypingWithLinkedList
+  - com.fasterxml.jackson.databind.ser.TestJsonValue::testJsonValueWithCustomOverride
+  - com.fasterxml.jackson.databind.ser.TestMapSerialization::testMapKeyValueSerialization
+  - com.fasterxml.jackson.databind.ser.TestTypedRootValueSerialization::testTypedLists
+  - com.fasterxml.jackson.databind.struct.FormatFeaturesTest::testWithCollectionTypes
+---- 退出码：0 | JacksonDatabind-22-buggy
+
