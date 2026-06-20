@@ -1,0 +1,20 @@
+==== 2026-06-18 22:14:16 :: Jsoup-37-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 11
+  - org.jsoup.nodes.DocumentTest::testXhtmlReferences
+  - org.jsoup.nodes.ElementTest::testInnerHtml
+  - org.jsoup.parser.HtmlParserTest::handlesNullInComments
+  - org.jsoup.parser.HtmlParserTest::handlesXmlDeclarationAsBogusComment
+  - org.jsoup.parser.HtmlParserTest::preservesSpaceInScript
+  - org.jsoup.parser.HtmlParserTest::preservesSpaceInTextArea
+  - org.jsoup.parser.HtmlParserTest::handles0CharacterAsText
+  - org.jsoup.parser.HtmlParserTest::doesNotFindShortestMatchingEntity
+  - org.jsoup.parser.HtmlParserTest::relaxedBaseEntityMatchAndStrictExtendedMatch
+  - org.jsoup.parser.XmlTreeBuilderTest::testSupplyParserToDataStream
+  - org.jsoup.safety.CleanerTest::cleansInternationalText
+---- 退出码：0 | Jsoup-37-buggy
+

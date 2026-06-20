@@ -1,0 +1,38 @@
+model,project,bug_id,status,log
+GPT5,Cli,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-1-buggy.log
+GPT5,Cli,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-2-buggy.log
+GPT5,Cli,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-3-buggy.log
+GPT5,Cli,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-4-buggy.log
+GPT5,Cli,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-5-buggy.log
+GPT5,Cli,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-8-buggy.log
+GPT5,Cli,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-9-buggy.log
+GPT5,Cli,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-10-buggy.log
+GPT5,Cli,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-11-buggy.log
+GPT5,Cli,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-12-buggy.log
+GPT5,Cli,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-13-buggy.log
+GPT5,Cli,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-14-buggy.log
+GPT5,Cli,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-15-buggy.log
+GPT5,Cli,16,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-16-buggy.log
+GPT5,Cli,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-17-buggy.log
+GPT5,Cli,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-18-buggy.log
+GPT5,Cli,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-19-buggy.log
+GPT5,Cli,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-20-buggy.log
+GPT5,Cli,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-21-buggy.log
+GPT5,Cli,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-22-buggy.log
+GPT5,Cli,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-23-buggy.log
+GPT5,Cli,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-24-buggy.log
+GPT5,Cli,25,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-25-buggy.log
+GPT5,Cli,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-26-buggy.log
+GPT5,Cli,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-27-buggy.log
+GPT5,Cli,28,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-28-buggy.log
+GPT5,Cli,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-29-buggy.log
+GPT5,Cli,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-30-buggy.log
+GPT5,Cli,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-31-buggy.log
+GPT5,Cli,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-32-buggy.log
+GPT5,Cli,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-33-buggy.log
+GPT5,Cli,34,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-34-buggy.log
+GPT5,Cli,35,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-35-buggy.log
+GPT5,Cli,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-37-buggy.log
+GPT5,Cli,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-38-buggy.log
+GPT5,Cli,39,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-39-buggy.log
+GPT5,Cli,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Cli/Cli-40-buggy.log

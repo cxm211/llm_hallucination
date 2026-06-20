@@ -1,0 +1,16 @@
+==== 2026-06-16 19:50:48 :: Closure-162_13-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.GroupVariableDeclarationsTest::testGroupingVarsInnerFunction
+  - com.google.javascript.jscomp.GroupVariableDeclarationsTest::testGroupingVarsInForAndForInLoops
+  - com.google.javascript.jscomp.GroupVariableDeclarationsTest::testGroupingUninitializedVarsInScope
+  - com.google.javascript.jscomp.GroupVariableDeclarationsTest::testGroupingInitializedVarsInScope
+  - com.google.javascript.jscomp.GroupVariableDeclarationsTest::testGroupingVarsInScopeRegtest
+  - com.google.javascript.jscomp.GroupVariableDeclarationsTest::testGroupingVarsNestedFunction
+  - com.google.javascript.jscomp.ScopedAliasesTest::testForwardJsDoc
+---- 退出码：0 | Closure-162_13-buggy
+

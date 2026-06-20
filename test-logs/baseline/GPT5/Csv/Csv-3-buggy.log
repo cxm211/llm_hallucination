@@ -1,0 +1,12 @@
+==== 2026-06-18 20:00:59 :: Csv-3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.csv.CSVLexerTest::testEscapedMySqlNullValue
+  - org.apache.commons.csv.CSVLexerTest::testEscapedCharacter
+  - org.apache.commons.csv.CSVParserTest::testBackslashEscaping
+---- 退出码：0 | Csv-3-buggy
+

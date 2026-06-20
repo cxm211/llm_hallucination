@@ -1,0 +1,173 @@
+model,project,bug_id,status,log
+Claude,Closure,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-1-buggy.log
+Claude,Closure,2,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-2-buggy.log
+Claude,Closure,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-3-buggy.log
+Claude,Closure,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-4-buggy.log
+Claude,Closure,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-5-buggy.log
+Claude,Closure,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-6-buggy.log
+Claude,Closure,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-7-buggy.log
+Claude,Closure,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-8-buggy.log
+Claude,Closure,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-9-buggy.log
+Claude,Closure,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-10-buggy.log
+Claude,Closure,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-11-buggy.log
+Claude,Closure,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-12-buggy.log
+Claude,Closure,13,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-13-buggy.log
+Claude,Closure,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-14-buggy.log
+Claude,Closure,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-15-buggy.log
+Claude,Closure,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-16-buggy.log
+Claude,Closure,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-17-buggy.log
+Claude,Closure,18,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-18-buggy.log
+Claude,Closure,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-19-buggy.log
+Claude,Closure,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-20-buggy.log
+Claude,Closure,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-21-buggy.log
+Claude,Closure,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-22-buggy.log
+Claude,Closure,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-23-buggy.log
+Claude,Closure,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-24-buggy.log
+Claude,Closure,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-25-buggy.log
+Claude,Closure,26,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-26-buggy.log
+Claude,Closure,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-27-buggy.log
+Claude,Closure,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-28-buggy.log
+Claude,Closure,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-29-buggy.log
+Claude,Closure,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-30-buggy.log
+Claude,Closure,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-31-buggy.log
+Claude,Closure,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-32-buggy.log
+Claude,Closure,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-33-buggy.log
+Claude,Closure,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-34-buggy.log
+Claude,Closure,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-35-buggy.log
+Claude,Closure,36,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-36-buggy.log
+Claude,Closure,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-37-buggy.log
+Claude,Closure,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-38-buggy.log
+Claude,Closure,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-39-buggy.log
+Claude,Closure,40,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-40-buggy.log
+Claude,Closure,41,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-41-buggy.log
+Claude,Closure,42,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-42-buggy.log
+Claude,Closure,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-43-buggy.log
+Claude,Closure,44,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-44-buggy.log
+Claude,Closure,45,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-45-buggy.log
+Claude,Closure,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-46-buggy.log
+Claude,Closure,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-47-buggy.log
+Claude,Closure,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-48-buggy.log
+Claude,Closure,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-49-buggy.log
+Claude,Closure,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-50-buggy.log
+Claude,Closure,51,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-51-buggy.log
+Claude,Closure,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-52-buggy.log
+Claude,Closure,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-53-buggy.log
+Claude,Closure,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-54-buggy.log
+Claude,Closure,55,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-55-buggy.log
+Claude,Closure,56,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-56-buggy.log
+Claude,Closure,57,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-57-buggy.log
+Claude,Closure,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-58-buggy.log
+Claude,Closure,59,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-59-buggy.log
+Claude,Closure,60,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-60-buggy.log
+Claude,Closure,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-61-buggy.log
+Claude,Closure,62,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-62-buggy.log
+Claude,Closure,64,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-64-buggy.log
+Claude,Closure,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-65-buggy.log
+Claude,Closure,66,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-66-buggy.log
+Claude,Closure,67,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-67-buggy.log
+Claude,Closure,68,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-68-buggy.log
+Claude,Closure,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-69-buggy.log
+Claude,Closure,70,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-70-buggy.log
+Claude,Closure,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-71-buggy.log
+Claude,Closure,72,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-72-buggy.log
+Claude,Closure,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-73-buggy.log
+Claude,Closure,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-74-buggy.log
+Claude,Closure,75,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-75-buggy.log
+Claude,Closure,76,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-76-buggy.log
+Claude,Closure,77,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-77-buggy.log
+Claude,Closure,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-78-buggy.log
+Claude,Closure,79,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-79-buggy.log
+Claude,Closure,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-80-buggy.log
+Claude,Closure,81,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-81-buggy.log
+Claude,Closure,82,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-82-buggy.log
+Claude,Closure,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-83-buggy.log
+Claude,Closure,84,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-84-buggy.log
+Claude,Closure,85,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-85-buggy.log
+Claude,Closure,86,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-86-buggy.log
+Claude,Closure,87,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-87-buggy.log
+Claude,Closure,88,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-88-buggy.log
+Claude,Closure,89,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-89-buggy.log
+Claude,Closure,90,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-90-buggy.log
+Claude,Closure,91,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-91-buggy.log
+Claude,Closure,92,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-92-buggy.log
+Claude,Closure,94,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-94-buggy.log
+Claude,Closure,95,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-95-buggy.log
+Claude,Closure,96,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-96-buggy.log
+Claude,Closure,97,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-97-buggy.log
+Claude,Closure,98,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-98-buggy.log
+Claude,Closure,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-99-buggy.log
+Claude,Closure,100,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-100-buggy.log
+Claude,Closure,101,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-101-buggy.log
+Claude,Closure,102,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-102-buggy.log
+Claude,Closure,103,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-103-buggy.log
+Claude,Closure,104,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-104-buggy.log
+Claude,Closure,105,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-105-buggy.log
+Claude,Closure,106,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-106-buggy.log
+Claude,Closure,107,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-107-buggy.log
+Claude,Closure,108,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-108-buggy.log
+Claude,Closure,109,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-109-buggy.log
+Claude,Closure,110,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-110-buggy.log
+Claude,Closure,111,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-111-buggy.log
+Claude,Closure,112,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-112-buggy.log
+Claude,Closure,113,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-113-buggy.log
+Claude,Closure,114,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-114-buggy.log
+Claude,Closure,115,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-115-buggy.log
+Claude,Closure,116,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-116-buggy.log
+Claude,Closure,117,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-117-buggy.log
+Claude,Closure,118,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-118-buggy.log
+Claude,Closure,119,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-119-buggy.log
+Claude,Closure,120,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-120-buggy.log
+Claude,Closure,121,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-121-buggy.log
+Claude,Closure,122,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-122-buggy.log
+Claude,Closure,123,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-123-buggy.log
+Claude,Closure,124,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-124-buggy.log
+Claude,Closure,125,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-125-buggy.log
+Claude,Closure,126,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-126-buggy.log
+Claude,Closure,127,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-127-buggy.log
+Claude,Closure,128,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-128-buggy.log
+Claude,Closure,129,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-129-buggy.log
+Claude,Closure,130,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-130-buggy.log
+Claude,Closure,131,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-131-buggy.log
+Claude,Closure,132,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-132-buggy.log
+Claude,Closure,133,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-133-buggy.log
+Claude,Closure,134,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-134-buggy.log
+Claude,Closure,135,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-135-buggy.log
+Claude,Closure,136,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-136-buggy.log
+Claude,Closure,137,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-137-buggy.log
+Claude,Closure,138,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-138-buggy.log
+Claude,Closure,139,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-139-buggy.log
+Claude,Closure,140,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-140-buggy.log
+Claude,Closure,141,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-141-buggy.log
+Claude,Closure,142,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-142-buggy.log
+Claude,Closure,143,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-143-buggy.log
+Claude,Closure,144,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-144-buggy.log
+Claude,Closure,145,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-145-buggy.log
+Claude,Closure,146,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-146-buggy.log
+Claude,Closure,147,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-147-buggy.log
+Claude,Closure,148,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-148-buggy.log
+Claude,Closure,149,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-149-buggy.log
+Claude,Closure,151,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-151-buggy.log
+Claude,Closure,152,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-152-buggy.log
+Claude,Closure,153,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-153-buggy.log
+Claude,Closure,154,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-154-buggy.log
+Claude,Closure,155,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-155-buggy.log
+Claude,Closure,156,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-156-buggy.log
+Claude,Closure,157,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-157-buggy.log
+Claude,Closure,158,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-158-buggy.log
+Claude,Closure,159,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-159-buggy.log
+Claude,Closure,160,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-160-buggy.log
+Claude,Closure,161,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-161-buggy.log
+Claude,Closure,162,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-162-buggy.log
+Claude,Closure,163,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-163-buggy.log
+Claude,Closure,164,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-164-buggy.log
+Claude,Closure,165,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-165-buggy.log
+Claude,Closure,166,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-166-buggy.log
+Claude,Closure,167,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-167-buggy.log
+Claude,Closure,169,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-169-buggy.log
+Claude,Closure,170,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-170-buggy.log
+Claude,Closure,171,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-171-buggy.log
+Claude,Closure,172,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-172-buggy.log
+Claude,Closure,173,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-173-buggy.log
+Claude,Closure,174,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-174-buggy.log
+Claude,Closure,175,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-175-buggy.log
+Claude,Closure,176,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-176-buggy.log

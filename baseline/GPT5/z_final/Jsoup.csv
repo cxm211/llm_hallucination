@@ -1,0 +1,89 @@
+model,project,bug_id,status,log
+GPT5,Jsoup,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-1-buggy.log
+GPT5,Jsoup,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-2-buggy.log
+GPT5,Jsoup,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-3-buggy.log
+GPT5,Jsoup,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-4-buggy.log
+GPT5,Jsoup,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-5-buggy.log
+GPT5,Jsoup,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-6-buggy.log
+GPT5,Jsoup,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-7-buggy.log
+GPT5,Jsoup,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-8-buggy.log
+GPT5,Jsoup,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-10-buggy.log
+GPT5,Jsoup,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-11-buggy.log
+GPT5,Jsoup,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-12-buggy.log
+GPT5,Jsoup,13,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-13-buggy.log
+GPT5,Jsoup,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-14-buggy.log
+GPT5,Jsoup,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-15-buggy.log
+GPT5,Jsoup,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-16-buggy.log
+GPT5,Jsoup,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-18-buggy.log
+GPT5,Jsoup,19,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-19-buggy.log
+GPT5,Jsoup,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-20-buggy.log
+GPT5,Jsoup,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-21-buggy.log
+GPT5,Jsoup,22,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-22-buggy.log
+GPT5,Jsoup,23,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-23-buggy.log
+GPT5,Jsoup,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-24-buggy.log
+GPT5,Jsoup,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-26-buggy.log
+GPT5,Jsoup,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-27-buggy.log
+GPT5,Jsoup,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-28-buggy.log
+GPT5,Jsoup,29,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-29-buggy.log
+GPT5,Jsoup,30,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-30-buggy.log
+GPT5,Jsoup,31,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-31-buggy.log
+GPT5,Jsoup,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-32-buggy.log
+GPT5,Jsoup,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-33-buggy.log
+GPT5,Jsoup,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-34-buggy.log
+GPT5,Jsoup,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-35-buggy.log
+GPT5,Jsoup,36,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-36-buggy.log
+GPT5,Jsoup,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-37-buggy.log
+GPT5,Jsoup,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-38-buggy.log
+GPT5,Jsoup,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-39-buggy.log
+GPT5,Jsoup,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-40-buggy.log
+GPT5,Jsoup,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-41-buggy.log
+GPT5,Jsoup,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-42-buggy.log
+GPT5,Jsoup,43,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-43-buggy.log
+GPT5,Jsoup,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-44-buggy.log
+GPT5,Jsoup,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-45-buggy.log
+GPT5,Jsoup,46,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-46-buggy.log
+GPT5,Jsoup,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-47-buggy.log
+GPT5,Jsoup,48,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-48-buggy.log
+GPT5,Jsoup,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-49-buggy.log
+GPT5,Jsoup,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-50-buggy.log
+GPT5,Jsoup,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-51-buggy.log
+GPT5,Jsoup,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-52-buggy.log
+GPT5,Jsoup,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-53-buggy.log
+GPT5,Jsoup,54,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-54-buggy.log
+GPT5,Jsoup,55,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-55-buggy.log
+GPT5,Jsoup,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-56-buggy.log
+GPT5,Jsoup,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-57-buggy.log
+GPT5,Jsoup,58,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-58-buggy.log
+GPT5,Jsoup,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-59-buggy.log
+GPT5,Jsoup,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-61-buggy.log
+GPT5,Jsoup,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-62-buggy.log
+GPT5,Jsoup,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-63-buggy.log
+GPT5,Jsoup,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-64-buggy.log
+GPT5,Jsoup,65,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-65-buggy.log
+GPT5,Jsoup,66,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-66-buggy.log
+GPT5,Jsoup,67,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-67-buggy.log
+GPT5,Jsoup,68,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-68-buggy.log
+GPT5,Jsoup,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-69-buggy.log
+GPT5,Jsoup,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-70-buggy.log
+GPT5,Jsoup,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-71-buggy.log
+GPT5,Jsoup,72,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-72-buggy.log
+GPT5,Jsoup,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-73-buggy.log
+GPT5,Jsoup,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-74-buggy.log
+GPT5,Jsoup,75,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-75-buggy.log
+GPT5,Jsoup,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-76-buggy.log
+GPT5,Jsoup,77,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-77-buggy.log
+GPT5,Jsoup,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-78-buggy.log
+GPT5,Jsoup,79,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-79-buggy.log
+GPT5,Jsoup,80,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-80-buggy.log
+GPT5,Jsoup,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-81-buggy.log
+GPT5,Jsoup,82,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-82-buggy.log
+GPT5,Jsoup,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-83-buggy.log
+GPT5,Jsoup,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-84-buggy.log
+GPT5,Jsoup,86,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-86-buggy.log
+GPT5,Jsoup,87,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-87-buggy.log
+GPT5,Jsoup,88,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-88-buggy.log
+GPT5,Jsoup,89,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-89-buggy.log
+GPT5,Jsoup,90,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-90-buggy.log
+GPT5,Jsoup,91,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-91-buggy.log
+GPT5,Jsoup,92,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-92-buggy.log
+GPT5,Jsoup,93,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Jsoup/Jsoup-93-buggy.log

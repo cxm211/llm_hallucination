@@ -1,0 +1,19 @@
+model,project,bug_id,status,log
+DeepSeek,Gson,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-1-buggy.log
+DeepSeek,Gson,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-2-buggy.log
+DeepSeek,Gson,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-3-buggy.log
+DeepSeek,Gson,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-4-buggy.log
+DeepSeek,Gson,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-5-buggy.log
+DeepSeek,Gson,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-6-buggy.log
+DeepSeek,Gson,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-7-buggy.log
+DeepSeek,Gson,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-8-buggy.log
+DeepSeek,Gson,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-9-buggy.log
+DeepSeek,Gson,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-10-buggy.log
+DeepSeek,Gson,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-11-buggy.log
+DeepSeek,Gson,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-12-buggy.log
+DeepSeek,Gson,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-13-buggy.log
+DeepSeek,Gson,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-14-buggy.log
+DeepSeek,Gson,15,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-15-buggy.log
+DeepSeek,Gson,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-16-buggy.log
+DeepSeek,Gson,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-17-buggy.log
+DeepSeek,Gson,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Gson/Gson-18-buggy.log

@@ -1,0 +1,173 @@
+model,project,bug_id,status,log
+DeepSeek,Closure,1,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-1-buggy.log
+DeepSeek,Closure,2,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-2-buggy.log
+DeepSeek,Closure,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-3-buggy.log
+DeepSeek,Closure,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-4-buggy.log
+DeepSeek,Closure,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-5-buggy.log
+DeepSeek,Closure,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-6-buggy.log
+DeepSeek,Closure,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-7-buggy.log
+DeepSeek,Closure,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-8-buggy.log
+DeepSeek,Closure,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-9-buggy.log
+DeepSeek,Closure,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-10-buggy.log
+DeepSeek,Closure,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-11-buggy.log
+DeepSeek,Closure,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-12-buggy.log
+DeepSeek,Closure,13,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-13-buggy.log
+DeepSeek,Closure,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-14-buggy.log
+DeepSeek,Closure,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-15-buggy.log
+DeepSeek,Closure,16,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-16-buggy.log
+DeepSeek,Closure,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-17-buggy.log
+DeepSeek,Closure,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-18-buggy.log
+DeepSeek,Closure,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-19-buggy.log
+DeepSeek,Closure,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-20-buggy.log
+DeepSeek,Closure,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-21-buggy.log
+DeepSeek,Closure,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-22-buggy.log
+DeepSeek,Closure,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-23-buggy.log
+DeepSeek,Closure,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-24-buggy.log
+DeepSeek,Closure,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-25-buggy.log
+DeepSeek,Closure,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-26-buggy.log
+DeepSeek,Closure,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-27-buggy.log
+DeepSeek,Closure,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-28-buggy.log
+DeepSeek,Closure,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-29-buggy.log
+DeepSeek,Closure,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-30-buggy.log
+DeepSeek,Closure,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-31-buggy.log
+DeepSeek,Closure,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-32-buggy.log
+DeepSeek,Closure,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-33-buggy.log
+DeepSeek,Closure,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-34-buggy.log
+DeepSeek,Closure,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-35-buggy.log
+DeepSeek,Closure,36,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-36-buggy.log
+DeepSeek,Closure,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-37-buggy.log
+DeepSeek,Closure,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-38-buggy.log
+DeepSeek,Closure,39,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-39-buggy.log
+DeepSeek,Closure,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-40-buggy.log
+DeepSeek,Closure,41,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-41-buggy.log
+DeepSeek,Closure,42,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-42-buggy.log
+DeepSeek,Closure,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-43-buggy.log
+DeepSeek,Closure,44,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-44-buggy.log
+DeepSeek,Closure,45,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-45-buggy.log
+DeepSeek,Closure,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-46-buggy.log
+DeepSeek,Closure,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-47-buggy.log
+DeepSeek,Closure,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-48-buggy.log
+DeepSeek,Closure,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-49-buggy.log
+DeepSeek,Closure,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-50-buggy.log
+DeepSeek,Closure,51,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-51-buggy.log
+DeepSeek,Closure,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-52-buggy.log
+DeepSeek,Closure,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-53-buggy.log
+DeepSeek,Closure,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-54-buggy.log
+DeepSeek,Closure,55,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-55-buggy.log
+DeepSeek,Closure,56,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-56-buggy.log
+DeepSeek,Closure,57,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-57-buggy.log
+DeepSeek,Closure,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-58-buggy.log
+DeepSeek,Closure,59,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-59-buggy.log
+DeepSeek,Closure,60,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-60-buggy.log
+DeepSeek,Closure,61,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-61-buggy.log
+DeepSeek,Closure,62,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-62-buggy.log
+DeepSeek,Closure,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-64-buggy.log
+DeepSeek,Closure,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-65-buggy.log
+DeepSeek,Closure,66,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-66-buggy.log
+DeepSeek,Closure,67,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-67-buggy.log
+DeepSeek,Closure,68,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-68-buggy.log
+DeepSeek,Closure,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-69-buggy.log
+DeepSeek,Closure,70,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-70-buggy.log
+DeepSeek,Closure,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-71-buggy.log
+DeepSeek,Closure,72,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-72-buggy.log
+DeepSeek,Closure,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-73-buggy.log
+DeepSeek,Closure,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-74-buggy.log
+DeepSeek,Closure,75,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-75-buggy.log
+DeepSeek,Closure,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-76-buggy.log
+DeepSeek,Closure,77,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-77-buggy.log
+DeepSeek,Closure,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-78-buggy.log
+DeepSeek,Closure,79,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-79-buggy.log
+DeepSeek,Closure,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-80-buggy.log
+DeepSeek,Closure,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-81-buggy.log
+DeepSeek,Closure,82,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-82-buggy.log
+DeepSeek,Closure,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-83-buggy.log
+DeepSeek,Closure,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-84-buggy.log
+DeepSeek,Closure,85,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-85-buggy.log
+DeepSeek,Closure,86,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-86-buggy.log
+DeepSeek,Closure,87,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-87-buggy.log
+DeepSeek,Closure,88,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-88-buggy.log
+DeepSeek,Closure,89,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-89-buggy.log
+DeepSeek,Closure,90,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-90-buggy.log
+DeepSeek,Closure,91,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-91-buggy.log
+DeepSeek,Closure,92,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-92-buggy.log
+DeepSeek,Closure,94,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-94-buggy.log
+DeepSeek,Closure,95,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-95-buggy.log
+DeepSeek,Closure,96,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-96-buggy.log
+DeepSeek,Closure,97,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-97-buggy.log
+DeepSeek,Closure,98,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-98-buggy.log
+DeepSeek,Closure,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-99-buggy.log
+DeepSeek,Closure,100,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-100-buggy.log
+DeepSeek,Closure,101,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-101-buggy.log
+DeepSeek,Closure,102,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-102-buggy.log
+DeepSeek,Closure,103,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-103-buggy.log
+DeepSeek,Closure,104,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-104-buggy.log
+DeepSeek,Closure,105,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-105-buggy.log
+DeepSeek,Closure,106,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-106-buggy.log
+DeepSeek,Closure,107,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-107-buggy.log
+DeepSeek,Closure,108,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-108-buggy.log
+DeepSeek,Closure,109,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-109-buggy.log
+DeepSeek,Closure,110,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-110-buggy.log
+DeepSeek,Closure,111,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-111-buggy.log
+DeepSeek,Closure,112,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-112-buggy.log
+DeepSeek,Closure,113,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-113-buggy.log
+DeepSeek,Closure,114,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-114-buggy.log
+DeepSeek,Closure,115,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-115-buggy.log
+DeepSeek,Closure,116,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-116-buggy.log
+DeepSeek,Closure,117,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-117-buggy.log
+DeepSeek,Closure,118,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-118-buggy.log
+DeepSeek,Closure,119,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-119-buggy.log
+DeepSeek,Closure,120,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-120-buggy.log
+DeepSeek,Closure,121,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-121-buggy.log
+DeepSeek,Closure,122,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-122-buggy.log
+DeepSeek,Closure,123,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-123-buggy.log
+DeepSeek,Closure,124,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-124-buggy.log
+DeepSeek,Closure,125,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-125-buggy.log
+DeepSeek,Closure,126,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-126-buggy.log
+DeepSeek,Closure,127,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-127-buggy.log
+DeepSeek,Closure,128,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-128-buggy.log
+DeepSeek,Closure,129,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-129-buggy.log
+DeepSeek,Closure,130,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-130-buggy.log
+DeepSeek,Closure,131,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-131-buggy.log
+DeepSeek,Closure,132,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-132-buggy.log
+DeepSeek,Closure,133,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-133-buggy.log
+DeepSeek,Closure,134,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-134-buggy.log
+DeepSeek,Closure,135,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-135-buggy.log
+DeepSeek,Closure,136,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-136-buggy.log
+DeepSeek,Closure,137,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-137-buggy.log
+DeepSeek,Closure,138,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-138-buggy.log
+DeepSeek,Closure,139,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-139-buggy.log
+DeepSeek,Closure,140,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-140-buggy.log
+DeepSeek,Closure,141,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-141-buggy.log
+DeepSeek,Closure,142,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-142-buggy.log
+DeepSeek,Closure,143,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-143-buggy.log
+DeepSeek,Closure,144,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-144-buggy.log
+DeepSeek,Closure,145,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-145-buggy.log
+DeepSeek,Closure,146,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-146-buggy.log
+DeepSeek,Closure,147,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-147-buggy.log
+DeepSeek,Closure,148,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-148-buggy.log
+DeepSeek,Closure,149,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-149-buggy.log
+DeepSeek,Closure,151,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-151-buggy.log
+DeepSeek,Closure,152,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-152-buggy.log
+DeepSeek,Closure,153,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-153-buggy.log
+DeepSeek,Closure,154,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-154-buggy.log
+DeepSeek,Closure,155,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-155-buggy.log
+DeepSeek,Closure,156,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-156-buggy.log
+DeepSeek,Closure,157,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-157-buggy.log
+DeepSeek,Closure,158,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-158-buggy.log
+DeepSeek,Closure,159,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-159-buggy.log
+DeepSeek,Closure,160,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-160-buggy.log
+DeepSeek,Closure,161,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-161-buggy.log
+DeepSeek,Closure,162,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-162-buggy.log
+DeepSeek,Closure,163,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-163-buggy.log
+DeepSeek,Closure,164,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-164-buggy.log
+DeepSeek,Closure,165,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-165-buggy.log
+DeepSeek,Closure,166,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-166-buggy.log
+DeepSeek,Closure,167,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-167-buggy.log
+DeepSeek,Closure,169,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-169-buggy.log
+DeepSeek,Closure,170,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-170-buggy.log
+DeepSeek,Closure,171,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-171-buggy.log
+DeepSeek,Closure,172,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-172-buggy.log
+DeepSeek,Closure,173,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-173-buggy.log
+DeepSeek,Closure,174,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-174-buggy.log
+DeepSeek,Closure,175,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-175-buggy.log
+DeepSeek,Closure,176,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Closure/Closure-176-buggy.log

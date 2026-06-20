@@ -1,0 +1,17 @@
+model,project,bug_id,status,log
+Claude,Codec,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-1-buggy.log
+Claude,Codec,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-2-buggy.log
+Claude,Codec,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-3-buggy.log
+Claude,Codec,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-4-buggy.log
+Claude,Codec,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-5-buggy.log
+Claude,Codec,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-6-buggy.log
+Claude,Codec,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-7-buggy.log
+Claude,Codec,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-8-buggy.log
+Claude,Codec,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-9-buggy.log
+Claude,Codec,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-10-buggy.log
+Claude,Codec,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-11-buggy.log
+Claude,Codec,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-12-buggy.log
+Claude,Codec,14,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-14-buggy.log
+Claude,Codec,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-15-buggy.log
+Claude,Codec,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-17-buggy.log
+Claude,Codec,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-18-buggy.log

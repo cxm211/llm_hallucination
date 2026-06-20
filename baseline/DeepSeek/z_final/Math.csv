@@ -1,0 +1,105 @@
+model,project,bug_id,status,log
+DeepSeek,Math,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-1-buggy.log
+DeepSeek,Math,2,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-2-buggy.log
+DeepSeek,Math,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-3-buggy.log
+DeepSeek,Math,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-4-buggy.log
+DeepSeek,Math,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-5-buggy.log
+DeepSeek,Math,6,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-6-buggy.log
+DeepSeek,Math,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-7-buggy.log
+DeepSeek,Math,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-8-buggy.log
+DeepSeek,Math,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-9-buggy.log
+DeepSeek,Math,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-10-buggy.log
+DeepSeek,Math,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-11-buggy.log
+DeepSeek,Math,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-13-buggy.log
+DeepSeek,Math,14,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-14-buggy.log
+DeepSeek,Math,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-15-buggy.log
+DeepSeek,Math,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-16-buggy.log
+DeepSeek,Math,17,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-17-buggy.log
+DeepSeek,Math,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-18-buggy.log
+DeepSeek,Math,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-19-buggy.log
+DeepSeek,Math,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-20-buggy.log
+DeepSeek,Math,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-21-buggy.log
+DeepSeek,Math,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-22-buggy.log
+DeepSeek,Math,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-23-buggy.log
+DeepSeek,Math,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-24-buggy.log
+DeepSeek,Math,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-25-buggy.log
+DeepSeek,Math,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-26-buggy.log
+DeepSeek,Math,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-27-buggy.log
+DeepSeek,Math,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-28-buggy.log
+DeepSeek,Math,29,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-29-buggy.log
+DeepSeek,Math,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-30-buggy.log
+DeepSeek,Math,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-31-buggy.log
+DeepSeek,Math,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-32-buggy.log
+DeepSeek,Math,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-33-buggy.log
+DeepSeek,Math,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-34-buggy.log
+DeepSeek,Math,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-35-buggy.log
+DeepSeek,Math,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-36-buggy.log
+DeepSeek,Math,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-37-buggy.log
+DeepSeek,Math,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-38-buggy.log
+DeepSeek,Math,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-39-buggy.log
+DeepSeek,Math,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-40-buggy.log
+DeepSeek,Math,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-41-buggy.log
+DeepSeek,Math,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-42-buggy.log
+DeepSeek,Math,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-43-buggy.log
+DeepSeek,Math,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-44-buggy.log
+DeepSeek,Math,45,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-45-buggy.log
+DeepSeek,Math,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-46-buggy.log
+DeepSeek,Math,47,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-47-buggy.log
+DeepSeek,Math,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-48-buggy.log
+DeepSeek,Math,49,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-49-buggy.log
+DeepSeek,Math,50,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-50-buggy.log
+DeepSeek,Math,51,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-51-buggy.log
+DeepSeek,Math,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-52-buggy.log
+DeepSeek,Math,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-53-buggy.log
+DeepSeek,Math,54,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-54-buggy.log
+DeepSeek,Math,55,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-55-buggy.log
+DeepSeek,Math,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-56-buggy.log
+DeepSeek,Math,57,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-57-buggy.log
+DeepSeek,Math,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-58-buggy.log
+DeepSeek,Math,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-59-buggy.log
+DeepSeek,Math,60,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-60-buggy.log
+DeepSeek,Math,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-61-buggy.log
+DeepSeek,Math,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-62-buggy.log
+DeepSeek,Math,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-63-buggy.log
+DeepSeek,Math,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-64-buggy.log
+DeepSeek,Math,65,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-65-buggy.log
+DeepSeek,Math,66,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-66-buggy.log
+DeepSeek,Math,67,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-67-buggy.log
+DeepSeek,Math,68,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-68-buggy.log
+DeepSeek,Math,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-69-buggy.log
+DeepSeek,Math,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-70-buggy.log
+DeepSeek,Math,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-71-buggy.log
+DeepSeek,Math,72,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-72-buggy.log
+DeepSeek,Math,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-73-buggy.log
+DeepSeek,Math,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-74-buggy.log
+DeepSeek,Math,75,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-75-buggy.log
+DeepSeek,Math,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-76-buggy.log
+DeepSeek,Math,77,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-77-buggy.log
+DeepSeek,Math,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-78-buggy.log
+DeepSeek,Math,79,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-79-buggy.log
+DeepSeek,Math,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-80-buggy.log
+DeepSeek,Math,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-81-buggy.log
+DeepSeek,Math,82,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-82-buggy.log
+DeepSeek,Math,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-83-buggy.log
+DeepSeek,Math,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-84-buggy.log
+DeepSeek,Math,85,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-85-buggy.log
+DeepSeek,Math,86,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-86-buggy.log
+DeepSeek,Math,87,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-87-buggy.log
+DeepSeek,Math,88,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-88-buggy.log
+DeepSeek,Math,89,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-89-buggy.log
+DeepSeek,Math,90,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-90-buggy.log
+DeepSeek,Math,91,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-91-buggy.log
+DeepSeek,Math,92,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-92-buggy.log
+DeepSeek,Math,93,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-93-buggy.log
+DeepSeek,Math,94,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-94-buggy.log
+DeepSeek,Math,95,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-95-buggy.log
+DeepSeek,Math,96,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-96-buggy.log
+DeepSeek,Math,97,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-97-buggy.log
+DeepSeek,Math,98,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-98-buggy.log
+DeepSeek,Math,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-99-buggy.log
+DeepSeek,Math,100,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-100-buggy.log
+DeepSeek,Math,101,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-101-buggy.log
+DeepSeek,Math,102,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-102-buggy.log
+DeepSeek,Math,103,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-103-buggy.log
+DeepSeek,Math,105,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-105-buggy.log
+DeepSeek,Math,106,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Math/Math-106-buggy.log

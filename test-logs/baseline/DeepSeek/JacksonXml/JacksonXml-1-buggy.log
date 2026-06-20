@@ -1,0 +1,17 @@
+==== 2026-06-18 06:40:18 :: JacksonXml-1-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.fasterxml.jackson.dataformat.xml.RoundtripContentTest::testRoundtrip
+  - com.fasterxml.jackson.dataformat.xml.deser.TestStringValues::testEmptyStringElement
+  - com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test::testNestedUnwrappedLists180
+  - com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty2
+  - com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty
+  - com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest::testDefaultWrappingWithEmptyLists
+  - com.fasterxml.jackson.dataformat.xml.misc.EmptyPolymorphicTest::testEmpty
+  - com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testSimpleWithEmpty
+---- 退出码：0 | JacksonXml-1-buggy
+

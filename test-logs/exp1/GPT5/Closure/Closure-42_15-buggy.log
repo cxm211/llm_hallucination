@@ -1,4 +1,4 @@
-==== 2026-05-19 02:36:29 :: Closure-42_15-buggy ====
+==== 2026-06-15 13:35:58 :: Closure-42_15-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
@@ -257,11 +257,11 @@ compile:
     [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
     [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
     [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-42_15-buggy/src/com/google/javascript/jscomp/parsing/IRFactory.java:576: error: cannot find symbol
-    [javac]           n.putBooleanProp(Node.IS_FOR_IN, true);
-    [javac]                                ^
-    [javac]   symbol:   variable IS_FOR_IN
-    [javac]   location: class Node
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-42_15-buggy/src/com/google/javascript/jscomp/parsing/IRFactory.java:571: error: cannot find symbol
+    [javac]           Token.FOR_IN,
+    [javac]                ^
+    [javac]   symbol:   variable FOR_IN
+    [javac]   location: class Token
     [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-42_15-buggy/src/com/google/javascript/jscomp/CompilerOptions.java uses or overrides a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
     [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-42_15-buggy/src/com/google/javascript/jscomp/ant/CompileTask.java uses unchecked or unsafe operations.
@@ -272,7 +272,7 @@ compile:
 BUILD FAILED
 /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-42_15-buggy/build.xml:258: Compile failed; see the compiler error output for details.
 
-Total time: 5 seconds
+Total time: 6 seconds
 Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
 Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
 ---- 退出码：1 | Closure-42_15-buggy

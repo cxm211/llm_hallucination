@@ -1,0 +1,522 @@
+{
+  "requests": [
+    {
+      "custom_id": "Mockito_1",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 1/input.java\n\n===== BEGIN =====\n// buggy code\n    public void captureArgumentsFrom(Invocation invocation) {\n        if (invocation.getMethod().isVarArgs()) {\n            int indexOfVararg = invocation.getRawArguments().length - 1;\n            throw new UnsupportedOperationException();\n\n        } else {\n            for (int position = 0; position < matchers.size(); position++) {\n                Matcher m = matchers.get(position);\n                if (m instanceof CapturesArguments) {\n                    ((CapturesArguments) m).captureFrom(invocation.getArgumentAt(position, Object.class));\n                }\n            }\n        }\n\n//        for (int position = 0; position < matchers.size(); position++) {\n//            Matcher m = matchers.get(position);\n//            if (m instanceof CapturesArguments && invocation.getRawArguments().length > position) {\n//                //TODO SF - this whole lot can be moved captureFrom implementation\n//                if(isVariableArgument(invocation, position) && isVarargMatcher(m)) {\n//                    Object array = invocation.getRawArguments()[position];\n//                    for (int i = 0; i < Array.getLength(array); i++) {\n//                        ((CapturesArguments) m).captureFrom(Array.get(array, i));\n//                    }\n//                    //since we've captured all varargs already, it does not make sense to process other matchers.\n//                    return;\n//                } else {\n//                    ((CapturesArguments) m).captureFrom(invocation.getRawArguments()[position]);\n//                }\n//            }\n//        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_10",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 10/input.java\n\n===== BEGIN =====\n// buggy code\n    private Object deepStub(InvocationOnMock invocation, GenericMetadataSupport returnTypeGenericMetadata) throws Throwable {\n        InternalMockHandler<Object> handler = new MockUtil().getMockHandler(invocation.getMock());\n        InvocationContainerImpl container = (InvocationContainerImpl) handler.getInvocationContainer();\n\n        // matches invocation for verification\n        for (StubbedInvocationMatcher stubbedInvocationMatcher : container.getStubbedInvocations()) {\n            if (container.getInvocationForStubbing().matches(stubbedInvocationMatcher.getInvocation())) {\n                return stubbedInvocationMatcher.answer(invocation);\n            }\n        }\n\n        // record deep stub answer\n        return recordDeepStubAnswer(\n                newDeepStubMock(returnTypeGenericMetadata),\n                container\n        );\n    }\n\n    private Object newDeepStubMock(GenericMetadataSupport returnTypeGenericMetadata) {\n        return mockitoCore().mock(\n                returnTypeGenericMetadata.rawType(),\n                withSettingsUsing(returnTypeGenericMetadata)\n        );\n    }\n\n    private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {\n        MockSettings mockSettings = returnTypeGenericMetadata.hasRawExtraInterfaces() ?\n                withSettings().extraInterfaces(returnTypeGenericMetadata.rawExtraInterfaces())\n                : withSettings();\n\n        return mockSettings.serializable()\n                .defaultAnswer(returnsDeepStubsAnswerUsing(returnTypeGenericMetadata));\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_11",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 11/input.java\n\n===== BEGIN =====\n// buggy code\n    public boolean equals(Object o) {\n            return method.equals(o);\n    }\n\n    public int hashCode() {\n        return 1;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_12",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 12/input.java\n\n===== BEGIN =====\n// buggy code\n    public Class getGenericType(Field field) {        \n        Type generic = field.getGenericType();\n        if (generic != null && generic instanceof ParameterizedType) {\n            Type actual = ((ParameterizedType) generic).getActualTypeArguments()[0];\n                return (Class) actual;\n                //in case of nested generics we don't go deep\n        }\n        \n        return Object.class;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_13",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 13/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object handle(Invocation invocation) throws Throwable {\n        if (invocationContainerImpl.hasAnswersForStubbing()) {\n            // stubbing voids with stubVoid() or doAnswer() style\n            InvocationMatcher invocationMatcher = matchersBinder.bindMatchers(mockingProgress\n                            .getArgumentMatcherStorage(), invocation);\n            invocationContainerImpl.setMethodForStubbing(invocationMatcher);\n            return null;\n        }\n        VerificationMode verificationMode = mockingProgress.pullVerificationMode();\n\n        InvocationMatcher invocationMatcher = matchersBinder.bindMatchers(mockingProgress.getArgumentMatcherStorage(),\n                        invocation);\n\n        mockingProgress.validateState();\n\n        //if verificationMode is not null then someone is doing verify()        \n        if (verificationMode != null) {\n            //We need to check if verification was started on the correct mock \n            // - see VerifyingWithAnExtraCallToADifferentMockTest (bug 138)\n            if (verificationMode instanceof MockAwareVerificationMode && ((MockAwareVerificationMode) verificationMode).getMock() == invocation.getMock()) {                \n                VerificationDataImpl data = new VerificationDataImpl(invocationContainerImpl, invocationMatcher);            \n                verificationMode.verify(data);\n                return null;\n                // this means there is an invocation on a different mock. Re-adding verification mode \n                // - see VerifyingWithAnExtraCallToADifferentMockTest (bug 138)\n            }\n        }\n        \n        invocationContainerImpl.setInvocationForPotentialStubbing(invocationMatcher);\n        OngoingStubbingImpl<T> ongoingStubbing = new OngoingStubbingImpl<T>(invocationContainerImpl);\n        mockingProgress.reportOngoingStubbing(ongoingStubbing);\n\n        StubbedInvocationMatcher stubbedInvocation = invocationContainerImpl.findAnswerFor(invocation);\n\n        if (stubbedInvocation != null) {\n            stubbedInvocation.captureArgumentsFrom(invocation);\n            return stubbedInvocation.answer(invocation);\n        } else {\n            Object ret = mockSettings.getDefaultAnswer().answer(invocation);\n\n            // redo setting invocation for potential stubbing in case of partial\n            // mocks / spies.\n            // Without it, the real method inside 'when' might have delegated\n            // to other self method and overwrite the intended stubbed method\n            // with a different one. The reset is required to avoid runtime exception that validates return type with stubbed method signature.\n            invocationContainerImpl.resetInvocationForPotentialStubbing(invocationMatcher);\n            return ret;\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_14",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 14/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object handle(Invocation invocation) throws Throwable {\n        if (invocationContainerImpl.hasAnswersForStubbing()) {\n            // stubbing voids with stubVoid() or doAnswer() style\n            InvocationMatcher invocationMatcher = matchersBinder.bindMatchers(mockingProgress\n                            .getArgumentMatcherStorage(), invocation);\n            invocationContainerImpl.setMethodForStubbing(invocationMatcher);\n            return null;\n        }\n        VerificationMode verificationMode = mockingProgress.pullVerificationMode();\n\n        InvocationMatcher invocationMatcher = matchersBinder.bindMatchers(mockingProgress.getArgumentMatcherStorage(),\n                        invocation);\n\n        mockingProgress.validateState();\n\n        //if verificationMode is not null then someone is doing verify()        \n        if (verificationMode != null) {\n            //We need to check if verification was started on the correct mock \n            // - see VerifyingWithAnExtraCallToADifferentMockTest\n                VerificationDataImpl data = new VerificationDataImpl(invocationContainerImpl.getInvocations(), invocationMatcher);            \n                verificationMode.verify(data);\n                return null;\n        }\n        \n        invocationContainerImpl.setInvocationForPotentialStubbing(invocationMatcher);\n        OngoingStubbingImpl<T> ongoingStubbing = new OngoingStubbingImpl<T>(invocationContainerImpl);\n        mockingProgress.reportOngoingStubbing(ongoingStubbing);\n\n        StubbedInvocationMatcher stubbedInvocation = invocationContainerImpl.findAnswerFor(invocation);\n\n        if (stubbedInvocation != null) {\n            stubbedInvocation.captureArgumentsFrom(invocation);\n            return stubbedInvocation.answer(invocation);\n        } else {\n            Object ret = mockSettings.getDefaultAnswer().answer(invocation);\n\n            // redo setting invocation for potential stubbing in case of partial\n            // mocks / spies.\n            // Without it, the real method inside 'when' might have delegated\n            // to other self method and overwrite the intended stubbed method\n            // with a different one.\n            invocationContainerImpl.resetInvocationForPotentialStubbing(invocationMatcher);\n            return ret;\n        }\n    }\n\n    public <T> T verify(T mock, VerificationMode mode) {\n        if (mock == null) {\n            reporter.nullPassedToVerify();\n        } else if (!mockUtil.isMock(mock)) {\n            reporter.notAMockPassedToVerify();\n        }\n        mockingProgress.verificationStarted(mode);\n        return mock;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_15",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 15/input.java\n\n===== BEGIN =====\n// buggy code\n    public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {\n        if(mocks.size() == 1) {\n            final Object matchingMock = mocks.iterator().next();\n\n            return new OngoingInjecter() {\n                public boolean thenInject() {\n                    try {\n                            new FieldSetter(fieldInstance, field).set(matchingMock);\n                    } catch (Exception e) {\n                        throw new MockitoException(\"Problems injecting dependency in \" + field.getName(), e);\n                    }\n                    return true;\n                }\n            };\n        }\n\n        return new OngoingInjecter() {\n            public boolean thenInject() {\n                return false;\n            }\n        };\n\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_16",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 16/input.java\n\n===== BEGIN =====\n// buggy code\n    public <T> T mock(Class<T> classToMock, MockSettings mockSettings, boolean shouldResetOngoingStubbing) { return mock(classToMock, mockSettings); }\n\n    public <T> T mock(Class<T> classToMock, MockSettings mockSettings) {\n        mockingProgress.validateState();\n            mockingProgress.resetOngoingStubbing();\n        return mockUtil.createMock(classToMock, (MockSettingsImpl) mockSettings);\n    }\n\n    public static <T> T mock(Class<T> classToMock, MockSettings mockSettings) {\n        return MOCKITO_CORE.mock(classToMock, mockSettings);\n    }\n\n    public static <T> T spy(T object) {\n        return MOCKITO_CORE.mock((Class<T>) object.getClass(), withSettings()\n                .spiedInstance(object)\n                .defaultAnswer(CALLS_REAL_METHODS)); \n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_17",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 17/input.java\n\n===== BEGIN =====\n// buggy code\n    public MockSettings serializable() {\n        return this.extraInterfaces(java.io.Serializable.class);\n    }\n\n    public boolean isSerializable() {\n        return extraInterfaces != null && java.util.Arrays.asList(extraInterfaces).contains(java.io.Serializable.class);\n    }\n\n    public <T> T createMock(Class<T> classToMock, MockSettingsImpl settings) {\n        creationValidator.validateType(classToMock);\n        creationValidator.validateExtraInterfaces(classToMock, settings.getExtraInterfaces());\n        creationValidator.validateMockedType(classToMock, settings.getSpiedInstance());\n\n        settings.initiateMockName(classToMock);\n\n        MockHandler<T> mockHandler = new MockHandler<T>(settings);\n        MethodInterceptorFilter filter = new MethodInterceptorFilter(mockHandler, settings);\n        Class<?>[] interfaces = settings.getExtraInterfaces();\n\n        Class<?>[] ancillaryTypes;\n            ancillaryTypes = interfaces == null ? new Class<?>[0] : interfaces;\n\n        Object spiedInstance = settings.getSpiedInstance();\n        \n        T mock = ClassImposterizer.INSTANCE.imposterise(filter, classToMock, ancillaryTypes);\n        \n        if (spiedInstance != null) {\n            new LenientCopyTool().copyToMock(spiedInstance, mock);\n        }\n        \n        return mock;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_18",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 18/input.java\n\n===== BEGIN =====\n// buggy code\n    Object returnValueFor(Class<?> type) {\n        if (Primitives.isPrimitiveOrWrapper(type)) {\n            return Primitives.defaultValueForPrimitiveOrWrapper(type);\n            //new instances are used instead of Collections.emptyList(), etc.\n            //to avoid UnsupportedOperationException if code under test modifies returned collection\n        } else if (type == Collection.class) {\n            return new LinkedList<Object>();\n        } else if (type == Set.class) {\n            return new HashSet<Object>();\n        } else if (type == HashSet.class) {\n            return new HashSet<Object>();\n        } else if (type == SortedSet.class) {\n            return new TreeSet<Object>();\n        } else if (type == TreeSet.class) {\n            return new TreeSet<Object>();\n        } else if (type == LinkedHashSet.class) {\n            return new LinkedHashSet<Object>();\n        } else if (type == List.class) {\n            return new LinkedList<Object>();\n        } else if (type == LinkedList.class) {\n            return new LinkedList<Object>();\n        } else if (type == ArrayList.class) {\n            return new ArrayList<Object>();\n        } else if (type == Map.class) {\n            return new HashMap<Object, Object>();\n        } else if (type == HashMap.class) {\n            return new HashMap<Object, Object>();\n        } else if (type == SortedMap.class) {\n            return new TreeMap<Object, Object>();\n        } else if (type == TreeMap.class) {\n            return new TreeMap<Object, Object>();\n        } else if (type == LinkedHashMap.class) {\n            return new LinkedHashMap<Object, Object>();\n        }\n        //Let's not care about the rest of collections.\n        return null;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_19",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 19/input.java\n\n===== BEGIN =====\n// buggy code\n    public OngoingInjecter filterCandidate(final Collection<Object> mocks, final Field field, final Object fieldInstance) {\n        if(mocks.size() == 1) {\n            final Object matchingMock = mocks.iterator().next();\n\n            return new OngoingInjecter() {\n                public Object thenInject() {\n                    try {\n                        if (!new BeanPropertySetter(fieldInstance, field).set(matchingMock)) {\n                            new FieldSetter(fieldInstance, field).set(matchingMock);\n                        }\n                    } catch (RuntimeException e) {\n                        new Reporter().cannotInjectDependency(field, matchingMock, e);\n                    }\n                    return matchingMock;\n                }\n            };\n        }\n\n        return new OngoingInjecter() {\n            public Object thenInject() {\n                return null;\n            }\n        };\n\n    }\n\n    OngoingInjecter filterCandidate(\n            Collection<Object> mocks,\n            Field fieldToBeInjected,\n            Object fieldInstance\n    );\n\n\tpublic OngoingInjecter filterCandidate(Collection<Object> mocks,\n\t\t\tField field, Object fieldInstance) {\n\t\tList<Object> mockNameMatches = new ArrayList<Object>();\n\t\tif (mocks.size() > 1) {\n\t\t\tfor (Object mock : mocks) {\n\t\t\t\tif (field.getName().equals(mockUtil.getMockName(mock).toString())) {\n\t\t\t\t\tmockNameMatches.add(mock);\n\t\t\t\t}\n\t\t\t}\n\t\t\treturn next.filterCandidate(mockNameMatches, field,\n\t\t\t\t\tfieldInstance);\n\t\t\t/*\n\t\t\t * In this case we have to check whether we have conflicting naming\n\t\t\t * fields. E.g. 2 fields of the same type, but we have to make sure\n\t\t\t * we match on the correct name.\n\t\t\t * \n\t\t\t * Therefore we have to go through all other fields and make sure\n\t\t\t * whenever we find a field that does match its name with the mock\n\t\t\t * name, we should take that field instead.\n\t\t\t */\n\t\t}\n\t\treturn next.filterCandidate(mocks, field, fieldInstance);\n\t}\n\n    public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {\n        List<Object> mockTypeMatches = new ArrayList<Object>();\n        for (Object mock : mocks) {\n            if (field.getType().isAssignableFrom(mock.getClass())) {\n                mockTypeMatches.add(mock);\n            }\n        }\n\n        return next.filterCandidate(mockTypeMatches, field, fieldInstance);\n    }\n\n    private boolean injectMockCandidatesOnFields(Set<Object> mocks, Object instance, boolean injectionOccurred, List<Field> orderedInstanceFields) {\n        for (Iterator<Field> it = orderedInstanceFields.iterator(); it.hasNext(); ) {\n            Field field = it.next();\n            Object injected = mockCandidateFilter.filterCandidate(mocks, field, instance).thenInject();\n            if (injected != null) {\n                injectionOccurred |= true;\n                mocks.remove(injected);\n                it.remove();\n            }\n        }\n        return injectionOccurred;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_2",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 2/input.java\n\n===== BEGIN =====\n// buggy code\n    public Timer(long durationMillis) {\n        this.durationMillis = durationMillis;\n    }\n\n    public void start() {\n        startTime = System.currentTimeMillis();\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_20",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 20/input.java\n\n===== BEGIN =====\n// buggy code\n    public <T> T createMock(MockCreationSettings<T> settings, MockHandler handler) {\n        if (settings.getSerializableMode() == SerializableMode.ACROSS_CLASSLOADERS) {\n            throw new MockitoException(\"Serialization across classloaders not yet supported with ByteBuddyMockMaker\");\n        }\n        Class<? extends T> mockedProxyType = cachingMockBytecodeGenerator.get(\n                settings.getTypeToMock(),\n                settings.getExtraInterfaces()\n        );\n        T mockInstance = null;\n        try {\n            mockInstance = classInstantiator.instantiate(mockedProxyType);\n            MockMethodInterceptor.MockAccess mockAccess = (MockMethodInterceptor.MockAccess) mockInstance;\n            mockAccess.setMockitoInterceptor(new MockMethodInterceptor(asInternalMockHandler(handler), settings));\n\n            return ensureMockIsAssignableToMockedType(settings, mockInstance);\n        } catch (ClassCastException cce) {\n            throw new MockitoException(join(\n                    \"ClassCastException occurred while creating the mockito mock :\",\n                    \"  class to mock : \" + describeClass(mockedProxyType),\n                    \"  created class : \" + describeClass(settings.getTypeToMock()),\n                    \"  proxy instance class : \" + describeClass(mockInstance),\n                    \"  instance creation by : \" + classInstantiator.getClass().getSimpleName(),\n                    \"\",\n                    \"You might experience classloading issues, please ask the mockito mailing-list.\",\n                    \"\"\n            ),cce);\n        } catch (org.mockito.internal.creation.instance.InstantiationException e) {\n            throw new MockitoException(\"Unable to create mock instance of type '\" + mockedProxyType.getSuperclass().getSimpleName() + \"'\", e);\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_21",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 21/input.java\n\n===== BEGIN =====\n// buggy code\n    public <T> T newInstance(Class<T> cls) {\n        if (outerClassInstance == null) {\n            return noArgConstructor(cls);\n        }\n        return withOuterClass(cls);\n    }\n\n    private <T> T withOuterClass(Class<T> cls) {\n        try {\n            //this is kind of overengineered because we don't need to support more params\n            //however, I know we will be needing it :)\n            Constructor<T> c = cls.getDeclaredConstructor(outerClassInstance.getClass());\n            return c.newInstance(outerClassInstance);\n        } catch (Exception e) {\n            throw paramsException(cls, e);\n        }\n    }\n\n    private static <T> InstantationException paramsException(Class<T> cls, Exception e) {\n        return new InstantationException(\"Unable to create mock instance of '\"\n                + cls.getSimpleName() + \"'.\\nPlease ensure that the outer instance has correct type and that the target class has parameter-less constructor.\", e);\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_22",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 22/input.java\n\n===== BEGIN =====\n// buggy code\n    public static boolean areEqual(Object o1, Object o2) {\n        if (o1 == null || o2 == null) {\n            return o1 == null && o2 == null;\n        } else if (isArray(o1)) {\n            return isArray(o2) && areArraysEqual(o1, o2);\n        } else {\n            return o1.equals(o2);\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_23",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 23/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object answer(InvocationOnMock invocation) throws Throwable {\n        GenericMetadataSupport returnTypeGenericMetadata =\n                actualParameterizedType(invocation.getMock()).resolveGenericReturnType(invocation.getMethod());\n\n        Class<?> rawType = returnTypeGenericMetadata.rawType();\n        if (!mockitoCore.isTypeMockable(rawType)) {\n            return delegate.returnValueFor(rawType);\n        }\n\n        return getMock(invocation, returnTypeGenericMetadata);\n    }\n\n    private MockSettings withSettingsUsing(GenericMetadataSupport returnTypeGenericMetadata) {\n        MockSettings mockSettings =\n                returnTypeGenericMetadata.rawExtraInterfaces().length > 0 ?\n                withSettings().extraInterfaces(returnTypeGenericMetadata.rawExtraInterfaces())\n                : withSettings();\n\n        return mockSettings\n                .defaultAnswer(returnsDeepStubsAnswerUsing(returnTypeGenericMetadata));\n    }\n\n    private Object recordDeepStubMock(final Object mock, InvocationContainerImpl container) throws Throwable {\n\n        container.addAnswer(new Answer<Object>() {\n            public Object answer(InvocationOnMock invocation) throws Throwable {\n                return mock;\n            }\n        }, false);\n\n        return mock;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_24",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 24/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object answer(InvocationOnMock invocation) {\n        if (methodsGuru.isToString(invocation.getMethod())) {\n            Object mock = invocation.getMock();\n            MockName name = mockUtil.getMockName(mock);\n            if (name.isDefault()) {\n                return \"Mock for \" + mockUtil.getMockSettings(mock).getTypeToMock().getSimpleName() + \", hashCode: \" + mock.hashCode();\n            } else {\n                return name.toString();\n            }\n        } else if (methodsGuru.isCompareToMethod(invocation.getMethod())) {\n            //see issue 184.\n            //mocks by default should return 0 if references are the same, otherwise some other value because they are not the same. Hence we return 1 (anything but 0 is good).\n            //Only for compareTo() method by the Comparable interface\n            return 1;\n        }\n        \n        Class<?> returnType = invocation.getMethod().getReturnType();\n        return returnValueFor(returnType);\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_25",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 25/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object answer(InvocationOnMock invocation) throws Throwable {\n        GenericMetadataSupport returnTypeGenericMetadata =\n                actualParameterizedType(invocation.getMock()).resolveGenericReturnType(invocation.getMethod());\n\n        Class<?> rawType = returnTypeGenericMetadata.rawType();\n        if (!new MockCreationValidator().isTypeMockable(rawType)) {\n            return delegate.returnValueFor(rawType);\n        }\n\n        return getMock(invocation);\n    }\n\n    private Object getMock(InvocationOnMock invocation) throws Throwable {\n    \tInternalMockHandler<Object> handler = new MockUtil().getMockHandler(invocation.getMock());\n    \tInvocationContainerImpl container = (InvocationContainerImpl) handler.getInvocationContainer();\n\n        // matches invocation for verification\n        for (StubbedInvocationMatcher stubbedInvocationMatcher : container.getStubbedInvocations()) {\n    \t\tif(container.getInvocationForStubbing().matches(stubbedInvocationMatcher.getInvocation())) {\n    \t\t\treturn stubbedInvocationMatcher.answer(invocation);\n    \t\t}\n\t\t}\n\n        // deep stub\n        return recordDeepStubMock(invocation, container);\n    }\n\n    private Object recordDeepStubMock(InvocationOnMock invocation, InvocationContainerImpl container) {\n        Class<?> clz = invocation.getMethod().getReturnType();\n        final Object mock = org.mockito.Mockito.mock(clz, this);\n\n        container.addAnswer(new Answer<Object>() {\n            public Object answer(InvocationOnMock invocation) throws Throwable {\n                return mock;\n            }\n        }, false);\n\n        return mock;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_27",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 27/input.java\n\n===== BEGIN =====\n// buggy code\n    public <T> void resetMock(T mock) {\n        MockHandlerInterface<T> oldMockHandler = getMockHandler(mock);\n        MockHandler<T> newMockHandler = new MockHandler<T>(oldMockHandler);\n        MethodInterceptorFilter newFilter = new MethodInterceptorFilter(newMockHandler, (MockSettingsImpl) org.mockito.Mockito.withSettings().defaultAnswer(org.mockito.Mockito.RETURNS_DEFAULTS));\n        ((Factory) mock).setCallback(0, newFilter);\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_28",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 28/input.java\n\n===== BEGIN =====\n// buggy code\n    private void injectMockCandidate(Class<?> awaitingInjectionClazz, Set<Object> mocks, Object fieldInstance) {\n        for(Field field : orderedInstanceFieldsFrom(awaitingInjectionClazz)) {\n            mockCandidateFilter.filterCandidate(mocks, field, fieldInstance).thenInject();\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_29",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 29/input.java\n\n===== BEGIN =====\n// buggy code\n    public void describeTo(Description description) {\n        description.appendText(\"same(\");\n        appendQuoting(description);\n        description.appendText(wanted.toString());\n        appendQuoting(description);\n        description.appendText(\")\");\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_3",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 3/input.java\n\n===== BEGIN =====\n// buggy code\n    public void captureArgumentsFrom(Invocation invocation) {\n        if (invocation.getMethod().isVarArgs()) {\n            int indexOfVararg = invocation.getRawArguments().length - 1;\n            for (int position = 0; position < indexOfVararg; position++) {\n                Matcher m = matchers.get(position);\n                if (m instanceof CapturesArguments) {\n                    ((CapturesArguments) m).captureFrom(invocation.getArgumentAt(position, Object.class));\n                }\n            }\n            for (int position = indexOfVararg; position < matchers.size(); position++) {\n                Matcher m = matchers.get(position);\n                if (m instanceof CapturesArguments) {\n                    ((CapturesArguments) m).captureFrom(invocation.getRawArguments()[position - indexOfVararg]);\n                }\n            }\n        } else {\n            for (int position = 0; position < matchers.size(); position++) {\n                Matcher m = matchers.get(position);\n                if (m instanceof CapturesArguments) {\n                    ((CapturesArguments) m).captureFrom(invocation.getArgumentAt(position, Object.class));\n                }\n            }\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_30",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 30/input.java\n\n===== BEGIN =====\n// buggy code\n    public void smartNullPointerException(Location location) {\n        throw new SmartNullPointerException(join(\n                \"You have a NullPointerException here:\",\n                new Location(),\n                \"Because this method was *not* stubbed correctly:\",\n                location,\n                \"\"\n                ));\n    }\n\n        public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {\n            if (new ObjectMethodsGuru().isToString(method)) {\n                return \"SmartNull returned by unstubbed \" + formatMethodCall()  + \" method on mock\";\n            }\n\n            new Reporter().smartNullPointerException(location);\n            return null;\n        }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_31",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 31/input.java\n\n===== BEGIN =====\n// buggy code\n\t\tprivate String formatMethodCall() {\n\t\t\treturn invocation.getMethod().getName() + \"()\";\n\t\t}\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_32",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 32/input.java\n\n===== BEGIN =====\n// buggy code\n    public void process(Class<?> context, Object testClass) {\n        Field[] fields = context.getDeclaredFields();\n        for (Field field : fields) {\n            if (field.isAnnotationPresent(Spy.class)) {\n                assertNoAnnotations(Spy.class, field, Mock.class, org.mockito.MockitoAnnotations.Mock.class, Captor.class);\n                boolean wasAccessible = field.isAccessible();\n                field.setAccessible(true);\n                try {\n                    Object instance = field.get(testClass);\n                    if (instance == null) {\n                        throw new MockitoException(\"Cannot create a @Spy for '\" + field.getName() + \"' field because the *instance* is missing\\n\" +\n                        \t\t  \"The instance must be created *before* initMocks();\\n\" +\n                                  \"Example of correct usage of @Spy:\\n\" +\n                            \t  \"   @Spy List mock = new LinkedList();\\n\" +\n                            \t  \"   //also, don't forget about MockitoAnnotations.initMocks();\");\n\n                    }\n                    if (new MockUtil().isMock(instance)) { \n                        // instance has been spied earlier\n                        Mockito.reset(instance);\n                    } else {\n                        field.set(testClass, Mockito.spy(instance));\n                    }\n                } catch (IllegalAccessException e) {\n                    throw new MockitoException(\"Problems initiating spied field \" + field.getName(), e);\n                } finally {\n                    field.setAccessible(wasAccessible);\n                }\n            }\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_33",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 33/input.java\n\n===== BEGIN =====\n// buggy code\n    public boolean hasSameMethod(Invocation candidate) {        \n        //not using method.equals() for 1 good reason:\n        //sometimes java generates forwarding methods when generics are in play see JavaGenericsForwardingMethodsTest\n        Method m1 = invocation.getMethod();\n        Method m2 = candidate.getMethod();\n        \n        \t/* Avoid unnecessary cloning */\n        return m1.equals(m2);\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_34",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 34/input.java\n\n===== BEGIN =====\n// buggy code\n    public void captureArgumentsFrom(Invocation i) {\n        int k = 0;\n        for (Matcher m : matchers) {\n            if (m instanceof CapturesArguments) {\n                ((CapturesArguments) m).captureFrom(i.getArguments()[k]);\n            }\n            k++;\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_35",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 35/input.java\n\n===== BEGIN =====\n// buggy code\n    public static <T> T isA(Class<T> clazz) {\n        return reportMatcher(new InstanceOf(clazz)).<T>returnNull();\n    }\n\n    public static <T> T eq(T value) {\n        return reportMatcher(new Equals(value)).<T>returnNull();\n    }  \n\n    public static <T> T same(T value) {\n        return reportMatcher(new Same(value)).<T>returnNull();\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_36",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 36/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object callRealMethod() throws Throwable {\n        return realMethod.invoke(mock, rawArguments);\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_37",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 37/input.java\n\n===== BEGIN =====\n// buggy code\n    public void validate(Answer<?> answer, Invocation invocation) {\n        if (answer instanceof ThrowsException) {\n            validateException((ThrowsException) answer, invocation);\n        }\n        \n        if (answer instanceof Returns) {\n            validateReturnValue((Returns) answer, invocation);\n        }\n        \n        if (answer instanceof DoesNothing) {\n            validateDoNothing((DoesNothing) answer, invocation);\n        }\n        \n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_38",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 38/input.java\n\n===== BEGIN =====\n// buggy code\n    private boolean toStringEquals(Matcher m, Object arg) {\n        return StringDescription.toString(m).equals(arg.toString());\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_4",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 4/input.java\n\n===== BEGIN =====\n// buggy code\n    public void noMoreInteractionsWanted(Invocation undesired, List<VerificationAwareInvocation> invocations) {\n        ScenarioPrinter scenarioPrinter = new ScenarioPrinter();\n        String scenario = scenarioPrinter.print(invocations);\n\n        throw new NoInteractionsWanted(join(\n                \"No interactions wanted here:\",\n                new LocationImpl(),\n                \"But found this interaction on mock '\" + undesired.getMock() + \"':\",\n                undesired.getLocation(),\n                scenario\n        ));\n    }\n\n    public void noMoreInteractionsWantedInOrder(Invocation undesired) {\n        throw new VerificationInOrderFailure(join(\n                \"No interactions wanted here:\",\n                new LocationImpl(),\n                \"But found this interaction on mock '\" + undesired.getMock() + \"':\",\n                undesired.getLocation()\n        ));\n    }\n\n    private String exceptionCauseMessageIfAvailable(Exception details) {\n        return details.getCause().getMessage();\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_5",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 5/input.java\n\n===== BEGIN =====\n// buggy code\n    public void verify(VerificationData data) {\n        AssertionError error = null;\n\n        timer.start();\n        while (timer.isCounting()) {\n            try {\n                delegate.verify(data);\n\n                if (returnOnSuccess) {\n                    return;\n                } else {\n                    error = null;\n                }\n            } catch (MockitoAssertionError e) {\n                error = handleVerifyException(e);\n            }\n            catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {\n                error = handleVerifyException(e);\n            }\n        }\n\n        if (error != null) {\n            throw error;\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_6",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 6/input.java\n\n===== BEGIN =====\n// buggy code\n    public static boolean anyBoolean() {\n        return reportMatcher(Any.ANY).returnFalse();\n    }\n\n    public static byte anyByte() {\n        return reportMatcher(Any.ANY).returnZero();\n    }\n\n    public static char anyChar() {\n        return reportMatcher(Any.ANY).returnChar();\n    }\n\n    public static int anyInt() {\n        return reportMatcher(Any.ANY).returnZero();\n    }\n\n    public static long anyLong() {\n        return reportMatcher(Any.ANY).returnZero();\n    }\n\n    public static float anyFloat() {\n        return reportMatcher(Any.ANY).returnZero();\n    }\n\n    public static double anyDouble() {\n        return reportMatcher(Any.ANY).returnZero();\n    }\n\n    public static short anyShort() {\n        return reportMatcher(Any.ANY).returnZero();\n    }\n\n    public static <T> T anyObject() {\n        return (T) reportMatcher(Any.ANY).returnNull();\n    }\n\n    public static <T> T any(Class<T> clazz) {\n        return (T) reportMatcher(Any.ANY).returnFor(clazz);\n    }\n\n    public static <T> T any() {\n        return (T) anyObject();\n    }\n\n    public static String anyString() {\n        return reportMatcher(Any.ANY).returnString();\n    }\n\n    public static List anyList() {\n        return reportMatcher(Any.ANY).returnList();\n    }    \n\n    public static <T> List<T> anyListOf(Class<T> clazz) {\n        return (List) reportMatcher(Any.ANY).returnList();\n    }    \n\n    public static Set anySet() {\n        return reportMatcher(Any.ANY).returnSet();\n    }\n\n    public static <T> Set<T> anySetOf(Class<T> clazz) {\n        return (Set) reportMatcher(Any.ANY).returnSet();\n    }\n\n    public static Map anyMap() {\n        return reportMatcher(Any.ANY).returnMap();\n    }\n\n    public static <K, V>  Map<K, V> anyMapOf(Class<K> keyClazz, Class<V> valueClazz) {\n        return reportMatcher(Any.ANY).returnMap();\n    }\n\n    public static Collection anyCollection() {\n        return reportMatcher(Any.ANY).returnList();\n    }    \n\n    public static <T> Collection<T> anyCollectionOf(Class<T> clazz) {\n        return (Collection) reportMatcher(Any.ANY).returnList();\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_7",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 7/input.java\n\n===== BEGIN =====\n// buggy code\n        private void readTypeVariables() {\n            for (Type type : typeVariable.getBounds()) {\n                registerTypeVariablesOn(type);\n            }\n            registerTypeVariablesOn(getActualTypeArgumentFor(typeVariable));\n        }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_8",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 8/input.java\n\n===== BEGIN =====\n// buggy code\n    protected void registerTypeVariablesOn(Type classType) {\n        if (!(classType instanceof ParameterizedType)) {\n            return;\n        }\n        ParameterizedType parameterizedType = (ParameterizedType) classType;\n        TypeVariable[] typeParameters = ((Class<?>) parameterizedType.getRawType()).getTypeParameters();\n        Type[] actualTypeArguments = parameterizedType.getActualTypeArguments();\n        for (int i = 0; i < actualTypeArguments.length; i++) {\n            TypeVariable typeParameter = typeParameters[i];\n            Type actualTypeArgument = actualTypeArguments[i];\n\n            if (actualTypeArgument instanceof WildcardType) {\n                contextualActualTypeParameters.put(typeParameter, boundsOf((WildcardType) actualTypeArgument));\n            } else {\n                contextualActualTypeParameters.put(typeParameter, actualTypeArgument);\n            }\n            // logger.log(\"For '\" + parameterizedType + \"' found type variable : { '\" + typeParameter + \"(\" + System.identityHashCode(typeParameter) + \")\" + \"' : '\" + actualTypeArgument + \"(\" + System.identityHashCode(typeParameter) + \")\" + \"' }\");\n        }\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Mockito_9",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 9/input.java\n\n===== BEGIN =====\n// buggy code\n    public Object answer(InvocationOnMock invocation) throws Throwable {\n        return invocation.callRealMethod();\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    }
+  ]
+}

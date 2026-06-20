@@ -1,10 +1,14 @@
-==== 2026-05-19 13:41:43 :: Closure-165_1-buggy ====
+==== 2026-06-16 20:51:28 :: Closure-165_1-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 1
+Failing tests: 5
   - com.google.javascript.jscomp.TypeCheckTest::testIssue725
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType5
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType6
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType7
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType8
 ---- 退出码：0 | Closure-165_1-buggy
 

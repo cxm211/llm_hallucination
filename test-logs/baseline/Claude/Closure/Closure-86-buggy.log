@@ -1,0 +1,16 @@
+==== 2026-06-17 23:03:40 :: Closure-86-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+  - com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+---- 退出码：0 | Closure-86-buggy
+

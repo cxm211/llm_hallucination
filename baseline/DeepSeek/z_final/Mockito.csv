@@ -1,0 +1,38 @@
+model,project,bug_id,status,log
+DeepSeek,Mockito,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-1-buggy.log
+DeepSeek,Mockito,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-2-buggy.log
+DeepSeek,Mockito,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-3-buggy.log
+DeepSeek,Mockito,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-4-buggy.log
+DeepSeek,Mockito,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-5-buggy.log
+DeepSeek,Mockito,6,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-6-buggy.log
+DeepSeek,Mockito,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-7-buggy.log
+DeepSeek,Mockito,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-8-buggy.log
+DeepSeek,Mockito,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-9-buggy.log
+DeepSeek,Mockito,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-10-buggy.log
+DeepSeek,Mockito,11,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-11-buggy.log
+DeepSeek,Mockito,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-12-buggy.log
+DeepSeek,Mockito,13,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-13-buggy.log
+DeepSeek,Mockito,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-14-buggy.log
+DeepSeek,Mockito,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-15-buggy.log
+DeepSeek,Mockito,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-16-buggy.log
+DeepSeek,Mockito,17,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-17-buggy.log
+DeepSeek,Mockito,18,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-18-buggy.log
+DeepSeek,Mockito,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-19-buggy.log
+DeepSeek,Mockito,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-20-buggy.log
+DeepSeek,Mockito,21,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-21-buggy.log
+DeepSeek,Mockito,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-22-buggy.log
+DeepSeek,Mockito,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-23-buggy.log
+DeepSeek,Mockito,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-24-buggy.log
+DeepSeek,Mockito,25,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-25-buggy.log
+DeepSeek,Mockito,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-27-buggy.log
+DeepSeek,Mockito,28,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-28-buggy.log
+DeepSeek,Mockito,29,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-29-buggy.log
+DeepSeek,Mockito,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-30-buggy.log
+DeepSeek,Mockito,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-31-buggy.log
+DeepSeek,Mockito,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-32-buggy.log
+DeepSeek,Mockito,33,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-33-buggy.log
+DeepSeek,Mockito,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-34-buggy.log
+DeepSeek,Mockito,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-35-buggy.log
+DeepSeek,Mockito,36,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-36-buggy.log
+DeepSeek,Mockito,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-37-buggy.log
+DeepSeek,Mockito,38,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Mockito/Mockito-38-buggy.log

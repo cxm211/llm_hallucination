@@ -1,0 +1,16 @@
+==== 2026-06-18 17:24:42 :: Closure-32-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - com.google.javascript.jscomp.IntegrationTest::testIssue701
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseWithMarkers6
+---- 退出码：0 | Closure-32-buggy
+

@@ -1,0 +1,10 @@
+==== 2026-06-18 03:21:37 :: Mockito-21-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockito.internal.creation.instance.ConstructorInstantiatorTest::creates_instances_of_inner_classes
+---- 退出码：0 | Mockito-21-buggy
+

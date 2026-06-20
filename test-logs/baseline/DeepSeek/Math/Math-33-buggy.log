@@ -1,0 +1,18 @@
+==== 2026-06-18 07:26:31 :: Math-33-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath713NegativeVariable
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath272
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMinimization
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath434PivotRowSelection2
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath434PivotRowSelection
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testLargeModel
+  - org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath434NegativeVariable
+  - org.apache.commons.math3.optimization.linear.SimplexTableauTest::testDropPhase1Objective
+---- 退出码：0 | Math-33-buggy
+

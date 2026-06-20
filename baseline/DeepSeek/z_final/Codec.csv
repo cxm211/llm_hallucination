@@ -1,0 +1,17 @@
+model,project,bug_id,status,log
+DeepSeek,Codec,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-1-buggy.log
+DeepSeek,Codec,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-2-buggy.log
+DeepSeek,Codec,3,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-3-buggy.log
+DeepSeek,Codec,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-4-buggy.log
+DeepSeek,Codec,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-5-buggy.log
+DeepSeek,Codec,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-6-buggy.log
+DeepSeek,Codec,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-7-buggy.log
+DeepSeek,Codec,8,timeout,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-8-buggy.log
+DeepSeek,Codec,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-9-buggy.log
+DeepSeek,Codec,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-10-buggy.log
+DeepSeek,Codec,11,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-11-buggy.log
+DeepSeek,Codec,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-12-buggy.log
+DeepSeek,Codec,14,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-14-buggy.log
+DeepSeek,Codec,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-15-buggy.log
+DeepSeek,Codec,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-17-buggy.log
+DeepSeek,Codec,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Codec/Codec-18-buggy.log

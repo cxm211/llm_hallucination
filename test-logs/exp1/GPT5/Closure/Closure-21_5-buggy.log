@@ -1,13 +1,10 @@
-==== 2026-05-18 23:52:41 :: Closure-21_5-buggy ====
+==== 2026-06-15 10:56:25 :: Closure-21_5-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 4
+Failing tests: 1
   - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCode
-  - com.google.javascript.jscomp.CheckSideEffectsTest::testTypeAnnotations
-  - com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments
-  - com.google.javascript.jscomp.CommandLineRunnerTest::testFunctionStrictModeNoWarning
 ---- 退出码：0 | Closure-21_5-buggy
 

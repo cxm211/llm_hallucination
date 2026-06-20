@@ -1,0 +1,18 @@
+==== 2026-06-18 23:38:16 :: Time-14-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 9
+  - org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap
+  - org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap
+  - org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap
+  - org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust
+  - org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust
+  - org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap
+  - org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap
+  - org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap
+  - org.joda.time.chrono.TestISOChronology::testAddMonths
+---- 退出码：0 | Time-14-buggy
+

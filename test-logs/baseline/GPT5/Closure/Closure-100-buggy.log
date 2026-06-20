@@ -1,0 +1,14 @@
+==== 2026-06-18 18:30:18 :: Closure-100-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+  - com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction4
+---- 退出码：0 | Closure-100-buggy
+

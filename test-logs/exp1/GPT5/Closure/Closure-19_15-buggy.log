@@ -1,17 +1,9 @@
-==== 2026-05-18 23:31:25 :: Closure-19_15-buggy ====
+==== 2026-06-15 10:30:24 :: Closure-19_15-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 8
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testNoPersistentTypeInferenceForFunctionProperties
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testDfa7
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testNoPersistentTypeInferenceForObjectProperties
-  - com.google.javascript.jscomp.TypeCheckTest::testTypeInferenceWithNoEntry2
-  - com.google.javascript.jscomp.TypeCheckTest::testNoPersistentTypeInferenceForFunctionProperties
-  - com.google.javascript.jscomp.TypeCheckTest::testDfa7
-  - com.google.javascript.jscomp.TypeCheckTest::testNoPersistentTypeInferenceForObjectProperties
-  - com.google.javascript.jscomp.TypeInferenceTest::testNoThisInference
+Failing tests: 0
 ---- 退出码：0 | Closure-19_15-buggy
 

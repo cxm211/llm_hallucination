@@ -1,12 +1,10 @@
-==== 2026-05-19 01:58:02 :: Closure-37_5-buggy ====
+==== 2026-06-15 12:47:06 :: Closure-37_5-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 272
-  - com.google.javascript.jscomp.ChainCallsTest::testSecondCallReturnNotThis
-  - com.google.javascript.jscomp.ChainCallsTest::testUnchainedCalls
+Failing tests: 260
   - com.google.javascript.jscomp.CheckAccessControlsTest::testNoWarningInDeprecatedFunction
   - com.google.javascript.jscomp.CheckAccessControlsTest::testWarningForDeprecatedClass
   - com.google.javascript.jscomp.CheckAccessControlsTest::testWarningForDeprecatedSuperClass
@@ -94,7 +92,6 @@ Failing tests: 272
   - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag2
   - com.google.javascript.jscomp.CommandLineRunnerTest::testDefineFlag3
   - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOffByDefault
-  - com.google.javascript.jscomp.CompilerTest::testLocalUndefined
   - com.google.javascript.jscomp.ControlFlowAnalysisTest::testThrow
   - com.google.javascript.jscomp.ControlFlowAnalysisTest::testLocalFunctionOrder
   - com.google.javascript.jscomp.ControlFlowAnalysisTest::testOptionNotToTraverseFunctions
@@ -252,16 +249,7 @@ Failing tests: 272
   - com.google.javascript.jscomp.IntegrationTest::testRemoveUnusedPrototypeProperties1
   - com.google.javascript.jscomp.IntegrationTest::testRemoveUnusedPrototypeProperties2
   - com.google.javascript.jscomp.IntegrationTest::testOptimizeArgumentsArray
-  - com.google.javascript.jscomp.RemoveUnusedNamesTest::testStatement
-  - com.google.javascript.jscomp.RemoveUnusedNamesTest::testAnalyzeUnusedPrototypeProperties
-  - com.google.javascript.jscomp.RemoveUnusedNamesTest::testAnalyzeUnusedPrototypeProperties3
   - com.google.javascript.jscomp.TypeCheckFunctionCheckTest::testMethodCalls
-  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428_return
-  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428_continue
-  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testAssignPropertyOnCreatedObject
-  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428a
-  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428b
-  - com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue4177428c
   - com.google.javascript.jscomp.VarCheckTest::testRecursiveFunction
   - com.google.javascript.jscomp.VarCheckTest::testMultiplyDeclaredVars2
   - com.google.javascript.jscomp.VarCheckTest::testRecursiveFunction2

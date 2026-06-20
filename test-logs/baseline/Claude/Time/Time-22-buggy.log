@@ -1,0 +1,11 @@
+==== 2026-06-18 03:37:12 :: Time-22-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+  - org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+---- 退出码：0 | Time-22-buggy
+

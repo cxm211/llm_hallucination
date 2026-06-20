@@ -1,0 +1,12 @@
+==== 2026-06-17 22:44:30 :: Closure-46-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3
+  - com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+---- 退出码：0 | Closure-46-buggy
+

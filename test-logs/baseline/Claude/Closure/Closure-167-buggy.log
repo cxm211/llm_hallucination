@@ -1,0 +1,19 @@
+==== 2026-06-17 23:40:11 :: Closure-167-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty21
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty22
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue783
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty15
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty21
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty22
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty33
+  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty41
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRestrictedTypeGivenToBoolean
+---- 退出码：0 | Closure-167-buggy
+

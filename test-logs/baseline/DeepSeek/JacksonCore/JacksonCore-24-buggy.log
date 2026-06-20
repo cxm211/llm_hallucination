@@ -1,0 +1,17 @@
+==== 2026-06-18 04:56:22 :: JacksonCore-24-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToLongFailing
+  - com.fasterxml.jackson.core.json.async.AsyncNumberCoercionTest::testToIntFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToLongFailing
+  - com.fasterxml.jackson.core.read.NumberCoercionTest::testToIntFailing
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousLongOverflow
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testSimpleLongOverflow
+  - com.fasterxml.jackson.core.read.NumberOverflowTest::testMaliciousIntOverflow
+  - com.fasterxml.jackson.core.read.NumberParsingTest::testSimpleLong
+---- 退出码：0 | JacksonCore-24-buggy
+

@@ -1,0 +1,17 @@
+==== 2026-06-17 23:50:14 :: Collections-19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - org.apache.commons.collections.list.SetUniqueListTest::testUniqueListReInsert
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetDownwardsInList
+  - org.apache.commons.collections.list.SetUniqueListTest::testSet
+  - org.apache.commons.collections.list.SetUniqueListTest::testUniqueListDoubleInsert
+  - org.apache.commons.collections.list.SetUniqueListTest::testListSetByIndex
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetUpwardsInList
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetInBiggerList
+  - org.apache.commons.collections.list.SetUniqueListTest::testSetCollections444
+---- 退出码：0 | Collections-19-buggy
+

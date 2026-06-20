@@ -1,0 +1,36 @@
+==== 2026-06-18 03:56:05 :: Closure-108-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 27
+  - com.google.javascript.jscomp.IntegrationTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testArrayJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocSubType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testHoistedFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocReturn
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThrows
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocExtends
+  - com.google.javascript.jscomp.ScopedAliasesTest::testOkAliasLocal
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocTypedef
+  - com.google.javascript.jscomp.ScopedAliasesTest::testObjectJsDoc2
+  - com.google.javascript.jscomp.ScopedAliasesTest::testMultipleLocals
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocEnum
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocThis
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocType
+  - com.google.javascript.jscomp.ScopedAliasesTest::testAliasReassign
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocImplements
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
+  - com.google.javascript.jscomp.ScopedAliasesTest::testForwardJsDoc
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144
+  - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+  - com.google.javascript.jscomp.ScopedAliasesTest::testJsDocParameter
+  - com.google.javascript.jscomp.ScopedAliasesTest::testUnionJsDoc
+---- 退出码：0 | Closure-108-buggy
+

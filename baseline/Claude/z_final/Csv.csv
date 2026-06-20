@@ -1,0 +1,16 @@
+model,project,bug_id,status,log
+Claude,Csv,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-1-buggy.log
+Claude,Csv,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-2-buggy.log
+Claude,Csv,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-3-buggy.log
+Claude,Csv,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-4-buggy.log
+Claude,Csv,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-5-buggy.log
+Claude,Csv,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-6-buggy.log
+Claude,Csv,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-7-buggy.log
+Claude,Csv,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-8-buggy.log
+Claude,Csv,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-9-buggy.log
+Claude,Csv,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-10-buggy.log
+Claude,Csv,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-11-buggy.log
+Claude,Csv,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-13-buggy.log
+Claude,Csv,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-14-buggy.log
+Claude,Csv,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-15-buggy.log
+Claude,Csv,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Csv/Csv-16-buggy.log

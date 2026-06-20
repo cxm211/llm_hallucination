@@ -1,0 +1,27 @@
+model,project,bug_id,status,log
+GPT5,Chart,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-1-buggy.log
+GPT5,Chart,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-2-buggy.log
+GPT5,Chart,3,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-3-buggy.log
+GPT5,Chart,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-4-buggy.log
+GPT5,Chart,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-5-buggy.log
+GPT5,Chart,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-6-buggy.log
+GPT5,Chart,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-7-buggy.log
+GPT5,Chart,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-8-buggy.log
+GPT5,Chart,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-9-buggy.log
+GPT5,Chart,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-10-buggy.log
+GPT5,Chart,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-11-buggy.log
+GPT5,Chart,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-12-buggy.log
+GPT5,Chart,13,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-13-buggy.log
+GPT5,Chart,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-14-buggy.log
+GPT5,Chart,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-15-buggy.log
+GPT5,Chart,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-16-buggy.log
+GPT5,Chart,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-17-buggy.log
+GPT5,Chart,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-18-buggy.log
+GPT5,Chart,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-19-buggy.log
+GPT5,Chart,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-20-buggy.log
+GPT5,Chart,21,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-21-buggy.log
+GPT5,Chart,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-22-buggy.log
+GPT5,Chart,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-23-buggy.log
+GPT5,Chart,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-24-buggy.log
+GPT5,Chart,25,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-25-buggy.log
+GPT5,Chart,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Chart/Chart-26-buggy.log

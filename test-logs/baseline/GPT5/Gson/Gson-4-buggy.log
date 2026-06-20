@@ -1,0 +1,15 @@
+==== 2026-06-18 20:02:23 :: Gson-4-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - com.google.gson.functional.JsonParserTest::testExtraCommasInArrays
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypeWithSkipValue
+  - com.google.gson.stream.JsonReaderTest::testTopLevelValueTypes
+  - com.google.gson.stream.JsonReaderTest::testLenientUnnecessaryArraySeparators
+  - com.google.gson.stream.JsonReaderTest::testMalformedDocuments
+  - com.google.gson.stream.JsonWriterTest::testTopLevelValueTypes
+---- 退出码：0 | Gson-4-buggy
+

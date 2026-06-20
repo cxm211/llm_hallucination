@@ -1,0 +1,28 @@
+model,project,bug_id,status,log
+DeepSeek,Collections,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-1-buggy.log
+DeepSeek,Collections,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-2-buggy.log
+DeepSeek,Collections,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-3-buggy.log
+DeepSeek,Collections,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-4-buggy.log
+DeepSeek,Collections,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-5-buggy.log
+DeepSeek,Collections,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-6-buggy.log
+DeepSeek,Collections,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-7-buggy.log
+DeepSeek,Collections,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-8-buggy.log
+DeepSeek,Collections,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-9-buggy.log
+DeepSeek,Collections,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-11-buggy.log
+DeepSeek,Collections,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-12-buggy.log
+DeepSeek,Collections,13,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-13-buggy.log
+DeepSeek,Collections,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-14-buggy.log
+DeepSeek,Collections,15,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-15-buggy.log
+DeepSeek,Collections,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-16-buggy.log
+DeepSeek,Collections,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-17-buggy.log
+DeepSeek,Collections,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-18-buggy.log
+DeepSeek,Collections,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-19-buggy.log
+DeepSeek,Collections,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-20-buggy.log
+DeepSeek,Collections,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-21-buggy.log
+DeepSeek,Collections,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-22-buggy.log
+DeepSeek,Collections,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-23-buggy.log
+DeepSeek,Collections,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-24-buggy.log
+DeepSeek,Collections,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-25-buggy.log
+DeepSeek,Collections,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-26-buggy.log
+DeepSeek,Collections,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-27-buggy.log
+DeepSeek,Collections,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Collections/Collections-28-buggy.log

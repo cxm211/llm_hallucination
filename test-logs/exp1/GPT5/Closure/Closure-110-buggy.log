@@ -1,11 +1,14 @@
-==== 2026-05-19 08:52:31 :: Closure-110-buggy ====
+==== 2026-06-16 16:12:30 :: Closure-110-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 2
+Failing tests: 5
   - com.google.javascript.jscomp.ScopedAliasesTest::testHoistedFunctionDeclaration
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103a
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103b
+  - com.google.javascript.jscomp.ScopedAliasesTest::testIssue1103c
   - com.google.javascript.jscomp.ScopedAliasesTest::testFunctionDeclaration
 ---- 退出码：0 | Closure-110-buggy
 

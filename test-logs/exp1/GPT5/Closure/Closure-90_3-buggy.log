@@ -1,4 +1,4 @@
-==== 2026-05-19 08:06:43 :: Closure-90_3-buggy ====
+==== 2026-06-16 15:54:52 :: Closure-90_3-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
@@ -21,20 +21,25 @@ compile:
     [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
     [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
     [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-90_3-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:185: error: cannot find symbol
-    [javac]             for (JSType alt : type.toMaybeUnionType().getAlternates()) {
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-90_3-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:183: error: cannot find symbol
+    [javac]             UnionType union = type.toMaybeUnionType();
+    [javac]             ^
+    [javac]   symbol:   class UnionType
+    [javac]   location: class FunctionTypeBuilder.ThisTypeValidator
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-90_3-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:183: error: cannot find symbol
+    [javac]             UnionType union = type.toMaybeUnionType();
     [javac]                                   ^
     [javac]   symbol:   method toMaybeUnionType()
     [javac]   location: variable type of type JSType
     [javac] Note: Some input files use or override a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
-    [javac] 1 error
+    [javac] 2 errors
     [javac] 4 warnings
 
 BUILD FAILED
 /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-90_3-buggy/build.xml:68: Compile failed; see the compiler error output for details.
 
-Total time: 2 seconds
+Total time: 3 seconds
 Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
 Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
 ---- 退出码：1 | Closure-90_3-buggy

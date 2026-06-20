@@ -1,0 +1,38 @@
+model,project,bug_id,status,log
+Claude,Cli,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-1-buggy.log
+Claude,Cli,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-2-buggy.log
+Claude,Cli,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-3-buggy.log
+Claude,Cli,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-4-buggy.log
+Claude,Cli,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-5-buggy.log
+Claude,Cli,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-8-buggy.log
+Claude,Cli,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-9-buggy.log
+Claude,Cli,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-10-buggy.log
+Claude,Cli,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-11-buggy.log
+Claude,Cli,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-12-buggy.log
+Claude,Cli,13,timeout,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-13-buggy.log
+Claude,Cli,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-14-buggy.log
+Claude,Cli,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-15-buggy.log
+Claude,Cli,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-16-buggy.log
+Claude,Cli,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-17-buggy.log
+Claude,Cli,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-18-buggy.log
+Claude,Cli,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-19-buggy.log
+Claude,Cli,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-20-buggy.log
+Claude,Cli,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-21-buggy.log
+Claude,Cli,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-22-buggy.log
+Claude,Cli,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-23-buggy.log
+Claude,Cli,24,timeout,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-24-buggy.log
+Claude,Cli,25,timeout,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-25-buggy.log
+Claude,Cli,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-26-buggy.log
+Claude,Cli,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-27-buggy.log
+Claude,Cli,28,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-28-buggy.log
+Claude,Cli,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-29-buggy.log
+Claude,Cli,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-30-buggy.log
+Claude,Cli,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-31-buggy.log
+Claude,Cli,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-32-buggy.log
+Claude,Cli,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-33-buggy.log
+Claude,Cli,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-34-buggy.log
+Claude,Cli,35,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-35-buggy.log
+Claude,Cli,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-37-buggy.log
+Claude,Cli,38,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-38-buggy.log
+Claude,Cli,39,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-39-buggy.log
+Claude,Cli,40,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-40-buggy.log

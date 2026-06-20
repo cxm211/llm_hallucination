@@ -1,0 +1,23 @@
+==== 2026-06-18 07:07:39 :: Lang-9-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.apache.commons.lang3.time.DateUtilsTest::testTruncateLang59
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetSeconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetMonths
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetDays
+  - org.apache.commons.lang3.time.DateUtilsTest::testAddMilliseconds
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetHours
+  - org.apache.commons.lang3.time.DateUtilsTest::testSetYears
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testParseNumerics
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832
+  - org.apache.commons.lang3.time.FastDateFormat_ParserTest::testQuotes
+  - org.apache.commons.lang3.time.FastDateParserTest::testParseNumerics
+  - org.apache.commons.lang3.time.FastDateParserTest::testLANG_832
+  - org.apache.commons.lang3.time.FastDateParserTest::testQuotes
+---- 退出码：0 | Lang-9-buggy
+

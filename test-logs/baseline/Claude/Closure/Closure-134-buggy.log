@@ -1,0 +1,19 @@
+==== 2026-06-17 23:26:28 :: Closure-134-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testLotsOfVars
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExtends
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testUnion
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoTypesTwoVar
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testTwoIndependentVar
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testFunctionType
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testLotsOfClasses
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testUnions
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testStaticAndInstanceProperties
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue86
+---- 退出码：0 | Closure-134-buggy
+

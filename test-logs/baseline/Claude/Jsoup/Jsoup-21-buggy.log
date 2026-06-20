@@ -1,0 +1,14 @@
+==== 2026-06-18 02:09:45 :: Jsoup-21-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jsoup.integration.ParseTest::testBaiduVariant
+  - org.jsoup.nodes.ElementTest::testGetElementsWithAttributeDash
+  - org.jsoup.select.SelectorTest::handlesCommasInSelector
+  - org.jsoup.select.SelectorTest::testGroupOr
+  - org.jsoup.select.SelectorTest::mixCombinatorGroup
+---- 退出码：0 | Jsoup-21-buggy
+

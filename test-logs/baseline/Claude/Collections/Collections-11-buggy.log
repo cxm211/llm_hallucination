@@ -1,0 +1,16 @@
+==== 2026-06-17 23:49:25 :: Collections-11-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testEqualsAfterSerialization
+  - org.apache.commons.collections.keyvalue.TestMultiKey::testHashCode
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyGet
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyContainsKey
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyPut
+  - org.apache.commons.collections.map.TestMultiKeyMap::testMultiKeyRemove
+  - org.apache.commons.collections.map.TestMultiKeyMap::testLRUMultiKeyMap
+---- 退出码：0 | Collections-11-buggy
+

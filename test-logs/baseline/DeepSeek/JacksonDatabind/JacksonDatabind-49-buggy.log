@@ -1,0 +1,78 @@
+==== 2026-06-18 05:44:16 :: JacksonDatabind-49-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-49-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-49-buggy -DOUTFILE=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-49-buggy/failing_tests -Dd4j.relevant.tests.only=true run.dev.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jackson-databind-from-maven.compile:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-49-buggy/maven-build.xml:90: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile:
+
+jackson-databind-from-maven.compile-tests:
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/JacksonDatabind/JacksonDatabind-49-buggy/maven-build.xml:118: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile.tests:
+
+update.all.tests:
+
+run.dev.tests:
+    [junit] Running com.fasterxml.jackson.databind.TestJDKSerialization
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0.162 sec
+    [junit] Running com.fasterxml.jackson.databind.jsontype.WrapperObjectWithObjectIdTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.047 sec
+    [junit] Running com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.033 sec
+    [junit] Test com.fasterxml.jackson.databind.objectid.AlwaysAsReferenceFirstTest FAILED
+    [junit] Running com.fasterxml.jackson.databind.objectid.JSOGDeserialize622Test
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml:108: java.lang.NullPointerException
+	at com.fasterxml.jackson.databind.JsonMappingException$Reference.toString(JsonMappingException.java:98)
+	at com.fasterxml.jackson.databind.JsonMappingException._appendPathDesc(JsonMappingException.java:342)
+	at com.fasterxml.jackson.databind.JsonMappingException.getPathReference(JsonMappingException.java:245)
+	at com.fasterxml.jackson.databind.JsonMappingException._buildMessage(JsonMappingException.java:318)
+	at com.fasterxml.jackson.databind.JsonMappingException.getMessage(JsonMappingException.java:299)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.addError(JUnitTestRunner.java:645)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner$3.addError(JUnitTestRunner.java:1123)
+	at junit.framework.TestResult.addError(TestResult.java:39)
+	at junit.framework.TestResult.runProtected(TestResult.java:148)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)
+	at junit.framework.TestSuite.run(TestSuite.java:247)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:520)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1492)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeTests(JUnitTask.java:878)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:1980)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeTests(JUnitTask.java:830)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:2287)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:392)
+	at org.apache.tools.ant.Target.performTasks(Target.java:413)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1399)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+	at org.apache.tools.ant.Main.runBuild(Main.java:811)
+	at org.apache.tools.ant.Main.startAnt(Main.java:217)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)
+
+Total time: 1 second
+Cannot run tests! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 131.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | JacksonDatabind-49-buggy
+

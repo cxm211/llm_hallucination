@@ -1,0 +1,11 @@
+==== 2026-06-17 21:07:19 :: Cli-4-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.cli.OptionsTest::testMissingOptionsException
+  - org.apache.commons.cli.OptionsTest::testMissingOptionException
+---- 退出码：0 | Cli-4-buggy
+

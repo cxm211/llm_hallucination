@@ -1,0 +1,11 @@
+==== 2026-06-18 07:07:08 :: Lang-5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang3.LocaleUtilsTest::testLang865
+  - org.apache.commons.lang3.LocaleUtilsTest::testToLocale_1Part
+---- 退出码：0 | Lang-5-buggy
+

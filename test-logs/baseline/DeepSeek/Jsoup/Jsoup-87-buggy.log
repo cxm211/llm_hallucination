@@ -1,0 +1,248 @@
+==== 2026-06-18 07:01:40 :: Jsoup-87-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+jsoup-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/maven-build.xml:84: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 68 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 7
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:254: error: ';' expected
+    [javac]         boolean anyOtherEndTag(Token t, HtmlTreeBuilder tb) { String name = tb.settings.normalizeTag(t.asEndTag().name()); ArrayList<Element> stack = tb.getStack(); for (int pos = stack.size() -1; pos >= 0; pos--) { Element node = stack.get(pos); if (node.nodeName().equals(name)) { tb.generateImpliedEndTags(name); if (!name.equals(tb.currentElement().nodeName())) tb.error(this); tb.popStackToClose(name); break; } else { if (tb.isSpecial(node)) { tb.error(this); return false; } } } return true; }
+    [javac]                               ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:254: error: ';' expected
+    [javac]         boolean anyOtherEndTag(Token t, HtmlTreeBuilder tb) { String name = tb.settings.normalizeTag(t.asEndTag().name()); ArrayList<Element> stack = tb.getStack(); for (int pos = stack.size() -1; pos >= 0; pos--) { Element node = stack.get(pos); if (node.nodeName().equals(name)) { tb.generateImpliedEndTags(name); if (!name.equals(tb.currentElement().nodeName())) tb.error(this); tb.popStackToClose(name); break; } else { if (tb.isSpecial(node)) { tb.error(this); return false; } } } return true; }
+    [javac]                                                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:254: error: not a statement
+    [javac]         boolean anyOtherEndTag(Token t, HtmlTreeBuilder tb) { String name = tb.settings.normalizeTag(t.asEndTag().name()); ArrayList<Element> stack = tb.getStack(); for (int pos = stack.size() -1; pos >= 0; pos--) { Element node = stack.get(pos); if (node.nodeName().equals(name)) { tb.generateImpliedEndTags(name); if (!name.equals(tb.currentElement().nodeName())) tb.error(this); tb.popStackToClose(name); break; } else { if (tb.isSpecial(node)) { tb.error(this); return false; } } } return true; }
+    [javac]                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:254: error: ';' expected
+    [javac]         boolean anyOtherEndTag(Token t, HtmlTreeBuilder tb) { String name = tb.settings.normalizeTag(t.asEndTag().name()); ArrayList<Element> stack = tb.getStack(); for (int pos = stack.size() -1; pos >= 0; pos--) { Element node = stack.get(pos); if (node.nodeName().equals(name)) { tb.generateImpliedEndTags(name); if (!name.equals(tb.currentElement().nodeName())) tb.error(this); tb.popStackToClose(name); break; } else { if (tb.isSpecial(node)) { tb.error(this); return false; } } } return true; }
+    [javac]                                                           ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:255: error: illegal start of type
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:256: error: ';' expected
+    [javac]     Text {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:258: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:258: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:258: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:258: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:274: error: illegal start of type
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:275: error: ';' expected
+    [javac]     InTable {
+    [javac]            ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:276: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTable process method with fixed input handling if (t.isCharacter()) { tb.newPendingTableCharacters(); tb.markInsertionMode(); tb.transition(InTableText); return tb.process(t); } else if (t.isComment()) { tb.insert(t.asComment()); return true; } else if (t.isDoctype()) { tb.error(this); return false; } else if (t.isStartTag()) { Token.StartTag startTag = t.asStartTag(); String name = startTag.normalName(); if (name.equals("caption")) { tb.clearStackToTableContext(); tb.insertMarkerToFormattingElements(); tb.insert(startTag); tb.transition(InCaption); } else if (name.equals("colgroup")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InColumnGroup); } else if (name.equals("col")) { tb.processStartTag("colgroup"); return tb.process(t); } else if (StringUtil.in(name, "tbody", "tfoot", "thead")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InTableBody); } else if (StringUtil.in(name, "td", "th", "tr")) { tb.processStartTag("tbody"); return tb.process(t); } else if (name.equals("table")) { tb.error(this); boolean processed = tb.processEndTag("table"); if (processed) return tb.process(t); } else if (StringUtil.in(name, "style", "script")) { return tb.process(t, InHead); } else if (name.equals("input")) { String type = startTag.attributes.get("type"); if (type != null && type.equalsIgnoreCase("hidden")) { tb.insertEmpty(startTag); } else { return anythingElse(t, tb); } } else if (name.equals("form")) { tb.error(this); if (tb.getFormElement() != null) return false; else { tb.insertForm(startTag, false); } } else { return anythingElse(t, tb); } return true; } else if (t.isEndTag()) { Token.EndTag endTag = t.asEndTag(); String name = endTag.normalName(); if (name.equals("table")) { if (!tb.inTableScope(name)) { tb.error(this); return false; } else { tb.popStackToClose("table"); } tb.resetInsertionMode(); } else if (StringUtil.in(name, "body", "caption", "col", "colgroup", "html", "tbody", "td", "tfoot", "th", "thead", "tr")) { tb.error(this); return false; } else { return anythingElse(t, tb); } return true; } else if (t.isEOF()) { if (tb.currentElement().nodeName().equals("html")) tb.error(this); return true; } return anythingElse(t, tb); }
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:276: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTable process method with fixed input handling if (t.isCharacter()) { tb.newPendingTableCharacters(); tb.markInsertionMode(); tb.transition(InTableText); return tb.process(t); } else if (t.isComment()) { tb.insert(t.asComment()); return true; } else if (t.isDoctype()) { tb.error(this); return false; } else if (t.isStartTag()) { Token.StartTag startTag = t.asStartTag(); String name = startTag.normalName(); if (name.equals("caption")) { tb.clearStackToTableContext(); tb.insertMarkerToFormattingElements(); tb.insert(startTag); tb.transition(InCaption); } else if (name.equals("colgroup")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InColumnGroup); } else if (name.equals("col")) { tb.processStartTag("colgroup"); return tb.process(t); } else if (StringUtil.in(name, "tbody", "tfoot", "thead")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InTableBody); } else if (StringUtil.in(name, "td", "th", "tr")) { tb.processStartTag("tbody"); return tb.process(t); } else if (name.equals("table")) { tb.error(this); boolean processed = tb.processEndTag("table"); if (processed) return tb.process(t); } else if (StringUtil.in(name, "style", "script")) { return tb.process(t, InHead); } else if (name.equals("input")) { String type = startTag.attributes.get("type"); if (type != null && type.equalsIgnoreCase("hidden")) { tb.insertEmpty(startTag); } else { return anythingElse(t, tb); } } else if (name.equals("form")) { tb.error(this); if (tb.getFormElement() != null) return false; else { tb.insertForm(startTag, false); } } else { return anythingElse(t, tb); } return true; } else if (t.isEndTag()) { Token.EndTag endTag = t.asEndTag(); String name = endTag.normalName(); if (name.equals("table")) { if (!tb.inTableScope(name)) { tb.error(this); return false; } else { tb.popStackToClose("table"); } tb.resetInsertionMode(); } else if (StringUtil.in(name, "body", "caption", "col", "colgroup", "html", "tbody", "td", "tfoot", "th", "thead", "tr")) { tb.error(this); return false; } else { return anythingElse(t, tb); } return true; } else if (t.isEOF()) { if (tb.currentElement().nodeName().equals("html")) tb.error(this); return true; } return anythingElse(t, tb); }
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:276: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTable process method with fixed input handling if (t.isCharacter()) { tb.newPendingTableCharacters(); tb.markInsertionMode(); tb.transition(InTableText); return tb.process(t); } else if (t.isComment()) { tb.insert(t.asComment()); return true; } else if (t.isDoctype()) { tb.error(this); return false; } else if (t.isStartTag()) { Token.StartTag startTag = t.asStartTag(); String name = startTag.normalName(); if (name.equals("caption")) { tb.clearStackToTableContext(); tb.insertMarkerToFormattingElements(); tb.insert(startTag); tb.transition(InCaption); } else if (name.equals("colgroup")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InColumnGroup); } else if (name.equals("col")) { tb.processStartTag("colgroup"); return tb.process(t); } else if (StringUtil.in(name, "tbody", "tfoot", "thead")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InTableBody); } else if (StringUtil.in(name, "td", "th", "tr")) { tb.processStartTag("tbody"); return tb.process(t); } else if (name.equals("table")) { tb.error(this); boolean processed = tb.processEndTag("table"); if (processed) return tb.process(t); } else if (StringUtil.in(name, "style", "script")) { return tb.process(t, InHead); } else if (name.equals("input")) { String type = startTag.attributes.get("type"); if (type != null && type.equalsIgnoreCase("hidden")) { tb.insertEmpty(startTag); } else { return anythingElse(t, tb); } } else if (name.equals("form")) { tb.error(this); if (tb.getFormElement() != null) return false; else { tb.insertForm(startTag, false); } } else { return anythingElse(t, tb); } return true; } else if (t.isEndTag()) { Token.EndTag endTag = t.asEndTag(); String name = endTag.normalName(); if (name.equals("table")) { if (!tb.inTableScope(name)) { tb.error(this); return false; } else { tb.popStackToClose("table"); } tb.resetInsertionMode(); } else if (StringUtil.in(name, "body", "caption", "col", "colgroup", "html", "tbody", "td", "tfoot", "th", "thead", "tr")) { tb.error(this); return false; } else { return anythingElse(t, tb); } return true; } else if (t.isEOF()) { if (tb.currentElement().nodeName().equals("html")) tb.error(this); return true; } return anythingElse(t, tb); }
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:276: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTable process method with fixed input handling if (t.isCharacter()) { tb.newPendingTableCharacters(); tb.markInsertionMode(); tb.transition(InTableText); return tb.process(t); } else if (t.isComment()) { tb.insert(t.asComment()); return true; } else if (t.isDoctype()) { tb.error(this); return false; } else if (t.isStartTag()) { Token.StartTag startTag = t.asStartTag(); String name = startTag.normalName(); if (name.equals("caption")) { tb.clearStackToTableContext(); tb.insertMarkerToFormattingElements(); tb.insert(startTag); tb.transition(InCaption); } else if (name.equals("colgroup")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InColumnGroup); } else if (name.equals("col")) { tb.processStartTag("colgroup"); return tb.process(t); } else if (StringUtil.in(name, "tbody", "tfoot", "thead")) { tb.clearStackToTableContext(); tb.insert(startTag); tb.transition(InTableBody); } else if (StringUtil.in(name, "td", "th", "tr")) { tb.processStartTag("tbody"); return tb.process(t); } else if (name.equals("table")) { tb.error(this); boolean processed = tb.processEndTag("table"); if (processed) return tb.process(t); } else if (StringUtil.in(name, "style", "script")) { return tb.process(t, InHead); } else if (name.equals("input")) { String type = startTag.attributes.get("type"); if (type != null && type.equalsIgnoreCase("hidden")) { tb.insertEmpty(startTag); } else { return anythingElse(t, tb); } } else if (name.equals("form")) { tb.error(this); if (tb.getFormElement() != null) return false; else { tb.insertForm(startTag, false); } } else { return anythingElse(t, tb); } return true; } else if (t.isEndTag()) { Token.EndTag endTag = t.asEndTag(); String name = endTag.normalName(); if (name.equals("table")) { if (!tb.inTableScope(name)) { tb.error(this); return false; } else { tb.popStackToClose("table"); } tb.resetInsertionMode(); } else if (StringUtil.in(name, "body", "caption", "col", "colgroup", "html", "tbody", "td", "tfoot", "th", "thead", "tr")) { tb.error(this); return false; } else { return anythingElse(t, tb); } return true; } else if (t.isEOF()) { if (tb.currentElement().nodeName().equals("html")) tb.error(this); return true; } return anythingElse(t, tb); }
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:278: error: ';' expected
+    [javac]         boolean anythingElse(Token t, HtmlTreeBuilder tb) { tb.error(this); boolean processed; if (StringUtil.in(tb.currentElement().nodeName(), "table", "tbody", "tfoot", "thead", "tr")) { tb.setFosterInserts(true); processed = tb.process(t, InBody); tb.setFosterInserts(false); } else { processed = tb.process(t, InBody); } return processed; }
+    [javac]                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:278: error: ';' expected
+    [javac]         boolean anythingElse(Token t, HtmlTreeBuilder tb) { tb.error(this); boolean processed; if (StringUtil.in(tb.currentElement().nodeName(), "table", "tbody", "tfoot", "thead", "tr")) { tb.setFosterInserts(true); processed = tb.process(t, InBody); tb.setFosterInserts(false); } else { processed = tb.process(t, InBody); } return processed; }
+    [javac]                                                      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:278: error: not a statement
+    [javac]         boolean anythingElse(Token t, HtmlTreeBuilder tb) { tb.error(this); boolean processed; if (StringUtil.in(tb.currentElement().nodeName(), "table", "tbody", "tfoot", "thead", "tr")) { tb.setFosterInserts(true); processed = tb.process(t, InBody); tb.setFosterInserts(false); } else { processed = tb.process(t, InBody); } return processed; }
+    [javac]                                                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:278: error: ';' expected
+    [javac]         boolean anythingElse(Token t, HtmlTreeBuilder tb) { tb.error(this); boolean processed; if (StringUtil.in(tb.currentElement().nodeName(), "table", "tbody", "tfoot", "thead", "tr")) { tb.setFosterInserts(true); processed = tb.process(t, InBody); tb.setFosterInserts(false); } else { processed = tb.process(t, InBody); } return processed; }
+    [javac]                                                         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:279: error: illegal start of expression
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:280: error: not a statement
+    [javac]     InTableText {
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:280: error: ';' expected
+    [javac]     InTableText {
+    [javac]                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:281: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTableText process method as in original }
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:281: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTableText process method as in original }
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:281: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTableText process method as in original }
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:281: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InTableText process method as in original }
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:282: error: illegal start of expression
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:283: error: not a statement
+    [javac]     InCaption {
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:283: error: ';' expected
+    [javac]     InCaption {
+    [javac]              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:284: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InCaption process method as in original }
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:284: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InCaption process method as in original }
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:284: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InCaption process method as in original }
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:284: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InCaption process method as in original }
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:285: error: illegal start of expression
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:286: error: not a statement
+    [javac]     InColumnGroup {
+    [javac]     ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:286: error: ';' expected
+    [javac]     InColumnGroup {
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:287: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InColumnGroup process method as in original }
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:287: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InColumnGroup process method as in original }
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:287: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InColumnGroup process method as in original }
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:287: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) { // InColumnGroup process method as in original }
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:289: error: illegal start of expression
+    [javac]         private boolean anythingElse(Token t, TreeBuilder tb) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:415: error: illegal start of expression
+    [javac]         private boolean anythingElse(Token t, HtmlTreeBuilder tb) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:429: error: illegal start of expression
+    [javac]         private boolean anythingElse(Token t, HtmlTreeBuilder tb) {
+    [javac]         ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:482: error: illegal start of type
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:483: error: ';' expected
+    [javac]     AfterFrameset {
+    [javac]                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:484: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:484: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:484: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:484: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:506: error: illegal start of type
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:507: error: ';' expected
+    [javac]     AfterAfterBody {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:508: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:508: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:508: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:508: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:522: error: illegal start of type
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:523: error: ';' expected
+    [javac]     AfterAfterFrameset {
+    [javac]                       ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:524: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:524: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:524: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:524: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:539: error: illegal start of type
+    [javac]     },
+    [javac]      ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:540: error: ';' expected
+    [javac]     ForeignContent {
+    [javac]                   ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:541: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                        ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:541: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                 ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:541: error: not a statement
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                  ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:541: error: ';' expected
+    [javac]         boolean process(Token t, HtmlTreeBuilder tb) {
+    [javac]                                                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/HtmlTreeBuilderState.java:608: error: reached end of file while parsing
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/Tag.java:33: error: ';' expected
+    [javac]     boolean process(Token t, HtmlTreeBuilder tb) { // InFrameset process method as in original }
+    [javac]                    ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/Tag.java:33: error: ';' expected
+    [javac]     boolean process(Token t, HtmlTreeBuilder tb) { // InFrameset process method as in original }
+    [javac]                                             ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/Tag.java:33: error: not a statement
+    [javac]     boolean process(Token t, HtmlTreeBuilder tb) { // InFrameset process method as in original }
+    [javac]                                              ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/Tag.java:33: error: ';' expected
+    [javac]     boolean process(Token t, HtmlTreeBuilder tb) { // InFrameset process method as in original }
+    [javac]                                                ^
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/src/main/java/org/jsoup/parser/Tag.java:50: error: illegal start of expression
+    [javac]     public static Tag valueOf(String tagName, ParseSettings settings) {
+    [javac]     ^
+    [javac] 74 errors
+    [javac] 1 warning
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Jsoup/Jsoup-87-buggy/maven-build.xml:84: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Jsoup-87-buggy
+

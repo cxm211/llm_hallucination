@@ -1,0 +1,17 @@
+==== 2026-06-18 20:06:21 :: JacksonCore-10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 8
+  - com.fasterxml.jackson.core.json.TestWithTonsaSymbols::testStreamReaderParser
+  - com.fasterxml.jackson.core.sym.TestByteBasedSymbols::testSharedSymbols
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187a
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testCollisionsWithBytesNew187b
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsViaParser
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testThousandsOfSymbolsWithNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testSyntheticWithBytesNew
+  - com.fasterxml.jackson.core.sym.TestSymbolTables::testShortNameCollisionsDirectNew
+---- 退出码：0 | JacksonCore-10-buggy
+

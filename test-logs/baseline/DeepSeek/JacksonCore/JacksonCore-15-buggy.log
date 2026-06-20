@@ -1,0 +1,13 @@
+==== 2026-06-18 04:55:42 :: JacksonCore-15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - com.fasterxml.jackson.core.filter.BasicParserFilteringTest::testSingleMatchFilteringWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimpleWithPath
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimpleNoPath
+  - com.fasterxml.jackson.core.filter.JsonPointerParserFilteringTest::testSimplestWithPath
+---- 退出码：0 | JacksonCore-15-buggy
+

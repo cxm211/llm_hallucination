@@ -1,0 +1,89 @@
+model,project,bug_id,status,log
+Claude,Jsoup,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-1-buggy.log
+Claude,Jsoup,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-2-buggy.log
+Claude,Jsoup,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-3-buggy.log
+Claude,Jsoup,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-4-buggy.log
+Claude,Jsoup,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-5-buggy.log
+Claude,Jsoup,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-6-buggy.log
+Claude,Jsoup,7,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-7-buggy.log
+Claude,Jsoup,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-8-buggy.log
+Claude,Jsoup,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-10-buggy.log
+Claude,Jsoup,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-11-buggy.log
+Claude,Jsoup,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-12-buggy.log
+Claude,Jsoup,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-13-buggy.log
+Claude,Jsoup,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-14-buggy.log
+Claude,Jsoup,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-15-buggy.log
+Claude,Jsoup,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-16-buggy.log
+Claude,Jsoup,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-18-buggy.log
+Claude,Jsoup,19,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-19-buggy.log
+Claude,Jsoup,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-20-buggy.log
+Claude,Jsoup,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-21-buggy.log
+Claude,Jsoup,22,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-22-buggy.log
+Claude,Jsoup,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-23-buggy.log
+Claude,Jsoup,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-24-buggy.log
+Claude,Jsoup,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-26-buggy.log
+Claude,Jsoup,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-27-buggy.log
+Claude,Jsoup,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-28-buggy.log
+Claude,Jsoup,29,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-29-buggy.log
+Claude,Jsoup,30,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-30-buggy.log
+Claude,Jsoup,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-31-buggy.log
+Claude,Jsoup,32,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-32-buggy.log
+Claude,Jsoup,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-33-buggy.log
+Claude,Jsoup,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-34-buggy.log
+Claude,Jsoup,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-35-buggy.log
+Claude,Jsoup,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-36-buggy.log
+Claude,Jsoup,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-37-buggy.log
+Claude,Jsoup,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-38-buggy.log
+Claude,Jsoup,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-39-buggy.log
+Claude,Jsoup,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-40-buggy.log
+Claude,Jsoup,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-41-buggy.log
+Claude,Jsoup,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-42-buggy.log
+Claude,Jsoup,43,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-43-buggy.log
+Claude,Jsoup,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-44-buggy.log
+Claude,Jsoup,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-45-buggy.log
+Claude,Jsoup,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-46-buggy.log
+Claude,Jsoup,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-47-buggy.log
+Claude,Jsoup,48,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-48-buggy.log
+Claude,Jsoup,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-49-buggy.log
+Claude,Jsoup,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-50-buggy.log
+Claude,Jsoup,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-51-buggy.log
+Claude,Jsoup,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-52-buggy.log
+Claude,Jsoup,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-53-buggy.log
+Claude,Jsoup,54,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-54-buggy.log
+Claude,Jsoup,55,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-55-buggy.log
+Claude,Jsoup,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-56-buggy.log
+Claude,Jsoup,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-57-buggy.log
+Claude,Jsoup,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-58-buggy.log
+Claude,Jsoup,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-59-buggy.log
+Claude,Jsoup,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-61-buggy.log
+Claude,Jsoup,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-62-buggy.log
+Claude,Jsoup,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-63-buggy.log
+Claude,Jsoup,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-64-buggy.log
+Claude,Jsoup,65,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-65-buggy.log
+Claude,Jsoup,66,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-66-buggy.log
+Claude,Jsoup,67,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-67-buggy.log
+Claude,Jsoup,68,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-68-buggy.log
+Claude,Jsoup,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-69-buggy.log
+Claude,Jsoup,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-70-buggy.log
+Claude,Jsoup,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-71-buggy.log
+Claude,Jsoup,72,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-72-buggy.log
+Claude,Jsoup,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-73-buggy.log
+Claude,Jsoup,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-74-buggy.log
+Claude,Jsoup,75,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-75-buggy.log
+Claude,Jsoup,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-76-buggy.log
+Claude,Jsoup,77,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-77-buggy.log
+Claude,Jsoup,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-78-buggy.log
+Claude,Jsoup,79,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-79-buggy.log
+Claude,Jsoup,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-80-buggy.log
+Claude,Jsoup,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-81-buggy.log
+Claude,Jsoup,82,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-82-buggy.log
+Claude,Jsoup,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-83-buggy.log
+Claude,Jsoup,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-84-buggy.log
+Claude,Jsoup,86,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-86-buggy.log
+Claude,Jsoup,87,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-87-buggy.log
+Claude,Jsoup,88,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-88-buggy.log
+Claude,Jsoup,89,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-89-buggy.log
+Claude,Jsoup,90,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-90-buggy.log
+Claude,Jsoup,91,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-91-buggy.log
+Claude,Jsoup,92,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-92-buggy.log
+Claude,Jsoup,93,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-93-buggy.log

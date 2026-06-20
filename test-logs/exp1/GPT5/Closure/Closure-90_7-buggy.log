@@ -1,10 +1,11 @@
-==== 2026-05-19 08:08:17 :: Closure-90_7-buggy ====
+==== 2026-06-16 15:56:14 :: Closure-90_7-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 1
-  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse2
+Failing tests: 2
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8
+  - com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9
 ---- 退出码：0 | Closure-90_7-buggy
 

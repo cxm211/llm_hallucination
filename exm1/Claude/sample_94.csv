@@ -1,0 +1,95 @@
+model,project,bug_id,variant,status
+Claude,Chart,19,19_1,not pass
+Claude,Closure,4,4_10,not pass
+Claude,Closure,4,4_16,not pass
+Claude,Closure,4,4_9,not pass
+Claude,Closure,6,6_13,pass
+Claude,Closure,10,10_12,not pass
+Claude,Closure,10,10_21,not pass
+Claude,Closure,19,19_11,not compilable
+Claude,Closure,21,21_5,not pass
+Claude,Closure,21,21_9,not pass
+Claude,Closure,25,25_3,not pass
+Claude,Closure,26,26_4,not pass
+Claude,Closure,26,26_8,not pass
+Claude,Closure,27,27_19,not pass
+Claude,Closure,30,30_1,not pass
+Claude,Closure,31,31_12,not pass
+Claude,Closure,31,31_13,not pass
+Claude,Closure,33,33_11,pass
+Claude,Closure,37,37_16,not pass
+Claude,Closure,41,41_14,not compilable
+Claude,Closure,44,44_4,pass
+Claude,Closure,47,47_11,not pass
+Claude,Closure,47,47_5,not pass
+Claude,Closure,57,57_3,not pass
+Claude,Closure,59,59_8,not pass
+Claude,Closure,64,64_12,not pass
+Claude,Closure,64,64_8,not pass
+Claude,Closure,65,65_2,not pass
+Claude,Closure,66,66_12,not pass
+Claude,Closure,68,68_10,not pass
+Claude,Closure,69,69_13,not pass
+Claude,Closure,69,69_14,not pass
+Claude,Closure,71,71_6,not pass
+Claude,Closure,80,80_16,not pass
+Claude,Closure,82,82_2,not pass
+Claude,Closure,84,84_1,not pass
+Claude,Closure,84,84_10,not pass
+Claude,Closure,90,90_14,not compilable
+Claude,Closure,91,91,not pass
+Claude,Closure,117,117_11,not pass
+Claude,Closure,117,117_4,not pass
+Claude,Closure,118,118_17,not compilable
+Claude,Closure,122,122_10,not pass
+Claude,Closure,122,122_3,not pass
+Claude,Closure,123,123_12,not pass
+Claude,Closure,125,125,not pass
+Claude,Closure,125,125_8,not pass
+Claude,Closure,129,129_20,pass
+Claude,Closure,129,129_6,not pass
+Claude,Closure,147,147,not pass
+Claude,Closure,149,149_16,not pass
+Claude,Closure,149,149_4,not pass
+Claude,Closure,158,158_1,not compilable
+Claude,Closure,158,158_9,not compilable
+Claude,Closure,162,162_1,not compilable
+Claude,Closure,172,172_6,not compilable
+Claude,Compress,26,26,pass
+Claude,Csv,10,10,pass
+Claude,Csv,11,11,not pass
+Claude,Gson,9,9_2,not pass
+Claude,JacksonCore,11,11,not pass
+Claude,JacksonDatabind,10,10_1,not pass
+Claude,JacksonDatabind,20,20_4,not pass
+Claude,JacksonDatabind,21,21_4,not pass
+Claude,JacksonDatabind,33,33_4,not pass
+Claude,JacksonDatabind,35,35,not pass
+Claude,JacksonDatabind,48,48_4,not pass
+Claude,JacksonDatabind,58,58_2,not pass
+Claude,JacksonDatabind,63,63_1,not pass
+Claude,JacksonDatabind,67,67_1,not pass
+Claude,JacksonDatabind,76,76_3,not pass
+Claude,JacksonDatabind,84,84_3,not pass
+Claude,JacksonDatabind,99,99,not pass
+Claude,JacksonXml,4,4,not compilable
+Claude,Jsoup,12,12,not pass
+Claude,Jsoup,26,26,pass
+Claude,Jsoup,53,53,not pass
+Claude,Jsoup,83,83_2,not pass
+Claude,JxPath,5,5,not pass
+Claude,JxPath,22,22,not pass
+Claude,Lang,5,5,pass
+Claude,Math,1,1,not pass
+Claude,Math,15,15,not pass
+Claude,Math,40,40,not pass
+Claude,Mockito,20,20,not pass
+Claude,Mockito,21,21,not pass
+Claude,Mockito,24,24_3,pass
+Claude,Time,6,6_2,not compilable
+Claude,Time,8,8_10,not pass
+Claude,Time,15,15_12,pass
+Claude,Time,18,18_1,not pass
+Claude,Time,20,20_5,pass
+Claude,Time,23,23_6,not pass
+Claude,Time,25,25_11,not pass

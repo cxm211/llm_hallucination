@@ -1,0 +1,61 @@
+==== 2026-06-18 08:03:57 :: Time-2-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ FAIL
+Executed command:  cd /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy && /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/major/bin/ant -f /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j -Dd4j.dir.projects=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects -Dbasedir=/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy  compile.tests 2>&1
+Buildfile: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/projects/defects4j.build.xml
+
+test-offline:
+
+get-deps:
+
+joda-time-from-maven.compile:
+    [mkdir] Created dir: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/target/classes
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/maven-build.xml:77: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 157 source files to /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/src/main/java/org/joda/time/DateTimeZone.java:477: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     provider = (Provider) Class.forName(providerClass).newInstance();
+    [javac]                                                                       ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/src/main/java/org/joda/time/DateTimeZone.java:559: warning: [deprecation] newInstance() in Class has been deprecated
+    [javac]                     nameProvider = (NameProvider) Class.forName(providerClass).newInstance();
+    [javac]                                                                               ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/src/main/java/org/joda/time/field/UnsupportedDurationField.java:227: error: cannot find symbol
+    [javac]         if (iTypes.length == 0) {
+    [javac]             ^
+    [javac]   symbol:   variable iTypes
+    [javac]   location: class UnsupportedDurationField
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/src/main/java/org/joda/time/field/UnsupportedDurationField.java:230: error: cannot find symbol
+    [javac]         DateTimeFieldType type = iTypes[0];
+    [javac]         ^
+    [javac]   symbol:   class DateTimeFieldType
+    [javac]   location: class UnsupportedDurationField
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/src/main/java/org/joda/time/field/UnsupportedDurationField.java:230: error: cannot find symbol
+    [javac]         DateTimeFieldType type = iTypes[0];
+    [javac]                                  ^
+    [javac]   symbol:   variable iTypes
+    [javac]   location: class UnsupportedDurationField
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/src/main/java/org/joda/time/field/UnsupportedDurationField.java:231: error: cannot find symbol
+    [javac]         DurationField thisField = type.getDurationType().getField(iChronology);
+    [javac]                                                                   ^
+    [javac]   symbol:   variable iChronology
+    [javac]   location: class UnsupportedDurationField
+    [javac] 4 errors
+    [javac] 6 warnings
+
+BUILD FAILED
+/Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Time/Time-2-buggy/maven-build.xml:77: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
+Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
+---- 退出码：1 | Time-2-buggy
+

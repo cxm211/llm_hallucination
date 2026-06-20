@@ -1,0 +1,105 @@
+model,project,bug_id,status,log
+Claude,Math,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-1-buggy.log
+Claude,Math,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-2-buggy.log
+Claude,Math,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-3-buggy.log
+Claude,Math,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-4-buggy.log
+Claude,Math,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-5-buggy.log
+Claude,Math,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-6-buggy.log
+Claude,Math,7,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-7-buggy.log
+Claude,Math,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-8-buggy.log
+Claude,Math,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-9-buggy.log
+Claude,Math,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-10-buggy.log
+Claude,Math,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-11-buggy.log
+Claude,Math,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-13-buggy.log
+Claude,Math,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-14-buggy.log
+Claude,Math,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-15-buggy.log
+Claude,Math,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-16-buggy.log
+Claude,Math,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-17-buggy.log
+Claude,Math,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-18-buggy.log
+Claude,Math,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-19-buggy.log
+Claude,Math,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-20-buggy.log
+Claude,Math,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-21-buggy.log
+Claude,Math,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-22-buggy.log
+Claude,Math,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-23-buggy.log
+Claude,Math,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-24-buggy.log
+Claude,Math,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-25-buggy.log
+Claude,Math,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-26-buggy.log
+Claude,Math,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-27-buggy.log
+Claude,Math,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-28-buggy.log
+Claude,Math,29,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-29-buggy.log
+Claude,Math,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-30-buggy.log
+Claude,Math,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-31-buggy.log
+Claude,Math,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-32-buggy.log
+Claude,Math,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-33-buggy.log
+Claude,Math,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-34-buggy.log
+Claude,Math,35,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-35-buggy.log
+Claude,Math,36,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-36-buggy.log
+Claude,Math,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-37-buggy.log
+Claude,Math,38,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-38-buggy.log
+Claude,Math,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-39-buggy.log
+Claude,Math,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-40-buggy.log
+Claude,Math,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-41-buggy.log
+Claude,Math,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-42-buggy.log
+Claude,Math,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-43-buggy.log
+Claude,Math,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-44-buggy.log
+Claude,Math,45,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-45-buggy.log
+Claude,Math,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-46-buggy.log
+Claude,Math,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-47-buggy.log
+Claude,Math,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-48-buggy.log
+Claude,Math,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-49-buggy.log
+Claude,Math,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-50-buggy.log
+Claude,Math,51,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-51-buggy.log
+Claude,Math,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-52-buggy.log
+Claude,Math,53,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-53-buggy.log
+Claude,Math,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-54-buggy.log
+Claude,Math,55,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-55-buggy.log
+Claude,Math,56,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-56-buggy.log
+Claude,Math,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-57-buggy.log
+Claude,Math,58,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-58-buggy.log
+Claude,Math,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-59-buggy.log
+Claude,Math,60,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-60-buggy.log
+Claude,Math,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-61-buggy.log
+Claude,Math,62,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-62-buggy.log
+Claude,Math,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-63-buggy.log
+Claude,Math,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-64-buggy.log
+Claude,Math,65,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-65-buggy.log
+Claude,Math,66,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-66-buggy.log
+Claude,Math,67,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-67-buggy.log
+Claude,Math,68,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-68-buggy.log
+Claude,Math,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-69-buggy.log
+Claude,Math,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-70-buggy.log
+Claude,Math,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-71-buggy.log
+Claude,Math,72,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-72-buggy.log
+Claude,Math,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-73-buggy.log
+Claude,Math,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-74-buggy.log
+Claude,Math,75,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-75-buggy.log
+Claude,Math,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-76-buggy.log
+Claude,Math,77,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-77-buggy.log
+Claude,Math,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-78-buggy.log
+Claude,Math,79,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-79-buggy.log
+Claude,Math,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-80-buggy.log
+Claude,Math,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-81-buggy.log
+Claude,Math,82,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-82-buggy.log
+Claude,Math,83,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-83-buggy.log
+Claude,Math,84,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-84-buggy.log
+Claude,Math,85,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-85-buggy.log
+Claude,Math,86,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-86-buggy.log
+Claude,Math,87,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-87-buggy.log
+Claude,Math,88,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-88-buggy.log
+Claude,Math,89,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-89-buggy.log
+Claude,Math,90,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-90-buggy.log
+Claude,Math,91,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-91-buggy.log
+Claude,Math,92,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-92-buggy.log
+Claude,Math,93,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-93-buggy.log
+Claude,Math,94,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-94-buggy.log
+Claude,Math,95,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-95-buggy.log
+Claude,Math,96,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-96-buggy.log
+Claude,Math,97,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-97-buggy.log
+Claude,Math,98,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-98-buggy.log
+Claude,Math,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-99-buggy.log
+Claude,Math,100,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-100-buggy.log
+Claude,Math,101,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-101-buggy.log
+Claude,Math,102,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-102-buggy.log
+Claude,Math,103,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-103-buggy.log
+Claude,Math,105,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-105-buggy.log
+Claude,Math,106,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-106-buggy.log

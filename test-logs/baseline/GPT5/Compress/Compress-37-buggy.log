@@ -1,0 +1,11 @@
+==== 2026-06-18 19:48:41 :: Compress-37-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::paxHeaderEntryWithEmptyValueRemovesKey
+  - org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest::survivesBlankLinesInPaxHeader
+---- 退出码：0 | Compress-37-buggy
+

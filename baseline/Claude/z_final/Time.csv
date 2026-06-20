@@ -1,0 +1,26 @@
+model,project,bug_id,status,log
+Claude,Time,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-1-buggy.log
+Claude,Time,2,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-2-buggy.log
+Claude,Time,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-3-buggy.log
+Claude,Time,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-4-buggy.log
+Claude,Time,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-5-buggy.log
+Claude,Time,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-6-buggy.log
+Claude,Time,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-7-buggy.log
+Claude,Time,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-8-buggy.log
+Claude,Time,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-9-buggy.log
+Claude,Time,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-10-buggy.log
+Claude,Time,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-12-buggy.log
+Claude,Time,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-13-buggy.log
+Claude,Time,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-14-buggy.log
+Claude,Time,15,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-15-buggy.log
+Claude,Time,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-16-buggy.log
+Claude,Time,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-17-buggy.log
+Claude,Time,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-18-buggy.log
+Claude,Time,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-19-buggy.log
+Claude,Time,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-20-buggy.log
+Claude,Time,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-22-buggy.log
+Claude,Time,23,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-23-buggy.log
+Claude,Time,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-24-buggy.log
+Claude,Time,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-25-buggy.log
+Claude,Time,26,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-26-buggy.log
+Claude,Time,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-27-buggy.log

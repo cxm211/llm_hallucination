@@ -1,5 +1,23 @@
-==== 2026-04-12 17:07:14 :: Math-71-buggy ====
+==== 2026-06-19 00:28:59 :: Math-71-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+---- 主命令退出码：0 | Math-71-buggy
+
+
+>>> [JACOCO] 开始 JaCoCo 覆盖率收集（trigger tests）
+[JACOCO] defects4j test -t org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] defects4j test -t org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+[JACOCO] java -jar jacococli.jar report ...
+[INFO] Loading execution data file /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Math/Math-71-buggy/jacoco.exec.
+[INFO] Analyzing 426 classes.
+>>> [JACOCO] 结束

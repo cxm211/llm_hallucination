@@ -1,0 +1,27 @@
+model,project,bug_id,status,log
+GPT5,JacksonCore,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-1-buggy.log
+GPT5,JacksonCore,2,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-2-buggy.log
+GPT5,JacksonCore,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-3-buggy.log
+GPT5,JacksonCore,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-4-buggy.log
+GPT5,JacksonCore,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-5-buggy.log
+GPT5,JacksonCore,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-6-buggy.log
+GPT5,JacksonCore,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-7-buggy.log
+GPT5,JacksonCore,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-8-buggy.log
+GPT5,JacksonCore,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-9-buggy.log
+GPT5,JacksonCore,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-10-buggy.log
+GPT5,JacksonCore,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-11-buggy.log
+GPT5,JacksonCore,12,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-12-buggy.log
+GPT5,JacksonCore,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-13-buggy.log
+GPT5,JacksonCore,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-14-buggy.log
+GPT5,JacksonCore,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-15-buggy.log
+GPT5,JacksonCore,16,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-16-buggy.log
+GPT5,JacksonCore,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-17-buggy.log
+GPT5,JacksonCore,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-18-buggy.log
+GPT5,JacksonCore,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-19-buggy.log
+GPT5,JacksonCore,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-20-buggy.log
+GPT5,JacksonCore,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-21-buggy.log
+GPT5,JacksonCore,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-22-buggy.log
+GPT5,JacksonCore,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-23-buggy.log
+GPT5,JacksonCore,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-24-buggy.log
+GPT5,JacksonCore,25,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-25-buggy.log
+GPT5,JacksonCore,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonCore/JacksonCore-26-buggy.log

@@ -1,0 +1,17 @@
+model,project,bug_id,status,log
+GPT5,Codec,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-1-buggy.log
+GPT5,Codec,2,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-2-buggy.log
+GPT5,Codec,3,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-3-buggy.log
+GPT5,Codec,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-4-buggy.log
+GPT5,Codec,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-5-buggy.log
+GPT5,Codec,6,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-6-buggy.log
+GPT5,Codec,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-7-buggy.log
+GPT5,Codec,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-8-buggy.log
+GPT5,Codec,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-9-buggy.log
+GPT5,Codec,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-10-buggy.log
+GPT5,Codec,11,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-11-buggy.log
+GPT5,Codec,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-12-buggy.log
+GPT5,Codec,14,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-14-buggy.log
+GPT5,Codec,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-15-buggy.log
+GPT5,Codec,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-17-buggy.log
+GPT5,Codec,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Codec/Codec-18-buggy.log

@@ -1,4 +1,4 @@
-==== 2026-05-18 21:41:15 :: Closure-6_11-buggy ====
+==== 2026-06-14 17:25:28 :: Closure-6_11-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r

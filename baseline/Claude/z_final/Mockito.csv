@@ -1,0 +1,38 @@
+model,project,bug_id,status,log
+Claude,Mockito,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-1-buggy.log
+Claude,Mockito,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-2-buggy.log
+Claude,Mockito,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-3-buggy.log
+Claude,Mockito,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-4-buggy.log
+Claude,Mockito,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-5-buggy.log
+Claude,Mockito,6,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-6-buggy.log
+Claude,Mockito,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-7-buggy.log
+Claude,Mockito,8,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-8-buggy.log
+Claude,Mockito,9,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-9-buggy.log
+Claude,Mockito,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-10-buggy.log
+Claude,Mockito,11,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-11-buggy.log
+Claude,Mockito,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-12-buggy.log
+Claude,Mockito,13,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-13-buggy.log
+Claude,Mockito,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-14-buggy.log
+Claude,Mockito,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-15-buggy.log
+Claude,Mockito,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-16-buggy.log
+Claude,Mockito,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-17-buggy.log
+Claude,Mockito,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-18-buggy.log
+Claude,Mockito,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-19-buggy.log
+Claude,Mockito,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-20-buggy.log
+Claude,Mockito,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-21-buggy.log
+Claude,Mockito,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-22-buggy.log
+Claude,Mockito,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-23-buggy.log
+Claude,Mockito,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-24-buggy.log
+Claude,Mockito,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-25-buggy.log
+Claude,Mockito,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-27-buggy.log
+Claude,Mockito,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-28-buggy.log
+Claude,Mockito,29,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-29-buggy.log
+Claude,Mockito,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-30-buggy.log
+Claude,Mockito,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-31-buggy.log
+Claude,Mockito,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-32-buggy.log
+Claude,Mockito,33,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-33-buggy.log
+Claude,Mockito,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-34-buggy.log
+Claude,Mockito,35,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-35-buggy.log
+Claude,Mockito,36,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-36-buggy.log
+Claude,Mockito,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-37-buggy.log
+Claude,Mockito,38,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-38-buggy.log

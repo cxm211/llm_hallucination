@@ -1,0 +1,23 @@
+model,project,bug_id,status,log
+DeepSeek,JxPath,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-1-buggy.log
+DeepSeek,JxPath,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-2-buggy.log
+DeepSeek,JxPath,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-3-buggy.log
+DeepSeek,JxPath,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-4-buggy.log
+DeepSeek,JxPath,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-5-buggy.log
+DeepSeek,JxPath,6,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-6-buggy.log
+DeepSeek,JxPath,7,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-7-buggy.log
+DeepSeek,JxPath,8,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-8-buggy.log
+DeepSeek,JxPath,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-9-buggy.log
+DeepSeek,JxPath,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-10-buggy.log
+DeepSeek,JxPath,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-11-buggy.log
+DeepSeek,JxPath,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-12-buggy.log
+DeepSeek,JxPath,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-13-buggy.log
+DeepSeek,JxPath,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-14-buggy.log
+DeepSeek,JxPath,15,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-15-buggy.log
+DeepSeek,JxPath,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-16-buggy.log
+DeepSeek,JxPath,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-17-buggy.log
+DeepSeek,JxPath,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-18-buggy.log
+DeepSeek,JxPath,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-19-buggy.log
+DeepSeek,JxPath,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-20-buggy.log
+DeepSeek,JxPath,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-21-buggy.log
+DeepSeek,JxPath,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/JxPath/JxPath-22-buggy.log

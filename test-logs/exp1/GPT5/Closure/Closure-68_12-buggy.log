@@ -1,10 +1,10 @@
-==== 2026-05-19 05:53:51 :: Closure-68_12-buggy ====
+==== 2026-06-16 15:25:57 :: Closure-68_12-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 100
+Failing tests: 88
   - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalNullableArgFunctionParam
   - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticPropertyDecl7
   - com.google.javascript.jscomp.LooseTypeCheckTest::testBadTemplateType1
@@ -28,11 +28,6 @@ Failing tests: 100
   - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions3
   - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions4
   - com.google.javascript.jscomp.LooseTypeCheckTest::testUnionOfFunctionAndType
-  - com.google.javascript.jscomp.TightenTypesTest::testUntypedImplicitCallFromProperty
-  - com.google.javascript.jscomp.TightenTypesTest::testImplicitCallFromPropertyOfUnion
-  - com.google.javascript.jscomp.TightenTypesTest::testImplicitCallFromProperty
-  - com.google.javascript.jscomp.TightenTypesTest::testImplicitCallFromPropertyOfAllType
-  - com.google.javascript.jscomp.TightenTypesTest::testImplicitPropCallWithArgs
   - com.google.javascript.jscomp.TypeCheckTest::testOptionalNullableArgFunctionParam
   - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticPropertyDecl7
   - com.google.javascript.jscomp.TypeCheckTest::testBadTemplateType1
@@ -43,7 +38,6 @@ Failing tests: 100
   - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam3
   - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam4
   - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionReturn
-  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralDefinedThisArgument
   - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn4
   - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn5
   - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn6
@@ -52,12 +46,9 @@ Failing tests: 100
   - com.google.javascript.jscomp.TypeCheckTest::testFunctionCall4
   - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam
   - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration9
-  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralUnreadNullThisArgument
   - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration7
   - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction7
   - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionReturn2
-  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralUndefinedThisArgument
-  - com.google.javascript.jscomp.TypeCheckTest::testFunctionLiteralUnreadThisArgument
   - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments15
   - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions1
   - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions2
@@ -71,9 +62,6 @@ Failing tests: 100
   - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
   - com.google.javascript.jscomp.TypeValidatorTest::testFunctionMismatch
   - com.google.javascript.jscomp.TypeValidatorTest::testFunctionMismatch2
-  - com.google.javascript.jscomp.TypedScopeCreatorTest::testTemplateType
-  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClosureParameterTypesWithoutJSDoc
-  - com.google.javascript.jscomp.TypedScopeCreatorTest::testClosureParameterTypesWithJSDoc
   - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType10
   - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType11
   - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType12

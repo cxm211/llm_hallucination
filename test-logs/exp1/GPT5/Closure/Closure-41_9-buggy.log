@@ -1,4 +1,4 @@
-==== 2026-05-19 02:32:08 :: Closure-41_9-buggy ====
+==== 2026-06-15 13:31:56 :: Closure-41_9-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
@@ -263,12 +263,12 @@ compile:
     [javac]   symbol:   method addParameter(Node)
     [javac]   location: variable paramBuilder of type FunctionParamBuilder
     [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_9-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:298: error: cannot find symbol
-    [javac]           paramBuilder.addParameter(cloned);
+    [javac]           paramBuilder.addParameter(newParam);
     [javac]                       ^
     [javac]   symbol:   method addParameter(Node)
     [javac]   location: variable paramBuilder of type FunctionParamBuilder
     [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_9-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:493: error: cannot find symbol
-    [javac]         builder.addParameter(cloned);
+    [javac]         builder.addParameter(copied);
     [javac]                ^
     [javac]   symbol:   method addParameter(Node)
     [javac]   location: variable builder of type FunctionParamBuilder
@@ -282,7 +282,7 @@ compile:
 BUILD FAILED
 /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_9-buggy/build.xml:258: Compile failed; see the compiler error output for details.
 
-Total time: 6 seconds
+Total time: 4 seconds
 Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
 Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
 ---- 退出码：1 | Closure-41_9-buggy

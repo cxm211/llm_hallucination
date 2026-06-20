@@ -1,33 +1,14 @@
-==== 2026-05-19 13:44:54 :: Closure-165_13-buggy ====
+==== 2026-06-16 20:53:53 :: Closure-165_13-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 24
-  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckUndefinedProperties1
-  - com.google.javascript.jscomp.CommandLineRunnerTest::testCheckUndefinedProperties3
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testGlobalThis5
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty2
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty4
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty7
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty14
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty16
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty19
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty23
-  - com.google.javascript.jscomp.LooseTypeCheckTest::testMissingProperty28
-  - com.google.javascript.jscomp.TypeCheckTest::testGlobalThis5
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty2
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty4
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty7
-  - com.google.javascript.jscomp.TypeCheckTest::testGoodExtends15
-  - com.google.javascript.jscomp.TypeCheckTest::testIssue537c
+Failing tests: 5
   - com.google.javascript.jscomp.TypeCheckTest::testIssue725
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty14
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty16
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty19
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty23
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty28
-  - com.google.javascript.jscomp.TypeCheckTest::testMissingProperty38
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType5
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType6
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType7
+  - com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeGreatestSubType8
 ---- 退出码：0 | Closure-165_13-buggy
 

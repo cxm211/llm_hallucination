@@ -1,0 +1,15 @@
+==== 2026-06-18 16:37:53 :: Cli-15-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument
+  - org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValuesStringList
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValuesOptionList
+  - org.apache.commons.cli2.option.ArgumentTest::testValidate_Validator
+---- 退出码：0 | Cli-15-buggy
+

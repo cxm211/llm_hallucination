@@ -1,0 +1,27 @@
+model,project,bug_id,status,log
+Claude,Chart,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-1-buggy.log
+Claude,Chart,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-2-buggy.log
+Claude,Chart,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-3-buggy.log
+Claude,Chart,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-4-buggy.log
+Claude,Chart,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-5-buggy.log
+Claude,Chart,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-6-buggy.log
+Claude,Chart,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-7-buggy.log
+Claude,Chart,8,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-8-buggy.log
+Claude,Chart,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-9-buggy.log
+Claude,Chart,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-10-buggy.log
+Claude,Chart,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-11-buggy.log
+Claude,Chart,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-12-buggy.log
+Claude,Chart,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-13-buggy.log
+Claude,Chart,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-14-buggy.log
+Claude,Chart,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-15-buggy.log
+Claude,Chart,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-16-buggy.log
+Claude,Chart,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-17-buggy.log
+Claude,Chart,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-18-buggy.log
+Claude,Chart,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-19-buggy.log
+Claude,Chart,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-20-buggy.log
+Claude,Chart,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-21-buggy.log
+Claude,Chart,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-22-buggy.log
+Claude,Chart,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-23-buggy.log
+Claude,Chart,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-24-buggy.log
+Claude,Chart,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-25-buggy.log
+Claude,Chart,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-26-buggy.log

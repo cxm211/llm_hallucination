@@ -1,0 +1,48 @@
+model,project,bug_id,status,log
+DeepSeek,Compress,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-1-buggy.log
+DeepSeek,Compress,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-2-buggy.log
+DeepSeek,Compress,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-3-buggy.log
+DeepSeek,Compress,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-4-buggy.log
+DeepSeek,Compress,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-5-buggy.log
+DeepSeek,Compress,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-6-buggy.log
+DeepSeek,Compress,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-7-buggy.log
+DeepSeek,Compress,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-8-buggy.log
+DeepSeek,Compress,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-9-buggy.log
+DeepSeek,Compress,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-10-buggy.log
+DeepSeek,Compress,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-11-buggy.log
+DeepSeek,Compress,12,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-12-buggy.log
+DeepSeek,Compress,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-13-buggy.log
+DeepSeek,Compress,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-14-buggy.log
+DeepSeek,Compress,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-15-buggy.log
+DeepSeek,Compress,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-16-buggy.log
+DeepSeek,Compress,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-17-buggy.log
+DeepSeek,Compress,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-18-buggy.log
+DeepSeek,Compress,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-19-buggy.log
+DeepSeek,Compress,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-20-buggy.log
+DeepSeek,Compress,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-21-buggy.log
+DeepSeek,Compress,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-22-buggy.log
+DeepSeek,Compress,23,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-23-buggy.log
+DeepSeek,Compress,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-24-buggy.log
+DeepSeek,Compress,25,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-25-buggy.log
+DeepSeek,Compress,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-26-buggy.log
+DeepSeek,Compress,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-27-buggy.log
+DeepSeek,Compress,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-28-buggy.log
+DeepSeek,Compress,29,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-29-buggy.log
+DeepSeek,Compress,30,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-30-buggy.log
+DeepSeek,Compress,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-31-buggy.log
+DeepSeek,Compress,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-32-buggy.log
+DeepSeek,Compress,33,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-33-buggy.log
+DeepSeek,Compress,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-34-buggy.log
+DeepSeek,Compress,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-35-buggy.log
+DeepSeek,Compress,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-36-buggy.log
+DeepSeek,Compress,37,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-37-buggy.log
+DeepSeek,Compress,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-38-buggy.log
+DeepSeek,Compress,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-39-buggy.log
+DeepSeek,Compress,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-40-buggy.log
+DeepSeek,Compress,41,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-41-buggy.log
+DeepSeek,Compress,42,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-42-buggy.log
+DeepSeek,Compress,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-43-buggy.log
+DeepSeek,Compress,44,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-44-buggy.log
+DeepSeek,Compress,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-45-buggy.log
+DeepSeek,Compress,46,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-46-buggy.log
+DeepSeek,Compress,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Compress/Compress-47-buggy.log

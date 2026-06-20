@@ -1,0 +1,26 @@
+==== 2026-06-18 02:09:09 :: Jsoup-5-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - org.jsoup.integration.ParseTest::testYahooJp
+  - org.jsoup.integration.ParseTest::testBaidu
+  - org.jsoup.integration.ParseTest::testSmhBizArticle
+  - org.jsoup.integration.ParseTest::testNytArticle
+  - org.jsoup.integration.ParseTest::testNewsHomepage
+  - org.jsoup.parser.ParserTest::normalisesHeadlessBody
+  - org.jsoup.parser.ParserTest::handlesEscapedData
+  - org.jsoup.parser.ParserTest::parsesUnterminatedTag
+  - org.jsoup.parser.ParserTest::parsesUnterminatedAttribute
+  - org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes
+  - org.jsoup.safety.CleanerTest::basicBehaviourTest
+  - org.jsoup.safety.CleanerTest::resolvesRelativeLinks
+  - org.jsoup.safety.CleanerTest::simpleBehaviourTest
+  - org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks
+  - org.jsoup.safety.CleanerTest::testIsValid
+  - org.jsoup.safety.CleanerTest::testCleanJavascriptHref
+  - org.jsoup.select.SelectorTest::testCharactersInIdAndClass
+---- 退出码：0 | Jsoup-5-buggy
+

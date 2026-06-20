@@ -1,0 +1,107 @@
+model,project,bug_id,status,log
+GPT5,JacksonDatabind,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-1-buggy.log
+GPT5,JacksonDatabind,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-2-buggy.log
+GPT5,JacksonDatabind,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-3-buggy.log
+GPT5,JacksonDatabind,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-4-buggy.log
+GPT5,JacksonDatabind,5,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-5-buggy.log
+GPT5,JacksonDatabind,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-6-buggy.log
+GPT5,JacksonDatabind,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-7-buggy.log
+GPT5,JacksonDatabind,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-8-buggy.log
+GPT5,JacksonDatabind,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-9-buggy.log
+GPT5,JacksonDatabind,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-10-buggy.log
+GPT5,JacksonDatabind,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-11-buggy.log
+GPT5,JacksonDatabind,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-12-buggy.log
+GPT5,JacksonDatabind,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-13-buggy.log
+GPT5,JacksonDatabind,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-14-buggy.log
+GPT5,JacksonDatabind,15,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-15-buggy.log
+GPT5,JacksonDatabind,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-16-buggy.log
+GPT5,JacksonDatabind,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-17-buggy.log
+GPT5,JacksonDatabind,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-18-buggy.log
+GPT5,JacksonDatabind,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-19-buggy.log
+GPT5,JacksonDatabind,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-20-buggy.log
+GPT5,JacksonDatabind,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-21-buggy.log
+GPT5,JacksonDatabind,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-22-buggy.log
+GPT5,JacksonDatabind,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-23-buggy.log
+GPT5,JacksonDatabind,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-24-buggy.log
+GPT5,JacksonDatabind,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-25-buggy.log
+GPT5,JacksonDatabind,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-27-buggy.log
+GPT5,JacksonDatabind,28,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-28-buggy.log
+GPT5,JacksonDatabind,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-29-buggy.log
+GPT5,JacksonDatabind,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-30-buggy.log
+GPT5,JacksonDatabind,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-31-buggy.log
+GPT5,JacksonDatabind,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-32-buggy.log
+GPT5,JacksonDatabind,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-33-buggy.log
+GPT5,JacksonDatabind,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-34-buggy.log
+GPT5,JacksonDatabind,35,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-35-buggy.log
+GPT5,JacksonDatabind,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-36-buggy.log
+GPT5,JacksonDatabind,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-37-buggy.log
+GPT5,JacksonDatabind,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-38-buggy.log
+GPT5,JacksonDatabind,39,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-39-buggy.log
+GPT5,JacksonDatabind,41,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-41-buggy.log
+GPT5,JacksonDatabind,42,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-42-buggy.log
+GPT5,JacksonDatabind,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-43-buggy.log
+GPT5,JacksonDatabind,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-44-buggy.log
+GPT5,JacksonDatabind,45,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-45-buggy.log
+GPT5,JacksonDatabind,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-46-buggy.log
+GPT5,JacksonDatabind,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-47-buggy.log
+GPT5,JacksonDatabind,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-48-buggy.log
+GPT5,JacksonDatabind,49,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-49-buggy.log
+GPT5,JacksonDatabind,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-50-buggy.log
+GPT5,JacksonDatabind,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-51-buggy.log
+GPT5,JacksonDatabind,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-52-buggy.log
+GPT5,JacksonDatabind,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-53-buggy.log
+GPT5,JacksonDatabind,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-54-buggy.log
+GPT5,JacksonDatabind,55,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-55-buggy.log
+GPT5,JacksonDatabind,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-56-buggy.log
+GPT5,JacksonDatabind,57,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-57-buggy.log
+GPT5,JacksonDatabind,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-58-buggy.log
+GPT5,JacksonDatabind,59,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-59-buggy.log
+GPT5,JacksonDatabind,60,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-60-buggy.log
+GPT5,JacksonDatabind,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-61-buggy.log
+GPT5,JacksonDatabind,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-62-buggy.log
+GPT5,JacksonDatabind,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-63-buggy.log
+GPT5,JacksonDatabind,64,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-64-buggy.log
+GPT5,JacksonDatabind,66,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-66-buggy.log
+GPT5,JacksonDatabind,67,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-67-buggy.log
+GPT5,JacksonDatabind,68,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-68-buggy.log
+GPT5,JacksonDatabind,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-69-buggy.log
+GPT5,JacksonDatabind,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-70-buggy.log
+GPT5,JacksonDatabind,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-71-buggy.log
+GPT5,JacksonDatabind,73,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-73-buggy.log
+GPT5,JacksonDatabind,74,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-74-buggy.log
+GPT5,JacksonDatabind,75,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-75-buggy.log
+GPT5,JacksonDatabind,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-76-buggy.log
+GPT5,JacksonDatabind,77,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-77-buggy.log
+GPT5,JacksonDatabind,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-78-buggy.log
+GPT5,JacksonDatabind,79,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-79-buggy.log
+GPT5,JacksonDatabind,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-80-buggy.log
+GPT5,JacksonDatabind,81,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-81-buggy.log
+GPT5,JacksonDatabind,82,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-82-buggy.log
+GPT5,JacksonDatabind,83,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-83-buggy.log
+GPT5,JacksonDatabind,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-84-buggy.log
+GPT5,JacksonDatabind,85,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-85-buggy.log
+GPT5,JacksonDatabind,86,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-86-buggy.log
+GPT5,JacksonDatabind,87,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-87-buggy.log
+GPT5,JacksonDatabind,88,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-88-buggy.log
+GPT5,JacksonDatabind,90,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-90-buggy.log
+GPT5,JacksonDatabind,91,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-91-buggy.log
+GPT5,JacksonDatabind,93,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-93-buggy.log
+GPT5,JacksonDatabind,94,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-94-buggy.log
+GPT5,JacksonDatabind,95,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-95-buggy.log
+GPT5,JacksonDatabind,96,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-96-buggy.log
+GPT5,JacksonDatabind,97,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-97-buggy.log
+GPT5,JacksonDatabind,98,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-98-buggy.log
+GPT5,JacksonDatabind,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-99-buggy.log
+GPT5,JacksonDatabind,100,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-100-buggy.log
+GPT5,JacksonDatabind,101,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-101-buggy.log
+GPT5,JacksonDatabind,102,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-102-buggy.log
+GPT5,JacksonDatabind,103,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-103-buggy.log
+GPT5,JacksonDatabind,104,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-104-buggy.log
+GPT5,JacksonDatabind,105,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-105-buggy.log
+GPT5,JacksonDatabind,106,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-106-buggy.log
+GPT5,JacksonDatabind,107,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-107-buggy.log
+GPT5,JacksonDatabind,108,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-108-buggy.log
+GPT5,JacksonDatabind,109,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-109-buggy.log
+GPT5,JacksonDatabind,110,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-110-buggy.log
+GPT5,JacksonDatabind,111,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-111-buggy.log
+GPT5,JacksonDatabind,112,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JacksonDatabind/JacksonDatabind-112-buggy.log

@@ -1,0 +1,21 @@
+==== 2026-06-18 23:09:11 :: Mockito-2-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.mockito.internal.util.TimerTest::should_return_true_if_task_is_in_acceptable_time_bounds
+  - org.mockito.internal.util.TimerTest::should_throw_friendly_reminder_exception_when_duration_is_negative
+  - org.mockito.internal.verification.VerificationOverTimeImplTest::should_not_wrap_other_exceptions
+  - org.mockito.internal.verification.VerificationOverTimeImplTest::should_return_on_success
+  - org.mockito.internal.verification.VerificationOverTimeImplTest::should_deal_with_junit_assertion_error
+  - org.mockito.internal.verification.VerificationOverTimeImplTest::should_throw_mockito_assertion_error
+  - org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_timeout_method
+  - org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_after_method
+  - org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest::shouldSuccessfullyVerifyConcurrentInvocationsWithTimeout
+  - org.mockitousage.verification.VerificationAfterDelayTest::shouldFailVerificationWithWrongTimes
+  - org.mockitousage.verification.VerificationAfterDelayTest::shouldStopEarlyIfTestIsDefinitelyFailed
+  - org.mockitousage.verification.VerificationAfterDelayTest::shouldWaitTheFullTimeIfTheTestCouldPass
+---- 退出码：0 | Mockito-2-buggy
+

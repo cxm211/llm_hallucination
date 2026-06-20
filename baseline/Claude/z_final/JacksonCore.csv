@@ -1,0 +1,27 @@
+model,project,bug_id,status,log
+Claude,JacksonCore,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-1-buggy.log
+Claude,JacksonCore,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-2-buggy.log
+Claude,JacksonCore,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-3-buggy.log
+Claude,JacksonCore,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-4-buggy.log
+Claude,JacksonCore,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-5-buggy.log
+Claude,JacksonCore,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-6-buggy.log
+Claude,JacksonCore,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-7-buggy.log
+Claude,JacksonCore,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-8-buggy.log
+Claude,JacksonCore,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-9-buggy.log
+Claude,JacksonCore,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-10-buggy.log
+Claude,JacksonCore,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-11-buggy.log
+Claude,JacksonCore,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-12-buggy.log
+Claude,JacksonCore,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-13-buggy.log
+Claude,JacksonCore,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-14-buggy.log
+Claude,JacksonCore,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-15-buggy.log
+Claude,JacksonCore,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-16-buggy.log
+Claude,JacksonCore,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-17-buggy.log
+Claude,JacksonCore,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-18-buggy.log
+Claude,JacksonCore,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-19-buggy.log
+Claude,JacksonCore,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-20-buggy.log
+Claude,JacksonCore,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-21-buggy.log
+Claude,JacksonCore,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-22-buggy.log
+Claude,JacksonCore,23,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-23-buggy.log
+Claude,JacksonCore,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-24-buggy.log
+Claude,JacksonCore,25,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-25-buggy.log
+Claude,JacksonCore,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-26-buggy.log

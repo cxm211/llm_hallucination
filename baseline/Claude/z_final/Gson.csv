@@ -1,0 +1,19 @@
+model,project,bug_id,status,log
+Claude,Gson,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-1-buggy.log
+Claude,Gson,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-2-buggy.log
+Claude,Gson,3,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-3-buggy.log
+Claude,Gson,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-4-buggy.log
+Claude,Gson,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-5-buggy.log
+Claude,Gson,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-6-buggy.log
+Claude,Gson,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-7-buggy.log
+Claude,Gson,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-8-buggy.log
+Claude,Gson,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-9-buggy.log
+Claude,Gson,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-10-buggy.log
+Claude,Gson,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-11-buggy.log
+Claude,Gson,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-12-buggy.log
+Claude,Gson,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-13-buggy.log
+Claude,Gson,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-14-buggy.log
+Claude,Gson,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-15-buggy.log
+Claude,Gson,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-16-buggy.log
+Claude,Gson,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-17-buggy.log
+Claude,Gson,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-18-buggy.log

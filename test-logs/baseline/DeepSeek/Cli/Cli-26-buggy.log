@@ -1,0 +1,32 @@
+==== 2026-06-18 02:52:54 :: Cli-26-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 23
+  - org.apache.commons.cli.ApplicationTest::testLs
+  - org.apache.commons.cli.BugsTest::test11457
+  - org.apache.commons.cli.CommandLineTest::testGetOptionProperties
+  - org.apache.commons.cli.HelpFormatterTest::testOptionWithoutShortFormat2
+  - org.apache.commons.cli.OptionBuilderTest::testBuilderIsResettedAlways
+  - org.apache.commons.cli.OptionsTest::testHelpOptions
+  - org.apache.commons.cli.PosixParserTest::testLongOptionWithShort
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValue
+  - org.apache.commons.cli.ValueTest::testPropertyOverrideValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgNoValue
+  - org.apache.commons.cli.ValueTest::testLongWithArg
+  - org.apache.commons.cli.ValueTest::testPropertyOptionSingularValue
+  - org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues
+  - org.apache.commons.cli.ValueTest::testPropertyOptionFlags
+  - org.apache.commons.cli.ValueTest::testLongOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testShortWithArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalArgValues
+  - org.apache.commons.cli.ValueTest::testShortOptionalNArgValues
+  - org.apache.commons.cli.ValueTest::testLongNoArg
+  - org.apache.commons.cli.ValueTest::testShortNoArg
+  - org.apache.commons.cli.ValueTest::testLongOptionalNoValue
+  - org.apache.commons.cli.ValueTest::testShortOptionalArgValue
+---- 退出码：0 | Cli-26-buggy
+

@@ -1,0 +1,23 @@
+==== 2026-06-18 22:10:36 :: Jsoup-3-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.jsoup.nodes.ElementTest::testAddNewHtml
+  - org.jsoup.nodes.ElementTest::testWrap
+  - org.jsoup.nodes.ElementTest::testAppendRowToTable
+  - org.jsoup.nodes.ElementTest::testPrependRowToTable
+  - org.jsoup.nodes.ElementTest::testSetHtml
+  - org.jsoup.nodes.ElementTest::testPrependNewHtml
+  - org.jsoup.parser.ParserTest::handlesNestedImplicitTable
+  - org.jsoup.parser.ParserTest::handlesUnknownInlineTags
+  - org.jsoup.parser.TagTest::divSemantics
+  - org.jsoup.parser.TagTest::spanSemantics
+  - org.jsoup.parser.TagTest::defaultSemantics
+  - org.jsoup.select.ElementsTest::setHtml
+  - org.jsoup.select.SelectorTest::parentChildElement
+  - org.jsoup.select.SelectorTest::testSupportsLeadingCombinator
+---- 退出码：0 | Jsoup-3-buggy
+

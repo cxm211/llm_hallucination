@@ -1,0 +1,61 @@
+model,project,bug_id,status,log
+GPT5,Lang,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-1-buggy.log
+GPT5,Lang,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-3-buggy.log
+GPT5,Lang,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-4-buggy.log
+GPT5,Lang,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-5-buggy.log
+GPT5,Lang,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-6-buggy.log
+GPT5,Lang,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-7-buggy.log
+GPT5,Lang,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-8-buggy.log
+GPT5,Lang,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-9-buggy.log
+GPT5,Lang,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-10-buggy.log
+GPT5,Lang,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-11-buggy.log
+GPT5,Lang,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-12-buggy.log
+GPT5,Lang,13,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-13-buggy.log
+GPT5,Lang,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-14-buggy.log
+GPT5,Lang,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-15-buggy.log
+GPT5,Lang,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-16-buggy.log
+GPT5,Lang,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-17-buggy.log
+GPT5,Lang,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-19-buggy.log
+GPT5,Lang,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-20-buggy.log
+GPT5,Lang,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-21-buggy.log
+GPT5,Lang,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-22-buggy.log
+GPT5,Lang,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-24-buggy.log
+GPT5,Lang,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-26-buggy.log
+GPT5,Lang,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-27-buggy.log
+GPT5,Lang,28,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-28-buggy.log
+GPT5,Lang,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-29-buggy.log
+GPT5,Lang,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-30-buggy.log
+GPT5,Lang,31,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-31-buggy.log
+GPT5,Lang,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-32-buggy.log
+GPT5,Lang,33,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-33-buggy.log
+GPT5,Lang,34,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-34-buggy.log
+GPT5,Lang,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-35-buggy.log
+GPT5,Lang,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-36-buggy.log
+GPT5,Lang,37,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-37-buggy.log
+GPT5,Lang,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-38-buggy.log
+GPT5,Lang,39,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-39-buggy.log
+GPT5,Lang,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-40-buggy.log
+GPT5,Lang,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-41-buggy.log
+GPT5,Lang,42,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-42-buggy.log
+GPT5,Lang,43,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-43-buggy.log
+GPT5,Lang,44,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-44-buggy.log
+GPT5,Lang,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-45-buggy.log
+GPT5,Lang,46,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-46-buggy.log
+GPT5,Lang,47,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-47-buggy.log
+GPT5,Lang,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-49-buggy.log
+GPT5,Lang,50,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-50-buggy.log
+GPT5,Lang,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-51-buggy.log
+GPT5,Lang,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-52-buggy.log
+GPT5,Lang,53,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-53-buggy.log
+GPT5,Lang,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-54-buggy.log
+GPT5,Lang,55,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-55-buggy.log
+GPT5,Lang,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-56-buggy.log
+GPT5,Lang,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-57-buggy.log
+GPT5,Lang,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-58-buggy.log
+GPT5,Lang,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-59-buggy.log
+GPT5,Lang,60,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-60-buggy.log
+GPT5,Lang,61,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-61-buggy.log
+GPT5,Lang,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-62-buggy.log
+GPT5,Lang,63,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-63-buggy.log
+GPT5,Lang,64,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-64-buggy.log
+GPT5,Lang,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Lang/Lang-65-buggy.log

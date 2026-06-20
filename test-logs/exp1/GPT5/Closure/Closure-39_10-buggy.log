@@ -1,10 +1,13 @@
-==== 2026-05-19 02:07:09 :: Closure-39_10-buggy ====
+==== 2026-06-15 13:02:24 :: Closure-39_10-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 2
+Failing tests: 5
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation2
+  - com.google.javascript.jscomp.ExternExportsPassTest::testTypedef
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple2
   - com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord
   - com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString
 ---- 退出码：0 | Closure-39_10-buggy

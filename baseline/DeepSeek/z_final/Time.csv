@@ -1,0 +1,26 @@
+model,project,bug_id,status,log
+DeepSeek,Time,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-1-buggy.log
+DeepSeek,Time,2,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-2-buggy.log
+DeepSeek,Time,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-3-buggy.log
+DeepSeek,Time,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-4-buggy.log
+DeepSeek,Time,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-5-buggy.log
+DeepSeek,Time,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-6-buggy.log
+DeepSeek,Time,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-7-buggy.log
+DeepSeek,Time,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-8-buggy.log
+DeepSeek,Time,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-9-buggy.log
+DeepSeek,Time,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-10-buggy.log
+DeepSeek,Time,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-12-buggy.log
+DeepSeek,Time,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-13-buggy.log
+DeepSeek,Time,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-14-buggy.log
+DeepSeek,Time,15,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-15-buggy.log
+DeepSeek,Time,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-16-buggy.log
+DeepSeek,Time,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-17-buggy.log
+DeepSeek,Time,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-18-buggy.log
+DeepSeek,Time,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-19-buggy.log
+DeepSeek,Time,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-20-buggy.log
+DeepSeek,Time,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-22-buggy.log
+DeepSeek,Time,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-23-buggy.log
+DeepSeek,Time,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-24-buggy.log
+DeepSeek,Time,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-25-buggy.log
+DeepSeek,Time,26,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-26-buggy.log
+DeepSeek,Time,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Time/Time-27-buggy.log

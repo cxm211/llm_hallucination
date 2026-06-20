@@ -1,0 +1,26 @@
+==== 2026-06-17 21:17:41 :: Cli-16-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 17
+  - org.apache.commons.cli2.application.CpTest::testOneSource
+  - org.apache.commons.cli2.application.CpTest::testHelp
+  - org.apache.commons.cli2.application.CpTest::testMultiSource
+  - org.apache.commons.cli2.bug.BugCLI123Test::testMultipleChildOptions
+  - org.apache.commons.cli2.bug.BugCLI123Test::testParentOptionAndChildOption
+  - org.apache.commons.cli2.bug.BugCLI123Test::testSingleChildOption
+  - org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest::testLoopingOptionLookAlike2
+  - org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order
+  - org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_Order
+  - org.apache.commons.cli2.option.GroupTest::testAppendUsage_WithArgs
+  - org.apache.commons.cli2.util.HelpFormatterTest::testComparator
+  - org.apache.commons.cli2.util.HelpFormatterTest::testPrint
+  - org.apache.commons.cli2.util.HelpFormatterTest::testPrintHelp
+  - org.apache.commons.cli2.util.HelpFormatterTest::testPrintUsage
+  - org.apache.commons.cli2.util.HelpFormatterTest::testGutters
+---- 退出码：0 | Cli-16-buggy
+

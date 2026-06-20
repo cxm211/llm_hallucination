@@ -1,0 +1,23 @@
+model,project,bug_id,status,log
+GPT5,JxPath,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-1-buggy.log
+GPT5,JxPath,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-2-buggy.log
+GPT5,JxPath,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-3-buggy.log
+GPT5,JxPath,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-4-buggy.log
+GPT5,JxPath,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-5-buggy.log
+GPT5,JxPath,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-6-buggy.log
+GPT5,JxPath,7,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-7-buggy.log
+GPT5,JxPath,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-8-buggy.log
+GPT5,JxPath,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-9-buggy.log
+GPT5,JxPath,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-10-buggy.log
+GPT5,JxPath,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-11-buggy.log
+GPT5,JxPath,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-12-buggy.log
+GPT5,JxPath,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-13-buggy.log
+GPT5,JxPath,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-14-buggy.log
+GPT5,JxPath,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-15-buggy.log
+GPT5,JxPath,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-16-buggy.log
+GPT5,JxPath,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-17-buggy.log
+GPT5,JxPath,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-18-buggy.log
+GPT5,JxPath,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-19-buggy.log
+GPT5,JxPath,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-20-buggy.log
+GPT5,JxPath,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-21-buggy.log
+GPT5,JxPath,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/JxPath/JxPath-22-buggy.log

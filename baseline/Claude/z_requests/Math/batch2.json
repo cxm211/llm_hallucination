@@ -1,0 +1,60 @@
+{
+  "requests": [
+    {
+      "custom_id": "Math_96",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 96/input.java\n\n===== BEGIN =====\n// buggy code\n    public boolean equals(Object other) {\n        boolean ret;\n        \n        if (this == other) { \n            ret = true;\n        } else if (other == null) {\n            ret = false;\n        } else  {\n            try {\n                Complex rhs = (Complex)other;\n                if (rhs.isNaN()) {\n                    ret = this.isNaN();\n                } else {\n                    ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary())); \n                }\n            } catch (ClassCastException ex) {\n                // ignore exception\n                ret = false;\n            }\n        }\n      \n        return ret;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Math_97",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 97/input.java\n\n===== BEGIN =====\n// buggy code\n    public double solve(double min, double max) throws MaxIterationsExceededException, \n        FunctionEvaluationException {\n        \n        clearResult();\n        verifyInterval(min, max);\n        \n        double ret = Double.NaN;\n        \n        double yMin = f.value(min);\n        double yMax = f.value(max);\n        \n        // Verify bracketing\n        double sign = yMin * yMax;\n        if (sign >= 0) {\n            // check if either value is close to a zero\n                // neither value is close to zero and min and max do not bracket root.\n                throw new IllegalArgumentException\n                (\"Function values at endpoints do not have different signs.\" +\n                        \"  Endpoints: [\" + min + \",\" + max + \"]\" + \n                        \"  Values: [\" + yMin + \",\" + yMax + \"]\");\n        } else {\n            // solve using only the first endpoint as initial guess\n            ret = solve(min, yMin, max, yMax, min, yMin);\n            // either min or max is a root\n        }\n\n        return ret;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Math_98",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 98/input.java\n\n===== BEGIN =====\n// buggy code\n    public BigDecimal[] operate(BigDecimal[] v) throws IllegalArgumentException {\n        if (v.length != this.getColumnDimension()) {\n            throw new IllegalArgumentException(\"vector has wrong length\");\n        }\n        final int nRows = this.getRowDimension();\n        final int nCols = this.getColumnDimension();\n        final BigDecimal[] out = new BigDecimal[v.length];\n        for (int row = 0; row < nRows; row++) {\n            BigDecimal sum = ZERO;\n            for (int i = 0; i < nCols; i++) {\n                sum = sum.add(data[row][i].multiply(v[i]));\n            }\n            out[row] = sum;\n        }\n        return out;\n    }\n\n    public double[] operate(double[] v) throws IllegalArgumentException {\n        final int nRows = this.getRowDimension();\n        final int nCols = this.getColumnDimension();\n        if (v.length != nCols) {\n            throw new IllegalArgumentException(\"vector has wrong length\");\n        }\n        final double[] out = new double[v.length];\n        for (int row = 0; row < nRows; row++) {\n            final double[] dataRow = data[row];\n            double sum = 0;\n            for (int i = 0; i < nCols; i++) {\n                sum += dataRow[i] * v[i];\n            }\n            out[row] = sum;\n        }\n        return out;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    },
+    {
+      "custom_id": "Math_99",
+      "params": {
+        "model": "claude-sonnet-4-5",
+        "max_tokens": 40000,
+        "system": "You are a senior software engineer.\n\nTask:\nGiven:\nThe complete functions where an error occurs. If multiple functions are buggy, all will be provided.\n\nYour job is to:\n- Produce the minimal correct fix.\n- Return the result in the required JSON format only.\n\n\nYour Workflow\n1. Analyze all buggy function(s) carefully.\n2. Provide the full corrected implementation of all input functions. fixed_code must include every function from the input, in the same order, regardless of whether it was modified by you.\n\nRules:\n- The defect may be caused by a single function or by multiple functions working together.\n- If multiple functions collectively cause the issue, you must fix all of them.\n- Preserve original functionality as much as possible.\n- The fix must be minimal but correct.\n\nHard constraints:\n- Output ONLY the JSON object; NO explanations or comments inside/outside the JSON object.\n- Use double quotes for all keys/strings. No trailing commas. \n\nOutput Format:\n{\n  \"fixed_code\": [\n    \"full fixed_function1 as a JSON string\", \n    \"full fixed_function2 as a JSON string\",\n    ...\n  ]\n}",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Below is the Java source code for analysis. Please follow the system instructions strictly to complete the task.\n[source_file]: 99/input.java\n\n===== BEGIN =====\n// buggy code\n    public static int gcd(final int p, final int q) {\n        int u = p;\n        int v = q;\n        if ((u == 0) || (v == 0)) {\n            return (Math.abs(u) + Math.abs(v));\n        }\n        // keep u and v negative, as negative integers range down to\n        // -2^31, while positive numbers can only be as large as 2^31-1\n        // (i.e. we can't necessarily negate a negative number without\n        // overflow)\n        /* assert u!=0 && v!=0; */\n        if (u > 0) {\n            u = -u;\n        } // make u negative\n        if (v > 0) {\n            v = -v;\n        } // make v negative\n        // B1. [Find power of 2]\n        int k = 0;\n        while ((u & 1) == 0 && (v & 1) == 0 && k < 31) { // while u and v are\n                                                            // both even...\n            u /= 2;\n            v /= 2;\n            k++; // cast out twos.\n        }\n        if (k == 31) {\n            throw MathRuntimeException.createArithmeticException(\n                    \"overflow: gcd({0}, {1}) is 2^31\",\n                    new Object[] { p, q });\n        }\n        // B2. Initialize: u and v have been divided by 2^k and at least\n        // one is odd.\n        int t = ((u & 1) == 1) ? v : -(u / 2)/* B3 */;\n        // t negative: u was odd, v may be even (t replaces v)\n        // t positive: u was even, v is odd (t replaces u)\n        do {\n            /* assert u<0 && v<0; */\n            // B4/B3: cast out twos from t.\n            while ((t & 1) == 0) { // while t is even..\n                t /= 2; // cast out twos\n            }\n            // B5 [reset max(u,v)]\n            if (t > 0) {\n                u = -t;\n            } else {\n                v = t;\n            }\n            // B6/B3. at this point both u and v should be odd.\n            t = (v - u) / 2;\n            // |u| larger: t positive (replace u)\n            // |v| larger: t negative (replace v)\n        } while (t != 0);\n        return -u * (1 << k); // gcd is u*2^k\n    }\n\n    public static int lcm(int a, int b) {\n        if (a==0 || b==0){\n            return 0;\n        }\n        int lcm = Math.abs(mulAndCheck(a / gcd(a, b), b));\n        return lcm;\n    }\n\n\n===== END =====\n"
+          }
+        ]
+      }
+    }
+  ]
+}

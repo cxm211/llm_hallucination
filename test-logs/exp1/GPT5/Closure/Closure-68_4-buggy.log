@@ -1,10 +1,97 @@
-==== 2026-05-19 05:55:47 :: Closure-68_4-buggy ====
+==== 2026-06-16 15:28:49 :: Closure-68_4-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 1
+Failing tests: 88
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalNullableArgFunctionParam
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateStaticPropertyDecl7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBadTemplateType1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testBadTemplateType2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalNullableArgFunctionParam2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalNullableArgFunctionParam3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalArgFunctionParam2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalArgFunctionParam3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalArgFunctionParam4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalArgFunctionReturn
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration10
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionCall3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionCall4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalArgFunctionParam
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testStubFunctionDeclaration9
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInnerFunction7
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testOptionalArgFunctionReturn2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments15
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testHigherOrderFunctions4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testUnionOfFunctionAndType
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalNullableArgFunctionParam
+  - com.google.javascript.jscomp.TypeCheckTest::testDuplicateStaticPropertyDecl7
+  - com.google.javascript.jscomp.TypeCheckTest::testBadTemplateType1
+  - com.google.javascript.jscomp.TypeCheckTest::testBadTemplateType2
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalNullableArgFunctionParam2
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalNullableArgFunctionParam3
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam2
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam3
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam4
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionReturn
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn4
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn5
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn6
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration10
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionCall3
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionCall4
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionParam
+  - com.google.javascript.jscomp.TypeCheckTest::testStubFunctionDeclaration9
+  - com.google.javascript.jscomp.TypeCheckTest::testObjectLiteralDeclaration7
+  - com.google.javascript.jscomp.TypeCheckTest::testInnerFunction7
+  - com.google.javascript.jscomp.TypeCheckTest::testOptionalArgFunctionReturn2
+  - com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments15
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions1
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions2
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions3
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions4
+  - com.google.javascript.jscomp.TypeCheckTest::testHigherOrderFunctions5
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue380
+  - com.google.javascript.jscomp.TypeCheckTest::testUpdateParameterTypeOnClosure
+  - com.google.javascript.jscomp.TypeCheckTest::testUnionOfFunctionAndType
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction1
+  - com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+  - com.google.javascript.jscomp.TypeValidatorTest::testFunctionMismatch
+  - com.google.javascript.jscomp.TypeValidatorTest::testFunctionMismatch2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType10
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType11
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType12
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType13
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType14
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType15
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType16
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType17
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType18
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType19
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseNewline5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalTypeError12
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseParametrizedType7
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseParametrizedType8
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalTypeError6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseUnionType13
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseUnionType14
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseRecordType22
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseRecordType23
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType1
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType2
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType3
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType4
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType5
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType6
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType7
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType8
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseFunctionalType9
   - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testBug1419535
+  - com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseOptionalModifier
 ---- 退出码：0 | Closure-68_4-buggy
 

@@ -1,0 +1,13 @@
+==== 2026-06-18 07:26:45 :: Math-35-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooLow
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow
+  - org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooHigh
+---- 退出码：0 | Math-35-buggy
+

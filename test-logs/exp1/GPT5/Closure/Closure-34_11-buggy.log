@@ -1,0 +1,44 @@
+==== 2026-06-15 12:24:08 :: Closure-34_11-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 35
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsAssign
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMember
+  - com.google.javascript.jscomp.CodePrinterTest::testOptionalTypesAnnotation
+  - com.google.javascript.jscomp.CodePrinterTest::testTempConstructor
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsInterface
+  - com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter4
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher1
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsDispatcher2
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMultipleInterface
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsImplements
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsNamespace
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation1
+  - com.google.javascript.jscomp.CodePrinterTest::testEnumAnnotation2
+  - com.google.javascript.jscomp.CodePrinterTest::testCommaSpacing
+  - com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+  - com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter
+  - com.google.javascript.jscomp.CodePrinterTest::testU2UFunctionTypeAnnotation
+  - com.google.javascript.jscomp.CodePrinterTest::testVariableArgumentsTypesAnnotation
+  - com.google.javascript.jscomp.CodePrinterTest::testEmitUnknownParamTypesAsAllType
+  - com.google.javascript.jscomp.CodePrinterTest::testTypeAnnotationsMemberSubclass
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportDontEmitPrototypePathPrefix
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple
+  - com.google.javascript.jscomp.ExternExportsPassTest::testTypedef
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithConstructor
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolDefinedInVar
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportEnum
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbol
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportFunctionWithVariableArguments
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple2
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportMultiple3
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithTypeAnnotation
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithConstructorWithoutTypeCheck
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportProperty
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportSymbolWithoutTypeCheck
+  - com.google.javascript.jscomp.ExternExportsPassTest::testExportFunctionWithOptionalArguments
+---- 退出码：0 | Closure-34_11-buggy
+

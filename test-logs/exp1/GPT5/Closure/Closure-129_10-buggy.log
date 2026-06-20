@@ -1,12 +1,9 @@
-==== 2026-05-19 10:54:47 :: Closure-129_10-buggy ====
+==== 2026-06-16 19:03:40 :: Closure-129_10-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 3
-  - com.google.javascript.jscomp.CodePrinterTest::testDirectEval
-  - com.google.javascript.jscomp.CodePrinterTest::testIndirectEval
-  - com.google.javascript.jscomp.CommandLineRunnerTest::testIssue81
+Failing tests: 0
 ---- 退出码：0 | Closure-129_10-buggy
 

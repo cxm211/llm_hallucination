@@ -1,0 +1,27 @@
+==== 2026-06-18 22:51:13 :: Math-43-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 18
+  - org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest::testSummaryConsistency
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testProductAndGeometricMean
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testStats
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testNaNContracts
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testN0andN1Conditions
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideGeoMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideVarianceWithMathClass
+  - org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testSetterInjection
+  - org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest::testSummaryConsistency
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testProductAndGeometricMean
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testStats
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testNaNContracts
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testN0andN1Conditions
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideGeoMeanWithMathClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideVarianceWithMathClass
+  - org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testSetterInjection
+---- 退出码：0 | Math-43-buggy
+

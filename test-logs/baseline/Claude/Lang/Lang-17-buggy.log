@@ -1,0 +1,10 @@
+==== 2026-06-18 02:25:15 :: Lang-17-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang3.text.translate.NumericEntityEscaperTest::testSupplementary
+---- 退出码：0 | Lang-17-buggy
+

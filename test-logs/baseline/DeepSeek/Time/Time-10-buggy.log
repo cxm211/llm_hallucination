@@ -1,0 +1,21 @@
+==== 2026-06-18 08:05:18 :: Time-10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_YearMonth
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+  - org.joda.time.TestDays::testFactory_daysBetween_RPartial_LocalDate
+  - org.joda.time.TestHours::testFactory_hoursBetween_RPartial
+  - org.joda.time.TestMinutes::testFactory_minutesBetween_RPartial
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_YearMonth
+  - org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_LocalDate
+  - org.joda.time.TestSeconds::testFactory_secondsBetween_RPartial
+  - org.joda.time.TestWeeks::testFactory_weeksBetween_RPartial
+  - org.joda.time.TestYears::testFactory_yearsBetween_RPartial
+---- 退出码：0 | Time-10-buggy
+

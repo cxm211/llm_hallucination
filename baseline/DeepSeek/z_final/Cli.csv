@@ -1,0 +1,38 @@
+model,project,bug_id,status,log
+DeepSeek,Cli,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-1-buggy.log
+DeepSeek,Cli,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-2-buggy.log
+DeepSeek,Cli,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-3-buggy.log
+DeepSeek,Cli,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-4-buggy.log
+DeepSeek,Cli,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-5-buggy.log
+DeepSeek,Cli,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-8-buggy.log
+DeepSeek,Cli,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-9-buggy.log
+DeepSeek,Cli,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-10-buggy.log
+DeepSeek,Cli,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-11-buggy.log
+DeepSeek,Cli,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-12-buggy.log
+DeepSeek,Cli,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-13-buggy.log
+DeepSeek,Cli,14,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-14-buggy.log
+DeepSeek,Cli,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-15-buggy.log
+DeepSeek,Cli,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-16-buggy.log
+DeepSeek,Cli,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-17-buggy.log
+DeepSeek,Cli,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-18-buggy.log
+DeepSeek,Cli,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-19-buggy.log
+DeepSeek,Cli,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-20-buggy.log
+DeepSeek,Cli,21,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-21-buggy.log
+DeepSeek,Cli,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-22-buggy.log
+DeepSeek,Cli,23,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-23-buggy.log
+DeepSeek,Cli,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-24-buggy.log
+DeepSeek,Cli,25,timeout,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-25-buggy.log
+DeepSeek,Cli,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-26-buggy.log
+DeepSeek,Cli,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-27-buggy.log
+DeepSeek,Cli,28,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-28-buggy.log
+DeepSeek,Cli,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-29-buggy.log
+DeepSeek,Cli,30,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-30-buggy.log
+DeepSeek,Cli,31,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-31-buggy.log
+DeepSeek,Cli,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-32-buggy.log
+DeepSeek,Cli,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-33-buggy.log
+DeepSeek,Cli,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-34-buggy.log
+DeepSeek,Cli,35,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-35-buggy.log
+DeepSeek,Cli,37,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-37-buggy.log
+DeepSeek,Cli,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-38-buggy.log
+DeepSeek,Cli,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-39-buggy.log
+DeepSeek,Cli,40,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Cli/Cli-40-buggy.log

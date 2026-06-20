@@ -1,4 +1,4 @@
-==== 2026-05-19 09:32:15 :: Closure-118_15-buggy ====
+==== 2026-06-16 17:13:29 :: Closure-118_15-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
@@ -258,29 +258,22 @@ compile:
     [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
     [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
     [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-118_15-buggy/src/com/google/javascript/jscomp/DisambiguateProperties.java:500: error: cannot find symbol
-    [javac]         if (child.getType() == Token.GET || child.getType() == Token.SET) {
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-118_15-buggy/src/com/google/javascript/jscomp/DisambiguateProperties.java:495: error: cannot find symbol
+    [javac]         if (child.getType() == Token.NUMBER) {
     [javac]                                ^
-    [javac]   symbol:   variable Token
-    [javac]   location: class DisambiguateProperties<T>.FindRenameableProperties
-    [javac]   where T is a type-variable:
-    [javac]     T extends Object declared in class DisambiguateProperties
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-118_15-buggy/src/com/google/javascript/jscomp/DisambiguateProperties.java:500: error: cannot find symbol
-    [javac]         if (child.getType() == Token.GET || child.getType() == Token.SET) {
-    [javac]                                                                ^
     [javac]   symbol:   variable Token
     [javac]   location: class DisambiguateProperties<T>.FindRenameableProperties
     [javac]   where T is a type-variable:
     [javac]     T extends Object declared in class DisambiguateProperties
     [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-118_15-buggy/src/com/google/javascript/jscomp/CompilerOptions.java uses or overrides a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
-    [javac] 2 errors
+    [javac] 1 error
     [javac] 4 warnings
 
 BUILD FAILED
 /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-118_15-buggy/build.xml:265: Compile failed; see the compiler error output for details.
 
-Total time: 5 seconds
+Total time: 7 seconds
 Cannot compile test suite! at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/d4j/d4j-test line 130.
 Compilation failed in require at /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j/framework/bin/defects4j line 195.
 ---- 退出码：1 | Closure-118_15-buggy

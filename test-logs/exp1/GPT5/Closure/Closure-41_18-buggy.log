@@ -1,0 +1,28 @@
+==== 2026-06-15 13:25:14 :: Closure-41_18-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 19
+  - com.google.javascript.jscomp.AmbiguatePropertiesTest::testExternedPropertyName
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck10_2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck9_2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testIssue86
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference5
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck10_2
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn7
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn8
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck9_2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue86
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference1
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference2
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference3
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference4
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference5
+---- 退出码：0 | Closure-41_18-buggy
+

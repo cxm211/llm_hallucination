@@ -1,0 +1,61 @@
+model,project,bug_id,status,log
+Claude,Lang,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-1-buggy.log
+Claude,Lang,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-3-buggy.log
+Claude,Lang,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-4-buggy.log
+Claude,Lang,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-5-buggy.log
+Claude,Lang,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-6-buggy.log
+Claude,Lang,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-7-buggy.log
+Claude,Lang,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-8-buggy.log
+Claude,Lang,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-9-buggy.log
+Claude,Lang,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-10-buggy.log
+Claude,Lang,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-11-buggy.log
+Claude,Lang,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-12-buggy.log
+Claude,Lang,13,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-13-buggy.log
+Claude,Lang,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-14-buggy.log
+Claude,Lang,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-15-buggy.log
+Claude,Lang,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-16-buggy.log
+Claude,Lang,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-17-buggy.log
+Claude,Lang,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-19-buggy.log
+Claude,Lang,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-20-buggy.log
+Claude,Lang,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-21-buggy.log
+Claude,Lang,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-22-buggy.log
+Claude,Lang,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-24-buggy.log
+Claude,Lang,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-26-buggy.log
+Claude,Lang,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-27-buggy.log
+Claude,Lang,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-28-buggy.log
+Claude,Lang,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-29-buggy.log
+Claude,Lang,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-30-buggy.log
+Claude,Lang,31,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-31-buggy.log
+Claude,Lang,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-32-buggy.log
+Claude,Lang,33,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-33-buggy.log
+Claude,Lang,34,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-34-buggy.log
+Claude,Lang,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-35-buggy.log
+Claude,Lang,36,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-36-buggy.log
+Claude,Lang,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-37-buggy.log
+Claude,Lang,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-38-buggy.log
+Claude,Lang,39,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-39-buggy.log
+Claude,Lang,40,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-40-buggy.log
+Claude,Lang,41,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-41-buggy.log
+Claude,Lang,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-42-buggy.log
+Claude,Lang,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-43-buggy.log
+Claude,Lang,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-44-buggy.log
+Claude,Lang,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-45-buggy.log
+Claude,Lang,46,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-46-buggy.log
+Claude,Lang,47,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-47-buggy.log
+Claude,Lang,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-49-buggy.log
+Claude,Lang,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-50-buggy.log
+Claude,Lang,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-51-buggy.log
+Claude,Lang,52,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-52-buggy.log
+Claude,Lang,53,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-53-buggy.log
+Claude,Lang,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-54-buggy.log
+Claude,Lang,55,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-55-buggy.log
+Claude,Lang,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-56-buggy.log
+Claude,Lang,57,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-57-buggy.log
+Claude,Lang,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-58-buggy.log
+Claude,Lang,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-59-buggy.log
+Claude,Lang,60,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-60-buggy.log
+Claude,Lang,61,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-61-buggy.log
+Claude,Lang,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-62-buggy.log
+Claude,Lang,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-63-buggy.log
+Claude,Lang,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-64-buggy.log
+Claude,Lang,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-65-buggy.log

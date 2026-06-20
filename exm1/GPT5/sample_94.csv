@@ -1,0 +1,95 @@
+model,project,bug_id,variant,status
+GPT5,Chart,19,19_1,not pass
+GPT5,Closure,4,4_10,not pass
+GPT5,Closure,4,4_16,not pass
+GPT5,Closure,4,4_9,not pass
+GPT5,Closure,6,6_13,not compilable
+GPT5,Closure,10,10_12,pass
+GPT5,Closure,10,10_21,pass
+GPT5,Closure,19,19_11,pass
+GPT5,Closure,21,21_5,not pass
+GPT5,Closure,21,21_9,not pass
+GPT5,Closure,25,25_3,not compilable
+GPT5,Closure,26,26_4,not pass
+GPT5,Closure,26,26_8,not pass
+GPT5,Closure,27,27_19,not pass
+GPT5,Closure,30,30_1,not pass
+GPT5,Closure,31,31_12,not pass
+GPT5,Closure,31,31_13,not pass
+GPT5,Closure,33,33_11,not compilable
+GPT5,Closure,37,37_16,not pass
+GPT5,Closure,41,41_14,not compilable
+GPT5,Closure,44,44_4,pass
+GPT5,Closure,47,47_11,not pass
+GPT5,Closure,47,47_5,not pass
+GPT5,Closure,57,57_3,not compilable
+GPT5,Closure,59,59_8,not pass
+GPT5,Closure,64,64_12,pass
+GPT5,Closure,64,64_8,not pass
+GPT5,Closure,65,65_2,not pass
+GPT5,Closure,66,66_12,not compilable
+GPT5,Closure,68,68_10,not pass
+GPT5,Closure,69,69_13,not pass
+GPT5,Closure,69,69_14,not pass
+GPT5,Closure,71,71_6,not pass
+GPT5,Closure,80,80_16,pass
+GPT5,Closure,82,82_2,not pass
+GPT5,Closure,84,84_1,not pass
+GPT5,Closure,84,84_10,not pass
+GPT5,Closure,90,90_14,not pass
+GPT5,Closure,91,91,not pass
+GPT5,Closure,117,117_11,not pass
+GPT5,Closure,117,117_4,not pass
+GPT5,Closure,118,118_17,not compilable
+GPT5,Closure,122,122_10,pass
+GPT5,Closure,122,122_3,pass
+GPT5,Closure,123,123_12,not pass
+GPT5,Closure,125,125,not pass
+GPT5,Closure,125,125_8,not pass
+GPT5,Closure,129,129_20,pass
+GPT5,Closure,129,129_6,not pass
+GPT5,Closure,147,147,not pass
+GPT5,Closure,149,149_16,not pass
+GPT5,Closure,149,149_4,not pass
+GPT5,Closure,158,158_1,not pass
+GPT5,Closure,158,158_9,not pass
+GPT5,Closure,162,162_1,not pass
+GPT5,Closure,172,172_6,not pass
+GPT5,Compress,26,26,pass
+GPT5,Csv,10,10,not pass
+GPT5,Csv,11,11,pass
+GPT5,Gson,9,9_2,not pass
+GPT5,JacksonCore,11,11,not pass
+GPT5,JacksonDatabind,10,10_1,not pass
+GPT5,JacksonDatabind,20,20_4,not pass
+GPT5,JacksonDatabind,21,21_4,not pass
+GPT5,JacksonDatabind,33,33_4,not pass
+GPT5,JacksonDatabind,35,35,not pass
+GPT5,JacksonDatabind,48,48_4,not pass
+GPT5,JacksonDatabind,58,58_2,not pass
+GPT5,JacksonDatabind,63,63_1,not pass
+GPT5,JacksonDatabind,67,67_1,not compilable
+GPT5,JacksonDatabind,76,76_3,not pass
+GPT5,JacksonDatabind,84,84_3,not pass
+GPT5,JacksonDatabind,99,99,not pass
+GPT5,JacksonXml,4,4,not pass
+GPT5,Jsoup,12,12,not pass
+GPT5,Jsoup,26,26,pass
+GPT5,Jsoup,53,53,not pass
+GPT5,Jsoup,83,83_2,not pass
+GPT5,JxPath,5,5,not pass
+GPT5,JxPath,22,22,not pass
+GPT5,Lang,5,5,pass
+GPT5,Math,1,1,not pass
+GPT5,Math,15,15,not pass
+GPT5,Math,40,40,not pass
+GPT5,Mockito,20,20,not pass
+GPT5,Mockito,21,21,pass
+GPT5,Mockito,24,24_3,pass
+GPT5,Time,6,6_2,not pass
+GPT5,Time,8,8_10,not pass
+GPT5,Time,15,15_12,pass
+GPT5,Time,18,18_1,not compilable
+GPT5,Time,20,20_5,pass
+GPT5,Time,23,23_6,not pass
+GPT5,Time,25,25_11,pass

@@ -1,0 +1,19 @@
+==== 2026-06-18 08:04:24 :: Time-6-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.joda.time.chrono.TestGJChronology::testCutoverAddWeekyears
+  - org.joda.time.chrono.TestGJChronology::testCutoverAddYears
+  - org.joda.time.chrono.TestGJChronology::testCutoverAddMonths
+  - org.joda.time.chrono.TestGJDate::test_plusYears_negativeToPositive_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_cutoverPreZero
+  - org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToPositive_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover
+  - org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover
+---- 退出码：0 | Time-6-buggy
+

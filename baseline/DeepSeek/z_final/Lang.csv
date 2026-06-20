@@ -1,0 +1,61 @@
+model,project,bug_id,status,log
+DeepSeek,Lang,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-1-buggy.log
+DeepSeek,Lang,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-3-buggy.log
+DeepSeek,Lang,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-4-buggy.log
+DeepSeek,Lang,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-5-buggy.log
+DeepSeek,Lang,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-6-buggy.log
+DeepSeek,Lang,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-7-buggy.log
+DeepSeek,Lang,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-8-buggy.log
+DeepSeek,Lang,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-9-buggy.log
+DeepSeek,Lang,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-10-buggy.log
+DeepSeek,Lang,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-11-buggy.log
+DeepSeek,Lang,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-12-buggy.log
+DeepSeek,Lang,13,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-13-buggy.log
+DeepSeek,Lang,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-14-buggy.log
+DeepSeek,Lang,15,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-15-buggy.log
+DeepSeek,Lang,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-16-buggy.log
+DeepSeek,Lang,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-17-buggy.log
+DeepSeek,Lang,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-19-buggy.log
+DeepSeek,Lang,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-20-buggy.log
+DeepSeek,Lang,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-21-buggy.log
+DeepSeek,Lang,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-22-buggy.log
+DeepSeek,Lang,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-24-buggy.log
+DeepSeek,Lang,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-26-buggy.log
+DeepSeek,Lang,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-27-buggy.log
+DeepSeek,Lang,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-28-buggy.log
+DeepSeek,Lang,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-29-buggy.log
+DeepSeek,Lang,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-30-buggy.log
+DeepSeek,Lang,31,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-31-buggy.log
+DeepSeek,Lang,32,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-32-buggy.log
+DeepSeek,Lang,33,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-33-buggy.log
+DeepSeek,Lang,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-34-buggy.log
+DeepSeek,Lang,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-35-buggy.log
+DeepSeek,Lang,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-36-buggy.log
+DeepSeek,Lang,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-37-buggy.log
+DeepSeek,Lang,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-38-buggy.log
+DeepSeek,Lang,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-39-buggy.log
+DeepSeek,Lang,40,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-40-buggy.log
+DeepSeek,Lang,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-41-buggy.log
+DeepSeek,Lang,42,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-42-buggy.log
+DeepSeek,Lang,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-43-buggy.log
+DeepSeek,Lang,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-44-buggy.log
+DeepSeek,Lang,45,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-45-buggy.log
+DeepSeek,Lang,46,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-46-buggy.log
+DeepSeek,Lang,47,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-47-buggy.log
+DeepSeek,Lang,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-49-buggy.log
+DeepSeek,Lang,50,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-50-buggy.log
+DeepSeek,Lang,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-51-buggy.log
+DeepSeek,Lang,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-52-buggy.log
+DeepSeek,Lang,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-53-buggy.log
+DeepSeek,Lang,54,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-54-buggy.log
+DeepSeek,Lang,55,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-55-buggy.log
+DeepSeek,Lang,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-56-buggy.log
+DeepSeek,Lang,57,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-57-buggy.log
+DeepSeek,Lang,58,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-58-buggy.log
+DeepSeek,Lang,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-59-buggy.log
+DeepSeek,Lang,60,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-60-buggy.log
+DeepSeek,Lang,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-61-buggy.log
+DeepSeek,Lang,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-62-buggy.log
+DeepSeek,Lang,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-63-buggy.log
+DeepSeek,Lang,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-64-buggy.log
+DeepSeek,Lang,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Lang/Lang-65-buggy.log

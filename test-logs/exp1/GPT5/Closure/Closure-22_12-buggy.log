@@ -1,11 +1,10 @@
-==== 2026-05-19 00:00:06 :: Closure-22_12-buggy ====
+==== 2026-06-15 11:03:30 :: Closure-22_12-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
 Running ant (compile.tests)................................................ OK
 Running ant (run.dev.tests)................................................ OK
-Failing tests: 2
+Failing tests: 1
   - com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCode
-  - com.google.javascript.jscomp.CheckSideEffectsTest::testIssue80
 ---- 退出码：0 | Closure-22_12-buggy
 

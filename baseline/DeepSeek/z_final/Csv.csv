@@ -1,0 +1,16 @@
+model,project,bug_id,status,log
+DeepSeek,Csv,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-1-buggy.log
+DeepSeek,Csv,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-2-buggy.log
+DeepSeek,Csv,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-3-buggy.log
+DeepSeek,Csv,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-4-buggy.log
+DeepSeek,Csv,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-5-buggy.log
+DeepSeek,Csv,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-6-buggy.log
+DeepSeek,Csv,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-7-buggy.log
+DeepSeek,Csv,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-8-buggy.log
+DeepSeek,Csv,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-9-buggy.log
+DeepSeek,Csv,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-10-buggy.log
+DeepSeek,Csv,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-11-buggy.log
+DeepSeek,Csv,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-13-buggy.log
+DeepSeek,Csv,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-14-buggy.log
+DeepSeek,Csv,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-15-buggy.log
+DeepSeek,Csv,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Csv/Csv-16-buggy.log

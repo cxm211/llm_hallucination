@@ -1,0 +1,48 @@
+model,project,bug_id,status,log
+Claude,Compress,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-1-buggy.log
+Claude,Compress,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-2-buggy.log
+Claude,Compress,3,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-3-buggy.log
+Claude,Compress,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-4-buggy.log
+Claude,Compress,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-5-buggy.log
+Claude,Compress,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-6-buggy.log
+Claude,Compress,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-7-buggy.log
+Claude,Compress,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-8-buggy.log
+Claude,Compress,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-9-buggy.log
+Claude,Compress,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-10-buggy.log
+Claude,Compress,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-11-buggy.log
+Claude,Compress,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-12-buggy.log
+Claude,Compress,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-13-buggy.log
+Claude,Compress,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-14-buggy.log
+Claude,Compress,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-15-buggy.log
+Claude,Compress,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-16-buggy.log
+Claude,Compress,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-17-buggy.log
+Claude,Compress,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-18-buggy.log
+Claude,Compress,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-19-buggy.log
+Claude,Compress,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-20-buggy.log
+Claude,Compress,21,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-21-buggy.log
+Claude,Compress,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-22-buggy.log
+Claude,Compress,23,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-23-buggy.log
+Claude,Compress,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-24-buggy.log
+Claude,Compress,25,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-25-buggy.log
+Claude,Compress,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-26-buggy.log
+Claude,Compress,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-27-buggy.log
+Claude,Compress,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-28-buggy.log
+Claude,Compress,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-29-buggy.log
+Claude,Compress,30,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-30-buggy.log
+Claude,Compress,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-31-buggy.log
+Claude,Compress,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-32-buggy.log
+Claude,Compress,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-33-buggy.log
+Claude,Compress,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-34-buggy.log
+Claude,Compress,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-35-buggy.log
+Claude,Compress,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-36-buggy.log
+Claude,Compress,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-37-buggy.log
+Claude,Compress,38,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-38-buggy.log
+Claude,Compress,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-39-buggy.log
+Claude,Compress,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-40-buggy.log
+Claude,Compress,41,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-41-buggy.log
+Claude,Compress,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-42-buggy.log
+Claude,Compress,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-43-buggy.log
+Claude,Compress,44,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-44-buggy.log
+Claude,Compress,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-45-buggy.log
+Claude,Compress,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-46-buggy.log
+Claude,Compress,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-47-buggy.log

@@ -1,0 +1,10 @@
+==== 2026-06-14 21:59:40 :: Closure-11_21-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.TypeCheckTest::testGetprop4
+---- 退出码：0 | Closure-11_21-buggy
+

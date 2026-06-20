@@ -1,0 +1,34 @@
+==== 2026-06-18 03:31:58 :: Closure-54-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 25
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck10_2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testInheritanceCheck9_2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testIssue86
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference1
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference2
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference3
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference4
+  - com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference5
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck10_2
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam1
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam2
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam3
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredParam4
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn7
+  - com.google.javascript.jscomp.TypeCheckTest::testInferredReturn8
+  - com.google.javascript.jscomp.TypeCheckTest::testInheritanceCheck9_2
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+  - com.google.javascript.jscomp.TypeCheckTest::testIssue86
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference1
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference2
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference3
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference4
+  - com.google.javascript.jscomp.TypeCheckTest::testMethodInference5
+  - com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+---- 退出码：0 | Closure-54-buggy
+

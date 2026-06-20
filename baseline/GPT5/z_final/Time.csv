@@ -1,0 +1,26 @@
+model,project,bug_id,status,log
+GPT5,Time,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-1-buggy.log
+GPT5,Time,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-2-buggy.log
+GPT5,Time,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-3-buggy.log
+GPT5,Time,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-4-buggy.log
+GPT5,Time,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-5-buggy.log
+GPT5,Time,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-6-buggy.log
+GPT5,Time,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-7-buggy.log
+GPT5,Time,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-8-buggy.log
+GPT5,Time,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-9-buggy.log
+GPT5,Time,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-10-buggy.log
+GPT5,Time,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-12-buggy.log
+GPT5,Time,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-13-buggy.log
+GPT5,Time,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-14-buggy.log
+GPT5,Time,15,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-15-buggy.log
+GPT5,Time,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-16-buggy.log
+GPT5,Time,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-17-buggy.log
+GPT5,Time,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-18-buggy.log
+GPT5,Time,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-19-buggy.log
+GPT5,Time,20,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-20-buggy.log
+GPT5,Time,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-22-buggy.log
+GPT5,Time,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-23-buggy.log
+GPT5,Time,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-24-buggy.log
+GPT5,Time,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-25-buggy.log
+GPT5,Time,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-26-buggy.log
+GPT5,Time,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Time/Time-27-buggy.log

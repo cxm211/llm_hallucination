@@ -1,4 +1,4 @@
-==== 2026-05-19 02:24:07 :: Closure-41_11-buggy ====
+==== 2026-06-15 13:23:06 :: Closure-41_11-buggy ====
 >>> ant clean 退出码：0
 
 >>> 开始执行主命令：defects4j test -r
@@ -257,26 +257,21 @@ compile:
     [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
     [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
     [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:281: error: cannot find symbol
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:282: error: cannot find symbol
     [javac]           paramBuilder.addParameter(newParam);
     [javac]                       ^
     [javac]   symbol:   method addParameter(Node)
     [javac]   location: variable paramBuilder of type FunctionParamBuilder
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:297: error: cannot find symbol
-    [javac]         paramBuilder.addParameter(cloned);
+    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:298: error: cannot find symbol
+    [javac]         paramBuilder.addParameter(newParam);
     [javac]                     ^
     [javac]   symbol:   method addParameter(Node)
     [javac]   location: variable paramBuilder of type FunctionParamBuilder
-    [javac] /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/FunctionTypeBuilder.java:492: error: cannot find symbol
-    [javac]       builder.addParameter(cloned);
-    [javac]              ^
-    [javac]   symbol:   method addParameter(Node)
-    [javac]   location: variable builder of type FunctionParamBuilder
     [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/CompilerOptions.java uses or overrides a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
     [javac] Note: /Users/grace/Documents/Paper/BugFixing/Interpretation/defects4j-GPT4o/Closure/Closure-41_11-buggy/src/com/google/javascript/jscomp/ant/CompileTask.java uses unchecked or unsafe operations.
     [javac] Note: Recompile with -Xlint:unchecked for details.
-    [javac] 3 errors
+    [javac] 2 errors
     [javac] 4 warnings
 
 BUILD FAILED

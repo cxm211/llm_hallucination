@@ -1,0 +1,28 @@
+model,project,bug_id,status,log
+Claude,Collections,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-1-buggy.log
+Claude,Collections,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-2-buggy.log
+Claude,Collections,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-3-buggy.log
+Claude,Collections,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-4-buggy.log
+Claude,Collections,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-5-buggy.log
+Claude,Collections,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-6-buggy.log
+Claude,Collections,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-7-buggy.log
+Claude,Collections,8,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-8-buggy.log
+Claude,Collections,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-9-buggy.log
+Claude,Collections,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-11-buggy.log
+Claude,Collections,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-12-buggy.log
+Claude,Collections,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-13-buggy.log
+Claude,Collections,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-14-buggy.log
+Claude,Collections,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-15-buggy.log
+Claude,Collections,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-16-buggy.log
+Claude,Collections,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-17-buggy.log
+Claude,Collections,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-18-buggy.log
+Claude,Collections,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-19-buggy.log
+Claude,Collections,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-20-buggy.log
+Claude,Collections,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-21-buggy.log
+Claude,Collections,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-22-buggy.log
+Claude,Collections,23,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-23-buggy.log
+Claude,Collections,24,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-24-buggy.log
+Claude,Collections,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-25-buggy.log
+Claude,Collections,26,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-26-buggy.log
+Claude,Collections,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-27-buggy.log
+Claude,Collections,28,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-28-buggy.log

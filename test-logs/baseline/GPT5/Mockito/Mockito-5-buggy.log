@@ -1,0 +1,10 @@
+==== 2026-06-18 23:12:44 :: Mockito-5-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.mockitointegration.NoJUnitDependenciesTest::pure_mockito_should_not_depend_JUnit
+---- 退出码：0 | Mockito-5-buggy
+

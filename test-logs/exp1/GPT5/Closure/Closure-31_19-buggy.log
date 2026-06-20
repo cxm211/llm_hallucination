@@ -1,0 +1,10 @@
+==== 2026-06-15 12:00:13 :: Closure-31_19-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - com.google.javascript.jscomp.CommandLineRunnerTest::testDependencySortingWhitespaceMode
+---- 退出码：0 | Closure-31_19-buggy
+

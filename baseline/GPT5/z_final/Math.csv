@@ -1,0 +1,105 @@
+model,project,bug_id,status,log
+GPT5,Math,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-1-buggy.log
+GPT5,Math,2,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-2-buggy.log
+GPT5,Math,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-3-buggy.log
+GPT5,Math,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-4-buggy.log
+GPT5,Math,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-5-buggy.log
+GPT5,Math,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-6-buggy.log
+GPT5,Math,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-7-buggy.log
+GPT5,Math,8,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-8-buggy.log
+GPT5,Math,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-9-buggy.log
+GPT5,Math,10,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-10-buggy.log
+GPT5,Math,11,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-11-buggy.log
+GPT5,Math,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-13-buggy.log
+GPT5,Math,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-14-buggy.log
+GPT5,Math,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-15-buggy.log
+GPT5,Math,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-16-buggy.log
+GPT5,Math,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-17-buggy.log
+GPT5,Math,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-18-buggy.log
+GPT5,Math,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-19-buggy.log
+GPT5,Math,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-20-buggy.log
+GPT5,Math,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-21-buggy.log
+GPT5,Math,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-22-buggy.log
+GPT5,Math,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-23-buggy.log
+GPT5,Math,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-24-buggy.log
+GPT5,Math,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-25-buggy.log
+GPT5,Math,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-26-buggy.log
+GPT5,Math,27,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-27-buggy.log
+GPT5,Math,28,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-28-buggy.log
+GPT5,Math,29,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-29-buggy.log
+GPT5,Math,30,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-30-buggy.log
+GPT5,Math,31,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-31-buggy.log
+GPT5,Math,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-32-buggy.log
+GPT5,Math,33,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-33-buggy.log
+GPT5,Math,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-34-buggy.log
+GPT5,Math,35,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-35-buggy.log
+GPT5,Math,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-36-buggy.log
+GPT5,Math,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-37-buggy.log
+GPT5,Math,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-38-buggy.log
+GPT5,Math,39,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-39-buggy.log
+GPT5,Math,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-40-buggy.log
+GPT5,Math,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-41-buggy.log
+GPT5,Math,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-42-buggy.log
+GPT5,Math,43,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-43-buggy.log
+GPT5,Math,44,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-44-buggy.log
+GPT5,Math,45,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-45-buggy.log
+GPT5,Math,46,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-46-buggy.log
+GPT5,Math,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-47-buggy.log
+GPT5,Math,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-48-buggy.log
+GPT5,Math,49,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-49-buggy.log
+GPT5,Math,50,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-50-buggy.log
+GPT5,Math,51,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-51-buggy.log
+GPT5,Math,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-52-buggy.log
+GPT5,Math,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-53-buggy.log
+GPT5,Math,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-54-buggy.log
+GPT5,Math,55,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-55-buggy.log
+GPT5,Math,56,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-56-buggy.log
+GPT5,Math,57,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-57-buggy.log
+GPT5,Math,58,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-58-buggy.log
+GPT5,Math,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-59-buggy.log
+GPT5,Math,60,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-60-buggy.log
+GPT5,Math,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-61-buggy.log
+GPT5,Math,62,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-62-buggy.log
+GPT5,Math,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-63-buggy.log
+GPT5,Math,64,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-64-buggy.log
+GPT5,Math,65,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-65-buggy.log
+GPT5,Math,66,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-66-buggy.log
+GPT5,Math,67,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-67-buggy.log
+GPT5,Math,68,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-68-buggy.log
+GPT5,Math,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-69-buggy.log
+GPT5,Math,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-70-buggy.log
+GPT5,Math,71,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-71-buggy.log
+GPT5,Math,72,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-72-buggy.log
+GPT5,Math,73,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-73-buggy.log
+GPT5,Math,74,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-74-buggy.log
+GPT5,Math,75,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-75-buggy.log
+GPT5,Math,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-76-buggy.log
+GPT5,Math,77,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-77-buggy.log
+GPT5,Math,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-78-buggy.log
+GPT5,Math,79,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-79-buggy.log
+GPT5,Math,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-80-buggy.log
+GPT5,Math,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-81-buggy.log
+GPT5,Math,82,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-82-buggy.log
+GPT5,Math,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-83-buggy.log
+GPT5,Math,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-84-buggy.log
+GPT5,Math,85,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-85-buggy.log
+GPT5,Math,86,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-86-buggy.log
+GPT5,Math,87,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-87-buggy.log
+GPT5,Math,88,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-88-buggy.log
+GPT5,Math,89,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-89-buggy.log
+GPT5,Math,90,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-90-buggy.log
+GPT5,Math,91,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-91-buggy.log
+GPT5,Math,92,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-92-buggy.log
+GPT5,Math,93,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-93-buggy.log
+GPT5,Math,94,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-94-buggy.log
+GPT5,Math,95,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-95-buggy.log
+GPT5,Math,96,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-96-buggy.log
+GPT5,Math,97,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-97-buggy.log
+GPT5,Math,98,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-98-buggy.log
+GPT5,Math,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-99-buggy.log
+GPT5,Math,100,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-100-buggy.log
+GPT5,Math,101,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-101-buggy.log
+GPT5,Math,102,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-102-buggy.log
+GPT5,Math,103,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-103-buggy.log
+GPT5,Math,105,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-105-buggy.log
+GPT5,Math,106,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Math/Math-106-buggy.log

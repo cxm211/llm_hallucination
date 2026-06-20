@@ -1,0 +1,23 @@
+==== 2026-06-18 03:25:52 :: Mockito-28-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 14
+  - org.mockitousage.annotation.DeprecatedAnnotationEngineApiTest::shouldInjectMocksIfThereIsNoUserDefinedEngine
+  - org.mockitousage.annotation.DeprecatedMockAnnotationTest::shouldInjectDeprecatedMockAnnotation
+  - org.mockitousage.annotation.MockInjectionTest::shouldInjectMocksByName
+  - org.mockitousage.annotation.MockInjectionTest::shouldIInjectMocksInSpy
+  - org.mockitousage.annotation.MockInjectionTest::shouldInjectSpies
+  - org.mockitousage.annotation.MockInjectionTest::shouldInjectMocksForClassHierarchyIfAnnotated
+  - org.mockitousage.annotation.MockInjectionTest::shouldInitializeSpyIfNullAndInjectMocks
+  - org.mockitousage.annotation.MockInjectionTest::shouldInjectMocksIfAnnotated
+  - org.mockitousage.bugs.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest::shouldInjectFieldIfNoSetter
+  - org.mockitousage.bugs.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest::shouldInjectUsingPropertySetterIfAvailable
+  - org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest::mock_should_be_injected_once_and_in_the_best_matching_type
+  - org.mockitousage.bugs.ParentTestMockInjectionTest::injectMocksShouldInjectMocksFromTestSuperClasses
+  - org.mockitousage.junitrunner.JUnit44RunnerTest::shouldInjectMocksUsingRunner
+  - org.mockitousage.junitrunner.JUnit45RunnerTest::shouldInjectMocksUsingRunner
+---- 退出码：0 | Mockito-28-buggy
+

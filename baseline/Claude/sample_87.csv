@@ -1,0 +1,88 @@
+model,project,bug_id,status,log
+Claude,Chart,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-7-buggy.log
+Claude,Chart,26,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Chart/Chart-26-buggy.log
+Claude,Cli,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-2-buggy.log
+Claude,Cli,5,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-5-buggy.log
+Claude,Cli,9,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-9-buggy.log
+Claude,Cli,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-21-buggy.log
+Claude,Cli,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Cli/Cli-23-buggy.log
+Claude,Closure,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-9-buggy.log
+Claude,Closure,18,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-18-buggy.log
+Claude,Closure,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-19-buggy.log
+Claude,Closure,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-27-buggy.log
+Claude,Closure,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-32-buggy.log
+Claude,Closure,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-33-buggy.log
+Claude,Closure,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-37-buggy.log
+Claude,Closure,41,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-41-buggy.log
+Claude,Closure,42,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-42-buggy.log
+Claude,Closure,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-52-buggy.log
+Claude,Closure,66,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-66-buggy.log
+Claude,Closure,81,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-81-buggy.log
+Claude,Closure,99,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-99-buggy.log
+Claude,Closure,103,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-103-buggy.log
+Claude,Closure,106,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-106-buggy.log
+Claude,Closure,136,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-136-buggy.log
+Claude,Closure,143,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-143-buggy.log
+Claude,Closure,155,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-155-buggy.log
+Claude,Closure,161,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-161-buggy.log
+Claude,Closure,164,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-164-buggy.log
+Claude,Closure,166,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-166-buggy.log
+Claude,Closure,170,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-170-buggy.log
+Claude,Closure,175,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Closure/Closure-175-buggy.log
+Claude,Codec,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-4-buggy.log
+Claude,Codec,18,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Codec/Codec-18-buggy.log
+Claude,Collections,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Collections/Collections-21-buggy.log
+Claude,Compress,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-4-buggy.log
+Claude,Compress,7,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-7-buggy.log
+Claude,Compress,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-19-buggy.log
+Claude,Compress,23,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Compress/Compress-23-buggy.log
+Claude,Gson,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-5-buggy.log
+Claude,Gson,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-9-buggy.log
+Claude,Gson,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Gson/Gson-13-buggy.log
+Claude,JacksonCore,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-6-buggy.log
+Claude,JacksonCore,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-10-buggy.log
+Claude,JacksonCore,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-13-buggy.log
+Claude,JacksonCore,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-16-buggy.log
+Claude,JacksonCore,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonCore/JacksonCore-22-buggy.log
+Claude,JacksonDatabind,4,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-4-buggy.log
+Claude,JacksonDatabind,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-6-buggy.log
+Claude,JacksonDatabind,48,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-48-buggy.log
+Claude,JacksonDatabind,51,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-51-buggy.log
+Claude,JacksonDatabind,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-80-buggy.log
+Claude,JacksonDatabind,85,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-85-buggy.log
+Claude,JacksonDatabind,93,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JacksonDatabind/JacksonDatabind-93-buggy.log
+Claude,Jsoup,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-24-buggy.log
+Claude,Jsoup,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-57-buggy.log
+Claude,Jsoup,67,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-67-buggy.log
+Claude,Jsoup,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-74-buggy.log
+Claude,Jsoup,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Jsoup/Jsoup-83-buggy.log
+Claude,JxPath,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JxPath/JxPath-8-buggy.log
+Claude,JxPath,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JxPath/JxPath-20-buggy.log
+Claude,JxPath,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/JxPath/JxPath-21-buggy.log
+Claude,Lang,12,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-12-buggy.log
+Claude,Lang,14,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-14-buggy.log
+Claude,Lang,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-32-buggy.log
+Claude,Lang,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-42-buggy.log
+Claude,Lang,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-50-buggy.log
+Claude,Lang,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-54-buggy.log
+Claude,Lang,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Lang/Lang-65-buggy.log
+Claude,Math,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-13-buggy.log
+Claude,Math,22,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-22-buggy.log
+Claude,Math,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-28-buggy.log
+Claude,Math,50,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-50-buggy.log
+Claude,Math,54,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-54-buggy.log
+Claude,Math,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-57-buggy.log
+Claude,Math,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-69-buggy.log
+Claude,Math,83,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-83-buggy.log
+Claude,Math,90,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-90-buggy.log
+Claude,Math,94,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-94-buggy.log
+Claude,Math,95,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Math/Math-95-buggy.log
+Claude,Mockito,8,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-8-buggy.log
+Claude,Mockito,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-12-buggy.log
+Claude,Mockito,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-14-buggy.log
+Claude,Mockito,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-21-buggy.log
+Claude,Mockito,29,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Mockito/Mockito-29-buggy.log
+Claude,Time,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-5-buggy.log
+Claude,Time,10,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-10-buggy.log
+Claude,Time,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-14-buggy.log
+Claude,Time,17,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/Claude/Time/Time-17-buggy.log

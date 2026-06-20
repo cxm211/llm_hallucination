@@ -1,0 +1,11 @@
+==== 2026-06-18 00:01:46 :: Gson-16-buggy ====
+>>> ant clean 退出码：1
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveTypeVariablesResolve12
+  - com.google.gson.internal.bind.RecursiveTypesResolveTest::testRecursiveTypeVariablesResolve1
+---- 退出码：0 | Gson-16-buggy
+

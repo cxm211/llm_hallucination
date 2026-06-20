@@ -1,0 +1,89 @@
+model,project,bug_id,status,log
+DeepSeek,Jsoup,1,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-1-buggy.log
+DeepSeek,Jsoup,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-2-buggy.log
+DeepSeek,Jsoup,3,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-3-buggy.log
+DeepSeek,Jsoup,4,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-4-buggy.log
+DeepSeek,Jsoup,5,timeout,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-5-buggy.log
+DeepSeek,Jsoup,6,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-6-buggy.log
+DeepSeek,Jsoup,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-7-buggy.log
+DeepSeek,Jsoup,8,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-8-buggy.log
+DeepSeek,Jsoup,10,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-10-buggy.log
+DeepSeek,Jsoup,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-11-buggy.log
+DeepSeek,Jsoup,12,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-12-buggy.log
+DeepSeek,Jsoup,13,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-13-buggy.log
+DeepSeek,Jsoup,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-14-buggy.log
+DeepSeek,Jsoup,15,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-15-buggy.log
+DeepSeek,Jsoup,16,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-16-buggy.log
+DeepSeek,Jsoup,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-18-buggy.log
+DeepSeek,Jsoup,19,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-19-buggy.log
+DeepSeek,Jsoup,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-20-buggy.log
+DeepSeek,Jsoup,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-21-buggy.log
+DeepSeek,Jsoup,22,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-22-buggy.log
+DeepSeek,Jsoup,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-23-buggy.log
+DeepSeek,Jsoup,24,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-24-buggy.log
+DeepSeek,Jsoup,26,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-26-buggy.log
+DeepSeek,Jsoup,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-27-buggy.log
+DeepSeek,Jsoup,28,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-28-buggy.log
+DeepSeek,Jsoup,29,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-29-buggy.log
+DeepSeek,Jsoup,30,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-30-buggy.log
+DeepSeek,Jsoup,31,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-31-buggy.log
+DeepSeek,Jsoup,32,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-32-buggy.log
+DeepSeek,Jsoup,33,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-33-buggy.log
+DeepSeek,Jsoup,34,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-34-buggy.log
+DeepSeek,Jsoup,35,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-35-buggy.log
+DeepSeek,Jsoup,36,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-36-buggy.log
+DeepSeek,Jsoup,37,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-37-buggy.log
+DeepSeek,Jsoup,38,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-38-buggy.log
+DeepSeek,Jsoup,39,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-39-buggy.log
+DeepSeek,Jsoup,40,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-40-buggy.log
+DeepSeek,Jsoup,41,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-41-buggy.log
+DeepSeek,Jsoup,42,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-42-buggy.log
+DeepSeek,Jsoup,43,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-43-buggy.log
+DeepSeek,Jsoup,44,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-44-buggy.log
+DeepSeek,Jsoup,45,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-45-buggy.log
+DeepSeek,Jsoup,46,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-46-buggy.log
+DeepSeek,Jsoup,47,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-47-buggy.log
+DeepSeek,Jsoup,48,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-48-buggy.log
+DeepSeek,Jsoup,49,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-49-buggy.log
+DeepSeek,Jsoup,50,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-50-buggy.log
+DeepSeek,Jsoup,51,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-51-buggy.log
+DeepSeek,Jsoup,52,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-52-buggy.log
+DeepSeek,Jsoup,53,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-53-buggy.log
+DeepSeek,Jsoup,54,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-54-buggy.log
+DeepSeek,Jsoup,55,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-55-buggy.log
+DeepSeek,Jsoup,56,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-56-buggy.log
+DeepSeek,Jsoup,57,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-57-buggy.log
+DeepSeek,Jsoup,58,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-58-buggy.log
+DeepSeek,Jsoup,59,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-59-buggy.log
+DeepSeek,Jsoup,61,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-61-buggy.log
+DeepSeek,Jsoup,62,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-62-buggy.log
+DeepSeek,Jsoup,63,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-63-buggy.log
+DeepSeek,Jsoup,64,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-64-buggy.log
+DeepSeek,Jsoup,65,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-65-buggy.log
+DeepSeek,Jsoup,66,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-66-buggy.log
+DeepSeek,Jsoup,67,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-67-buggy.log
+DeepSeek,Jsoup,68,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-68-buggy.log
+DeepSeek,Jsoup,69,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-69-buggy.log
+DeepSeek,Jsoup,70,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-70-buggy.log
+DeepSeek,Jsoup,71,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-71-buggy.log
+DeepSeek,Jsoup,72,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-72-buggy.log
+DeepSeek,Jsoup,73,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-73-buggy.log
+DeepSeek,Jsoup,74,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-74-buggy.log
+DeepSeek,Jsoup,75,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-75-buggy.log
+DeepSeek,Jsoup,76,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-76-buggy.log
+DeepSeek,Jsoup,77,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-77-buggy.log
+DeepSeek,Jsoup,78,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-78-buggy.log
+DeepSeek,Jsoup,79,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-79-buggy.log
+DeepSeek,Jsoup,80,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-80-buggy.log
+DeepSeek,Jsoup,81,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-81-buggy.log
+DeepSeek,Jsoup,82,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-82-buggy.log
+DeepSeek,Jsoup,83,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-83-buggy.log
+DeepSeek,Jsoup,84,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-84-buggy.log
+DeepSeek,Jsoup,86,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-86-buggy.log
+DeepSeek,Jsoup,87,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-87-buggy.log
+DeepSeek,Jsoup,88,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-88-buggy.log
+DeepSeek,Jsoup,89,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-89-buggy.log
+DeepSeek,Jsoup,90,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-90-buggy.log
+DeepSeek,Jsoup,91,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-91-buggy.log
+DeepSeek,Jsoup,92,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-92-buggy.log
+DeepSeek,Jsoup,93,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/DeepSeek/Jsoup/Jsoup-93-buggy.log

@@ -1,0 +1,28 @@
+model,project,bug_id,status,log
+GPT5,Collections,1,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-1-buggy.log
+GPT5,Collections,2,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-2-buggy.log
+GPT5,Collections,3,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-3-buggy.log
+GPT5,Collections,4,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-4-buggy.log
+GPT5,Collections,5,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-5-buggy.log
+GPT5,Collections,6,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-6-buggy.log
+GPT5,Collections,7,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-7-buggy.log
+GPT5,Collections,8,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-8-buggy.log
+GPT5,Collections,9,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-9-buggy.log
+GPT5,Collections,11,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-11-buggy.log
+GPT5,Collections,12,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-12-buggy.log
+GPT5,Collections,13,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-13-buggy.log
+GPT5,Collections,14,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-14-buggy.log
+GPT5,Collections,15,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-15-buggy.log
+GPT5,Collections,16,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-16-buggy.log
+GPT5,Collections,17,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-17-buggy.log
+GPT5,Collections,18,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-18-buggy.log
+GPT5,Collections,19,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-19-buggy.log
+GPT5,Collections,20,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-20-buggy.log
+GPT5,Collections,21,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-21-buggy.log
+GPT5,Collections,22,pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-22-buggy.log
+GPT5,Collections,23,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-23-buggy.log
+GPT5,Collections,24,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-24-buggy.log
+GPT5,Collections,25,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-25-buggy.log
+GPT5,Collections,26,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-26-buggy.log
+GPT5,Collections,27,not pass,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-27-buggy.log
+GPT5,Collections,28,not compilable,/Users/grace/Documents/Paper/BugFixing/Interpretation/test-logs/baseline/GPT5/Collections/Collections-28-buggy.log

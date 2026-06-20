@@ -1,0 +1,11 @@
+==== 2026-06-18 07:57:49 :: Mockito-27-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.mockitousage.basicapi.ResetTest::shouldMaintainPreviousDefaultAnswer
+  - org.mockitousage.bugs.ListenersLostOnResetMockTest::listener
+---- 退出码：0 | Mockito-27-buggy
+

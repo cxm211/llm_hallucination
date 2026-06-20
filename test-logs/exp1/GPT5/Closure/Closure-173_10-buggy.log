@@ -1,0 +1,21 @@
+==== 2026-06-16 22:48:32 :: Closure-173_10-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 12
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV1Test::testGoldenOutput5
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV2Test::testGoldenOutput5
+  - com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput1
+  - com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput2
+  - com.google.debugging.sourcemap.SourceMapGeneratorV3Test::testGoldenOutput5
+  - com.google.javascript.jscomp.CodePrinterTest::testPrint
+  - com.google.javascript.jscomp.CodePrinterTest::testIssue1062
+  - com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testAssocitivity
+---- 退出码：0 | Closure-173_10-buggy
+

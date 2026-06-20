@@ -1,0 +1,14 @@
+==== 2026-06-18 17:15:26 :: Closure-29-buggy ====
+>>> ant clean 退出码：0
+
+>>> 开始执行主命令：defects4j test -r
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+  - com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724
+  - com.google.javascript.jscomp.IntegrationTest::testIssue724
+---- 退出码：0 | Closure-29-buggy
+

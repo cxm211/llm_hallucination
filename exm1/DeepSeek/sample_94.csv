@@ -1,0 +1,95 @@
+model,project,bug_id,variant,status
+DeepSeek,Chart,19,19_1,not pass
+DeepSeek,Closure,4,4_10,not pass
+DeepSeek,Closure,4,4_16,not pass
+DeepSeek,Closure,4,4_9,not pass
+DeepSeek,Closure,6,6_13,not pass
+DeepSeek,Closure,10,10_12,not pass
+DeepSeek,Closure,10,10_21,pass
+DeepSeek,Closure,19,19_11,not compilable
+DeepSeek,Closure,21,21_5,not compilable
+DeepSeek,Closure,21,21_9,not compilable
+DeepSeek,Closure,25,25_3,not compilable
+DeepSeek,Closure,26,26_4,not compilable
+DeepSeek,Closure,26,26_8,not pass
+DeepSeek,Closure,27,27_19,not pass
+DeepSeek,Closure,30,30_1,not pass
+DeepSeek,Closure,31,31_12,not compilable
+DeepSeek,Closure,31,31_13,not compilable
+DeepSeek,Closure,33,33_11,not pass
+DeepSeek,Closure,37,37_16,not pass
+DeepSeek,Closure,41,41_14,pass
+DeepSeek,Closure,44,44_4,pass
+DeepSeek,Closure,47,47_11,not pass
+DeepSeek,Closure,47,47_5,not pass
+DeepSeek,Closure,57,57_3,pass
+DeepSeek,Closure,59,59_8,not pass
+DeepSeek,Closure,64,64_12,not pass
+DeepSeek,Closure,64,64_8,not pass
+DeepSeek,Closure,65,65_2,not pass
+DeepSeek,Closure,66,66_12,pass
+DeepSeek,Closure,68,68_10,not pass
+DeepSeek,Closure,69,69_13,not pass
+DeepSeek,Closure,69,69_14,not pass
+DeepSeek,Closure,71,71_6,not pass
+DeepSeek,Closure,80,80_16,not pass
+DeepSeek,Closure,82,82_2,not pass
+DeepSeek,Closure,84,84_1,not compilable
+DeepSeek,Closure,84,84_10,not pass
+DeepSeek,Closure,90,90_14,not compilable
+DeepSeek,Closure,91,91,not compilable
+DeepSeek,Closure,117,117_11,not pass
+DeepSeek,Closure,117,117_4,not pass
+DeepSeek,Closure,118,118_17,not pass
+DeepSeek,Closure,122,122_10,not pass
+DeepSeek,Closure,122,122_3,not pass
+DeepSeek,Closure,123,123_12,not pass
+DeepSeek,Closure,125,125,not pass
+DeepSeek,Closure,125,125_8,not pass
+DeepSeek,Closure,129,129_20,pass
+DeepSeek,Closure,129,129_6,not compilable
+DeepSeek,Closure,147,147,not compilable
+DeepSeek,Closure,149,149_16,not pass
+DeepSeek,Closure,149,149_4,not pass
+DeepSeek,Closure,158,158_1,not pass
+DeepSeek,Closure,158,158_9,not pass
+DeepSeek,Closure,162,162_1,not pass
+DeepSeek,Closure,172,172_6,not pass
+DeepSeek,Compress,26,26,pass
+DeepSeek,Csv,10,10,not pass
+DeepSeek,Csv,11,11,pass
+DeepSeek,Gson,9,9_2,not pass
+DeepSeek,JacksonCore,11,11,not pass
+DeepSeek,JacksonDatabind,10,10_1,not pass
+DeepSeek,JacksonDatabind,20,20_4,not pass
+DeepSeek,JacksonDatabind,21,21_4,not pass
+DeepSeek,JacksonDatabind,33,33_4,not pass
+DeepSeek,JacksonDatabind,35,35,not pass
+DeepSeek,JacksonDatabind,48,48_4,not pass
+DeepSeek,JacksonDatabind,58,58_2,not pass
+DeepSeek,JacksonDatabind,63,63_1,not pass
+DeepSeek,JacksonDatabind,67,67_1,not pass
+DeepSeek,JacksonDatabind,76,76_3,not pass
+DeepSeek,JacksonDatabind,84,84_3,not pass
+DeepSeek,JacksonDatabind,99,99,not pass
+DeepSeek,JacksonXml,4,4,not compilable
+DeepSeek,Jsoup,12,12,not pass
+DeepSeek,Jsoup,26,26,pass
+DeepSeek,Jsoup,53,53,not pass
+DeepSeek,Jsoup,83,83_2,not pass
+DeepSeek,JxPath,5,5,not pass
+DeepSeek,JxPath,22,22,not pass
+DeepSeek,Lang,5,5,pass
+DeepSeek,Math,1,1,not pass
+DeepSeek,Math,15,15,not pass
+DeepSeek,Math,40,40,not compilable
+DeepSeek,Mockito,20,20,not pass
+DeepSeek,Mockito,21,21,not pass
+DeepSeek,Mockito,24,24_3,pass
+DeepSeek,Time,6,6_2,not compilable
+DeepSeek,Time,8,8_10,not compilable
+DeepSeek,Time,15,15_12,not compilable
+DeepSeek,Time,18,18_1,not compilable
+DeepSeek,Time,20,20_5,not compilable
+DeepSeek,Time,23,23_6,not pass
+DeepSeek,Time,25,25_11,not pass
